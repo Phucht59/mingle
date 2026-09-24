@@ -1,76 +1,64 @@
-# Adaptive Language Learning — Phase 1 implementation foundation
+# Mingo — Adaptive Language Learning & Early Intervention Platform
 
-New greenfield implementation, authorized by owner on 2026-09-23. Product brand is undecided.
-This repository adds executable infrastructure to the previously approved product/scientific specification.
-**Phase 1 is ACTIVE; this source tree alone does not close the gate.** See `evidence/VERIFICATION_REPORT.md`.
+Canonical project repository reorganized on **2026-09-24** from the Phase 1 implementation handoff.
 
-## Boundaries
+> **Current phase:** Phase 1 — Implementation Foundation / Product Build Kickoff — **ACTIVE, GATE NOT PASSED**.
+> Phase 0 is DONE. Phase 2+ is DEFERRED until the Phase 1 mandatory gate passes.
 
-FastAPI API and durable worker share one Python package. PostgreSQL owns only the isolated `foundation` probe schema. Storage has an immutable local-development adapter. Learner and staff are separate Flutter shells. Command and telemetry interfaces are separate ports; learning/scoring/auth/sync contracts are not invented from missing V3.2 material.
+This repository is deliberately organized by responsibility so a developer can distinguish current decisions, product/scientific material, research, architecture, executable code, verification evidence, operations, and historical handoff material.
 
-Exact V3.2 package and original 115 contract + 22 SQL checks are absent. New tests are not substitutes. CI deliberately fails the `original-v3-2` job until the genuine suite is integrated with source provenance. No Change Request is asserted without a demonstrated conflict.
+## Start here
 
-## Local backend
+1. Read [`START_HERE.md`](START_HERE.md).
+2. Check the current truth in [`01_governance/PROJECT_STATE.md`](01_governance/PROJECT_STATE.md).
+3. Read the Phase 1 gate in [`06_quality/gates/PHASE_1_GATE.md`](06_quality/gates/PHASE_1_GATE.md).
+4. Before implementing a business/domain rule, read [`02_product/MVP_PRD.md`](02_product/MVP_PRD.md), the V3.2 baseline material in [`04_architecture/`](04_architecture/), and the decision/change-control files under [`01_governance/`](01_governance/).
+5. Runtime code is isolated in [`05_code/`](05_code/).
 
-Python 3.12; Linux/macOS. From a clean extraction:
+## Repository layout
 
-```sh
-bash scripts/clean_setup.sh
+```text
+Mingo/
+├── 01_governance/          # status, roadmap, decisions, issues, CRs, backlog
+├── 02_product/             # charter, PRD, learning/product specifications
+├── 03_research/            # scientific research, research resolution, KLTN context
+├── 04_architecture/        # V3.2 baseline, boundaries, contracts, data/ML guardrails
+├── 05_code/                # executable application/backend code only
+├── 06_quality/             # gates, standards, tests/evidence
+├── 07_operations/          # CI/CD, environments, bootstrap/verification scripts
+├── 08_handoff/             # source provenance and handoff metadata
+├── 99_archive/             # immutable historical packages; never use as current truth
+├── .github/workflows/      # hosted CI definitions
+├── START_HERE.md
+├── PROJECT_MAP.md
+└── REPO_RULES.md
 ```
 
-This installs a fresh venv, lints, runs unit/security/storage tests and boots a real API subprocess. PostgreSQL tests are clearly skipped unless explicitly enabled. Without a DB, liveness is 200 and readiness is 503.
+## Phase 1 runtime workspace
 
-For PostgreSQL, API and worker together (Docker + Compose required):
+Backend/API/worker and Flutter shells live under `05_code/`.
+
+Backend clean setup:
 
 ```sh
-cp .env.example .env
-# Replace POSTGRES_PASSWORD with a random URL-safe local secret.
+bash 07_operations/scripts/clean_setup.sh
+```
+
+PostgreSQL/API/worker local stack:
+
+```sh
+cp 05_code/.env.example 05_code/.env
+# Set a random local POSTGRES_PASSWORD in 05_code/.env.
+cd 05_code
 docker compose up --build -d
-docker compose ps
-docker compose run --rm migrate python -m all_foundation.cli enqueue-probe --key manual-smoke
-docker compose logs worker
-curl --fail http://127.0.0.1:8000/health/ready
 ```
 
-Local ports bind loopback; no domain mutation routes are exposed. This is not a production deployment. Do not use the test database or demo service credentials for learner data. Keep `.env` out of source control.
-
-To run real database tests, provision a **disposable DB whose name ends in `_test`**:
+Flutter bootstrap on a supported machine with the pinned Flutter SDK:
 
 ```sh
-export TEST_DATABASE_URL='postgresql://USER:PASSWORD@localhost:5432/foundation_test'
-RUN_POSTGRES=1 PATH="$PWD/.venv/bin:$PATH" bash scripts/verify_backend.sh
+bash 07_operations/scripts/bootstrap_clients.sh
 ```
 
-These tests DROP the `foundation` schema in that disposable DB. They verify migration checksum/atomic rollback, concurrent deduplication/claim, stale worker fencing, bounded retries and expiring heartbeats.
+## Important boundary
 
-## Flutter
-
-Pinned SDK baseline: Flutter 3.32.8, commit `edada7c56edf4a183c1735310e123c7f923584f1`; not a claim to the latest release. Requirements: Flutter SDK, Android SDK/device for learner; supported browser for staff.
-
-```sh
-bash scripts/bootstrap_clients.sh
-cd apps/learner
-flutter pub get
-flutter analyze
-flutter test
-flutter run -d ANDROID_DEVICE_ID
-# In another shell:
-cd apps/staff
-flutter pub get
-flutter analyze
-flutter test
-flutter run -d chrome
-```
-
-Both are foundation shells. They do not manufacture placement results, learning evidence, reward balances or scoring state. Device boot requires `flutter test integration_test/boot_test.dart -d DEVICE_ID`; building an APK or a web bundle alone is not runtime boot evidence.
-
-## Implementation limits
-
-- Durable worker proof is scoped to transactional PostgreSQL probe effects. External side effects need a reviewed idempotency contract; no claim of universal exactly-once delivery.
-- Local object adapter is for a trusted local filesystem, not a production S3 validation. S3/cloud integration and credential policy remain unverified.
-- CI YAML is supplied, but no remote repository/CI run is claimed.
-- New infrastructure decisions are provisional pending exact V3.2 mapping; approved learning product policies remain unchanged.
-
-## Documentation and history
-
-`docs/` holds current product specs, memory and gate. The comprehensive delivery ZIP also includes research resolution and original historical handoff files in `history/`. Current `docs/` status supersedes historical snapshots, with the authority order in MVP_PRD preserved.
+This reorganization changes **repository layout only**. It does not change V3.2 business rules, scoring semantics, permissions, learning logic, or Phase 1 gate status. Exact original V3.2 source plus the original **115 contract checks and 22 SQL checks are still absent from the active repository**, so the original-contract CI gate remains fail-closed until genuine sources are imported with provenance.

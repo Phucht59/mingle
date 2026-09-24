@@ -1,0 +1,21 @@
+as_of: 2026-09-24
+project: Mingo
+architecture_baseline: V3.2
+phase_0:
+  name: Architecture & Contract Baseline
+  status: DONE
+phase_1:
+  name: Implementation Foundation / Product Build Kickoff
+  status: ACTIVE
+  gate: NOT_PASSED
+  blockers:
+    - exact_v3_2_original_sources_and_115_contract_22_sql_checks_absent
+    - postgresql_migrations_and_6_integration_concurrency_tests_not_evidenced
+    - durable_worker_successful_runtime_not_evidenced
+    - flutter_analyze_test_build_android_web_boot_not_evidenced
+    - hosted_ci_and_full_clean_reproduction_not_evidenced
+phase_2:
+  name: UX/UI Product System
+  status: DEFERRED
+change_request_open: false
+architecture_reopen_required: false

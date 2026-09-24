@@ -1,4 +1,4 @@
-name: foundation
+name: phase1-foundation
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -24,8 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -r backend/requirements.lock && pip install --no-deps ./backend
-      - run: RUN_POSTGRES=1 bash scripts/verify_backend.sh
+      - run: pip install -r 05_code/backend/requirements.lock && pip install --no-deps ./05_code/backend
+      - run: RUN_POSTGRES=1 bash 07_operations/scripts/verify_backend.sh
       - run: python -m all_foundation.cli migrate
       - run: python -m all_foundation.cli enqueue-probe --key ci-boot
       - run: python -m all_foundation.worker --once
@@ -34,7 +34,7 @@ jobs:
         if: always()
         with:
           name: backend-evidence
-          path: evidence/
+          path: 06_quality/evidence/
   flutter:
     runs-on: ubuntu-latest
     strategy:
@@ -45,15 +45,15 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.32.8'
-      - run: bash scripts/bootstrap_clients.sh
-      - working-directory: apps/${{ matrix.app }}
+      - run: bash 07_operations/scripts/bootstrap_clients.sh
+      - working-directory: 05_code/apps/${{ matrix.app }}
         run: |
           flutter pub get
           flutter analyze
           flutter test
           flutter build web
       - if: matrix.app == 'learner'
-        working-directory: apps/learner
+        working-directory: 05_code/apps/learner
         run: flutter build apk --debug
   original-v3-2:
     runs-on: ubuntu-latest
@@ -62,4 +62,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scripts/check_original_contracts.py
+      - run: python 07_operations/scripts/check_original_contracts.py
