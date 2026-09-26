@@ -47,3 +47,7 @@
 - `LocalObjectStore` now handles Windows extended-length resolved paths when enforcing root containment, avoids POSIX-only directory fsync flags on Windows, and creates temporary publication files beside their target. The concurrent immutable-publication test now passes on Windows.
 - The symlink escape test reports a skip only for Windows error 1314 (the current account lacks symlink-creation privilege); other errors still fail. Hosted/Linux execution remains needed to exercise that security test.
 - API smoke runs now write timestamped evidence, preserving earlier run files.
+
+## Credential follow-up
+
+After the recorded rerun, pgAdmin's local SQLite configuration was checked without printing credential contents. It contains an encrypted saved password for the PostgreSQL 18 server and indicates OS secret storage. The local keyring path did not yield a usable credential for this verification process, so no database connection or password guess was attempted. A PostgreSQL role password or a working disposable test-database credential is still required.
