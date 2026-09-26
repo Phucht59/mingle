@@ -31,7 +31,12 @@ def test_storage_rejects_unsafe_paths(tmp_path, key):
 def test_storage_rejects_symlink_escape(tmp_path):
     root = tmp_path / "objects"
     root.mkdir()
-    (root / "escape").symlink_to(tmp_path, target_is_directory=True)
+    try:
+        (root / "escape").symlink_to(tmp_path, target_is_directory=True)
+    except OSError as error:
+        if getattr(error, "winerror", None) == 1314:
+            pytest.skip("Windows symlink creation requires an unavailable privilege")
+        raise
     with pytest.raises(ValueError):
         LocalObjectStore(root).get("escape/secret")
 

@@ -44,6 +44,19 @@ Backend clean setup:
 bash 07_operations/scripts/clean_setup.sh
 ```
 
+On Windows, create the venv and install the locked backend dependencies in PowerShell:
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r 05_code/backend/requirements.lock
+python -m pip install --no-deps .\05_code\backend
+.\07_operations\scripts\verify_backend.ps1 -Python .\.venv\Scripts\python.exe
+```
+
+The wrapper writes timestamped lint, test and API smoke evidence under `06_quality/evidence/`. Add `-RunPostgres` after setting `TEST_DATABASE_URL` to a disposable `*_test` database to run the real PostgreSQL tests.
+
 PostgreSQL/API/worker local stack:
 
 ```sh

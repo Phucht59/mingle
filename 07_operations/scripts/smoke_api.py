@@ -1,22 +1,26 @@
 """Boot a real Uvicorn process, check HTTP, stop gracefully. No database required."""
 import json
 import os
-from pathlib import Path
 import subprocess
 import sys
 import time
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
 
 repo_root = Path(__file__).resolve().parents[2]
 evidence = repo_root / "06_quality" / "evidence"
 evidence.mkdir(parents=True, exist_ok=True)
+run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+process_log = evidence / f"api-process-{run_id}.log"
+http_result = evidence / f"api-http-smoke-{run_id}.json"
 env = dict(
     os.environ,
     DATABASE_URL="postgresql://unused:unused@127.0.0.1:1/absent",
     OBJECT_STORAGE_ROOT=str(repo_root / ".local" / "objects"),
 )
-with (evidence / "api-process.log").open("w") as log:
+with process_log.open("w") as log:
     process = subprocess.Popen(
         [
             sys.executable,
@@ -56,7 +60,7 @@ with (evidence / "api-process.log").open("w") as log:
             }
         assert result["live"]["status"] == 200
         assert result["ready"]["status"] == 503
-        (evidence / "api-http-smoke.json").write_text(json.dumps(result, indent=2))
+        http_result.write_text(json.dumps(result, indent=2))
         print(json.dumps(result))
     finally:
         process.terminate()

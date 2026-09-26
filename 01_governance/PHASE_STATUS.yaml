@@ -1,4 +1,4 @@
-as_of: 2026-09-24
+as_of: 2026-09-26
 project: Mingo
 architecture_baseline: V3.2
 phase_0:
@@ -10,10 +10,15 @@ phase_1:
   gate: NOT_PASSED
   blockers:
     - exact_v3_2_original_sources_and_115_contract_22_sql_checks_absent
-    - postgresql_migrations_and_6_integration_concurrency_tests_not_evidenced
+    - postgresql_role_password_and_disposable_test_database_access_required
+    - migrations_and_6_integration_concurrency_tests_not_evidenced
     - durable_worker_successful_runtime_not_evidenced
-    - flutter_analyze_test_build_android_web_boot_not_evidenced
-    - hosted_ci_and_full_clean_reproduction_not_evidenced
+    - flutter_android_toolchain_and_actual_android_web_boot_not_available
+    - hosted_ci_remote_and_full_clean_reproduction_not_available
+  observed_rerun: 06_quality/evidence/PHASE1_RERUN_20260926.md
+  backend_windows_unit_tests: PASS_9_SKIPPED_7
+  backend_windows_api_liveness: PASS_200
+  backend_windows_api_readiness: BLOCKED_503_DATABASE_UNAVAILABLE
 phase_2:
   name: UX/UI Product System
   status: DEFERRED
