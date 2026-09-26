@@ -36,7 +36,7 @@ foreach ($line in Get-Content -LiteralPath 05_code/.env) {
 Start the API in the first terminal:
 
 ```powershell
-.\.venv\Scripts\python.exe -m uvicorn all_foundation.api:app --host 127.0.0.1 --port 8000
+.\.venv\Scripts\python.exe -m uvicorn all_foundation.api:create_app --factory --host 127.0.0.1 --port 8000
 ```
 
 Start the durable worker in a second terminal after loading the same environment:
