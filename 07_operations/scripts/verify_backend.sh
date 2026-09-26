@@ -29,4 +29,6 @@ if [[ "${RUN_POSTGRES:-0}" == 1 ]]; then
 else
   python 07_operations/scripts/smoke_api.py
 fi
-python -m all_foundation.cli storage-smoke | tee "$BACKEND_EVIDENCE/storage-smoke-$RUN_ID.log"
+# Storage never connects to this fallback URI; Settings requires a valid URI.
+DATABASE_URL="${DATABASE_URL:-postgresql://unused:unused@127.0.0.1:1/mingo}" \
+  python -m all_foundation.cli storage-smoke | tee "$BACKEND_EVIDENCE/storage-smoke-$RUN_ID.log"

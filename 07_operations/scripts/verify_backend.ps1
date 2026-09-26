@@ -86,4 +86,8 @@ else {
     Invoke-LoggedCheck "api-degraded-smoke" @("07_operations/scripts/smoke_api.py")
 }
 
+# Storage does not connect to PostgreSQL, but Settings requires a URI.
+if ([string]::IsNullOrWhiteSpace($env:DATABASE_URL)) {
+    $env:DATABASE_URL = "postgresql://unused:unused@127.0.0.1:1/mingo"
+}
 Invoke-LoggedCheck "storage-smoke" @("-m", "all_foundation.cli", "storage-smoke")
