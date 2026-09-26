@@ -9,26 +9,33 @@ jobs:
       postgres:
         image: postgres:16.10
         env:
-          POSTGRES_USER: foundation
+          POSTGRES_USER: mingo_app
           POSTGRES_PASSWORD: ci_disposable_password
-          POSTGRES_DB: foundation_test
+          POSTGRES_DB: mingo
         ports: ['5432:5432']
         options: >-
-          --health-cmd 'pg_isready -U foundation -d foundation_test'
+          --health-cmd 'pg_isready -U mingo_app -d mingo'
           --health-interval 3s --health-timeout 3s --health-retries 20
     env:
-      TEST_DATABASE_URL: postgresql://foundation:ci_disposable_password@localhost:5432/foundation_test
-      DATABASE_URL: postgresql://foundation:ci_disposable_password@localhost:5432/foundation_test
+      TEST_DATABASE_URL: postgresql://mingo_app:ci_disposable_password@localhost:5432/mingo_test
+      DATABASE_URL: postgresql://mingo_app:ci_disposable_password@localhost:5432/mingo
+      OBJECT_STORAGE_ROOT: ${{ github.workspace }}/.local/objects
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install -r 05_code/backend/requirements.lock && pip install --no-deps ./05_code/backend
+      - name: Create disposable test database
+        run: >-
+          python -c "import psycopg;
+          c=psycopg.connect('${{ env.DATABASE_URL }}', autocommit=True);
+          c.execute('CREATE DATABASE mingo_test OWNER mingo_app'); c.close()"
       - run: RUN_POSTGRES=1 bash 07_operations/scripts/verify_backend.sh
       - run: python -m all_foundation.cli migrate
       - run: python -m all_foundation.cli enqueue-probe --key ci-boot
       - run: python -m all_foundation.worker --once
+      - run: python 07_operations/scripts/smoke_api.py --expect-ready
       - run: python -m all_foundation.cli storage-smoke
       - uses: actions/upload-artifact@v4
         if: always()

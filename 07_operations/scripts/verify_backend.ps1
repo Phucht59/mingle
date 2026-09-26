@@ -6,8 +6,23 @@ param(
 $ErrorActionPreference = "Stop"
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
 $evidenceRoot = Join-Path $repoRoot "06_quality\evidence"
+$backendEvidence = Join-Path $evidenceRoot "backend"
+$postgresEvidence = Join-Path $evidenceRoot "postgres"
+$workerEvidence = Join-Path $evidenceRoot "worker"
 $runId = [DateTime]::UtcNow.ToString("yyyyMMddTHHmmssZ")
-New-Item -ItemType Directory -Path $evidenceRoot -Force | Out-Null
+$commit = (git -C $repoRoot rev-parse HEAD).Trim()
+New-Item -ItemType Directory -Path $backendEvidence -Force | Out-Null
+New-Item -ItemType Directory -Path $postgresEvidence -Force | Out-Null
+New-Item -ItemType Directory -Path $workerEvidence -Force | Out-Null
+
+$envFile = Join-Path $repoRoot "05_code\.env"
+if (Test-Path -LiteralPath $envFile) {
+    foreach ($line in Get-Content -LiteralPath $envFile) {
+        if ($line -match '^([^#=]+)=(.*)$' -and [string]::IsNullOrWhiteSpace([Environment]::GetEnvironmentVariable($Matches[1]))) {
+            [Environment]::SetEnvironmentVariable($Matches[1], $Matches[2], 'Process')
+        }
+    }
+}
 
 if ($RunPostgres -and [string]::IsNullOrWhiteSpace($env:TEST_DATABASE_URL)) {
     throw "Set TEST_DATABASE_URL to a disposable PostgreSQL database ending in _test."
@@ -16,11 +31,12 @@ if ($RunPostgres -and [string]::IsNullOrWhiteSpace($env:TEST_DATABASE_URL)) {
 function Invoke-LoggedCheck {
     param(
         [string]$Name,
-        [string[]]$Arguments
+        [string[]]$Arguments,
+        [string]$Directory = $backendEvidence
     )
 
-    $logPath = Join-Path $evidenceRoot "$Name-$runId.log"
-    "Command: $Python $($Arguments -join ' ')" | Set-Content -LiteralPath $logPath
+    $logPath = Join-Path $Directory "$Name-$runId.log"
+    "Commit: $commit`nCommand: $Python $($Arguments -join ' ')" | Set-Content -LiteralPath $logPath
     Push-Location $repoRoot
     try {
         & $Python @Arguments *>&1 | Tee-Object -FilePath $logPath -Append
@@ -38,17 +54,36 @@ function Invoke-LoggedCheck {
 
 Invoke-LoggedCheck "backend-lint" @("-m", "ruff", "check", "05_code/backend")
 
-$unitXml = Join-Path $evidenceRoot "backend-unit-$runId.xml"
+$unitXml = Join-Path $backendEvidence "backend-unit-$runId.xml"
 Invoke-LoggedCheck "backend-unit" @(
     "-m", "pytest", "05_code/backend", "--junitxml=$unitXml"
 )
 
 if ($RunPostgres) {
-    $postgresXml = Join-Path $evidenceRoot "postgres-$runId.xml"
+    $postgresXml = Join-Path $postgresEvidence "postgres-$runId.xml"
     Invoke-LoggedCheck "postgres" @(
         "-m", "pytest", "05_code/backend", "--run-postgres", "-m", "postgres",
         "--junitxml=$postgresXml"
-    )
+    ) $postgresEvidence
+    Invoke-LoggedCheck "postgres-migrate" @(
+        "-m", "all_foundation.cli", "migrate"
+    ) $postgresEvidence
+    Invoke-LoggedCheck "worker-enqueue" @(
+        "-m", "all_foundation.cli", "enqueue-probe", "--key", "verify-$runId"
+    ) $workerEvidence
+    Invoke-LoggedCheck "worker-once" @(
+        "-m", "all_foundation.worker", "--once"
+    ) $workerEvidence
+    Invoke-LoggedCheck "worker-healthcheck" @(
+        "-m", "all_foundation.worker", "--healthcheck"
+    ) $workerEvidence
 }
 
-Invoke-LoggedCheck "api-smoke" @("07_operations/scripts/smoke_api.py")
+if ($RunPostgres) {
+    Invoke-LoggedCheck "api-ready-smoke" @("07_operations/scripts/smoke_api.py", "--expect-ready")
+}
+else {
+    Invoke-LoggedCheck "api-degraded-smoke" @("07_operations/scripts/smoke_api.py")
+}
+
+Invoke-LoggedCheck "storage-smoke" @("-m", "all_foundation.cli", "storage-smoke")
