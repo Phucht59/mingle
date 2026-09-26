@@ -1,5 +1,9 @@
 # Architecture
 
-Architecture/contract baseline is V3.2. The existing V3.2 originals are not present in this package, so `04_architecture/contracts/v3_2/` remains an explicit placeholder/boundary and the original verification suite must fail closed until imported with provenance.
+Architecture/contract baseline is V3.2. The owner's exact supplied package is preserved
+under `contracts/v3_2/source/`, with byte hashes and intake provenance under
+`08_handoff/provenance/v3_2/`. The verification adapter executes its unchanged original
+115 contract and 22 PGlite SQL checks on a disposable copy and fails on missing,
+modified or failing sources. Reference DDL is not automatically an application migration.
 
 Use `baseline/` for frozen technical summaries, `V3_2_COMPATIBILITY_MATRIX.md` for implementation mapping, and `data_ml/` for analytics/learning-intelligence boundaries.

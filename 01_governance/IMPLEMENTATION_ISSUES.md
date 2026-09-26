@@ -2,12 +2,12 @@
 
 | ID | Issue | Status / resolution |
 |---|---|---|
-| II-01 | Exact V3.2 package, original DDL/OpenAPI and 115+22 verification source absent | **OPEN / BLOCKING exact mapping and gate**. Exhaustive active/archive/nested-ZIP/history/bundle search found historical claims and placeholders only. Do not recreate or substitute the original suite |
+| II-01 | Exact V3.2 package, original DDL/OpenAPI and 115+22 verification source absent | **RESOLVED 2026-09-26**. Earlier search genuinely found no originals; owner subsequently supplied the completed package. All 102 files preserved and hashed; unchanged 115+22 suites pass locally, from a clean clone and on CI |
 | II-02 | MVP learning hypotheses could be mistaken for frozen scoring/architecture | **OPEN / NON-BLOCKING**. Keep domain/scoring implementation contract-driven |
-| II-03 | Offline Check/placement audio replay authority | **OPEN / depends on II-01**. Playback telemetry is not canonical score evidence and cannot prove listens |
+| II-03 | Offline Check/placement audio replay authority | **RESOLVED mapping 2026-09-26**. Exact event catalog, audio schema and security/scoring authority confirm analytics telemetry cannot prove listens or determine score. UI play cap stays a product hypothesis; future condition metadata requires versioned contracts. See compatibility matrix |
 | II-04 | PostgreSQL/container runtime not evidenced | **RESOLVED 2026-09-26 locally**. `mingo_app`, `mingo`, and `mingo_test` provisioned with SCRAM; 6/6 PostgreSQL tests, migrations, worker probe and API readiness pass |
 | II-05 | Flutter runtime not evidenced | **RESOLVED 2026-09-26 locally**. Flutter 3.32.8 analyze/test/build plus actual Android emulator and Chrome boot pass. Hosted Linux build remains part of II-06 |
-| II-06 | No hosted Git CI evidence | **FOUNDATION CI RESOLVED 2026-09-26**. Run `36250667211` passes backend and both Flutter jobs. Overall CI remains blocked solely by II-01; clean reproduction is recorded separately |
+| II-06 | No hosted Git CI evidence | **RESOLVED 2026-09-26**. Run `36252349822` at `d4165e8` passes all jobs, including the original V3.2 suites. Full runtime and new authority intake both have clean-clone evidence |
 | II-07 | Previous delivery split active source outside the Full Pack while its index referred to `source/` inside the pack | **RESOLVED 2026-09-24** by canonical repository layout + preserved archive/provenance |
 | II-08 | Previous source bundle exported only `HEAD`, causing detached-HEAD clone behavior | **RESOLVED 2026-09-24** in the canonical handoff bundle with named `main` |
 | II-09 | Local immutable storage adapter used POSIX-only directory flags and mishandled Windows resolved paths | **RESOLVED 2026-09-26**; 9 focused tests pass. Windows symlink privilege skip remains covered by capable hosted Linux CI |

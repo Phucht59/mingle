@@ -3,19 +3,19 @@
 ## 1. Current truth
 
 - Phase 0: **DONE**.
-- Phase 1: **ACTIVE; GATE NOT PASSED**.
-- Phase 2+: **DEFERRED**.
+- Phase 1: **DONE; GATE PASSED**.
+- Phase 2: **ELIGIBLE TO START; not started**. Later phases remain deferred.
 - Local Python 3.12 backend, PostgreSQL, API, worker, Flutter Android build/boot, and
   Flutter Web build/boot have current evidence.
-- Hosted foundation jobs and full runtime clean reproduction PASS. Exact V3.2
-  executable originals remain the external artifact blocker; their CI job fails closed.
+- Hosted CI, full runtime clean reproduction and exact original 115+22 verification
+  PASS. The original source package and byte-level provenance are now in the repository.
 
 Read `01_governance/PROJECT_STATE.md`, then `06_quality/gates/PHASE_1_GATE.md`.
 
 ## 2. Authority order
 
 1. Explicit owner instruction.
-2. Exact approved V3.2 baseline/contract once available.
+2. Exact approved V3.2 baseline/contract in `04_architecture/contracts/v3_2/source/`.
 3. Approved Change Request and latest approved decision.
 4. Approved Phase 1 scientific resolution.
 5. Current project state/snapshot/decision register.
@@ -31,6 +31,7 @@ Change Request only when a concrete contract conflict requires a semantic change
    `mingo_test`. Never create a database per development phase.
 3. Copy `05_code/.env.example` to ignored `05_code/.env` and replace placeholders.
 4. Follow the backend and Flutter commands in `README.md`.
+   Use `07_operations/docs/V3_2_VERIFICATION.md` for the unchanged original suites.
 5. Read new output in the matching `06_quality/evidence/` subdirectory; do not rewrite
    old evidence.
 

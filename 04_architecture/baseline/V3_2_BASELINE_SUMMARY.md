@@ -33,6 +33,11 @@ Do not silently reinterpret business rules in implementation. If implementation 
 5. compatibility/migration impact;
 6. tests required to prove the resolution.
 
-## Missing source artifact warning
+## Original source intake
 
-The full V3.2 source files are not embedded in this reconstruction because they were not available in the active runtime. Add them before treating this ZIP as a complete source repository.
+On 2026-09-26 the owner supplied the completed V3.2 package. All 102 original files
+are now preserved under `04_architecture/contracts/v3_2/source/`, with verified hashes
+under `08_handoff/provenance/v3_2/`. The original 115 contract and 22 PGlite SQL checks
+have been rerun successfully; see current evidence under `06_quality/evidence/v3_2/`.
+PGlite is not native multi-connection concurrency, and these checks do not constitute
+full application or production acceptance.

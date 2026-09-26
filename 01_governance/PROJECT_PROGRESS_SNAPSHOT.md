@@ -2,9 +2,9 @@
 
 ## Milestone
 
-**Canonical local Phase 1 runtime is operational on Windows. Phase 1 remains ACTIVE and
-the gate remains NOT PASSED because exact V3.2 executable originals are absent.
-Hosted foundation jobs and full runtime clean reproduction now PASS.**
+**PHASE 1 DONE — GATE PASSED.** Exact original V3.2 verification, every hosted job,
+the local runtime and clean reproduction all pass. **Phase 2 is eligible to start,
+but has not been started.** Phase 0 remains DONE.
 
 ## Component status
 
@@ -16,8 +16,8 @@ Hosted foundation jobs and full runtime clean reproduction now PASS.**
 | Durable worker | PASS | `06_quality/evidence/worker/` |
 | Learner | PASS local build + actual Android boot | `06_quality/evidence/flutter/learner/` |
 | Staff | PASS local build + actual browser boot | `06_quality/evidence/flutter/staff/` |
-| V3.2 originals | BLOCKED | `06_quality/evidence/v3_2/` |
-| Hosted CI | Foundation jobs PASS; overall BLOCKED only by V3.2 | `06_quality/evidence/ci/` |
+| V3.2 originals | PASS: 115 contract + 22 SQL | `06_quality/evidence/v3_2/INTAKE_AND_VERIFICATION_20260926.md` |
+| Hosted CI | PASS, all four jobs | `06_quality/evidence/ci/PHASE1_PASS_20260926.md` |
 | Full clean reproduction | PASS for supplied runtime | `06_quality/evidence/clean_reproduction/` |
 | Tracked-source handoff | PASS | `08_handoff/RELEASE_CHECK_20260926.md` |
 
@@ -48,22 +48,28 @@ Hosted foundation jobs and full runtime clean reproduction now PASS.**
   object store, Pub/Gradle caches, Android AVD and Chrome profile; inspected both UIs.
 - Produced and validated a tracked-source ZIP; scanned prospective tracked files for
   known credentials and token patterns with no matches.
+- Subsequently received the owner's exact completed V3.2 ZIP; verified all 101 embedded
+  manifest entries and preserved all 102 original files including its manifest.
+- Wired the unchanged original programs through a checksum-verifying adapter; actual
+  local, fresh-clone and hosted runs pass 115 contract plus 22 SQL checks. Nine separate
+  adapter guard tests also pass. Historical failed/missing-source evidence is retained.
+- Completed the exact-source compatibility matrix and resolved II-03 playback authority.
+- Hosted run `36252349822` passes backend, learner, staff and original V3.2 together.
 
-## Remaining blockers
+## Issues and limits
 
-1. **II-01 external artifact:** supply the exact approved V3.2 source and original
-   executable 115 contract + 22 SQL suites.
-
-The original hosted job remains blocked by the same artifact; other hosted jobs pass.
-II-03 exact audio replay mapping also depends on II-01. II-02 remains non-blocking.
-II-04/05/07/08/09/10/11/12/13/14 are resolved; II-06 foundation CI is resolved.
+No mandatory Phase 1 blockers remain. II-01 and II-03 through II-14 are resolved.
+II-02 remains non-blocking. Original SQL uses PGlite; native foundation tests are
+separate. This milestone does not claim a complete learning application, native domain
+submit/auth/offline acceptance, trained model or production deployment.
 
 ## Governance
 
 - New frozen implementation convention: `mingo_app` / `mingo` / `mingo_test`, with no
   phase-specific database split.
 - No frozen business rule changed; Change Requests remain NONE.
-- Phase 2 remains DEFERRED.
+- Phase 2 is ELIGIBLE TO START; no Phase 2 work was begun.
 
-Git runtime baseline verified: `4cdecb426d33b2996f4a3a72cc78da6a276b713f`.
-Hosted run: `36250667211`. Later commits record evidence/governance without runtime changes.
+Git verification baseline: `d4165e8acdffa4e0a747b11ac3e1c3c852674293`.
+Hosted run: `36252349822`. Later handoff commits record evidence/governance; the ZIP
+sidecar records the exact final packaged Git revision and SHA-256.

@@ -3,11 +3,11 @@ import argparse
 import hashlib
 import json
 import os
-from pathlib import Path
 import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "04_architecture/contracts/v3_2/source"
@@ -71,7 +71,7 @@ def main():
         with (evidence / (name + ".log")).open("w", encoding="utf-8") as log:
             log.write("Command: " + subprocess.list2cmdline(command) + "\n")
             log.flush()
-            proc = subprocess.run(command, cwd=directory, env=env, stdout=log, stderr=subprocess.STDOUT)
+            proc = subprocess.run(command, cwd=directory, env=env, stdout=log, stderr=subprocess.STDOUT, check=False)
             log.write(f"\nExit code: {proc.returncode}\n")
         result["commands"].append({"name": name, "exit_code": proc.returncode})
         return proc.returncode
@@ -108,7 +108,7 @@ def main():
             verify_source()  # Original bytes must remain unchanged after execution.
             result["status"] = "PASS"
             result["sql_engine"] = "Original PGlite PostgreSQL WASM suite; not native concurrency"
-    except Exception as error:
+    except (OSError, ValueError, TypeError, KeyError, AttributeError, RuntimeError, subprocess.SubprocessError) as error:
         result["error"] = str(error)
     (evidence / "run.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))

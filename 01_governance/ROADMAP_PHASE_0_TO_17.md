@@ -1,8 +1,8 @@
 # Product Roadmap
 
 - Phase 0 — Architecture & Contract Baseline — **DONE**
-- Phase 1 — Implementation Foundation / Product Build Kickoff — **ACTIVE**
-- Phase 2 — UX/UI Product System
+- Phase 1 — Implementation Foundation / Product Build Kickoff — **DONE / GATE PASSED**
+- Phase 2 — UX/UI Product System — **ELIGIBLE TO START; not started**
 - Phase 3 — Identity/Auth/Authorization
 - Phase 4 — Content Platform & Publishing
 - Phase 5 — Learning Core & Assessment

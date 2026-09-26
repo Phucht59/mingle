@@ -16,4 +16,4 @@ The project is separated by responsibility so implementation work cannot be conf
 - `99_archive/`: exact historical packages; not implementation authority.
 - `.github/workflows/foundation.yaml`: canonical hosted-CI workflow.
 
-`04_architecture/contracts/v3_2/` is intentionally an explicit missing-source boundary until exact original V3.2 material is imported with provenance.
+`04_architecture/contracts/v3_2/source/` preserves the exact owner-supplied V3.2 package, with immutable-byte Git attributes and provenance under `08_handoff/provenance/v3_2/`.

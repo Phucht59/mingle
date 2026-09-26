@@ -2,9 +2,9 @@
 import hashlib
 import importlib.util
 import json
-from pathlib import Path
 import tempfile
 import unittest
+from pathlib import Path
 
 path = Path(__file__).resolve().parents[1] / "scripts/check_original_contracts.py"
 spec = importlib.util.spec_from_file_location("original_adapter", path)

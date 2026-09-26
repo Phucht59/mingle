@@ -1,6 +1,6 @@
 # Phase 1 Gate — 2026-09-26
 
-**Overall gate: NOT PASSED. Phase 1 ACTIVE; Phase 2 NOT ELIGIBLE.**
+**Overall gate: PASSED. Phase 1 DONE; Phase 2 ELIGIBLE TO START, not started.**
 
 ## Current mandatory checks
 
@@ -17,8 +17,8 @@
 | Learner actual Android boot | **PASS local** | Emulator cold start, app PID, UI assertions and screenshot |
 | Staff analyze/test/Web build | **PASS local** | Flutter 3.32.8 |
 | Staff actual browser boot | **PASS local** | Flutter dev server + Chrome render screenshot |
-| Exact V3.2 source and original 115+22 | **BLOCKED external** | Executable originals absent; fail-closed adapter exits 1 |
-| Hosted CI | **Foundation PASS / overall BLOCKED** | Run `36250667211`: backend and both Flutter jobs PASS; original V3.2 job fails closed |
+| Exact V3.2 source and original 115+22 | **PASS** | Owner-supplied 102 original files preserved and hashed; unchanged 115 contract + 22 PGlite SQL checks pass locally, from a clean clone and on CI |
+| Hosted CI | **PASS, all jobs** | Run `36252349822` at `d4165e8`: backend, learner, staff, original V3.2 |
 | Full clean reproduction | **PASS runtime** | Fresh clone/venv/DB cluster/object store/Pub+Gradle caches/AVD/Chrome profile; both UIs inspected |
 | Repository/secrets/handoff | **PASS** | Canonical tracked-source ZIP integrity/exclusion checks; no known credential matches |
 
@@ -26,17 +26,19 @@
 
 The runtime foundation is operational locally, from a clean clone and in hosted CI.
 Linux runs all 10 unit/security/storage tests, including symlink escape, and separately
-all 6 PostgreSQL tests. Both pinned Flutter builds pass. None of these substitute for
-the absent original V3.2 contract suite.
+all 6 PostgreSQL tests. Both pinned Flutter builds pass. The original V3.2 suites now
+also run unchanged, with fresh reports and source integrity verified. Nine adapter
+guard tests are additional and not included in the original counts.
 
-## Closure rule
+## Closure decision and scope
 
-Phase 1 can become DONE only after:
+All mandatory foundation checks are now evidenced. See
+`06_quality/evidence/ci/PHASE1_PASS_20260926.md`,
+`06_quality/evidence/v3_2/INTAKE_AND_VERIFICATION_20260926.md` and the existing full
+runtime clean reproduction. II-01/03/06 are resolved; II-02 is non-blocking.
 
-1. exact V3.2 source and genuine original 115 contract + 22 SQL suites are supplied,
-   hashed, invoked unchanged, and pass;
-2. all hosted CI jobs, including the original suite, pass from the canonical revision.
-
-Full runtime clean reproduction and clean tracked-source handoff are already recorded.
-
-No architecture review is reopened. No Change Request exists. Phase 2 remains deferred.
+PGlite results do not prove native domain concurrency. The current application remains
+the Phase 1 foundation with learner/staff shells; full auth, learning, offline, ML and
+pilot acceptance remain later-phase gates. Exact source mapping records those gaps.
+No architecture review is reopened and no Change Request exists. Phase 2 is eligible
+but has not been started.

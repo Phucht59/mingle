@@ -10,7 +10,7 @@ Product Charter, MVP PRD, learner evidence model, adaptive-feed specification an
 Phase 1 research inputs, the 18-question research package, the completed scientific resolution, and legacy KLTN research context. Research supports decisions; it does not silently override frozen contracts.
 
 ## `04_architecture/` — technical boundaries and source-of-truth mapping
-V3.2 baseline summaries, compatibility matrix, system boundaries, contract placeholder, decision test vectors and analytics/learning-intelligence guardrails.
+Exact immutable V3.2 source and original verification entry points, baseline summaries, compatibility matrix, system boundaries, decision test vectors and analytics/learning-intelligence guardrails.
 
 ## `05_code/` — executable implementation
 Only runtime/application source and local stack files live here:

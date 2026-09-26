@@ -17,8 +17,8 @@ generated credentials in the new `.env`; do not reuse the main server's data.
 
 Run the root README's backend verifier with `-RunPostgres`, bootstrap the Flutter
 hosts, then run the Flutter verifier. The scripts write actual evidence under
-`06_quality/evidence`; the original V3.2 checker must also run and remains blocked
-until its exact source artifact is supplied.
+`06_quality/evidence`. Run the original V3.2 suites with the isolated environment
+described in `V3_2_VERIFICATION.md`; their exact sources are now preserved in the repo.
 
 ## API and worker on Windows
 

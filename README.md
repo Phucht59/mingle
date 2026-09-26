@@ -5,10 +5,11 @@ Phase 1 implementation foundation: a FastAPI modular monolith, durable worker, P
 migrations, immutable local object storage, an Android-first Flutter learner shell, and a
 Flutter Web staff shell.
 
-> **Current state:** Phase 0 is DONE. Phase 1 is ACTIVE and its mandatory gate is NOT
-> PASSED. Phase 2 remains DEFERRED. Local backend, PostgreSQL, worker, learner Android,
-> and staff Web verification pass. Hosted foundation jobs and full runtime clean
-> reproduction pass. Exact V3.2 originals are absent, so their CI job fails closed.
+> **Current state:** Phase 0 and Phase 1 are DONE; the Phase 1 gate is PASSED.
+> Local runtime, clean reproduction, exact original 115 contract + 22 SQL checks and
+> every hosted CI job pass. Phase 2 is ELIGIBLE TO START and has not been started.
+> This milestone completes the implementation foundation; later product features and
+> pilot/production acceptance remain in the Phase 0–17 roadmap.
 
 ## Start here
 
@@ -17,8 +18,9 @@ Flutter Web staff shell.
    [`06_quality/gates/PHASE_1_GATE.md`](06_quality/gates/PHASE_1_GATE.md).
 3. Use [`02_product/`](02_product/) for product rules and [`03_research/`](03_research/)
    for their research basis.
-4. Treat exact approved V3.2 material under [`04_architecture/`](04_architecture/) as the
-   implementation authority once supplied. The original executable suite is still absent.
+4. Use the exact original V3.2 package under
+   [`04_architecture/contracts/v3_2/source/`](04_architecture/contracts/v3_2/source/)
+   as implementation authority. Its provenance and hashes are preserved.
 5. Runtime source is under [`05_code/`](05_code/); repeatable commands are under
    [`07_operations/scripts/`](07_operations/scripts/).
 
@@ -113,6 +115,12 @@ build. Actual Android and browser boot evidence belongs under
 99_archive/      historical packages only; never current implementation truth
 ```
 
-The original V3.2 source and genuine 115 contract plus 22 SQL checks are not present in
-the supplied artifacts. `check_original_contracts.py` therefore fails closed. New
-foundation tests are additive and never substitute for that original suite.
+## Original V3.2 verification
+
+The owner-supplied package contains the genuine 115 contract and 22 SQL checks.
+Follow [`V3_2_VERIFICATION.md`](07_operations/docs/V3_2_VERIFICATION.md) to install
+the isolated verification lock and run them. The adapter validates original hashes,
+executes unchanged programs on a copy and records fresh reports. SQL uses the original
+PGlite engine; native PostgreSQL foundation tests remain separate.
+
+Current closure evidence: [`Phase 1 hosted PASS`](06_quality/evidence/ci/PHASE1_PASS_20260926.md).

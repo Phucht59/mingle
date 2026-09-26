@@ -1,4 +1,4 @@
-> Updated 2026-09-26: active source is under `05_code/`; Phase 1 remains ACTIVE / GATE NOT PASSED. Current status: `01_governance/PROJECT_STATE.md`; current runtime evidence: `06_quality/evidence/clean_reproduction/README.md`. Exact original V3.2 verification sources remain absent.
+> Updated 2026-09-26: active source is under `05_code/`; Phase 1 is DONE / GATE PASSED. Current status: `01_governance/PROJECT_STATE.md`; current runtime evidence: `06_quality/evidence/clean_reproduction/README.md`. Exact V3.2 originals are preserved; their separate local, clean-clone and hosted suites pass.
 
 # Environment Strategy
 

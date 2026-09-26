@@ -6,10 +6,9 @@ phase_0:
   status: DONE
 phase_1:
   name: Implementation Foundation / Product Build Kickoff
-  status: ACTIVE
-  gate: NOT_PASSED
-  blockers:
-    - exact_v3_2_original_sources_and_115_contract_22_sql_checks_absent
+  status: DONE
+  gate: PASSED
+  blockers: []
   backend_python_3_12: PASS
   postgresql_mingo_and_mingo_test: PASS
   postgresql_integration_concurrency: PASS_6_OF_6
@@ -17,15 +16,16 @@ phase_1:
   durable_worker: PASS
   learner_android_local: PASS
   staff_web_local: PASS
-  original_v3_2: BLOCKED_EXTERNAL_ARTIFACT
+  original_v3_2: PASS_115_CONTRACT_AND_22_SQL
   hosted_foundation_jobs: PASS
-  hosted_ci_overall: BLOCKED_BY_ORIGINAL_V3_2
+  hosted_ci_overall: PASS
   full_runtime_clean_reproduction: PASS
   tracked_source_handoff: PASS
-  verified_runtime_commit: 4cdecb426d33b2996f4a3a72cc78da6a276b713f
-  hosted_run_id: 36250667211
+  verified_runtime_commit: d4165e8acdffa4e0a747b11ac3e1c3c852674293
+  hosted_run_id: 36252349822
 phase_2:
   name: UX/UI Product System
-  status: DEFERRED
+  status: ELIGIBLE_TO_START
+  started: false
 change_request_open: false
 architecture_reopen_required: false

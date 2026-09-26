@@ -1,6 +1,9 @@
 # Q9 and Audio Authority — Review Vectors
 
-The vectors make the corrected product policy reviewable. They are semantic tests, not executable V3.2 contract checks; exact item/command fields must be mapped to original source.
+The vectors make the corrected product policy reviewable. They are semantic tests,
+separate from the original V3.2 suite. `V3_2_COMPATIBILITY_MATRIX.md` now maps their
+authority boundary to exact sources. Objective/band/assessment-condition metadata
+remains a versioned implementation task for later learning/product phases.
 
 | Case | Evidence available at decision | Expected decision and state |
 |---|---|---|
@@ -14,4 +17,6 @@ The vectors make the corrected product policy reviewable. They are semantic test
 | V8 | Listening Check answer right, replay telemetry missing/offline delayed | Server may score answer; condition quality remains unknown, so it cannot satisfy Q9 Check predicate or support standardized listening interpretation until reconciled. |
 | V9 | One correctly answered Check after model/recommender disabled | No hard dependency on ML; fallback selects eligible current-band/Review content, not an unjustified next-band challenge. |
 
-After V3.2 mapping, convert V1–V9 into domain/integration tests and add offline duplicate/replay conflict vectors with canonical event IDs and exact score contracts.
+In the later learning/offline phases, convert V1–V9 into domain/integration tests and
+add duplicate/replay conflict vectors using the mapped canonical event/score contracts.
+Their future implementation is not represented as one of the original 115 checks.
