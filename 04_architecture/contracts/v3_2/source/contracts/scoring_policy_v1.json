@@ -1,0 +1,31 @@
+{
+  "policy_version": "completion_policy_v1",
+  "activity_types": {
+    "mcq_single_v1": {
+      "all_questions_required": true,
+      "min_questions": 1,
+      "answer_type": "option_id",
+      "points_correct": 1.0,
+      "points_incorrect": 0.0,
+      "partial_credit": false,
+      "completion_rule": "valid_submission_fully_scored"
+    },
+    "listening_mcq_v1": {
+      "all_questions_required": true,
+      "min_questions": 1,
+      "answer_type": "option_id",
+      "points_correct": 1.0,
+      "points_incorrect": 0.0,
+      "partial_credit": false,
+      "completion_rule": "valid_submission_fully_scored",
+      "requires_media": true
+    }
+  },
+  "completion_credit": {
+    "unique_by": [
+      "enrollment_id",
+      "release_activity_id"
+    ],
+    "repeat_attempt_credit": "no_additional_credit"
+  }
+}

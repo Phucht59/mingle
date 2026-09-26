@@ -1,0 +1,44 @@
+{
+  "publications": [
+    {
+      "evidence_publication_id": "10000000-0000-4000-8000-000000000029",
+      "learner_id": "10000000-0000-4000-8000-000000000001",
+      "enrollment_id": "10000000-0000-4000-8000-000000000002",
+      "source_type": "progress",
+      "source_id": "10000000-0000-4000-8000-000000000002",
+      "source_revision": 1,
+      "source_occurred_at": "2026-09-16T09:00:00Z",
+      "published_available_at": "2026-09-16T09:02:00Z",
+      "payload_sha256": "c23ceccdaf6e7c0ffeb0fb645e6bf4d03dc5e7bce92c34358ebc78067786aa79"
+    },
+    {
+      "evidence_publication_id": "10000000-0000-4000-8000-000000000030",
+      "learner_id": "10000000-0000-4000-8000-000000000001",
+      "enrollment_id": "10000000-0000-4000-8000-000000000002",
+      "source_type": "scoring_record",
+      "source_id": "10000000-0000-4000-8000-000000000028",
+      "source_revision": 1,
+      "source_occurred_at": "2026-09-16T09:00:00Z",
+      "published_available_at": "2026-09-16T09:02:00Z",
+      "payload_sha256": "94e2d446cc57512d809cec4fb6fdb09921a28bdaed4f165cdb0764cb6d0bbbf3"
+    }
+  ],
+  "immutable_payloads": {
+    "10000000-0000-4000-8000-000000000029": {
+      "progress_revision": 1,
+      "completed_required_credit_count": 1,
+      "eligible_activity_count": 1,
+      "completion_fraction": 1.0,
+      "enrollment_id": "10000000-0000-4000-8000-000000000002",
+      "course_release_id": "10000000-0000-4000-8000-000000000004"
+    },
+    "10000000-0000-4000-8000-000000000030": {
+      "raw_score": 2.0,
+      "max_score": 2.0,
+      "score_fraction": 1.0,
+      "scoring_record_revision": 1,
+      "scoring_record_id": "10000000-0000-4000-8000-000000000028",
+      "scoring_version_id": "10000000-0000-4000-8000-000000000014"
+    }
+  }
+}

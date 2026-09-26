@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "api_error_v1.schema.json",
+  "title": "api_error",
+  "type": "object",
+  "required": [
+    "code",
+    "message",
+    "retry_same_command",
+    "request_id"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "minLength": 1
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retry_same_command": {
+      "type": "boolean"
+    },
+    "request_id": {
+      "type": "string",
+      "format": "uuid"
+    }
+  },
+  "additionalProperties": false
+}

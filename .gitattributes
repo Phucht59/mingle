@@ -16,3 +16,6 @@
 *.png binary
 *.jpg binary
 *.jpeg binary
+
+# User-supplied V3.2 originals: preserve exact bytes and manifest hashes.
+/04_architecture/contracts/v3_2/source/** -text

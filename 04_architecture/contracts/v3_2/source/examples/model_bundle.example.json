@@ -1,0 +1,37 @@
+{
+  "bundle_id": "10000000-0000-4000-8000-000000000022",
+  "model_version": "hybrid_candidate_v1",
+  "model_artifact_sha256": "cedcb6d4e282be9b1af402b20bea815faa0b5552aa727bc57cc52340362de5be",
+  "feature_schema_version": "features_product_v1",
+  "feature_schema_sha256": "245647160352ceaef961e7b40dcbf6e2bf8b3cdfa114ad46592aa73564ba9698",
+  "preprocessing_artifact_sha256": "4ff53661777badc649d5ed3020dc52844c5ea7062eeddc23c389992e35e20378",
+  "target_version": "fixture_risk_target_v1",
+  "horizon_version": "fixture_horizon_v1",
+  "calibration": null,
+  "threshold": {
+    "version": "threshold_candidate_v1",
+    "value": 0.6
+  },
+  "uncertainty": {
+    "method": "binary_entropy",
+    "version": "binary_entropy_v1"
+  },
+  "runtime": {
+    "python": "3.12.0",
+    "framework": "pytorch",
+    "framework_version": "2.0.0"
+  },
+  "validation_record": {
+    "validation_id": "validation_fixture_v1",
+    "sha256": "b3d87c1a70931c9683dec8aa5cdade9f89bc91d29b55bf18b3a4122e76ba9a19"
+  },
+  "release_status": "candidate",
+  "artifact_refs": {
+    "model": "artifacts/model_fixture.json",
+    "preprocessing": "artifacts/preprocessing_fixture.json",
+    "feature_schema": "examples/feature_schema.example.json",
+    "validation": "artifacts/validation_fixture.json",
+    "target": "artifacts/target_fixture.json",
+    "horizon": "artifacts/horizon_fixture.json"
+  }
+}
