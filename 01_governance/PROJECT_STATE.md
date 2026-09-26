@@ -15,7 +15,7 @@ Repository organization was normalized on 2026-09-24. **This was a structure/pro
 | Flutter learner/staff | SOURCE AUTHORED; RUNTIME BLOCKED | Flutter and Android toolchain are absent; no analyze/test/build/device or Web boot evidence |
 | Exact V3.2 original 115 contract + 22 SQL checks | BLOCKED | Original source/check suite absent from active repository; fail-closed gate retained |
 | Hosted CI | AUTHORED; BLOCKED | `.github/workflows/foundation.yaml`; canonical `main` restored from the supplied bundle, but no hosted Git remote/run evidence |
-| Full clean reproduction | NOT VERIFIED | Fresh Python venv/backend install rerun passes on Python 3.14; DB/worker/Flutter/hosted CI and exact originals remain incomplete |
+| Full clean reproduction | NOT VERIFIED; backend-only clean clone PASS | Fresh clone at commit `51b741e0c789a8492c8452f3094e9967795bd0f4` passes locked install, Ruff, 9 tests and API liveness; DB/worker/Flutter/hosted CI and exact originals remain incomplete |
 | Phase 2 onward | DEFERRED | Not formally eligible until Phase 1 mandatory gate passes |
 
 ## Authority order

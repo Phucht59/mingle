@@ -20,6 +20,7 @@ Windows rerun evidence collected 2026-09-26 is in `06_quality/evidence/PHASE1_RE
 | Windows API process boot / liveness | PASS, HTTP 200 | `api-process-20260926T071508Z.log`, `api-http-smoke-20260926T071508Z.json`; readiness is 503 pending DB access |
 | Local object storage smoke | PASS | Immutable local adapter only; not S3/cloud evidence |
 | Fresh Python venv setup | PASS, backend-only | Not a whole-stack clean-machine claim |
+| Backend clean clone from current `main` | PASS, backend-only | Fresh clone at `51b741e0c789a8492c8452f3094e9967795bd0f4`, fresh venv and locked install; `clean-repro-*.log`, `clean-repro-backend-unit-20260926T071803Z.xml`. Does not establish full-stack clean reproduction |
 | Worker successful boot against DB | **BLOCKED** | Source exists, but durable execution against real PostgreSQL is not proven |
 | PostgreSQL server/migrations | **BLOCKED** | SQL authored; real runtime/migration evidence absent |
 | Flutter Android/Web shells | **SOURCE + TESTS AUTHORED, NOT RUN** | `05_code/apps/{learner,staff}`; no successful analyze/test/build/actual boot evidence |

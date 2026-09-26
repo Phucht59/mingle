@@ -25,6 +25,7 @@
 | Flutter learner/staff checks and device/web boot | BLOCKED | Flutter and Android tooling are absent |
 | Exact V3.2 original 115 + 22 checks | BLOCKED | Searched active source, archive, canonical bundle and historical handoff; exact originals are not present. The fail-closed adapter remains unchanged |
 | Hosted CI / full clean reproduction | BLOCKED | No hosted Git remote; runtime prerequisites and original suite are incomplete |
+| Backend clean-clone reproduction | PASS, focused backend only | Fresh clone at commit `51b741e0c789a8492c8452f3094e9967795bd0f4`, fresh Python 3.14.7 venv, lock install, package install, lint, 9 passed / 7 skipped, API liveness 200 / readiness 503. Logs: `clean-repro-*.log`, `clean-repro-backend-unit-20260926T071803Z.xml`. This does not prove full-stack clean reproduction |
 
 ## Commands and exit status
 
@@ -39,6 +40,7 @@
 - `.venv\Scripts\python.exe 07_operations/scripts/smoke_api.py` — 0 (liveness 200, readiness 503).
 - `python 07_operations/scripts/check_original_contracts.py` — BLOCKED by design; exact source absent, exit 1. Output: `original-contract-gate-20260926.log`.
 - `.\07_operations\scripts\verify_backend.ps1 -Python .\.venv\Scripts\python.exe` — 0; Windows wrapper rerun produced `backend-lint-20260926T071502Z.log`, `backend-unit-20260926T071502Z.log`, `backend-unit-20260926T071502Z.xml`, `api-smoke-20260926T071502Z.log`, `api-process-20260926T071508Z.log` and `api-http-smoke-20260926T071508Z.json`.
+- `git clone --branch main` from the restored local repository, then fresh venv + locked/package installation and `verify_backend.ps1` — 0; clone HEAD `51b741e0c789a8492c8452f3094e9967795bd0f4`; captured under `clean-repro-*.log` and `clean-repro-backend-unit-20260926T071803Z.xml`.
 
 ## Implementation fixes from this rerun
 

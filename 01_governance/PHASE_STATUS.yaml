@@ -19,6 +19,7 @@ phase_1:
   backend_windows_unit_tests: PASS_9_SKIPPED_7
   backend_windows_api_liveness: PASS_200
   backend_windows_api_readiness: BLOCKED_503_DATABASE_UNAVAILABLE
+  backend_clean_clone: PASS_BACKEND_ONLY
 phase_2:
   name: UX/UI Product System
   status: DEFERRED

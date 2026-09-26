@@ -17,6 +17,7 @@
 - Previous handoff pack and original source bundle preserved under `99_archive/` / `08_handoff/provenance/`.
 - Windows clean-venv backend rerun: locked install and `pip check` PASS; Ruff PASS; 9 unit/security/storage tests PASS, with 6 database tests and the symlink test skipped for unavailable DB/Windows privilege.
 - Repeatable Windows PowerShell backend verification wrapper added and exercised; it writes timestamped lint, test, and API process evidence.
+- Backend-only clean reproduction from fresh `main` clone at `51b741e0c789a8492c8452f3094e9967795bd0f4` passed lock/package installation, Ruff, 9 tests and actual API liveness. Whole-stack clean reproduction remains blocked by DB/Flutter/original-suite/hosted-CI prerequisites.
 - Actual Uvicorn subprocess boot and liveness HTTP 200 PASS; readiness remains 503 without PostgreSQL credentials.
 - II-09 Windows object-storage path/fsync portability defect RESOLVED; fix and timestamped API evidence are recorded.
 
