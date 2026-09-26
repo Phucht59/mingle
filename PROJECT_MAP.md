@@ -27,11 +27,28 @@ Only runtime/application source and local stack files live here:
 ## `06_quality/` — how correctness is proved
 Phase gates, coding/test/DoD standards and immutable run evidence. Never edit old evidence to make a gate look green; generate new evidence instead.
 
+Current evidence is grouped by runtime boundary:
+
+```text
+evidence/
+├── backend/
+├── postgres/
+├── api/
+├── worker/
+├── flutter/learner/
+├── flutter/staff/
+├── v3_2/
+├── ci/
+└── clean_reproduction/
+```
+
 ## `07_operations/` — how to run, verify and deploy foundations
 CI/CD docs, environment/config/migration docs and executable setup/verification scripts.
 
 ## `08_handoff/` — provenance
-Previous source revision, original bundle and source manifest. This exists to prove where the current reorganization came from.
+Previous source revision, original bundle, clean handoff metadata and source manifest. A
+release ZIP is created from tracked canonical source, never from the polluted working
+directory.
 
 ## `99_archive/` — history only
 Exact previous delivery pack, old prompts and old package snapshots. It is retained for audit but is lower authority than active folders.

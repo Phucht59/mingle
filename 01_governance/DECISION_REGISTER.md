@@ -7,6 +7,7 @@ Sources: `05_PHASE1_DECISION_REGISTER.md` of continuous handoff, scientific reso
 | IDs | Decision | Status / destination |
 |---|---|---|
 | ARCH-001..008 | V3.2 authority, frozen stack/boundaries, server score, offline queues, revision pin, time provenance, mastery≠risk, non-ML fallback | FROZEN; Charter, PRD, Evidence and Feed specs; exact source review pending |
+| ENV-001 | One Mingo database topology: role `mingo_app`, application DB `mingo`, disposable automated-test DB `mingo_test`; no database split by development phase | **FROZEN implementation/development convention 2026-09-26**; no architecture or business semantics changed |
 | PROD-001..004 | Vocabulary/Grammar/Listening, A0→B2 internal, ~5-user pilot, free-first | Current baseline; Charter and PRD |
 | PROD-005 | 'Mingo' | NOT FROZEN; do not present as final product name |
 | LEARN-001..004 | Finite ~5m cycle, five roles, no infinite scroll, prerequisite guardrail | Baseline; duration hypothesis, learning guardrail maintained |
@@ -15,4 +16,4 @@ Sources: `05_PHASE1_DECISION_REGISTER.md` of continuous handoff, scientific reso
 | INTEL-001..005 | Final mastery, knowledge tracing, production risk/recommendation weights, validated CAT/CEFR cutoffs | DEFERRED to Phase 9+ / validation |
 | CR | No concrete V3.2 contradiction proven | NONE; II-01 tracks missing exact source |
 
-Owner review on 2026-09-23: Charter and Gate APPROVED; Evidence Model APPROVED with II-03 carried; PRD/Feed received conditional APPROVE AFTER FIX. One shared Q9 predicate and explicit authority precedence are now applied; no separate owner review of revised wording is recorded. These statuses concern product documents, not an untested Phase 1 runtime. No product-brand freeze is implied by the charter. Formal changes to FROZEN items require demonstrated conflict and owner-approved CR.
+Owner review on 2026-09-23: Charter and Gate APPROVED; Evidence Model APPROVED with II-03 carried; PRD/Feed received conditional APPROVE AFTER FIX. One shared Q9 predicate and explicit authority precedence are now applied; no separate owner review of revised wording is recorded. Local runtime, hosted foundation jobs and full runtime clean reproduction passed on 2026-09-26. The overall gate remains blocked by exact V3.2 originals and their fail-closed hosted job. No product-brand freeze is implied by the charter. Formal changes to frozen business/architecture items require demonstrated conflict and owner-approved CR.

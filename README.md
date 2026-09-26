@@ -1,50 +1,63 @@
 # Mingo — Adaptive Language Learning & Early Intervention Platform
 
-Canonical project repository reorganized on **2026-09-24** from the Phase 1 implementation handoff.
+Mingo is one product developed across Phases 1–17. The current repository contains the
+Phase 1 implementation foundation: a FastAPI modular monolith, durable worker, PostgreSQL
+migrations, immutable local object storage, an Android-first Flutter learner shell, and a
+Flutter Web staff shell.
 
-> **Current phase:** Phase 1 — Implementation Foundation / Product Build Kickoff — **ACTIVE, GATE NOT PASSED**.
-> Phase 0 is DONE. Phase 2+ is DEFERRED until the Phase 1 mandatory gate passes.
-
-This repository is deliberately organized by responsibility so a developer can distinguish current decisions, product/scientific material, research, architecture, executable code, verification evidence, operations, and historical handoff material.
+> **Current state:** Phase 0 is DONE. Phase 1 is ACTIVE and its mandatory gate is NOT
+> PASSED. Phase 2 remains DEFERRED. Local backend, PostgreSQL, worker, learner Android,
+> and staff Web verification pass. Hosted foundation jobs and full runtime clean
+> reproduction pass. Exact V3.2 originals are absent, so their CI job fails closed.
 
 ## Start here
 
 1. Read [`START_HERE.md`](START_HERE.md).
-2. Check the current truth in [`01_governance/PROJECT_STATE.md`](01_governance/PROJECT_STATE.md).
-3. Read the Phase 1 gate in [`06_quality/gates/PHASE_1_GATE.md`](06_quality/gates/PHASE_1_GATE.md).
-4. Before implementing a business/domain rule, read [`02_product/MVP_PRD.md`](02_product/MVP_PRD.md), the V3.2 baseline material in [`04_architecture/`](04_architecture/), and the decision/change-control files under [`01_governance/`](01_governance/).
-5. Runtime code is isolated in [`05_code/`](05_code/).
+2. Check [`01_governance/PROJECT_STATE.md`](01_governance/PROJECT_STATE.md) and
+   [`06_quality/gates/PHASE_1_GATE.md`](06_quality/gates/PHASE_1_GATE.md).
+3. Use [`02_product/`](02_product/) for product rules and [`03_research/`](03_research/)
+   for their research basis.
+4. Treat exact approved V3.2 material under [`04_architecture/`](04_architecture/) as the
+   implementation authority once supplied. The original executable suite is still absent.
+5. Runtime source is under [`05_code/`](05_code/); repeatable commands are under
+   [`07_operations/scripts/`](07_operations/scripts/).
 
-## Repository layout
+## Canonical database topology
 
-```text
-Mingo/
-├── 01_governance/          # status, roadmap, decisions, issues, CRs, backlog
-├── 02_product/             # charter, PRD, learning/product specifications
-├── 03_research/            # scientific research, research resolution, KLTN context
-├── 04_architecture/        # V3.2 baseline, boundaries, contracts, data/ML guardrails
-├── 05_code/                # executable application/backend code only
-├── 06_quality/             # gates, standards, tests/evidence
-├── 07_operations/          # CI/CD, environments, bootstrap/verification scripts
-├── 08_handoff/             # source provenance and handoff metadata
-├── 99_archive/             # immutable historical packages; never use as current truth
-├── .github/workflows/      # hosted CI definitions
-├── START_HERE.md
-├── PROJECT_MAP.md
-└── REPO_RULES.md
+One PostgreSQL server supports one Mingo system:
+
+| Purpose | Name |
+|---|---|
+| Application role | `mingo_app` |
+| Local application database | `mingo` |
+| Disposable automated-test database | `mingo_test` |
+
+Development phases never create separate application databases. Runtime reads
+`DATABASE_URL`; destructive tests read `TEST_DATABASE_URL` and refuse a database whose
+name does not end in `_test`.
+
+Copy `05_code/.env.example` to ignored `05_code/.env`, generate a strong local password,
+and replace `CHANGE_ME`. Never commit the resulting file. A PostgreSQL administrator can
+provision the local roles once with:
+
+```sql
+CREATE ROLE mingo_app WITH LOGIN PASSWORD '<local-random-password>';
+CREATE DATABASE mingo OWNER mingo_app;
+CREATE DATABASE mingo_test OWNER mingo_app;
 ```
 
-## Phase 1 runtime workspace
-
-Backend/API/worker and Flutter shells live under `05_code/`.
-
-Backend clean setup:
+Docker users can set `MINGO_APP_PASSWORD` in `05_code/.env` and run:
 
 ```sh
-bash 07_operations/scripts/clean_setup.sh
+cd 05_code
+docker compose up --build -d
 ```
 
-On Windows, create the venv and install the locked backend dependencies in PowerShell:
+Compose creates `mingo` and initializes `mingo_test` on a fresh PostgreSQL volume.
+
+## Backend setup and verification
+
+The canonical Python is 3.12. On Windows PowerShell:
 
 ```powershell
 py -3.12 -m venv .venv
@@ -52,26 +65,54 @@ py -3.12 -m venv .venv
 python -m pip install --upgrade pip
 python -m pip install -r 05_code/backend/requirements.lock
 python -m pip install --no-deps .\05_code\backend
-.\07_operations\scripts\verify_backend.ps1 -Python .\.venv\Scripts\python.exe
+.\07_operations\scripts\verify_backend.ps1 `
+  -Python .\.venv\Scripts\python.exe -RunPostgres
 ```
 
-The wrapper writes timestamped lint, test and API smoke evidence under `06_quality/evidence/`. Add `-RunPostgres` after setting `TEST_DATABASE_URL` to a disposable `*_test` database to run the real PostgreSQL tests.
+The PostgreSQL run migrates `mingo`, uses only `mingo_test` for destructive integration
+tests, processes a durable worker probe, requires API readiness HTTP 200, and records
+timestamped evidence under `06_quality/evidence/{backend,postgres,api,worker}`.
 
-PostgreSQL/API/worker local stack:
+For persistent API/worker processes and client launch commands, follow
+[`07_operations/docs/LOCAL_RUNTIME.md`](07_operations/docs/LOCAL_RUNTIME.md).
+
+Linux/macOS CI uses:
 
 ```sh
-cp 05_code/.env.example 05_code/.env
-# Set a random local POSTGRES_PASSWORD in 05_code/.env.
-cd 05_code
-docker compose up --build -d
+RUN_POSTGRES=1 bash 07_operations/scripts/verify_backend.sh
 ```
 
-Flutter bootstrap on a supported machine with the pinned Flutter SDK:
+## Flutter setup and verification
 
-```sh
-bash 07_operations/scripts/bootstrap_clients.sh
+Use Flutter 3.32.8 with Dart 3.8.1. Bootstrap deliberately untracked Android/Web host
+files while preserving authored `lib/`, `test/`, `integration_test/`, manifests, locks,
+and analyzer policy:
+
+```powershell
+.\07_operations\scripts\bootstrap_clients.ps1 `
+  -Flutter C:\path\to\flutter\bin\flutter.bat
+.\07_operations\scripts\verify_flutter.ps1 `
+  -Flutter C:\path\to\flutter\bin\flutter.bat
 ```
 
-## Important boundary
+The verifier runs pub resolution, analysis, tests, learner debug APK build, and staff Web
+build. Actual Android and browser boot evidence belongs under
+`06_quality/evidence/flutter/{learner,staff}`.
 
-This reorganization changes **repository layout only**. It does not change V3.2 business rules, scoring semantics, permissions, learning logic, or Phase 1 gate status. Exact original V3.2 source plus the original **115 contract checks and 22 SQL checks are still absent from the active repository**, so the original-contract CI gate remains fail-closed until genuine sources are imported with provenance.
+## Repository layout
+
+```text
+01_governance/   current status, decisions, issues, CRs, backlog
+02_product/      charter, PRD, learning and product specifications
+03_research/     Phase 1 research and legacy KLTN context
+04_architecture/ V3.2 baseline mapping, contracts, data/ML boundaries
+05_code/         executable backend, apps, Compose and environment template
+06_quality/      gates, standards and immutable run evidence
+07_operations/   setup, migration and verification instructions/scripts
+08_handoff/      provenance and canonical handoff metadata
+99_archive/      historical packages only; never current implementation truth
+```
+
+The original V3.2 source and genuine 115 contract plus 22 SQL checks are not present in
+the supplied artifacts. `check_original_contracts.py` therefore fails closed. New
+foundation tests are additive and never substitute for that original suite.

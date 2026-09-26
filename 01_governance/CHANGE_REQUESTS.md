@@ -1,6 +1,6 @@
 # Change Requests
 
-**No Change Request established on 2026-09-23.** Research did not prove a contradiction with available V3.2 summaries, and the missing exact package is an Implementation Issue (II-01), not grounds to change V3.2.
+**No Change Request is open as of 2026-09-26.** Research and runtime implementation did not prove a contradiction with available V3.2 summaries. The missing exact package is Implementation Issue II-01. Database naming and Windows/Flutter tooling fixes preserve architecture and business semantics.
 
 Create a CR only when a cited original frozen rule/business contract is demonstrably incompatible with a necessary behavior. Required template:
 

@@ -1,0 +1,15 @@
+Commit: 4cdecb426d33b2996f4a3a72cc78da6a276b713f
+Command: flutter build apk --debug
+Support for Android x86 targets will be removed in the next stable release after 3.27. See https://github.com/flutter/flutter/issues/157543 for details.
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:\Mingo\.local\clean-reproduction-20260926\.local\java-tmp
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:\Mingo\.local\clean-reproduction-20260926\.local\java-tmp
+
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:\Mingo\.local\clean-reproduction-20260926\.local\java-tmp
+
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:\Mingo\.local\clean-reproduction-20260926\.local\java-tmp
+
+Running Gradle task 'assembleDebug'...                            402,9s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Exit code: 0

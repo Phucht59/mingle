@@ -1,10 +1,18 @@
 # START HERE — developer/agent onboarding
 
-This is the shortest safe path into the project.
+## 1. Current truth
 
-## 1. Know the authority order
+- Phase 0: **DONE**.
+- Phase 1: **ACTIVE; GATE NOT PASSED**.
+- Phase 2+: **DEFERRED**.
+- Local Python 3.12 backend, PostgreSQL, API, worker, Flutter Android build/boot, and
+  Flutter Web build/boot have current evidence.
+- Hosted foundation jobs and full runtime clean reproduction PASS. Exact V3.2
+  executable originals remain the external artifact blocker; their CI job fails closed.
 
-When two documents appear to disagree, use this order:
+Read `01_governance/PROJECT_STATE.md`, then `06_quality/gates/PHASE_1_GATE.md`.
+
+## 2. Authority order
 
 1. Explicit owner instruction.
 2. Exact approved V3.2 baseline/contract once available.
@@ -13,46 +21,47 @@ When two documents appear to disagree, use this order:
 5. Current project state/snapshot/decision register.
 6. Older handoff/history.
 
-Do **not** silently change a frozen business rule. Raise an Implementation Issue; if the foundation must change, use a Change Request.
+Do not silently change a frozen business rule. Log an Implementation Issue and use a
+Change Request only when a concrete contract conflict requires a semantic change.
 
-## 2. Know the current phase
+## 3. First local run
 
-- Phase 0 — Architecture & Contract Baseline: **DONE**.
-- Phase 1 — Implementation Foundation / Product Build Kickoff: **ACTIVE**.
-- Phase 1 mandatory gate: **NOT PASSED**.
-- Phase 2 onward: **DEFERRED** until Phase 1 closes.
+1. Install/use Python 3.12 and Flutter 3.32.8.
+2. Provision PostgreSQL role `mingo_app`, application DB `mingo`, and disposable test DB
+   `mingo_test`. Never create a database per development phase.
+3. Copy `05_code/.env.example` to ignored `05_code/.env` and replace placeholders.
+4. Follow the backend and Flutter commands in `README.md`.
+5. Read new output in the matching `06_quality/evidence/` subdirectory; do not rewrite
+   old evidence.
 
-Current blockers are documented in `06_quality/gates/PHASE_1_GATE.md` and `01_governance/IMPLEMENTATION_ISSUES.md`.
-
-## 3. Read only what your task needs
+## 4. Work map
 
 | Task | Read first | Work mainly in |
 |---|---|---|
-| Product behavior / MVP | `02_product/` | specs + issue/CR if behavior changes |
-| Scientific/learning rationale | `03_research/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md` | research docs; do not rewrite frozen product rules automatically |
+| Product behavior / MVP | `02_product/` | product specs + governance when behavior changes |
+| Scientific rationale | `03_research/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md` | research docs |
 | Backend/API/worker | `04_architecture/`, Phase 1 gate | `05_code/backend/` |
-| Flutter learner | product specs + architecture boundaries | `05_code/apps/learner/` |
-| Flutter staff/admin | product specs + auth/permission boundaries | `05_code/apps/staff/` |
-| Database/migrations | V3.2 + DB ops doc | `05_code/backend/.../migrations/` |
-| Tests/gate verification | `06_quality/standards/`, gate | tests + `06_quality/evidence/` |
-| CI/local setup | `07_operations/` | scripts/workflows |
-| Historical audit only | `99_archive/` | do not implement directly from archive |
+| Learner Android | product specs + boundaries | `05_code/apps/learner/` |
+| Staff Web | product specs + permission boundaries | `05_code/apps/staff/` |
+| Database/migrations | V3.2 material + ops docs | backend migrations / Compose init |
+| Verification | `06_quality/standards/`, gate | tests + matching evidence subfolder |
+| Setup/CI | `07_operations/` | scripts and `.github/workflows/` |
+| Historical audit | `99_archive/` | inspect only; do not implement from it |
 
-## 4. Rules that must survive implementation
+## 5. Invariants
 
-- Flutter Android-first learner; Flutter Web for staff/admin; iOS-compatible, public release later.
-- FastAPI/Python + PostgreSQL + Object Storage.
-- Modular monolith; API process and durable worker process share the codebase.
-- Server authoritative for scoring, progress and permission.
-- Commands are separate from telemetry.
-- Offline client uses durable command and telemetry queues.
-- Published content is immutable/versioned; enrollment/attempt pins exact revisions.
-- Analytics distinguishes event time, knowledge/availability time and source capture.
-- Mastery is not Risk; Risk is optional input to recommendation.
-- Prediction, Recommendation Decision, Exposure, Execution and Outcome remain separate layers.
-- Product must work with ML/recommendation disabled.
-- Do not introduce Kafka, Kubernetes, microservices, warehouse or external feature store without a real requirement/load justification.
+- Flutter Android-first learner and Flutter Web staff/admin.
+- FastAPI/Python, PostgreSQL, Object Storage, modular monolith.
+- API and durable worker share one codebase.
+- Server authority for scoring, progress, and permission.
+- Commands and telemetry stay separate; offline queues are durable.
+- Published content is immutable/versioned; attempts pin exact revisions.
+- Event time, knowledge/availability time, and source capture remain distinct.
+- Mastery is distinct from Risk; prediction, decision, exposure, execution, and outcome
+  remain distinct.
+- The product has a deterministic path with intelligence/recommendation disabled.
+- No Kafka, Kubernetes, microservices, warehouse, or external feature store without a
+  demonstrated requirement.
 
-## 5. Definition of safe progress
-
-A schema compiling is not a runtime pass. A source file existing is not a gate pass. Phase 1 closes only with the required integration/concurrency/security/runtime evidence and the exact V3.2 original verification suite integrated with provenance.
+Source existence, a successful schema compile, or a build artifact alone does not close a
+runtime gate. Phase 1 closes only when every mandatory item has observed evidence.

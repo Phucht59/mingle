@@ -1,8 +1,14 @@
-> Canonical-layout update — 2026-09-24: active source is organized under `05_code/`; Phase 1 remains ACTIVE / GATE NOT PASSED. Current status: `01_governance/PROJECT_STATE.md`; observed runtime evidence: `06_quality/evidence/VERIFICATION_REPORT.md`. Exact original V3.2 verification sources remain absent.
+> Updated 2026-09-26: active source is under `05_code/`; Phase 1 remains ACTIVE / GATE NOT PASSED. Current status: `01_governance/PROJECT_STATE.md`; current CI evidence: `06_quality/evidence/ci/README.md`. Exact original V3.2 verification sources remain absent.
 
 # CI/CD Baseline
 
 The canonical workflow is `.github/workflows/foundation.yaml`. Its presence is not a claim of a successful hosted run; retain run evidence before marking CI PASS.
+
+Observed run `36250667211` at `4cdecb4` passes backend (10 unit plus 6 PostgreSQL
+tests) and both Flutter jobs. The original V3.2 job fails closed, so the overall
+workflow is BLOCKED by II-01. See `06_quality/evidence/ci/README.md`. The table below
+describes the intended verification boundaries; later domain behavior is not claimed
+to exist merely because the Phase 1 infrastructure job passes.
 
 | Stage | Check | Evidence to retain |
 |---|---|---|

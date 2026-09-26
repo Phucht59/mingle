@@ -32,15 +32,13 @@ Updated **2026-09-26**. This file summarizes durable project context; current op
 Canonical runtime code is under `05_code/`.
 
 - Backend API/foundation, worker source, infrastructure-only PostgreSQL migrations, local immutable object adapter and test harness exist.
-- Existing evidence records **10 backend unit/security/storage tests PASS**.
-- Windows rerun on Python 3.14.7 installed the locked dependencies, passed Ruff and 9 backend tests; six PostgreSQL tests were skipped without a DB URL, and symlink escape was skipped on Windows error 1314. A real Uvicorn subprocess returned liveness 200 and readiness 503. II-09 records the Windows storage path/fsync fix.
-- Existing HTTP smoke records liveness=200 and readiness=503 without DB.
-- Six PostgreSQL integration/concurrency tests exist but are **NOT RUN** against a real PostgreSQL runtime.
-- Worker success against PostgreSQL is not yet evidenced.
-- Flutter learner/staff shell source and tests exist but have not yet produced accepted analyze/test/build/actual-boot evidence.
+- Canonical Python 3.12.10 locked install, Ruff and storage smoke pass. Windows passes 9 focused tests; Linux hosted CI passes all 10, including symlink escape.
+- PostgreSQL role `mingo_app`, application DB `mingo`, disposable test DB `mingo_test`; no phase-specific databases. All 6 integration/concurrency tests pass locally and on CI.
+- Real API liveness/readiness are 200/200. Worker durable completion and heartbeat pass. A fresh isolated cluster also verifies simultaneous API/worker execution and exactly one persisted probe effect.
+- Flutter 3.32.8 learner/staff analyze/test/build pass locally and on CI. Actual Android emulator and Chrome boot are evidenced locally.
 - Exact original V3.2 source and the original **115 contract + 22 SQL** check sources remain absent from the active repository.
-- Hosted CI has not yet produced a recorded run.
-- Git metadata was restored on branch `main` from the supplied canonical bundle; no hosted `origin` remote is configured.
+- Hosted run `36250667211` passes backend and both Flutter jobs; the original V3.2 job fails closed. Overall CI remains blocked by II-01.
+- Branch `main` is hosted at `https://github.com/Phucht59/mingo.git`; verified runtime revision `4cdecb4`.
 - Phase 1 is **ACTIVE; GATE NOT PASSED**. Phase 2 remains DEFERRED.
 
 ## Canonical repository organization
@@ -49,4 +47,6 @@ Canonical runtime code is under `05_code/`.
 
 ## Next work
 
-Run DB/worker and Flutter verification on supported hosts, import exact V3.2 originals with provenance, wire the original 115+22 suite, run hosted CI and whole-stack clean reproduction, then rerun the Phase 1 gate. Do not begin formal Phase 2 implementation before that gate passes.
+Full runtime clean reproduction passed. Import exact V3.2 originals with provenance,
+wire their unchanged 115+22 suite, and rerun the complete hosted gate. Do not begin Phase 2
+before every mandatory gate passes. Current closure state is in `PROJECT_STATE.md`.

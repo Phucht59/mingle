@@ -1,0 +1,16 @@
+Sanitized derivative: local debugger URIs redacted; raw log retained in ignored .local/debug-evidence.
+Command: flutter run -d chrome --web-port 8123
+Launching lib\main.dart on Chrome in debug mode...
+Waiting for connection from debug service on Chrome...             18,2s
+This app is linked to the debug service: [local debugger URI redacted]
+Debug service listening on [local debugger URI redacted]
+
+Flutter run key commands.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Chrome is available at: [local debugger URI redacted]
+The Flutter DevTools debugger and profiler on Chrome is available at: [local debugger URI redacted]

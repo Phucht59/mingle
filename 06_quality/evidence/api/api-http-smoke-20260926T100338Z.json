@@ -1,0 +1,17 @@
+{
+  "commit": "eb0dcc169c64813fa8d08aa715eb65073b2f33fe",
+  "live": {
+    "status": 200,
+    "body": {
+      "status": "alive"
+    },
+    "request_id": "accc3838-95e9-4556-97c3-3aae525307b4"
+  },
+  "ready": {
+    "status": 200,
+    "body": {
+      "status": "ready"
+    },
+    "request_id": "61c95812-581c-4c33-972f-e33ab46256fa"
+  }
+}

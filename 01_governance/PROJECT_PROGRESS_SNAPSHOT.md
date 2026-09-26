@@ -2,49 +2,68 @@
 
 ## Milestone
 
-**Canonical repository reorganization completed and Git metadata restored from the supplied canonical bundle on `main`. A Windows backend rerun exposed and fixed a storage portability defect. Phase 1 remains ACTIVE and its gate remains NOT PASSED.**
+**Canonical local Phase 1 runtime is operational on Windows. Phase 1 remains ACTIVE and
+the gate remains NOT PASSED because exact V3.2 executable originals are absent.
+Hosted foundation jobs and full runtime clean reproduction now PASS.**
 
-## DONE
+## Component status
 
-- Phase 0 architecture/contract baseline recorded as V3.2 source of truth.
-- Phase 1 research resolution Q1–Q18 completed and preserved.
-- Product Charter, MVP PRD, Learner Evidence Model and Adaptive Feed MVP specification preserved as active product material.
-- Greenfield FastAPI backend/API foundation, durable-worker source, PostgreSQL migration source and immutable local-storage adapter exist.
-- Separate learner/staff Flutter shell source and tests exist.
-- Command and telemetry boundaries remain separate in foundation code.
-- Existing evidence preserves 10 backend unit/security/storage test passes, API liveness smoke and local-storage smoke.
-- Canonical repo reorganized into governance, product, research, architecture, code, quality, operations, handoff and archive domains.
-- Previous handoff pack and original source bundle preserved under `99_archive/` / `08_handoff/provenance/`.
-- Windows clean-venv backend rerun: locked install and `pip check` PASS; Ruff PASS; 9 unit/security/storage tests PASS, with 6 database tests and the symlink test skipped for unavailable DB/Windows privilege.
-- Repeatable Windows PowerShell backend verification wrapper added and exercised; it writes timestamped lint, test, and API process evidence.
-- Backend-only clean reproduction from fresh `main` clone at `51b741e0c789a8492c8452f3094e9967795bd0f4` passed lock/package installation, Ruff, 9 tests and actual API liveness. Whole-stack clean reproduction remains blocked by DB/Flutter/original-suite/hosted-CI prerequisites.
-- Actual Uvicorn subprocess boot and liveness HTTP 200 PASS; readiness remains 503 without PostgreSQL credentials.
-- II-09 Windows object-storage path/fsync portability defect RESOLVED; fix and timestamped API evidence are recorded.
+| Component | Result | Current evidence |
+|---|---|---|
+| Backend | PASS | `06_quality/evidence/backend/` |
+| PostgreSQL | PASS | `06_quality/evidence/postgres/` |
+| API | PASS, live=200 ready=200 | `06_quality/evidence/api/` |
+| Durable worker | PASS | `06_quality/evidence/worker/` |
+| Learner | PASS local build + actual Android boot | `06_quality/evidence/flutter/learner/` |
+| Staff | PASS local build + actual browser boot | `06_quality/evidence/flutter/staff/` |
+| V3.2 originals | BLOCKED | `06_quality/evidence/v3_2/` |
+| Hosted CI | Foundation jobs PASS; overall BLOCKED only by V3.2 | `06_quality/evidence/ci/` |
+| Full clean reproduction | PASS for supplied runtime | `06_quality/evidence/clean_reproduction/` |
+| Tracked-source handoff | PASS | `08_handoff/RELEASE_CHECK_20260926.md` |
 
-## ACTIVE
+## Completed in this milestone
 
-- Phase 1 implementation foundation closure.
-- Exact V3.2 contract/source mapping once original sources are supplied.
-- Runtime verification on supported PostgreSQL/Flutter/hosted CI environments.
+- Installed and used Python 3.12.10; recreated the canonical `.venv` from the backend lock.
+- Created/updated PostgreSQL role `mingo_app` with a generated local secret kept only in
+  ignored `05_code/.env`; created `mingo` and disposable `mingo_test`.
+- Preserved SCRAM authentication. The temporary administrator bootstrap rule was restored
+  byte-for-byte and both databases were authenticated as `mingo_app` afterward.
+- Passed Ruff, focused backend tests, all 6 real PostgreSQL integration/concurrency tests,
+  repeat migration, storage smoke, durable worker probe/healthcheck, and API 200/200 health.
+- Normalized Compose and CI to one Mingo database topology.
+- Installed Flutter 3.32.8, Dart 3.8.1, Android Studio/SDK API 35, licenses, emulator,
+  Microsoft JDK 17, and Android Emulator Hypervisor Driver.
+- Fixed missing `flutter_lints` declarations exposed by the preserved-manifest bootstrap.
+- Fixed Windows Unicode-profile Gradle verification by using an ASCII Java temp directory;
+  used an ASCII AVD home for reliable emulator boot.
+- Passed learner analyze/test/debug APK and actual Android cold boot with UI assertions.
+- Passed staff analyze/test/Web build and actual Chrome render with screenshot.
+- Confirmed `Mingo (2).zip` includes `.git`, `.venv`, `.local`, caches/build output and
+  duplicate nested historical archives; it is not a clean canonical handoff.
+- Exhaustively rechecked active files, archive, nested ZIPs, Git history, refs and bundles.
+  Historical 115+22 claims exist, but executable original suites do not.
+- Pushed main and verified hosted backend (10 unit plus 6 PostgreSQL tests) and both
+  Flutter jobs. Fixed the runner's Docker health-command quoting issue.
+- Reproduced the runtime from a clean clone with new virtualenv, database cluster,
+  object store, Pub/Gradle caches, Android AVD and Chrome profile; inspected both UIs.
+- Produced and validated a tracked-source ZIP; scanned prospective tracked files for
+  known credentials and token patterns with no matches.
 
-## BLOCKED
+## Remaining blockers
 
-- Original V3.2 source and exact 115 contract + 22 SQL verification sources are absent.
-- PostgreSQL 18 is running locally, but its role password and disposable test database access are not established; migration/concurrency verification and successful worker runtime are not yet evidenced.
-- Flutter SDK, Android tooling/device/emulator are unavailable; learner/staff analyze/test/build and actual Android/Web boot are not yet evidenced.
-- Exact V3.2 original sources and 115+22 checks remain absent after active/archive/bundle search.
-- No hosted Git remote is configured; hosted CI and whole-stack clean reproduction are not yet evidenced.
+1. **II-01 external artifact:** supply the exact approved V3.2 source and original
+   executable 115 contract + 22 SQL suites.
 
-## DEFERRED
+The original hosted job remains blocked by the same artifact; other hosted jobs pass.
+II-03 exact audio replay mapping also depends on II-01. II-02 remains non-blocking.
+II-04/05/07/08/09/10/11/12/13/14 are resolved; II-06 foundation CI is resolved.
 
-- Formal Phase 2 UX/UI Product System start.
-- Identity/Auth/Authorization and all later roadmap phases.
-- Production ML/recommendation implementation and weights.
+## Governance
 
-## Frozen decisions retained
+- New frozen implementation convention: `mingo_app` / `mingo` / `mingo_test`, with no
+  phase-specific database split.
+- No frozen business rule changed; Change Requests remain NONE.
+- Phase 2 remains DEFERRED.
 
-Flutter Android-first learner; Flutter Web staff/admin; iOS-capable direction. FastAPI/Python, PostgreSQL, Object Storage, modular monolith, API + durable worker same codebase, server-authoritative scoring/progress/permission, command/telemetry separation, durable offline queues, immutable/versioned published content, exact revision pinning, event/knowledge/source time separation, Mastery != Risk, Risk optional for recommendation, Prediction/Decision/Exposure/Execution/Outcome separation, and product operation without ML/recommendation.
-
-## Gate
-
-Use `06_quality/gates/PHASE_1_GATE.md`. No folder cleanup, source existence, schema pass or authored test alone may be used to relabel Phase 1 DONE.
+Git runtime baseline verified: `4cdecb426d33b2996f4a3a72cc78da6a276b713f`.
+Hosted run: `36250667211`. Later commits record evidence/governance without runtime changes.

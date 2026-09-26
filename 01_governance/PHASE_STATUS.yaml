@@ -10,16 +10,20 @@ phase_1:
   gate: NOT_PASSED
   blockers:
     - exact_v3_2_original_sources_and_115_contract_22_sql_checks_absent
-    - postgresql_role_password_and_disposable_test_database_access_required
-    - migrations_and_6_integration_concurrency_tests_not_evidenced
-    - durable_worker_successful_runtime_not_evidenced
-    - flutter_android_toolchain_and_actual_android_web_boot_not_available
-    - hosted_ci_remote_and_full_clean_reproduction_not_available
-  observed_rerun: 06_quality/evidence/PHASE1_RERUN_20260926.md
-  backend_windows_unit_tests: PASS_9_SKIPPED_7
-  backend_windows_api_liveness: PASS_200
-  backend_windows_api_readiness: BLOCKED_503_DATABASE_UNAVAILABLE
-  backend_clean_clone: PASS_BACKEND_ONLY
+  backend_python_3_12: PASS
+  postgresql_mingo_and_mingo_test: PASS
+  postgresql_integration_concurrency: PASS_6_OF_6
+  api_liveness_readiness: PASS_200_200
+  durable_worker: PASS
+  learner_android_local: PASS
+  staff_web_local: PASS
+  original_v3_2: BLOCKED_EXTERNAL_ARTIFACT
+  hosted_foundation_jobs: PASS
+  hosted_ci_overall: BLOCKED_BY_ORIGINAL_V3_2
+  full_runtime_clean_reproduction: PASS
+  tracked_source_handoff: PASS
+  verified_runtime_commit: 4cdecb426d33b2996f4a3a72cc78da6a276b713f
+  hosted_run_id: 36250667211
 phase_2:
   name: UX/UI Product System
   status: DEFERRED

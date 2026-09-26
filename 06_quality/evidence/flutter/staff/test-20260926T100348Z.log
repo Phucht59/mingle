@@ -1,0 +1,6 @@
+Commit: eb0dcc169c64813fa8d08aa715eb65073b2f33fe
+Command: flutter test
+00:00 +0: loading C:/Mingo/05_code/apps/staff/test/widget_test.dart
+00:00 +0: shell renders without learning claims or overflow
+00:00 +1: All tests passed!
+Exit code: 0

@@ -1,0 +1,11 @@
+UTC: 2026-09-26T15:14:51.096671+00:00
+Command: C:\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell am start -W -n com.example.adaptive_learner/.MainActivity
+Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.adaptive_learner/.MainActivity
+TotalTime: 4984
+WaitTime: 4994
+Complete
+
+Exit code: 0

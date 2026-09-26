@@ -1,0 +1,11 @@
+Sanitized derivative: local debugger access URI redacted; raw log retained in ignored .local/debug-evidence.
+Command: flutter run -d emulator-5554 --debug --no-resident
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:\Mingo\.local\java-tmp
+Running Gradle task 'assembleDebug'...                             31,9s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           4,2s
+I/flutter ( 3608): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(94)] Using the Impeller rendering backend (OpenGLES).
+Error connecting to the service protocol: failed to connect to [local debugger URI redacted] getVersion: (-32000) Service connection disposed
+Exit code: 2
