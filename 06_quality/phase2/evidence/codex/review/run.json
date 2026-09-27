@@ -30,7 +30,7 @@
       "sources": [
         "08_handoff\\phase2\\HANDOFF_INDEX.md"
       ],
-      "time": "2026-09-27T14:58:09.058860+00:00",
+      "time": "2026-09-27T15:02:13.829848+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-001.json"
     },
     {
@@ -39,13 +39,14 @@
       "method": "artifact inspection / reproducible checks; not independent signoff",
       "observed": {
         "protected_file_count": 137,
-        "raw_hash_mismatches": [],
-        "git_diff": ""
+        "hash_mismatches": [],
+        "git_diff": "",
+        "line_endings": "Accept exact original working-copy bytes or exact original Git blob bytes; original V3.2 has identical hashes in both. Git-less extraction uses cryptographic baseline hashes."
       },
       "sources": [
         "evidence/codex/intake.json"
       ],
-      "time": "2026-09-27T14:58:09.131694+00:00",
+      "time": "2026-09-27T15:02:13.911983+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-002.json"
     },
     {
@@ -56,7 +57,7 @@
       "sources": [
         "01_PHASE_2_CONTRACT.md"
       ],
-      "time": "2026-09-27T14:58:09.131694+00:00",
+      "time": "2026-09-27T15:02:13.911983+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-003.json"
     },
     {
@@ -71,7 +72,7 @@
         "PHASE_2_SPEC.json",
         "SCREEN_STATE_QA_TRACEABILITY.csv"
       ],
-      "time": "2026-09-27T14:58:09.131694+00:00",
+      "time": "2026-09-27T15:02:13.911983+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-004.json"
     },
     {
@@ -141,7 +142,7 @@
         "PHASE_2_SPEC.json",
         "05_NAVIGATION_ROUTING_SPEC.md"
       ],
-      "time": "2026-09-27T14:58:09.131694+00:00",
+      "time": "2026-09-27T15:02:13.911983+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-005.json"
     },
     {
@@ -152,7 +153,7 @@
       "sources": [
         "12_UX_REQUIREMENT_TRACEABILITY.md"
       ],
-      "time": "2026-09-27T14:58:09.131694+00:00",
+      "time": "2026-09-27T15:02:13.916944+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-006.json"
     },
     {
@@ -163,7 +164,7 @@
       "sources": [
         "01_PHASE_2_CONTRACT.md"
       ],
-      "time": "2026-09-27T14:58:09.138677+00:00",
+      "time": "2026-09-27T15:02:13.916944+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-007.json"
     },
     {
@@ -178,7 +179,7 @@
         "10_CONTENT_MICROCOPY_GUIDE.md",
         "prototype/app.js"
       ],
-      "time": "2026-09-27T14:58:09.138677+00:00",
+      "time": "2026-09-27T15:02:13.916944+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-008.json"
     },
     {
@@ -186,14 +187,14 @@
       "status": "PASS",
       "method": "artifact inspection / reproducible checks; not independent signoff",
       "observed": {
-        "files_scanned": 187,
+        "files_scanned": 190,
         "matched_paths": [],
         "scope": "Phase 2 text; exact ZIP also checked by packaging verifier"
       },
       "sources": [
         "07_operations/scripts/verify_phase2_review.py"
       ],
-      "time": "2026-09-27T14:58:09.764052+00:00",
+      "time": "2026-09-27T15:02:14.080760+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-009.json"
     },
     {
@@ -209,8 +210,30 @@
         "prototype/index.html",
         "prototype/styles.css"
       ],
-      "time": "2026-09-27T14:58:09.770644+00:00",
+      "time": "2026-09-27T15:02:14.080760+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QC-010.json"
+    },
+    {
+      "id": "QA-NAV-009",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
+      "sources": [
+        "05_NAVIGATION_ROUTING_SPEC.md"
+      ],
+      "time": "2026-09-27T15:02:14.080760+00:00",
+      "evidence": "06_quality/phase2/evidence/codex/review/QA-NAV-009.json"
+    },
+    {
+      "id": "QA-NAV-010",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
+      "sources": [
+        "05_NAVIGATION_ROUTING_SPEC.md"
+      ],
+      "time": "2026-09-27T15:02:14.084021+00:00",
+      "evidence": "06_quality/phase2/evidence/codex/review/QA-NAV-010.json"
     },
     {
       "id": "QA-BIZ-006",
@@ -262,7 +285,7 @@
         "PHASE_2_SPEC.json",
         "12_UX_REQUIREMENT_TRACEABILITY.md"
       ],
-      "time": "2026-09-27T14:58:09.770987+00:00",
+      "time": "2026-09-27T15:02:14.086027+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QA-BIZ-006.json"
     },
     {
@@ -335,7 +358,7 @@
         "prototype/styles.css",
         "prototype/app.js"
       ],
-      "time": "2026-09-27T14:58:09.770987+00:00",
+      "time": "2026-09-27T15:02:14.086027+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QA-ACC-004.json"
     },
     {
@@ -344,7 +367,7 @@
       "method": "artifact inspection / reproducible checks; not independent signoff",
       "observed": {
         "review": "Reviewed assessment selection/submit/result/continue, assisted/retry/skip state, placement, Check restrictions, sync/ack recovery, draft validation/preview/license/review/publication lineage, focus and stable hooks. Screen routes, state catalog and tokens are supplied. Acceptance still requires Tech Lead.",
-        "contract": "# Complex Screen Interaction Contracts — Rework R1\n\nStatus: **canonical Phase 2 interaction detail for complex surfaces**. V3.2 remains authority for backend/domain contracts. These contracts remove UX decisions from Phase 3–5 implementation without inventing backend fields.\n\n## Common response state machine — L-022 / L-024 / L-025 / L-027\n\n`READY → SELECTED → SUBMITTING → RESULT → CONTINUE`\n\nAlternative explicit path where allowed: `READY/SELECTED → SKIP_CONFIRM/RECORDED → CONTINUE`.\n\nRules:\n- Submit is disabled until a selection exists; no blank response can advance.\n- Selection is local UI state and is not submission.\n- `first_response` UX context is never replaced by retry response.\n- `assisted=true` is independent of feedback/correctness and persists through result/summary.\n- Current practice retry hypothesis allows one retry on Retrieve; Check has no pre-submit hint and no practice retry.\n- Skip is explicit, non-shaming and does not create completion/mastery/reward.\n- Every result has an explicit Continue transition; result and continue are not the same click.\n\nRecommended hooks: `screen-L-022`, `screen-L-024`, `screen-L-025`, `screen-L-027`, `action-<screen>-submit`, `action-L-029-retry`, stable option IDs.\n\n## L-005 Placement Question\n\n**Anatomy:** domain label, progress, prompt, optional AudioControl, response options, validation, Submit, domain Skip only where policy allows, recorded-result message, Next.\n\n**Validation:** Submit disabled until response; if a domain is explicitly skippable, Skip is a separate action. No global score or CEFR certification wording.\n\n**State:** READY → SELECTED → RESULT → NEXT. Listening can enter MEDIA_UNAVAILABLE and expose explicit domain skip/return path rather than fabricated completion.\n\n**Dependency boundary:** server scoring/placement policy arrives later. Phase 2 only locks the interaction and uncertainty language.\n\n## L-024 Retrieve Item\n\n**Anatomy:** objective context, prompt/stimulus, AnswerOptions, optional Hint action, explicit Skip, result panel, retry action, Continue.\n\n**State data:** `selected`, `firstResponse`, `retryResponse`, `retryCount`, `assisted`, `skipped`, `result`, `final`.\n\n**Invariant:** using a hint sets `assisted=true`; later correct submit never clears it. Retry count is bounded by versioned policy; first response remains visible in evidence context if surfaced.\n\n## L-027 Independent Check\n\n**Anatomy:** Check label, prompt/stimulus, optional AudioControl, AnswerOptions, disabled-until-selection Submit, final result, Continue.\n\n**Forbidden actions:** Hint before submit; practice retry; blank submit. Listening UI may show offered plays but client playback does not authorize score.\n\n## L-060 / L-061 Sync and Recovery\n\nState transitions:\n\n`OFFLINE_AVAILABLE → LOCAL_QUEUED → (network restored, still LOCAL_QUEUED) → SYNCING → SERVER_ACKNOWLEDGED/SYNCED`\n\nFailure branches from SYNCING: `SYNC_PARTIAL`, `SYNC_FAILED_RETRYABLE`, `SYNC_REAUTH`, `CANONICAL_REFRESH`.\n\nRules:\n- `network_online=true` never directly implies `SYNCED`.\n- Retry reuses the same durable command identity in implementation.\n- Re-auth preserves local queue; it does not grant local authorization.\n- Canonical refresh replaces stale presentation with server-confirmed state, not the reverse.\n- MEDIA_UNAVAILABLE blocks a media-required assessment path; it never fabricates completion.\n\n## S-031 Content Draft Editor\n\n**Required field/anatomy categories:** item type, domain/objective metadata, learner prompt/stimulus, canonical answer/distractors where applicable, feedback, optional hint, media reference where applicable, source/provenance/license, draft/revision status, reviewer note.\n\n**Actions:** Save Draft, Preview, Submit for Review. Each is distinct. Preview has no publish side effect.\n\n**Validation:** visible and programmatically associated labels; required field error appears adjacent and in targeted alert/status region. Source/license completeness is visible before review/publish.\n\n**Permissions:** Phase 2 specifies UI capability only; Phase 3+ server authorization remains authoritative.\n\n## S-032 Preview\n\nRead-only rendering of the current draft. No learner progress, publication or immutable revision is created. Back returns to draft/review context.\n\n## S-033 Source & License\n\nRequired: source reference, reuse/license status, validation/gate reason. Public availability alone is not permission. A verified state enables review approval; failed/unknown state keeps publish blocked.\n\n## S-035 Review Detail\n\nStates: `LICENSE_BLOCKED`, `APPROVABLE`, `CHANGES_REQUESTED`. Approve remains disabled while license/provenance gate fails. Request Changes returns an actionable reviewer note to Draft Editor.\n\n## S-036 Publish Confirmation\n\nModal/sheet with immutable-effect explanation, revision identifier, Cancel and Confirm Publish. Focus is contained while open and restored to Approve when canceled. Confirm creates the transition to S-037.\n\n## S-037 Published Revision\n\nRead-only immutable presentation. No Edit action. `Create new draft from revision` creates a new draft/revision lineage while historical attempts remain pinned to the prior revision.\n\n## Test/evidence requirement\n\nAll gate-critical screen/state combinations are explicitly mapped in `SCREEN_STATE_QA_TRACEABILITY.csv`. Codex execution must preserve the stable screen/action identifiers in the prototype and future Flutter test semantics.\n"
+        "contract": "# Complex Screen Interaction Contracts — Rework R1\n\nStatus: **canonical Phase 2 interaction detail for complex surfaces**. V3.2 remains authority for backend/domain contracts. These contracts remove UX decisions from Phase 3–5 implementation without inventing backend fields.\n\n## Common response state machine — L-022 / L-024 / L-025 / L-027\n\n`READY → SELECTED → SUBMITTING → RESULT → CONTINUE`\n\nAlternative explicit path where allowed: `READY/SELECTED → SKIP_CONFIRM/RECORDED → CONTINUE`.\n\nRules:\n- Submit is disabled until a selection exists; no blank response can advance.\n- Selection is local UI state and is not submission.\n- `first_response` UX context is never replaced by retry response.\n- `assisted=true` is independent of feedback/correctness and persists through result/summary.\n- Current practice retry hypothesis allows one retry on Retrieve; Check has no pre-submit hint and no practice retry.\n- Skip is explicit, non-shaming and does not create completion/mastery/reward.\n- Every result has an explicit Continue transition; result and continue are not the same click.\n\nRecommended hooks: `screen-L-022`, `screen-L-024`, `screen-L-025`, `screen-L-027`, `action-<screen>-submit`, `action-L-029-retry`, stable option IDs.\n\n## L-005 Placement Question\n\n**Anatomy:** domain label, progress, prompt, optional AudioControl, response options, validation, Submit, domain Skip only where policy allows, recorded-result message, Next.\n\n**Validation:** Submit disabled until response; if a domain is explicitly skippable, Skip is a separate action. No global score or CEFR certification wording.\n\n**State:** READY → SELECTED → RESULT → NEXT. Listening can enter MEDIA_UNAVAILABLE and expose explicit domain skip/return path rather than fabricated completion.\n\n**Dependency boundary:** server scoring/placement policy arrives later. Phase 2 only locks the interaction and uncertainty language.\n\n## L-024 Retrieve Item\n\n**Anatomy:** objective context, prompt/stimulus, AnswerOptions, optional Hint action, explicit Skip, result panel, retry action, Continue.\n\n**State data:** `selected`, `firstResponse`, `retryResponse`, `retryCount`, `assisted`, `skipped`, `result`, `final`.\n\n**Invariant:** using a hint sets `assisted=true`; later correct submit never clears it. Retry count is bounded by versioned policy; first response remains visible in evidence context if surfaced.\n\n## L-027 Independent Check\n\n**Anatomy:** Check label, prompt/stimulus, optional AudioControl, AnswerOptions, disabled-until-selection Submit, final result, Continue.\n\n**Forbidden actions:** Hint before submit; practice retry; blank submit. Listening UI may show offered plays but client playback does not authorize score.\n\n## L-060 / L-061 Sync and Recovery\n\nState transitions:\n\n`OFFLINE_AVAILABLE → LOCAL_QUEUED → (network restored, still LOCAL_QUEUED) → SYNCING → SERVER_ACKNOWLEDGED/SYNCED`\n\nFailure branches from SYNCING: `SYNC_PARTIAL`, `SYNC_FAILED_RETRYABLE`, `SYNC_REAUTH`, `CANONICAL_REFRESH`.\n\nRules:\n- `network_online=true` never directly implies `SYNCED`.\n- Retry reuses the same durable command identity in implementation.\n- Re-auth preserves local queue; it does not grant local authorization.\n- Canonical refresh replaces stale presentation with server-confirmed state, not the reverse.\n- MEDIA_UNAVAILABLE blocks a media-required assessment path; it never fabricates completion.\n\n## S-031 Content Draft Editor\n\n**Required field/anatomy categories:** item type, domain/objective metadata, learner prompt/stimulus, canonical answer/distractors where applicable, feedback, optional hint, media reference where applicable, source/provenance/license, draft/revision status, reviewer note.\n\n**Actions:** Save Draft, Preview, Submit for Review. Each is distinct. Preview has no publish side effect.\n\n**Validation:** visible and programmatically associated labels; required field error appears adjacent and in targeted alert/status region. Source/license completeness is visible before review/publish.\n\n**Permissions:** Phase 2 specifies UI capability only; Phase 3+ server authorization remains authoritative.\n\n## S-032 Preview\n\nRead-only rendering of the current draft. No learner progress, publication or immutable revision is created. Back returns to draft/review context.\n\n## S-033 Source & License\n\nRequired: source reference, reuse/license status, validation/gate reason. Public availability alone is not permission. A verified state enables review approval; failed/unknown state keeps publish blocked.\n\n## S-035 Review Detail\n\nStates: `LICENSE_BLOCKED`, `APPROVABLE`, `CHANGES_REQUESTED`. Approve remains disabled while license/provenance gate fails. Request Changes returns an actionable reviewer note to Draft Editor.\n\n## S-036 Publish Confirmation\n\nModal/sheet with immutable-effect explanation, revision identifier, Cancel and Confirm Publish. Focus is contained while open and restored to Approve when canceled. Confirm creates the transition to S-037.\n\n## S-037 Published Revision\n\nRead-only immutable presentation. No Edit action. `Create new draft from revision` creates a new draft/revision lineage while historical attempts remain pinned to the prior revision.\n\n## Test/evidence requirement\n\nAll gate-critical screen/state combinations are explicitly mapped in `SCREEN_STATE_QA_TRACEABILITY.csv`. Codex execution must preserve the stable screen/action identifiers in the prototype and future Flutter test semantics.\n\n## Execution clarifications — 2026-09-27\n\n- New mock responses are queued even while connected; only an explicit mock receipt/canonical refresh clears the queue. Practice retry feedback names the retry and preserves first-response context.\n- Draft fields persist in the in-memory prototype across Save/Preview/Review. Publishing snapshots values; a new draft copies that snapshot. Empty prompt/answer blocks review. Changing source invalidates verification. Reload persistence is not implemented or claimed.\n- Profile Edit goal returns to Profile after save/clear; it does not change learning evidence.\n- Demo controls expose recommendation unavailable and nothing eligible; they are test scenarios, not production navigation.\n- Missing-media practice Skip records a skip and shows Continue. Missing-media Check offers Leave cycle without a fabricated result.\n- Dialog Tab/Shift+Tab is contained; Escape/Cancel restores its trigger. Selection preserves the selected control's focus. Text at 200% must be checked for ancestor clipping, not only document overflow.\n"
       },
       "sources": [
         "15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md",
@@ -352,67 +375,8 @@
         "07_UI_STATE_CATALOG.md",
         "PHASE_2_SPEC.json"
       ],
-      "time": "2026-09-27T14:58:09.770987+00:00",
+      "time": "2026-09-27T15:02:14.086027+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-001.json"
-    },
-    {
-      "id": "QA-HO-004",
-      "status": "PASS",
-      "method": "artifact inspection / reproducible checks; not independent signoff",
-      "observed": {
-        "labels": [
-          "mock state · non-production · QC/QA rework",
-          "intentionally mock-only and must not be shipped as production logic"
-        ],
-        "runtime_unchanged": true
-      },
-      "sources": [
-        "prototype/index.html",
-        "13_DEVELOPER_HANDOFF.md"
-      ],
-      "time": "2026-09-27T14:58:09.770987+00:00",
-      "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-004.json"
-    },
-    {
-      "id": "QA-HO-005",
-      "status": "PASS",
-      "method": "artifact inspection / reproducible checks; not independent signoff",
-      "observed": {
-        "roles": [
-          "QC Lead",
-          "QA Lead",
-          "Tech Lead",
-          "Product/Owner"
-        ],
-        "signoffs": "PENDING; execution engineer has not signed for another role"
-      },
-      "sources": [
-        "Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx"
-      ],
-      "time": "2026-09-27T14:58:09.819204+00:00",
-      "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-005.json"
-    },
-    {
-      "id": "QA-NAV-009",
-      "status": "PASS",
-      "method": "artifact inspection / reproducible checks; not independent signoff",
-      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
-      "sources": [
-        "05_NAVIGATION_ROUTING_SPEC.md"
-      ],
-      "time": "2026-09-27T14:58:29.424676+00:00",
-      "evidence": "06_quality/phase2/evidence/codex/review/QA-NAV-009.json"
-    },
-    {
-      "id": "QA-NAV-010",
-      "status": "PASS",
-      "method": "artifact inspection / reproducible checks; not independent signoff",
-      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
-      "sources": [
-        "05_NAVIGATION_ROUTING_SPEC.md"
-      ],
-      "time": "2026-09-27T14:58:29.424676+00:00",
-      "evidence": "06_quality/phase2/evidence/codex/review/QA-NAV-010.json"
     },
     {
       "id": "QA-HO-002",
@@ -449,7 +413,7 @@
         "08_DESIGN_SYSTEM_SPEC.md",
         "prototype/styles.css"
       ],
-      "time": "2026-09-27T14:58:29.430662+00:00",
+      "time": "2026-09-27T15:02:14.088032+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-002.json"
     },
     {
@@ -460,8 +424,45 @@
       "sources": [
         "13_DEVELOPER_HANDOFF.md"
       ],
-      "time": "2026-09-27T14:58:29.430662+00:00",
+      "time": "2026-09-27T15:02:14.088032+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-003.json"
+    },
+    {
+      "id": "QA-HO-004",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "labels": [
+          "mock state · non-production · QC/QA rework",
+          "intentionally mock-only and must not be shipped as production logic"
+        ],
+        "runtime_unchanged": true
+      },
+      "sources": [
+        "prototype/index.html",
+        "13_DEVELOPER_HANDOFF.md"
+      ],
+      "time": "2026-09-27T15:02:14.088032+00:00",
+      "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-004.json"
+    },
+    {
+      "id": "QA-HO-005",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "roles": [
+          "QC Lead",
+          "QA Lead",
+          "Tech Lead",
+          "Product/Owner"
+        ],
+        "signoffs": "PENDING; execution engineer has not signed for another role"
+      },
+      "sources": [
+        "Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx"
+      ],
+      "time": "2026-09-27T15:02:14.132587+00:00",
+      "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-005.json"
     },
     {
       "id": "QA-HO-006",
@@ -478,9 +479,8 @@
         "PHASE_2_SPEC.json",
         "QA_TEST_CASES.csv"
       ],
-      "time": "2026-09-27T14:58:29.472351+00:00",
+      "time": "2026-09-27T15:02:14.132587+00:00",
       "evidence": "06_quality/phase2/evidence/codex/review/QA-HO-006.json"
     }
-  ],
-  "execution_order": "P0 artifact + P0 browser; P1 artifact + P1 browser"
+  ]
 }

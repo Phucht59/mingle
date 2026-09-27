@@ -33,9 +33,9 @@ refs=re.findall(r'`([^`]+)`',index.read_text(encoding='utf-8'))
 missing=[ref for ref in refs if not (index.parent/ref).exists()]
 record('QC-001',not missing,{'references':refs,'missing':missing},[str(index.relative_to(root))])
 intake=json.loads((q/'evidence/codex/intake.json').read_text())
-mismatch=[name for name,digest in intake['protected_hashes_before'].items() if not (root/name).is_file() or hashlib.sha256((root/name).read_bytes()).hexdigest()!=digest]
-diff=subprocess.check_output(['git','diff','--name-only',intake['base_commit'],'--','05_code','04_architecture/contracts/v3_2/source'],cwd=root,text=True)
-record('QC-002',not mismatch and not diff,{'protected_file_count':len(intake['protected_hashes_before']),'raw_hash_mismatches':mismatch,'git_diff':diff},['evidence/codex/intake.json'])
+mismatch=[name for name,digest in intake['protected_hashes_before'].items() if not (root/name).is_file() or hashlib.sha256((root/name).read_bytes()).hexdigest() not in {digest,intake['protected_git_blob_sha256'][name]}]
+diff=subprocess.check_output(['git','diff','--name-only',intake['base_commit'],'--','05_code','04_architecture/contracts/v3_2/source'],cwd=root,text=True) if (root/'.git').exists() else ''
+record('QC-002',not mismatch and not diff,{'protected_file_count':len(intake['protected_hashes_before']),'hash_mismatches':mismatch,'git_diff':diff,'line_endings':'Accept exact original working-copy bytes or exact original Git blob bytes; original V3.2 has identical hashes in both. Git-less extraction uses cryptographic baseline hashes.'},['evidence/codex/intake.json'])
 contract=read('01_PHASE_2_CONTRACT.md');handoff=read('13_DEVELOPER_HANDOFF.md');routing=read('05_NAVIGATION_ROUTING_SPEC.md');complex_spec=read('15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md')
 record('QC-003','Out of scope' in contract and all(f'Phase {n}' in contract for n in [3,4,5,6]),contract[contract.index('## Out of scope'):contract.index('## Frozen')],['01_PHASE_2_CONTRACT.md'])
 ids=[s['id'] for s in spec['screens']]
