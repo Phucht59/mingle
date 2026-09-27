@@ -1,4 +1,4 @@
-as_of: 2026-09-26
+as_of: 2026-09-27
 project: Mingo
 architecture_baseline: V3.2
 phase_0:
@@ -8,24 +8,39 @@ phase_1:
   name: Implementation Foundation / Product Build Kickoff
   status: DONE
   gate: PASSED
-  blockers: []
-  backend_python_3_12: PASS
-  postgresql_mingo_and_mingo_test: PASS
-  postgresql_integration_concurrency: PASS_6_OF_6
-  api_liveness_readiness: PASS_200_200
-  durable_worker: PASS
-  learner_android_local: PASS
-  staff_web_local: PASS
-  original_v3_2: PASS_115_CONTRACT_AND_22_SQL
-  hosted_foundation_jobs: PASS
-  hosted_ci_overall: PASS
-  full_runtime_clean_reproduction: PASS
-  tracked_source_handoff: PASS
-  verified_runtime_commit: d4165e8acdffa4e0a747b11ac3e1c3c852674293
-  hosted_run_id: 36252349822
 phase_2:
   name: UX/UI Product System
-  status: ELIGIBLE_TO_START
-  started: false
+  status: ACTIVE
+  design_deliverables: COMPLETE
+  qa_candidate: REWORK_R1_CODEX_EXECUTED_QA_RETEST_CANDIDATE
+  gate: NOT_PASSED
+  subphases:
+    contract_scope: DONE
+    information_architecture: DONE
+    learner_journeys: DONE
+    staff_journeys: DONE
+    screen_state_catalog: DONE
+    design_system: DONE
+    prototype_handoff: DONE
+    qc_qa_verification: RETEST_PENDING
+  blockers_to_gate:
+    - INTERACTIVE_SCREEN_READER_REVIEW
+    - INDEPENDENT_QC_QA_RETEST
+    - TECH_PRODUCT_SIGNOFF
+phase_3:
+  name: Identity/Auth/Authorization
+  status: DEFERRED
+  eligible: false
 change_request_open: false
 architecture_reopen_required: false
+
+phase_2_rework:
+  cycle: R1
+  status: CODEX_EXECUTED_READY_FOR_INDEPENDENT_QA_RETEST
+  independent_audit: NOT_PASSED_REWORK_REQUIRED
+  defects_fixed_in_candidate: 16
+  qa_cases: 94
+  codex_pass: 94
+  codex_p0_pass: 44
+  additional_execution_findings: 4
+  independently_closed_defects: 0

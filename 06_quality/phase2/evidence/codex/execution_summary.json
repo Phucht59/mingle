@@ -1,0 +1,25 @@
+{
+  "candidate": "codex-r1",
+  "package": "Mingo_Phase2_UXUI_QA_Retest_R1_20260927_codex-r1.zip",
+  "canonical_cases": 94,
+  "PASS": 94,
+  "FAIL": 0,
+  "BLOCKED": 0,
+  "NOT_RUN": 0,
+  "P0_total": 44,
+  "P0_pass": 44,
+  "browser_cases": 74,
+  "artifact_review_cases": 20,
+  "supplemental_checks": 30,
+  "supplemental_screen_reader": "BLOCKED",
+  "defects_execution_retested": 20,
+  "defects_independently_closed": 0,
+  "open_pending_independent": {
+    "P0": 4,
+    "P1": 14,
+    "P2": 2,
+    "P3": 0
+  },
+  "gate": "NOT PASSED",
+  "phase3": "DEFERRED"
+}

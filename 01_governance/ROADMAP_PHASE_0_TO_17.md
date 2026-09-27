@@ -2,8 +2,8 @@
 
 - Phase 0 — Architecture & Contract Baseline — **DONE**
 - Phase 1 — Implementation Foundation / Product Build Kickoff — **DONE / GATE PASSED**
-- Phase 2 — UX/UI Product System — **ELIGIBLE TO START; not started**
-- Phase 3 — Identity/Auth/Authorization
+- Phase 2 — UX/UI Product System — **ACTIVE; REWORK R1 READY FOR CODEX + INDEPENDENT QC/QA RETEST; GATE NOT PASSED**
+- Phase 3 — Identity/Auth/Authorization — **DEFERRED**
 - Phase 4 — Content Platform & Publishing
 - Phase 5 — Learning Core & Assessment
 - Phase 6 — Offline-first & Synchronization
@@ -20,5 +20,4 @@
 - Phase 17 — Growth / Experimentation / Continuous Learning
 
 ## Sequencing rule
-
-A later phase should not be entered merely because some code exists. Each phase requires explicit deliverables, acceptance criteria, and a gate.
+A later phase starts only after explicit deliverables, acceptance criteria and gate. Phase 3 is not eligible until the Rework R1 candidate passes independent Phase 2 QC/QA, accessibility, developer-handoff and Product/Tech signoff criteria.

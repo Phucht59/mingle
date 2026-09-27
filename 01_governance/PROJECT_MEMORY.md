@@ -1,6 +1,6 @@
 # Project Memory — canonical handoff
 
-Updated **2026-09-26**. This file summarizes durable project context; current operational truth is also reflected in `PROJECT_STATE.md` and `PHASE_STATUS.yaml`.
+Updated **2026-09-27**. This file summarizes durable project context; current operational truth is also reflected in `PROJECT_STATE.md` and `PHASE_STATUS.yaml`.
 
 ## Owner instructions and accepted decisions
 
@@ -39,15 +39,18 @@ Canonical runtime code is under `05_code/`.
 - Owner-supplied V3.2 source and original **115 contract + 22 SQL** suites are preserved unchanged with complete hashes/provenance. Local, fresh-clone and hosted reruns pass.
 - Hosted run `36252349822` at `d4165e8` passes every job, including the original suites and nine independent adapter guard tests.
 - Branch `main` is hosted at `https://github.com/Phucht59/mingo.git`; application source remains unchanged from fully reproduced runtime revision `4cdecb4`.
-- Phase 1 is **DONE; GATE PASSED**. Phase 2 is **ELIGIBLE TO START**, not started.
+- Phase 1 is **DONE; GATE PASSED**. Phase 2 is **ACTIVE — Candidate v1 rejected by independent QC/QA; Rework R1 source/spec fixes complete and READY FOR CODEX EXECUTION + INDEPENDENT QA RETEST; gate NOT PASSED**. Phase 3 is DEFERRED.
 
 ## Canonical repository organization
 
 `01_governance/` decisions/status; `02_product/` active product specs; `03_research/` scientific rationale; `04_architecture/` V3.2/boundaries; `05_code/` runtime source; `06_quality/` gates/standards/evidence; `07_operations/` run/verify scripts; `08_handoff/` provenance; `99_archive/` history only.
 
+## Current Phase 2 Rework R1
+
+The first UX/UI candidate was independently audited on 2026-09-27 and rejected with 16 findings: 3 P0, 11 P1 and 2 P2. Rework R1 fixes the source/spec/handoff defects without changing V3.2 or `05_code/`. The canonical R1 still has 57 screen IDs and 18 shared component contracts, but now includes executable onboarding/placement, Grammar, Listening, authoritative sync states, full staff publishing, persistent assisted evidence, bounded retry, accessibility/focus fixes, complex-screen interaction contracts and explicit Screen→State→Rule→QA traceability. The canonical retest suite is **94 cases** (87 original + 7 independent-audit regression/coverage cases).
+
+Source-level R1 fixes are **not QA closure**. All 16 defect records remain READY FOR RETEST until execution/review evidence closes them. The R1 QA control workbook is `06_quality/phase2/Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx`.
+
 ## Next work
 
-No mandatory Phase 1 work remains. Keep originals immutable and the verification
-adapter fail-closed. Phase 2 can be started only through the project workflow; it has
-not been automatically started. Later domain/auth/offline/ML and production gates
-remain in the roadmap. Current closure state is in `PROJECT_STATE.md`.
+Codex must execute `08_handoff/phase2/CODEX_EXECUTION_HANDOFF.md`, collect fresh browser/accessibility evidence, update the 94-case control truthfully, and create a QA retest package. Independent QC/QA then reproduces P0, retests all 16 findings and owns the gate recommendation. Do not mark Phase 2 DONE or start Phase 3 until 100% P0 PASS, zero open P0/P1, ≥95% executed PASS, mandatory accessibility PASS, developer handoff acceptance and Tech Lead + Product/Owner signoff. Keep V3.2 originals immutable; no architecture Change Request is open.

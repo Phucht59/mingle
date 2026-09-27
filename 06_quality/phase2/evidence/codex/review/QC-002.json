@@ -1,0 +1,14 @@
+{
+  "id": "QC-002",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "protected_file_count": 137,
+    "raw_hash_mismatches": [],
+    "git_diff": ""
+  },
+  "sources": [
+    "evidence/codex/intake.json"
+  ],
+  "time": "2026-09-27T14:58:09.131694+00:00"
+}

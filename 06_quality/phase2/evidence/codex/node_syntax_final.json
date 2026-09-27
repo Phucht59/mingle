@@ -1,0 +1,6 @@
+{
+  "command": "node --check 02_product/ux_ui/phase2/prototype/app.js",
+  "exit": 0,
+  "stdout": "",
+  "stderr": ""
+}

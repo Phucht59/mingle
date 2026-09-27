@@ -1,0 +1,937 @@
+{
+  "project": "Mingo",
+  "phase": "2 — UX/UI Product System",
+  "status": "DESIGN_COMPLETE_READY_FOR_QC_QA",
+  "gate": "NOT_PASSED_UNTIL_QC_QA_SIGNOFF",
+  "baseline": "V3.2.0",
+  "date": "2026-09-27",
+  "learner_navigation": [
+    "Home",
+    "Learn",
+    "Course",
+    "Profile"
+  ],
+  "staff_navigation": [
+    "Dashboard",
+    "Learners",
+    "Content",
+    "Interventions",
+    "Analytics",
+    "Administration"
+  ],
+  "screens": [
+    {
+      "id": "L-001",
+      "name": "Launch",
+      "route": "/launch",
+      "surface": "Learner",
+      "area": "Entry",
+      "purpose": "App launch and bootstrap handoff",
+      "entry": "App start",
+      "actions": "Continue automatically",
+      "states": "Loading, error, offline bootstrap",
+      "rules": "No business decision performed here"
+    },
+    {
+      "id": "L-002",
+      "name": "Welcome",
+      "route": "/welcome",
+      "surface": "Learner",
+      "area": "Onboarding",
+      "purpose": "Explain Mingo promise and let learner start",
+      "entry": "First use",
+      "actions": "Start learning",
+      "states": "Default, loading",
+      "rules": "No efficacy/mastery claim"
+    },
+    {
+      "id": "L-003",
+      "name": "Goal",
+      "route": "/onboarding/goal",
+      "surface": "Learner",
+      "area": "Onboarding",
+      "purpose": "Optional learner goal selection",
+      "entry": "Welcome",
+      "actions": "Continue / Skip for now",
+      "states": "Default, selected, error",
+      "rules": "Goal cannot rewrite measured skill"
+    },
+    {
+      "id": "L-004",
+      "name": "Placement Offer",
+      "route": "/onboarding/placement",
+      "surface": "Learner",
+      "area": "Onboarding",
+      "purpose": "Offer short optional placement",
+      "entry": "Goal",
+      "actions": "Take placement / Start without it",
+      "states": "Default, unavailable",
+      "rules": "Placement optional; missing evidence allowed"
+    },
+    {
+      "id": "L-005",
+      "name": "Placement Question",
+      "route": "/placement/:step",
+      "surface": "Learner",
+      "area": "Onboarding",
+      "purpose": "Run provisional Vocabulary/Grammar/Listening item",
+      "entry": "Placement offer",
+      "actions": "Submit / Skip domain where allowed",
+      "states": "Ready, selected, validation-error, submitting, result, skipped-domain, audio-unavailable",
+      "rules": "Placement response requires explicit selection/allowed domain skip; provisional only; listening play request is not score authority."
+    },
+    {
+      "id": "L-006",
+      "name": "Placement Result",
+      "route": "/placement/result",
+      "surface": "Learner",
+      "area": "Onboarding",
+      "purpose": "Show provisional starting state and uncertainty",
+      "entry": "Placement finish",
+      "actions": "Go to Home",
+      "states": "Complete, insufficient-evidence",
+      "rules": "Qualitative/provisional language only"
+    },
+    {
+      "id": "L-010",
+      "name": "Home",
+      "route": "/home",
+      "surface": "Learner",
+      "area": "Main",
+      "purpose": "Answer what to do next and why",
+      "entry": "Main shell",
+      "actions": "Start/resume cycle",
+      "states": "Online, offline, syncing, nothing-due, recommendation-unavailable",
+      "rules": "Reason copy must match logged reason; no risk/mastery percentage"
+    },
+    {
+      "id": "L-011",
+      "name": "Home Offline",
+      "route": "/home?offline=1",
+      "surface": "Learner",
+      "area": "System",
+      "purpose": "Home with offline status and device-saved distinction",
+      "entry": "Connectivity loss",
+      "actions": "Continue available offline work",
+      "states": "Offline, queued",
+      "rules": "Queued is not server-confirmed"
+    },
+    {
+      "id": "L-012",
+      "name": "Home Syncing",
+      "route": "/home?syncing=1",
+      "surface": "Learner",
+      "area": "System",
+      "purpose": "Show background synchronization without blocking navigation",
+      "entry": "Connectivity restore",
+      "actions": "View sync status",
+      "states": "Syncing, partial",
+      "rules": "No duplicate progress/reward from retries"
+    },
+    {
+      "id": "L-020",
+      "name": "Learn Hub",
+      "route": "/learn",
+      "surface": "Learner",
+      "area": "Main",
+      "purpose": "Start or resume finite learning cycle",
+      "entry": "Learn tab",
+      "actions": "Start / Resume",
+      "states": "Ready, resume, content-gap",
+      "rules": "No infinite feed"
+    },
+    {
+      "id": "L-021",
+      "name": "Cycle Intro",
+      "route": "/learn/cycle/intro",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Show objective, reason and approximate duration",
+      "entry": "Cycle selected",
+      "actions": "Begin cycle",
+      "states": "Ready, offline-capable, content-unavailable",
+      "rules": "~5 min is configurable hypothesis; objective/reason explicit"
+    },
+    {
+      "id": "L-022",
+      "name": "Review Item",
+      "route": "/learn/cycle/review",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Due/prerequisite review within bounded cycle",
+      "entry": "Cycle start",
+      "actions": "Answer / Skip",
+      "states": "Ready, selected, validation-error, submitted-result, skipped",
+      "rules": "Blank submit is impossible; Skip is explicit and creates no completion/mastery."
+    },
+    {
+      "id": "L-023",
+      "name": "Learn Content",
+      "route": "/learn/cycle/learn",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Short explanation/example/audio/context",
+      "entry": "Review or cycle start",
+      "actions": "Continue",
+      "states": "Ready, audio-loading, audio-unavailable",
+      "rules": "Reading explanation alone is not mastery"
+    },
+    {
+      "id": "L-024",
+      "name": "Retrieve Item",
+      "route": "/learn/cycle/retrieve",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Unaided retrieval attempt",
+      "entry": "Learn",
+      "actions": "Submit / Hint / Skip",
+      "states": "Ready, selected, hinted, submitted-result, retry-available, retry-exhausted, skipped",
+      "rules": "First response is preserved; assisted flag persists independently of feedback; one retry is the current configurable policy."
+    },
+    {
+      "id": "L-025",
+      "name": "Transfer Item",
+      "route": "/learn/cycle/transfer",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Change cue/context/modality within objective",
+      "entry": "Retrieve",
+      "actions": "Submit / Skip",
+      "states": "Ready, selected, validation-error, submitted-result, skipped",
+      "rules": "Blank submit is impossible; transfer is within objective and does not change level."
+    },
+    {
+      "id": "L-026",
+      "name": "Check Intro",
+      "route": "/learn/cycle/check-intro",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Explain independent Check context",
+      "entry": "Transfer",
+      "actions": "Start Check",
+      "states": "Ready",
+      "rules": "No pre-submit hint in Check"
+    },
+    {
+      "id": "L-027",
+      "name": "Check Item",
+      "route": "/learn/cycle/check",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Independent assessment item",
+      "entry": "Check intro",
+      "actions": "Submit",
+      "states": "Ready, selected, validation-error, submitting, result, audio-ready, audio-unavailable, play-limit-reached",
+      "rules": "No pre-submit hint; blank submit impossible; Check has no practice retry; listening play requests are client telemetry only."
+    },
+    {
+      "id": "L-028",
+      "name": "Correct Feedback",
+      "route": "/learn/feedback/correct",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Give concise explanatory positive feedback",
+      "entry": "Correct response",
+      "actions": "Continue",
+      "states": "Default",
+      "rules": "Reward/copy cannot imply validated mastery from one answer"
+    },
+    {
+      "id": "L-029",
+      "name": "Incorrect / Retry Feedback",
+      "route": "/learn/feedback/retry",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Explain error and offer practice retry where policy allows",
+      "entry": "Wrong practice response",
+      "actions": "Try again / Continue",
+      "states": "Retry available, retry used, retry exhausted",
+      "rules": "Retry correct never overwrites first wrong"
+    },
+    {
+      "id": "L-030",
+      "name": "Hint Panel",
+      "route": "/learn/hint",
+      "surface": "Learner",
+      "area": "Overlay",
+      "purpose": "Provide typed assistance in practice",
+      "entry": "Hint request",
+      "actions": "Use hint / Close",
+      "states": "Default, unavailable",
+      "rules": "Hint use marks evidence assisted"
+    },
+    {
+      "id": "L-031",
+      "name": "Skip Confirmation",
+      "route": "/learn/skip",
+      "surface": "Learner",
+      "area": "Overlay",
+      "purpose": "Confirm skip without shame or false completion",
+      "entry": "Skip request",
+      "actions": "Skip for now / Keep trying",
+      "states": "Default",
+      "rules": "Skip != completion/mastery/streak"
+    },
+    {
+      "id": "L-032",
+      "name": "Cycle Summary",
+      "route": "/learn/cycle/summary",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Explicit closure, practiced evidence and next step",
+      "entry": "Cycle complete",
+      "actions": "Done for now / Continue learning",
+      "states": "Complete, partial, sync-queued",
+      "rules": "No fake mastery %; user explicitly starts another cycle"
+    },
+    {
+      "id": "L-033",
+      "name": "Resume Cycle",
+      "route": "/learn/resume",
+      "surface": "Learner",
+      "area": "Learning",
+      "purpose": "Resume preserved finite cycle",
+      "entry": "Interrupted cycle",
+      "actions": "Resume / Leave for now",
+      "states": "Resume, stale-content refresh",
+      "rules": "No duplicate submit on resume"
+    },
+    {
+      "id": "L-040",
+      "name": "Course Map",
+      "route": "/course",
+      "surface": "Learner",
+      "area": "Main",
+      "purpose": "Browse objectives and broader path",
+      "entry": "Course tab",
+      "actions": "Open objective / Preview locked",
+      "states": "Open, due-review, locked, empty",
+      "rules": "Preview does not unlock/progress"
+    },
+    {
+      "id": "L-041",
+      "name": "Objective Detail",
+      "route": "/course/objective/:id",
+      "surface": "Learner",
+      "area": "Course",
+      "purpose": "Explain objective, evidence and eligibility",
+      "entry": "Course map",
+      "actions": "Start eligible practice / Review",
+      "states": "Eligible, due, locked, insufficient-evidence",
+      "rules": "Prerequisite guardrail remains authoritative"
+    },
+    {
+      "id": "L-042",
+      "name": "Locked Preview",
+      "route": "/course/objective/:id/preview",
+      "surface": "Learner",
+      "area": "Course",
+      "purpose": "Safe preview of locked objective",
+      "entry": "Locked objective",
+      "actions": "Back / Work on prerequisite",
+      "states": "Preview-open, preview-close",
+      "rules": "Preview cannot create evidence, progress, completion, prerequisite bypass or unlock."
+    },
+    {
+      "id": "L-050",
+      "name": "Profile",
+      "route": "/profile",
+      "surface": "Learner",
+      "area": "Main",
+      "purpose": "Goal, qualitative learning evidence and settings entry",
+      "entry": "Profile tab",
+      "actions": "Open evidence/settings",
+      "states": "Default, insufficient-evidence",
+      "rules": "Engagement/streak not presented as mastery"
+    },
+    {
+      "id": "L-051",
+      "name": "Evidence Detail",
+      "route": "/profile/evidence/:domain",
+      "surface": "Learner",
+      "area": "Profile",
+      "purpose": "Show observations, uncertainty and missing evidence",
+      "entry": "Profile",
+      "actions": "Review related objective",
+      "states": "Building, more-evidence-needed",
+      "rules": "No diagnosis or precise mastery percentage without validated model"
+    },
+    {
+      "id": "L-052",
+      "name": "Goal Settings",
+      "route": "/profile/goal",
+      "surface": "Learner",
+      "area": "Profile",
+      "purpose": "Edit learner intent",
+      "entry": "Profile",
+      "actions": "Save / Clear",
+      "states": "Default, saved, error",
+      "rules": "Goal change does not rewrite competence"
+    },
+    {
+      "id": "L-053",
+      "name": "Learning Preferences",
+      "route": "/profile/preferences",
+      "surface": "Learner",
+      "area": "Profile",
+      "purpose": "Accessibility and learning preferences",
+      "entry": "Profile",
+      "actions": "Save",
+      "states": "Default, saved",
+      "rules": "Preference cannot bypass required eligibility rules"
+    },
+    {
+      "id": "L-054",
+      "name": "Offline Downloads",
+      "route": "/profile/offline",
+      "surface": "Learner",
+      "area": "Profile",
+      "purpose": "Manage available offline content packages",
+      "entry": "Profile",
+      "actions": "Download / Remove / Refresh",
+      "states": "Available, downloading, downloaded, expired, failed",
+      "rules": "Access grant/package rules remain server-authoritative"
+    },
+    {
+      "id": "L-060",
+      "name": "Sync Queue",
+      "route": "/sync",
+      "surface": "Learner",
+      "area": "System",
+      "purpose": "Explain queued/synced items without technical jargon",
+      "entry": "Sync status tap",
+      "actions": "Retry / Close",
+      "states": "offline-available, local-queued, syncing, synced, partial",
+      "rules": "Connectivity and server acknowledgement are distinct; Synced appears only after authoritative acknowledgement/canonical refresh."
+    },
+    {
+      "id": "L-061",
+      "name": "Sync Error",
+      "route": "/sync/error",
+      "surface": "Learner",
+      "area": "System",
+      "purpose": "Recover retryable sync failure",
+      "entry": "Sync fail",
+      "actions": "Retry now / Later",
+      "states": "failed-retryable, reauth, canonical-refresh, media-unavailable",
+      "rules": "Recovery reuses durable command identity; local state never overwrites server truth."
+    },
+    {
+      "id": "L-062",
+      "name": "Generic Error",
+      "route": "/error",
+      "surface": "Learner",
+      "area": "System",
+      "purpose": "Recover from unexpected non-destructive error",
+      "entry": "Runtime error",
+      "actions": "Retry / Go home",
+      "states": "Recoverable, fatal",
+      "rules": "No false success state"
+    },
+    {
+      "id": "L-063",
+      "name": "Nothing Due / Content Gap",
+      "route": "/learn/empty",
+      "surface": "Learner",
+      "area": "System",
+      "purpose": "Honest empty/content unavailable state",
+      "entry": "No eligible cycle",
+      "actions": "Explore course / Sync content",
+      "states": "Nothing-due, no-valid-cycle, media-unavailable",
+      "rules": "Do not fabricate cycle/recommendation"
+    },
+    {
+      "id": "L-064",
+      "name": "Re-auth Required",
+      "route": "/reauth",
+      "surface": "Learner",
+      "area": "System",
+      "purpose": "Explain account/session action required",
+      "entry": "Auth/session invalid later",
+      "actions": "Sign in again",
+      "states": "Default",
+      "rules": "Phase 3 implements auth; no local permission bypass"
+    },
+    {
+      "id": "S-001",
+      "name": "Staff Entry",
+      "route": "/staff",
+      "surface": "Staff",
+      "area": "Entry",
+      "purpose": "Role-aware staff shell entry placeholder",
+      "entry": "Staff app launch",
+      "actions": "Enter authorized workspace",
+      "states": "Loading, access-required",
+      "rules": "Actual authentication/authorization belongs Phase 3"
+    },
+    {
+      "id": "S-010",
+      "name": "Dashboard",
+      "route": "/staff/dashboard",
+      "surface": "Staff",
+      "area": "Main",
+      "purpose": "Operational overview and pending work",
+      "entry": "Staff shell",
+      "actions": "Open work queue",
+      "states": "Default, empty, partial",
+      "rules": "Metrics must identify time range/source"
+    },
+    {
+      "id": "S-020",
+      "name": "Learner List",
+      "route": "/staff/learners",
+      "surface": "Staff",
+      "area": "Learners",
+      "purpose": "Search/filter assigned learners",
+      "entry": "Learners nav",
+      "actions": "Open learner",
+      "states": "Loading, empty, filtered, error",
+      "rules": "Role visibility is not authorization"
+    },
+    {
+      "id": "S-021",
+      "name": "Learner Overview",
+      "route": "/staff/learners/:id",
+      "surface": "Staff",
+      "area": "Learners",
+      "purpose": "Evidence-based learner overview",
+      "entry": "Learner list",
+      "actions": "Open evidence/activity/intervention",
+      "states": "Default, insufficient-evidence, access-denied",
+      "rules": "No mental-state diagnosis; raw risk not default to content admin"
+    },
+    {
+      "id": "S-022",
+      "name": "Learner Evidence",
+      "route": "/staff/learners/:id/evidence",
+      "surface": "Staff",
+      "area": "Learners",
+      "purpose": "Review learning/engagement evidence separately",
+      "entry": "Learner overview",
+      "actions": "Inspect evidence",
+      "states": "Loading, no-evidence",
+      "rules": "Mastery != risk; uncertainty visible"
+    },
+    {
+      "id": "S-023",
+      "name": "Learner Activity",
+      "route": "/staff/learners/:id/activity",
+      "surface": "Staff",
+      "area": "Learners",
+      "purpose": "Auditable recent learning/exposure/activity history",
+      "entry": "Learner overview",
+      "actions": "Inspect record",
+      "states": "Default, empty",
+      "rules": "Historical revision pinning preserved"
+    },
+    {
+      "id": "S-030",
+      "name": "Content Library",
+      "route": "/staff/content",
+      "surface": "Staff",
+      "area": "Content",
+      "purpose": "Browse/search drafts/published revisions",
+      "entry": "Content nav",
+      "actions": "Create draft / Open item",
+      "states": "Default, empty, filtered",
+      "rules": "Published revision immutable"
+    },
+    {
+      "id": "S-031",
+      "name": "Content Draft Editor",
+      "route": "/staff/content/drafts/:id",
+      "surface": "Staff",
+      "area": "Content",
+      "purpose": "Author draft content and learning metadata",
+      "entry": "Library/new draft",
+      "actions": "Save draft / Preview / Submit review",
+      "states": "clean, dirty, saving, saved, validation-error, reviewer-changes",
+      "rules": "Fields have programmatic labels; preview/save/review transitions are explicit; published bytes are never edited."
+    },
+    {
+      "id": "S-032",
+      "name": "Content Preview",
+      "route": "/staff/content/drafts/:id/preview",
+      "surface": "Staff",
+      "area": "Content",
+      "purpose": "Preview learner rendering before review",
+      "entry": "Editor",
+      "actions": "Back to edit / Submit review",
+      "states": "preview",
+      "rules": "Preview has no publish/progress side effect."
+    },
+    {
+      "id": "S-033",
+      "name": "Source & License",
+      "route": "/staff/content/drafts/:id/source",
+      "surface": "Staff",
+      "area": "Content",
+      "purpose": "Capture provenance, license and attribution",
+      "entry": "Editor",
+      "actions": "Save provenance",
+      "states": "license-pending, license-verified, validation-error",
+      "rules": "Publication stays blocked until provenance/license requirement passes."
+    },
+    {
+      "id": "S-034",
+      "name": "Review Queue",
+      "route": "/staff/content/review",
+      "surface": "Staff",
+      "area": "Content",
+      "purpose": "List items awaiting editorial/license review",
+      "entry": "Content nav",
+      "actions": "Open review",
+      "states": "Empty, filtered",
+      "rules": "Reviewer actions require later server permission"
+    },
+    {
+      "id": "S-035",
+      "name": "Review Detail",
+      "route": "/staff/content/review/:id",
+      "surface": "Staff",
+      "area": "Content",
+      "purpose": "Review content, answers, media, provenance",
+      "entry": "Review queue",
+      "actions": "Approve / Request changes",
+      "states": "license-blocked, approvable, changes-requested",
+      "rules": "Approve is disabled until provenance/license gate passes."
+    },
+    {
+      "id": "S-036",
+      "name": "Publish Confirmation",
+      "route": "/staff/content/publish/:id",
+      "surface": "Staff",
+      "area": "Overlay",
+      "purpose": "Confirm creation of immutable published revision",
+      "entry": "Approved review",
+      "actions": "Publish revision / Cancel",
+      "states": "confirmation-open, processing, error",
+      "rules": "Publish requires explicit confirmation and creates an immutable revision."
+    },
+    {
+      "id": "S-037",
+      "name": "Published Revision",
+      "route": "/staff/content/published/:id",
+      "surface": "Staff",
+      "area": "Content",
+      "purpose": "Inspect immutable revision/history",
+      "entry": "Library/publish",
+      "actions": "Create new draft from revision",
+      "states": "published-immutable, new-draft-created",
+      "rules": "Published revision is read-only; edits create a new draft/revision."
+    },
+    {
+      "id": "S-040",
+      "name": "Interventions",
+      "route": "/staff/interventions",
+      "surface": "Staff",
+      "area": "Interventions",
+      "purpose": "Future queue of support actions",
+      "entry": "Sidebar",
+      "actions": "Open intervention",
+      "states": "Placeholder, empty",
+      "rules": "Phase 11/12 domain behavior not implemented in Phase 2"
+    },
+    {
+      "id": "S-041",
+      "name": "Intervention Detail",
+      "route": "/staff/interventions/:id",
+      "surface": "Staff",
+      "area": "Interventions",
+      "purpose": "Show reason/evidence/decision/exposure/execution/outcome structure",
+      "entry": "Interventions",
+      "actions": "Record later action",
+      "states": "Placeholder, unavailable",
+      "rules": "Recommendation lifecycle layers remain distinct"
+    },
+    {
+      "id": "S-050",
+      "name": "Analytics Overview",
+      "route": "/staff/analytics",
+      "surface": "Staff",
+      "area": "Analytics",
+      "purpose": "Future operational/learning analytics shell",
+      "entry": "Sidebar",
+      "actions": "Open metric view",
+      "states": "Placeholder, no-data",
+      "rules": "Event time/known time/source context required"
+    },
+    {
+      "id": "S-051",
+      "name": "Metric Detail",
+      "route": "/staff/analytics/:metric",
+      "surface": "Staff",
+      "area": "Analytics",
+      "purpose": "Inspect metric definition, cohort and time window",
+      "entry": "Analytics overview",
+      "actions": "Change filters",
+      "states": "Placeholder, insufficient-data",
+      "rules": "No hidden denominator or future-data leakage"
+    },
+    {
+      "id": "S-060",
+      "name": "Administration",
+      "route": "/staff/admin",
+      "surface": "Staff",
+      "area": "Admin",
+      "purpose": "Entry to role/config/audit operations",
+      "entry": "Sidebar",
+      "actions": "Open admin area",
+      "states": "Placeholder, access-denied",
+      "rules": "Phase 3/13 define authorization/security"
+    },
+    {
+      "id": "S-061",
+      "name": "Roles & Permissions",
+      "route": "/staff/admin/roles",
+      "surface": "Staff",
+      "area": "Admin",
+      "purpose": "Future role management shell",
+      "entry": "Administration",
+      "actions": "Inspect role",
+      "states": "Placeholder",
+      "rules": "UI visibility never substitutes backend authz"
+    },
+    {
+      "id": "S-062",
+      "name": "Audit Log",
+      "route": "/staff/admin/audit",
+      "surface": "Staff",
+      "area": "Admin",
+      "purpose": "Future privileged audit view",
+      "entry": "Administration",
+      "actions": "Inspect event",
+      "states": "Placeholder, filtered",
+      "rules": "Privileged actions audited"
+    }
+  ],
+  "components": [
+    {
+      "id": "C-001",
+      "component": "AppShell",
+      "states": "loading, ready, offline, sync-warning, access-required",
+      "rule": "Navigation shell never performs business authorization."
+    },
+    {
+      "id": "C-002",
+      "component": "PrimaryButton",
+      "states": "default, pressed, focus, disabled, loading",
+      "rule": "One dominant action per view where possible; disabled reason exposed when important."
+    },
+    {
+      "id": "C-003",
+      "component": "AnswerOption",
+      "states": "idle, selected, focus, disabled, correct, incorrect",
+      "rule": "Color is never the only correctness signal; selection is not submission."
+    },
+    {
+      "id": "C-004",
+      "component": "QuestionCard",
+      "states": "ready, submitting, locked, audio-unavailable",
+      "rule": "Check mode can remove hint action without changing visual identity beyond clear context label."
+    },
+    {
+      "id": "C-005",
+      "component": "FeedbackPanel",
+      "states": "correct-independent, correct-assisted, incorrect, retry-available, retry-exhausted, skipped, final",
+      "rule": "First response, assistance and retry count are independent persistent evidence context; retry never rewrites first response."
+    },
+    {
+      "id": "C-006",
+      "component": "HintPanel",
+      "states": "available, open, used, unavailable",
+      "rule": "Only in practice contexts; using it marks assisted evidence."
+    },
+    {
+      "id": "C-007",
+      "component": "CycleProgress",
+      "states": "role-steps, item-progress, complete",
+      "rule": "Show finite scope; never mimic infinite feed."
+    },
+    {
+      "id": "C-008",
+      "component": "RecommendationCard",
+      "states": "due-review, current-objective, prerequisite-gap, recent-error, transfer, challenge, unavailable",
+      "rule": "Reason must match auditable reason code; no inferred mental-state copy."
+    },
+    {
+      "id": "C-009",
+      "component": "SyncBanner",
+      "states": "offline, local-queued, syncing, synced, partial, failed-retryable, reauth, canonical-refresh",
+      "rule": "Network connectivity is not server acknowledgement; Synced requires authoritative acknowledgement/canonical refresh."
+    },
+    {
+      "id": "C-010",
+      "component": "EvidenceCard",
+      "states": "observed, building, needs-more-evidence, unavailable",
+      "rule": "No fake mastery percentage or diagnosis."
+    },
+    {
+      "id": "C-011",
+      "component": "ObjectiveCard",
+      "states": "current, open, due, locked, preview",
+      "rule": "Preview cannot produce completion/unlock."
+    },
+    {
+      "id": "C-012",
+      "component": "AudioControl",
+      "states": "ready, playing/requested, unavailable, practice-replay, check-play-limit-reached",
+      "rule": "Client playback request count is telemetry only; Check offered-play policy is UI context, never canonical scoring authority."
+    },
+    {
+      "id": "C-013",
+      "component": "EmptyState",
+      "states": "nothing-due, no-content, no-search-results, no-data",
+      "rule": "Never fabricate recommendation/completion."
+    },
+    {
+      "id": "C-014",
+      "component": "ErrorState",
+      "states": "retryable, non-retryable, reauth, canonical-refresh",
+      "rule": "Recovery action must not create duplicate business command."
+    },
+    {
+      "id": "C-015",
+      "component": "ContentStatusBadge",
+      "states": "draft, in-review, approved, published, retired, revoked",
+      "rule": "Published is immutable; edit action creates new draft/revision."
+    },
+    {
+      "id": "C-016",
+      "component": "ContentEditor",
+      "states": "clean, dirty, saving, saved, validation-error, reviewer-changes, license-blocked",
+      "rule": "Field-level labels/validation and provenance/license gate are explicit before publish; published revision is immutable."
+    },
+    {
+      "id": "C-017",
+      "component": "DataTable",
+      "states": "loading, populated, empty, filtered, error",
+      "rule": "Keyboard accessible; row action permission checked server-side later."
+    },
+    {
+      "id": "C-018",
+      "component": "ModalOrSheet",
+      "states": "open, processing, error, closed-focus-restored",
+      "rule": "Modal uses focus containment and restores focus to invoking control; irreversible publish requires confirmation."
+    }
+  ],
+  "prd_traceability": [
+    {
+      "prd": "PRD-01",
+      "requirement": "Finite objective-based cycle with clear closure",
+      "screens": "L-020,L-021,L-022,L-023,L-024,L-025,L-026,L-027,L-032",
+      "components": "C-007",
+      "qa": "QA-LRN-001,QA-LRN-002,QA-LRN-012,QA-LRN-021"
+    },
+    {
+      "prd": "PRD-02",
+      "requirement": "First response preserved; guided retry in practice",
+      "screens": "L-024,L-029",
+      "components": "C-003,C-005",
+      "qa": "QA-LRN-006,QA-LRN-007"
+    },
+    {
+      "prd": "PRD-03",
+      "requirement": "Typed hints; assisted != unaided; no pre-submit hint in Check",
+      "screens": "L-024,L-027,L-030",
+      "components": "C-006",
+      "qa": "QA-LRN-008,QA-LRN-013"
+    },
+    {
+      "prd": "PRD-04",
+      "requirement": "Skip logged; not completion/mastery",
+      "screens": "L-022,L-024,L-031",
+      "components": "C-005",
+      "qa": "QA-LRN-009,QA-BIZ-003"
+    },
+    {
+      "prd": "PRD-05",
+      "requirement": "Listening replay support and assessment context",
+      "screens": "L-005,L-023,L-027",
+      "components": "C-012",
+      "qa": "QA-LRN-014,QA-BIZ-005,QA-LRN-023"
+    },
+    {
+      "prd": "PRD-06",
+      "requirement": "Vocabulary/grammar learning sequence",
+      "screens": "L-023,L-024,L-025,L-027",
+      "components": "C-004",
+      "qa": "QA-LRN-004,QA-LRN-005,QA-LRN-022,QA-LRN-023"
+    },
+    {
+      "prd": "PRD-07",
+      "requirement": "Bounded step-up challenge",
+      "screens": "L-010,L-041",
+      "components": "C-008,C-011",
+      "qa": "QA-BIZ-006"
+    },
+    {
+      "prd": "PRD-08",
+      "requirement": "Learner focus with bounded due/prerequisite insertion",
+      "screens": "L-010,L-021,L-022,L-041",
+      "components": "C-008",
+      "qa": "QA-BIZ-007"
+    },
+    {
+      "prd": "PRD-09",
+      "requirement": "Optional short placement; provisional result",
+      "screens": "L-004,L-005,L-006",
+      "components": "C-007",
+      "qa": "QA-LRN-015,QA-LRN-016"
+    },
+    {
+      "prd": "PRD-10",
+      "requirement": "Optional goal; qualitative profile/evidence",
+      "screens": "L-003,L-050,L-051,L-052",
+      "components": "C-010",
+      "qa": "QA-LRN-017,QA-BIZ-008"
+    },
+    {
+      "prd": "PRD-11",
+      "requirement": "Daily target/streak distinct from mastery",
+      "screens": "L-010,L-050",
+      "components": "C-010",
+      "qa": "QA-BIZ-009"
+    },
+    {
+      "prd": "PRD-12",
+      "requirement": "Meaningful rewards only",
+      "screens": "L-032,L-050",
+      "components": "C-010",
+      "qa": "QA-BIZ-010"
+    },
+    {
+      "prd": "PRD-13",
+      "requirement": "Course map, locked preview, evidence-backed reason",
+      "screens": "L-010,L-040,L-041,L-042",
+      "components": "C-008,C-011",
+      "qa": "QA-LRN-018,QA-BIZ-011"
+    },
+    {
+      "prd": "PRD-14",
+      "requirement": "Licensed immutable content and revision pinning",
+      "screens": "S-030,S-033,S-035,S-036,S-037,L-041",
+      "components": "C-015,C-016",
+      "qa": "QA-STF-006,QA-STF-007,QA-BIZ-012,QA-STF-011"
+    },
+    {
+      "prd": "PRD-15",
+      "requirement": "Command/telemetry/lifecycle separation; offline idempotent/time semantics",
+      "screens": "L-011,L-012,L-060,L-061,S-050",
+      "components": "C-009,C-014",
+      "qa": "QA-OFF-001,QA-OFF-002,QA-OFF-004,QA-BIZ-013,QA-OFF-007"
+    },
+    {
+      "prd": "PRD-16",
+      "requirement": "Usable deterministic fallback with ML/recommendation disabled",
+      "screens": "L-010,L-020,L-063",
+      "components": "C-008,C-013",
+      "qa": "QA-LRN-019,QA-BIZ-014"
+    }
+  ],
+  "design_tokens_file": "DESIGN_TOKENS.json",
+  "prototype": "prototype/index.html",
+  "qa_case_count": 87,
+  "candidate": "REWORK_R1_READY_FOR_CODEX_EXECUTION_AND_QA_RETEST",
+  "audit_reference": "Mingo_Phase2_Independent_QC_QA_Audit_2026-09-27"
+}

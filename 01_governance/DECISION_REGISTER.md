@@ -1,6 +1,6 @@
 > Updated 2026-09-26: Phase 1 DONE / GATE PASSED. Exact original V3.2 sources are preserved and all original checks pass. Current state: `PROJECT_STATE.md`; hosted evidence: `06_quality/evidence/ci/PHASE1_PASS_20260926.md`.
 
-# Decision Register — Phase 1 Working Set
+# Decision Register — Project Working Set
 
 Sources: `05_PHASE1_DECISION_REGISTER.md` of continuous handoff, scientific resolution Q1–Q18, current instruction. Status `FROZEN` applies to existing V3.2/accepted baseline; `FREEZE NOW` means principle integrated in working official docs, not a silent V3.2 amendment. Hypothesis thresholds stay versioned and revisable. Full per-question reasoning remains in source research.
 
@@ -17,3 +17,24 @@ Sources: `05_PHASE1_DECISION_REGISTER.md` of continuous handoff, scientific reso
 | CR | No concrete V3.2 contradiction proven | NONE; II-01 source intake resolved |
 
 Owner review on 2026-09-23: Charter and Gate APPROVED; Evidence Model APPROVED with II-03 carried; PRD/Feed received conditional APPROVE AFTER FIX. One shared Q9 predicate and explicit authority precedence are now applied; no separate owner review of revised wording is recorded. Local runtime, hosted foundation jobs and full runtime clean reproduction passed on 2026-09-26. The owner subsequently supplied the exact originals; 115+22 checks and every hosted job now pass. Phase 1 is DONE; Phase 2 is eligible and has not been started. No product-brand freeze is implied by the charter. Formal changes to frozen business/architecture items require demonstrated conflict and owner-approved CR.
+
+
+## Phase 2 UX/UI candidate decisions — 2026-09-27
+
+- P2-DEC-001 learner primary navigation: Home / Learn / Course / Profile.
+- P2-DEC-002 staff primary navigation: Dashboard / Learners / Content / Interventions / Analytics / Administration.
+- P2-DEC-003 publishing remains inside Content lifecycle.
+- P2-DEC-004 Mingo UX Reference Theme v0.1 is implementation-ready but not a permanent brand lock.
+- P2-DEC-005 Phase 2 artifact completion does not equal gate pass; QC/QA + owner/tech signoff are mandatory.
+
+No V3.2 rule changed; Change Request remains NONE.
+
+
+## Phase 2 Rework R1 decisions — 2026-09-27
+
+- P2-DEC-011 Required-response Submit cannot advance blank; explicit Skip is the only no-answer path where permitted.
+- P2-DEC-012 Assistance is persistent evidence context independent of correctness feedback.
+- P2-DEC-013 Network restoration does not equal server acknowledgement; Sync states are explicit.
+- P2-DEC-014 Representative Vocabulary, Grammar and Listening interaction families must be executable in the Phase 2 reference prototype.
+- P2-DEC-015 Screen→State→Rule→QA traceability is mandatory for the Phase 2 handoff.
+- P2-DEC-016 Codex execution is a verification/handoff step only; independent QC/QA retains gate authority.

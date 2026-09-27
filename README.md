@@ -6,18 +6,15 @@ migrations, immutable local object storage, an Android-first Flutter learner she
 Flutter Web staff shell.
 
 > **Current state:** Phase 0 and Phase 1 are DONE; the Phase 1 gate is PASSED.
-> Local runtime, clean reproduction, exact original 115 contract + 22 SQL checks and
-> every hosted CI job pass. Phase 2 is ELIGIBLE TO START and has not been started.
-> This milestone completes the implementation foundation; later product features and
-> pilot/production acceptance remain in the Phase 0–17 roadmap.
+> **Phase 2 is ACTIVE — Candidate v1 FAILED independent QC/QA; Rework R1 fixes all 16 logged findings and is READY FOR CODEX EXECUTION + INDEPENDENT QC/QA RETEST. Gate remains NOT PASSED.**
+> The canonical R1 UX/UI source is under `02_product/ux_ui/phase2/`. The 94-case retest control is under `06_quality/phase2/`; Codex starts at `08_handoff/phase2/CODEX_START_HERE.md`. Phase 3 remains DEFERRED until independent QC/QA + Tech Lead + Product/Owner signoff passes the Phase 2 gate.
 
 ## Start here
 
 1. Read [`START_HERE.md`](START_HERE.md).
-2. Check [`01_governance/PROJECT_STATE.md`](01_governance/PROJECT_STATE.md) and
-   [`06_quality/gates/PHASE_1_GATE.md`](06_quality/gates/PHASE_1_GATE.md).
-3. Use [`02_product/`](02_product/) for product rules and [`03_research/`](03_research/)
-   for their research basis.
+2. Check [`01_governance/PROJECT_STATE.md`](01_governance/PROJECT_STATE.md),
+   [`06_quality/phase2/PHASE_2_GATE.md`](06_quality/phase2/PHASE_2_GATE.md), and the Phase 1 gate for historical foundation closure.
+3. Phase 2 Rework R1 UX/UI source is [`02_product/ux_ui/phase2/`](02_product/ux_ui/phase2/). Codex must follow [`08_handoff/phase2/CODEX_EXECUTION_HANDOFF.md`](08_handoff/phase2/CODEX_EXECUTION_HANDOFF.md); independent QA uses the 94-case retest suite after Codex execution. Use the rest of [`02_product/`](02_product/) for product rules and [`03_research/`](03_research/) for research basis.
 4. Use the exact original V3.2 package under
    [`04_architecture/contracts/v3_2/source/`](04_architecture/contracts/v3_2/source/)
    as implementation authority. Its provenance and hashes are preserved.
@@ -124,3 +121,7 @@ executes unchanged programs on a copy and records fresh reports. SQL uses the or
 PGlite engine; native PostgreSQL foundation tests remain separate.
 
 Current closure evidence: [`Phase 1 hosted PASS`](06_quality/evidence/ci/PHASE1_PASS_20260926.md).
+
+## Codex execution update — 2026-09-27
+
+Phase 2 remains ACTIVE / GATE NOT PASSED. Canonical suite: 94/94 Codex PASS (44/44 P0); 30 supplemental browser checks PASS. Interactive screen-reader/TalkBack review is BLOCKED. All 20 findings await independent closure; Tech Lead and Product/Owner signoffs remain pending. Phase 3 is DEFERRED. See `08_handoff/phase2/QA_RETEST_HANDOFF.md` and `06_quality/phase2/PHASE_2_VERIFICATION_REPORT.md`.

@@ -4,13 +4,14 @@
 
 - Phase 0: **DONE**.
 - Phase 1: **DONE; GATE PASSED**.
-- Phase 2: **ELIGIBLE TO START; not started**. Later phases remain deferred.
+- Phase 2: **ACTIVE — REWORK R1 CODEX EXECUTED / READY FOR INDEPENDENT QA RETEST; GATE NOT PASSED**.
+- Phase 3: **DEFERRED** until Phase 2 signoff.
 - Local Python 3.12 backend, PostgreSQL, API, worker, Flutter Android build/boot, and
   Flutter Web build/boot have current evidence.
 - Hosted CI, full runtime clean reproduction and exact original 115+22 verification
   PASS. The original source package and byte-level provenance are now in the repository.
 
-Read `01_governance/PROJECT_STATE.md`, then `06_quality/gates/PHASE_1_GATE.md`.
+Read `01_governance/PROJECT_STATE.md`, then `08_handoff/phase2/CODEX_START_HERE.md`, `02_product/ux_ui/phase2/README.md`, and `06_quality/phase2/PHASE_2_GATE.md`. The first Phase 2 candidate failed independent QC/QA; do not use old PASS assumptions.
 
 ## 2. Authority order
 
@@ -40,6 +41,7 @@ Change Request only when a concrete contract conflict requires a semantic change
 | Task | Read first | Work mainly in |
 |---|---|---|
 | Product behavior / MVP | `02_product/` | product specs + governance when behavior changes |
+| Phase 2 Rework R1 | `08_handoff/phase2/CODEX_START_HERE.md` | R1 specs/prototype + Codex execution, then independent QA retest in `06_quality/phase2/` |
 | Scientific rationale | `03_research/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md` | research docs |
 | Backend/API/worker | `04_architecture/`, Phase 1 gate | `05_code/backend/` |
 | Learner Android | product specs + boundaries | `05_code/apps/learner/` |
@@ -64,5 +66,8 @@ Change Request only when a concrete contract conflict requires a semantic change
 - No Kafka, Kubernetes, microservices, warehouse, or external feature store without a
   demonstrated requirement.
 
-Source existence, a successful schema compile, or a build artifact alone does not close a
-runtime gate. Phase 1 closes only when every mandatory item has observed evidence.
+Source existence or a visually complete prototype alone does not close a phase gate. Phase 2 closes only after QC/QA exit criteria and Product/Tech signoff are recorded.
+
+## Codex execution update — 2026-09-27
+
+Phase 2 remains ACTIVE / GATE NOT PASSED. Canonical suite: 94/94 Codex PASS (44/44 P0); 30 supplemental browser checks PASS. Interactive screen-reader/TalkBack review is BLOCKED. All 20 findings await independent closure; Tech Lead and Product/Owner signoffs remain pending. Phase 3 is DEFERRED. See `08_handoff/phase2/QA_RETEST_HANDOFF.md` and `06_quality/phase2/PHASE_2_VERIFICATION_REPORT.md`.

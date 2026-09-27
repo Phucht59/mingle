@@ -1,4 +1,4 @@
-# Prioritized Phase 1 Backlog — 2026-09-26
+# Prioritized Project Backlog — updated 2026-09-27
 
 | ID | Priority | Task / output | Status |
 |---|---|---|---|
@@ -21,3 +21,31 @@
 | P1-16 | P1 | Produce clean tracked-source handoff ZIP | **DONE** |
 
 Do not initialize a replacement project or start Phase 2.
+
+
+## Phase 2 QC/QA handoff backlog — 2026-09-27
+
+| ID | Priority | Task | Status |
+|---|---|---|---|
+| P2-QA-01 | P0 | Verify Phase 2 package/artifact completeness and checksum manifest | READY |
+| P2-QA-02 | P0 | Execute learner mandatory UX/business-integrity scenarios | READY |
+| P2-QA-03 | P0 | Execute staff/content lifecycle scenarios | READY |
+| P2-QA-04 | P0 | Execute offline/system and accessibility mandatory checks | READY |
+| P2-QA-05 | P1 | Execute responsive, traceability and handoff checks | READY |
+| P2-QA-06 | P0 | Triage/retest all P0/P1 defects | PENDING QA |
+| P2-QA-07 | P0 | Product/Owner + Tech Lead signoff and Phase 2 gate review | PENDING QA |
+
+Do not start Phase 3 implementation before P2-QA-07 passes.
+
+
+## Phase 2 Rework R1 backlog — 2026-09-27
+
+| ID | Pri | Work | Status |
+| --- | --- | --- | --- |
+| P2-R1-01 | P0 | Implement fixes P2-D001..D016 in prototype/spec/handoff | DONE IN CANDIDATE |
+| P2-R1-02 | P0 | Run R1 static verifier + browser P0 regression in Codex environment | READY FOR CODEX |
+| P2-R1-03 | P0 | Execute 94-case retest and accessibility runtime matrix | PENDING CODEX/QA |
+| P2-R1-04 | P0 | Independent QC/QA retest + defect closure | PENDING QA |
+| P2-R1-05 | P0 | Tech Lead + Product/Owner signoff, Phase 2 gate | BLOCKED UNTIL QA |
+
+Do not start Phase 3 before P2-R1-05 passes.
