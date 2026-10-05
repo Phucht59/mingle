@@ -1,0 +1,84 @@
+{
+  "id": "QA-LRN-016",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T14:50:54.052Z",
+  "ended": "2026-10-01T14:50:54.853Z",
+  "expected": "Result is provisional and does not claim external CEFR certification.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Everyday conversation",
+    "Click: Continue",
+    "Click: Take placement",
+    "Click: Hello",
+    "Click: Submit",
+    "Click: Next",
+    "Click: She is here.",
+    "Click: Submit",
+    "Click: Next",
+    "Click: ▶ Play audio",
+    "Click: Good morning",
+    "Click: Submit",
+    "Click: Next"
+  ],
+  "observed": "Mingo\nSynced\nPLACEMENT RESULT\nYour starting point is provisional\n\nMingo will update this picture as you learn. No certified CEFR score is claimed.\n\nVocabulary\nSome starting evidence\nGrammar\nSome starting evidence\nListening\nSome starting evidence\nGo to Home",
+  "state": {
+    "surface": "learner",
+    "learner": "placementResult",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "conversation",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [
+    {
+      "surface": "learner",
+      "learner": "placementResult",
+      "staff": "dashboard",
+      "networkOnline": true,
+      "syncState": "synced",
+      "queuedCount": 0,
+      "cycleDomain": "vocabulary",
+      "cycleStep": 0,
+      "selected": null,
+      "response": {
+        "first": null,
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": null,
+        "final": false
+      },
+      "goal": "conversation",
+      "placementStep": 3,
+      "licenseVerified": false,
+      "contentDraftRevision": 4,
+      "publishedRevision": 3
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

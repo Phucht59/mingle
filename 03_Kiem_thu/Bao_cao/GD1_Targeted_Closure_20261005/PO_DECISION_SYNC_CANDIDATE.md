@@ -1,0 +1,23 @@
+# PO decision synchronization candidate
+
+Authority: V3.2 > explicit PO packet > actual workbook > repo > snapshots. No canonical file replaced. All approved decisions below are effective audit inputs; candidate prose is an index of their source, not a new approval.
+
+| Decision | Classification | Meaning | Exact source |
+| --- | --- | --- | --- |
+| Q1 | APPROVED OPERATING HYPOTHESIS | Vietnamese 18–35 English beginner/rebuilder; not market validation | [PO_TARGETED_REQUEST.txt · Q1 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:215) |
+| Q2 | APPROVED MVP DIRECTION | English-first; avoid unnecessary hard-code; no new languages | [PO_TARGETED_REQUEST.txt · Q2 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:232) |
+| Q3 | APPROVED | Guest browse/preview; authenticate before Start Learning, Attempt, independent Check, durable Progress, offline learning download, learning sync. Email required supported method; Google target; Facebook DEFERRED-FUTURE; return valid intended context. | [PO_TARGETED_REQUEST.txt · Q3 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:243) |
+| Q4 | APPROVED PRINCIPLE | Goal optional/editable preference; no history/mastery rewrite or prerequisite bypass; categories hypothesis | [PO_TARGETED_REQUEST.txt · Q4 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:287) |
+| Q5 | APPROVED PRINCIPLE | Placement optional; skip nonpunitive; provisional; 6–9 not invariant | [PO_TARGETED_REQUEST.txt · Q5 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:303) |
+| Q6 | APPROVED BASELINE ORDER | Valid unfinished Resume → due Review → next eligible path → goal-matched eligible → deterministic fallback → honest empty. No numeric thresholds or eligibility bypass. | [PO_TARGETED_REQUEST.txt · Q6 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:321) |
+| Q7 | APPROVED PRINCIPLE | Autosave appropriate durable boundary; exit not necessarily abandon; conceptual Resume; no fake saved-progress-loss UX | [PO_TARGETED_REQUEST.txt · Q7 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:338) |
+| Q8 | APPROVED PRINCIPLE | Return without guilt/punishment; short review allowed; absence threshold not frozen | [PO_TARGETED_REQUEST.txt · Q8 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:353) |
+| Q9 | APPROVED LIMITED DIRECTION | Light streak/milestones; not mastery/proficiency; no XP economy/pressure leaderboard/shop as current core | [PO_TARGETED_REQUEST.txt · Q9 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:366) |
+| Q10 | APPROVED / V3.2 REQUIRED | Eligible download before offline; durable local save; later sync; downloaded/pending/syncing/synced/failed distinct; network ≠ synced | [PO_TARGETED_REQUEST.txt · Q10 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:380) |
+| Q11 | APPROVED | Author→Reviewer→Publisher/Admin; Draft→Submit Review→Review→Return/Approve→Publish→Published Revision→New Revision; immutable published | [PO_TARGETED_REQUEST.txt · Q11 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:401) |
+| Q12 | DEFERRED-FUTURE | Advanced Speaking AI/chatbot/social/community/leaderboard/gamification/production Risk Prediction/ML ranking/adaptive optimization/advanced Intervention; not permanently rejected, OUT OF CURRENT MVP IMPLEMENTATION | [PO_TARGETED_REQUEST.txt · Q12 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:425) |
+| Q13 | RESEARCH | Pricing/monetization not frozen | [PO_TARGETED_REQUEST.txt · Q13 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:449) |
+| Q14 | DEFERRED-FUTURE | Child/Guardian separate future UX; no same adult flow | [PO_TARGETED_REQUEST.txt · Q14 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:457) |
+| Q15 | VALIDATION DEBT | Actual discovery not done; no customer/market/PMF/learning/ML efficacy claim | [PO_TARGETED_REQUEST.txt · Q15 —](C:/Mingo/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/PO_TARGETED_REQUEST.txt:467) |
+
+The old Account Gate inclusion question and Home-order hypothesis are superseded by Q3/Q6. CR-GD1-001 is not needed for copying these approved decisions. Any unresolved necessary new policy must be assessed separately. All old FIXED/PASS findings retain their disposition; lower historical/current documents awaiting synchronization do not override this packet.

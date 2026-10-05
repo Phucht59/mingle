@@ -1,0 +1,46 @@
+as_of: 2026-09-27
+project: Mingo
+architecture_baseline: V3.2
+phase_0:
+  name: Architecture & Contract Baseline
+  status: DONE
+phase_1:
+  name: Implementation Foundation / Product Build Kickoff
+  status: DONE
+  gate: PASSED
+phase_2:
+  name: UX/UI Product System
+  status: ACTIVE
+  design_deliverables: COMPLETE
+  qa_candidate: REWORK_R1_CODEX_EXECUTED_QA_RETEST_CANDIDATE
+  gate: NOT_PASSED
+  subphases:
+    contract_scope: DONE
+    information_architecture: DONE
+    learner_journeys: DONE
+    staff_journeys: DONE
+    screen_state_catalog: DONE
+    design_system: DONE
+    prototype_handoff: DONE
+    qc_qa_verification: RETEST_PENDING
+  blockers_to_gate:
+    - INTERACTIVE_SCREEN_READER_REVIEW
+    - INDEPENDENT_QC_QA_RETEST
+    - TECH_PRODUCT_SIGNOFF
+phase_3:
+  name: Identity/Auth/Authorization
+  status: DEFERRED
+  eligible: false
+change_request_open: false
+architecture_reopen_required: false
+
+phase_2_rework:
+  cycle: R1
+  status: CODEX_EXECUTED_READY_FOR_INDEPENDENT_QA_RETEST
+  independent_audit: NOT_PASSED_REWORK_REQUIRED
+  defects_fixed_in_candidate: 16
+  qa_cases: 94
+  codex_pass: 94
+  codex_p0_pass: 44
+  additional_execution_findings: 4
+  independently_closed_defects: 0

@@ -1,0 +1,45 @@
+{
+  "id": "QA-NAV-007",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T16:30:19.761Z",
+  "ended": "2026-10-01T16:30:19.941Z",
+  "expected": "Sidebar has Dashboard, Learners, Content, Interventions, Analytics, Administration.",
+  "steps": [
+    "Click: Staff"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nSTAFF\nDashboard\n\nOperational shell with mock data only.\n\nContent awaiting review\n3\nLearner support items\n2\nSystem note\n\nNo production risk/analytics values are fabricated in this prototype.",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js"
+  ],
+  "failure": null
+}

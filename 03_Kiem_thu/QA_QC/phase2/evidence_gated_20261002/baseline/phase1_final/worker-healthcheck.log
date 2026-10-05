@@ -1,0 +1,3 @@
+Command: C:\Mingo\.venv\Scripts\python.exe -m all_foundation.worker --healthcheck
+
+Exit code: 0

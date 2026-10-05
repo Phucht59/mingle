@@ -1,0 +1,702 @@
+[
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-001_Loading.png",
+    "sha256": "a380f340570e9335c29f02c7d6300b111c8e063125455708c5db7576d34b5339"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-001_error.png",
+    "sha256": "2628ce94d8af4a96296d1ae59effa1a69d3ea80c73814cdc00f882732f7597ca"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-001_offline_bootstrap.png",
+    "sha256": "9afe792e4da88e38e590c42f398ecf8b37bf6adbc1328ace729dc55542eec327"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-002_Default.png",
+    "sha256": "346d1950b5a87c671751d2c97bb8f5d49a1af21bf5adbd76be65df0c9e313b9e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-002_loading.png",
+    "sha256": "9b425156dc993e0b0476867c34078ce4970aef4f9c2c9b462f86c9f019099fb9"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-003_Default.png",
+    "sha256": "e59e91810d0efe1497fedef843e9995af50ac77a3c265442c99c31631511feab"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-003_selected.png",
+    "sha256": "e59e91810d0efe1497fedef843e9995af50ac77a3c265442c99c31631511feab"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-003_error.png",
+    "sha256": "29b588e48e8040e7bf83f2c3d0513e86b2033887cf9958dd60bca23156cfdd69"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-004_Default.png",
+    "sha256": "f2dbd8123e788224ecf1857008a0ae4b79b28afa120e167ff54b66d2e3f51fd7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-004_unavailable.png",
+    "sha256": "8be979e976c328bc204c471e10ae1be0a7a246a44c32cc290d63828a47f93fda"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-005_Ready.png",
+    "sha256": "515c540c9a1ca85e9f939a70e4b0d902854029d5e119c1d53872a266defd831c"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-005_selected.png",
+    "sha256": "c6de2ff66231887e2cbd57e19470aad6c3ca887e87201c809b81fac67c980eec"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-005_validation-error.png",
+    "sha256": "609c29a3fe7d81ad7068eb2da71f48d9a2e3f8583e05e53f486a18fc460b594e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-005_submitting.png",
+    "sha256": "82ebcf879703a016328b822a8e0708eeded97d2d7d97356b8e85f8c1c92b19cf"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-005_result.png",
+    "sha256": "3b1463b411fe333c3e461ae23652eda637cc1d45cf2fe9abc07493b6913ca588"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-005_skipped-domain.png",
+    "sha256": "d2330c05794638055fc74386c4edf2155cde1b3a3646440d9aaff7ba77e43662"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-005_audio-unavailable.png",
+    "sha256": "4c08193f6bcddc0d150f157057363697b2c4ab3dfacaa36e8423634d5a41c5b6"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-006_Complete.png",
+    "sha256": "c577227fd235570e53e5f9dde94858a6b61759be5195e8add1520bf6de7ec78e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-006_insufficient-evidence.png",
+    "sha256": "11627b1361c17f0449c09baed9c9946f2c1cee0cb2adc9c3460cab0e477f1074"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-010_Online.png",
+    "sha256": "72ba6b5715af8ee6b00f56dd68281ab3e64adb0ed089586ca300d5f341c0ab70"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-010_offline.png",
+    "sha256": "d902b779a5988b40568edd8e22f0c00c4a1ee856ba615fe1a2982b63af556860"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-010_syncing.png",
+    "sha256": "95814dac2052ca86bd9397eb85f103d0dd417f7a21193bb3bbfb5a508395026d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-010_nothing-due.png",
+    "sha256": "bdb2bd24762b5ec5cb1ceb131768049cad0c4c803545b6ce9b6f115a7b06d50d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-010_recommendation-unavailable.png",
+    "sha256": "f9c0e7989934fe12289abe8f67985bbae1517840db4e22c34c7bc6f731a9d211"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-011_Offline.png",
+    "sha256": "d902b779a5988b40568edd8e22f0c00c4a1ee856ba615fe1a2982b63af556860"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-011_queued.png",
+    "sha256": "2a73311d8797104262025743eadb15dfa823e5ac65c716de39ce10da4f38f3a5"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-012_Syncing.png",
+    "sha256": "95814dac2052ca86bd9397eb85f103d0dd417f7a21193bb3bbfb5a508395026d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-012_partial.png",
+    "sha256": "2a73311d8797104262025743eadb15dfa823e5ac65c716de39ce10da4f38f3a5"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-020_Ready.png",
+    "sha256": "9133fdccee88ae179cba9dd9be3038e844055b40cba8399727d88e6e98a54a47"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-020_resume.png",
+    "sha256": "927f99fb9cefd2667bf847819771be51d34aed49aa95228b59397cf34e3ac2da"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-020_content-gap.png",
+    "sha256": "81a0f24b7b2e3139dd53268bc8e644c21685568c3d6009a7dedf0c1bc2e26f69"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-021_Ready.png",
+    "sha256": "d9ab14fae4205baf201208d294371cf52aedd4ff7aa24f99f7be23c2375f3084"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-021_offline-capable.png",
+    "sha256": "050c563d27406bc42b050381a5145865136fd5b6cbc03d141ac3364b8a131e0d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-021_content-unavailable.png",
+    "sha256": "9960b27f710dcaa189621c513348956e8dd570a642a0e717dcea4b5d6df8f832"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-022_Ready.png",
+    "sha256": "077fe0c992bfd6358aba333e8ffeedf063d89598e937593d6bc39daa9d5c7170"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-022_selected.png",
+    "sha256": "01285a9823e45f9f2de1159d9948967fb12591bd4af4445487f5f66a20631a96"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-022_validation-error.png",
+    "sha256": "32253cbfc4f88b98b88a793d340b84da3d1b09d681f5bc59be68c6aee8617da7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-022_submitted-result.png",
+    "sha256": "a3be1a32ad6c405fc6f12112be1752bcdc88167e9ea81033d2b79dfd2a1b46a9"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-022_skipped.png",
+    "sha256": "cbc9494d2361ffe8cb1eb92f4b3b0c74324f2c8f921628fc8f8c78302ac6e970"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-023_Ready.png",
+    "sha256": "647e3cdf942d36d5c2d971f3bcc5ffb962da1f7b8fb36ff2edd41d6f5f60fbd0"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-023_audio-loading.png",
+    "sha256": "8375286bc24ab57d9720b624abc59d1953ac315978a1cd5ec5865d49283137d1"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-023_audio-unavailable.png",
+    "sha256": "6a70d77d5c0ed0894f8a587993b7a63670e5411e54193d33225a46cae57d4332"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-024_Ready.png",
+    "sha256": "12e71b9e30b61e4a2d7dd54815dd5fbdbb4251b8df30450dae7da6d287c06e0b"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-024_selected.png",
+    "sha256": "7b1b12c5991710adfad9f635339379af7e4e9b218e98c82afe7894646b199492"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-024_hinted.png",
+    "sha256": "71307075c9740c9e911ac06a3f7cb77130a26a4cd52a93ac8ab9aec1abe6f194"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-024_submitted-result.png",
+    "sha256": "a11081d826122c0272fab23dabd98ade811df55e07f43a04c4ce4b0786823403"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-024_retry-available.png",
+    "sha256": "09bbf248d1f4e920824cec6e561079fdf00e4dfd26494d96fa743239d2e68ed7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-024_retry-exhausted.png",
+    "sha256": "dadbd0995122316fe240f3d4ef1cb5329691fc410a3033ad51dcc57180ade261"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-024_skipped.png",
+    "sha256": "bd7c1d4b81b114620e110e5fe146322a55326af03b525c070c98b8c68bed8781"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-025_Ready.png",
+    "sha256": "55627300b80820ec98170b703c4648d4e8ef91244483a1c52d9d8196b2b5e84f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-025_selected.png",
+    "sha256": "6654666b78d188cfb1451bd61cbf3fd58b257002a2a3768b96eb22884341f40a"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-025_validation-error.png",
+    "sha256": "d48e4868dd9e2630bac4b4e55c69e54f7379e1293b300457e1685be7e347958e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-025_submitted-result.png",
+    "sha256": "8212a1daceb93e8377f61f55cb493496c09c4f0a29a4849170024c000e33d080"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-025_skipped.png",
+    "sha256": "4c8e9bd5f3064e37c5a6d18bf479ffdd796823e5361512d8fe79e8587b343379"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-026_Ready.png",
+    "sha256": "0b2743262662d1862a9d11ab11b933b76dbb94341827a4f20f614a25c1ffa7b7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_Ready.png",
+    "sha256": "5fccbf0a3260cb82b750fb821be63d03f9499487d1e94cdf548d4d37210a4ec4"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_selected.png",
+    "sha256": "f5534713bab04fead0fb144278dd9c350623a20f622a933616f00d7fa56a5243"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_validation-error.png",
+    "sha256": "0186e0f3cfa65ed919c04620dda5ff27c8123ad2456b0cc202d2d6b4f2ab8815"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_submitting.png",
+    "sha256": "f536ed3af06ec6f67837fef67158ff6faec164cc2a7fa893f636524b8be6afc2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_result.png",
+    "sha256": "839e4a8ae655e687fac2bda55c22332365b8aa5fd4e801291d017c9034362613"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_audio-ready.png",
+    "sha256": "d4b91b1c04d1be10824f012f0bf55a6648ef108f4d395aecb6ccbe5373f2b043"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_audio-unavailable.png",
+    "sha256": "28b3dd069e425913b69ed704033aa5fde341ae48c6359e58c181939e39f9def7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-027_play-limit-reached.png",
+    "sha256": "80725a3a699353425918a2b8f3422347bf9361bfac530ed815237bd0176f08b7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-028_Default.png",
+    "sha256": "2c3193eba0fd930ff25711941ea491479af0fb3e198a8996eb0fb18083db40d4"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-029_Retry_available.png",
+    "sha256": "226024b3a2d3cd60b2784b8d8f2ae5196f9a5475ad8347d228fe2264430ce234"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-029_retry_used.png",
+    "sha256": "226024b3a2d3cd60b2784b8d8f2ae5196f9a5475ad8347d228fe2264430ce234"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-029_retry_exhausted.png",
+    "sha256": "8410ddd884229c47f0e3afd6a425af04b13903af28356b32e56b7e2baf13d8e6"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-030_Default.png",
+    "sha256": "2e704c2abf21f987a694cd13ac00f2c89287b58914f2a709c10b9b7ea04da4f5"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-030_unavailable.png",
+    "sha256": "384c716a49ac8d99b61b161bc12431afd577aecc38d9b72ad8b982162873d27f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-031_Default.png",
+    "sha256": "0ec3e806255a04c6fbdde1a9293ff8e42e217715c2b0a7424884cfcfa6b0c008"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-032_Complete.png",
+    "sha256": "4a6d93658b8b0a5d726f348fd9f6d50fe3a9fca1158486c1d6bd98f0aca49cbc"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-032_partial.png",
+    "sha256": "687f32ad19f85db72e89de1162ed4820e8cab7002ff37fc2ccccae1503d53866"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-032_sync-queued.png",
+    "sha256": "687f32ad19f85db72e89de1162ed4820e8cab7002ff37fc2ccccae1503d53866"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-033_Resume.png",
+    "sha256": "7c0d3ad649c1b65c69f0e56f308d880692ddf7d4cdb3d85666ecad61be189dd9"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-033_stale-content_refresh.png",
+    "sha256": "a7bb660ab71192fc08f04e6088d9a3479b996ccd2e9d1e06e0b35461ff2e87fa"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-040_Open.png",
+    "sha256": "e366915bf2aa34ac368d5cb5921513c0f279f343ed6603b0d3d316fc4fa21887"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-040_due-review.png",
+    "sha256": "d24e5fda21bf14b4e4b05ac1c629dc2ae56f42bd41d73583e9c5cba971add88e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-040_locked.png",
+    "sha256": "10a97739ec65be4df5f788eebd443b83f306a14a716a0fa040a9fb9d602af436"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-040_empty.png",
+    "sha256": "377d41b0e8b2af78b8e5d0b5f5d113e8cbe07bd5e947097490a7b67e740539eb"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-041_Eligible.png",
+    "sha256": "888565b677e93b552ba024af7d0d7744377422efb1900f8160805554f7f17464"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-041_due.png",
+    "sha256": "4056aaaca948b37ddee000983a409da71f136facb973b2277e52d74ed0393ab7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-041_locked.png",
+    "sha256": "f5b7cd0900818dcfe258346dbdcce3b5c4b44f9d49946bc0a5116a2d0e5489e4"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-041_insufficient-evidence.png",
+    "sha256": "6f5450e95ad3162b2299fbe91e051c229a7cd46de4804d114c00c5784f85c343"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-042_Preview-open.png",
+    "sha256": "37ff640f7ae75ad36ce60c9ea5cf9f21e2a958a0b3aa0988da2f4c66f6da473f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-042_preview-close.png",
+    "sha256": "37ff640f7ae75ad36ce60c9ea5cf9f21e2a958a0b3aa0988da2f4c66f6da473f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-050_Default.png",
+    "sha256": "4fc59a58b8e01a83a256db936ecfc909bcd7c85eef749ad93b2ef04eaf095978"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-050_insufficient-evidence.png",
+    "sha256": "2901d91a20afb8f8694aedf2bef42fc965c467647c1d4a5318117f6703be858a"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-051_Building.png",
+    "sha256": "317cbf5f1599bdfb984bdea953291c1100910c37865defbb2b19e5c682fb2ebf"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-051_more-evidence-needed.png",
+    "sha256": "317cbf5f1599bdfb984bdea953291c1100910c37865defbb2b19e5c682fb2ebf"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-052_Default.png",
+    "sha256": "ca9e6d88ab90b3b9b5b0bbfa08a51591a69d279190e3833131ff317a6d7c1b0c"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-052_saved.png",
+    "sha256": "028e6c87b339bc631367b8b9edaa786894e7e9bddd1c24a20c6a0cbaaa01c01e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-052_error.png",
+    "sha256": "1bd3813b5a58299609e272ef44d4d4453f8c4e64953e20d4ae20ca709fa43aea"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-053_Default.png",
+    "sha256": "e296ddb8c5c45f76c6cc07152bafd0f6c65acc60871833b283331e99a72ecc59"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-053_saved.png",
+    "sha256": "5b89bcddab631d04174d8683c6ac172aee1faca1d1153f0e7c0aea2690bd5f8f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-054_Available.png",
+    "sha256": "206e23b31e74b4a49332b0d9f311cff6c93c4c7efe158dfabf2370823b3fb711"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-054_downloading.png",
+    "sha256": "099da2a693630a7c0316e1265b43d0f9add2c50d006c1367298140d5fa577910"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-054_downloaded.png",
+    "sha256": "099da2a693630a7c0316e1265b43d0f9add2c50d006c1367298140d5fa577910"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-054_expired.png",
+    "sha256": "d27a69069ed3f8faca8c53f2ee3b1123bab35f3bf302caab22abd5387c86296c"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-054_failed.png",
+    "sha256": "2f7cb66ec2aefe9cfbdbf0d3cb9f4e1ab018d7ed1fdab0260e964917221d4246"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-060_offline-available.png",
+    "sha256": "9d7adf807eeb0d1873a34bee0933969e265c515dc2afc450a2e04b346cf5351f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-060_local-queued.png",
+    "sha256": "8b8f9ae134cfc451ec77280e7fe4cae1133082addd7025e14a8eb9fc0a778835"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-060_syncing.png",
+    "sha256": "cae9a803ac62f92078fd39578a6dcfd4ae2aade36b81226b1f9186972611a5bf"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-060_synced.png",
+    "sha256": "32c64ff48770d9c012cae22f4a2f6e7ea9f654dcf2956751ea4446d6b1f49405"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-060_partial.png",
+    "sha256": "8b8f9ae134cfc451ec77280e7fe4cae1133082addd7025e14a8eb9fc0a778835"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-061_failed-retryable.png",
+    "sha256": "07a1ce7443aacff03e65b50a5fd36a5aec41d5cbe060956dbccc5eca7688630b"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-061_reauth.png",
+    "sha256": "e0c44640f0b04a80d8161d86e54ce88fd0344cf160f3a120ae6a548bee276b7a"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-061_canonical-refresh.png",
+    "sha256": "6f87fb27e8d3c1797fe0a8c0b470b12e0ed973169ea1d8b71e514c0743f506f2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-061_media-unavailable.png",
+    "sha256": "1a91e3e14e5267e3875f5ab047114fcab5df21c13dd512eb1cfe0c5a9b0b9881"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-062_Recoverable.png",
+    "sha256": "c282128636d1594a6418f903443836a9d263064555c7708f08f604ce6795bbc7"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-062_fatal.png",
+    "sha256": "ef721f21f5eef9984fc6e52948cfd1809e76cc45ecf9db24a0cbdd6439e4fe5c"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-063_Nothing-due.png",
+    "sha256": "cc3dbe43cd39e8d6a7397310f042c18a17611123240b6c0bec65e211df33eb7e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-063_no-valid-cycle.png",
+    "sha256": "cc3dbe43cd39e8d6a7397310f042c18a17611123240b6c0bec65e211df33eb7e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-063_media-unavailable.png",
+    "sha256": "5ae305b75920db1155e9f63cb4311321b1de8bde86f1400f0118528f3350cd75"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-064_Default.png",
+    "sha256": "ddec20a04514e78dce955e75bdca9f08050058ba44133a1e772117f8a82236f4"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-001_Loading.png",
+    "sha256": "cf20194a70e44e84cec0828e6cac94778261edc7904c78094ce8e81e79998247"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-001_access-required.png",
+    "sha256": "0fa1bbf8f31ba5004fb638a1aca96224506fbc46b7baa07146d049531990638a"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-010_Default.png",
+    "sha256": "ca339352c0e720ae5dac07253972585fc9e8f6b8fb049cb290da349c63c49e1d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-010_empty.png",
+    "sha256": "e2d26ce2093880ee332c45f48a8dfd8263d74bf6b9040ee593a86f15212a20f2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-010_partial.png",
+    "sha256": "ae742bfe21e50833fd2b25715e046c16c60c02daddab9567699e2b428c02727b"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-020_Loading.png",
+    "sha256": "e938c6619d9b09f329da523e47a46cef2c3d81466a402cc53232568c73be7779"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-020_empty.png",
+    "sha256": "c0356f0259a793a10db41cb1382638e055cf17d514a95f21b1728e514825fc5f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-020_filtered.png",
+    "sha256": "5b77856d0626909f7d36047bb64456f7425a212611bf7f369cfc7939cc35d42a"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-020_error.png",
+    "sha256": "199d33db9fbf95084676955556c360f1523208365e5cefd4d49f99f955f93836"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-021_Default.png",
+    "sha256": "844dd9a4070086f45c7018c25f005c299eadc87a84cf061c5a3c5d9942cfd8cd"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-021_insufficient-evidence.png",
+    "sha256": "1c4d0509f1287164d0b195af76a85ed3ac2fb8a919ff6953cc0e3d98c7620f66"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-021_access-denied.png",
+    "sha256": "a88047ec60ad98fef0e7f79a5a43fc45c3af492897a2a6cf4db74bd8f5b6b3d0"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-022_Loading.png",
+    "sha256": "0afb4f90101e20135492cda19af4b5ef6a0b00e8d4b7f983206a50c5cdf659d9"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-022_no-evidence.png",
+    "sha256": "f371840e745db63669199468d911730cff56301eafc5700baaa5e489535ddb9e"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-023_Default.png",
+    "sha256": "5870ba4c8996d68ee09dcad7159870de173ac049c51d3cd175b2f3984ce0a957"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-023_empty.png",
+    "sha256": "61a9d908a2882f6da63705a820262c40eb771778991414f72dd9ad18d2a89a9a"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-030_Default.png",
+    "sha256": "ab36b11fb50b619748a15ad47d80c436eb938d411151928773966cdd3481f01b"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-030_empty.png",
+    "sha256": "c44b15ff242116bfda83c680ad077c1311829b7bb5f28b0f9df56106d1eb2201"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-030_filtered.png",
+    "sha256": "ac5940cd9032bbb84212f93bdac3050b954a89db45c95c333a13213889da18cb"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-031_clean.png",
+    "sha256": "462a39c1bb6c1956eb0cedab1b3877b48adcf74149cfb436a78aad083121e48f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-031_dirty.png",
+    "sha256": "6cf1f160bb0d5a216642163dade141a7d8f35d888ae650bb40b4226daef9592f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-031_saving.png",
+    "sha256": "ea38e9f789ab6c1d4df0d666f6ee2cc11c1966c81c220216d01b1aeeac858a91"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-031_saved.png",
+    "sha256": "f433cddc12025ebacc9146d19500ec34005f4131e6045594ae54761f4768adff"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-031_validation-error.png",
+    "sha256": "b1a6d069255e6cb2ba4bf62e2fcd4f356f7fb5ca1005343a62db7bd1552f1301"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-031_reviewer-changes.png",
+    "sha256": "6cf1f160bb0d5a216642163dade141a7d8f35d888ae650bb40b4226daef9592f"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-032_preview.png",
+    "sha256": "74257d367a4e6488fff96424fa4aeadfa2446dc749f2d1ebdac2a7ee32a08d7b"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-033_license-pending.png",
+    "sha256": "25a41532130e81521432c861d2760cef87ed83a0a7cbc8e3c2943b7f3fbc6440"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-033_license-verified.png",
+    "sha256": "25a41532130e81521432c861d2760cef87ed83a0a7cbc8e3c2943b7f3fbc6440"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-033_validation-error.png",
+    "sha256": "4d5e2f5ac21589a95565ffb56b860a0df99c2b414798807a03a5f01b2983c62d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-034_Empty.png",
+    "sha256": "4b6c30e3ac86be77d171472fdb5c17cbc979b0919246263c720ff74784578d7c"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-034_filtered.png",
+    "sha256": "09e1719c84c27bf3a9f1134e04c1f076f408057a64a6052f84cdeba884e658f2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-035_license-blocked.png",
+    "sha256": "4755ce563fea740d432176aee9b403783e9ae33797b44037103963d377a5414d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-035_approvable.png",
+    "sha256": "9f8454a2e69c2a7ac9664a206401751aa8747764d1f373e01c9652a400b0c883"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-035_changes-requested.png",
+    "sha256": "d254b149b226069d85d2fc1bfc6ba5a04983564a21730f6b9f3990b6b03976ce"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-036_confirmation-open.png",
+    "sha256": "da6d405c8e94b5e14b4533178f5bde1a19ea6ff54cdcd6665e6a0a6854d8f1f4"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-036_processing.png",
+    "sha256": "595226f173ed05f5f2ab141756cf9fd9a3d320aedd5e6c29455610a404c8b163"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-036_error.png",
+    "sha256": "c27dae1fc9906089d2332512fa391877a14687cbe4222001f8229a9ecef5bb40"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-037_published-immutable.png",
+    "sha256": "6405cc001eaa52c07b46d516349e650729e77c8a124f9a7a7edbf27493ac8e66"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-037_new-draft-created.png",
+    "sha256": "c43da50845b9e1561913126e524f187a4f2212b847ab1a9bb305c3afc8744cf0"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-040_Placeholder.png",
+    "sha256": "7e94328230469bd2a730e8dbf3215b63399e99a22f1b8ce8e3fc31aa7a53206d"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-040_empty.png",
+    "sha256": "a759bab227f9fefc86f095c2c85bb8c5778216de71d125686d61c522ddf268d9"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-041_Placeholder.png",
+    "sha256": "2e2515668e4a0149435039f4796d67ed10024c56d2345cdea12c740329e0fa50"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-041_unavailable.png",
+    "sha256": "121a5738653a7fcded466862e6462bd71e283b27c03764aabaa8fa8bb30d19e2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-050_Placeholder.png",
+    "sha256": "0579b15701d5b053cc85811825e6aa066bb9a1225c59b4152cc9e54926917d76"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-050_no-data.png",
+    "sha256": "860efe18eedc3ee537b4adb1d2faf7e653d7ec1926b83820a9d65f684c673e4b"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-051_Placeholder.png",
+    "sha256": "efacf7e1002f1f4e983389a195e75159b76a73671b085080db71cb0f0110f8b2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-051_insufficient-data.png",
+    "sha256": "06b80cb7d7d9eeafd8a26358d430c47fbefee84aab083d6bf33ae99a1d8ca231"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-060_Placeholder.png",
+    "sha256": "814f3123fd10e6ba4bd818619d5a6e13fa61b62c39bf15354102c8eb6414f668"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-060_access-denied.png",
+    "sha256": "357030de41b27b2313e4d80705ed15acdc699520685d2ef541895b0abb0fdf2b"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-061_Placeholder.png",
+    "sha256": "e0b82ddd26e5af12e491a26cea913321bbeb07107d1b220b33881cf6fb473ac2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-062_Placeholder.png",
+    "sha256": "8d3455f797ede745007f8b51a3522dc6df745ec6ec183552902950c912c758c0"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/S-062_filtered.png",
+    "sha256": "c1c89eb5f99eb2c3e702b9b54f3d1c0b5c1580f74eaf66b3d504790b4715c8a2"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-070_observations.png",
+    "sha256": "91c4b11871bbc71426c9a87694549c488f3e20c7bc31797b8da845c854292e3c"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-070_insufficient-evidence.png",
+    "sha256": "496bae792791516f752c07f079f244c44d74b5607c7efbe333d7ef863dc79330"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-071_ready.png",
+    "sha256": "e4fb4236463010168abde300a1589d945134a1f4d9ec48c0b007e91b5414e181"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-071_filtered.png",
+    "sha256": "58f33031d1910cb88913b62c35e58f6d54dc619bb984c69e3d0f41dc305251e3"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-071_empty.png",
+    "sha256": "16ba031c1e473ecb8f58005f32984bd228a3baf78acaab1ca9dc908f9d749f76"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-072_ready.png",
+    "sha256": "6b2184a8f8b39bbb8fe28b9a695fcf693b1d9a727631cd30d622ca99a3aaab18"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-072_saved.png",
+    "sha256": "bf7c799b53907cbf27eb2b6e03ed76ac9e3ce0268707609b591e7cc9a4b5e5c6"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-073_ready.png",
+    "sha256": "e3abf2f70b32f8366f746da92fb8d6ad3f151e1674692f79e614301d170403ab"
+  },
+  {
+    "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-073_empty.png",
+    "sha256": "155e9c419a4621f2f35c7f3ecbe94c4f0a8b34e5539e9496ee466853dbcc279a"
+  }
+]

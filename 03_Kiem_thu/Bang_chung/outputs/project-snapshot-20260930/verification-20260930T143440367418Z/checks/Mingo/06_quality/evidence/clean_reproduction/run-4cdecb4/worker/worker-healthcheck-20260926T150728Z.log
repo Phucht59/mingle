@@ -1,0 +1,3 @@
+Commit: 4cdecb426d33b2996f4a3a72cc78da6a276b713f
+Command: C:\Mingo\.local\clean-reproduction-20260926\.venv\Scripts\python.exe -m all_foundation.worker --healthcheck
+Exit code: 0

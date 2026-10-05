@@ -1,0 +1,6 @@
+Commit: eb0dcc169c64813fa8d08aa715eb65073b2f33fe
+Command: C:\Mingo\.venv\Scripts\python.exe -m all_foundation.worker --once
+{"time": "2026-09-26T10:03:36.939622+00:00", "level": "INFO", "event": "worker.started", "component": "worker", "request_id": null}
+{"time": "2026-09-26T10:03:37.123196+00:00", "level": "INFO", "event": "job.completed", "component": "worker", "request_id": null}
+{"time": "2026-09-26T10:03:37.123196+00:00", "level": "INFO", "event": "worker.stopped", "component": "worker", "request_id": null}
+Exit code: 0

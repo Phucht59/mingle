@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-10-02T02:03:54.069951+07:00",
+  "manifest_files": 472,
+  "current_source_mismatches": [],
+  "zip_sha256": "66013ef666aac6ac029c278b6b3e1e8d47164b3cf303200402bb6639ebf6af65",
+  "original_workbook_unchanged": true,
+  "branch": "main",
+  "commit": "a112f762ab08f6fa688cc4857b21d95d1055ab5c",
+  "root_entries": [
+    ".git",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".idea",
+    ".local",
+    ".ruff_cache",
+    ".venv",
+    "01_San_pham",
+    "02_Tai_lieu_du_an",
+    "03_Kiem_thu",
+    "04_Van_hanh",
+    "99_Luu_tru",
+    "PROJECT_MAP.md",
+    "README.md",
+    "REPO_RULES.md",
+    "START_HERE.md"
+  ],
+  "phase_3": "HOLD",
+  "scope": "Export SHA/CRC/current-tree comparison and unchanged original workbook/Git HEAD; human acceptance remains pending"
+}

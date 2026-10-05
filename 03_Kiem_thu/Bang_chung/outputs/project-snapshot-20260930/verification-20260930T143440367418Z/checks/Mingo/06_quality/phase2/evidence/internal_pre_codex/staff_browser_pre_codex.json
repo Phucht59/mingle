@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "staff_surface",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "prompt_label",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "source_label",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "preview",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "blocked",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "enabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "dialog_open",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "focus_restored",
+      "status": "PASS",
+      "detail": "action-S-035-approve"
+    },
+    {
+      "check": "published",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_draft",
+      "status": "PASS",
+      "detail": "{'surface': 'staff', 'learner': 'welcome', 'staff': 'editor', 'networkOnline': True, 'syncState': 'synced', 'queuedCount': 0, 'cycleDomain': 'vocabulary', 'cycleStep': 0, 'selected': None, 'response': {'first': None, 'retry': None, 'retryCount': 0, 'assisted': False, 'skipped': False, 'result': None, 'final': False}, 'goal': '', 'placementStep': 0, 'licenseVerified': True, 'contentDraftRevision': 5, 'publishedRevision': 4}"
+    },
+    {
+      "check": "main_not_live",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

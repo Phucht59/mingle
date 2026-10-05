@@ -1,0 +1,21 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.example text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.json text eol=lf
+*.dart text eol=lf
+*.ps1 text eol=crlf
+*.zip binary
+*.bundle binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# User-supplied V3.2 originals: preserve exact bytes and manifest hashes.
+/04_architecture/contracts/v3_2/source/** -text

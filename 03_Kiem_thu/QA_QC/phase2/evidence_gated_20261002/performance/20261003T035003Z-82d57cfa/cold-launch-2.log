@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.adaptive_learner/.MainActivity
+TotalTime: 4976
+WaitTime: 5018
+Complete

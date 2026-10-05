@@ -1,0 +1,47 @@
+[
+  {
+    "app": "learner",
+    "command": [
+      "C:/Dev/flutter-3.32.8/bin/flutter.bat",
+      "pub",
+      "get"
+    ],
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 4.2
+  },
+  {
+    "app": "learner",
+    "command": [
+      "C:/Dev/flutter-3.32.8/bin/flutter.bat",
+      "build",
+      "apk",
+      "--debug"
+    ],
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 77.3
+  },
+  {
+    "app": "staff",
+    "command": [
+      "C:/Dev/flutter-3.32.8/bin/flutter.bat",
+      "pub",
+      "get"
+    ],
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 5.5
+  },
+  {
+    "app": "staff",
+    "command": [
+      "C:/Dev/flutter-3.32.8/bin/flutter.bat",
+      "build",
+      "web"
+    ],
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 35.8
+  }
+]

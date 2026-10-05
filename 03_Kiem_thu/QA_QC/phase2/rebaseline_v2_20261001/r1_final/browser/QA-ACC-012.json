@@ -1,0 +1,52 @@
+{
+  "id": "QA-ACC-012",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T16:30:44.966Z",
+  "ended": "2026-10-01T16:30:45.166Z",
+  "expected": "Sidebar can compact; core task remains usable.",
+  "steps": [
+    "Click: Staff",
+    "Click: Content"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nCONTENT\nContent library\nCreate draft\nReview queue\nItem\tStatus\tRevision\t\nBasic greetings\tDraft\tDraft 4\tEdit\nIntroductions\tPublished\tRevision 3\tView",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "content",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [
+    {
+      "w": 1024,
+      "scroll": 1024,
+      "main": 776
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js"
+  ],
+  "failure": null
+}

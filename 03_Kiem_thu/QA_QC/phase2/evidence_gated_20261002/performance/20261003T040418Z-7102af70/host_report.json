@@ -1,0 +1,1139 @@
+{
+  "schema": "mingo.performance.host.v1",
+  "run_id": "20261003T040418Z-7102af70",
+  "capture_utc": "2026-10-03T04:04:18.0838246Z",
+  "timezone_display": "Asia/Saigon",
+  "build_mode": "release",
+  "status": "ENGINEERING_MEASUREMENT_COMPLETE",
+  "physical_device_performance": "PENDING_EMULATOR_NOT_CERTIFICATION",
+  "device_tier": "UNASSIGNED",
+  "tier_assignment": "QA supplied; hardware evidence required, not inferred from emulator",
+  "scenarios": {
+    "frame_timings": "NOT_RUN_RELEASE_HAS_NO_VM_SERVICE",
+    "cold_launch": {
+      "total_time": {
+        "count": 5,
+        "p95_ms": 2677.0,
+        "median_ms": 2617.0
+      },
+      "samples": [
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2677\r\nWaitTime: 2682\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 2677,
+          "waittime_ms": 2682,
+          "status": "REPORTED_OK",
+          "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+          "process_after_launch": "5559"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2495\r\nWaitTime: 2501\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 2495,
+          "waittime_ms": 2501,
+          "status": "REPORTED_OK",
+          "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+          "process_after_launch": "5608"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2507\r\nWaitTime: 2552\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 2507,
+          "waittime_ms": 2552,
+          "status": "REPORTED_OK",
+          "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+          "process_after_launch": "5655"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2644\r\nWaitTime: 2662\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 2644,
+          "waittime_ms": 2662,
+          "status": "REPORTED_OK",
+          "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+          "process_after_launch": "5699"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2617\r\nWaitTime: 2640\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 2617,
+          "waittime_ms": 2640,
+          "status": "REPORTED_OK",
+          "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+          "process_after_launch": "5744"
+        }
+      ],
+      "metric": "Android am start -W reported activity time, not meaningful-learning latency",
+      "this_time": {
+        "count": 0,
+        "p95_ms": null,
+        "median_ms": null
+      }
+    },
+    "warm_launch_and_background_return": {
+      "note": "WaitTime is command completion, not an equivalent to cold ThisTime/TotalTime",
+      "samples": [
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 199\r\nWaitTime: 204\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 199,
+          "waittime_ms": 204,
+          "status": "REPORTED_OK",
+          "same_process": true,
+          "classification": "WARM_BACKGROUND_RETURN"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 137\r\nWaitTime: 141\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 137,
+          "waittime_ms": 141,
+          "status": "REPORTED_OK",
+          "same_process": true,
+          "classification": "WARM_BACKGROUND_RETURN"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 270\r\nWaitTime: 288\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 270,
+          "waittime_ms": 288,
+          "status": "REPORTED_OK",
+          "same_process": true,
+          "classification": "WARM_BACKGROUND_RETURN"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 138\r\nWaitTime: 144\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 138,
+          "waittime_ms": 144,
+          "status": "REPORTED_OK",
+          "same_process": true,
+          "classification": "WARM_BACKGROUND_RETURN"
+        },
+        {
+          "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 135\r\nWaitTime: 141\r\nComplete",
+          "thistime_ms": null,
+          "totaltime_ms": 135,
+          "waittime_ms": 141,
+          "status": "REPORTED_OK",
+          "same_process": true,
+          "classification": "WARM_BACKGROUND_RETURN"
+        }
+      ],
+      "wait_time": {
+        "count": 5,
+        "p95_ms": 288.0,
+        "median_ms": 144.0
+      }
+    }
+  },
+  "commands": [
+    {
+      "name": "adb-devices",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "devices",
+        "-l"
+      ],
+      "started_utc": "2026-10-03T04:04:18.1200899Z",
+      "elapsed_ms": 80.2512,
+      "exit_code": 0,
+      "log": "adb-devices.log",
+      "sha256": "3f1cd378562be454d02b62f54efd2b60f52ff1b14df69f663623b019abb112b5"
+    },
+    {
+      "name": "device-qemu",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "getprop",
+        "ro.kernel.qemu"
+      ],
+      "started_utc": "2026-10-03T04:04:18.2464171Z",
+      "elapsed_ms": 61.5666,
+      "exit_code": 0,
+      "log": "device-qemu.log",
+      "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04"
+    },
+    {
+      "name": "device-manufacturer",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "getprop",
+        "ro.product.manufacturer"
+      ],
+      "started_utc": "2026-10-03T04:04:18.3155550Z",
+      "elapsed_ms": 56.5907,
+      "exit_code": 0,
+      "log": "device-manufacturer.log",
+      "sha256": "2efc3a9f147a6c7484434df1226b1cc9484fdf48f5ccf2c9b13dc142819ea3bd"
+    },
+    {
+      "name": "device-model",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "getprop",
+        "ro.product.model"
+      ],
+      "started_utc": "2026-10-03T04:04:18.3752537Z",
+      "elapsed_ms": 55.88,
+      "exit_code": 0,
+      "log": "device-model.log",
+      "sha256": "96964b3abc9b33bfea5d72a869a9c6246526a2bdcaecb6357965e0d923f79852"
+    },
+    {
+      "name": "device-sdk",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "getprop",
+        "ro.build.version.sdk"
+      ],
+      "started_utc": "2026-10-03T04:04:18.4334687Z",
+      "elapsed_ms": 68.5723,
+      "exit_code": 0,
+      "log": "device-sdk.log",
+      "sha256": "f82cf59144a96566304c85bba4a1109856f78313add828a8e8629714ea2653ea"
+    },
+    {
+      "name": "device-abi",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "getprop",
+        "ro.product.cpu.abi"
+      ],
+      "started_utc": "2026-10-03T04:04:18.5072618Z",
+      "elapsed_ms": 72.2374,
+      "exit_code": 0,
+      "log": "device-abi.log",
+      "sha256": "73639484b8886a56b085ee97e76ead4218da03db9c2e5c88dd656c06bca60243"
+    },
+    {
+      "name": "display-before",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "display"
+      ],
+      "started_utc": "2026-10-03T04:04:18.5831897Z",
+      "elapsed_ms": 114.5386,
+      "exit_code": 0,
+      "log": "display-before.log",
+      "sha256": "8a845c627e3628b0715345da822601a28566ebe62d162938371349016ea1334e"
+    },
+    {
+      "name": "renderer-context",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "SurfaceFlinger"
+      ],
+      "started_utc": "2026-10-03T04:04:18.7015543Z",
+      "elapsed_ms": 129.3823,
+      "exit_code": 0,
+      "log": "renderer-context.log",
+      "sha256": "c1138cd6ef4a84a2cd2fce976b924b25b8e5a2e0adec5719091429820673228e"
+    },
+    {
+      "name": "hardware-memory",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "cat",
+        "/proc/meminfo"
+      ],
+      "started_utc": "2026-10-03T04:04:18.8556011Z",
+      "elapsed_ms": 66.3203,
+      "exit_code": 0,
+      "log": "hardware-memory.log",
+      "sha256": "8af4f21ca5e88221ba39087f7cddc282fe595df47badbee74a9057d0c3b0d811"
+    },
+    {
+      "name": "battery-before",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "battery"
+      ],
+      "started_utc": "2026-10-03T04:04:18.9248945Z",
+      "elapsed_ms": 67.6284,
+      "exit_code": 0,
+      "log": "battery-before.log",
+      "sha256": "f711e4ec8b4afb7476d4fe66bd3545bb9ddcc106419ece912bac2f3a21406f62"
+    },
+    {
+      "name": "thermal-before",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "thermalservice"
+      ],
+      "started_utc": "2026-10-03T04:04:18.9955064Z",
+      "elapsed_ms": 76.229,
+      "exit_code": 0,
+      "log": "thermal-before.log",
+      "sha256": "b70e5054752dee276be234c1c1f6e21451a27ecb82171cd73ebbc86a353094d5"
+    },
+    {
+      "name": "flutter-version",
+      "tool": "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "arguments": [
+        "--version"
+      ],
+      "started_utc": "2026-10-03T04:04:19.0776124Z",
+      "elapsed_ms": 2074.7238,
+      "exit_code": 0,
+      "log": "flutter-version.log",
+      "sha256": "b9b2c7565d00063dedd4f136a001bda173d8579aab09bda5a7ca96d8d896dd51"
+    },
+    {
+      "name": "normal-app-build",
+      "tool": "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "arguments": [
+        "build",
+        "apk",
+        "--release",
+        "--target=lib/main.dart"
+      ],
+      "started_utc": "2026-10-03T04:04:21.2175281Z",
+      "elapsed_ms": 63183.6682,
+      "exit_code": 0,
+      "log": "normal-app-build.log",
+      "sha256": "2b32ec8680cf3dc24f119426b8a939226181654f88487add2210eab2a442d637"
+    },
+    {
+      "name": "release-aab-build",
+      "tool": "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "arguments": [
+        "build",
+        "appbundle",
+        "--release",
+        "--target=lib/main.dart"
+      ],
+      "started_utc": "2026-10-03T04:05:24.4524006Z",
+      "elapsed_ms": 15858.1041,
+      "exit_code": 0,
+      "log": "release-aab-build.log",
+      "sha256": "fa8b698a2c0edc71ee17e811ae2cbfcdaf9e086b22037d5115ad85d79799ddff"
+    },
+    {
+      "name": "normal-app-install",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "install",
+        "-r",
+        "C:\\Mingo\\01_San_pham\\apps\\learner\\build\\app\\outputs\\flutter-apk\\app-release.apk"
+      ],
+      "started_utc": "2026-10-03T04:05:40.3672333Z",
+      "elapsed_ms": 2331.6658,
+      "exit_code": 0,
+      "log": "normal-app-install.log",
+      "sha256": "c4aa470acafcf8576c15b0f0b5ae7e852d1ec5413372d0e6a9272e788e1306d3"
+    },
+    {
+      "name": "resolve-activity",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "cmd",
+        "package",
+        "resolve-activity",
+        "--brief",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:42.7022154Z",
+      "elapsed_ms": 87.7815,
+      "exit_code": 0,
+      "log": "resolve-activity.log",
+      "sha256": "7a9b762ecf23b346d52735d6364f4712959d1bc32313af83295b17053e6ddf84"
+    },
+    {
+      "name": "cold-force-stop-1",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "force-stop",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:42.8126672Z",
+      "elapsed_ms": 243.5871,
+      "exit_code": 0,
+      "log": "cold-force-stop-1.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "cold-launch-1",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:05:43.1150358Z",
+      "elapsed_ms": 2922.8099,
+      "exit_code": 0,
+      "log": "cold-launch-1.log",
+      "sha256": "f7de16043e0a1321a110a726d8f41d1261770f3be12900b413cb4e9b646c2cd5"
+    },
+    {
+      "name": "cold-pid-after-1",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:47.2889391Z",
+      "elapsed_ms": 64.0849,
+      "exit_code": 0,
+      "log": "cold-pid-after-1.log",
+      "sha256": "ad8a9eb3beb9c67d4400d1ccaa680471de194e51b7438f175bce332085307e0e"
+    },
+    {
+      "name": "cold-force-stop-2",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "force-stop",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:47.3577932Z",
+      "elapsed_ms": 115.0509,
+      "exit_code": 0,
+      "log": "cold-force-stop-2.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "cold-launch-2",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:05:47.4889853Z",
+      "elapsed_ms": 2744.0642,
+      "exit_code": 0,
+      "log": "cold-launch-2.log",
+      "sha256": "448e360d99e9506323a83aa5d974ec28f79af1792fb67d91eff0fd23fedd9f32"
+    },
+    {
+      "name": "cold-pid-after-2",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:51.4447793Z",
+      "elapsed_ms": 63.3648,
+      "exit_code": 0,
+      "log": "cold-pid-after-2.log",
+      "sha256": "642fdd07e828c7e361efed6488fc3ba2ce9093bf7ee14d5052580597c6f35364"
+    },
+    {
+      "name": "cold-force-stop-3",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "force-stop",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:51.5099094Z",
+      "elapsed_ms": 123.4147,
+      "exit_code": 0,
+      "log": "cold-force-stop-3.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "cold-launch-3",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:05:51.6384844Z",
+      "elapsed_ms": 2790.8247,
+      "exit_code": 0,
+      "log": "cold-launch-3.log",
+      "sha256": "d1d678ad2b6c680c836c4a4b11dd1fba9ac33b9add7a8aacb8aba382ea789d3b"
+    },
+    {
+      "name": "cold-pid-after-3",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:55.6467253Z",
+      "elapsed_ms": 56.5793,
+      "exit_code": 0,
+      "log": "cold-pid-after-3.log",
+      "sha256": "5837017036f5f0bee26c53bcb3a1ceb57c237d3557ddd52cbaf53bce0c59e3f4"
+    },
+    {
+      "name": "cold-force-stop-4",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "force-stop",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:05:55.7057873Z",
+      "elapsed_ms": 370.4347,
+      "exit_code": 0,
+      "log": "cold-force-stop-4.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "cold-launch-4",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:05:56.1438216Z",
+      "elapsed_ms": 3100.5903,
+      "exit_code": 0,
+      "log": "cold-launch-4.log",
+      "sha256": "e874342d678bc2d997643d00295822c276e232b5efff1dfecf6335b9cf22eccf"
+    },
+    {
+      "name": "cold-pid-after-4",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:00.4633672Z",
+      "elapsed_ms": 58.1082,
+      "exit_code": 0,
+      "log": "cold-pid-after-4.log",
+      "sha256": "bb69bffb01e40940a5111bd5c9d9c26a8e1091e5f15350c8dd79518d9b338de8"
+    },
+    {
+      "name": "cold-force-stop-5",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "force-stop",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:00.5236552Z",
+      "elapsed_ms": 93.0897,
+      "exit_code": 0,
+      "log": "cold-force-stop-5.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "cold-launch-5",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:06:00.6228437Z",
+      "elapsed_ms": 2847.8654,
+      "exit_code": 0,
+      "log": "cold-launch-5.log",
+      "sha256": "cf29cab4f7d9ed284ea09e746c945b08eeed82e31608bd30ffbd785f65188adf"
+    },
+    {
+      "name": "cold-pid-after-5",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:04.6859022Z",
+      "elapsed_ms": 84.8026,
+      "exit_code": 0,
+      "log": "cold-pid-after-5.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-pid-before-1",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:04.7737467Z",
+      "elapsed_ms": 61.3062,
+      "exit_code": 0,
+      "log": "warm-pid-before-1.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-background-1",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "input",
+        "keyevent",
+        "KEYCODE_HOME"
+      ],
+      "started_utc": "2026-10-03T04:06:04.8379579Z",
+      "elapsed_ms": 72.5128,
+      "exit_code": 0,
+      "log": "warm-background-1.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "warm-launch-1",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:06:06.1333777Z",
+      "elapsed_ms": 517.7728,
+      "exit_code": 0,
+      "log": "warm-launch-1.log",
+      "sha256": "5fe82d01b81da42a3e79c7ff840cdda6c9dbda5fd333f4be17826ec06824aeda"
+    },
+    {
+      "name": "warm-pid-after-1",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:06.6539425Z",
+      "elapsed_ms": 216.0898,
+      "exit_code": 0,
+      "log": "warm-pid-after-1.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-pid-before-2",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:06.8877306Z",
+      "elapsed_ms": 118.5416,
+      "exit_code": 0,
+      "log": "warm-pid-before-2.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-background-2",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "input",
+        "keyevent",
+        "KEYCODE_HOME"
+      ],
+      "started_utc": "2026-10-03T04:06:07.0208334Z",
+      "elapsed_ms": 118.3387,
+      "exit_code": 0,
+      "log": "warm-background-2.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "warm-launch-2",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:06:08.3543818Z",
+      "elapsed_ms": 217.6831,
+      "exit_code": 0,
+      "log": "warm-launch-2.log",
+      "sha256": "b27ba496fe7afef4f738ae84aaac84b48cdb0b936f442c90874f3cd2bcac5411"
+    },
+    {
+      "name": "warm-pid-after-2",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:08.5747165Z",
+      "elapsed_ms": 314.5777,
+      "exit_code": 0,
+      "log": "warm-pid-after-2.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-pid-before-3",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:08.8944233Z",
+      "elapsed_ms": 206.6956,
+      "exit_code": 0,
+      "log": "warm-pid-before-3.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-background-3",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "input",
+        "keyevent",
+        "KEYCODE_HOME"
+      ],
+      "started_utc": "2026-10-03T04:06:09.1063561Z",
+      "elapsed_ms": 140.7203,
+      "exit_code": 0,
+      "log": "warm-background-3.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "warm-launch-3",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:06:10.5244752Z",
+      "elapsed_ms": 634.9803,
+      "exit_code": 0,
+      "log": "warm-launch-3.log",
+      "sha256": "81ef619a5bd2cbbb8c3537ca2872cdd4b4fad8598e060e46b2498c9a33bc7fee"
+    },
+    {
+      "name": "warm-pid-after-3",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:11.1685859Z",
+      "elapsed_ms": 376.2557,
+      "exit_code": 0,
+      "log": "warm-pid-after-3.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-pid-before-4",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:11.5642556Z",
+      "elapsed_ms": 161.4041,
+      "exit_code": 0,
+      "log": "warm-pid-before-4.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-background-4",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "input",
+        "keyevent",
+        "KEYCODE_HOME"
+      ],
+      "started_utc": "2026-10-03T04:06:11.7275095Z",
+      "elapsed_ms": 73.6125,
+      "exit_code": 0,
+      "log": "warm-background-4.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "warm-launch-4",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:06:13.0152215Z",
+      "elapsed_ms": 280.7732,
+      "exit_code": 0,
+      "log": "warm-launch-4.log",
+      "sha256": "1846eeedbae845b0899cfaec7a614efe7d372360495f4263de744a46863f4df2"
+    },
+    {
+      "name": "warm-pid-after-4",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:13.3100235Z",
+      "elapsed_ms": 295.5482,
+      "exit_code": 0,
+      "log": "warm-pid-after-4.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-pid-before-5",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:13.6296041Z",
+      "elapsed_ms": 134.3548,
+      "exit_code": 0,
+      "log": "warm-pid-before-5.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "warm-background-5",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "input",
+        "keyevent",
+        "KEYCODE_HOME"
+      ],
+      "started_utc": "2026-10-03T04:06:13.7701932Z",
+      "elapsed_ms": 190.7298,
+      "exit_code": 0,
+      "log": "warm-background-5.log",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "name": "warm-launch-5",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.example.adaptive_learner/.MainActivity"
+      ],
+      "started_utc": "2026-10-03T04:06:15.1700222Z",
+      "elapsed_ms": 244.0581,
+      "exit_code": 0,
+      "log": "warm-launch-5.log",
+      "sha256": "2a0581283f98dd0314c9b51a8fb7a0aa40731824ac9e99b76079f3ee470e3e5a"
+    },
+    {
+      "name": "warm-pid-after-5",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "pidof",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:15.4188846Z",
+      "elapsed_ms": 357.1328,
+      "exit_code": 0,
+      "log": "warm-pid-after-5.log",
+      "sha256": "a2f1605a6418ad7e64e12fb257503012639ba6462b0757d94a3de22ed8f6386e"
+    },
+    {
+      "name": "normal-app-memory",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "meminfo",
+        "com.example.adaptive_learner"
+      ],
+      "started_utc": "2026-10-03T04:06:15.8400080Z",
+      "elapsed_ms": 282.3647,
+      "exit_code": 0,
+      "log": "normal-app-memory.log",
+      "sha256": "175aa8a78917c1eb1f65781f553db4f75e7630699e750804262177097e2a7527"
+    },
+    {
+      "name": "battery-after",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "battery"
+      ],
+      "started_utc": "2026-10-03T04:06:16.1264413Z",
+      "elapsed_ms": 54.3115,
+      "exit_code": 0,
+      "log": "battery-after.log",
+      "sha256": "f711e4ec8b4afb7476d4fe66bd3545bb9ddcc106419ece912bac2f3a21406f62"
+    },
+    {
+      "name": "thermal-after",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "thermalservice"
+      ],
+      "started_utc": "2026-10-03T04:06:16.1823786Z",
+      "elapsed_ms": 56.4826,
+      "exit_code": 0,
+      "log": "thermal-after.log",
+      "sha256": "bac3eed8ca0087f53a2206c51c9c4c119780e4f39d0df0e07ec6fc8931ad95f6"
+    },
+    {
+      "name": "display-after",
+      "tool": "C:\\Android\\Sdk\\platform-tools\\adb.exe",
+      "arguments": [
+        "-s",
+        "emulator-5554",
+        "shell",
+        "dumpsys",
+        "display"
+      ],
+      "started_utc": "2026-10-03T04:06:16.2405200Z",
+      "elapsed_ms": 66.2866,
+      "exit_code": 0,
+      "log": "display-after.log",
+      "sha256": "f59792071581d5b94351e0e78211470f4d63f7778b472ff0e4dcde3eac0231a8"
+    }
+  ],
+  "limits": [
+    "Emulator numbers cannot certify physical-device performance.",
+    "FrameTiming violations are jank proxies, not exact compositor dropped frames.",
+    "am start -W is Android activity-start reporting, not time to meaningful learning.",
+    "Force-stop is process cold; filesystem cache/app data are not cleared.",
+    "Warm launch is accepted only when the process PID is unchanged.",
+    "Offline rendering is a fixture; durable offline runtime belongs to Phase6.",
+    "dumpsys battery/thermal are snapshots, not battery-energy benchmarks."
+  ],
+  "is_emulator": true,
+  "device_alias": "emulator-5554",
+  "manufacturer": "Google",
+  "model": "sdk_gphone64_x86_64",
+  "android_sdk": "35",
+  "abi": "x86_64",
+  "display_raw": "DISPLAY MANAGER (dumpsys display)\r\n  mSafeMode=false\r\n  mPendingTraversal=false\r\n  mViewports=[DisplayViewport{type=INTERNAL, valid=true, isActive=true, displayId=0, uniqueId='local:4619827259835644672', physicalPort=0, orientation=0, logicalFrame=Rect(0, 0 - 1080, 2400), physicalFrame=Rect(0, 0 - 1080, 2400), deviceWidth=1080, deviceHeight=2400}]\r\n  mDefaultDisplayDefaultColorMode=0\r\n  mWifiDisplayScanRequestCount=0\r\n  mStableDisplaySize=Point(1080, 2400)\r\n  mMinimumBrightnessCurve=[(0.0, 0.0), (2000.0, 50.0), (4000.0, 90.0)]\r\n\r\n  mHdrConversionMode=HdrConversionMode{ConversionMode=HDR_CONVERSION_SYSTEM, PreferredHdrOutputType=HDR_TYPE_INVALID}\r\n\r\nDisplay States: size=1\r\n  Display Id=0\r\n  Display State=ON\r\n  Display Brightness=0.39763778\r\n  Display SdrBrightness=0.39763778\r\n\r\nDisplay Adapters: size=3\r\n  LocalDisplayAdapter\r\n  VirtualDisplayAdapter\r\n  OverlayDisplayAdapter\r\n    mCurrentOverlaySetting=\r\n    mOverlays: size=0\r\n\r\nDisplay Devices: size=1\r\n  DisplayDeviceInfo{\"Built-in Screen\": uniqueId=\"local:4619827259835644672\", 1080 x 2400, modeId 1, renderFrameRate 60.000004, defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 420, 420.0 x 420.0 dpi, appVsyncOff 1000000, presDeadline 16666666, cutout DisplayCutout{insets=Rect(0, 128 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(492, 0 - 610, 128), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2400 physicalDisplayWidth=1080 physicalDisplayHeight=2400 density={2.625} cutoutSpec={M 507,64 a 33,33 0 1 0 66,0 33,33 0 1 0 -66,0 Z @left} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x401cec6a7a2b7b}, deviceProductInfo DeviceProductInfo{name=EMU_display_0, manufacturerPnpId=GGL, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.39763778, hdrSdrRatio NaN, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=28, center=Point(28, 28)}, RoundedCorner{position=TopRight, radius=28, center=Point(1052, 28)}, RoundedCorner{position=BottomRight, radius=28, center=Point(1052, 2372)}, RoundedCorner{position=BottomLeft, radius=28, center=Point(28, 2372)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=-1893857183 displayWidth=1080 displayHeight=2400 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}\r\n    mAdapter=LocalDisplayAdapter\r\n    mUniqueId=local:4619827259835644672\r\n    mDisplayToken=android.os.BinderProxy@da47827\r\n    mCurrentLayerStack=0\r\n    mCurrentFlags=1\r\n    mCurrentOrientation=0\r\n    mCurrentLayerStackRect=Rect(0, 0 - 1080, 2400)\r\n    mCurrentDisplayRect=Rect(0, 0 - 1080, 2400)\r\n    mCurrentSurface=null\r\n    mPhysicalDisplayId=4619827259835644672\r\n    mDisplayModeSpecs={baseModeId=1 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 60.0) appRequest=physical: (0.0 Infinity) render:  (0.0 Infinity) idleScreenRefreshRateConfig=null}\r\n    mDisplayModeSpecsInvalid=false\r\n    mActiveModeId=1\r\n    mActiveColorMode=0\r\n    mDefaultModeId=1\r\n    mUserPreferredModeId=-1\r\n    mState=ON\r\n    mCommittedState=ON\r\n    mBrightnessState=0.39763778\r\n    mBacklightAdapter=BacklightAdapter [useSurfaceControl=false (force_anyway? false), backlight=com.android.server.lights.LightsService$LightImpl@cd3ad4]\r\n    mAllmSupported=false\r\n    mAllmRequested=false\r\n    mGameContentTypeSupported=false\r\n    mGameContentTypeRequested=false\r\n    mStaticDisplayInfo=StaticDisplayInfo{isInternal=true, density=2.625, secure=true, deviceProductInfo=DeviceProductInfo{name=EMU_display_0, manufacturerPnpId=GGL, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, installOrientation=0}\r\n    mSfDisplayModes=\r\n      DisplayMode{id=0, width=1080, height=2400, xDpi=420.0, yDpi=420.0, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0}\r\n    mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=420.0, yDpi=420.0, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[], group=0}\r\n    mActiveRenderFrameRate=60.000004\r\n    mSupportedModes=\r\n      DisplayModeRecord{mMode={id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}}\r\n    mSupportedColorModes=[0]\r\n    mDisplayDeviceConfig=DisplayDeviceConfig{mLoadedFrom=<config.xml>\r\n    mBacklight=null, mNits=null, mRawBacklight=null, mRawNits=null, mInterpolationType=0mBrightness=null\r\n    mBrightnessToBacklightSpline=MonotoneCubicSpline{[(0.0, 0.0: 1.0), (1.0, 1.0: 1.0)]}, mBacklightToBrightnessSpline=MonotoneCubicSpline{[(0.0, 0.0: 1.0), (1.0, 1.0: 1.0)]}, mNitsToBacklightSpline=null, mBacklightMinimum=0.035433073, mBacklightMaximum=1.0, mBrightnessDefault=0.39763778, mQuirks=null, mIsHighBrightnessModeEnabled=false\r\n    mLuxThrottlingData={}, mHbmData=null, mSdrToHdrRatioSpline=null, mThermalBrightnessThrottlingDataMapByThrottlingId={}\r\n    , mPowerThrottlingDataMapByThrottlingId={}\r\n    mBrightnessRampFastDecrease=0.70472443, mBrightnessRampFastIncrease=0.70472443, mBrightnessRampSlowDecrease=0.23228346, mBrightnessRampSlowIncrease=0.23228346, mBrightnessRampSlowDecreaseIdle=NaN, mBrightnessRampSlowIncreaseIdle=NaN, mBrightnessRampDecreaseMaxMillis=0, mBrightnessRampIncreaseMaxMillis=0, mBrightnessRampDecreaseMaxIdleMillis=0, mBrightnessRampIncreaseMaxIdleMillis=0\r\n    mAmbientHorizonLong=10000, mAmbientHorizonShort=2000\r\n    mAmbientBrightnessHysteresis=HysteresisLevels {\r\n        mBrighteningThresholdLevels=[0.0],\r\n        mBrighteningThresholdsPercentages=[0.1],\r\n        mMinBrightening=0.0,\r\n        mDarkeningThresholdLevels=[0.0],\r\n        mDarkeningThresholdsPercentages=[0.2],\r\n        mMinDarkening=0.0\r\n    }\r\n    mAmbientIdleHysteresis=HysteresisLevels {\r\n        mBrighteningThresholdLevels=[0.0],\r\n        mBrighteningThresholdsPercentages=[0.1],\r\n        mMinBrightening=0.0,\r\n        mDarkeningThresholdLevels=[0.0],\r\n        mDarkeningThresholdsPercentages=[0.2],\r\n        mMinDarkening=0.0\r\n    }\r\n    mScreenBrightnessHysteresis=HysteresisLevels {\r\n        mBrighteningThresholdLevels=[0.0],\r\n        mBrighteningThresholdsPercentages=[0.1],\r\n        mMinBrightening=0.0,\r\n        mDarkeningThresholdLevels=[0.0],\r\n        mDarkeningThresholdsPercentages=[0.2],\r\n        mMinDarkening=0.0\r\n    }\r\n    mScreenBrightnessIdleHysteresis=HysteresisLevels {\r\n        mBrighteningThresholdLevels=[0.0],\r\n        mBrighteningThresholdsPercentages=[0.1],\r\n        mMinBrightening=0.0,\r\n        mDarkeningThresholdLevels=[0.0],\r\n        mDarkeningThresholdsPercentages=[0.2],\r\n        mMinDarkening=0.0\r\n    }\r\n    mAmbientLightSensor=SensorData{type= , name= , refreshRateRange: [0.0, Infinity], supportedModes=[]}, mScreenOffBrightnessSensor=null, mProximitySensor=SensorData{type= null, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}, mTempSensor=SensorData{type= SKIN, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}, mRefreshRateLimitations= [], mDensityMapping= null, mAutoBrightnessBrighteningLightDebounce= -1, mAutoBrightnessDarkeningLightDebounce= -1, mAutoBrightnessBrighteningLightDebounceIdle= -1, mAutoBrightnessDarkeningLightDebounceIdle= -1, mDisplayBrightnessMapping= mBrightnessLevelsNits= [], mBrightnessLevelsLuxMap= {default_normal=[0.0]}, mBrightnessLevelsMap= {default_normal=[]}, mDdcAutoBrightnessAvailable= true, mAutoBrightnessAvailable= false\r\n    mDefaultLowBlockingZoneRefreshRate= 0, mDefaultHighBlockingZoneRefreshRate= 0, mRefreshRateData= RefreshRateData {defaultRefreshRate: 60, defaultPeakRefreshRate: 0, defaultRefreshRateInHbmHdr: 0, defaultRefreshRateInHbmSunlight: 0, lowPowerSupportedModes=[], lowLightBlockingZoneSupportedModes=[]} , mRefreshRateZoneProfiles= {}, mRefreshRateThrottlingMap= {}, mLowBlockingZoneThermalMapId= null, mHighBlockingZoneThermalMapId= null\r\n    mLowDisplayBrightnessThresholds= [], mLowAmbientBrightnessThresholds= [], mHighDisplayBrightnessThresholds= [], mHighAmbientBrightnessThresholds= []\r\n    mScreenOffBrightnessSensorValueToLux= null\r\n    mUsiVersion= null\r\n    mHdrBrightnessData= null\r\n    mBrightnessCapForWearBedtimeMode= 0.07480315\r\n    mEvenDimmerBrightnessData:null\r\n    mVrrSupported= false\r\n    }\r\n\r\nLogicalDisplayMapper:\r\n  mSingleDisplayDemoMode=false\r\n  mCurrentLayout=[{dispId: 0(ON), displayGroupName: , addr: {port=0, model=0x401cec6a7a2b7b}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]\r\n  mDeviceStatesOnWhichToWakeUp={}\r\n  mDeviceStatesOnWhichSelectiveSleep={}\r\n  mInteractive=true\r\n  mBootCompleted=true\r\n  \r\n  mDeviceState=0\r\n  mPendingDeviceState=-1\r\n  mDeviceStateToBeAppliedAfterBoot=-1\r\n  \r\n  Logical Displays: size=1\r\n  Display 0:\r\n    mDisplayId=0\r\n    mIsEnabled=true\r\n    mIsInTransition=false\r\n    mLayerStack=0\r\n    mPosition=-1\r\n    mHasContent=true\r\n    mDesiredDisplayModeSpecs={baseModeId=1 allowGroupSwitching=false primary=physical: (0.0 Infinity) render:  (0.0 60.0) appRequest=physical: (0.0 Infinity) render:  (0.0 Infinity) idleScreenRefreshRateConfig=null}\r\n    mRequestedColorMode=0\r\n    mDisplayOffset=(0, 0)\r\n    mDisplayScalingDisabled=false\r\n    mPrimaryDisplayDevice=Built-in Screen\r\n    mBaseDisplayInfo=DisplayInfo{\"Built-in Screen\", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1080 x 2400, largest app 1080 x 2400, smallest app 1080 x 2400, appVsyncOff 1000000, presDeadline 16666666, mode 1, renderFrameRate 60.000004, defaultMode 1, userPreferredModeId -1, supportedModes [{id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}], appsSupportedModes [{id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId \"local:4619827259835644672\", app 1080 x 2400, density 420 (420.0 x 420.0) dpi, layerStack 0, colorMode 0, supportedColorModes [0], address {port=0, model=0x401cec6a7a2b7b}, deviceProductInfo DeviceProductInfo{name=EMU_display_0, manufacturerPnpId=GGL, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.39763778, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio not_available, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default}\r\n    mOverrideDisplayInfo=DisplayInfo{\"Built-in Screen\", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1080 x 2400, largest app 2400 x 2400, smallest app 1080 x 1080, appVsyncOff 1000000, presDeadline 16666666, mode 1, renderFrameRate 60.000004, defaultMode 1, userPreferredModeId -1, supportedModes [{id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}], appsSupportedModes [{id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId \"local:4619827259835644672\", app 1080 x 2400, density 420 (420.0 x 420.0) dpi, layerStack 0, colorMode 0, supportedColorModes [0], address {port=0, model=0x401cec6a7a2b7b}, deviceProductInfo DeviceProductInfo{name=EMU_display_0, manufacturerPnpId=GGL, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.39763778, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio not_available, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default}\r\n    mRequestedMinimalPostProcessing=false\r\n    mFrameRateOverrides=[]\r\n    mPendingFrameRateOverrideUids={}\r\n    mDisplayGroupName=\r\n    mThermalBrightnessThrottlingDataId=default\r\n    mLeadDisplayId=-1\r\n    mLayoutLimitedRefreshRate=null\r\n    mThermalRefreshRateThrottling={}\r\n    mPowerThrottlingDataId=default\r\n  \r\n  DeviceStateToLayoutMap:\r\n    mIsPortInDisplayLayoutEnabled=true\r\n    Registered Layouts:\r\n    state(-1): [{dispId: 0(ON), displayGroupName: , addr: {port=0, model=0x401cec6a7a2b7b}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]\r\n\r\nCallbacks: size=10\r\n  0: mPid=603, mWifiDisplayScanRequested=false\r\n  1: mPid=853, mWifiDisplayScanRequested=false\r\n  2: mPid=982, mWifiDisplayScanRequested=false\r\n  3: mPid=1014, mWifiDisplayScanRequested=false\r\n  4: mPid=1089, mWifiDisplayScanRequested=false\r\n  5: mPid=1098, mWifiDisplayScanRequested=false\r\n  6: mPid=1256, mWifiDisplayScanRequested=false\r\n  7: mPid=1680, mWifiDisplayScanRequested=false\r\n  8: mPid=2097, mWifiDisplayScanRequested=false\r\n  9: mPid=5172, mWifiDisplayScanRequested=false\r\n\r\nDisplay Power Controllers: size=1\r\n\r\nDisplay Power Controller:\r\n  mDisplayId=0\r\n  mLeadDisplayId=-1\r\n  mLightSensor=null\r\n  mDisplayBrightnessFollowers={}\r\n\r\nDisplay Power Controller Locked State:\r\n  mDisplayReadyLocked=true\r\n  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, dozeScreenStateReason=DEFAULT_POLICY\r\n  mPendingRequestChangedLocked=false\r\n  mPendingUpdatePowerStateLocked=false\r\n\r\nDisplay Power Controller Configuration:\r\n  mScreenBrightnessDozeConfig=0.0\r\n  mUseSoftwareAutoBrightnessConfig=false\r\n  mSkipScreenOnBrightnessRamp=false\r\n  mColorFadeFadesConfig=false\r\n  mColorFadeEnabled=true\r\n  mIsDisplayInternal=true\r\n  mCachedBrightnessInfo.brightness=0.39763778\r\n  mCachedBrightnessInfo.adjustedBrightness=0.39763778\r\n  mCachedBrightnessInfo.brightnessMin=0.0\r\n  mCachedBrightnessInfo.brightnessMax=1.0\r\n  mCachedBrightnessInfo.hbmMode=0\r\n  mCachedBrightnessInfo.hbmTransitionPoint=Infinity\r\n  mCachedBrightnessInfo.brightnessMaxReason =0\r\n  mDisplayBlanksAfterDozeConfig=false\r\n  mBrightnessBucketsInDozeConfig=false\r\n  mDozeScaleFactor=1.0\r\n\r\nDisplay Power Controller Thread State:\r\n  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, dozeScreenStateReason=DEFAULT_POLICY\r\n  mBrightnessReason=manual\r\n  mAppliedDimming=false\r\n  mAppliedThrottling=false\r\n  mDozing=false\r\n  mSkipRampState=RAMP_STATE_SKIP_NONE\r\n  mScreenOnBlockStartRealTime=0\r\n  mScreenOffBlockStartRealTime=0\r\n  mPendingScreenOnUnblocker=null\r\n  mPendingScreenOffUnblocker=null\r\n  mPendingScreenOff=false\r\n  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON\r\n  mIsRbcActive=false\r\nAutomaticBrightnessStrategy:\r\n  mDisplayId=0\r\n  mAutoBrightnessAdjustment=0.0\r\n  mPendingAutoBrightnessAdjustment=NaN\r\n  mTemporaryAutoBrightnessAdjustment=NaN\r\n  mShouldResetShortTermModel=false\r\n  mAppliedAutoBrightness=false\r\n  mAutoBrightnessAdjustmentChanged=false\r\n  mAppliedTemporaryAutoBrightnessAdjustment=false\r\n  mUseAutoBrightness=false\r\n  mWasShortTermModelActive=false\r\n  mAutoBrightnessAdjustmentReasonsFlags=0\r\n  mScreenBrightnessRampAnimator.isAnimating()=false\r\n  mColorFadeOnAnimator.isStarted()=false\r\n  mColorFadeOffAnimator.isStarted()=false\r\n\r\nDisplay Power State:\r\n  mStopped=false\r\n  mScreenState=ON\r\n  mScreenBrightness=0.39763778\r\n  mSdrScreenBrightness=0.39763778\r\n  mScreenReady=true\r\n  mScreenUpdatePending=false\r\n  mColorFadePrepared=false\r\n  mColorFadeLevel=1.0\r\n  mColorFadeReady=true\r\n  mColorFadeDrawPending=false\r\n\r\nPhotonic Modulator State:\r\n  mPendingState=ON\r\n  mPendingBacklight=0.39763778\r\n  mPendingSdrBacklight=0.39763778\r\n  mActualState=ON\r\n  mActualBacklight=0.39763778\r\n  mActualSdrBacklight=0.39763778\r\n  mStateChangeInProgress=false\r\n  mBacklightChangeInProgress=false\r\n\r\nColor Fade State:\r\n  mPrepared=false\r\n  mMode=0\r\n  mDisplayLayerStack=0\r\n  mDisplayWidth=0\r\n  mDisplayHeight=0\r\n  mSurfaceVisible=false\r\n  mSurfaceAlpha=0.0\r\nNo Reduce Bright Colors Adjustments\r\nBrightnessRangeController:\r\n  mUseNormalBrightnessController=true\r\n  mUseHdrClamper=true\r\nHighBrightnessModeController:\r\n  mBrightness=0.0\r\n  mUnthrottledBrightness=0.0\r\n  mThrottlingReason=none\r\n  mCurrentMin=0.0\r\n  mCurrentMax=1.0\r\n  mHbmMode=off\r\n  mHbmStatsState=HBM_OFF\r\n  mHbmData=null\r\n  mAmbientLux=0.0 (old/invalid)\r\n  mIsInAllowedAmbientRange=false\r\n  mIsAutoBrightnessEnabled=false\r\n  mIsAutoBrightnessOffByState=false\r\n  mIsHdrLayerPresent=false\r\n  mBrightnessMin=0.0\r\n  mBrightnessMax=1.0\r\n  remainingTime=0\r\n  mIsTimeAvailable= false\r\n  mIsBlockedByLowPowerMode=false\r\n  width*height=1080*2400\r\n  mHighBrightnessModeMetadata=null\r\nNormalBrightnessModeController:\r\n  mAutoBrightnessEnabled=false\r\n  mAmbientLux=3.4028235E38\r\n  mMaxBrightness=1.0\r\n  mMaxBrightnessLimits={}\r\nHdrClamper:\r\n  mMaxBrightness=1.0\r\n  mDesiredMaxBrightness=1.0\r\n  mTransitionRate=-1.0\r\n  mDesiredTransitionRate=-1.0\r\n  mHdrVisible=false\r\n  mHdrListener.mHdrMinPixels=-2592000.0\r\n  mHdrBrightnessData=null\r\n  mHdrListener registered=false\r\n  mAmbientLux=3.4028235E38\r\n  mAutoBrightnessEnabled=false\r\nBrightnessThrottler:\r\n  mThermalBrightnessThrottlingDataId=default\r\n  mThermalThrottlingData=null\r\n  mUniqueDisplayId=local:4619827259835644672\r\n  mThrottlingStatus=-1\r\n  mBrightnessCap=1.0\r\n  mBrightnessMaxReason=none\r\n  mDdcThermalThrottlingDataMap={}\r\n  mThermalBrightnessThrottlingDataOverride={}\r\n  mThermalBrightnessThrottlingDataString=null\r\n  SkinThermalStatusObserver:\r\n    mStarted: false\r\n    mObserverTempSensor: null\r\n    ThermalService not available\r\n\r\n\r\nWakelockController State:\r\n  mDisplayId=0\r\n  mUnfinishedBusiness=false\r\n  mOnStateChangePending=false\r\n  mOnProximityPositiveMessages=false\r\n  mOnProximityNegativeMessages=false\r\n\r\n\r\nDisplayBrightnessController:\r\n  mDisplayId=: 0\r\n  mScreenBrightnessDefault=0.39763778\r\n  mPersistBrightnessNitsForDefaultDisplay=false\r\n  mPendingScreenBrightness=NaN\r\n  mCurrentScreenBrightness=0.39763778\r\n  mLastUserSetScreenBrightness=NaN\r\n  Last selected DisplayBrightnessStrategy= InvalidBrightnessStrategy\r\n\r\nDisplayBrightnessStrategySelector:\r\n  mDisplayId= 0\r\n  mOldBrightnessStrategyName= InvalidBrightnessStrategy\r\n  mAllowAutoBrightnessWhileDozingConfig= false\r\n  mAllowAutoBrightnessWhileDozing= false\r\nFollowerBrightnessStrategy:\r\n  mDisplayId=0\r\n  mBrightnessToFollow:NaN\r\n  mBrightnessToFollowSlowChange:false\r\nTemporaryBrightnessStrategy:\r\n  mTemporaryScreenBrightness:NaN\r\nOffloadBrightnessStrategy:\r\n  mOffloadScreenBrightness:NaN\r\n\r\n\r\nDisplayStateController:\r\n  mPerformScreenOffTransition:false\r\n  mDozeStateOverride=0\r\n\r\nDisplayPowerProximityStateController:\r\n  mPendingWaitForNegativeProximityLocked=false\r\n  mDisplayId=0\r\n  mWaitingForNegativeProximity=false\r\n  mIgnoreProximityUntilChanged=false\r\n  mProximitySensor={Sensor name=\"Goldfish Proximity sensor\", vendor=\"The Android Open Source Project\", version=1, type=8, maxRange=1.0, resolution=1.0, power=20.0, minDelay=0}\r\n  mProximitySensorEnabled=false\r\n  mProximityThreshold=1.0\r\n  mProximity=Unknown\r\n  mPendingProximity=Unknown\r\n  mPendingProximityDebounceTime=-1 (1608834 ms ago)\r\n  mScreenOffBecauseOfProximity=false\r\n  mSkipRampBecauseOfProximityChangeToNegative=false\r\n\r\nBrightnessClamperController:\r\n  mBrightnessCap: 1.0\r\n  mClamperType: null\r\n  mClamperApplied: false\r\n  mLightSensor={Sensor name=\"Goldfish Light sensor\", vendor=\"The Android Open Source Project\", version=1, type=5, maxRange=40000.0, resolution=1.0, power=20.0, minDelay=0}\r\n  mRegisteredLightSensor=null\r\nBrightnessThermalClamper:\r\n  mThrottlingStatus: 0\r\n  mUniqueDisplayId: local:4619827259835644672\r\n  mDataId: default\r\n  mDataOverride: {}\r\n  mDataFromDeviceConfig: null\r\n  mDataActive: null\r\n  ThermalStatusObserver:\r\n    mStarted: true\r\n    mObserverTempSensor: SensorData{type= SKIN, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}\r\n    ThermalService available\r\nBrightnessClamper:THERMAL\r\n mBrightnessCap: 1.0\r\n mIsActive: false\r\nBrightnessClamper:WEAR_BEDTIME_MODE\r\n mBrightnessCap: 0.07480315\r\n mIsActive: false\r\nDisplayDimModifier:\r\n  mScreenBrightnessDimConfig=0.05\r\n  mScreenBrightnessMinimumDimAmount=0.04\r\nBrightnessModifier:\r\n  mApplied=false\r\nBrightnessLowPowerModeModifier:\r\nBrightnessModifier:\r\n  mApplied=false\r\n\r\nPersistentDataStore\r\n  mLoaded=true\r\n  mDirty=false\r\n  RememberedWifiDisplays:\r\n  DisplayStates:\r\n  StableDeviceValues:\r\n      StableDisplayWidth=1080\r\n      StableDisplayHeight=2400\r\n  GlobalBrightnessConfigurations:\r\n  mBrightnessNitsForDefaultDisplay=-1.0\r\n\r\nDisplay Window Policy Controllers: size=0\r\n\r\nBrightnessTracker state:\r\n  mStarted=false\r\n  mLightSensor=null\r\n  mLastBatteryLevel=NaN\r\n  mLastBrightness=-1.0\r\n  mEventsDirty=false\r\n  mEvents.size=0\r\n  mWriteBrightnessTrackerStateScheduled=false\r\n  mSensorRegistered=false\r\n  mColorSamplingEnabled=false\r\n  mNoFramesToSample=0\r\n  mFrameRate=0.0\r\n\r\nDisplayModeDirector\r\n  mSupportedModesByDisplay:\r\n    0 -> [{id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}]\r\n  mAppSupportedModesByDisplay:\r\n    0 -> [{id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}]\r\n  mDefaultModeByDisplay:\r\n    0 -> {id=1, width=1080, height=2400, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[], supportedHdrTypes=[]}\r\n  mModeSwitchingType: SWITCHING_TYPE_WITHIN_GROUPS\r\n  mAlwaysRespectAppRequest: false\r\n  SettingsObserver\r\n    mDefaultRefreshRate: 60.0\r\n    mDefaultPeakRefreshRate: 0.0\r\n  AppRequestObserver\r\n    mIgnorePreferredRefreshRate: true\r\n  BrightnessObserver\r\n    mAmbientLux: -1.0\r\n    mBrightness: 0.39763778\r\n    mDefaultDisplayState: 2\r\n    mLowPowerModeEnabled: false\r\n    mRefreshRateChangeable: false\r\n    mShouldObserveDisplayLowChange: false\r\n    mShouldObserveAmbientLowChange: false\r\n    mRefreshRateInLowZone: 0\r\n    mShouldObserveDisplayHighChange: false\r\n    mShouldObserveAmbientHighChange: false\r\n    mRefreshRateInHighZone: 0\r\n    mRegisteredLightSensor: null\r\n    mLightSensor: null\r\n    mLightSensorName: \r\n    mLightSensorType: \r\n    mLastSensorData: 0.0\r\n    mTimestamp: 1970-01-01 07:00:00.000\r\n  UdfpsObserver\r\n    mUdfpsRefreshRateEnabled: \r\n    mAuthenticationPossible: \r\n   HbmObserver\r\n     mHbmMode: {}\r\n     mHbmActive: {}\r\n     mRefreshRateInHbmSunlight: 0\r\n     mRefreshRateInHbmHdr: 0\r\n  SkinThermalStatusObserver:\r\n    mStatus: 0\r\n    mThermalThrottlingByDisplay: {0={}}\r\n  mVotesByDisplay:\r\n    -1:\r\n      PRIORITY_DEFAULT_REFRESH_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=60.0 } }\r\n    0:\r\n      PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=Infinity } }\r\n  SensorObserver\r\n    mIsProxActive=false\r\n    mDozeStateByDisplay:\r\n      0 -> false\r\nBrightnessSynchronizer\r\n  mLatestIntBrightness=102\r\n  mLatestFloatBrightness=0.39763778\r\n  mCurrentUpdate=null\r\n  mPendingUpdate=null\r\n  mIntRangeUserPerceptionEnabled=false\r\nSmall area detection allowlist\r\n  Packages:\r\n\r\nDisplayManagerFlags:\r\n enable_adaptive_tone_improvements_1:                  true (def:true)\r\n enable_adaptive_tone_improvements_2:                  true (def:true)\r\n back_up_smooth_display_and_force_peak_refresh_rate:   true (def:true)\r\n enable_connected_display_error_handling:              true (def:true)\r\n enable_connected_display_management:                  true (def:true)\r\n enable_display_offload:                               true (def:true)\r\n enable_mode_limit_for_external_display:               true (def:true)\r\n enable_hdr_clamper:                                   true (def:true)\r\n enable_nbm_controller:                                true (def:true)\r\n enable_power_throttling_clamper:                      false (def:false)\r\n even_dimmer:                                          false (def:false)\r\n .enable_small_area_detection:                         true (def:true)\r\n brightness_int_range_user_perception:                 false (def:false)\r\n enable_restrict_display_modes:                        true (def:true)\r\n brightness_wear_bedtime_mode_clamper:                 true (def:true)\r\n auto_brightness_modes:                                true (def:true)\r\n fast_hdr_transitions:                                 true (def:true)\r\n always_rotate_display_device:                         true (def:true)\r\n refresh_rate_voting_telemetry:                        true (def:true)\r\n enable_pixel_anisotropy_correction:                   true (def:true)\r\n sensor_based_brightness_throttling:                   true (def:true)\r\n idle_screen_refresh_rate_timeout:                     true (def:true)\r\n refactor_display_power_controller:                    false (def:false)\r\n resolution_backup_restore:                            true (def:true)\r\n use_fusion_prox_sensor:                               false (def:false)\r\n offload_controls_doze_auto_brightness:                false (def:false)\r\n enable_peak_refresh_rate_physical_limit:              true (def:true)\r\n ignore_app_preferred_refresh_rate_request:            true (def:true)\r\n enable_synthetic_60hz_modes:                          false (def:false)\r\n offload_doze_override_holds_wakelock:                 false (def:false)",
+  "renderer_context": "GLES: Google (Google Inc.), Android Emulator OpenGL ES Translator (Google SwiftShader), OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)",
+  "engine_override": "NONE; Android engine default",
+  "memory_hardware_raw": "MemTotal:        2531956 kB\r\nMemFree:          205556 kB\r\nMemAvailable:    1293480 kB\r\nBuffers:           35392 kB\r\nCached:          1283844 kB\r\nSwapCached:        14348 kB\r\nActive:          1171084 kB\r\nInactive:         678740 kB\r\nActive(anon):     470552 kB\r\nInactive(anon):   100212 kB\r\nActive(file):     700532 kB\r\nInactive(file):   578528 kB\r\nUnevictable:        4256 kB\r\nMlocked:            4256 kB\r\nSwapTotal:       1898960 kB\r\nSwapFree:        1505232 kB\r\nDirty:                 0 kB\r\nWriteback:             0 kB\r\nAnonPages:        530488 kB\r\nMapped:           694936 kB\r\nShmem:             36964 kB\r\nKReclaimable:      47864 kB\r\nSlab:             182980 kB\r\nSReclaimable:      47864 kB\r\nSUnreclaim:       135116 kB\r\nKernelStack:       29072 kB\r\nPageTables:        62656 kB\r\nSecPageTables:         0 kB\r\nNFS_Unstable:          0 kB\r\nBounce:                0 kB\r\nWritebackTmp:          0 kB\r\nCommitLimit:     3164936 kB\r\nCommitted_AS:   102529880 kB\r\nVmallocTotal:   34359738367 kB\r\nVmallocUsed:       52032 kB\r\nVmallocChunk:          0 kB\r\nPercpu:             4672 kB\r\nAnonHugePages:         0 kB\r\nShmemHugePages:        0 kB\r\nShmemPmdMapped:        0 kB\r\nFileHugePages:         0 kB\r\nFilePmdMapped:         0 kB\r\nCmaTotal:              0 kB\r\nCmaFree:               0 kB\r\nDirectMap4k:       51032 kB\r\nDirectMap2M:     1521664 kB\r\nDirectMap1G:     2097152 kB",
+  "flutter_version": "Flutter 3.32.8 • channel [user-branch] • unknown source\r\nFramework • revision edada7c56e (1 year, 2 months ago) • 2025-07-25 14:08:03 +0000\r\nEngine • revision ef0cd00091 (1 year, 2 months ago) • 1970-01-01 07:00:00.000\r\nTools • Dart 3.8.1 • DevTools 2.45.1",
+  "source_sha256": [
+    {
+      "sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/mingo_ui.dart"
+    },
+    {
+      "sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/audio.dart"
+    },
+    {
+      "sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/catalog.dart"
+    },
+    {
+      "sha256": "e2569f23f04becaf5dab3127796bf4afbb3d62e0591ba8eb8a33b6afc9a8d537",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/design.dart"
+    },
+    {
+      "sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/fixtures.dart"
+    },
+    {
+      "sha256": "dd16f8a7b5cacf55636b74d3a19c7eec35569fe513775853f4aa7df9e33e2a89",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/journey.dart"
+    },
+    {
+      "sha256": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/learner.dart"
+    },
+    {
+      "sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson_content.dart"
+    },
+    {
+      "sha256": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson.dart"
+    },
+    {
+      "sha256": "4b8fc9a8f186d3862244f97008ca1ebcaf695bee4373bb8f664fd50b86a09bf5",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/staff.dart"
+    },
+    {
+      "sha256": "da8f4e9039e4b36ee2478b6bdd9b05f0b9f263023ec2a6a5e0280b0f26e4d6d0",
+      "path": "01_San_pham/apps/learner/lib/main.dart"
+    }
+  ],
+  "instrumentation_sha256": [
+    {
+      "sha256": "6549b1d095d135d1ecb410d2ef38c3197b86807b8b40e71e1791ed8ab5c55b9a",
+      "path": "01_San_pham/apps/learner/integration_test/performance_test.dart"
+    },
+    {
+      "sha256": "ae3156a47b7e3aacdb7b4d12b17b49f2346fd061acac42b79e2185db737d0d99",
+      "path": "01_San_pham/apps/learner/test_driver/performance_driver.dart"
+    },
+    {
+      "sha256": "b049b23b0a430558d3cc2961e841a478a32fe6e3e3ab0e33bb1920e74e9009c0",
+      "path": "04_Van_hanh/Scripts/run_performance_benchmark.ps1"
+    }
+  ],
+  "apk": {
+    "mode": "release",
+    "bytes": 26034345,
+    "release_signing": "Generated local debug signing; not production release",
+    "entrypoint": "lib/main.dart",
+    "sha256": "ddaa2b02bf112082bc474fbfb37da05b3e5445cd616e66a9817588a9fdf65130"
+  },
+  "aab": {
+    "bytes": 44977818,
+    "note": "Bundle size is not Play delivery size; local generated signing only",
+    "sha256": "e8a2a759bf153d6c58979de819a323fe0e6ba604ccc302b81e2a5c6d668eecf3"
+  },
+  "total_pss_kib_after_launch": 73883
+}

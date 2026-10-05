@@ -1,0 +1,5 @@
+UTC: 2026-09-26T15:15:19.297268+00:00
+Command: C:\Android\Sdk\platform-tools\adb.exe -s emulator-5554 pull /sdcard/mingo-ui.xml C:\Mingo\.local\clean-reproduction-20260926\06_quality\evidence\clean_reproduction\android-ui.xml
+/sdcard/mingo-ui.xml: 1 file pulled, 0 skipped. 0.9 MB/s (3831 bytes in 0.004s)
+
+Exit code: 0

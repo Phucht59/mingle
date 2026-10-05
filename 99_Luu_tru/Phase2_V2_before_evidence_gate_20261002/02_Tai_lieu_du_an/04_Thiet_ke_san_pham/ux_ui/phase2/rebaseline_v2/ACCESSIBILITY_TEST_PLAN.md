@@ -1,0 +1,9 @@
+# Accessibility test plan V2
+
+Automated scope: meaningful fixture transition tests; rendered error/live-label/selection semantics;48dp targets; labeled controls; selected token contrast plus rendered Home; screen/state no-layout-exception matrix at widths360/412/430,tall and landscape, scales1/1.3/1.5/2; staff1280/1440/1920/768/600. Declare matrix separately from actual exit results. Screenshot baseline then repeat comparison. Review keyboard tab/focus/dialog escape on browser and real Android TalkBack speech manually.
+
+WCAG2.2 relevant criteria:1.1.1 alternatives;1.3.1 relationships;1.4.3 contrast;1.4.4 resize200%;1.4.10 reflow;1.4.11 nontext contrast;2.1.1 keyboard;2.4.3 focus order;2.4.7 visible focus;2.4.11 focus not obscured;2.5.7 dragging alternative;2.5.8 targets;3.3.1 error identification;4.1.2 name/role/value;4.1.3 status messages. Android48dp is the stricter product target, WCAG minimum is24CSSpx with exceptions. No swipe/drag-only action. Use text/icon for status and plain explanation for errors.
+
+Font/foreground tests do not certify image/disabled/dark-theme combinations. Programmatic Flutter Semantics and integration boot do not prove audible TalkBack or screen-reader focus order. Manual checklist remains unsigned until observed on actual target runtime. Fix and retest any failure; retain failed-run evidence. No claim of conformance/certification.
+
+Final automated coverage includes essential labels/48dp/rendered contrast on Welcome, Home, Retrieve, Settings, Staff dashboard and Staff preview; optional/reduced motion preserves system text scale. All175 states run5 sizes×4 scales;16 grammar/listening variants run3 sizes×2 scales; four320px/200% checks address the V2 layout separately from D021 R1 Linux. Web semantics are enabled on boot; actual browser interaction is evidenced. These checks do not certify full WCAG conformance, speech or manual focus order.

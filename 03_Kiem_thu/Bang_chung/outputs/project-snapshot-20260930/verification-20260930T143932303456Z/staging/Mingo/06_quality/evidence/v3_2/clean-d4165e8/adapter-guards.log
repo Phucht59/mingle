@@ -1,0 +1,14 @@
+test_changed_bytes_rejected (test_original_contract_adapter.AdapterGuards.test_changed_bytes_rejected) ... ok
+test_extra_file_rejected (test_original_contract_adapter.AdapterGuards.test_extra_file_rejected) ... ok
+test_false_summary_rejected (test_original_contract_adapter.AdapterGuards.test_false_summary_rejected) ... ok
+test_intact_source (test_original_contract_adapter.AdapterGuards.test_intact_source) ... ok
+test_missing_checks_rejected (test_original_contract_adapter.AdapterGuards.test_missing_checks_rejected) ... ok
+test_missing_file_rejected (test_original_contract_adapter.AdapterGuards.test_missing_file_rejected) ... ok
+test_path_escape_rejected (test_original_contract_adapter.AdapterGuards.test_path_escape_rejected) ... ok
+test_report_counts_derived_from_checks (test_original_contract_adapter.AdapterGuards.test_report_counts_derived_from_checks) ... ok
+test_sql_failure_rejected (test_original_contract_adapter.AdapterGuards.test_sql_failure_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.088s
+
+OK

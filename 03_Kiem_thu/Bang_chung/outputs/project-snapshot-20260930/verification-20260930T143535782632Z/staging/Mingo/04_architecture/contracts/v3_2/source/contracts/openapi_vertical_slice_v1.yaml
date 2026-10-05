@@ -1,0 +1,460 @@
+openapi: 3.1.0
+info:
+  title: Adaptive Language Learning Vertical Slice API
+  version: 1.1.0
+servers:
+- url: https://api.example.invalid
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    SubmitAttemptCommand:
+      $ref: ../schemas/submit_attempt_command_v1.schema.json
+    CommandReceipt:
+      $ref: ../schemas/command_receipt_v1.schema.json
+    CommandSyncResult:
+      $ref: ../schemas/command_sync_result_v1.schema.json
+    CommandSyncBatchResponse:
+      $ref: ../schemas/command_sync_batch_response_v1.schema.json
+    ContentReleaseManifest:
+      $ref: ../schemas/content_release_manifest_v1.schema.json
+    OfflineDownloadGrant:
+      $ref: ../schemas/offline_download_grant_v1.schema.json
+    api_error:
+      $ref: ../schemas/api_error_v1.schema.json
+    receipt_lookup:
+      $ref: ../schemas/receipt_lookup_v1.schema.json
+    release_access_status:
+      $ref: ../schemas/release_access_status_v1.schema.json
+    offline_package:
+      $ref: ../schemas/offline_package_v1.schema.json
+    event_batch_response:
+      $ref: ../schemas/event_batch_response_v1.schema.json
+security:
+- bearerAuth: []
+paths:
+  /v1/releases/{release_id}:
+    get:
+      summary: Get immutable authorized release manifest
+      parameters:
+      - in: path
+        name: release_id
+        required: true
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Authorized release
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ContentReleaseManifest'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '403':
+          description: Authenticated but not authorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '404':
+          description: Not found or hidden by privacy policy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+      operationId: get_releases_release_id
+  /v1/offline-grants:
+    post:
+      summary: Issue an account/enrollment-scoped offline package grant
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+              - enrollment_id
+              - device_installation_id
+              - grant_request_id
+              properties:
+                enrollment_id:
+                  type: string
+                  format: uuid
+                device_installation_id:
+                  type: string
+                grant_request_id:
+                  type: string
+                  format: uuid
+              additionalProperties: false
+      responses:
+        '201':
+          description: Grant issued
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OfflineDownloadGrant'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '403':
+          description: Enrollment not owned/authorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '409':
+          description: Release/access state prevents grant
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+      operationId: post_offline_grants
+      description: Idempotent by authenticated learner + grant_request_id. Same enrollment/installation
+        returns original grant and deadlines; changed body conflicts. Only published
+        release permits new grant.
+  /v1/commands/submit-attempt:
+    post:
+      summary: Submit one authoritative attempt command
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SubmitAttemptCommand'
+      responses:
+        '200':
+          description: Accepted or duplicate reconciliation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CommandSyncResult'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '403':
+          description: Authenticated but object scope denied
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '409':
+          description: Same command ID with a different digest; submit is independent
+            of progress version
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CommandSyncResult'
+        '422':
+          description: Either structural APIError before any receipt, or terminal
+            business rejection CommandSyncResult
+          content:
+            application/json:
+              schema:
+                oneOf:
+                - $ref: '#/components/schemas/CommandSyncResult'
+                - $ref: '#/components/schemas/api_error'
+        '429':
+          description: Rate limited; retry same command ID/payload
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '503':
+          description: Temporary or unknown commit outcome; preserve command and payload
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CommandSyncResult'
+      operationId: post_commands_submit_attempt
+  /v1/sync/commands:
+    post:
+      summary: Reconcile offline commands; each item is independent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+              - batch_id
+              - commands
+              properties:
+                batch_id:
+                  type: string
+                  format: uuid
+                commands:
+                  type: array
+                  minItems: 1
+                  maxItems: 50
+                  items:
+                    $ref: '#/components/schemas/SubmitAttemptCommand'
+              additionalProperties: false
+      responses:
+        '200':
+          description: One ordered result per command; denied item has no receipt;
+            no whole-batch atomicity
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CommandSyncBatchResponse'
+        '400':
+          description: Malformed whole batch
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '429':
+          description: Batch rate limited
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '503':
+          description: No complete batch response; some items may have committed.
+            Retry the original batch commands.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+      operationId: post_sync_commands
+      description: Validate whole batch shape, unique command IDs and byte limit before
+        processing. Semantic business failures are per-item; authorization failure
+        produces denied without stored receipt. Lost batch response retries all original
+        command IDs.
+  /v1/command-receipts/{command_id}:
+    get:
+      summary: Lookup the authenticated learner's terminal receipt and current reconciliation
+        state
+      parameters:
+      - in: path
+        name: command_id
+        required: true
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Terminal receipt; current state is null for a rejected receipt
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/receipt_lookup'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '404':
+          description: No receipt in authenticated learner scope; does not reveal
+            other owners
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+      operationId: get_command_receipts_command_id
+  /v1/events/batch:
+    post:
+      summary: Ingest registered telemetry events
+      description: Validate shape and unique IDs before processing. Event catalog/payload/context
+        checks are per-item; identity from verified auth. Receipt time is server assigned.
+        Max body 512 KiB.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+              - events
+              properties:
+                events:
+                  type: array
+                  minItems: 1
+                  maxItems: 100
+                  items:
+                    $ref: ../schemas/client_event_v1.schema.json
+              additionalProperties: false
+      responses:
+        '200':
+          description: One result per event ID; accepted, duplicate, rejected or retryable
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/event_batch_response'
+        '400':
+          description: Malformed batch
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '403':
+          description: Context/object scope denied
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '422':
+          description: Unknown event/version or payload/context validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '429':
+          description: Rate limited
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+      operationId: post_events_batch
+  /v1/releases/{release_id}/access-status:
+    get:
+      operationId: get_release_id
+      summary: Current status outside immutable content hash
+      parameters:
+      - in: path
+        name: release_id
+        required: true
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Current status outside immutable content hash
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/release_access_status'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '404':
+          description: Unknown or outside authorized scope
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+  /v1/offline-packages/{package_id}:
+    get:
+      operationId: get_package_id
+      summary: Authorized package descriptor; server scoring keys excluded
+      parameters:
+      - in: path
+        name: package_id
+        required: true
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Authorized package descriptor; server scoring keys excluded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/offline_package'
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '404':
+          description: Unknown or outside authorized scope
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+  /v1/me/enrollments/{enrollment_id}/state:
+    get:
+      operationId: get_enrollment_id
+      summary: Canonical state for full refetch after conflict/reinstall
+      parameters:
+      - in: path
+        name: enrollment_id
+        required: true
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Canonical state for full refetch after conflict/reinstall
+          content:
+            application/json:
+              schema:
+                $ref: ../schemas/current_canonical_state_v1.schema.json
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '404':
+          description: Unknown or outside authorized scope
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+  /v1/resources/{resource_revision_id}:
+    get:
+      operationId: get_resource_revision_id
+      summary: Authorized immutable JSON content or media bytes
+      parameters:
+      - in: path
+        name: resource_revision_id
+        required: true
+        schema:
+          type: string
+          format: uuid
+      responses:
+        '200':
+          description: Authorized immutable JSON content or media bytes
+          content:
+            application/json:
+              schema:
+                $ref: ../schemas/activity_content_v1.schema.json
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+        '401':
+          description: Unauthenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'
+        '404':
+          description: Unknown or outside authorized scope
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/api_error'

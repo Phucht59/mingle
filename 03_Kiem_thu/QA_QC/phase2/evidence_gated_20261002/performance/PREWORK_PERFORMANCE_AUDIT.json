@@ -1,0 +1,42 @@
+{
+  "schema": "mingo.performance.prework.audit.v1",
+  "date": "2026-10-02",
+  "evidence": "RERUN NOW read-only audit before performance edits",
+  "attached_devices": 0,
+  "toolchain": "Flutter3.32.8 / AndroidSDK available",
+  "avd": {
+    "height": 2400,
+    "density": 420,
+    "configured_vsync_hz": 60,
+    "api": 35,
+    "ram_mib": 2048,
+    "abi": "x86_64",
+    "name": "Mingo_API_35",
+    "width": 1080,
+    "observed_refresh_hz": null,
+    "virtual_cpu": 4
+  },
+  "baseline_assets": [
+    {
+      "bytes": 2302299,
+      "height": 1536,
+      "path": "assets/mascot.png",
+      "width": 1024,
+      "sha256": "cd6caaa4ce066198e2921f64a040b1a8c486e7f40d41fa1e2bf34e17979df168",
+      "estimated_rgba_bytes": 6291456
+    },
+    {
+      "bytes": 2269212,
+      "height": 1024,
+      "path": "assets/exploration.png",
+      "width": 1536,
+      "sha256": "6bd66c6d3aced8d284d17d48f6b51165938e278355c6d0af906c5dd9b5ac2983",
+      "estimated_rgba_bytes": 6291456
+    }
+  ],
+  "baseline_asset_folder_bytes": 5461500,
+  "old_debug_apk_bytes": 121215663,
+  "actual_device_decode_time": null,
+  "physical_device_performance": "PENDING",
+  "profile_benchmark": "NOT_RUN_AWAIT_FINAL_CANDIDATE"
+}

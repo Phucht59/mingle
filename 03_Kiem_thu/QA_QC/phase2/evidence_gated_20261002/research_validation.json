@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "utc": "2026-10-02T16:14:34.2914166+00:00",
+  "evidence_provenance": "RERUN NOW",
+  "scope": "Documentation structure and local references only; not research efficacy, human acceptance, current Flutter regression or source external availability",
+  "status": "PASS",
+  "command_provenance": {
+    "tool": "functions.exec -> exec_command",
+    "shell": "PowerShell",
+    "shell_version": "7.6.5",
+    "working_directory": "C:\\Mingo",
+    "read_methods": [
+      "Get-Content -LiteralPath <owned file> -Raw",
+      "[regex]::Matches/register ^## (RE\\d{2}) —",
+      "[regex]::Split/register ^## RE\\d{2}",
+      "For every claim require exact Markdown field row for all13 required fields",
+      "For each local Markdown target: resolve against parent directory and Test-Path -LiteralPath",
+      "Telemetry rows excluding header:18; pipe split count10 means8 columns",
+      "Owner record regex: literal | PENDING | count10",
+      "Get-FileHash -Algorithm SHA256 for all11 inputs"
+    ],
+    "failed_attempts": [
+      {
+        "command": "python -",
+        "exit_code": 1,
+        "reason": "python not available on PATH"
+      },
+      {
+        "command": "& .venv/Scripts/python.exe -",
+        "exit_code": 1,
+        "reason": "Local venv failed to launch its base interpreter through Unicode path"
+      }
+    ],
+    "fallback": "Same documentation checks successfully executed in native PowerShell; no environment repair/install/delete"
+  },
+  "results": {
+    "owned_documents": 11,
+    "claims": 30,
+    "unique_claims": 30,
+    "sequential_ids": true,
+    "fields_per_claim": 13,
+    "fields_checked": 390,
+    "missing_fields": [],
+    "source_rows_with_primary_url": 30,
+    "local_links_checked": 45,
+    "broken_local_links": [],
+    "proposed_events": 18,
+    "event_columns": 8,
+    "event_column_errors": 0,
+    "owner_assessments_pending": 10
+  },
+  "limits": [
+    "External source access and abstract/full-text limitations are recorded in the register; this check does not test internet links",
+    "Markdown fragment anchor correctness not validated",
+    "E0-E3 and E5 human/product outcomes remain PENDING",
+    "Telemetry remains a proposed purpose register; no data collection was performed",
+    "Owner PENDING cells are intentionally unsigned; they are not a failure or human PASS"
+  ],
+  "input_files": [
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_RESEARCH_EVIDENCE_REGISTER.md",
+      "sha256": "c389b4cc8679c2ab2481929904330beda1e89f09eceeb79c2c0e54ddd376c516"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/LEARNING_EXPERIENCE_MODEL.md",
+      "sha256": "76e2f0ee678dfe661e5a830f6a1862985dabc25e174c44b93b22a51b3a07528f"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ADAPTATION_PRINCIPLES.md",
+      "sha256": "44f9182351c97452d585bc98f41bb9974d07b3475db73429e8e9b32fcb3e6b7a"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_PRODUCT_MEASUREMENT_FRAMEWORK.md",
+      "sha256": "a539f353398bfb60c29cb558dab8a3838a583c3f343803f13efd384aa8f7305a"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/TELEMETRY_PURPOSE_REGISTER.md",
+      "sha256": "eb650186615dbe1a022e74827ef8950af6a926b8c92e73944168b7fc355bcb31"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/INITIAL_WEDGE_RESEARCH_PLAN.md",
+      "sha256": "cf4a8c73d9d1997042bdfbcd60e8a490c1e304a45c3dd57efe1dbf2032bb11a7"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/OWNER_READBACK_CHECKPOINT.md",
+      "sha256": "41d3835def0230945329754d1c39fe0c6e42e90e3170933a2a8a0e35313f2328"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/CONTENT_QUALITY_RUBRIC.md",
+      "sha256": "51e998bfbdda7fc7011582d1d3dff837a72091d2160d7f840f6e075e232146bd"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_USABILITY_TEST_PROTOCOL.md",
+      "sha256": "1aa68c3925388fce7e42bc8db93f7f59e567fa7ca107c018b7d7cc0a8bf2aa80"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_DIARY_PILOT_PLAN.md",
+      "sha256": "feb59f3b71800d1788e6bc2e3ec66567478e8e015725fd46217435b04b0d5314"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_RESEARCH_RATIONALE.md",
+      "sha256": "eea3e5bfab1981687b6f03db362121e4e1f6fed5287cc0809d77b43778a5d921"
+    }
+  ]
+}

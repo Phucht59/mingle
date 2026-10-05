@@ -1,0 +1,72 @@
+{
+  "id": "QA-ACC-004",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "text_contrast_pairs": [
+      {
+        "foreground": "#0F172A",
+        "background": "#FFFFFF",
+        "ratio": 17.853
+      },
+      {
+        "foreground": "#475569",
+        "background": "#FFFFFF",
+        "ratio": 7.578
+      },
+      {
+        "foreground": "#FFFFFF",
+        "background": "#3046C5",
+        "ratio": 7.479
+      },
+      {
+        "foreground": "#FFFFFF",
+        "background": "#2438A8",
+        "ratio": 9.519
+      },
+      {
+        "foreground": "#1E3A8A",
+        "background": "#E8ECFF",
+        "ratio": 8.816
+      },
+      {
+        "foreground": "#14532D",
+        "background": "#DCFCE7",
+        "ratio": 8.296
+      },
+      {
+        "foreground": "#7F1D1D",
+        "background": "#FEE2E2",
+        "ratio": 8.202
+      },
+      {
+        "foreground": "#78350F",
+        "background": "#FEF3C7",
+        "ratio": 8.147
+      },
+      {
+        "foreground": "#475569",
+        "background": "#F8FAFC",
+        "ratio": 7.243
+      },
+      {
+        "foreground": "#CBD5E1",
+        "background": "#111827",
+        "ratio": 11.948
+      },
+      {
+        "foreground": "#E2E8F0",
+        "background": "#1E293B",
+        "ratio": 11.866
+      }
+    ],
+    "focus_on_white": 5.698586217871195,
+    "review": "Error, queued, correct/incorrect, assisted, Draft/Published all have visible words; color is not sole signal. Disabled controls excluded by AA contrast exception. Focus consumes semantic token."
+  },
+  "sources": [
+    "DESIGN_TOKENS.json",
+    "prototype/styles.css",
+    "prototype/app.js"
+  ],
+  "time": "2026-10-01T14:48:48.452223+00:00"
+}

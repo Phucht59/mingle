@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "current_canonical_state_v1.schema.json",
+  "title": "CurrentCanonicalStateV1",
+  "type": "object",
+  "required": [
+    "progress"
+  ],
+  "properties": {
+    "progress": {
+      "$ref": "progress_v1.schema.json"
+    }
+  },
+  "additionalProperties": false
+}

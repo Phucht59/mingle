@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-09-30",
+  "kind": "SOURCE_AND_EVIDENCE_SNAPSHOT_NOT_PHASE_CLOSURE",
+  "git_base_commit": "a112f762ab08f6fa688cc4857b21d95d1055ab5c",
+  "original_r1_zip_sha256": "a1221923834cfeb84fd245e93694df2b78b85daf8f23eb6908b04cabe802be10",
+  "original_tracked_files": 780,
+  "tracked_source_overlay": {
+    "02_product/ux_ui/phase2/prototype/styles.css": "df4df9ddf878db4aaf68d91aff13b609f6d2091125d87136d98eb013a3331ffb"
+  },
+  "protected_originals": "Byte-identical to sealed R1 package; all except toolbar CSS and regenerated package manifest preserved",
+  "independent_r1": {
+    "canonical_pass": 94,
+    "canonical_total": 94,
+    "p0_pass": 44,
+    "p0_total": 44,
+    "D001_D020": "CLOSED"
+  },
+  "targeted_css_regression": {
+    "browser": "74/74 PASS",
+    "supplemental": "30/30 PASS",
+    "platform": "Windows Chrome",
+    "linux": "NOT RUN"
+  },
+  "phases_and_gate_items": {
+    "phase_0": {
+      "status": "DONE"
+    },
+    "phase_1": {
+      "status": "DONE",
+      "gate": "PASSED"
+    },
+    "phase_2": {
+      "status": "ACTIVE",
+      "technical_retest": "PASS",
+      "gate": "HOLD / NOT PASSED"
+    },
+    "phase_3": {
+      "status": "DEFERRED",
+      "eligible": false,
+      "implementation_started": false
+    },
+    "interactive_talkback": "BLOCKED BY ENVIRONMENT / NOT RUN",
+    "tech_lead_acceptance": "PENDING",
+    "product_owner_uat": "PENDING",
+    "P2-D021": "FIX NOW authorized; CSS fix implemented; Windows regression PASS; Linux/independent closure PENDING",
+    "P2-D022": "Dashboard derivative correction implemented; data/preservation PASS; final visual/independent confirmation PENDING"
+  },
+  "excluded": [
+    ".git",
+    "virtual environments",
+    "SDK/runtime installations",
+    "caches and generated build/platform hosts",
+    "node_modules",
+    "duplicate temporary candidate extractions",
+    "unrelated untracked Manage Project.xlsx"
+  ],
+  "earlier_governance": "Original R1-era governance preserved as history; read 00_PACKAGE_STATUS.md and final_gate/2026-09-30 for newer factual evidence. No gate approval or signature added."
+}

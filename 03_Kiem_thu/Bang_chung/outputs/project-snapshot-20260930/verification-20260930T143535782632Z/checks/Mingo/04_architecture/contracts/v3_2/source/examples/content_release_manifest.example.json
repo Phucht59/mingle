@@ -1,0 +1,48 @@
+{
+  "course_release_id": "10000000-0000-4000-8000-000000000004",
+  "manifest_content": {
+    "course_id": "10000000-0000-4000-8000-000000000003",
+    "release_version": 1,
+    "published_at": "2026-09-15T08:00:00Z",
+    "eligible_activity_count": 1,
+    "units": [
+      {
+        "unit_id": "10000000-0000-4000-8000-000000000005",
+        "unit_revision_id": "10000000-0000-4000-8000-000000000006",
+        "lessons": [
+          {
+            "lesson_id": "10000000-0000-4000-8000-000000000007",
+            "lesson_revision_id": "10000000-0000-4000-8000-000000000008",
+            "activities": [
+              {
+                "release_activity_id": "10000000-0000-4000-8000-000000000009",
+                "activity_id": "10000000-0000-4000-8000-000000000010",
+                "activity_revision_id": "10000000-0000-4000-8000-000000000011",
+                "required_for_completion": true,
+                "question_revision_ids": [
+                  "10000000-0000-4000-8000-000000000012",
+                  "10000000-0000-4000-8000-000000000013"
+                ],
+                "scoring_version_id": "10000000-0000-4000-8000-000000000014",
+                "media_resource_ids": [],
+                "activity_type": "mcq_single_v1",
+                "content_resource_id": "10000000-0000-4000-8000-000000000026"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "resource_id": "10000000-0000-4000-8000-000000000026",
+        "resource_revision_id": "10000000-0000-4000-8000-000000000027",
+        "sha256": "fc84f5a2654c31f145dc0be780b606c06d805b65b740571a5f661487af9b8f83",
+        "size_bytes": 843,
+        "kind": "json_content",
+        "content_type": "application/json"
+      }
+    ]
+  },
+  "release_manifest_sha256": "c5390ef560bfd987313e52ccd80828c196533defcab6ef7339805e5c0aba7916"
+}

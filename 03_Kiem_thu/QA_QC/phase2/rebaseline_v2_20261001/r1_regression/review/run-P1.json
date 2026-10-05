@@ -1,0 +1,93 @@
+{
+  "results": [
+    {
+      "id": "QA-NAV-009",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
+      "sources": [
+        "05_NAVIGATION_ROUTING_SPEC.md"
+      ],
+      "time": "2026-10-01T16:12:08.167711+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-NAV-009.json"
+    },
+    {
+      "id": "QA-NAV-010",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
+      "sources": [
+        "05_NAVIGATION_ROUTING_SPEC.md"
+      ],
+      "time": "2026-10-01T16:12:08.168753+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-NAV-010.json"
+    },
+    {
+      "id": "QA-HO-002",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "semantic_colors": {
+          "canvas": "#F6F8FC",
+          "surface": "#FFFFFF",
+          "surface_subtle": "#EEF2F7",
+          "text": "#0F172A",
+          "text_muted": "#475569",
+          "border": "#CBD5E1",
+          "primary": "#3046C5",
+          "primary_hover": "#2438A8",
+          "primary_soft": "#E8ECFF",
+          "accent": "#0F766E",
+          "accent_soft": "#CCFBF1",
+          "success": "#166534",
+          "success_soft": "#DCFCE7",
+          "warning": "#92400E",
+          "warning_soft": "#FEF3C7",
+          "danger": "#B91C1C",
+          "danger_soft": "#FEE2E2",
+          "info": "#1D4ED8",
+          "info_soft": "#DBEAFE",
+          "focus": "#7C3AED"
+        },
+        "focus_consumed": true,
+        "normalization": "CSS #fff equals token #FFFFFF"
+      },
+      "sources": [
+        "DESIGN_TOKENS.json",
+        "08_DESIGN_SYSTEM_SPEC.md",
+        "prototype/styles.css"
+      ],
+      "time": "2026-10-01T16:12:08.171777+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-002.json"
+    },
+    {
+      "id": "QA-HO-003",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "## Stable identifiers / test hooks\n\nKeep screen IDs. Recommended keys:\n- `screen-L-024`\n- `action-L-024-submit`\n- `action-L-029-retry`\n- `audio-check`\n- `field-S-031-prompt`\n- `action-S-036-confirm`\n\nVisual restyling must not force automation IDs to change.\n\n",
+      "sources": [
+        "13_DEVELOPER_HANDOFF.md"
+      ],
+      "time": "2026-10-01T16:12:08.173108+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-003.json"
+    },
+    {
+      "id": "QA-HO-006",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "screens": 57,
+        "rows": 166,
+        "invalid_references": [],
+        "coverage_caution": "Mapping is artifact coverage. It does not prove all 166 state variants were runtime exercised; references to spec-review cases remain artifact review only."
+      },
+      "sources": [
+        "SCREEN_STATE_QA_TRACEABILITY.csv",
+        "PHASE_2_SPEC.json",
+        "QA_TEST_CASES.csv"
+      ],
+      "time": "2026-10-01T16:12:08.214535+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-006.json"
+    }
+  ]
+}

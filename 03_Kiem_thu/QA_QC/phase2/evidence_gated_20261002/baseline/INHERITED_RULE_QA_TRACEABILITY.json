@@ -1,0 +1,19 @@
+{
+  "evidence_level": "RERUN NOW",
+  "utc": "2026-10-02T16:19:03.183842+00:00",
+  "before_rows": 175,
+  "after_rows": 175,
+  "missing": [],
+  "extra": [],
+  "columns_compared": [
+    "route",
+    "inherited_rule",
+    "inherited_qa_case_ids",
+    "qa_scope"
+  ],
+  "changed": [],
+  "before_sha256": "a670481cb5d29795e5516c29c468e64e4a7c973a1dd94fa23f0cf2a2bc0a9a8e",
+  "after_sha256": "988c453acdd50dbe30b9b89ac2d22b17a97028816ee51cc4648b9efd41e91e5c",
+  "note": "QA IDs are inherited rule references, not an assertion historical independent cases passed on this candidate",
+  "status": "PASS"
+}

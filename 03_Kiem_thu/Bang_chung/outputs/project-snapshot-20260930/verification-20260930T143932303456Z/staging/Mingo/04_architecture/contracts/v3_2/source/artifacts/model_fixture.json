@@ -1,0 +1,4 @@
+{
+  "fixture_only": true,
+  "note": "NOT trained weights. Must never be deployed."
+}

@@ -1,0 +1,10 @@
+CWD: C:\Mingo
+Command: C:\Mingo\.local\v32-venv\Scripts\python.exe -X utf8 04_Van_hanh/Scripts/verify_phase2_artifacts.py
+{
+  "status": "PASS",
+  "screens": 57,
+  "components": 18,
+  "prd_coverage": 16,
+  "qa_cases": 94,
+  "errors": []
+}

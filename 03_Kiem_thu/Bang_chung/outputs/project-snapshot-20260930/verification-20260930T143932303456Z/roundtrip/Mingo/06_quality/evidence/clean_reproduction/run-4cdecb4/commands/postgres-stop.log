@@ -1,0 +1,6 @@
+UTC: 2026-09-26T15:07:49.793731+00:00
+Command: "C:\Program Files\PostgreSQL\18\bin\pg_ctl.exe" -D C:\Mingo\.local\clean-reproduction-20260926\.local\pgdata -m fast -w stop
+waiting for server to shut down...... done
+server stopped
+
+Exit code: 0

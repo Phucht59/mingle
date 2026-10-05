@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "submit_attempt_command_v1.schema.json",
+  "title": "SubmitAttemptCommandV1",
+  "type": "object",
+  "required": [
+    "command_id",
+    "attempt_id",
+    "enrollment_id",
+    "release_activity_id",
+    "activity_revision_id",
+    "submission_mode",
+    "occurred_at",
+    "answers"
+  ],
+  "properties": {
+    "command_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "attempt_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "enrollment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "release_activity_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "activity_revision_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "submission_mode": {
+      "enum": [
+        "online",
+        "offline"
+      ]
+    },
+    "offline_grant_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expected_state_version": {
+      "type": "null"
+    },
+    "answers": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "required": [
+          "question_revision_id",
+          "option_id"
+        ],
+        "properties": {
+          "question_revision_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "option_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "device_installation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "package_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "submission_mode": {
+            "const": "offline"
+          }
+        },
+        "required": [
+          "submission_mode"
+        ]
+      },
+      "then": {
+        "required": [
+          "offline_grant_id",
+          "device_installation_id",
+          "package_id"
+        ],
+        "properties": {
+          "offline_grant_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "package_id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "offline_grant_id": {
+            "type": "null"
+          },
+          "package_id": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

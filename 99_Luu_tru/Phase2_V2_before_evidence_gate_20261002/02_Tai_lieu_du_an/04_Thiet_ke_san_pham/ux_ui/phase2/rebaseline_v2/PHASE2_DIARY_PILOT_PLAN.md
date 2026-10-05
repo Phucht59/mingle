@@ -1,0 +1,9 @@
+# Diary pilot7–14days — NOT RUN
+
+Purpose: explore actual routine, estimated session duration, perceived control, return reasons, offline interruptions and interpretation of feedback. Not a causal efficacy trial or early-risk validation. Recruit a small consented adult cohort after usability corrections and human approval of the pilot; include varied goals/connectivity. A production learning backend is not supplied by this presentation task, so a current pilot may use scripted fixture tasks only and must state that limitation.
+
+Day0 consent/privacy briefing and baseline goal/context; days1–7 short optional diary after attempted use; optional days8–14 for a delayed return observation; final interview. Daily prompts: when/where; intended task; what completed or blocked; time estimate; one remembered phrase; next-day recall attempt recorded separately; use of hints; why returned or did not; connection issues; emotion/effort. No quota, streak penalty or coaching to return. Mark missed entry missing, never failed learner.
+
+Use codedID, avoid sensitive free text and recordings by default; participant can redact entries/withdraw. Organizer approves retention/access before recruitment. Separate consent from entries, keep secure export, no data collected by this task. Analyze individual trajectories and recurring themes, not representative percentages; self-selection/self-report/practice effects and fixture-vs-real-use confounds reported. Recall is descriptive and requires valid independent items; no mastery/risk label from diary.
+
+Deliver blank entry template CSV(day,participantID,context,goal,task,minutes_estimate,completed_or_blocked,hint_used,offline_issue,recall_prompt,recall_observation,return_reason,effort,notes), debrief notes, findings/severity, corrections, owner review. Telemetry proposal is separate and disabled in this implementation; see EXPLORATORY_TELEMETRY_SPEC.md.

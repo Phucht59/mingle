@@ -1,0 +1,9 @@
+{
+  "stage": "analyze",
+  "app": "learner",
+  "started_utc": "2026-10-03T03:46:46.2203340Z",
+  "sha256": "9eb435868c538981a8797c47d01a063e48f33c25a0c7f7c00a25754af7737e8c",
+  "arguments": "analyze",
+  "exit_code": 64,
+  "log": "learner_analyze.log"
+}

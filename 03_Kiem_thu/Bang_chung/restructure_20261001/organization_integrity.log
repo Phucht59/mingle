@@ -1,0 +1,12 @@
+{
+  "status": "FAIL",
+  "artifact_files": 10096,
+  "adapted_files": 82,
+  "organization_manifest_files": 10115,
+  "v3_2_source_and_provenance_files": 105,
+  "runtime_files_byte_identical": 31,
+  "historical_evidence_files_byte_identical": 9607,
+  "errors": [
+    "legacy root folder remains: 05_code"
+  ]
+}

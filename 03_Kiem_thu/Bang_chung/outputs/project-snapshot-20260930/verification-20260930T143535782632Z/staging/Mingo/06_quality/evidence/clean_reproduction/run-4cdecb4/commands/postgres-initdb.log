@@ -1,0 +1,27 @@
+UTC: 2026-09-26T15:07:16.639507+00:00
+Command: "C:\Program Files\PostgreSQL\18\bin\initdb.exe" -D C:\Mingo\.local\clean-reproduction-20260926\.local\pgdata -U postgres --auth=scram-sha-256 --encoding=UTF8 --locale=C --pwfile=C:\Mingo\.local\clean-reproduction-20260926\.local\pg-init-password
+The files belonging to this database system will be owned by user "Phúc".
+This user must also own the server process.
+
+The database cluster will be initialized with locale "C".
+The default text search configuration will be set to "english".
+
+Data page checksums are enabled.
+
+creating directory C:/Mingo/.local/clean-reproduction-20260926/.local/pgdata ... ok
+creating subdirectories ... ok
+selecting dynamic shared memory implementation ... windows
+selecting default "max_connections" ... 100
+selecting default "shared_buffers" ... 128MB
+selecting default time zone ... Asia/Bangkok
+creating configuration files ... ok
+running bootstrap script ... ok
+performing post-bootstrap initialization ... ok
+syncing data to disk ... ok
+
+Success. You can now start the database server using:
+
+    ^"C^:^\Program^ Files^\PostgreSQL^\18^\bin^\pg^_ctl^" -D ^"C^:^\Mingo^\^.local^\clean^-reproduction^-20260926^\^.local^\pgdata^" -l logfile start
+
+
+Exit code: 0

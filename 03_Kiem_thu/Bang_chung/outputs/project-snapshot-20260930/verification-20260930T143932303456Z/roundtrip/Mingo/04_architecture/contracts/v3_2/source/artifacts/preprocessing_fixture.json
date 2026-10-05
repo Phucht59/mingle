@@ -1,0 +1,5 @@
+{
+  "fixture_only": true,
+  "version": "preprocess_fixture_v1",
+  "note": "Contract fixture only. No fitted preprocessing model supplied."
+}

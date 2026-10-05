@@ -1,0 +1,6 @@
+UTC: 2026-09-26T15:07:25.809111+00:00
+Command: "C:\Program Files\PostgreSQL\18\bin\pg_ctl.exe" -D C:\Mingo\.local\clean-reproduction-20260926\.local\pgdata -l C:\Mingo\.local\clean-reproduction-20260926\.local\postgres.log -o "-p 55432 -h 127.0.0.1" -w start
+waiting for server to start.... done
+server started
+
+Exit code: 0

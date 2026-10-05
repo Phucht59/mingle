@@ -1,0 +1,4 @@
+Command: C:\Mingo\.venv\Scripts\python.exe -m all_foundation.cli storage-smoke
+{"adapter": "local-object-store", "smoke": "passed"}
+
+Exit code: 0

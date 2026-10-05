@@ -1,0 +1,35 @@
+P0 QC-001 PASS
+QC-002 FAIL
+QC-003 PASS
+QC-004 PASS
+QC-005 PASS
+QC-006 PASS
+QC-007 PASS
+QC-008 PASS
+QC-009 PASS
+QC-010 PASS
+QA-BIZ-006 PASS
+QA-ACC-004 PASS
+QA-HO-001 PASS
+QA-HO-004 PASS
+QA-HO-005 PASS
+
+P0 
+P1 QA-NAV-009 PASS
+QA-NAV-010 PASS
+QA-HO-002 PASS
+QA-HO-003 PASS
+QA-HO-006 PASS
+
+P1 
+Traceback (most recent call last):
+  File "C:\Mingo\04_Van_hanh\Scripts\run_phase2_qa.py", line 17, in <module>
+    runs=[json.loads((out/kind/f'run-{p}.json').read_text(encoding='utf-8')) for p in ['P0','P1']]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phúc\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phúc\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\rebaseline_v2_20261001\\r1_regression\\browser\\run-P0.json'

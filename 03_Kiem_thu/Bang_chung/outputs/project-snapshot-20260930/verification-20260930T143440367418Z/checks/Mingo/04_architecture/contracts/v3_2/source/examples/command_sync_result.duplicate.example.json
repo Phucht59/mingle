@@ -1,0 +1,51 @@
+{
+  "command_id": "10000000-0000-4000-8000-000000000017",
+  "delivery_status": "duplicate",
+  "receipt": {
+    "receipt_id": "10000000-0000-4000-8000-000000000019",
+    "learner_id": "10000000-0000-4000-8000-000000000001",
+    "command_id": "10000000-0000-4000-8000-000000000017",
+    "command_type": "submit_attempt_v1",
+    "digest_version": "command_digest_v1",
+    "payload_digest": "ed5e42812509b5dab56a87dc37e0f2c3c1264975a3d5ac0ee6c4f372c02944ba",
+    "terminal_outcome": "accepted",
+    "reason_code": null,
+    "canonical_result": {
+      "attempt": {
+        "attempt_id": "10000000-0000-4000-8000-000000000018",
+        "state": "finalized",
+        "attempt_revision": 1
+      },
+      "score": {
+        "raw_score": 2.0,
+        "max_score": 2.0,
+        "score_fraction": 1.0,
+        "scoring_record_revision": 1,
+        "scoring_record_id": "10000000-0000-4000-8000-000000000028",
+        "scoring_version_id": "10000000-0000-4000-8000-000000000014"
+      },
+      "completion_credit_created": true,
+      "progress_after_command": {
+        "progress_revision": 1,
+        "completed_required_credit_count": 1,
+        "eligible_activity_count": 1,
+        "completion_fraction": 1.0,
+        "enrollment_id": "10000000-0000-4000-8000-000000000002",
+        "course_release_id": "10000000-0000-4000-8000-000000000004"
+      }
+    },
+    "recorded_at": "2026-09-16T09:01:00Z"
+  },
+  "current_canonical_state": {
+    "progress": {
+      "progress_revision": 1,
+      "completed_required_credit_count": 1,
+      "eligible_activity_count": 1,
+      "completion_fraction": 1.0,
+      "enrollment_id": "10000000-0000-4000-8000-000000000002",
+      "course_release_id": "10000000-0000-4000-8000-000000000004"
+    }
+  },
+  "reason_code": null,
+  "retry_same_command": false
+}

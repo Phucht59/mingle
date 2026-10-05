@@ -1,0 +1,155 @@
+Running Gradle task 'assembleProfile'...                        
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:/Mingo/.local/java-tmp
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version:
+- audioplayers_android requires Android NDK 27.0.12077973
+- path_provider_android requires Android NDK 27.0.12077973
+Fix this issue by using the highest Android NDK version (they are backward compatible).
+Add the following to C:\Mingo\01_San_pham\apps\learner\android\app\build.gradle.kts:
+
+    android {
+        ndkVersion = "27.0.12077973"
+        ...
+    }
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Running Gradle task 'assembleProfile'...                          148,1s
+√ Built build\app\outputs\flutter-apk\app-profile.apk (20.5MB)
+Installing build\app\outputs\flutter-apk\app-profile.apk...      1.482ms
+W/daptive_learner( 4786): Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->getSourceNodeId()J (unsupported,test-api, reflection, allowed)
+W/daptive_learner( 4786): Accessing hidden method Landroid/view/accessibility/AccessibilityRecord;->getSourceNodeId()J (unsupported, reflection, allowed)
+W/daptive_learner( 4786): Accessing hidden field Landroid/view/accessibility/AccessibilityNodeInfo;->mChildNodeIds:Landroid/util/LongArray; (unsupported, reflection, allowed)
+W/daptive_learner( 4786): Accessing hidden method Landroid/util/LongArray;->get(I)J (unsupported, reflection, allowed)
+D/CompatChangeReporter( 4786): Compat change id reported: 279646685; UID 10209; state: ENABLED
+D/CompatChangeReporter( 4786): Compat change id reported: 309578419; UID 10209; state: ENABLED
+W/HWUI    ( 4786): Unknown dataspace 0
+I/WindowExtensionsImpl( 4786): Initializing Window Extensions, vendor API level=6, activity embedding enabled=true
+W/HWUI    ( 4786): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+I/Gralloc4( 4786): mapper 4.x is not supported
+I/Choreographer( 4786): Skipped 52 frames!  The application may be doing too much work on its main thread.
+I/daptive_learner( 4786): Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+D/ProfileInstaller( 4786): Installing profile for com.example.adaptive_learner
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:58123/UbpW0zqfeb0=/
+VMServiceFlutterDriver: Isolate found with number: 7785487957952967
+VMServiceFlutterDriver: Isolate 7785487957952967 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 4786): 00:00 +0: profile the real sample core journey without physical claims
+VMServiceFlutterDriver: Connected to Flutter application.
+D/EGL_emulation( 4786): app_time_stats: avg=944.40ms min=64.27ms max=1876.84ms count=4
+D/EGL_emulation( 4786): app_time_stats: avg=75.85ms min=12.00ms max=654.29ms count=13
+D/EGL_emulation( 4786): app_time_stats: avg=50.16ms min=44.10ms max=57.17ms count=21
+D/EGL_emulation( 4786): app_time_stats: avg=49.85ms min=12.31ms max=108.20ms count=20
+D/EGL_emulation( 4786): app_time_stats: avg=55.29ms min=48.07ms max=79.22ms count=19
+D/EGL_emulation( 4786): app_time_stats: avg=45.83ms min=14.47ms max=111.14ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=50.64ms min=42.47ms max=65.02ms count=20
+D/EGL_emulation( 4786): app_time_stats: avg=43.68ms min=12.91ms max=113.39ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=56.90ms min=48.11ms max=107.29ms count=19
+D/EGL_emulation( 4786): app_time_stats: avg=43.70ms min=13.18ms max=109.07ms count=23
+D/EGL_emulation( 4786): app_time_stats: avg=56.15ms min=45.51ms max=113.70ms count=18
+D/EGL_emulation( 4786): app_time_stats: avg=40.77ms min=13.23ms max=90.91ms count=24
+D/EGL_emulation( 4786): app_time_stats: avg=62.45ms min=48.90ms max=114.38ms count=16
+D/EGL_emulation( 4786): app_time_stats: avg=39.51ms min=12.39ms max=63.41ms count=24
+D/EGL_emulation( 4786): app_time_stats: avg=61.46ms min=46.76ms max=118.27ms count=17
+D/EGL_emulation( 4786): app_time_stats: avg=42.59ms min=12.95ms max=76.00ms count=24
+D/EGL_emulation( 4786): app_time_stats: avg=58.03ms min=15.05ms max=116.90ms count=17
+D/EGL_emulation( 4786): app_time_stats: avg=46.49ms min=15.35ms max=95.61ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=59.98ms min=27.13ms max=116.54ms count=17
+D/EGL_emulation( 4786): app_time_stats: avg=44.09ms min=14.79ms max=74.65ms count=23
+D/EGL_emulation( 4786): app_time_stats: avg=54.57ms min=17.49ms max=119.06ms count=18
+D/EGL_emulation( 4786): app_time_stats: avg=41.63ms min=14.57ms max=67.10ms count=23
+D/EGL_emulation( 4786): app_time_stats: avg=58.74ms min=16.53ms max=123.60ms count=17
+D/EGL_emulation( 4786): app_time_stats: avg=48.63ms min=15.14ms max=77.80ms count=21
+D/EGL_emulation( 4786): app_time_stats: avg=53.68ms min=15.83ms max=122.04ms count=18
+D/EGL_emulation( 4786): app_time_stats: avg=48.61ms min=14.56ms max=62.53ms count=20
+D/EGL_emulation( 4786): app_time_stats: avg=45.75ms min=15.01ms max=112.92ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=53.61ms min=45.43ms max=69.75ms count=19
+D/EGL_emulation( 4786): app_time_stats: avg=46.83ms min=14.93ms max=111.57ms count=21
+D/EGL_emulation( 4786): app_time_stats: avg=51.50ms min=44.37ms max=70.90ms count=20
+D/EGL_emulation( 4786): app_time_stats: avg=44.37ms min=14.04ms max=110.60ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=55.95ms min=46.69ms max=87.59ms count=19
+D/EGL_emulation( 4786): app_time_stats: avg=660.21ms min=83.90ms max=2317.61ms count=4
+W/WindowOnBackDispatcher( 4786): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 4786): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 4786): app_time_stats: avg=238.77ms min=57.73ms max=1217.27ms count=8
+D/EGL_emulation( 4786): app_time_stats: avg=444.01ms min=37.33ms max=1217.89ms count=3
+D/EGL_emulation( 4786): app_time_stats: avg=350.06ms min=27.38ms max=2330.52ms count=9
+D/EGL_emulation( 4786): app_time_stats: avg=642.99ms min=30.10ms max=2334.84ms count=4
+D/EGL_emulation( 4786): app_time_stats: avg=88.05ms min=34.44ms max=122.59ms count=12
+D/EGL_emulation( 4786): app_time_stats: avg=104.92ms min=27.08ms max=149.48ms count=10
+D/EGL_emulation( 4786): app_time_stats: avg=95.12ms min=31.23ms max=125.99ms count=11
+D/EGL_emulation( 4786): app_time_stats: avg=96.86ms min=38.86ms max=153.44ms count=11
+D/EGL_emulation( 4786): app_time_stats: avg=94.95ms min=18.19ms max=125.79ms count=11
+D/EGL_emulation( 4786): app_time_stats: avg=105.24ms min=21.06ms max=125.69ms count=10
+D/EGL_emulation( 4786): app_time_stats: avg=376.51ms min=35.51ms max=2318.34ms count=8
+D/EGL_emulation( 4786): app_time_stats: avg=364.77ms min=40.89ms max=2218.91ms count=8
+D/EGL_emulation( 4786): app_time_stats: avg=26.94ms min=8.71ms max=143.14ms count=32
+D/EGL_emulation( 4786): app_time_stats: avg=36.35ms min=8.85ms max=117.63ms count=26
+D/EGL_emulation( 4786): app_time_stats: avg=39.27ms min=11.69ms max=112.15ms count=26
+D/EGL_emulation( 4786): app_time_stats: avg=28.65ms min=10.14ms max=112.87ms count=31
+D/EGL_emulation( 4786): app_time_stats: avg=42.83ms min=11.24ms max=118.17ms count=23
+D/EGL_emulation( 4786): app_time_stats: avg=30.76ms min=11.31ms max=54.90ms count=31
+D/EGL_emulation( 4786): app_time_stats: avg=31.27ms min=9.00ms max=119.90ms count=29
+D/EGL_emulation( 4786): app_time_stats: avg=45.08ms min=12.26ms max=128.88ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=26.68ms min=10.48ms max=63.64ms count=33
+D/EGL_emulation( 4786): app_time_stats: avg=32.38ms min=9.56ms max=118.06ms count=29
+D/EGL_emulation( 4786): app_time_stats: avg=46.70ms min=15.53ms max=118.64ms count=21
+D/EGL_emulation( 4786): app_time_stats: avg=28.34ms min=10.62ms max=53.81ms count=32
+D/EGL_emulation( 4786): app_time_stats: avg=32.01ms min=10.84ms max=120.00ms count=28
+D/EGL_emulation( 4786): app_time_stats: avg=47.01ms min=11.85ms max=117.23ms count=21
+D/EGL_emulation( 4786): app_time_stats: avg=24.77ms min=9.73ms max=56.99ms count=34
+D/EGL_emulation( 4786): app_time_stats: avg=35.07ms min=9.19ms max=114.89ms count=27
+D/EGL_emulation( 4786): app_time_stats: avg=44.44ms min=9.56ms max=116.05ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=24.49ms min=9.34ms max=53.72ms count=34
+D/EGL_emulation( 4786): app_time_stats: avg=43.84ms min=11.58ms max=103.75ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=34.85ms min=11.19ms max=63.84ms count=27
+D/EGL_emulation( 4786): app_time_stats: avg=42.34ms min=11.43ms max=98.69ms count=23
+D/EGL_emulation( 4786): app_time_stats: avg=43.79ms min=17.34ms max=70.33ms count=22
+D/EGL_emulation( 4786): app_time_stats: avg=39.34ms min=13.66ms max=113.64ms count=24
+D/EGL_emulation( 4786): app_time_stats: avg=55.95ms min=21.89ms max=116.45ms count=18
+D/EGL_emulation( 4786): app_time_stats: avg=45.05ms min=15.74ms max=86.07ms count=21
+D/EGL_emulation( 4786): app_time_stats: avg=71.19ms min=42.69ms max=146.68ms count=16
+D/EGL_emulation( 4786): app_time_stats: avg=458.20ms min=101.70ms max=1167.23ms count=3
+D/EGL_emulation( 4786): app_time_stats: avg=623.11ms min=99.03ms max=1147.19ms count=2
+D/EGL_emulation( 4786): app_time_stats: avg=37.40ms min=14.51ms max=71.62ms count=25
+D/EGL_emulation( 4786): app_time_stats: avg=64.49ms min=23.38ms max=137.60ms count=15
+D/EGL_emulation( 4786): app_time_stats: avg=29.48ms min=12.84ms max=72.05ms count=30
+D/EGL_emulation( 4786): app_time_stats: avg=38.70ms min=12.79ms max=118.38ms count=25
+D/EGL_emulation( 4786): app_time_stats: avg=28.00ms min=12.97ms max=117.65ms count=34
+D/EGL_emulation( 4786): app_time_stats: avg=29.05ms min=12.08ms max=115.85ms count=31
+D/EGL_emulation( 4786): app_time_stats: avg=34.92ms min=11.90ms max=126.25ms count=26
+D/EGL_emulation( 4786): app_time_stats: avg=23.65ms min=12.16ms max=36.34ms count=37
+D/EGL_emulation( 4786): app_time_stats: avg=34.36ms min=11.50ms max=118.41ms count=26
+D/EGL_emulation( 4786): app_time_stats: avg=34.95ms min=13.16ms max=123.45ms count=27
+D/EGL_emulation( 4786): app_time_stats: avg=23.05ms min=11.75ms max=43.21ms count=38
+D/EGL_emulation( 4786): app_time_stats: avg=33.92ms min=10.36ms max=126.04ms count=26
+D/EGL_emulation( 4786): app_time_stats: avg=32.52ms min=13.78ms max=114.85ms count=28
+D/EGL_emulation( 4786): app_time_stats: avg=26.19ms min=12.00ms max=119.25ms count=34
+D/EGL_emulation( 4786): app_time_stats: avg=32.62ms min=11.11ms max=118.59ms count=27
+D/EGL_emulation( 4786): app_time_stats: avg=29.90ms min=11.39ms max=122.58ms count=33
+D/EGL_emulation( 4786): app_time_stats: avg=26.34ms min=11.70ms max=115.94ms count=33
+D/EGL_emulation( 4786): app_time_stats: avg=34.37ms min=11.22ms max=120.96ms count=26
+D/EGL_emulation( 4786): app_time_stats: avg=28.22ms min=13.88ms max=112.06ms count=34
+D/EGL_emulation( 4786): app_time_stats: avg=30.11ms min=14.60ms max=117.74ms count=29
+D/EGL_emulation( 4786): app_time_stats: avg=35.12ms min=10.61ms max=125.66ms count=26
+D/EGL_emulation( 4786): app_time_stats: avg=22.83ms min=12.60ms max=47.18ms count=35
+D/EGL_emulation( 4786): app_time_stats: avg=33.51ms min=13.31ms max=119.15ms count=28
+D/EGL_emulation( 4786): app_time_stats: avg=35.76ms min=11.62ms max=117.58ms count=27
+D/EGL_emulation( 4786): app_time_stats: avg=26.31ms min=11.97ms max=114.39ms count=34
+W/WindowOnBackDispatcher( 4786): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 4786): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 4786): app_time_stats: avg=650.59ms min=112.44ms max=2253.47ms count=4
+D/EGL_emulation( 4786): app_time_stats: avg=817.20ms min=103.50ms max=2221.98ms count=3
+I/flutter ( 4786): 02:01 +1: (tearDownAll)
+I/flutter ( 4786): Warning: integration_test plugin was not detected.
+I/flutter ( 4786): 
+I/flutter ( 4786): If you're running the tests with `flutter drive`, please make sure your tests
+I/flutter ( 4786): are in the `integration_test/` directory of your package and use
+I/flutter ( 4786): `flutter test $path_to_test` to run it instead.
+I/flutter ( 4786): 
+I/flutter ( 4786): If you're running the tests with Android instrumentation or XCTest, this means
+I/flutter ( 4786): that you are not capturing test results properly! See the following link for
+I/flutter ( 4786): how to set up the integration_test plugin:
+I/flutter ( 4786): 
+I/flutter ( 4786): https://docs.flutter.dev/testing/integration-tests
+I/flutter ( 4786): 
+I/flutter ( 4786): 02:01 +2: All tests passed!
+All tests passed.

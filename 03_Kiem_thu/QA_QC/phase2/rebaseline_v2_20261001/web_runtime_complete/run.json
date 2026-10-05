@@ -1,0 +1,71 @@
+{
+  "scope": "Runtime navigation/rendering, not TalkBack/human UAT",
+  "results": [
+    {
+      "name": "learner-360",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 360,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "Missing task feedback"
+    },
+    {
+      "name": "learner-412",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "Missing task feedback"
+    },
+    {
+      "name": "learner-430",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 430,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "Missing task feedback"
+    },
+    {
+      "name": "staff-1280",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1280,
+        "height": 1000
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "Missing immutable view"
+    },
+    {
+      "name": "staff-1440",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "Missing immutable view"
+    },
+    {
+      "name": "staff-1920",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1920,
+        "height": 1000
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "Missing immutable view"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "browser": "154.0.8037.58",
+  "results": [
+    {
+      "name": "text200-320-Home",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-320-Learn",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-320-Course",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-320-Profile",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-360-Home",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-360-Learn",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-360-Course",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-360-Profile",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-412-Home",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-412-Learn",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-412-Course",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-412-Profile",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-480-Home",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-480-Learn",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-480-Course",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "text200-480-Profile",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "staff-text200-1024",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "staff-text200-1440",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "placement-media-unavailable",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "practice-media-skip",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "learner-accessibility-tree",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-vocabulary-0",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-vocabulary-1",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-vocabulary-2",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-grammar-0",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-grammar-1",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-grammar-2",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-listening-0",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-listening-1",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "answer-key-listening-2",
+      "status": "FAIL",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+    }
+  ],
+  "assistive_technology": {
+    "status": "BLOCKED",
+    "reason": "This run uses headless Chromium and its native accessibility tree. No interactive screen-reader/TalkBack speech session is available through the enabled browser-only automation surface. AX names/focus checks do not establish speech output."
+  }
+}

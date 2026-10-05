@@ -1,0 +1,6 @@
+UTC: 2026-09-26T15:14:49.315246+00:00
+Command: C:\Android\Sdk\platform-tools\adb.exe -s emulator-5554 install C:\Mingo\.local\clean-reproduction-20260926\05_code\apps\learner\build\app\outputs\flutter-apk\app-debug.apk
+Performing Streamed Install
+Success
+
+Exit code: 0

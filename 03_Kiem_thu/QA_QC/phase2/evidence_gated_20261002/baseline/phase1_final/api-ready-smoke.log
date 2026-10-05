@@ -1,0 +1,4 @@
+Command: C:\Mingo\.venv\Scripts\python.exe 04_Van_hanh/Scripts/smoke_api.py --expect-ready
+{"commit": "a112f762ab08f6fa688cc4857b21d95d1055ab5c", "live": {"status": 200, "body": {"status": "alive"}, "request_id": "420582d8-6a72-458c-869a-1ee8994bc5c6"}, "ready": {"status": 200, "body": {"status": "ready"}, "request_id": "b68ff32f-e0e0-4fdd-ade3-1e8ae33f88a4"}}
+
+Exit code: 0

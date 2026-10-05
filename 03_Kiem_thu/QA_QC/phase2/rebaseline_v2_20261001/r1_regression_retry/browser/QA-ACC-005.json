@@ -1,0 +1,31 @@
+{
+  "id": "QA-ACC-005",
+  "priority": "P1",
+  "status": "FAIL",
+  "started": "2026-10-01T16:22:54.853Z",
+  "ended": "2026-10-01T16:22:59.407Z",
+  "expected": "Critical copy/actions remain readable without overlap/loss.",
+  "steps": [
+    "Click: Start learning"
+  ],
+  "observed": "",
+  "state": null,
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/flutter_bootstrap.js",
+    "http://127.0.0.1:8765/favicon.png",
+    "https://www.gstatic.com/flutter-canvaskit/ef0cd000916d64fa0c5d09cc809fa7ad244a5767/chromium/canvaskit.wasm",
+    "https://www.gstatic.com/flutter-canvaskit/ef0cd000916d64fa0c5d09cc809fa7ad244a5767/chromium/canvaskit.js",
+    "http://127.0.0.1:8765/main.dart.js",
+    "http://127.0.0.1:8765/assets/FontManifest.json",
+    "http://127.0.0.1:8765/assets/fonts/MaterialIcons-Regular.otf",
+    "http://127.0.0.1:8765/assets/packages/mingo_ui/assets/fonts/Inter.ttf",
+    "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
+    "http://127.0.0.1:8765/assets/AssetManifest.bin.json",
+    "https://fonts.gstatic.com/s/notosans/v37/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99Y41P6zHtY.woff2",
+    "http://127.0.0.1:8765/assets/packages/mingo_ui/assets/mascot.png"
+  ],
+  "failure": "locator.click: Timeout 4500ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })\u001b[22m\n"
+}

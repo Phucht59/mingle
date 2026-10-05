@@ -1,0 +1,29 @@
+as_of: 2026-10-03
+project: Mingo
+current_truth: PROJECT_STATE.md
+architecture_baseline: V3.2
+phase_0:
+  status: DONE
+  local_verification: PASS
+phase_1:
+  status: DONE
+  gate: PASSED
+  local_regression: PASS
+phase_2:
+  status: EVIDENCE_GATED_REVIEW
+  cycle: EVIDENCE_GATED_20261002
+  gate: NOT_PASSED
+  technical_candidate: VERIFIED_EXECUTED_SCOPE_ONLY
+  human_gate: PENDING
+  physical_performance: PENDING
+  presentation_screens: 61
+  presentation_states: 175
+  local_shared_tests_passed: 275
+  compared_captures: 205
+  responsive_observations: 3840
+  independent_human_acceptance: PENDING
+phase_3:
+  status: HOLD
+  eligible: false
+architecture_reopen_required: false
+human_validation_fabricated: false

@@ -1,0 +1,1933 @@
+[
+  {
+    "id": "PRD-01",
+    "statement": "Each task states an objective; finite cycle implements Review, Learn, Retrieve, Transfer, Check as functions with explicit endpoint and opt-in continuation.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:19",
+      "text": "Can finish a cycle without endless scrolling; no timer terminates an unfinished answer; no fake cycle if roles lack valid items.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "Baseline; ~5m hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:19",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:19",
+      "quoted_text": "Each task states an objective; finite cycle implements Review, Learn, Retrieve, Transfer, Check as functions with explicit endpoint and opt-in continuation.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Start finite cycle; finish Check; opt-in continue",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:3"
+    },
+    "flow": {
+      "id": "J-L01,J-L13",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L01",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:3",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Launch → Welcome → Goal (select or skip) → Placement offer → Skip placement → Home with provisional/missing-evidence state → Start finite cycle → Summary → Done for now."
+        },
+        {
+          "id": "J-L13",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:54",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Review/Transfer/Check Submit cannot advance while no answer is selected. Where Skip is allowed it is a separate explicit path. A Check with no response cannot reach Cycle Complete."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-020",
+        "states": [
+          "Ready",
+          "resume",
+          "content-gap"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:112",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-021",
+        "states": [
+          "Ready",
+          "offline-capable",
+          "content-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:124",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-022",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitted-result",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:136",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-023",
+        "states": [
+          "Ready",
+          "audio-loading",
+          "audio-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:150",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-024",
+        "states": [
+          "Ready",
+          "selected",
+          "hinted",
+          "submitted-result",
+          "retry-available",
+          "retry-exhausted",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:162",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-025",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitted-result",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:178",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-026",
+        "states": [
+          "Ready"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:192",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-027",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitting",
+          "result",
+          "audio-ready",
+          "audio-unavailable",
+          "play-limit-reached"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:202",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-032",
+        "states": [
+          "Complete",
+          "partial",
+          "sync-queued"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:262",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-001",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:303",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "expected": "Cycle has explicit intro, roles and summary; user explicitly chooses whether to continue.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-002",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:318",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "expected": "Finite progress is visible and never suggests infinite scroll.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-012",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:468",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "expected": "Shows practiced evidence/needs review/next step, no fake mastery percentage.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-021",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1308",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:2",
+        "expected": "Submit is disabled or accessible validation prevents progression; explicit Skip is the only no-answer path where offered; no completion/evidence is fabricated.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart:63",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-02",
+    "statement": "Persist first response and authoritative correctness separately from each retry and eventual correctness. Practice permits one feedback-guided retry; Check retains unaided first outcome.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:20",
+      "text": "First wrong → retry correct keeps first wrong; content/feedback revisions remain pinned.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "Freeze principle; retry count hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:20",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:20",
+      "quoted_text": "Persist first response and authoritative correctness separately from each retry and eventual correctness. Practice permits one feedback-guided retry; Check retains unaided first outcome.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Wrong first answer → feedback → optional retry",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:17"
+    },
+    "flow": {
+      "id": "J-L04",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L04",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:17",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Retrieve item → wrong first response → explanatory feedback → optional practice retry → correct retry → continue. UI congratulates the retry without implying the first response changed. Evidence semantics remain first wrong + eventual assisted/correct practice."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-024",
+        "states": [
+          "Ready",
+          "selected",
+          "hinted",
+          "submitted-result",
+          "retry-available",
+          "retry-exhausted",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:162",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:3",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-029",
+        "states": [
+          "Retry available",
+          "retry used",
+          "retry exhausted"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:229",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:3",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-006",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:378",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:3",
+        "expected": "First wrong is acknowledged; retry is clearly practice and does not rewrite first response.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-007",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:393",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:3",
+        "expected": "No infinite retry loop; final feedback state is clear.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart:68",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-03",
+    "statement": "Hints are typed by domain and available in practice; before-submit Check has no hint. Assisted correct is not unaided correct.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:21",
+      "text": "Hint shown then correct retains both facts; never upgrades independent Check.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "FREEZE NOW",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:21",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:21",
+      "quoted_text": "Hints are typed by domain and available in practice; before-submit Check has no hint. Assisted correct is not unaided correct.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Request practice hint / enter independent Check",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:21"
+    },
+    "flow": {
+      "id": "J-L05,J-L07",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L05",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:21",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Practice item → learner requests hint → hint shown → answer → feedback identifies support context. This path never qualifies as unaided evidence in UX language."
+        },
+        {
+          "id": "J-L07",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:29",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Check Intro explains context → Check item has no pre-submit hint → submit → result/feedback → cycle summary. Listening Check may show offered play policy, but UI never says client playback count proves physical listens."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-024",
+        "states": [
+          "Ready",
+          "selected",
+          "hinted",
+          "submitted-result",
+          "retry-available",
+          "retry-exhausted",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:162",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:4",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-027",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitting",
+          "result",
+          "audio-ready",
+          "audio-unavailable",
+          "play-limit-reached"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:202",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:4",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-030",
+        "states": [
+          "Default",
+          "unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:241",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:4",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-008",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:408",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:4",
+        "expected": "UI indicates assistance; copy does not present response as unaided.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-013",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:483",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:4",
+        "expected": "Hint action is absent and Check context is explicit.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart:81",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-04",
+    "statement": "Skip is explicit, logged and not completion/mastery. Two skips across distinct exposures of one objective trigger support or alternative, not a forced loop.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:22",
+      "text": "Skip alone leaves Check and mastery unaffected; a skip never earns cycle completion.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "Freeze principle; threshold hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:22",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:22",
+      "quoted_text": "Skip is explicit, logged and not completion/mastery. Two skips across distinct exposures of one objective trigger support or alternative, not a forced loop.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Explicit practice Skip; blank required response",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:25"
+    },
+    "flow": {
+      "id": "J-L06,J-L13",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L06",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:25",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Practice item → “Skip for now” → non-shaming confirmation → continue with no completion/mastery/reward claim. Repeated skip support is a versioned later policy, not diagnosis."
+        },
+        {
+          "id": "J-L13",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:54",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Review/Transfer/Check Submit cannot advance while no answer is selected. Where Skip is allowed it is a separate explicit path. A Check with no response cannot reach Cycle Complete."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-022",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitted-result",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:136",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:5",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-024",
+        "states": [
+          "Ready",
+          "selected",
+          "hinted",
+          "submitted-result",
+          "retry-available",
+          "retry-exhausted",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:162",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:5",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-031",
+        "states": [
+          "Default"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:252",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:5",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-009",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:423",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:5",
+        "expected": "No completion/mastery/reward is granted in copy; learner can continue safely.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-BIZ-003",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:873",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:5",
+        "expected": "No streak/mastery/completion reward copy appears.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart:105",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-05",
+    "statement": "Practice listening replay is flexible; Check/placement UI defaults to at most two offered plays, stated before start, with an accessibility mode recorded separately. Playback events from the offline client are client-reported and cannot alone authorize canonical score or certify the true number of listens.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:23",
+      "text": "Answer is server-scored independently; unknown/missing replay context remains unknown, and assessment comparability is qualified. Exact command/telemetry authority is mapped in `02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3_2_COMPATIBILITY_MATRIX.md`; II-03 is resolved. Assessment-condition metadata remains a later versioned implementation task.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:23",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:23",
+      "quoted_text": "Practice listening replay is flexible; Check/placement UI defaults to at most two offered plays, stated before start, with an accessibility mode recorded separately. Playback events from the offline client are client-reported and cannot alone authorize canonical score or certify the true number of listens.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Request audio; essential media unavailable",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:29"
+    },
+    "flow": {
+      "id": "J-L07,J-L15",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L07",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:29",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Check Intro explains context → Check item has no pre-submit hint → submit → result/feedback → cycle summary. Listening Check may show offered play policy, but UI never says client playback count proves physical listens."
+        },
+        {
+          "id": "J-L15",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:62",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Practice exposes AudioControl and flexible replay; independent Listening Check exposes an offered-play limit (current hypothesis: two). Playback request count is telemetry only. If required media is unavailable offline, Check blocks safely instead of fabricating completion."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-005",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitting",
+          "result",
+          "skipped-domain",
+          "audio-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:49",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:6",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-023",
+        "states": [
+          "Ready",
+          "audio-loading",
+          "audio-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:150",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:6",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-027",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitting",
+          "result",
+          "audio-ready",
+          "audio-unavailable",
+          "play-limit-reached"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:202",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:6",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-014",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:498",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:6",
+        "expected": "Offered play policy can be shown; UI never claims physical listening verification.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-BIZ-005",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:903",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:6",
+        "expected": "No statement says client replay count proves clean assessment.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-023",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1338",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:6",
+        "expected": "Playback policy/telemetry wording is concrete; Check offers at most configured plays; offline missing media blocks safely; no physical-listening claim.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart:7",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-06",
+    "statement": "Vocabulary includes meaning/optional L1 gloss, audio, controlled context and recognition/recall/listening/application; grammar uses concise scaffold, practice, transfer and Check.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:24",
+      "text": "One translated card or rule-read does not by itself mark objective mastered.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "Principle freeze; sequence hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:24",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:24",
+      "quoted_text": "Vocabulary includes meaning/optional L1 gloss, audio, controlled context and recognition/recall/listening/application; grammar uses concise scaffold, practice, transfer and Check.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Start grammar/vocabulary/listening objective",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:58"
+    },
+    "flow": {
+      "id": "J-L14,J-L15",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L14",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:58",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Learn short `am/is/are` scaffold → Retrieve `He ___ my friend` with optional practice hint → Transfer to `They are classmates` → independent Check `I ___ ready`. Assistance persists as assisted evidence; Check has no pre-submit hint."
+        },
+        {
+          "id": "J-L15",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:62",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Practice exposes AudioControl and flexible replay; independent Listening Check exposes an offered-play limit (current hypothesis: two). Playback request count is telemetry only. If required media is unavailable offline, Check blocks safely instead of fabricating completion."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-023",
+        "states": [
+          "Ready",
+          "audio-loading",
+          "audio-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:150",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-024",
+        "states": [
+          "Ready",
+          "selected",
+          "hinted",
+          "submitted-result",
+          "retry-available",
+          "retry-exhausted",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:162",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-025",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitted-result",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:178",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-027",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitting",
+          "result",
+          "audio-ready",
+          "audio-unavailable",
+          "play-limit-reached"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:202",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-004",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:348",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "expected": "UI does not mark objective mastered just for viewing explanation.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-005",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:363",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "expected": "Selection is visually distinct from submission/canonical result.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-022",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1323",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "expected": "am/is/are scaffold and all interaction states are concrete; assisted remains assisted; Check has no hint and no blank progression.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-023",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1338",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:7",
+        "expected": "Playback policy/telemetry wording is concrete; Check offers at most configured plays; offline missing media blocks safely; no physical-listening claim.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart:63",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-07",
+    "statement": "A next-band challenge within the same objective is eligible only after **two unaided correct first responses on distinct item revisions in the same current task band, including one independent Check**. Only one next-band item may be offered; one success may prompt current-band Transfer. For Listening, captured client-reported play context suffices only for this low-stakes provisional challenge.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:25",
+      "text": "A single success, same-item retry, assisted answer or *missing* Check condition cannot trigger step-up. Challenge does not mark mastery, raise level or unlock another objective; band, evidence IDs and policy version are logged.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:25",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:25",
+      "quoted_text": "A next-band challenge within the same objective is eligible only after **two unaided correct first responses on distinct item revisions in the same current task band, including one independent Check**. Only one next-band item may be offered; one success may prompt current-band Transfer. For Listening, captured client-reported play context suffices only for this low-stakes provisional challenge.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Provisional challenge predicate satisfied",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\learning_design\\ADAPTIVE_FEED_MVP_SPEC.md:9"
+    },
+    "flow": {
+      "id": "No standalone UC ID in repo",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\learning_design\\ADAPTIVE_FEED_MVP_SPEC.md:9",
+      "note": "Policy/procedure and PRD acceptance support flow; workbook UC/Trigger IDs unknown"
+    },
+    "screens": [
+      {
+        "id": "L-010",
+        "states": [
+          "Online",
+          "offline",
+          "syncing",
+          "nothing-due",
+          "recommendation-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:76",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:8",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-041",
+        "states": [
+          "Eligible",
+          "due",
+          "locked",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:298",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:8",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-BIZ-006",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:918",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:8",
+        "expected": "Challenge does not automatically change level/mastery/unlock.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "UNKNOWN exact test mapping; selected executable file C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart",
+      "relation": "UNKNOWN",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-08",
+    "statement": "Learner-selected focus selects eligible items; a due review or blocking prerequisite may contribute at most one justified item before focus in a default cycle.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:26",
+      "text": "Selection reason visible; no prerequisite bypass or hidden veto.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:26",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:26",
+      "quoted_text": "Learner-selected focus selects eligible items; a due review or blocking prerequisite may contribute at most one justified item before focus in a default cycle.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Select focus; due review / blocking prerequisite exists",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:13"
+    },
+    "flow": {
+      "id": "No standalone UC ID in repo",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\learning_design\\ADAPTIVE_FEED_MVP_SPEC.md:9",
+      "note": "Policy/procedure and PRD acceptance support flow; workbook UC/Trigger IDs unknown"
+    },
+    "screens": [
+      {
+        "id": "L-010",
+        "states": [
+          "Online",
+          "offline",
+          "syncing",
+          "nothing-due",
+          "recommendation-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:76",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:9",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-021",
+        "states": [
+          "Ready",
+          "offline-capable",
+          "content-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:124",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:9",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-022",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitted-result",
+          "skipped"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:136",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:9",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-041",
+        "states": [
+          "Eligible",
+          "due",
+          "locked",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:298",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:9",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-BIZ-007",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:933",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:9",
+        "expected": "Prerequisite reason is clear and cannot be bypassed by preference.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart:124",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-09",
+    "statement": "Placement optionally tests Vocabulary/Grammar/Listening in 6–9 short rule-branching items with provisional A0–B2 start and missing-domain state. Audio may be skipped; normal study continues calibration.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:27",
+      "text": "No mandatory 30–40 minute gate, no numeric CEFR/TOEIC certification; user can start with insufficient evidence.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:27",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:27",
+      "quoted_text": "Placement optionally tests Vocabulary/Grammar/Listening in 6–9 short rule-branching items with provisional A0–B2 start and missing-domain state. Audio may be skipped; normal study continues calibration.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Choose or skip placement",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:3"
+    },
+    "flow": {
+      "id": "J-L01,J-L02",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L01",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:3",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Launch → Welcome → Goal (select or skip) → Placement offer → Skip placement → Home with provisional/missing-evidence state → Start finite cycle → Summary → Done for now."
+        },
+        {
+          "id": "J-L02",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:9",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Welcome → optional Goal → Placement → short Vocabulary/Grammar/Listening items → provisional result → Home. Missing/unsupported domain remains “not enough evidence,” not a fabricated score."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-004",
+        "states": [
+          "Default",
+          "unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:38",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:10",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-005",
+        "states": [
+          "Ready",
+          "selected",
+          "validation-error",
+          "submitting",
+          "result",
+          "skipped-domain",
+          "audio-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:49",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:10",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-006",
+        "states": [
+          "Complete",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:65",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:10",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-015",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:513",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:10",
+        "expected": "Learner can continue with provisional/missing evidence state.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-LRN-016",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:528",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:10",
+        "expected": "Result is provisional and does not claim external CEFR certification.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "UNKNOWN exact test mapping; selected executable file C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart",
+      "relation": "UNKNOWN",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-10",
+    "statement": "Goal is optional, editable, influences examples within eligible path. Learner profile uses qualitative objective/skill state with evidence and uncertainty.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:28",
+      "text": "Missing evidence shown explicitly; no mastery percentage; goal change never rewrites measured skill or bypasses prerequisites.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "ĐÃ CHỐT: optional/editable preference and evidence-safe profile; exact goal categories GIẢ THUYẾT CẦN KIỂM CHỨNG",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:28",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:28",
+      "quoted_text": "Goal is optional, editable, influences examples within eligible path. Learner profile uses qualitative objective/skill state with evidence and uncertainty.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Select/skip/edit goal; open profile/evidence",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:3"
+    },
+    "flow": {
+      "id": "J-L01,J-L02,J-L11",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L01",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:3",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Launch → Welcome → Goal (select or skip) → Placement offer → Skip placement → Home with provisional/missing-evidence state → Start finite cycle → Summary → Done for now."
+        },
+        {
+          "id": "J-L02",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:9",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Welcome → optional Goal → Placement → short Vocabulary/Grammar/Listening items → provisional result → Home. Missing/unsupported domain remains “not enough evidence,” not a fabricated score."
+        },
+        {
+          "id": "J-L11",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:45",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Profile → evidence cards show observations, “building” or “needs more evidence,” and known uncertainty → optional related review. Streak/target are separated from learning evidence."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-003",
+        "states": [
+          "Default",
+          "selected",
+          "error"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:26",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:11",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-050",
+        "states": [
+          "Default",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:322",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:11",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-051",
+        "states": [
+          "Building",
+          "more-evidence-needed"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:333",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:11",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-052",
+        "states": [
+          "Default",
+          "saved",
+          "error"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:344",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:11",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-017",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:543",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:11",
+        "expected": "Goal setting is presented as intent, not competence.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-BIZ-008",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:948",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:11",
+        "expected": "No fake mastery percentage or diagnosis.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "UNKNOWN exact test mapping; selected executable file C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart",
+      "relation": "UNKNOWN",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-11",
+    "statement": "Default target one ~5-minute cycle/day, optional multiple cycles; streak uses at least one scored retrieval with feedback per local day (right or wrong), separate from target.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:29",
+      "text": "Open-only, passive play and skip do not count; offline replay/timezone changes cannot double-award.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:29",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:29",
+      "quoted_text": "Default target one ~5-minute cycle/day, optional multiple cycles; streak uses at least one scored retrieval with feedback per local day (right or wrong), separate from target.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Qualifying retrieval with feedback; local day",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:29"
+    },
+    "flow": {
+      "id": "No standalone UC ID in repo",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:29",
+      "note": "Policy/procedure and PRD acceptance support flow; workbook UC/Trigger IDs unknown"
+    },
+    "screens": [
+      {
+        "id": "L-010",
+        "states": [
+          "Online",
+          "offline",
+          "syncing",
+          "nothing-due",
+          "recommendation-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:76",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:12",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-050",
+        "states": [
+          "Default",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:322",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:12",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-BIZ-009",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:963",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:12",
+        "expected": "Streak is engagement and not shown as skill/mastery.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "UNKNOWN exact test mapping; selected executable file C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart",
+      "relation": "UNKNOWN",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-12",
+    "statement": "Reward only for genuine milestones/progress and server-idempotent activity; no click-farmed XP/leaderboard in MVP.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:30",
+      "text": "Rewards never change mastery, level, prerequisite or Check result.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:30",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:30",
+      "quoted_text": "Reward only for genuine milestones/progress and server-idempotent activity; no click-farmed XP/leaderboard in MVP.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Meaningful milestone under provisional policy",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:30"
+    },
+    "flow": {
+      "id": "No standalone UC ID in repo",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:30",
+      "note": "Policy/procedure and PRD acceptance support flow; workbook UC/Trigger IDs unknown"
+    },
+    "screens": [
+      {
+        "id": "L-032",
+        "states": [
+          "Complete",
+          "partial",
+          "sync-queued"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:262",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:13",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-050",
+        "states": [
+          "Default",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:322",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:13",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-BIZ-010",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:978",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:13",
+        "expected": "Rewards do not alter mastery/prerequisite/Check semantics.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "UNKNOWN exact test mapping; selected executable file C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart",
+      "relation": "UNKNOWN",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-13",
+    "statement": "Course map supports browse/review of open content and preview-only for locked objectives; recommendation has one short, actual evidence-backed reason with optional details.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:31",
+      "text": "Preview does not grant completion; explanation matches logged reason.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:31",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:31",
+      "quoted_text": "Course map supports browse/review of open content and preview-only for locked objectives; recommendation has one short, actual evidence-backed reason with optional details.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Browse course; locked preview; request next action",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:33"
+    },
+    "flow": {
+      "id": "J-L08,J-L10",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L08",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:33",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Course → locked objective → reason/prerequisite → preview → back. Preview creates no progress or unlock. Eligible objective can start/resume learning."
+        },
+        {
+          "id": "J-L10",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:41",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Home recommendation service unavailable/disabled → ordinary eligible curriculum or due-review options remain → learner can start cycle. If no valid content exists, show honest content gap/nothing-due state."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-010",
+        "states": [
+          "Online",
+          "offline",
+          "syncing",
+          "nothing-due",
+          "recommendation-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:76",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:14",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-040",
+        "states": [
+          "Open",
+          "due-review",
+          "locked",
+          "empty"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:285",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:14",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-041",
+        "states": [
+          "Eligible",
+          "due",
+          "locked",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:298",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:14",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-042",
+        "states": [
+          "Preview-open",
+          "preview-close"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:311",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:14",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-018",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:558",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:14",
+        "expected": "Preview is clearly non-progressing and shows prerequisite reason.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-BIZ-011",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:993",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:14",
+        "expected": "Displayed reason matches defined reason category; no invented psychological cause.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "UNKNOWN exact test mapping; selected executable file C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\independent_test.dart",
+      "relation": "UNKNOWN",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-14",
+    "statement": "Content is licensed/attributed, published immutably and scored against the pinned revision.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:32",
+      "text": "Revised content does not reinterpret old attempts; failed license review blocks publication.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "V3.2 baseline and content rule",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:32",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:32",
+      "quoted_text": "Content is licensed/attributed, published immutably and scored against the pinned revision.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Create draft; submit review; return/approve; publish; new revision",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\04_STAFF_JOURNEYS.md:5"
+    },
+    "flow": {
+      "id": "J-S01,J-S02",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-S01",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\04_STAFF_JOURNEYS.md:5",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Content Library → Create Draft → Draft Editor → Source & License → Preview → Submit for Review → Review Queue → Review Detail → Approve/Request Changes → Publish Confirmation → Published Revision."
+        },
+        {
+          "id": "J-S02",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\04_STAFF_JOURNEYS.md:11",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Draft → missing/invalid source/license → review/publish gate is blocked with explicit reason → author fixes provenance → resubmit. “Publicly accessible” is never treated as sufficient reuse permission."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "S-030",
+        "states": [
+          "Default",
+          "empty",
+          "filtered"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:511",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "S-033",
+        "states": [
+          "license-pending",
+          "license-verified",
+          "validation-error"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:548",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "S-035",
+        "states": [
+          "license-blocked",
+          "approvable",
+          "changes-requested"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:571",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "S-036",
+        "states": [
+          "confirmation-open",
+          "processing",
+          "error"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:583",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "S-037",
+        "states": [
+          "published-immutable",
+          "new-draft-created"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:595",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-041",
+        "states": [
+          "Eligible",
+          "due",
+          "locked",
+          "insufficient-evidence"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:298",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-STF-006",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:678",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "expected": "Missing provenance is visibly blocking for publish.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-STF-007",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:693",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "expected": "Copy explains immutable new revision; destructive ambiguity is avoided.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-BIZ-012",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1008",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "expected": "No direct edit-in-place; new draft/revision workflow.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-STF-011",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1353",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:15",
+        "expected": "Every transition works; publish confirmation explains immutability; published revision has no direct edit and new change starts a draft.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "UNKNOWN exact test mapping; selected executable file C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\independent_test.dart",
+      "relation": "UNKNOWN",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-15",
+    "statement": "Canonical commands, telemetry, decision, exposure, execution and outcome remain distinct; offline queues replay idempotently, with event time and known-at time.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:33",
+      "text": "Late event cannot leak into earlier decision; duplicate sync cannot duplicate progress/streak/reward.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "V3.2 baseline",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:33",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:33",
+      "quoted_text": "Canonical commands, telemetry, decision, exposure, execution and outcome remain distinct; offline queues replay idempotently, with event time and known-at time.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Connectivity loss / restoration; queued action/retry; late arrival",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:37"
+    },
+    "flow": {
+      "id": "J-L09,J-L12",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L09",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:37",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Connectivity loss → visible offline banner → learner continues only downloaded/eligible work → business action is “saved on this device / waiting to sync” → connection returns → syncing → canonical accepted/synced state. Sync failure offers safe retry, not manual duplicate submit."
+        },
+        {
+          "id": "J-L12",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:49",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Learner exits or app closes → later Learn/Home offers Resume → state is restored without duplicate submit. If pinned content becomes unusable, show safe refresh/resolution rather than silently rewriting history."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-011",
+        "states": [
+          "Offline",
+          "queued"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:90",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-012",
+        "states": [
+          "Syncing",
+          "partial"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:101",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-060",
+        "states": [
+          "offline-available",
+          "local-queued",
+          "syncing",
+          "synced",
+          "partial"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:381",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-061",
+        "states": [
+          "failed-retryable",
+          "reauth",
+          "canonical-refresh",
+          "media-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:395",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "S-050",
+        "states": [
+          "Placeholder",
+          "no-data"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:628",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-OFF-001",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:753",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "expected": "Offline state is visible but non-alarming; available offline actions remain usable.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-OFF-002",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:768",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "expected": "Copy distinguishes saved on device / waiting to sync / synced.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-OFF-004",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:798",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "expected": "UI refetches canonical state rather than locally overriding server truth.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-BIZ-013",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1023",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "expected": "Decision/exposure/execution/outcome are not conflated.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-OFF-007",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1398",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:16",
+        "expected": "State remains queued/syncing/retryable as appropriate; Synced appears only after explicit authoritative acknowledgement/canonical refresh.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart:9",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  },
+  {
+    "id": "PRD-16",
+    "statement": "ML and recommendation can be disabled while curriculum and due-review fallback still work.",
+    "acceptance": {
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:34",
+      "text": "Usable cycle selected without ML; no eligible content produces honest empty state.",
+      "relation": "EXPLICIT"
+    },
+    "decision_status": "V3.2 baseline",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:34",
+    "business_need": {
+      "id": "UNKNOWN workbook Need ID",
+      "relation": "UNKNOWN",
+      "location": "07_RTM NOT FOUND"
+    },
+    "business_rule": {
+      "id": "UNKNOWN workbook BR ID",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:34",
+      "quoted_text": "ML and recommendation can be disabled while curriculum and due-review fallback still work.",
+      "note": "Rule stated in repo requirement; not a canonical workbook BR edge"
+    },
+    "trigger": {
+      "id": "UNKNOWN workbook Trigger ID",
+      "description": "Disable/unavailable ML or recommendation; no eligible content",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:41"
+    },
+    "flow": {
+      "id": "J-L10",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence": [
+        {
+          "id": "J-L10",
+          "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\03_LEARNER_JOURNEYS.md:41",
+          "relation": "SEMANTICALLY SUPPORTED",
+          "quoted_text": "Home recommendation service unavailable/disabled → ordinary eligible curriculum or due-review options remain → learner can start cycle. If no valid content exists, show honest content gap/nothing-due state."
+        }
+      ],
+      "note": "Repo journeys explicitly describe operation; no asserted formal workbook relationship"
+    },
+    "screens": [
+      {
+        "id": "L-010",
+        "states": [
+          "Online",
+          "offline",
+          "syncing",
+          "nothing-due",
+          "recommendation-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:76",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:17",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-020",
+        "states": [
+          "Ready",
+          "resume",
+          "content-gap"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:112",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:17",
+        "relation": "EXPLICIT"
+      },
+      {
+        "id": "L-063",
+        "states": [
+          "Nothing-due",
+          "no-valid-cycle",
+          "media-unavailable"
+        ],
+        "location": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_CATALOG.json:419",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:17",
+        "relation": "EXPLICIT"
+      }
+    ],
+    "qa_spec": [
+      {
+        "id": "QA-LRN-019",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:573",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:17",
+        "expected": "A usable curriculum/due/manual action remains; no AI error dead end.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      },
+      {
+        "id": "QA-BIZ-014",
+        "location": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1038",
+        "mapping": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\PRD_TRACEABILITY_V2.csv:17",
+        "expected": "Usable deterministic/manual learning flow remains.",
+        "relation": "EXPLICIT",
+        "evidence_type": "SPEC EXISTS; legacy status not current execution"
+      }
+    ],
+    "executable": {
+      "location": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart:124",
+      "relation": "SEMANTICALLY SUPPORTED",
+      "evidence_type": "EXECUTABLE EXISTS; selected suites executed separately; no one-to-one legacy QA execution claim"
+    },
+    "result": "PARTIAL",
+    "gap": "Actual priority/Need/BR/Trigger/UC/WF workbook IDs and relations UNKNOWN. Runtime validation DEFERRED; applicable repo fixture/spec coverage does not close workbook chain."
+  }
+]

@@ -1,0 +1,21 @@
+screen_id,domain,state,test,screenshot,human_review
+L-021,grammar,representative,grammar / L-021 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-021.png,PENDING
+L-022,grammar,representative,grammar / L-022 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-022.png,PENDING
+L-023,grammar,representative,grammar / L-023 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-023.png,PENDING
+L-024,grammar,representative,grammar / L-024 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-024.png,PENDING
+L-025,grammar,representative,grammar / L-025 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-025.png,PENDING
+L-026,grammar,representative,grammar / L-026 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-026.png,PENDING
+L-027,grammar,representative,grammar / L-027 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-027.png,PENDING
+L-032,grammar,representative,grammar / L-032 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/grammar_L-032.png,PENDING
+L-021,listening,representative,listening / L-021 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-021.png,PENDING
+L-022,listening,representative,listening / L-022 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-022.png,PENDING
+L-023,listening,representative,listening / L-023 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-023.png,PENDING
+L-024,listening,representative,listening / L-024 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-024.png,PENDING
+L-025,listening,representative,listening / L-025 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-025.png,PENDING
+L-026,listening,representative,listening / L-026 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-026.png,PENDING
+L-027,listening,representative,listening / L-027 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-027.png,PENDING
+L-032,listening,representative,listening / L-032 / responsive and capture,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/listening_L-032.png,PENDING
+L-010,shared,320px200percent,D021 V2 L-010 at320px200percent,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-010_320_200.png,PENDING
+L-020,shared,320px200percent,D021 V2 L-020 at320px200percent,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-020_320_200.png,PENDING
+L-040,shared,320px200percent,D021 V2 L-040 at320px200percent,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-040_320_200.png,PENDING
+L-050,shared,320px200percent,D021 V2 L-050 at320px200percent,03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshots/L-050_320_200.png,PENDING

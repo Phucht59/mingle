@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-27T14:34:07.419Z",
+  "browser": "153.0.8010.53",
+  "results": [
+    {
+      "name": "D001 correct and distractor; D005 retry",
+      "status": "PASS",
+      "detail": {
+        "first": "go",
+        "retry": "good",
+        "retryCount": 1,
+        "assisted": false,
+        "skipped": false,
+        "result": "correct",
+        "final": true
+      }
+    },
+    {
+      "name": "D002 blank; D003 assisted through summary",
+      "status": "PASS",
+      "detail": "Mingo\nSaved on device\nConnection restored. Saved actions are still queued until sync receives server acknowledgement.\nLEARNING CYCLE\nBasic greetings\n\nVocabulary · 8 of 8\n\nDone for now\nYou practiced\n\nVocabulary: review, learn, retrieve, transfer and independent Check.\n\nEvidence context\n\n1 response(s) used assistance. Mingo needs repeated evidence before broader claims.\n\nSaved on this device. Waiting for server acknowledgement.\nDone for now\nContinue learning\nSync status"
+    },
+    {
+      "name": "D004 queued restore and online action",
+      "status": "PASS",
+      "detail": {
+        "surface": "learner",
+        "learner": "cycle",
+        "staff": "dashboard",
+        "networkOnline": true,
+        "syncState": "local_queued",
+        "queuedCount": 3,
+        "cycleDomain": "vocabulary",
+        "cycleStep": 4,
+        "selected": "morning",
+        "response": {
+          "first": "morning",
+          "retry": null,
+          "retryCount": 0,
+          "assisted": false,
+          "skipped": false,
+          "result": "correct",
+          "final": true
+        },
+        "goal": "",
+        "placementStep": 3,
+        "licenseVerified": false,
+        "contentDraftRevision": 4,
+        "publishedRevision": 3
+      }
+    },
+    {
+      "name": "D013 preview Escape restore",
+      "status": "PASS"
+    },
+    {
+      "name": "D014 option focus persists",
+      "status": "PASS"
+    },
+    {
+      "name": "D009 draft edits survive save and preview",
+      "status": "PASS"
+    },
+    {
+      "name": "LRN017 goal editing",
+      "status": "PASS"
+    },
+    {
+      "name": "LRN019/020 fallback/empty executable",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "first_use_default",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "placement_skip_result",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "review_blank_disabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "correct_answer_good",
+      "status": "PASS",
+      "detail": "Correct with a hint.\nThis remains assisted evidence.\nContinue"
+    },
+    {
+      "check": "assisted_persistent",
+      "status": "PASS",
+      "detail": "{'first': 'good', 'retry': None, 'retryCount': 0, 'assisted': True, 'skipped': False, 'result': 'correct', 'final': True}"
+    },
+    {
+      "check": "transfer_blank_disabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "check_blank_disabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "wrong_distractor_rejected",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "retry_exhausted",
+      "status": "PASS",
+      "detail": "{'first': 'go', 'retry': 'blue', 'retryCount': 1, 'assisted': False, 'skipped': False, 'result': 'incorrect', 'final': True}"
+    },
+    {
+      "check": "first_response_preserved",
+      "status": "PASS",
+      "detail": "{'first': 'go', 'retry': 'blue', 'retryCount': 1, 'assisted': False, 'skipped': False, 'result': 'incorrect', 'final': True}"
+    },
+    {
+      "check": "offline_action_queued",
+      "status": "PASS",
+      "detail": "{'surface': 'learner', 'learner': 'cycle', 'staff': 'dashboard', 'networkOnline': False, 'syncState': 'local_queued', 'queuedCount': 1, 'cycleDomain': 'vocabulary', 'cycleStep': 1, 'selected': 'hello', 'response': {'first': 'hello', 'retry': None, 'retryCount': 0, 'assisted': False, 'skipped': False, 'result': 'correct', 'final': True}, 'goal': '', 'placementStep': 3, 'licenseVerified': False, 'contentDraftRevision': 4, 'publishedRevision': 3}"
+    },
+    {
+      "check": "network_restore_not_synced",
+      "status": "PASS",
+      "detail": "{'surface': 'learner', 'learner': 'cycle', 'staff': 'dashboard', 'networkOnline': True, 'syncState': 'local_queued', 'queuedCount': 1, 'cycleDomain': 'vocabulary', 'cycleStep': 1, 'selected': 'hello', 'response': {'first': 'hello', 'retry': None, 'retryCount': 0, 'assisted': False, 'skipped': False, 'result': 'correct', 'final': True}, 'goal': '', 'placementStep': 3, 'licenseVerified': False, 'contentDraftRevision': 4, 'publishedRevision': 3}"
+    },
+    {
+      "check": "queued_copy",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "syncing_state",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ack_to_synced",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "locked_preview_opens",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "locked_preview_closes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "grammar_cycle_title",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "listening_audio_control",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

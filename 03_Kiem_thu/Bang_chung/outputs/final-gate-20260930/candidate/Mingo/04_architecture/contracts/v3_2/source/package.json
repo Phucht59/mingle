@@ -1,0 +1,8 @@
+{
+  "name": "adaptive-learning-baseline-contract-checks",
+  "version": "3.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"test:sql": "node tests/check_sql.mjs"},
+  "dependencies": {"@electric-sql/pglite": "0.5.8"}
+}

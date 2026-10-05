@@ -1,0 +1,162 @@
+[
+  {
+    "prd": "PRD-01",
+    "requirement": "Finite objective-based cycle with clear closure",
+    "screens": "L-020,L-021,L-022,L-023,L-024,L-025,L-026,L-027,L-032",
+    "components": "C-007",
+    "qa": "QA-LRN-001,QA-LRN-002,QA-LRN-012,QA-LRN-021",
+    "v2_implementation": "lesson.dart / lesson_content.dart; presentation fixtures only",
+    "v2_verification": "grammar full cycle; three family captures; all cycle screen states",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-02",
+    "requirement": "First response preserved; guided retry in practice",
+    "screens": "L-024,L-029",
+    "components": "C-003,C-005",
+    "qa": "QA-LRN-006,QA-LRN-007",
+    "v2_implementation": "fixtures.dart / learner.dart / lesson.dart; presentation fixtures only",
+    "v2_verification": "first wrong answer survives a correct bounded practice retry; forward/back persistence",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-03",
+    "requirement": "Typed hints; assisted != unaided; no pre-submit hint in Check",
+    "screens": "L-024,L-027,L-030",
+    "components": "C-006",
+    "qa": "QA-LRN-008,QA-LRN-013",
+    "v2_implementation": "fixtures.dart / lesson.dart; presentation fixtures only",
+    "v2_verification": "hint marks practice as assisted; Check has neither hint/retry/skip",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-04",
+    "requirement": "Skip logged; not completion/mastery",
+    "screens": "L-022,L-024,L-031",
+    "components": "C-005",
+    "qa": "QA-LRN-009,QA-BIZ-003",
+    "v2_implementation": "fixtures.dart / lesson.dart; presentation fixtures only",
+    "v2_verification": "skip is not a response/completion; skipped-state captures",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-05",
+    "requirement": "Listening replay support and assessment context",
+    "screens": "L-005,L-023,L-027",
+    "components": "C-012",
+    "qa": "QA-LRN-014,QA-BIZ-005,QA-LRN-023",
+    "v2_implementation": "audio.dart / lesson.dart / assets/hello.ogg; presentation fixtures only",
+    "v2_verification": "bounded request unit/error cases; Android initialization/budget; compiled Web resource/playback interaction",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-06",
+    "requirement": "Vocabulary/grammar learning sequence",
+    "screens": "L-023,L-024,L-025,L-027",
+    "components": "C-004",
+    "qa": "QA-LRN-004,QA-LRN-005,QA-LRN-022,QA-LRN-023",
+    "v2_implementation": "lesson_content.dart / lesson.dart; presentation fixtures only",
+    "v2_verification": "grammar full cycle; answer-key unit; distinct Retrieve/Transfer/Check contexts",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-07",
+    "requirement": "Bounded step-up challenge",
+    "screens": "L-010,L-041",
+    "components": "C-008,C-011",
+    "qa": "QA-BIZ-006",
+    "v2_implementation": "learner.dart / lesson.dart; presentation fixtures only",
+    "v2_verification": "eligible sample objective offers a single unaided challenge; locked objective prevents start",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-08",
+    "requirement": "Learner focus with bounded due/prerequisite insertion",
+    "screens": "L-010,L-021,L-022,L-041",
+    "components": "C-008",
+    "qa": "QA-BIZ-007",
+    "v2_implementation": "learner.dart / fixtures.dart; presentation fixtures only",
+    "v2_verification": "Home/objective due/prerequisite and insufficient-evidence states; presentation only, server insertion scheduling deferred",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-09",
+    "requirement": "Optional short placement; provisional result",
+    "screens": "L-004,L-005,L-006",
+    "components": "C-007",
+    "qa": "QA-LRN-015,QA-LRN-016",
+    "v2_implementation": "learner.dart / lesson.dart; presentation fixtures only",
+    "v2_verification": "optional onboarding/placement states and insufficient evidence; no level certainty",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-10",
+    "requirement": "Optional goal; qualitative profile/evidence",
+    "screens": "L-003,L-050,L-051,L-052",
+    "components": "C-010",
+    "qa": "QA-LRN-017,QA-BIZ-008",
+    "v2_implementation": "learner.dart / fixtures.dart; presentation fixtures only",
+    "v2_verification": "goal/profile/evidence states; settings and qualitative progress captures",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-11",
+    "requirement": "Daily target/streak distinct from mastery",
+    "screens": "L-010,L-050",
+    "components": "C-010",
+    "qa": "QA-BIZ-009",
+    "v2_implementation": "learner.dart; presentation fixtures only",
+    "v2_verification": "habit and observed progress copy; no inferred mastery; all Home/profile/progress state captures",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-12",
+    "requirement": "Meaningful rewards only",
+    "screens": "L-032,L-050",
+    "components": "C-010",
+    "qa": "QA-BIZ-010",
+    "v2_implementation": "lesson.dart / learner.dart; presentation fixtures only",
+    "v2_verification": "quiet descriptive summary; no XP/shop claim; summary/profile captures",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-13",
+    "requirement": "Course map, locked preview, evidence-backed reason",
+    "screens": "L-010,L-040,L-041,L-042",
+    "components": "C-008,C-011",
+    "qa": "QA-LRN-018,QA-BIZ-011",
+    "v2_implementation": "learner.dart; presentation fixtures only",
+    "v2_verification": "course/locked-preview/insufficient states; locked objective recovery test; viewing cannot grant unlock",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-14",
+    "requirement": "Licensed immutable content and revision pinning",
+    "screens": "S-030,S-033,S-035,S-036,S-037,L-041",
+    "components": "C-015,C-016",
+    "qa": "QA-STF-006,QA-STF-007,QA-BIZ-012,QA-STF-011",
+    "v2_implementation": "staff.dart / fixtures.dart; presentation fixtures only",
+    "v2_verification": "license + review + confirmation workflow; immutable published sample separated from new draft",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-15",
+    "requirement": "Command/telemetry/lifecycle separation; offline idempotent/time semantics",
+    "screens": "L-011,L-012,L-060,L-061,S-050",
+    "components": "C-009,C-014",
+    "qa": "QA-OFF-001,QA-OFF-002,QA-OFF-004,QA-BIZ-013,QA-OFF-007",
+    "v2_implementation": "learner.dart / design.dart / EXPLORATORY_TELEMETRY_SPEC.md; presentation fixtures only",
+    "v2_verification": "all offline/sync/revision/reauth states; explicit local/pending/ack copy; durable idempotency/time semantics remain future server/queue contracts",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  },
+  {
+    "prd": "PRD-16",
+    "requirement": "Usable deterministic fallback with ML/recommendation disabled",
+    "screens": "L-010,L-020,L-063",
+    "components": "C-008,C-013",
+    "qa": "QA-LRN-019,QA-BIZ-014",
+    "v2_implementation": "fixtures.dart / learner.dart; presentation fixtures only",
+    "v2_verification": "explainable fallback when intelligence is disabled; Home recommendation-unavailable capture",
+    "boundary": "V3.2 unchanged. UI state/behavior proof only; production authority and real services are later approved implementation. Original qa IDs are scope references, not new independent closure."
+  }
+]

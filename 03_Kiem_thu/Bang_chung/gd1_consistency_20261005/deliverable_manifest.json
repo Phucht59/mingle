@@ -1,0 +1,34 @@
+[
+  {
+    "path": "03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/ARTIFACT_UPDATE_PLAN.md",
+    "sha256": "67b268a3f68aaf1b195c9b4847754243b9e3241e130095882929e5ae1fe874e8"
+  },
+  {
+    "path": "03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/AUDIT_TABLES.md",
+    "sha256": "d7823b9588dd09821e1c8e75c34bec19ff0fe0029ab2003c8c61d893f69c7e13"
+  },
+  {
+    "path": "03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/CHECK_RESULTS.md",
+    "sha256": "2e6a43f0a7f3babf59b679279c81f074ca4e339259b0a611a66c7220ccfe3dfe"
+  },
+  {
+    "path": "03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/EXECUTIVE_AUDIT.md",
+    "sha256": "147074ddeeba5c1da8b6ac844ac8a9aefba4e5c19f43c81e1a5f466a280fe5e4"
+  },
+  {
+    "path": "03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/FINDING_REGISTER.json",
+    "sha256": "f8ce5d7cd542075eadaaf97890b2545a18c48a7c6458362c4d766ccbb0e35fdf"
+  },
+  {
+    "path": "03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/FIX_LOG.md",
+    "sha256": "12ef318cc54efb44a8b8b8c827af516e09af5d3208014d6484be50c405e9057c"
+  },
+  {
+    "path": "03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/GATE_PACK.md",
+    "sha256": "78af51645f36b4e2361e2105309919e3e9e7630e1cad595ee1d51bbd53f78c69"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/MINGO_PROJECT_PROGRESS_SNAPSHOT_2026-10-05.md",
+    "sha256": "327de8718773c9decf5c966c7a9ef0791ad5bb273f96f6571d0b8a9bf221e1bd"
+  }
+]

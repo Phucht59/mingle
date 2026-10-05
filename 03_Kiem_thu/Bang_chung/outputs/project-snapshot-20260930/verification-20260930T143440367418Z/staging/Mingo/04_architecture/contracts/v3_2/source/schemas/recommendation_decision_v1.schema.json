@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "recommendation_decision_v1.schema.json",
+  "title": "RecommendationDecisionV1",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "learner_id",
+    "decision_source",
+    "evidence_refs",
+    "policy_version",
+    "action_type",
+    "target_resource",
+    "valid_from",
+    "valid_until",
+    "state",
+    "created_at",
+    "reason_codes"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "learner_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "prediction_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "decision_source": {
+      "enum": [
+        "rule",
+        "statistical",
+        "model",
+        "staff",
+        "experiment"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "candidate_set_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "policy_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reason_codes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "action_type": {
+      "const": "REVIEW_ACTIVITY"
+    },
+    "target_resource": {
+      "type": "object",
+      "required": [
+        "resource_type",
+        "stable_id",
+        "revision_id"
+      ],
+      "properties": {
+        "resource_type": {
+          "const": "activity"
+        },
+        "stable_id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "revision_id": {
+          "type": "string",
+          "format": "uuid"
+        }
+      },
+      "additionalProperties": false
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valid_until": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "state": {
+      "enum": [
+        "active",
+        "expired",
+        "cancelled",
+        "superseded"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decision_source": {
+            "enum": [
+              "rule",
+              "statistical",
+              "model",
+              "experiment"
+            ]
+          }
+        },
+        "required": [
+          "decision_source"
+        ]
+      },
+      "then": {
+        "required": [
+          "candidate_set_ref"
+        ],
+        "properties": {
+          "candidate_set_ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

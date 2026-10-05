@@ -1,0 +1,12 @@
+{
+  "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/inputs/Mingo_Phase2_R1_Independent_QA_Control_2026-09-29.xlsx": {
+    "expected": "6c3792d76628e894c46e814db933714a63b6669fd6bd936f1ac3b4d575438222",
+    "actual": "6c3792d76628e894c46e814db933714a63b6669fd6bd936f1ac3b4d575438222",
+    "status": "PASS"
+  },
+  "03_Kiem_thu/Bang_chung/outputs/phase2-completion-20260930/Mingo_Phase2_QA_Control_Dashboard_Corrected_2026-09-30.xlsx": {
+    "expected": "e4fefc2f813c3b549d4f7263d974b157b1a17c537828519403c64f4e1758ad31",
+    "actual": "e4fefc2f813c3b549d4f7263d974b157b1a17c537828519403c64f4e1758ad31",
+    "status": "PASS"
+  }
+}

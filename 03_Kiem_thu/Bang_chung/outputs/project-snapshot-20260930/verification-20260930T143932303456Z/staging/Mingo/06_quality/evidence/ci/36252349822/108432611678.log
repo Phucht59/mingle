@@ -1,0 +1,610 @@
+2026-09-26T15:33:30.1659077Z Current runner version: '2.337.0'
+2026-09-26T15:33:30.1685992Z ##[group]Runner Image Provisioner
+2026-09-26T15:33:30.1686834Z Hosted Compute Agent
+2026-09-26T15:33:30.1687528Z Version: 20260828.587
+2026-09-26T15:33:30.1688210Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+2026-09-26T15:33:30.1688968Z Build Date: 2026-08-28T16:44:25Z
+2026-09-26T15:33:30.1689670Z Worker ID: {8a20acd3-834b-4e74-b0b9-ee6f1b889ddb}
+2026-09-26T15:33:30.1690405Z Azure Region: westus
+2026-09-26T15:33:30.1691463Z ##[endgroup]
+2026-09-26T15:33:30.1693136Z ##[group]Operating System
+2026-09-26T15:33:30.1693846Z Ubuntu
+2026-09-26T15:33:30.1694712Z 24.04.5
+2026-09-26T15:33:30.1695240Z LTS
+2026-09-26T15:33:30.1695813Z ##[endgroup]
+2026-09-26T15:33:30.1696392Z ##[group]Runner Image
+2026-09-26T15:33:30.1696985Z Image: ubuntu-24.04
+2026-09-26T15:33:30.1697651Z Version: 20260920.314.1
+2026-09-26T15:33:30.1698865Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+2026-09-26T15:33:30.1700538Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+2026-09-26T15:33:30.1701613Z ##[endgroup]
+2026-09-26T15:33:30.1702786Z ##[group]GITHUB_TOKEN Permissions
+2026-09-26T15:33:30.1705024Z Contents: read
+2026-09-26T15:33:30.1705698Z Metadata: read
+2026-09-26T15:33:30.1706290Z ##[endgroup]
+2026-09-26T15:33:30.1708552Z Secret source: Actions
+2026-09-26T15:33:30.1709472Z Cache mode: write
+2026-09-26T15:33:30.1710285Z Prepare workflow directory
+2026-09-26T15:33:30.2384966Z Prepare all required actions
+2026-09-26T15:33:30.2435275Z Getting action download info
+2026-09-26T15:33:30.5792016Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-09-26T15:33:30.7049018Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-09-26T15:33:30.7849945Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-09-26T15:33:31.0037391Z Complete job name: backend
+2026-09-26T15:33:31.0535522Z ##[group]Checking docker version
+2026-09-26T15:33:31.0549303Z ##[command]/usr/bin/docker version --format '{{.Server.APIVersion}}'
+2026-09-26T15:33:31.1984773Z '1.48'
+2026-09-26T15:33:31.2002310Z Docker daemon API version: '1.48'
+2026-09-26T15:33:31.2003108Z ##[command]/usr/bin/docker version --format '{{.Client.APIVersion}}'
+2026-09-26T15:33:31.2183051Z '1.48'
+2026-09-26T15:33:31.2195395Z Docker client API version: '1.48'
+2026-09-26T15:33:31.2202281Z ##[endgroup]
+2026-09-26T15:33:31.2206422Z ##[group]Clean up resources from previous jobs
+2026-09-26T15:33:31.2212965Z ##[command]/usr/bin/docker ps --all --quiet --no-trunc --filter "label=d8c6a9"
+2026-09-26T15:33:31.2384844Z ##[command]/usr/bin/docker network prune --force --filter "label=d8c6a9"
+2026-09-26T15:33:31.2554075Z ##[endgroup]
+2026-09-26T15:33:31.2555312Z ##[group]Create local container network
+2026-09-26T15:33:31.2569678Z ##[command]/usr/bin/docker network create --label d8c6a9 github_network_881597b1c18b42a79a568bc7ff30f393
+2026-09-26T15:33:31.3183920Z 5afeb1d6c2a56caa0e24d011a66a0aa4a087e70cfdce2f5a85dd4ec6885dc300
+2026-09-26T15:33:31.3204927Z ##[endgroup]
+2026-09-26T15:33:31.3231053Z ##[group]Starting postgres service container
+2026-09-26T15:33:31.3252935Z ##[command]/usr/bin/docker pull postgres:16.10
+2026-09-26T15:33:32.2108885Z 16.10: Pulling from library/postgres
+2026-09-26T15:33:32.4845154Z d7ecded7702a: Pulling fs layer
+2026-09-26T15:33:32.4847346Z e07a799c53b4: Pulling fs layer
+2026-09-26T15:33:32.4848076Z 31396154f97e: Pulling fs layer
+2026-09-26T15:33:32.4851214Z bb0c101900e8: Pulling fs layer
+2026-09-26T15:33:32.4855786Z 06b5c9b14922: Pulling fs layer
+2026-09-26T15:33:32.4856354Z cdb0b4a7bc6e: Pulling fs layer
+2026-09-26T15:33:32.4856918Z 5833aa2e911a: Pulling fs layer
+2026-09-26T15:33:32.4857540Z 41c508b3d5ce: Pulling fs layer
+2026-09-26T15:33:32.4858102Z 9b4b5d8be9ad: Pulling fs layer
+2026-09-26T15:33:32.4858659Z bfe4361f6d87: Pulling fs layer
+2026-09-26T15:33:32.4859790Z c0f2b25a983f: Pulling fs layer
+2026-09-26T15:33:32.4860841Z fc3188bd5366: Pulling fs layer
+2026-09-26T15:33:32.4861331Z e836c184e52a: Pulling fs layer
+2026-09-26T15:33:32.4862048Z df933810a063: Pulling fs layer
+2026-09-26T15:33:32.4862844Z cdb0b4a7bc6e: Waiting
+2026-09-26T15:33:32.4863270Z 5833aa2e911a: Waiting
+2026-09-26T15:33:32.4863562Z 41c508b3d5ce: Waiting
+2026-09-26T15:33:32.4863835Z 9b4b5d8be9ad: Waiting
+2026-09-26T15:33:32.4864124Z bfe4361f6d87: Waiting
+2026-09-26T15:33:32.4864680Z c0f2b25a983f: Waiting
+2026-09-26T15:33:32.4864944Z fc3188bd5366: Waiting
+2026-09-26T15:33:32.4865198Z e836c184e52a: Waiting
+2026-09-26T15:33:32.4865450Z df933810a063: Waiting
+2026-09-26T15:33:32.4865711Z bb0c101900e8: Waiting
+2026-09-26T15:33:32.4865998Z 06b5c9b14922: Waiting
+2026-09-26T15:33:32.7009222Z e07a799c53b4: Verifying Checksum
+2026-09-26T15:33:32.7010612Z e07a799c53b4: Download complete
+2026-09-26T15:33:32.7265868Z 31396154f97e: Verifying Checksum
+2026-09-26T15:33:32.7273093Z 31396154f97e: Download complete
+2026-09-26T15:33:32.7952650Z d7ecded7702a: Verifying Checksum
+2026-09-26T15:33:32.7954035Z d7ecded7702a: Download complete
+2026-09-26T15:33:32.9374039Z bb0c101900e8: Verifying Checksum
+2026-09-26T15:33:32.9378680Z bb0c101900e8: Download complete
+2026-09-26T15:33:32.9832265Z 06b5c9b14922: Verifying Checksum
+2026-09-26T15:33:32.9834622Z 06b5c9b14922: Download complete
+2026-09-26T15:33:33.0138184Z cdb0b4a7bc6e: Verifying Checksum
+2026-09-26T15:33:33.0139840Z cdb0b4a7bc6e: Download complete
+2026-09-26T15:33:33.1490564Z 5833aa2e911a: Verifying Checksum
+2026-09-26T15:33:33.1491258Z 5833aa2e911a: Download complete
+2026-09-26T15:33:33.2048193Z 41c508b3d5ce: Verifying Checksum
+2026-09-26T15:33:33.2057264Z 41c508b3d5ce: Download complete
+2026-09-26T15:33:33.3698373Z bfe4361f6d87: Verifying Checksum
+2026-09-26T15:33:33.3699770Z bfe4361f6d87: Download complete
+2026-09-26T15:33:33.4144864Z c0f2b25a983f: Download complete
+2026-09-26T15:33:33.5846660Z fc3188bd5366: Verifying Checksum
+2026-09-26T15:33:33.5848443Z fc3188bd5366: Download complete
+2026-09-26T15:33:33.6337049Z 9b4b5d8be9ad: Verifying Checksum
+2026-09-26T15:33:33.6341403Z 9b4b5d8be9ad: Download complete
+2026-09-26T15:33:33.6346829Z e836c184e52a: Download complete
+2026-09-26T15:33:33.8143409Z df933810a063: Verifying Checksum
+2026-09-26T15:33:33.8144981Z df933810a063: Download complete
+2026-09-26T15:33:33.9261872Z d7ecded7702a: Pull complete
+2026-09-26T15:33:34.2279442Z e07a799c53b4: Pull complete
+2026-09-26T15:33:34.4056577Z 31396154f97e: Pull complete
+2026-09-26T15:33:34.4483035Z bb0c101900e8: Pull complete
+2026-09-26T15:33:34.7561025Z 06b5c9b14922: Pull complete
+2026-09-26T15:33:34.8407561Z cdb0b4a7bc6e: Pull complete
+2026-09-26T15:33:34.8509527Z 5833aa2e911a: Pull complete
+2026-09-26T15:33:34.8642518Z 41c508b3d5ce: Pull complete
+2026-09-26T15:33:37.8893796Z 9b4b5d8be9ad: Pull complete
+2026-09-26T15:33:37.9059925Z bfe4361f6d87: Pull complete
+2026-09-26T15:33:37.9155300Z c0f2b25a983f: Pull complete
+2026-09-26T15:33:37.9241343Z fc3188bd5366: Pull complete
+2026-09-26T15:33:37.9327006Z e836c184e52a: Pull complete
+2026-09-26T15:33:37.9424388Z df933810a063: Pull complete
+2026-09-26T15:33:37.9462083Z Digest: sha256:21f6013073bc6b92830a2129570e2f5ec42a6c734b5a985a41e83aa58f54c3c1
+2026-09-26T15:33:37.9476370Z Status: Downloaded newer image for postgres:16.10
+2026-09-26T15:33:37.9486113Z docker.io/library/postgres:16.10
+2026-09-26T15:33:37.9548424Z ##[command]/usr/bin/docker create --name 135b03ba0ed64ca5a0231f11cdc6c2a6_postgres1610_5b57fd --label d8c6a9 --network github_network_881597b1c18b42a79a568bc7ff30f393 --network-alias postgres -p 5432:5432 --health-cmd "pg_isready -U mingo_app -d mingo" --health-interval 3s --health-timeout 3s --health-retries 20 -e "POSTGRES_USER=mingo_app" -e "POSTGRES_PASSWORD=ci_disposable_password" -e "POSTGRES_DB=mingo" -e GITHUB_ACTIONS=true -e CI=true postgres:16.10
+2026-09-26T15:33:37.9809674Z 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:33:37.9833895Z ##[command]/usr/bin/docker start 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:33:38.2210630Z 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:33:38.2230190Z ##[command]/usr/bin/docker ps --all --filter id=7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3 --filter status=running --no-trunc --format "{{.ID}} {{.Status}}"
+2026-09-26T15:33:38.2441733Z 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3 Up Less than a second (health: starting)
+2026-09-26T15:33:38.2463471Z ##[command]/usr/bin/docker port 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:33:38.2602785Z 5432/tcp -> 0.0.0.0:5432
+2026-09-26T15:33:38.2603104Z 5432/tcp -> [::]:5432
+2026-09-26T15:33:38.2660327Z ##[endgroup]
+2026-09-26T15:33:38.2669599Z ##[group]Waiting for all services to be ready
+2026-09-26T15:33:38.2682888Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:33:38.2838510Z starting
+2026-09-26T15:33:38.2850588Z postgres service is starting, waiting 2 seconds before checking again.
+2026-09-26T15:33:40.2852284Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:33:40.2980725Z starting
+2026-09-26T15:33:40.2993882Z postgres service is starting, waiting 4 seconds before checking again.
+2026-09-26T15:33:44.5152768Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:33:44.5292170Z healthy
+2026-09-26T15:33:44.5308191Z postgres service is healthy.
+2026-09-26T15:33:44.5308886Z ##[endgroup]
+2026-09-26T15:33:44.5653317Z ##[group]Run actions/checkout@v4
+2026-09-26T15:33:44.5653907Z with:
+2026-09-26T15:33:44.5654136Z   repository: Phucht59/mingo
+2026-09-26T15:33:44.5657178Z   token: ***
+2026-09-26T15:33:44.5657417Z   ssh-strict: true
+2026-09-26T15:33:44.5657627Z   ssh-user: git
+2026-09-26T15:33:44.5657839Z   persist-credentials: true
+2026-09-26T15:33:44.5658085Z   clean: true
+2026-09-26T15:33:44.5658298Z   sparse-checkout-cone-mode: true
+2026-09-26T15:33:44.5658551Z   fetch-depth: 1
+2026-09-26T15:33:44.5658747Z   fetch-tags: false
+2026-09-26T15:33:44.5658955Z   show-progress: true
+2026-09-26T15:33:44.5659160Z   lfs: false
+2026-09-26T15:33:44.5659343Z   submodules: false
+2026-09-26T15:33:44.5659543Z   set-safe-directory: true
+2026-09-26T15:33:44.5659783Z   allow-unsafe-pr-checkout: false
+2026-09-26T15:33:44.5660286Z env:
+2026-09-26T15:33:44.5660797Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:44.5661304Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:44.5661712Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:44.5662061Z ##[endgroup]
+2026-09-26T15:33:44.6673356Z Syncing repository: Phucht59/mingo
+2026-09-26T15:33:44.6675625Z ##[group]Getting Git version info
+2026-09-26T15:33:44.6676254Z Working directory is '/home/runner/work/mingo/mingo'
+2026-09-26T15:33:44.6677176Z [command]/usr/bin/git version
+2026-09-26T15:33:44.6803295Z git version 2.55.0
+2026-09-26T15:33:44.6826569Z ##[endgroup]
+2026-09-26T15:33:44.6844966Z Temporarily overriding HOME='/home/runner/work/_temp/a7c08e62-5c87-4df1-bd58-ec71e6d387de' before making global git config changes
+2026-09-26T15:33:44.6846402Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-26T15:33:44.6851430Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/mingo/mingo
+2026-09-26T15:33:44.6914839Z Deleting the contents of '/home/runner/work/mingo/mingo'
+2026-09-26T15:33:44.6918996Z ##[group]Initializing the repository
+2026-09-26T15:33:44.6923822Z [command]/usr/bin/git init /home/runner/work/mingo/mingo
+2026-09-26T15:33:44.7074094Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-09-26T15:33:44.7075677Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-09-26T15:33:44.7076626Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-09-26T15:33:44.7077382Z hint: call:
+2026-09-26T15:33:44.7077998Z hint:
+2026-09-26T15:33:44.7078899Z hint: 	git config --global init.defaultBranch <name>
+2026-09-26T15:33:44.7079682Z hint:
+2026-09-26T15:33:44.7080397Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-09-26T15:33:44.7081458Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-09-26T15:33:44.7082298Z hint:
+2026-09-26T15:33:44.7082801Z hint: 	git branch -m <name>
+2026-09-26T15:33:44.7083345Z hint:
+2026-09-26T15:33:44.7084081Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-09-26T15:33:44.7085568Z Initialized empty Git repository in /home/runner/work/mingo/mingo/.git/
+2026-09-26T15:33:44.7091559Z [command]/usr/bin/git remote add origin https://github.com/Phucht59/mingo
+2026-09-26T15:33:44.7160874Z ##[endgroup]
+2026-09-26T15:33:44.7161632Z ##[group]Disabling automatic garbage collection
+2026-09-26T15:33:44.7168256Z [command]/usr/bin/git config --local gc.auto 0
+2026-09-26T15:33:44.7205665Z ##[endgroup]
+2026-09-26T15:33:44.7206721Z ##[group]Setting up auth
+2026-09-26T15:33:44.7213993Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-26T15:33:44.7261426Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-26T15:33:44.7721971Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-26T15:33:44.7763214Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-26T15:33:44.7999875Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-26T15:33:44.8038614Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-26T15:33:44.8270402Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-09-26T15:33:44.8315459Z ##[endgroup]
+2026-09-26T15:33:44.8316043Z ##[group]Fetching the repository
+2026-09-26T15:33:44.8324884Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +d4165e8acdffa4e0a747b11ac3e1c3c852674293:refs/remotes/origin/main
+2026-09-26T15:33:45.4692157Z From https://github.com/Phucht59/mingo
+2026-09-26T15:33:45.4693247Z  * [new ref]         d4165e8acdffa4e0a747b11ac3e1c3c852674293 -> origin/main
+2026-09-26T15:33:45.4698009Z ##[endgroup]
+2026-09-26T15:33:45.4700251Z ##[group]Determining the checkout info
+2026-09-26T15:33:45.4701179Z ##[endgroup]
+2026-09-26T15:33:45.4707717Z [command]/usr/bin/git sparse-checkout disable
+2026-09-26T15:33:45.4786240Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-09-26T15:33:45.4823262Z ##[group]Checking out the ref
+2026-09-26T15:33:45.4829998Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-09-26T15:33:45.5167245Z Switched to a new branch 'main'
+2026-09-26T15:33:45.5173685Z branch 'main' set up to track 'origin/main'.
+2026-09-26T15:33:45.5184621Z ##[endgroup]
+2026-09-26T15:33:45.5242507Z [command]/usr/bin/git log -1 --format=%H
+2026-09-26T15:33:45.5273424Z d4165e8acdffa4e0a747b11ac3e1c3c852674293
+2026-09-26T15:33:45.5539967Z ##[group]Run actions/setup-python@v5
+2026-09-26T15:33:45.5540266Z with:
+2026-09-26T15:33:45.5540465Z   python-version: 3.12
+2026-09-26T15:33:45.5540694Z   check-latest: false
+2026-09-26T15:33:45.5543386Z   token: ***
+2026-09-26T15:33:45.5543601Z   update-environment: true
+2026-09-26T15:33:45.5543849Z   allow-prereleases: false
+2026-09-26T15:33:45.5544566Z   freethreaded: false
+2026-09-26T15:33:45.5544828Z env:
+2026-09-26T15:33:45.5545276Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:45.5545785Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:45.5546131Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:45.5546469Z ##[endgroup]
+2026-09-26T15:33:45.6892314Z ##[group]Installed versions
+2026-09-26T15:33:45.6997116Z (node:2725) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-09-26T15:33:45.6998754Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-09-26T15:33:45.6999456Z Successfully set up CPython (3.12.14)
+2026-09-26T15:33:45.7000122Z ##[endgroup]
+2026-09-26T15:33:45.7186747Z ##[group]Run pip install -r 05_code/backend/requirements.lock && pip install --no-deps ./05_code/backend
+2026-09-26T15:33:45.7187581Z [36;1mpip install -r 05_code/backend/requirements.lock && pip install --no-deps ./05_code/backend[0m
+2026-09-26T15:33:45.7481584Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:33:45.7481967Z env:
+2026-09-26T15:33:45.7482797Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:45.7483587Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:45.7484122Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:45.7484917Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:45.7485466Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:33:45.7486006Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:45.7486483Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:45.7487022Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:45.7487501Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:33:45.7487900Z ##[endgroup]
+2026-09-26T15:33:46.8059610Z Collecting annotated-doc==0.0.5 (from -r 05_code/backend/requirements.lock (line 1))
+2026-09-26T15:33:46.8546194Z   Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+2026-09-26T15:33:46.8653067Z Collecting annotated-types==0.8.0 (from -r 05_code/backend/requirements.lock (line 2))
+2026-09-26T15:33:46.8682665Z   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+2026-09-26T15:33:46.8871390Z Collecting anyio==4.15.1 (from -r 05_code/backend/requirements.lock (line 3))
+2026-09-26T15:33:46.8903249Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+2026-09-26T15:33:46.9055925Z Collecting certifi==2026.7.22 (from -r 05_code/backend/requirements.lock (line 4))
+2026-09-26T15:33:46.9083501Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+2026-09-26T15:33:46.9221525Z Collecting click==8.5.0 (from -r 05_code/backend/requirements.lock (line 5))
+2026-09-26T15:33:46.9250814Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+2026-09-26T15:33:46.9631923Z Collecting fastapi==0.141.1 (from -r 05_code/backend/requirements.lock (line 6))
+2026-09-26T15:33:46.9665217Z   Downloading fastapi-0.141.1-py3-none-any.whl.metadata (27 kB)
+2026-09-26T15:33:46.9831251Z Collecting h11==0.16.0 (from -r 05_code/backend/requirements.lock (line 7))
+2026-09-26T15:33:46.9859964Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+2026-09-26T15:33:47.0003426Z Collecting httpcore==1.0.9 (from -r 05_code/backend/requirements.lock (line 8))
+2026-09-26T15:33:47.0031965Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+2026-09-26T15:33:47.0203010Z Collecting httpx==0.28.1 (from -r 05_code/backend/requirements.lock (line 9))
+2026-09-26T15:33:47.0371625Z   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+2026-09-26T15:33:47.0503926Z Collecting idna==3.20 (from -r 05_code/backend/requirements.lock (line 10))
+2026-09-26T15:33:47.0533093Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+2026-09-26T15:33:47.0633525Z Collecting iniconfig==2.3.0 (from -r 05_code/backend/requirements.lock (line 11))
+2026-09-26T15:33:47.0661056Z   Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+2026-09-26T15:33:47.0797717Z Collecting packaging==26.3 (from -r 05_code/backend/requirements.lock (line 12))
+2026-09-26T15:33:47.0829194Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+2026-09-26T15:33:47.0938730Z Collecting pluggy==1.6.0 (from -r 05_code/backend/requirements.lock (line 13))
+2026-09-26T15:33:47.0971217Z   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+2026-09-26T15:33:47.1113626Z Collecting psycopg==3.3.6 (from -r 05_code/backend/requirements.lock (line 14))
+2026-09-26T15:33:47.1142250Z   Downloading psycopg-3.3.6-py3-none-any.whl.metadata (4.4 kB)
+2026-09-26T15:33:47.2646043Z Collecting psycopg-binary==3.3.6 (from -r 05_code/backend/requirements.lock (line 15))
+2026-09-26T15:33:47.2682536Z   Downloading psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)
+2026-09-26T15:33:47.3748511Z Collecting pydantic==2.13.5 (from -r 05_code/backend/requirements.lock (line 16))
+2026-09-26T15:33:47.3783604Z   Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+2026-09-26T15:33:48.0309139Z Collecting pydantic_core==2.46.5 (from -r 05_code/backend/requirements.lock (line 17))
+2026-09-26T15:33:48.0412574Z   Downloading pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+2026-09-26T15:33:48.0597304Z Collecting Pygments==2.21.0 (from -r 05_code/backend/requirements.lock (line 18))
+2026-09-26T15:33:48.0708454Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+2026-09-26T15:33:48.0951997Z Collecting pytest==9.1.1 (from -r 05_code/backend/requirements.lock (line 19))
+2026-09-26T15:33:48.0983946Z   Downloading pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+2026-09-26T15:33:48.4131742Z Collecting ruff==0.16.8 (from -r 05_code/backend/requirements.lock (line 20))
+2026-09-26T15:33:48.4164924Z   Downloading ruff-0.16.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+2026-09-26T15:33:48.4386091Z Collecting starlette==1.7.0 (from -r 05_code/backend/requirements.lock (line 21))
+2026-09-26T15:33:48.4418184Z   Downloading starlette-1.7.0-py3-none-any.whl.metadata (6.6 kB)
+2026-09-26T15:33:48.4531292Z Collecting typing-inspection==0.4.4 (from -r 05_code/backend/requirements.lock (line 22))
+2026-09-26T15:33:48.4560569Z   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+2026-09-26T15:33:48.4712488Z Collecting typing_extensions==4.16.0 (from -r 05_code/backend/requirements.lock (line 23))
+2026-09-26T15:33:48.4978184Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+2026-09-26T15:33:48.5177468Z Collecting uvicorn==0.53.0 (from -r 05_code/backend/requirements.lock (line 24))
+2026-09-26T15:33:48.5208984Z   Downloading uvicorn-0.53.0-py3-none-any.whl.metadata (6.6 kB)
+2026-09-26T15:33:48.5507985Z Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+2026-09-26T15:33:48.5563457Z Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+2026-09-26T15:33:48.5610055Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+2026-09-26T15:33:48.5667357Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+2026-09-26T15:33:48.5714019Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
+2026-09-26T15:33:48.5762741Z Downloading fastapi-0.141.1-py3-none-any.whl (131 kB)
+2026-09-26T15:33:48.5822614Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+2026-09-26T15:33:48.5870874Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+2026-09-26T15:33:48.5918315Z Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+2026-09-26T15:33:48.5964696Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+2026-09-26T15:33:48.6011514Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+2026-09-26T15:33:48.6055896Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+2026-09-26T15:33:48.6109470Z Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+2026-09-26T15:33:48.6156394Z Downloading psycopg-3.3.6-py3-none-any.whl (215 kB)
+2026-09-26T15:33:48.6206069Z Downloading psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.2 MB)
+2026-09-26T15:33:48.6389518Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 328.0 MB/s  0:00:00
+2026-09-26T15:33:48.6421520Z Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+2026-09-26T15:33:48.6479811Z Downloading pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+2026-09-26T15:33:48.6565410Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 293.2 MB/s  0:00:00
+2026-09-26T15:33:48.6594601Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+2026-09-26T15:33:48.6661567Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 232.1 MB/s  0:00:00
+2026-09-26T15:33:48.6690360Z Downloading pytest-9.1.1-py3-none-any.whl (386 kB)
+2026-09-26T15:33:48.6742903Z Downloading ruff-0.16.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.3 MB)
+2026-09-26T15:33:48.7895722Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.3/10.3 MB 89.3 MB/s  0:00:00
+2026-09-26T15:33:48.7935133Z Downloading starlette-1.7.0-py3-none-any.whl (78 kB)
+2026-09-26T15:33:48.7989404Z Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+2026-09-26T15:33:48.8036785Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+2026-09-26T15:33:48.8083126Z Downloading uvicorn-0.53.0-py3-none-any.whl (87 kB)
+2026-09-26T15:33:48.9607094Z Installing collected packages: typing_extensions, ruff, Pygments, psycopg-binary, pluggy, packaging, iniconfig, idna, h11, click, certifi, annotated-types, annotated-doc, uvicorn, typing-inspection, pytest, pydantic_core, psycopg, httpcore, anyio, starlette, pydantic, httpx, fastapi
+2026-09-26T15:33:51.5161621Z 
+2026-09-26T15:33:51.5189515Z Successfully installed Pygments-2.21.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 certifi-2026.7.22 click-8.5.0 fastapi-0.141.1 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 iniconfig-2.3.0 packaging-26.3 pluggy-1.6.0 psycopg-3.3.6 psycopg-binary-3.3.6 pydantic-2.13.5 pydantic_core-2.46.5 pytest-9.1.1 ruff-0.16.8 starlette-1.7.0 typing-inspection-0.4.4 typing_extensions-4.16.0 uvicorn-0.53.0
+2026-09-26T15:33:51.9659251Z Processing ./05_code/backend
+2026-09-26T15:33:51.9675723Z   Installing build dependencies: started
+2026-09-26T15:33:52.6884049Z   Installing build dependencies: finished with status 'done'
+2026-09-26T15:33:52.6890537Z   Getting requirements to build wheel: started
+2026-09-26T15:33:53.2160572Z   Getting requirements to build wheel: finished with status 'done'
+2026-09-26T15:33:53.2170199Z   Preparing metadata (pyproject.toml): started
+2026-09-26T15:33:53.4182339Z   Preparing metadata (pyproject.toml): finished with status 'done'
+2026-09-26T15:33:53.4207927Z Building wheels for collected packages: adaptive-learning-foundation
+2026-09-26T15:33:53.4216369Z   Building wheel for adaptive-learning-foundation (pyproject.toml): started
+2026-09-26T15:33:53.6542923Z   Building wheel for adaptive-learning-foundation (pyproject.toml): finished with status 'done'
+2026-09-26T15:33:53.6550916Z   Created wheel for adaptive-learning-foundation: filename=adaptive_learning_foundation-0.1.0-py3-none-any.whl size=9438 sha256=1305e0a2752480ac82575cd242b7e62f6d1f160268b89f3ba084d02107ff7e76
+2026-09-26T15:33:53.6552718Z   Stored in directory: /tmp/pip-ephem-wheel-cache-eduesy36/wheels/da/28/d8/1186a7c001057d68410ec9faf510528a178ad2b30830987072
+2026-09-26T15:33:53.6575813Z Successfully built adaptive-learning-foundation
+2026-09-26T15:33:53.6699233Z Installing collected packages: adaptive-learning-foundation
+2026-09-26T15:33:53.6850672Z Successfully installed adaptive-learning-foundation-0.1.0
+2026-09-26T15:33:53.7483165Z ##[group]Run python -c "import psycopg; c=psycopg.connect('***localhost:5432/mingo', autocommit=True); c.execute('CREATE DATABASE mingo_test OWNER mingo_app'); c.close()"
+2026-09-26T15:33:53.7485047Z [36;1mpython -c "import psycopg; c=psycopg.connect('***localhost:5432/mingo', autocommit=True); c.execute('CREATE DATABASE mingo_test OWNER mingo_app'); c.close()"[0m
+2026-09-26T15:33:53.7551276Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:33:53.7551731Z env:
+2026-09-26T15:33:53.7552342Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:53.7552922Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:53.7553331Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:53.7553825Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:53.7554633Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:33:53.7555181Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:53.7555668Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:53.7556106Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:53.7556548Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:33:53.7556920Z ##[endgroup]
+2026-09-26T15:33:54.1240268Z ##[group]Run RUN_POSTGRES=1 bash 07_operations/scripts/verify_backend.sh
+2026-09-26T15:33:54.1240836Z [36;1mRUN_POSTGRES=1 bash 07_operations/scripts/verify_backend.sh[0m
+2026-09-26T15:33:54.1304903Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:33:54.1305179Z env:
+2026-09-26T15:33:54.1305766Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:54.1306369Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:54.1306777Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:54.1307264Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:54.1307748Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:33:54.1308233Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:54.1308668Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:54.1309108Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:54.1309604Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:33:54.1309974Z ##[endgroup]
+2026-09-26T15:33:54.1780962Z All checks passed!
+2026-09-26T15:33:55.0735790Z ============================= test session starts ==============================
+2026-09-26T15:33:55.0736649Z platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
+2026-09-26T15:33:55.0737379Z rootdir: /home/runner/work/mingo/mingo/05_code/backend
+2026-09-26T15:33:55.0737975Z configfile: pyproject.toml
+2026-09-26T15:33:55.0738404Z plugins: anyio-4.15.1
+2026-09-26T15:33:55.0738783Z collected 16 items
+2026-09-26T15:33:55.0739016Z 
+2026-09-26T15:33:55.0831537Z 05_code/backend/tests/test_postgres.py ssssss                            [ 37%]
+2026-09-26T15:33:55.1549732Z 05_code/backend/tests/test_unit.py ..........                            [100%]
+2026-09-26T15:33:55.1550736Z 
+2026-09-26T15:33:55.1551047Z =============================== warnings summary ===============================
+2026-09-26T15:33:55.1552251Z ../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/fastapi/testclient.py:1
+2026-09-26T15:33:55.1554684Z   /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+2026-09-26T15:33:55.1556637Z     from starlette.testclient import TestClient as TestClient  # noqa
+2026-09-26T15:33:55.1557358Z 
+2026-09-26T15:33:55.1557894Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+2026-09-26T15:33:55.1559292Z - generated xml file: /home/runner/work/mingo/mingo/06_quality/evidence/backend/backend-unit.xml -
+2026-09-26T15:33:55.1560581Z =================== 10 passed, 6 skipped, 1 warning in 0.46s ===================
+2026-09-26T15:33:55.8688378Z ============================= test session starts ==============================
+2026-09-26T15:33:55.8689538Z platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
+2026-09-26T15:33:55.8690576Z rootdir: /home/runner/work/mingo/mingo/05_code/backend
+2026-09-26T15:33:55.8691400Z configfile: pyproject.toml
+2026-09-26T15:33:55.8692003Z plugins: anyio-4.15.1
+2026-09-26T15:33:55.8693058Z collected 16 items / 10 deselected / 6 selected
+2026-09-26T15:33:55.8693411Z 
+2026-09-26T15:33:56.5492138Z 05_code/backend/tests/test_postgres.py ......                            [100%]
+2026-09-26T15:33:56.5492826Z 
+2026-09-26T15:33:56.5493091Z =============================== warnings summary ===============================
+2026-09-26T15:33:56.5494138Z ../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/fastapi/testclient.py:1
+2026-09-26T15:33:56.5496410Z   /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+2026-09-26T15:33:56.5498250Z     from starlette.testclient import TestClient as TestClient  # noqa
+2026-09-26T15:33:56.5498830Z 
+2026-09-26T15:33:56.5499729Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+2026-09-26T15:33:56.5500713Z - generated xml file: /home/runner/work/mingo/mingo/06_quality/evidence/postgres/postgres.xml -
+2026-09-26T15:33:56.5501611Z ================= 6 passed, 10 deselected, 1 warning in 1.04s ==================
+2026-09-26T15:33:56.8161936Z {"applied": ["001_runtime_probe.sql", "002_worker_heartbeat.sql"]}
+2026-09-26T15:33:57.0140237Z {"job_id": "330d23fa-97ba-47ef-9469-2f5a5e08e402"}
+2026-09-26T15:33:57.2258184Z {"time": "2026-09-26T15:33:57.225486+00:00", "level": "INFO", "event": "worker.started", "component": "worker", "request_id": null}
+2026-09-26T15:33:57.2548113Z {"time": "2026-09-26T15:33:57.254463+00:00", "level": "INFO", "event": "job.completed", "component": "worker", "request_id": null}
+2026-09-26T15:33:57.2550377Z {"time": "2026-09-26T15:33:57.254590+00:00", "level": "INFO", "event": "worker.stopped", "component": "worker", "request_id": null}
+2026-09-26T15:33:58.2264992Z {"commit": "d4165e8acdffa4e0a747b11ac3e1c3c852674293", "live": {"status": 200, "body": {"status": "alive"}, "request_id": "50d6d127-c9cb-414c-965e-0da14b265b4b"}, "ready": {"status": 200, "body": {"status": "ready"}, "request_id": "5c9a3012-31ae-4d00-bb55-e8c9e3fe413e"}}
+2026-09-26T15:33:58.3956751Z {"adapter": "local-object-store", "smoke": "passed"}
+2026-09-26T15:33:58.4214664Z ##[group]Run python -m all_foundation.cli migrate
+2026-09-26T15:33:58.4215112Z [36;1mpython -m all_foundation.cli migrate[0m
+2026-09-26T15:33:58.4280544Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:33:58.4280834Z env:
+2026-09-26T15:33:58.4281647Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:58.4282245Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:58.4282685Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:58.4283203Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.4283725Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:33:58.4284451Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.4284930Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.4285410Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.4285920Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:33:58.4286354Z ##[endgroup]
+2026-09-26T15:33:58.6119633Z {"applied": []}
+2026-09-26T15:33:58.6417846Z ##[group]Run python -m all_foundation.cli enqueue-probe --key ci-boot
+2026-09-26T15:33:58.6418437Z [36;1mpython -m all_foundation.cli enqueue-probe --key ci-boot[0m
+2026-09-26T15:33:58.6481882Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:33:58.6482163Z env:
+2026-09-26T15:33:58.6482772Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:58.6483341Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:58.6483771Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:58.6484528Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.6485057Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:33:58.6485780Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.6486219Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.6486657Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.6487142Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:33:58.6487515Z ##[endgroup]
+2026-09-26T15:33:58.8262506Z {"job_id": "310e68c3-fd4c-4f34-b384-684f049e3736"}
+2026-09-26T15:33:58.8556110Z ##[group]Run python -m all_foundation.worker --once
+2026-09-26T15:33:58.8556565Z [36;1mpython -m all_foundation.worker --once[0m
+2026-09-26T15:33:58.8619449Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:33:58.8619698Z env:
+2026-09-26T15:33:58.8620309Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:58.8620825Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:58.8621206Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:58.8621651Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.8622133Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:33:58.8622579Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.8622971Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.8623366Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:58.8623801Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:33:58.8624135Z ##[endgroup]
+2026-09-26T15:33:59.0573268Z {"time": "2026-09-26T15:33:59.057085+00:00", "level": "INFO", "event": "worker.started", "component": "worker", "request_id": null}
+2026-09-26T15:33:59.0916252Z {"time": "2026-09-26T15:33:59.091305+00:00", "level": "INFO", "event": "job.completed", "component": "worker", "request_id": null}
+2026-09-26T15:33:59.0918002Z {"time": "2026-09-26T15:33:59.091454+00:00", "level": "INFO", "event": "worker.stopped", "component": "worker", "request_id": null}
+2026-09-26T15:33:59.1265603Z ##[group]Run python 07_operations/scripts/smoke_api.py --expect-ready
+2026-09-26T15:33:59.1266478Z [36;1mpython 07_operations/scripts/smoke_api.py --expect-ready[0m
+2026-09-26T15:33:59.1334721Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:33:59.1335021Z env:
+2026-09-26T15:33:59.1335683Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:33:59.1336210Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:33:59.1336619Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:33:59.1337102Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:59.1337608Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:33:59.1338109Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:59.1338563Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:59.1339022Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:33:59.1339540Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:33:59.1339925Z ##[endgroup]
+2026-09-26T15:33:59.9869429Z {"commit": "d4165e8acdffa4e0a747b11ac3e1c3c852674293", "live": {"status": 200, "body": {"status": "alive"}, "request_id": "97c67e29-c944-482d-a394-b95999e05eeb"}, "ready": {"status": 200, "body": {"status": "ready"}, "request_id": "4acc6cd0-6e8f-4e26-a5e2-f39365e4dac4"}}
+2026-09-26T15:34:00.0017742Z ##[group]Run python -m all_foundation.cli storage-smoke
+2026-09-26T15:34:00.0018460Z [36;1mpython -m all_foundation.cli storage-smoke[0m
+2026-09-26T15:34:00.0083198Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:34:00.0083637Z env:
+2026-09-26T15:34:00.0084843Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:34:00.0086187Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:34:00.0086841Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:34:00.0087574Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.0088392Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:34:00.0089535Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.0090272Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.0091013Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.0092131Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:34:00.0092768Z ##[endgroup]
+2026-09-26T15:34:00.1814062Z {"adapter": "local-object-store", "smoke": "passed"}
+2026-09-26T15:34:00.2126085Z ##[group]Run actions/upload-artifact@v4
+2026-09-26T15:34:00.2126396Z with:
+2026-09-26T15:34:00.2126622Z   name: backend-evidence
+2026-09-26T15:34:00.2126859Z   path: 06_quality/evidence/
+2026-09-26T15:34:00.2127098Z   if-no-files-found: warn
+2026-09-26T15:34:00.2127323Z   compression-level: 6
+2026-09-26T15:34:00.2127545Z   overwrite: false
+2026-09-26T15:34:00.2127763Z   include-hidden-files: false
+2026-09-26T15:34:00.2127991Z env:
+2026-09-26T15:34:00.2128568Z   TEST_DATABASE_URL: ***localhost:5432/mingo_test
+2026-09-26T15:34:00.2129077Z   DATABASE_URL: ***localhost:5432/mingo
+2026-09-26T15:34:00.2129426Z   OBJECT_STORAGE_ROOT: /home/runner/work/mingo/mingo/.local/objects
+2026-09-26T15:34:00.2129843Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.2130294Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:34:00.2130734Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.2131165Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.2131566Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:34:00.2131957Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:34:00.2132283Z ##[endgroup]
+2026-09-26T15:34:00.3829998Z (node:3091) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-09-26T15:34:00.3831332Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-09-26T15:34:00.4264087Z With the provided path, there will be 161 files uploaded
+2026-09-26T15:34:00.4272846Z Artifact name is valid!
+2026-09-26T15:34:00.4273557Z Root directory input is valid!
+2026-09-26T15:34:00.8348119Z Beginning upload of artifact content to blob storage
+2026-09-26T15:34:01.0118457Z (node:3091) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-26T15:34:01.5572395Z Uploaded bytes 224231
+2026-09-26T15:34:01.6372636Z Finished uploading artifact content to blob storage!
+2026-09-26T15:34:01.6374264Z SHA256 digest of uploaded artifact zip is a73b9d9f19469f2c2823eeda12e7a45d9ab8e4abde4c502485c0bdbfe36214a5
+2026-09-26T15:34:01.6375737Z Finalizing artifact upload
+2026-09-26T15:34:01.9650601Z Artifact backend-evidence.zip successfully finalized. Artifact ID 10909316921
+2026-09-26T15:34:01.9652372Z Artifact backend-evidence has been successfully uploaded! Final size is 224231 bytes. Artifact ID is 10909316921
+2026-09-26T15:34:01.9659336Z Artifact download URL: https://github.com/Phucht59/mingo/actions/runs/36252349822/artifacts/10909316921
+2026-09-26T15:34:01.9850114Z Post job cleanup.
+2026-09-26T15:34:02.1080098Z (node:3103) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-09-26T15:34:02.1081230Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-09-26T15:34:02.1286641Z Post job cleanup.
+2026-09-26T15:34:02.2343668Z [command]/usr/bin/git version
+2026-09-26T15:34:02.2409055Z git version 2.55.0
+2026-09-26T15:34:02.2466766Z Temporarily overriding HOME='/home/runner/work/_temp/a32592da-073f-4185-a7cc-72b6c4a3831c' before making global git config changes
+2026-09-26T15:34:02.2468322Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-26T15:34:02.2476475Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/mingo/mingo
+2026-09-26T15:34:02.2538841Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-26T15:34:02.2591841Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-26T15:34:02.2928668Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-26T15:34:02.2960929Z http.https://github.com/.extraheader
+2026-09-26T15:34:02.2971506Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-09-26T15:34:02.3008910Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-26T15:34:02.3296078Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-26T15:34:02.3347418Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-26T15:34:02.3732563Z Print service container logs: 135b03ba0ed64ca5a0231f11cdc6c2a6_postgres1610_5b57fd
+2026-09-26T15:34:02.3737439Z ##[command]/usr/bin/docker logs --details 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:34:02.3862051Z  The files belonging to this database system will be owned by user "postgres".
+2026-09-26T15:34:02.3862604Z  This user must also own the server process.
+2026-09-26T15:34:02.3862917Z  
+2026-09-26T15:34:02.3863229Z  The database cluster will be initialized with locale "en_US.utf8".
+2026-09-26T15:34:02.3863712Z  The default database encoding has accordingly been set to "UTF8".
+2026-09-26T15:34:02.3864171Z  The default text search configuration will be set to "english".
+2026-09-26T15:34:02.3864773Z  
+2026-09-26T15:34:02.3865002Z  Data page checksums are disabled.
+2026-09-26T15:34:02.3865259Z  
+2026-09-26T15:34:02.3865574Z  fixing permissions on existing directory /var/lib/postgresql/data ... ok
+2026-09-26T15:34:02.3866033Z  creating subdirectories ... ok
+2026-09-26T15:34:02.3866368Z  selecting dynamic shared memory implementation ... posix
+2026-09-26T15:34:02.3866732Z  selecting default max_connections ... 100
+2026-09-26T15:34:02.3867049Z  selecting default shared_buffers ... 128MB
+2026-09-26T15:34:02.3867354Z  selecting default time zone ... Etc/UTC
+2026-09-26T15:34:02.3867652Z  creating configuration files ... ok
+2026-09-26T15:34:02.3867961Z  running bootstrap script ... ok
+2026-09-26T15:34:02.3868297Z  performing post-bootstrap initialization ... ok
+2026-09-26T15:34:02.3868632Z  syncing data to disk ... ok
+2026-09-26T15:34:02.3868893Z  
+2026-09-26T15:34:02.3869084Z  
+2026-09-26T15:34:02.3869332Z  Success. You can now start the database server using:
+2026-09-26T15:34:02.3869657Z  
+2026-09-26T15:34:02.3869916Z      pg_ctl -D /var/lib/postgresql/data -l logfile start
+2026-09-26T15:34:02.3870381Z  
+2026-09-26T15:34:02.3871777Z  waiting for server to start....2026-09-26 15:33:38.868 UTC [48] LOG:  starting PostgreSQL 16.10 (Debian 16.10-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+2026-09-26T15:34:02.3872823Z  2026-09-26 15:33:38.868 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-09-26T15:34:02.3873479Z  2026-09-26 15:33:38.871 UTC [51] LOG:  database system was shut down at 2026-09-26 15:33:38 UTC
+2026-09-26T15:34:02.3874073Z  2026-09-26 15:33:38.875 UTC [48] LOG:  database system is ready to accept connections
+2026-09-26T15:34:02.3874797Z   done
+2026-09-26T15:34:02.3874999Z  server started
+2026-09-26T15:34:02.3875216Z  CREATE DATABASE
+2026-09-26T15:34:02.3875424Z  
+2026-09-26T15:34:02.3875600Z  
+2026-09-26T15:34:02.3875943Z  /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+2026-09-26T15:34:02.3876396Z  
+2026-09-26T15:34:02.3876952Z  2026-09-26 15:33:39.056 UTC [48] LOG:  received fast shutdown request
+2026-09-26T15:34:02.3877543Z  waiting for server to shut down....2026-09-26 15:33:39.057 UTC [48] LOG:  aborting any active transactions
+2026-09-26T15:34:02.3878309Z  2026-09-26 15:33:39.059 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+2026-09-26T15:34:02.3878914Z  2026-09-26 15:33:39.060 UTC [49] LOG:  shutting down
+2026-09-26T15:34:02.3879331Z  2026-09-26 15:33:39.060 UTC [49] LOG:  checkpoint starting: shutdown immediate
+2026-09-26T15:34:02.3880440Z  2026-09-26 15:33:39.075 UTC [49] LOG:  checkpoint complete: wrote 926 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.003 s, total=0.016 s; sync files=301, longest=0.002 s, average=0.001 s; distance=4273 kB, estimate=4273 kB; lsn=0/191F0D8, redo lsn=0/191F0D8
+2026-09-26T15:34:02.3881515Z  2026-09-26 15:33:39.082 UTC [48] LOG:  database system is shut down
+2026-09-26T15:34:02.3881848Z   done
+2026-09-26T15:34:02.3882038Z  server stopped
+2026-09-26T15:34:02.3882237Z  
+2026-09-26T15:34:02.3882475Z  PostgreSQL init process complete; ready for start up.
+2026-09-26T15:34:02.3882778Z  
+2026-09-26T15:34:02.3885414Z  initdb: warning: enabling "trust" authentication for local connections
+2026-09-26T15:34:02.3886361Z  initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+2026-09-26T15:34:02.3887578Z  2026-09-26 15:33:39.178 UTC [1] LOG:  starting PostgreSQL 16.10 (Debian 16.10-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+2026-09-26T15:34:02.3888522Z  2026-09-26 15:33:39.178 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-09-26T15:34:02.3889123Z  2026-09-26 15:33:39.179 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-09-26T15:34:02.3889784Z  2026-09-26 15:33:39.180 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-09-26T15:34:02.3890506Z  2026-09-26 15:33:39.183 UTC [64] LOG:  database system was shut down at 2026-09-26 15:33:39 UTC
+2026-09-26T15:34:02.3891156Z  2026-09-26 15:33:39.187 UTC [1] LOG:  database system is ready to accept connections
+2026-09-26T15:34:02.3891794Z  2026-09-26 15:33:55.992 UTC [117] ERROR:  syntax error at or near "INVALID" at character 46
+2026-09-26T15:34:02.3892520Z  2026-09-26 15:33:55.992 UTC [117] STATEMENT:  CREATE TABLE foundation.rolled_back(id int); INVALID SQL;
+2026-09-26T15:34:02.3911586Z Stop and remove container: 135b03ba0ed64ca5a0231f11cdc6c2a6_postgres1610_5b57fd
+2026-09-26T15:34:02.3916942Z ##[command]/usr/bin/docker rm --force 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:34:02.5959315Z 7a3c9ea85fe0d14e680d6066957333d99602bc39fc291a7d38461b00b48decb3
+2026-09-26T15:34:02.5988288Z Remove container network: github_network_881597b1c18b42a79a568bc7ff30f393
+2026-09-26T15:34:02.5992836Z ##[command]/usr/bin/docker network rm github_network_881597b1c18b42a79a568bc7ff30f393
+2026-09-26T15:34:02.7010433Z github_network_881597b1c18b42a79a568bc7ff30f393
+2026-09-26T15:34:02.7142712Z Cleaning up orphan processes
+2026-09-26T15:34:02.7483988Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

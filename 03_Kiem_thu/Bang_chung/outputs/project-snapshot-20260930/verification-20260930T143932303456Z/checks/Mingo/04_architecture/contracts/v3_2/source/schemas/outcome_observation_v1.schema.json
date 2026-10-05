@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "outcome_observation_v1.schema.json",
+  "title": "OutcomeObservationV1",
+  "type": "object",
+  "required": [
+    "outcome_id",
+    "decision_id",
+    "metric_version",
+    "window_start",
+    "window_end",
+    "status",
+    "observed_at",
+    "event_cutoff_at",
+    "knowledge_cutoff_at",
+    "competing_intervention_refs"
+  ],
+  "properties": {
+    "outcome_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "decision_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "action_execution_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "metric_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "window_start": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "window_end": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "observed",
+        "not_eligible",
+        "insufficient_evidence",
+        "censored"
+      ]
+    },
+    "value": {
+      "type": [
+        "number",
+        "string",
+        "boolean",
+        "null"
+      ]
+    },
+    "event_cutoff_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "knowledge_cutoff_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "competing_intervention_refs": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "observed"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "required": [
+          "value"
+        ],
+        "properties": {
+          "value": {
+            "type": [
+              "number",
+              "string",
+              "boolean"
+            ]
+          },
+          "event_cutoff_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "knowledge_cutoff_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "value": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  ]
+}

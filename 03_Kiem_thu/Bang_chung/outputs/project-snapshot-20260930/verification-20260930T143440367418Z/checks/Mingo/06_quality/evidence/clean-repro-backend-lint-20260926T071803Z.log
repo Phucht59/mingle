@@ -1,0 +1,3 @@
+Command: C:\Mingo\.local\phase1-clean-reproduction\.venv\Scripts\python.exe -m ruff check 05_code/backend
+All checks passed!
+Exit code: 0

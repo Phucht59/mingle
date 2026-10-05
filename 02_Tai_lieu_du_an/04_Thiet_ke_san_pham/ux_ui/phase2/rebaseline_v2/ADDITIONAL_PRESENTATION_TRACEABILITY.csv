@@ -1,0 +1,31 @@
+screen_id,domain,state,test,screenshot,human_review
+L-021,grammar,representative,grammar / L-021 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-021.png,PENDING
+L-022,grammar,representative,grammar / L-022 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-022.png,PENDING
+L-023,grammar,representative,grammar / L-023 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-023.png,PENDING
+L-024,grammar,representative,grammar / L-024 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-024.png,PENDING
+L-025,grammar,representative,grammar / L-025 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-025.png,PENDING
+L-026,grammar,representative,grammar / L-026 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-026.png,PENDING
+L-027,grammar,representative,grammar / L-027 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-027.png,PENDING
+L-032,grammar,representative,grammar / L-032 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/grammar_L-032.png,PENDING
+L-021,listening,representative,listening / L-021 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-021.png,PENDING
+L-022,listening,representative,listening / L-022 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-022.png,PENDING
+L-023,listening,representative,listening / L-023 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-023.png,PENDING
+L-024,listening,representative,listening / L-024 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-024.png,PENDING
+L-025,listening,representative,listening / L-025 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-025.png,PENDING
+L-026,listening,representative,listening / L-026 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-026.png,PENDING
+L-027,listening,representative,listening / L-027 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-027.png,PENDING
+L-032,listening,representative,listening / L-032 / responsive and capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/listening_L-032.png,PENDING
+L-010,shared,320px200percent,D021 V2 L-010 at320px200percent,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-010_320_200.png,PENDING
+L-020,shared,320px200percent,D021 V2 L-020 at320px200percent,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-020_320_200.png,PENDING
+L-040,shared,320px200percent,D021 V2 L-040 at320px200percent,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-040_320_200.png,PENDING
+L-050,shared,320px200percent,D021 V2 L-050 at320px200percent,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-050_320_200.png,PENDING
+L-002,theme,dark,L-002 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-002_dark.png,PENDING
+L-010,theme,dark,L-010 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-010_dark.png,PENDING
+L-020,theme,dark,L-020 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-020_dark.png,PENDING
+L-024,theme,dark,L-024 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-024_dark.png,PENDING
+L-027,theme,dark,L-027 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-027_dark.png,PENDING
+L-032,theme,dark,L-032 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-032_dark.png,PENDING
+L-040,theme,dark,L-040 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-040_dark.png,PENDING
+L-050,theme,dark,L-050 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-050_dark.png,PENDING
+L-070,theme,dark,L-070 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-070_dark.png,PENDING
+L-072,theme,dark,L-072 dark capture,03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/L-072_dark.png,PENDING

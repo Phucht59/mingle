@@ -1,0 +1,9 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":18176,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":4}
+{"count":1,"time":9,"type":"allSuites"}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":3153}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":3157}
+{"test":{"id":3,"name":"V2 entry discloses review fixture and renders without overflow","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":5,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart"},"type":"testStart","time":3159}
+{"testID":3,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4266}
+{"success":true,"type":"done","time":4308}

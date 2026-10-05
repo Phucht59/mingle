@@ -1,0 +1,9 @@
+{
+  "original": "C:\\Mingo\\04_Van_hanh\\Scripts\\check_original_contracts.py",
+  "original_sha256": "4bf84679e0270f3de85ec88ee759cdb57ee5f6d8c2367c9b630ca461fa9daf73",
+  "changes": {
+    "evidence = ROOT / \"03_Kiem_thu/Bang_chung/v3_2\" / run_id": "evidence = Path('C:\\\\Mingo\\\\03_Kiem_thu\\\\Bang_chung\\\\gd1_targeted_closure_20261005\\\\v3_2') / run_id",
+    "work = ROOT / \".local/v3_2-runs\" / run_id": "work = Path('C:\\\\Mingo\\\\03_Kiem_thu\\\\Bang_chung\\\\gd1_targeted_closure_20261005\\\\v3_work') / run_id"
+  },
+  "conditions_validators_original_hash_checks_unchanged": true
+}

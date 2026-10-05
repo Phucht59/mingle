@@ -1,0 +1,17 @@
+{
+  "name": "backend_version",
+  "cwd": "C:\\Mingo",
+  "exact_command": "C:\\Mingo\\.venv\\Scripts\\python.exe --version",
+  "start_utc": "2026-10-05T03:12:02.856058+00:00",
+  "end_utc": "2026-10-05T03:12:02.901229+00:00",
+  "exit_code": 0,
+  "status": "EXECUTED",
+  "log": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\backend_version.log",
+  "generated_artifacts": [],
+  "result": "PASS",
+  "boundary": "Existing checks; no runtime/product/customer gate inferred",
+  "passed": "N/A version query",
+  "failed": 0,
+  "skipped": 0,
+  "limitation": "Read-only environment/tool query; no gate result"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "QA-HO-006",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "screens": 57,
+    "rows": 166,
+    "invalid_references": [],
+    "coverage_caution": "Mapping is artifact coverage. It does not prove all 166 state variants were runtime exercised; references to spec-review cases remain artifact review only."
+  },
+  "sources": [
+    "SCREEN_STATE_QA_TRACEABILITY.csv",
+    "PHASE_2_SPEC.json",
+    "QA_TEST_CASES.csv"
+  ],
+  "time": "2026-10-01T16:30:14.099368+00:00"
+}

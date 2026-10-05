@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-02T02:03:54.069951+07:00",
+  "branch": "main",
+  "commit": "a112f762ab08f6fa688cc4857b21d95d1055ab5c",
+  "tracked_files": 780,
+  "status_entries": 11449,
+  "untracked_entries": 10669,
+  "staged_rename_entries": 773,
+  "commit_or_push_performed": false,
+  "workbook_path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Quan_ly_du_an_Mingo.xlsx",
+  "workbook_before_sha256": "2b201e1b0ca6aeb40dd81e77780bd9b362ce672bf3bb2fd09cd7ae8dbdd23d35",
+  "workbook_after_sha256": "2b201e1b0ca6aeb40dd81e77780bd9b362ce672bf3bb2fd09cd7ae8dbdd23d35"
+}

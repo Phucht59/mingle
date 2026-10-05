@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-02T16:10:14.397963+00:00",
+  "approval": "DEVELOPMENT TECHNICAL CANDIDATE APPROVED FOR GOLDEN BASELINE ONLY",
+  "provenance": "RERUN NOW",
+  "human_design_approval": "PENDING",
+  "independent_human_acceptance": "PENDING",
+  "basis": {
+    "test_count": 49,
+    "core_responsive_observations": 240,
+    "home_action_first_fold": "PASS",
+    "critical_light_dark_target_label_contrast_cases": 10,
+    "analyze": "No issues found"
+  },
+  "test_log_sha256": "bcf4679296e415556b1abb54507b4ddd54b9ff29e69769161778fd97df19c057",
+  "source_sha256": {
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/mingo_ui.dart": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/audio.dart": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/catalog.dart": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/design.dart": "fe3be4b7dacada4daf59b80865c792505c4df3ec1634afefd1d1c485b0892afa",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/fixtures.dart": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/journey.dart": "161c632559c431b2b5084970437d0f3076126f3c1aebebf3a440cf7f3ca279c2",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/learner.dart": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson.dart": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson_content.dart": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+    "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/staff.dart": "4b8fc9a8f186d3862244f97008ca1ebcaf695bee4373bb8f664fd50b86a09bf5"
+  }
+}

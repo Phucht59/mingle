@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "command_sync_result_v1.schema.json",
+  "title": "CommandSyncResultV1",
+  "type": "object",
+  "required": [
+    "command_id",
+    "delivery_status",
+    "retry_same_command",
+    "reason_code"
+  ],
+  "properties": {
+    "command_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "delivery_status": {
+      "enum": [
+        "accepted",
+        "duplicate",
+        "rejected",
+        "retryable",
+        "conflict",
+        "denied"
+      ]
+    },
+    "receipt": {
+      "anyOf": [
+        {
+          "$ref": "command_receipt_v1.schema.json"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "current_canonical_state": {
+      "anyOf": [
+        {
+          "$ref": "current_canonical_state_v1.schema.json"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "reason_code": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "retry_same_command": {
+      "type": "boolean"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "delivery_status": {
+            "const": "accepted"
+          }
+        },
+        "required": [
+          "delivery_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "retry_same_command": {
+            "const": false
+          },
+          "receipt": {
+            "allOf": [
+              {
+                "$ref": "command_receipt_v1.schema.json"
+              },
+              {
+                "properties": {
+                  "terminal_outcome": {
+                    "const": "accepted"
+                  }
+                }
+              }
+            ]
+          },
+          "current_canonical_state": {
+            "$ref": "current_canonical_state_v1.schema.json"
+          },
+          "reason_code": {
+            "type": "null"
+          }
+        },
+        "required": [
+          "receipt",
+          "current_canonical_state"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "delivery_status": {
+            "const": "duplicate"
+          }
+        },
+        "required": [
+          "delivery_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "retry_same_command": {
+            "const": false
+          },
+          "receipt": {
+            "$ref": "command_receipt_v1.schema.json"
+          }
+        },
+        "required": [
+          "receipt"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "delivery_status": {
+            "const": "rejected"
+          }
+        },
+        "required": [
+          "delivery_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "retry_same_command": {
+            "const": false
+          },
+          "receipt": {
+            "allOf": [
+              {
+                "$ref": "command_receipt_v1.schema.json"
+              },
+              {
+                "properties": {
+                  "terminal_outcome": {
+                    "const": "rejected"
+                  }
+                }
+              }
+            ]
+          },
+          "current_canonical_state": {
+            "type": "null"
+          },
+          "reason_code": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "receipt"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "delivery_status": {
+            "const": "retryable"
+          }
+        },
+        "required": [
+          "delivery_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "retry_same_command": {
+            "const": true
+          },
+          "receipt": {
+            "type": "null"
+          },
+          "current_canonical_state": {
+            "type": "null"
+          },
+          "reason_code": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "delivery_status": {
+            "const": "conflict"
+          }
+        },
+        "required": [
+          "delivery_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "retry_same_command": {
+            "const": false
+          },
+          "receipt": {
+            "type": "null"
+          },
+          "current_canonical_state": {
+            "type": "null"
+          },
+          "reason_code": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "receipt": {
+            "type": "object",
+            "properties": {
+              "terminal_outcome": {
+                "const": "accepted"
+              }
+            },
+            "required": [
+              "terminal_outcome"
+            ]
+          }
+        },
+        "required": [
+          "receipt"
+        ]
+      },
+      "then": {
+        "required": [
+          "current_canonical_state"
+        ],
+        "properties": {
+          "current_canonical_state": {
+            "$ref": "current_canonical_state_v1.schema.json"
+          },
+          "reason_code": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "current_canonical_state": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "delivery_status": {
+            "const": "denied"
+          }
+        },
+        "required": [
+          "delivery_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "type": "null"
+          },
+          "current_canonical_state": {
+            "type": "null"
+          },
+          "retry_same_command": {
+            "const": false
+          },
+          "reason_code": {
+            "const": "FORBIDDEN"
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

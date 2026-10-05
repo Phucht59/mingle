@@ -1,0 +1,90 @@
+{
+  "hub": {
+    "id": "3e86cea1-bbf8-8110-aa94-eb787b381c79",
+    "url": "https://app.notion.com/p/3e86cea1bbf88110aa94eb787b381c79?pvs=204",
+    "properties": {
+      "title": "MINGO"
+    }
+  },
+  "areas": [
+    {
+      "id": "3e86cea1-bbf8-8161-a120-c45834ac9dcf",
+      "url": "https://app.notion.com/p/3e86cea1bbf88161a120c45834ac9dcf?pvs=204",
+      "properties": {
+        "title": "Công việc"
+      }
+    },
+    {
+      "id": "3e86cea1-bbf8-81e3-9194-ea133a81c20d",
+      "url": "https://app.notion.com/p/3e86cea1bbf881e39194ea133a81c20d?pvs=204",
+      "properties": {
+        "title": "Sản phẩm"
+      }
+    },
+    {
+      "id": "3e86cea1-bbf8-812e-a7de-d3c15dccda93",
+      "url": "https://app.notion.com/p/3e86cea1bbf8812ea7ded3c15dccda93?pvs=204",
+      "properties": {
+        "title": "Kiểm soát"
+      }
+    },
+    {
+      "id": "3e86cea1-bbf8-8138-a628-cfcdf93392f4",
+      "url": "https://app.notion.com/p/3e86cea1bbf88138a628cfcdf93392f4?pvs=204",
+      "properties": {
+        "title": "Cách làm việc"
+      }
+    },
+    {
+      "id": "3e86cea1-bbf8-81a9-8c16-d7d97baf4576",
+      "url": "https://app.notion.com/p/3e86cea1bbf881a98c16d7d97baf4576?pvs=204",
+      "properties": {
+        "title": "Nhật ký"
+      }
+    }
+  ],
+  "databases": {
+    "task": {
+      "db": "https://app.notion.com/p/6b791fe8879e48939add292d8ee37f7d",
+      "ds": "6f8358cb-2c08-40b2-a705-96b52a93aae4"
+    },
+    "road": {
+      "db": "https://app.notion.com/p/0abe6f0b335f48328e349d498a21c1d7",
+      "ds": "e1be2f3d-2bb5-41be-87d9-3f0007314fe2"
+    },
+    "issue": {
+      "db": "https://app.notion.com/p/1a04231b5ec1428aa650a451d856016a",
+      "ds": "d851879b-ba69-48ab-bff9-8e883fff7202"
+    },
+    "ev": {
+      "db": "https://app.notion.com/p/276734ea1a4649039ca18b22f50a761f",
+      "ds": "e216e3e0-6142-4b5f-a8b6-cfde60cfbfa3"
+    },
+    "cr": {
+      "db": "https://app.notion.com/p/a5908fd763764222b4fe64825a28220b",
+      "ds": "b3214857-b743-4612-9079-c1091e8fc586"
+    }
+  },
+  "audit": {
+    "task": {
+      "count": 13,
+      "complete": true
+    },
+    "road": {
+      "count": 18,
+      "complete": true
+    },
+    "issue": {
+      "count": 9,
+      "complete": true
+    },
+    "ev": {
+      "count": 15,
+      "complete": true
+    },
+    "cr": {
+      "count": 0,
+      "complete": true
+    }
+  }
+}

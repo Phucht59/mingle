@@ -1,0 +1,115 @@
+{
+  "schema": "mingo.evidence_gated.verification.v1",
+  "provenance": "RERUN NOW",
+  "utc": "2026-10-03T04:13:19.171800+00:00",
+  "scope": "Machine artifact/contract/presentation checks; human and physical-device gates separately pending",
+  "counts": {
+    "candidate_tests_20261003": {
+      "passed": 50,
+      "failed": 0
+    },
+    "golden_generation_final": {
+      "passed": 274,
+      "failed": 0
+    },
+    "shared_final_20261003": {
+      "passed": 275,
+      "failed": 0
+    }
+  },
+  "checks": {
+    "foundation commands/log integrity": {
+      "status": "PASS",
+      "detail": null
+    },
+    "original115+22": {
+      "status": "PASS",
+      "detail": null
+    },
+    "protected141 current bytes": {
+      "status": "PASS",
+      "detail": []
+    },
+    "all10096 original artifact paths present": {
+      "status": "PASS",
+      "detail": []
+    },
+    "historical artifact bytes": {
+      "status": "PASS",
+      "detail": {
+        "count": 9607,
+        "mismatch": []
+      }
+    },
+    "approved render source unchanged": {
+      "status": "PASS",
+      "detail": []
+    },
+    "61screens175states": {
+      "status": "PASS",
+      "detail": null
+    },
+    "61routes classified without additions": {
+      "status": "PASS",
+      "detail": null
+    },
+    "175 inherited rules unchanged": {
+      "status": "PASS",
+      "detail": null
+    },
+    "205captures traced and present": {
+      "status": "PASS",
+      "detail": null
+    },
+    "candidate_tests_20261003 actual execution": {
+      "status": "PASS",
+      "detail": {
+        "passed": 50,
+        "failed": 0
+      }
+    },
+    "golden_generation_final actual execution": {
+      "status": "PASS",
+      "detail": {
+        "passed": 274,
+        "failed": 0
+      }
+    },
+    "shared_final_20261003 actual execution": {
+      "status": "PASS",
+      "detail": {
+        "passed": 275,
+        "failed": 0
+      }
+    },
+    "205 approved golden bytes unchanged": {
+      "status": "PASS",
+      "detail": null
+    },
+    "trace tests executed": {
+      "status": "PASS",
+      "detail": null
+    },
+    "AtoS final report": {
+      "status": "PASS",
+      "detail": null
+    },
+    "Phase3 HOLD": {
+      "status": "PASS",
+      "detail": null
+    },
+    "no assistant human signoff": {
+      "status": "PASS",
+      "detail": null
+    },
+    "current navigation Markdown links": {
+      "status": "PASS",
+      "detail": {
+        "checked": 240,
+        "errors": []
+      }
+    }
+  },
+  "status": "PASS",
+  "errors": []
+}

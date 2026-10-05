@@ -1,0 +1,10 @@
+{
+  "commit": "4cdecb426d33b2996f4a3a72cc78da6a276b713f",
+  "fresh_avd": "mingo_clean_20260926",
+  "package_absent_before_install": true,
+  "boot_completed": 1,
+  "pid": "4294",
+  "ui_assertions": "PASS",
+  "startup_crash": "none in captured app log",
+  "apk_sha256": "5c4089af31f5ed28afc61e190cc9e68d74e5d5b824a820abef9a59cf20881f96"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "QA-BIZ-012",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-29T18:06:30.670Z",
+  "ended": "2026-09-29T18:06:31.113Z",
+  "expected": "No direct edit-in-place; new draft/revision workflow.",
+  "steps": [
+    "Click: Staff",
+    "Click: Content",
+    "Click: Create draft",
+    "Click: Submit for review",
+    "Click: Open source & license",
+    "Click: Mark verified for prototype",
+    "Click: Approve",
+    "Click: Confirm publish",
+    "Click: Create new draft from revision"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nDRAFT\nBasic greetings · Draft 5\n← Content\nItem type\nMultiple choice\nListening multiple choice\nDomain\nVocabulary\nGrammar\nListening\nPrompt\nRequired. Learner-facing prompt for this draft revision.\nCorrect answer\nFeedback\nSource / license\nPublication is blocked until provenance/license review passes.\nPublished revisions can’t be edited. This is a draft.\nSave draft\nPreview\nSubmit for review",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "editor",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": true,
+    "contentDraftRevision": 5,
+    "publishedRevision": 4
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "screens": 57,
+  "components": 18,
+  "prd_coverage": 16,
+  "qa_cases": 87,
+  "errors": []
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "07_operations/scripts/verify_phase2_review.py"
+    ],
+    "priority": "P0",
+    "start": "2026-09-27T14:58:08.932798+00:00",
+    "end": "2026-09-27T14:58:09.833081+00:00",
+    "exit_code": 0,
+    "stdout": "QC-001 PASS\nQC-002 PASS\nQC-003 PASS\nQC-004 PASS\nQC-005 PASS\nQC-006 PASS\nQC-007 PASS\nQC-008 PASS\nQC-009 PASS\nQC-010 PASS\nQA-BIZ-006 PASS\nQA-ACC-004 PASS\nQA-HO-001 PASS\nQA-HO-004 PASS\nQA-HO-005 PASS\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "07_operations/scripts/verify_phase2_browser.cjs"
+    ],
+    "priority": "P0",
+    "start": "2026-09-27T14:58:09.833081+00:00",
+    "end": "2026-09-27T14:58:28.815046+00:00",
+    "exit_code": 0,
+    "stdout": "QA-LRN-001 PASS\nQA-LRN-006 PASS\nQA-LRN-008 PASS\nQA-LRN-009 PASS\nQA-LRN-013 PASS\nQA-LRN-015 PASS\nQA-LRN-019 PASS\nQA-OFF-002 PASS\nQA-OFF-003 PASS\nQA-OFF-004 PASS\nQA-BIZ-001 PASS\nQA-BIZ-002 PASS\nQA-BIZ-003 PASS\nQA-BIZ-004 PASS\nQA-BIZ-005 PASS\nQA-BIZ-007 PASS\nQA-BIZ-008 PASS\nQA-BIZ-009 PASS\nQA-BIZ-010 PASS\nQA-BIZ-011 PASS\nQA-BIZ-012 PASS\nQA-BIZ-013 PASS\nQA-BIZ-014 PASS\nQA-ACC-001 PASS\nQA-ACC-003 PASS\nQA-ACC-007 PASS\nQA-ACC-008 PASS\nQA-LRN-021 PASS\nQA-OFF-007 PASS\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "07_operations/scripts/verify_phase2_review.py"
+    ],
+    "priority": "P1",
+    "start": "2026-09-27T14:58:28.815046+00:00",
+    "end": "2026-09-27T14:58:29.489776+00:00",
+    "exit_code": 0,
+    "stdout": "QA-NAV-009 PASS\nQA-NAV-010 PASS\nQA-HO-002 PASS\nQA-HO-003 PASS\nQA-HO-006 PASS\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "07_operations/scripts/verify_phase2_browser.cjs"
+    ],
+    "priority": "P1",
+    "start": "2026-09-27T14:58:29.489776+00:00",
+    "end": "2026-09-27T14:58:54.813118+00:00",
+    "exit_code": 0,
+    "stdout": "QA-NAV-001 PASS\nQA-NAV-002 PASS\nQA-NAV-003 PASS\nQA-NAV-004 PASS\nQA-NAV-005 PASS\nQA-NAV-006 PASS\nQA-NAV-007 PASS\nQA-NAV-008 PASS\nQA-LRN-002 PASS\nQA-LRN-003 PASS\nQA-LRN-004 PASS\nQA-LRN-005 PASS\nQA-LRN-007 PASS\nQA-LRN-010 PASS\nQA-LRN-011 PASS\nQA-LRN-012 PASS\nQA-LRN-014 PASS\nQA-LRN-016 PASS\nQA-LRN-017 PASS\nQA-LRN-018 PASS\nQA-LRN-020 PASS\nQA-STF-001 PASS\nQA-STF-002 PASS\nQA-STF-003 PASS\nQA-STF-004 PASS\nQA-STF-005 PASS\nQA-STF-006 PASS\nQA-STF-007 PASS\nQA-STF-008 PASS\nQA-STF-009 PASS\nQA-STF-010 PASS\nQA-OFF-001 PASS\nQA-OFF-005 PASS\nQA-OFF-006 PASS\nQA-ACC-002 PASS\nQA-ACC-005 PASS\nQA-ACC-006 PASS\nQA-ACC-009 PASS\nQA-ACC-010 PASS\nQA-ACC-011 PASS\nQA-ACC-012 PASS\nQA-LRN-022 PASS\nQA-LRN-023 PASS\nQA-STF-011 PASS\nQA-ACC-013 PASS\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "07_operations/scripts/verify_phase2_supplemental.cjs"
+    ],
+    "exit_code": 0,
+    "stdout": "text200-320-Home PASS \ntext200-320-Learn PASS \ntext200-320-Course PASS \ntext200-320-Profile PASS \ntext200-360-Home PASS \ntext200-360-Learn PASS \ntext200-360-Course PASS \ntext200-360-Profile PASS \ntext200-412-Home PASS \ntext200-412-Learn PASS \ntext200-412-Course PASS \ntext200-412-Profile PASS \ntext200-480-Home PASS \ntext200-480-Learn PASS \ntext200-480-Course PASS \ntext200-480-Profile PASS \nstaff-text200-1024 PASS \nstaff-text200-1440 PASS \nplacement-media-unavailable PASS \npractice-media-skip PASS \nlearner-accessibility-tree PASS \nanswer-key-vocabulary-0 PASS \nanswer-key-vocabulary-1 PASS \nanswer-key-vocabulary-2 PASS \nanswer-key-grammar-0 PASS \nanswer-key-grammar-1 PASS \nanswer-key-grammar-2 PASS \nanswer-key-listening-0 PASS \nanswer-key-listening-1 PASS \nanswer-key-listening-2 PASS \n",
+    "stderr": ""
+  }
+]

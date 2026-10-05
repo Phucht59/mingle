@@ -1,0 +1,4806 @@
+{
+  "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Quan_ly_du_an_Mingo.xlsx",
+  "sha256": "2b201e1b0ca6aeb40dd81e77780bd9b362ce672bf3bb2fd09cd7ae8dbdd23d35",
+  "sheets": [
+    {
+      "sheet": "00_BAT_DAU",
+      "nonempty_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "MINGO — BẮT ĐẦU TỪ ĐÂY",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "Workbook này có 7 sheet. Mỗi sheet trả lời đúng một câu hỏi. Nếu mới vào dự án, đọc sheet này → 01_TONG_QUAN → 02_SAN_PHAM trước khi code.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Bạn cần biết gì?",
+            "cached": null
+          },
+          {
+            "cell": "B4",
+            "value": "Mở sheet",
+            "cached": null
+          },
+          {
+            "cell": "C4",
+            "value": "Dùng để làm gì?",
+            "cached": null
+          },
+          {
+            "cell": "D4",
+            "value": "Ai thường dùng?",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": "Dự án đang ở đâu?",
+            "cached": null
+          },
+          {
+            "cell": "B5",
+            "value": "01_TONG_QUAN",
+            "cached": null
+          },
+          {
+            "cell": "C5",
+            "value": "Xem phase hiện tại, blocker, tiến độ Phase 1 và thứ tự việc tiếp theo.",
+            "cached": null
+          },
+          {
+            "cell": "D5",
+            "value": "Owner / Lead / Team",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": "Mingo là sản phẩm gì, nghiệp vụ ra sao?",
+            "cached": null
+          },
+          {
+            "cell": "B6",
+            "value": "02_SAN_PHAM",
+            "cached": null
+          },
+          {
+            "cell": "C6",
+            "value": "Hiểu luồng learner, luật dễ làm sai, nội dung đã chốt/chưa chốt, V3.2.",
+            "cached": null
+          },
+          {
+            "cell": "D6",
+            "value": "Tất cả mọi người",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": "Toàn bộ Phase 0 → 17 là gì?",
+            "cached": null
+          },
+          {
+            "cell": "B7",
+            "value": "03_ROADMAP",
+            "cached": null
+          },
+          {
+            "cell": "C7",
+            "value": "Xem mục tiêu từng phase và checklist Phase 1 được đồng bộ từ Task.",
+            "cached": null
+          },
+          {
+            "cell": "D7",
+            "value": "Owner / Lead",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": "Tôi đang phải làm task nào?",
+            "cached": null
+          },
+          {
+            "cell": "B8",
+            "value": "04_CONG_VIEC",
+            "cached": null
+          },
+          {
+            "cell": "C8",
+            "value": "Sheet team dùng hằng ngày: người phụ trách, người kiểm tra, hạn, việc tiếp theo, bằng chứng, ghi chú.",
+            "cached": null
+          },
+          {
+            "cell": "D8",
+            "value": "Dev / QA / Content / Data",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A9",
+            "value": "Có lỗi hoặc muốn đổi rule thì ghi đâu?",
+            "cached": null
+          },
+          {
+            "cell": "B9",
+            "value": "05_VAN_DE_THAY_DOI",
+            "cached": null
+          },
+          {
+            "cell": "C9",
+            "value": "Issue kỹ thuật, đề nghị thay đổi nội dung đã chốt, note/action.",
+            "cached": null
+          },
+          {
+            "cell": "D9",
+            "value": "Tất cả mọi người",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": "Cái gì đã thật sự được test/run?",
+            "cached": null
+          },
+          {
+            "cell": "B10",
+            "value": "06_BANG_CHUNG",
+            "cached": null
+          },
+          {
+            "cell": "C10",
+            "value": "Phân biệt PASS hiện tại, PASS lịch sử, chờ chạy và bị chặn.",
+            "cached": null
+          },
+          {
+            "cell": "D10",
+            "value": "QA / Lead / Owner",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A13",
+            "value": "5 QUY TẮC LÀM VIỆC",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A14",
+            "value": "#",
+            "cached": null
+          },
+          {
+            "cell": "B14",
+            "value": "Quy tắc",
+            "cached": null
+          },
+          {
+            "cell": "C14",
+            "value": "Ý nghĩa",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A15",
+            "value": 1,
+            "cached": null
+          },
+          {
+            "cell": "B15",
+            "value": "Không tự sửa nội dung đã chốt.",
+            "cached": null
+          },
+          {
+            "cell": "C15",
+            "value": "Muốn đổi kiến trúc/business rule đã khóa → tạo Đề nghị thay đổi (Change Request).",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A16",
+            "value": 2,
+            "cached": null
+          },
+          {
+            "cell": "B16",
+            "value": "Không đánh XONG chỉ vì có code.",
+            "cached": null
+          },
+          {
+            "cell": "C16",
+            "value": "XONG phải có bằng chứng phù hợp: test, runtime, CI hoặc review theo gate.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": 3,
+            "cached": null
+          },
+          {
+            "cell": "B17",
+            "value": "Phase 2 chưa được bắt đầu chính thức.",
+            "cached": null
+          },
+          {
+            "cell": "C17",
+            "value": "Chỉ đủ điều kiện khi toàn bộ task bắt buộc của Phase 1 XONG.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A18",
+            "value": 4,
+            "cached": null
+          },
+          {
+            "cell": "B18",
+            "value": "Task là nguồn trạng thái hằng ngày.",
+            "cached": null
+          },
+          {
+            "cell": "C18",
+            "value": "Tổng quan và checklist Phase 1 tự đọc trạng thái từ 04_CONG_VIEC để tránh cập nhật lệch.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A19",
+            "value": 5,
+            "cached": null
+          },
+          {
+            "cell": "B19",
+            "value": "Không ghi mật khẩu/token vào file.",
+            "cached": null
+          },
+          {
+            "cell": "C19",
+            "value": "Chỉ ghi tên biến môi trường hoặc nơi lưu secret; tuyệt đối không ghi plaintext credential.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A21",
+            "value": "TỪ NGỮ DÙNG TRONG FILE",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A22",
+            "value": "Thuật ngữ",
+            "cached": null
+          },
+          {
+            "cell": "B22",
+            "value": "Giải thích dễ hiểu",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A23",
+            "value": "Phase",
+            "cached": null
+          },
+          {
+            "cell": "B23",
+            "value": "Giai đoạn phát triển có mục tiêu và điều kiện hoàn thành riêng.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A24",
+            "value": "Gate",
+            "cached": null
+          },
+          {
+            "cell": "B24",
+            "value": "Điều kiện bắt buộc phải đạt trước khi được coi phase đã hoàn thành.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A25",
+            "value": "Blocker / Bị chặn",
+            "cached": null
+          },
+          {
+            "cell": "B25",
+            "value": "Vướng mắc khiến task/gate chưa thể hoàn thành.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A26",
+            "value": "Evidence / Bằng chứng",
+            "cached": null
+          },
+          {
+            "cell": "B26",
+            "value": "Kết quả test, log, runtime, CI, artifact hoặc review chứng minh một claim.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A27",
+            "value": "Issue / Vấn đề",
+            "cached": null
+          },
+          {
+            "cell": "B27",
+            "value": "Bug, lỗi runtime, thiếu tooling, thiếu credential hoặc ambiguity cần xử lý.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A28",
+            "value": "Change Request / Đề nghị thay đổi",
+            "cached": null
+          },
+          {
+            "cell": "B28",
+            "value": "Quy trình xin phép thay đổi nội dung đã chốt.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A29",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "B29",
+            "value": "Baseline kiến trúc + hợp đồng hệ thống của Phase 0; không phải version app.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A30",
+            "value": "Telemetry",
+            "cached": null
+          },
+          {
+            "cell": "B30",
+            "value": "Dữ liệu quan sát hành vi như nghe audio, mở hint, xem màn hình; không tự quyết canonical score.",
+            "cached": null
+          }
+        ]
+      ]
+    },
+    {
+      "sheet": "01_TONG_QUAN",
+      "nonempty_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "MINGO — TỔNG QUAN HIỆN TẠI",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "Không cập nhật trạng thái blocker bằng tay ở đây. Các ô trạng thái được lấy từ 04_CONG_VIEC để giảm lệch dữ liệu.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Thông tin",
+            "cached": null
+          },
+          {
+            "cell": "B4",
+            "value": "Hiện tại",
+            "cached": null
+          },
+          {
+            "cell": "D4",
+            "value": "CÁC BLOCKER CHÍNH — TỰ ĐỒNG ĐỌC TỪ TASK",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": "Dự án",
+            "cached": null
+          },
+          {
+            "cell": "B5",
+            "value": "Mingo — Adaptive Language Learning & Early Intervention Platform",
+            "cached": null
+          },
+          {
+            "cell": "D5",
+            "value": "Nhóm",
+            "cached": null
+          },
+          {
+            "cell": "E5",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "F5",
+            "value": "Việc tiếp theo",
+            "cached": null
+          },
+          {
+            "cell": "G5",
+            "value": "Task nguồn",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": "Mục tiêu",
+            "cached": null
+          },
+          {
+            "cell": "B6",
+            "value": "Xây sản phẩm học ngôn ngữ hoàn chỉnh: học tập → offline → dữ liệu → intelligence → risk → recommendation → staff → production.",
+            "cached": null
+          },
+          {
+            "cell": "D6",
+            "value": "V3.2 original",
+            "cached": null
+          },
+          {
+            "cell": "E6",
+            "value": "=IF(AND(VLOOKUP(\"P1-T001\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"XONG\",VLOOKUP(\"P1-T002\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"XONG\",VLOOKUP(\"P1-T003\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"XONG\"),\"XONG\",IF(OR(VLOOKUP(\"P1-T001\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\",VLOOKUP(\"P1-T002\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\",VLOOKUP(\"P1-T003\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\"),\"BỊ CHẶN\",\"ĐANG LÀM\"))",
+            "cached": "ĐANG LÀM"
+          },
+          {
+            "cell": "F6",
+            "value": "Import exact package + rerun 115 contract + 22 SQL.",
+            "cached": null
+          },
+          {
+            "cell": "G6",
+            "value": "P1-T001..T003",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": "Phase hiện tại",
+            "cached": null
+          },
+          {
+            "cell": "B7",
+            "value": "Phase 1 — Nền tảng triển khai (Implementation Foundation)",
+            "cached": null
+          },
+          {
+            "cell": "D7",
+            "value": "PostgreSQL",
+            "cached": null
+          },
+          {
+            "cell": "E7",
+            "value": "=IF(AND(VLOOKUP(\"P1-T005\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"XONG\",VLOOKUP(\"P1-T006\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"XONG\"),\"XONG\",IF(OR(VLOOKUP(\"P1-T005\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\",VLOOKUP(\"P1-T006\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\"),\"BỊ CHẶN\",\"CHỜ\"))",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "F7",
+            "value": "Provision/access DB → migration → 6 DB tests.",
+            "cached": null
+          },
+          {
+            "cell": "G7",
+            "value": "P1-T005..T006",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": "Trạng thái Phase 1",
+            "cached": null
+          },
+          {
+            "cell": "B8",
+            "value": "=IF(COUNTIFS('04_CONG_VIEC'!$B$5:$B$200,\"P1\",'04_CONG_VIEC'!$F$5:$F$200,\"<>XONG\")=0,\"XONG\",\"ĐANG LÀM\")",
+            "cached": "ĐANG LÀM"
+          },
+          {
+            "cell": "D8",
+            "value": "API + Worker",
+            "cached": null
+          },
+          {
+            "cell": "E8",
+            "value": "=VLOOKUP(\"P1-T007\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "F8",
+            "value": "DB khỏe → /ready=200 → worker probe PASS.",
+            "cached": null
+          },
+          {
+            "cell": "G8",
+            "value": "P1-T007",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A9",
+            "value": "Gate Phase 1",
+            "cached": null
+          },
+          {
+            "cell": "B9",
+            "value": "=IF(COUNTIFS('04_CONG_VIEC'!$B$5:$B$200,\"P1\",'04_CONG_VIEC'!$F$5:$F$200,\"<>XONG\")=0,\"ĐÃ PASS\",\"CHƯA PASS\")",
+            "cached": "CHƯA PASS"
+          },
+          {
+            "cell": "D9",
+            "value": "Flutter learner/staff",
+            "cached": null
+          },
+          {
+            "cell": "E9",
+            "value": "=IF(AND(VLOOKUP(\"P1-T009\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"XONG\",VLOOKUP(\"P1-T010\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"XONG\"),\"XONG\",IF(OR(VLOOKUP(\"P1-T008\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\",VLOOKUP(\"P1-T009\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\",VLOOKUP(\"P1-T010\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)=\"BỊ CHẶN\"),\"BỊ CHẶN\",\"CHỜ\"))",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "F9",
+            "value": "Toolchain → learner Android boot + staff Web boot.",
+            "cached": null
+          },
+          {
+            "cell": "G9",
+            "value": "P1-T008..T010",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": "Tiến độ task Phase 1",
+            "cached": null
+          },
+          {
+            "cell": "B10",
+            "value": "=COUNTIFS('04_CONG_VIEC'!$B$5:$B$200,\"P1\",'04_CONG_VIEC'!$F$5:$F$200,\"XONG\")/COUNTIF('04_CONG_VIEC'!$B$5:$B$200,\"P1\")",
+            "cached": 0
+          },
+          {
+            "cell": "D10",
+            "value": "Hosted CI",
+            "cached": null
+          },
+          {
+            "cell": "E10",
+            "value": "=VLOOKUP(\"P1-T011\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "F10",
+            "value": "Có remote → chạy workflow từ clean checkout.",
+            "cached": null
+          },
+          {
+            "cell": "G10",
+            "value": "P1-T011",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A11",
+            "value": "Phase 0",
+            "cached": null
+          },
+          {
+            "cell": "B11",
+            "value": "XONG — V3.2.0 là baseline chuẩn của Phase 0",
+            "cached": null
+          },
+          {
+            "cell": "D11",
+            "value": "Clean reproduction",
+            "cached": null
+          },
+          {
+            "cell": "E11",
+            "value": "=VLOOKUP(\"P1-T012\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "F11",
+            "value": "Clone sạch và chạy toàn stack.",
+            "cached": null
+          },
+          {
+            "cell": "G11",
+            "value": "P1-T012",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A12",
+            "value": "Phase 2",
+            "cached": null
+          },
+          {
+            "cell": "B12",
+            "value": "=IF(B9=\"ĐÃ PASS\",\"ĐỦ ĐIỀU KIỆN LẬP PHASE 2\",\"CHƯA ĐƯỢC BẮT ĐẦU CHÍNH THỨC\")",
+            "cached": "CHƯA ĐƯỢC BẮT ĐẦU CHÍNH THỨC"
+          }
+        ],
+        [
+          {
+            "cell": "A15",
+            "value": "THỨ TỰ NÊN LÀM",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A16",
+            "value": "#",
+            "cached": null
+          },
+          {
+            "cell": "B16",
+            "value": "Việc",
+            "cached": null
+          },
+          {
+            "cell": "C16",
+            "value": "Mục tiêu",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": 1,
+            "cached": null
+          },
+          {
+            "cell": "B17",
+            "value": "Import + rerun V3.2 original",
+            "cached": null
+          },
+          {
+            "cell": "C17",
+            "value": "Đóng nguồn chuẩn Phase 0 trong canonical repo.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A18",
+            "value": 2,
+            "cached": null
+          },
+          {
+            "cell": "B18",
+            "value": "PostgreSQL + migration + DB tests",
+            "cached": null
+          },
+          {
+            "cell": "C18",
+            "value": "Đóng runtime backend quan trọng nhất.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A19",
+            "value": 3,
+            "cached": null
+          },
+          {
+            "cell": "B19",
+            "value": "API readiness + Worker",
+            "cached": null
+          },
+          {
+            "cell": "C19",
+            "value": "Chứng minh backend foundation chạy thật.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A20",
+            "value": 4,
+            "cached": null
+          },
+          {
+            "cell": "B20",
+            "value": "Flutter learner + staff",
+            "cached": null
+          },
+          {
+            "cell": "C20",
+            "value": "Chứng minh Android/Web chạy thật.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A21",
+            "value": 5,
+            "cached": null
+          },
+          {
+            "cell": "B21",
+            "value": "Hosted CI",
+            "cached": null
+          },
+          {
+            "cell": "C21",
+            "value": "Chứng minh clean checkout chạy được.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A22",
+            "value": 6,
+            "cached": null
+          },
+          {
+            "cell": "B22",
+            "value": "Full clean reproduction",
+            "cached": null
+          },
+          {
+            "cell": "C22",
+            "value": "Bằng chứng cuối trước khi đóng Phase 1.",
+            "cached": null
+          }
+        ]
+      ]
+    },
+    {
+      "sheet": "02_SAN_PHAM",
+      "nonempty_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "SẢN PHẨM MINGO — NGHIỆP VỤ & LUẬT HỆ THỐNG",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "Đọc sheet này trước khi code nghiệp vụ. Từ kỹ thuật được giữ trong ngoặc khi cần, nhưng ưu tiên diễn đạt dễ hiểu bằng tiếng Việt.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "TÓM TẮT 4 ĐIỀU CẦN NHỚ",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": "1",
+            "cached": null
+          },
+          {
+            "cell": "B5",
+            "value": "Mingo học theo bằng chứng",
+            "cached": null
+          },
+          {
+            "cell": "C5",
+            "value": "Không biến streak/click/skip thành mastery.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": "2",
+            "cached": null
+          },
+          {
+            "cell": "B6",
+            "value": "Máy chủ là nguồn quyết định chính",
+            "cached": null
+          },
+          {
+            "cell": "C6",
+            "value": "Client gửi hành động/dữ liệu quan sát; server quyết định điểm, tiến độ, quyền.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": "3",
+            "cached": null
+          },
+          {
+            "cell": "B7",
+            "value": "Offline không được tạo dữ liệu trùng",
+            "cached": null
+          },
+          {
+            "cell": "C7",
+            "value": "Command và telemetry tách riêng; retry phải idempotent.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": "4",
+            "cached": null
+          },
+          {
+            "cell": "B8",
+            "value": "ML là lớp tăng cường",
+            "cached": null
+          },
+          {
+            "cell": "C8",
+            "value": "Không có ML/recommendation thì sản phẩm vẫn phải học được.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": "1. MINGO LÀ GÌ?",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A11",
+            "value": "Mingo là nền tảng học ngôn ngữ thích ứng, khởi đầu với tiếng Anh. Người học đi qua các chu kỳ học ngắn (Learning Cycle) có mục tiêu học rõ ràng, hoạt động tự nhớ/truy xuất (Retrieval), phản hồi và bài kiểm tra độc lập (Check). Hệ thống lưu bằng chứng học tập theo thời gian, hỗ trợ offline, và chỉ sau khi dữ liệu sản phẩm đủ đáng tin mới bổ sung Learning Intelligence → Risk Prediction → Recommendation/Intervention. Mingo phải vẫn hoạt động được khi ML/recommendation bị tắt.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A15",
+            "value": "2. LUỒNG LEARNER CỐT LÕI",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A16",
+            "value": "Bước",
+            "cached": null
+          },
+          {
+            "cell": "B16",
+            "value": "Nghiệp vụ",
+            "cached": null
+          },
+          {
+            "cell": "C16",
+            "value": "Hệ thống làm gì",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": 1,
+            "cached": null
+          },
+          {
+            "cell": "B17",
+            "value": "Mở app",
+            "cached": null
+          },
+          {
+            "cell": "C17",
+            "value": "Người học vào Mingo; có thể chọn mục tiêu cá nhân.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A18",
+            "value": 2,
+            "cached": null
+          },
+          {
+            "cell": "B18",
+            "value": "Placement ngắn hoặc bỏ qua",
+            "cached": null
+          },
+          {
+            "cell": "C18",
+            "value": "Tạo trạng thái bắt đầu tạm thời (provisional); không ép placement dài.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A19",
+            "value": 3,
+            "cached": null
+          },
+          {
+            "cell": "B19",
+            "value": "Chọn mục tiêu học / chu kỳ học",
+            "cached": null
+          },
+          {
+            "cell": "C19",
+            "value": "Backend chọn nội dung đủ điều kiện theo curriculum, review, focus và prerequisite.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A20",
+            "value": 4,
+            "cached": null
+          },
+          {
+            "cell": "B20",
+            "value": "Review",
+            "cached": null
+          },
+          {
+            "cell": "C20",
+            "value": "Ôn đúng thứ cần ôn; không tạo infinite scroll.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A21",
+            "value": 5,
+            "cached": null
+          },
+          {
+            "cell": "B21",
+            "value": "Learn",
+            "cached": null
+          },
+          {
+            "cell": "C21",
+            "value": "Giải thích/ngữ cảnh ngắn phù hợp Vocabulary, Grammar hoặc Listening.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A22",
+            "value": 6,
+            "cached": null
+          },
+          {
+            "cell": "B22",
+            "value": "Retrieve",
+            "cached": null
+          },
+          {
+            "cell": "C22",
+            "value": "Người học phải tự nhớ/trả lời; đây là bằng chứng quan trọng.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A23",
+            "value": 7,
+            "cached": null
+          },
+          {
+            "cell": "B23",
+            "value": "Transfer",
+            "cached": null
+          },
+          {
+            "cell": "C23",
+            "value": "Dùng kiến thức trong ngữ cảnh khác.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A24",
+            "value": 8,
+            "cached": null
+          },
+          {
+            "cell": "B24",
+            "value": "Check",
+            "cached": null
+          },
+          {
+            "cell": "C24",
+            "value": "Bài kiểm tra độc lập; server là nguồn quyết định điểm chính.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A25",
+            "value": 9,
+            "cached": null
+          },
+          {
+            "cell": "B25",
+            "value": "Feedback + lưu evidence",
+            "cached": null
+          },
+          {
+            "cell": "C25",
+            "value": "Giữ đúng first response, retry, hint, skip và điều kiện assessment.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A26",
+            "value": 10,
+            "cached": null
+          },
+          {
+            "cell": "B26",
+            "value": "Kết thúc cycle",
+            "cached": null
+          },
+          {
+            "cell": "C26",
+            "value": "Có điểm dừng rõ; người học chọn tiếp tục hoặc dừng.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A27",
+            "value": 11,
+            "cached": null
+          },
+          {
+            "cell": "B27",
+            "value": "Tích lũy theo thời gian",
+            "cached": null
+          },
+          {
+            "cell": "C27",
+            "value": "Review scheduler và analytics tích lũy; intelligence/risk/recommendation đến ở phase sau.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A30",
+            "value": "3. NHỮNG LUẬT RẤT DỄ LÀM SAI",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A31",
+            "value": "Chủ đề",
+            "cached": null
+          },
+          {
+            "cell": "B31",
+            "value": "Luật dễ hiểu",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A32",
+            "value": "First response",
+            "cached": null
+          },
+          {
+            "cell": "B32",
+            "value": "Câu trả lời đầu tiên phải được giữ. Retry đúng sau đó không biến lịch sử thành 'đúng ngay từ đầu'.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A33",
+            "value": "Hint",
+            "cached": null
+          },
+          {
+            "cell": "B33",
+            "value": "Đúng sau hint = đúng có hỗ trợ (assisted), không phải đúng độc lập (unaided).",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A34",
+            "value": "Skip",
+            "cached": null
+          },
+          {
+            "cell": "B34",
+            "value": "Skip được ghi lại nhưng KHÔNG phải completion, mastery hay progress.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A35",
+            "value": "Check",
+            "cached": null
+          },
+          {
+            "cell": "B35",
+            "value": "Bài kiểm tra độc lập; không có hint trước khi submit.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A36",
+            "value": "Audio replay",
+            "cached": null
+          },
+          {
+            "cell": "B36",
+            "value": "Telemetry ở client không chứng minh chắc chắn người dùng đã nghe bao nhiêu lần và không tự quyết điểm chuẩn.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A37",
+            "value": "Content revision",
+            "cached": null
+          },
+          {
+            "cell": "B37",
+            "value": "Nội dung đã publish là bất biến; muốn sửa phải tạo revision mới.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A38",
+            "value": "Attempt",
+            "cached": null
+          },
+          {
+            "cell": "B38",
+            "value": "Attempt phải pin đúng revision mà learner đã thấy lúc làm.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A39",
+            "value": "Offline",
+            "cached": null
+          },
+          {
+            "cell": "B39",
+            "value": "Business command và telemetry đi hai luồng riêng; retry không được tạo progress hai lần.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A40",
+            "value": "Mastery / Risk",
+            "cached": null
+          },
+          {
+            "cell": "B40",
+            "value": "Mastery và Risk là hai khái niệm khác nhau.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A41",
+            "value": "Recommendation",
+            "cached": null
+          },
+          {
+            "cell": "B41",
+            "value": "Prediction ≠ Decision ≠ Exposure ≠ Execution ≠ Outcome.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A42",
+            "value": "ML OFF",
+            "cached": null
+          },
+          {
+            "cell": "B42",
+            "value": "Khi ML/recommendation bị tắt, curriculum + review fallback vẫn phải tạo được chu kỳ học hợp lệ.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A45",
+            "value": "4. ĐÃ CHỐT — KHÔNG TỰ Ý SỬA",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A46",
+            "value": "Chủ đề",
+            "cached": null
+          },
+          {
+            "cell": "B46",
+            "value": "Nội dung đã chốt",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A47",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "B47",
+            "value": "V3.2.0 completed baseline là source of truth của Phase 0.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A48",
+            "value": "Stack",
+            "cached": null
+          },
+          {
+            "cell": "B48",
+            "value": "Flutter Android-first cho learner; Flutter Web cho staff; FastAPI/Python; PostgreSQL; Object Storage.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A49",
+            "value": "Architecture",
+            "cached": null
+          },
+          {
+            "cell": "B49",
+            "value": "Modular monolith; API process + durable worker dùng cùng codebase.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A50",
+            "value": "Authority",
+            "cached": null
+          },
+          {
+            "cell": "B50",
+            "value": "Máy chủ quyết định canonical scoring, progress và permission.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A51",
+            "value": "Offline",
+            "cached": null
+          },
+          {
+            "cell": "B51",
+            "value": "Command queue tách telemetry queue.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A52",
+            "value": "Content",
+            "cached": null
+          },
+          {
+            "cell": "B52",
+            "value": "Published content immutable/versioned; attempt/enrollment pin exact revision.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A53",
+            "value": "Analytics time",
+            "cached": null
+          },
+          {
+            "cell": "B53",
+            "value": "Phân biệt event time và knowledge/availability/source capture.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A54",
+            "value": "Mastery / Risk",
+            "cached": null
+          },
+          {
+            "cell": "B54",
+            "value": "Mastery khác Risk.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A55",
+            "value": "Recommendation",
+            "cached": null
+          },
+          {
+            "cell": "B55",
+            "value": "Risk chỉ là input tùy chọn; ML/recommendation OFF thì app vẫn học được.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A56",
+            "value": "Lifecycle",
+            "cached": null
+          },
+          {
+            "cell": "B56",
+            "value": "Prediction / Decision / Exposure / Execution / Outcome tách riêng.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A57",
+            "value": "Hạ tầng",
+            "cached": null
+          },
+          {
+            "cell": "B57",
+            "value": "Không Kafka/Kubernetes/microservices/warehouse/external feature store nếu chưa có requirement/load thật.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A58",
+            "value": "Database",
+            "cached": null
+          },
+          {
+            "cell": "B58",
+            "value": "Một Mingo: DB chính `mingo`, DB test disposable `mingo_test`, role `mingo_app`; không chia DB theo phase.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A59",
+            "value": "Quản trị phase",
+            "cached": null
+          },
+          {
+            "cell": "B59",
+            "value": "Mỗi phase phải có deliverables + acceptance criteria + gate rồi mới qua phase sau.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A60",
+            "value": "ML production",
+            "cached": null
+          },
+          {
+            "cell": "B60",
+            "value": "OULAD/UCI chỉ là research baseline; production model phải đánh giá bằng product data.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A63",
+            "value": "5. CHƯA CHỐT CUỐI — ĐÂY LÀ HYPOTHESIS/POLICY CÓ THỂ THAY ĐỔI",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A64",
+            "value": "Chủ đề",
+            "cached": null
+          },
+          {
+            "cell": "B64",
+            "value": "Ý nghĩa",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A65",
+            "value": "Tên Mingo",
+            "cached": null
+          },
+          {
+            "cell": "B65",
+            "value": "Đang là working name; chưa freeze final brand.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A66",
+            "value": "~5 phút / cycle",
+            "cached": null
+          },
+          {
+            "cell": "B66",
+            "value": "UX hypothesis; có thể đổi sau đo/pilot.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A67",
+            "value": "1 retry",
+            "cached": null
+          },
+          {
+            "cell": "B67",
+            "value": "Retry count là hypothesis; việc giữ first response là nguyên tắc mạnh hơn.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A68",
+            "value": "2 lần nghe trong Check",
+            "cached": null
+          },
+          {
+            "cell": "B68",
+            "value": "Hypothesis; server authority mới là invariant.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A69",
+            "value": "Placement 6–9 câu",
+            "cached": null
+          },
+          {
+            "cell": "B69",
+            "value": "Thiết kế provisional; không phải CEFR cut score cuối.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A70",
+            "value": "Step-up threshold",
+            "cached": null
+          },
+          {
+            "cell": "B70",
+            "value": "2 evidence + 1 Check + max 1 challenge là policy hypothesis.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A71",
+            "value": "Final mastery formula",
+            "cached": null
+          },
+          {
+            "cell": "B71",
+            "value": "Chờ Phase 9 — Learning Intelligence.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A72",
+            "value": "Final risk label/model/weights",
+            "cached": null
+          },
+          {
+            "cell": "B72",
+            "value": "Chờ Phase 10 + product data.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A73",
+            "value": "Recommendation ranking weights",
+            "cached": null
+          },
+          {
+            "cell": "B73",
+            "value": "Chờ Phase 11.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A76",
+            "value": "6. V3.2 LÀ GÌ?",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A77",
+            "value": "Thông tin",
+            "cached": null
+          },
+          {
+            "cell": "B77",
+            "value": "Giá trị",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A78",
+            "value": "Tên package",
+            "cached": null
+          },
+          {
+            "cell": "B78",
+            "value": "ADAPTIVE_LANGUAGE_LEARNING_BASELINE_COMPLETED.zip",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A79",
+            "value": "Version",
+            "cached": null
+          },
+          {
+            "cell": "B79",
+            "value": "3.2.0",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A80",
+            "value": "Vai trò",
+            "cached": null
+          },
+          {
+            "cell": "B80",
+            "value": "Canonical Phase 0 architecture/contract baseline",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A81",
+            "value": "Trạng thái gốc",
+            "cached": null
+          },
+          {
+            "cell": "B81",
+            "value": "Completed architecture and contract baseline; GO for core implementation; application runtime not validated",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A82",
+            "value": "Kết quả contract trong package",
+            "cached": null
+          },
+          {
+            "cell": "B82",
+            "value": "115 PASS / 0 FAIL",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A83",
+            "value": "Kết quả SQL trong package",
+            "cached": null
+          },
+          {
+            "cell": "B83",
+            "value": "22 PASS / 0 FAIL",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A84",
+            "value": "Completed package SHA-256",
+            "cached": null
+          },
+          {
+            "cell": "B84",
+            "value": "1b4c9c10afad5245517d2593e5bbd98c7f233fc662c221ee8332cc386c83fe0a",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A85",
+            "value": "V3 source archive SHA-256",
+            "cached": null
+          },
+          {
+            "cell": "B85",
+            "value": "7d46d057fab627d442a62aa5f33fbe9e63216ebbd6b04dc041e4505a7e4b6f55",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A86",
+            "value": "Hiện tại trong Mingo",
+            "cached": null
+          },
+          {
+            "cell": "B86",
+            "value": "Original đã TÌM THẤY; canonical import/rerun vẫn đang chờ.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A87",
+            "value": "V3.2 chứng minh",
+            "cached": null
+          },
+          {
+            "cell": "B87",
+            "value": "Architecture/contracts/schemas/DDL/API/protocol invariants được định nghĩa và packaged verification đã pass.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A88",
+            "value": "V3.2 chưa chứng minh",
+            "cached": null
+          },
+          {
+            "cell": "B88",
+            "value": "FastAPI runtime thật, native PostgreSQL concurrency, Flutter device, hosted CI, production security/scale.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A89",
+            "value": "Cách dùng",
+            "cached": null
+          },
+          {
+            "cell": "B89",
+            "value": "Coder implement theo exact V3.2. Nếu phát hiện blocking defect thật → Issue/Change Request; không tự sửa business rule.",
+            "cached": null
+          }
+        ]
+      ]
+    },
+    {
+      "sheet": "03_ROADMAP",
+      "nonempty_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "MINGO — ROADMAP PHASE 0 → 17",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "Status Phase 1 được lấy từ 04_CONG_VIEC. Checklist Phase 1 bên dưới cũng đọc trực tiếp trạng thái từng task để không phải cập nhật hai nơi.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Phase",
+            "cached": null
+          },
+          {
+            "cell": "B4",
+            "value": "Tên phase",
+            "cached": null
+          },
+          {
+            "cell": "C4",
+            "value": "Mục tiêu",
+            "cached": null
+          },
+          {
+            "cell": "D4",
+            "value": "Phải đạt trước khi đóng",
+            "cached": null
+          },
+          {
+            "cell": "E4",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "F4",
+            "value": "Ghi chú hiện tại",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": 0,
+            "cached": null
+          },
+          {
+            "cell": "B5",
+            "value": "Kiến trúc & Hợp đồng hệ thống",
+            "cached": null
+          },
+          {
+            "cell": "C5",
+            "value": "Chốt luật kiến trúc/contracts trước khi code.",
+            "cached": null
+          },
+          {
+            "cell": "D5",
+            "value": "V3.2.0 + packaged 115 contract + 22 SQL evidence.",
+            "cached": null
+          },
+          {
+            "cell": "E5",
+            "value": "XONG",
+            "cached": null
+          },
+          {
+            "cell": "F5",
+            "value": "Phase 0 hoàn tất.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": 1,
+            "cached": null
+          },
+          {
+            "cell": "B6",
+            "value": "Nền tảng triển khai",
+            "cached": null
+          },
+          {
+            "cell": "C6",
+            "value": "Dựng backend/DB/worker/Flutter shells/CI và chứng minh runtime.",
+            "cached": null
+          },
+          {
+            "cell": "D6",
+            "value": "V3.2 rerun + DB/worker + Flutter + CI + clean reproduction.",
+            "cached": null
+          },
+          {
+            "cell": "E6",
+            "value": "=IF(COUNTIFS('04_CONG_VIEC'!$B$5:$B$200,\"P1\",'04_CONG_VIEC'!$F$5:$F$200,\"<>XONG\")=0,\"XONG\",\"ĐANG LÀM\")",
+            "cached": "ĐANG LÀM"
+          },
+          {
+            "cell": "F6",
+            "value": "Gate chưa pass.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": 2,
+            "cached": null
+          },
+          {
+            "cell": "B7",
+            "value": "Hệ thống UX/UI sản phẩm",
+            "cached": null
+          },
+          {
+            "cell": "C7",
+            "value": "Thiết kế user journey, IA, design system, screen specs.",
+            "cached": null
+          },
+          {
+            "cell": "D7",
+            "value": "UX system được duyệt và trace tới PRD.",
+            "cached": null
+          },
+          {
+            "cell": "E7",
+            "value": "TẠM HOÃN",
+            "cached": null
+          },
+          {
+            "cell": "F7",
+            "value": "Chỉ đủ điều kiện khi Phase 1 PASS.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": 3,
+            "cached": null
+          },
+          {
+            "cell": "B8",
+            "value": "Tài khoản, đăng nhập & phân quyền",
+            "cached": null
+          },
+          {
+            "cell": "C8",
+            "value": "Login/session/role/permission thật ở server.",
+            "cached": null
+          },
+          {
+            "cell": "D8",
+            "value": "Authz/security tests pass.",
+            "cached": null
+          },
+          {
+            "cell": "E8",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A9",
+            "value": 4,
+            "cached": null
+          },
+          {
+            "cell": "B9",
+            "value": "Nền tảng nội dung & xuất bản",
+            "cached": null
+          },
+          {
+            "cell": "C9",
+            "value": "Author/review/license/publish/versioned content.",
+            "cached": null
+          },
+          {
+            "cell": "D9",
+            "value": "Publishing + provenance + immutable revisions.",
+            "cached": null
+          },
+          {
+            "cell": "E9",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": 5,
+            "cached": null
+          },
+          {
+            "cell": "B10",
+            "value": "Lõi học tập & đánh giá",
+            "cached": null
+          },
+          {
+            "cell": "C10",
+            "value": "Objectives, attempts, Check, progress, review, placement.",
+            "cached": null
+          },
+          {
+            "cell": "D10",
+            "value": "Learning business rules chạy đúng.",
+            "cached": null
+          },
+          {
+            "cell": "E10",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A11",
+            "value": 6,
+            "cached": null
+          },
+          {
+            "cell": "B11",
+            "value": "Offline-first & đồng bộ",
+            "cached": null
+          },
+          {
+            "cell": "C11",
+            "value": "Học khi mất mạng; replay/idempotency/reconciliation.",
+            "cached": null
+          },
+          {
+            "cell": "D11",
+            "value": "Offline adversarial tests pass.",
+            "cached": null
+          },
+          {
+            "cell": "E11",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A12",
+            "value": 7,
+            "cached": null
+          },
+          {
+            "cell": "B12",
+            "value": "Worker bền vững & xử lý nền",
+            "cached": null
+          },
+          {
+            "cell": "C12",
+            "value": "Jobs/retry/fencing/scheduling/projections.",
+            "cached": null
+          },
+          {
+            "cell": "D12",
+            "value": "Worker failure/race tests pass.",
+            "cached": null
+          },
+          {
+            "cell": "E12",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A13",
+            "value": 8,
+            "cached": null
+          },
+          {
+            "cell": "B13",
+            "value": "Phân tích học tập & dữ liệu",
+            "cached": null
+          },
+          {
+            "cell": "C13",
+            "value": "Event model, point-in-time, source capture, projections.",
+            "cached": null
+          },
+          {
+            "cell": "D13",
+            "value": "No leakage + telemetry quality.",
+            "cached": null
+          },
+          {
+            "cell": "E13",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A14",
+            "value": 9,
+            "cached": null
+          },
+          {
+            "cell": "B14",
+            "value": "Learning Intelligence",
+            "cached": null
+          },
+          {
+            "cell": "C14",
+            "value": "Mastery/knowledge state/adaptive path dựa product evidence.",
+            "cached": null
+          },
+          {
+            "cell": "D14",
+            "value": "Evaluation contract + fallback.",
+            "cached": null
+          },
+          {
+            "cell": "E14",
+            "value": "TẠM HOÃN",
+            "cached": null
+          },
+          {
+            "cell": "F14",
+            "value": "Không freeze final mastery trước phase này.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A15",
+            "value": 10,
+            "cached": null
+          },
+          {
+            "cell": "B15",
+            "value": "Production ML / Dự đoán rủi ro sớm",
+            "cached": null
+          },
+          {
+            "cell": "C15",
+            "value": "Risk prediction dùng product data.",
+            "cached": null
+          },
+          {
+            "cell": "D15",
+            "value": "Validated target/horizon/model; no leakage.",
+            "cached": null
+          },
+          {
+            "cell": "E15",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A16",
+            "value": 11,
+            "cached": null
+          },
+          {
+            "cell": "B16",
+            "value": "Khuyến nghị & can thiệp",
+            "cached": null
+          },
+          {
+            "cell": "C16",
+            "value": "Decision/reason/exposure/execution/outcome.",
+            "cached": null
+          },
+          {
+            "cell": "D16",
+            "value": "Auditable recommendation + fallback.",
+            "cached": null
+          },
+          {
+            "cell": "E16",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": 12,
+            "cached": null
+          },
+          {
+            "cell": "B17",
+            "value": "Sản phẩm cho Instructor / Advisor / Admin",
+            "cached": null
+          },
+          {
+            "cell": "C17",
+            "value": "Staff workflows hoàn chỉnh.",
+            "cached": null
+          },
+          {
+            "cell": "D17",
+            "value": "Permissioned staff product.",
+            "cached": null
+          },
+          {
+            "cell": "E17",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A18",
+            "value": 13,
+            "cached": null
+          },
+          {
+            "cell": "B18",
+            "value": "Gia cố QA / Bảo mật / Privacy / Hiệu năng",
+            "cached": null
+          },
+          {
+            "cell": "C18",
+            "value": "Security/privacy/performance/backup/observability.",
+            "cached": null
+          },
+          {
+            "cell": "D18",
+            "value": "Production hardening gate.",
+            "cached": null
+          },
+          {
+            "cell": "E18",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A19",
+            "value": 14,
+            "cached": null
+          },
+          {
+            "cell": "B19",
+            "value": "Internal Alpha",
+            "cached": null
+          },
+          {
+            "cell": "C19",
+            "value": "Đội nội bộ dùng end-to-end.",
+            "cached": null
+          },
+          {
+            "cell": "D19",
+            "value": "Critical flows ổn định.",
+            "cached": null
+          },
+          {
+            "cell": "E19",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A20",
+            "value": 15,
+            "cached": null
+          },
+          {
+            "cell": "B20",
+            "value": "Closed Beta / Pilot",
+            "cached": null
+          },
+          {
+            "cell": "C20",
+            "value": "Nhóm user nhỏ dùng thật (~5 theo nguồn lực).",
+            "cached": null
+          },
+          {
+            "cell": "D20",
+            "value": "Usability/trust/reliability evidence.",
+            "cached": null
+          },
+          {
+            "cell": "E20",
+            "value": "TẠM HOÃN",
+            "cached": null
+          },
+          {
+            "cell": "F20",
+            "value": "Không claim causal efficacy.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A21",
+            "value": 16,
+            "cached": null
+          },
+          {
+            "cell": "B21",
+            "value": "Production Launch",
+            "cached": null
+          },
+          {
+            "cell": "C21",
+            "value": "Public release có rollback/monitoring/support.",
+            "cached": null
+          },
+          {
+            "cell": "D21",
+            "value": "Launch readiness pass.",
+            "cached": null
+          },
+          {
+            "cell": "E21",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A22",
+            "value": 17,
+            "cached": null
+          },
+          {
+            "cell": "B22",
+            "value": "Growth / Experimentation / Continuous Learning",
+            "cached": null
+          },
+          {
+            "cell": "C22",
+            "value": "Experiment, content growth, model/policy improvement.",
+            "cached": null
+          },
+          {
+            "cell": "D22",
+            "value": "Continuous measurement/governance.",
+            "cached": null
+          },
+          {
+            "cell": "E22",
+            "value": "TẠM HOÃN",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A25",
+            "value": "PHASE 1 — CHECKLIST ĐỒNG BỘ TỪ TASK",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A26",
+            "value": "#",
+            "cached": null
+          },
+          {
+            "cell": "B26",
+            "value": "Nhóm",
+            "cached": null
+          },
+          {
+            "cell": "C26",
+            "value": "Việc cần làm",
+            "cached": null
+          },
+          {
+            "cell": "D26",
+            "value": "PASS khi",
+            "cached": null
+          },
+          {
+            "cell": "E26",
+            "value": "Task nguồn",
+            "cached": null
+          },
+          {
+            "cell": "F26",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "G26",
+            "value": "Phụ thuộc",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A27",
+            "value": 1,
+            "cached": null
+          },
+          {
+            "cell": "B27",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C27",
+            "value": "Import exact original V3.2 completed package vào repo + provenance.",
+            "cached": null
+          },
+          {
+            "cell": "D27",
+            "value": "Exact package giữ nguyên; hash/provenance rõ.",
+            "cached": null
+          },
+          {
+            "cell": "E27",
+            "value": "P1-T001",
+            "cached": null
+          },
+          {
+            "cell": "F27",
+            "value": "=VLOOKUP(\"P1-T001\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "ĐANG LÀM"
+          }
+        ],
+        [
+          {
+            "cell": "A28",
+            "value": 2,
+            "cached": null
+          },
+          {
+            "cell": "B28",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C28",
+            "value": "Rerun original contract suite.",
+            "cached": null
+          },
+          {
+            "cell": "D28",
+            "value": "115/115 PASS.",
+            "cached": null
+          },
+          {
+            "cell": "E28",
+            "value": "P1-T002",
+            "cached": null
+          },
+          {
+            "cell": "F28",
+            "value": "=VLOOKUP(\"P1-T002\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "CHỜ"
+          },
+          {
+            "cell": "G28",
+            "value": "Bước 1",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A29",
+            "value": 3,
+            "cached": null
+          },
+          {
+            "cell": "B29",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C29",
+            "value": "Rerun original SQL suite.",
+            "cached": null
+          },
+          {
+            "cell": "D29",
+            "value": "22/22 PASS.",
+            "cached": null
+          },
+          {
+            "cell": "E29",
+            "value": "P1-T003",
+            "cached": null
+          },
+          {
+            "cell": "F29",
+            "value": "=VLOOKUP(\"P1-T003\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "CHỜ"
+          },
+          {
+            "cell": "G29",
+            "value": "Bước 1",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A30",
+            "value": 4,
+            "cached": null
+          },
+          {
+            "cell": "B30",
+            "value": "Python",
+            "cached": null
+          },
+          {
+            "cell": "C30",
+            "value": "Rerun backend bằng Python 3.12 canonical.",
+            "cached": null
+          },
+          {
+            "cell": "D30",
+            "value": "Install/Ruff/tests/API smoke PASS.",
+            "cached": null
+          },
+          {
+            "cell": "E30",
+            "value": "P1-T004",
+            "cached": null
+          },
+          {
+            "cell": "F30",
+            "value": "=VLOOKUP(\"P1-T004\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "CHỜ"
+          }
+        ],
+        [
+          {
+            "cell": "A31",
+            "value": 5,
+            "cached": null
+          },
+          {
+            "cell": "B31",
+            "value": "PostgreSQL",
+            "cached": null
+          },
+          {
+            "cell": "C31",
+            "value": "Có DB chính mingo + mingo_test + role mingo_app.",
+            "cached": null
+          },
+          {
+            "cell": "D31",
+            "value": "Kết nối an toàn; không commit secret.",
+            "cached": null
+          },
+          {
+            "cell": "E31",
+            "value": "P1-T005",
+            "cached": null
+          },
+          {
+            "cell": "F31",
+            "value": "=VLOOKUP(\"P1-T005\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          }
+        ],
+        [
+          {
+            "cell": "A32",
+            "value": 6,
+            "cached": null
+          },
+          {
+            "cell": "B32",
+            "value": "PostgreSQL",
+            "cached": null
+          },
+          {
+            "cell": "C32",
+            "value": "Run migration + 6 integration/concurrency tests.",
+            "cached": null
+          },
+          {
+            "cell": "D32",
+            "value": "6 PASS / 0 fail / 0 skip.",
+            "cached": null
+          },
+          {
+            "cell": "E32",
+            "value": "P1-T006",
+            "cached": null
+          },
+          {
+            "cell": "F32",
+            "value": "=VLOOKUP(\"P1-T006\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "G32",
+            "value": "Bước 5",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A33",
+            "value": 7,
+            "cached": null
+          },
+          {
+            "cell": "B33",
+            "value": "API/Worker",
+            "cached": null
+          },
+          {
+            "cell": "C33",
+            "value": "Boot API + worker với DB khỏe.",
+            "cached": null
+          },
+          {
+            "cell": "D33",
+            "value": "live=200, ready=200, worker probe PASS.",
+            "cached": null
+          },
+          {
+            "cell": "E33",
+            "value": "P1-T007",
+            "cached": null
+          },
+          {
+            "cell": "F33",
+            "value": "=VLOOKUP(\"P1-T007\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "G33",
+            "value": "Bước 6",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A34",
+            "value": 8,
+            "cached": null
+          },
+          {
+            "cell": "B34",
+            "value": "Flutter",
+            "cached": null
+          },
+          {
+            "cell": "C34",
+            "value": "Install Flutter 3.32.8 + Android tooling.",
+            "cached": null
+          },
+          {
+            "cell": "D34",
+            "value": "flutter doctor đủ điều kiện learner.",
+            "cached": null
+          },
+          {
+            "cell": "E34",
+            "value": "P1-T008",
+            "cached": null
+          },
+          {
+            "cell": "F34",
+            "value": "=VLOOKUP(\"P1-T008\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          }
+        ],
+        [
+          {
+            "cell": "A35",
+            "value": 9,
+            "cached": null
+          },
+          {
+            "cell": "B35",
+            "value": "Flutter learner",
+            "cached": null
+          },
+          {
+            "cell": "C35",
+            "value": "Analyze/test/build + actual Android boot.",
+            "cached": null
+          },
+          {
+            "cell": "D35",
+            "value": "App mở thật trên emulator/device.",
+            "cached": null
+          },
+          {
+            "cell": "E35",
+            "value": "P1-T009",
+            "cached": null
+          },
+          {
+            "cell": "F35",
+            "value": "=VLOOKUP(\"P1-T009\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "G35",
+            "value": "Bước 8",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A36",
+            "value": 10,
+            "cached": null
+          },
+          {
+            "cell": "B36",
+            "value": "Flutter staff",
+            "cached": null
+          },
+          {
+            "cell": "C36",
+            "value": "Analyze/test/build + actual Web boot.",
+            "cached": null
+          },
+          {
+            "cell": "D36",
+            "value": "Web app mở thật.",
+            "cached": null
+          },
+          {
+            "cell": "E36",
+            "value": "P1-T010",
+            "cached": null
+          },
+          {
+            "cell": "F36",
+            "value": "=VLOOKUP(\"P1-T010\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "G36",
+            "value": "Bước 8",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A37",
+            "value": 11,
+            "cached": null
+          },
+          {
+            "cell": "B37",
+            "value": "CI",
+            "cached": null
+          },
+          {
+            "cell": "C37",
+            "value": "Hosted remote + workflow clean checkout.",
+            "cached": null
+          },
+          {
+            "cell": "D37",
+            "value": "Backend + Flutter + V3.2 jobs xanh.",
+            "cached": null
+          },
+          {
+            "cell": "E37",
+            "value": "P1-T011",
+            "cached": null
+          },
+          {
+            "cell": "F37",
+            "value": "=VLOOKUP(\"P1-T011\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          }
+        ],
+        [
+          {
+            "cell": "A38",
+            "value": 12,
+            "cached": null
+          },
+          {
+            "cell": "B38",
+            "value": "Clean reproduce",
+            "cached": null
+          },
+          {
+            "cell": "C38",
+            "value": "Clone sạch và rerun full stack.",
+            "cached": null
+          },
+          {
+            "cell": "D38",
+            "value": "Không dựa cache/local hidden state.",
+            "cached": null
+          },
+          {
+            "cell": "E38",
+            "value": "P1-T012",
+            "cached": null
+          },
+          {
+            "cell": "F38",
+            "value": "=VLOOKUP(\"P1-T012\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)",
+            "cached": "BỊ CHẶN"
+          },
+          {
+            "cell": "G38",
+            "value": "Bước 1–11",
+            "cached": null
+          }
+        ]
+      ]
+    },
+    {
+      "sheet": "04_CONG_VIEC",
+      "nonempty_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "CÔNG VIỆC TEAM — NGUỒN TRẠNG THÁI HẰNG NGÀY",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "Đây là sheet team cập nhật thường xuyên. Không sửa mô tả công việc gốc chỉ để báo tiến độ; hãy cập nhật Trạng thái, Phụ trách, Người kiểm tra, Hạn, Việc tiếp theo, Bằng chứng và Ghi chú.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Task ID",
+            "cached": null
+          },
+          {
+            "cell": "B4",
+            "value": "Phase",
+            "cached": null
+          },
+          {
+            "cell": "C4",
+            "value": "Nhóm",
+            "cached": null
+          },
+          {
+            "cell": "D4",
+            "value": "Công việc",
+            "cached": null
+          },
+          {
+            "cell": "E4",
+            "value": "Ưu tiên",
+            "cached": null
+          },
+          {
+            "cell": "F4",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "G4",
+            "value": "Phụ trách",
+            "cached": null
+          },
+          {
+            "cell": "H4",
+            "value": "Người kiểm tra",
+            "cached": null
+          },
+          {
+            "cell": "I4",
+            "value": "Hạn hoàn thành",
+            "cached": null
+          },
+          {
+            "cell": "J4",
+            "value": "Cập nhật cuối",
+            "cached": null
+          },
+          {
+            "cell": "K4",
+            "value": "Phụ thuộc",
+            "cached": null
+          },
+          {
+            "cell": "L4",
+            "value": "Việc tiếp theo",
+            "cached": null
+          },
+          {
+            "cell": "M4",
+            "value": "Bằng chứng",
+            "cached": null
+          },
+          {
+            "cell": "N4",
+            "value": "Ghi chú team",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": "P1-T001",
+            "cached": null
+          },
+          {
+            "cell": "B5",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C5",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "D5",
+            "value": "Import V3.2 original vào canonical repo",
+            "cached": null
+          },
+          {
+            "cell": "E5",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F5",
+            "value": "ĐANG LÀM",
+            "cached": null
+          },
+          {
+            "cell": "J5",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "L5",
+            "value": "Giữ byte-exact + provenance",
+            "cached": null
+          },
+          {
+            "cell": "N5",
+            "value": "Original package đã tìm thấy.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": "P1-T002",
+            "cached": null
+          },
+          {
+            "cell": "B6",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C6",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "D6",
+            "value": "Rerun 115 contract checks",
+            "cached": null
+          },
+          {
+            "cell": "E6",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F6",
+            "value": "CHỜ",
+            "cached": null
+          },
+          {
+            "cell": "J6",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K6",
+            "value": "P1-T001",
+            "cached": null
+          },
+          {
+            "cell": "L6",
+            "value": "Run exact validator",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": "P1-T003",
+            "cached": null
+          },
+          {
+            "cell": "B7",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C7",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "D7",
+            "value": "Rerun 22 SQL checks",
+            "cached": null
+          },
+          {
+            "cell": "E7",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F7",
+            "value": "CHỜ",
+            "cached": null
+          },
+          {
+            "cell": "J7",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K7",
+            "value": "P1-T001",
+            "cached": null
+          },
+          {
+            "cell": "L7",
+            "value": "Run exact SQL suite",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": "P1-T004",
+            "cached": null
+          },
+          {
+            "cell": "B8",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C8",
+            "value": "Backend",
+            "cached": null
+          },
+          {
+            "cell": "D8",
+            "value": "Python 3.12 full backend verification",
+            "cached": null
+          },
+          {
+            "cell": "E8",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F8",
+            "value": "CHỜ",
+            "cached": null
+          },
+          {
+            "cell": "J8",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "L8",
+            "value": "Install/verify Python 3.12 + rerun",
+            "cached": null
+          },
+          {
+            "cell": "N8",
+            "value": "3.14.7 result kept as compatibility evidence only.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A9",
+            "value": "P1-T005",
+            "cached": null
+          },
+          {
+            "cell": "B9",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C9",
+            "value": "Database",
+            "cached": null
+          },
+          {
+            "cell": "D9",
+            "value": "Provision/access mingo + mingo_test",
+            "cached": null
+          },
+          {
+            "cell": "E9",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F9",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J9",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "L9",
+            "value": "Cần PostgreSQL authenticated role/session",
+            "cached": null
+          },
+          {
+            "cell": "N9",
+            "value": "Không lưu password trong workbook.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": "P1-T006",
+            "cached": null
+          },
+          {
+            "cell": "B10",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C10",
+            "value": "Database",
+            "cached": null
+          },
+          {
+            "cell": "D10",
+            "value": "Migration + six DB tests",
+            "cached": null
+          },
+          {
+            "cell": "E10",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F10",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J10",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K10",
+            "value": "P1-T005",
+            "cached": null
+          },
+          {
+            "cell": "L10",
+            "value": "Run migrations + DB suite on mingo_test",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A11",
+            "value": "P1-T007",
+            "cached": null
+          },
+          {
+            "cell": "B11",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C11",
+            "value": "API/Worker",
+            "cached": null
+          },
+          {
+            "cell": "D11",
+            "value": "ready=200 + worker probe",
+            "cached": null
+          },
+          {
+            "cell": "E11",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F11",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J11",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K11",
+            "value": "P1-T006",
+            "cached": null
+          },
+          {
+            "cell": "L11",
+            "value": "Boot API/worker và lưu log/HTTP evidence",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A12",
+            "value": "P1-T008",
+            "cached": null
+          },
+          {
+            "cell": "B12",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C12",
+            "value": "Flutter",
+            "cached": null
+          },
+          {
+            "cell": "D12",
+            "value": "Install pinned Flutter 3.32.8 + Android tooling",
+            "cached": null
+          },
+          {
+            "cell": "E12",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F12",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J12",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "L12",
+            "value": "Install toolchain + flutter doctor",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A13",
+            "value": "P1-T009",
+            "cached": null
+          },
+          {
+            "cell": "B13",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C13",
+            "value": "Flutter learner",
+            "cached": null
+          },
+          {
+            "cell": "D13",
+            "value": "Analyze/test/build + actual Android boot",
+            "cached": null
+          },
+          {
+            "cell": "E13",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F13",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J13",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K13",
+            "value": "P1-T008",
+            "cached": null
+          },
+          {
+            "cell": "L13",
+            "value": "Run trên emulator/device; lưu bằng chứng",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A14",
+            "value": "P1-T010",
+            "cached": null
+          },
+          {
+            "cell": "B14",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C14",
+            "value": "Flutter staff",
+            "cached": null
+          },
+          {
+            "cell": "D14",
+            "value": "Analyze/test/build + actual Web boot",
+            "cached": null
+          },
+          {
+            "cell": "E14",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F14",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J14",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K14",
+            "value": "P1-T008",
+            "cached": null
+          },
+          {
+            "cell": "L14",
+            "value": "Run Chrome; lưu bằng chứng",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A15",
+            "value": "P1-T011",
+            "cached": null
+          },
+          {
+            "cell": "B15",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C15",
+            "value": "CI",
+            "cached": null
+          },
+          {
+            "cell": "D15",
+            "value": "Hosted CI green",
+            "cached": null
+          },
+          {
+            "cell": "E15",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F15",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J15",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "L15",
+            "value": "Cần hosted Git remote; push main và chạy workflow",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A16",
+            "value": "P1-T012",
+            "cached": null
+          },
+          {
+            "cell": "B16",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "C16",
+            "value": "QA",
+            "cached": null
+          },
+          {
+            "cell": "D16",
+            "value": "Full clean reproduction",
+            "cached": null
+          },
+          {
+            "cell": "E16",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "F16",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "J16",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K16",
+            "value": "P1-T001..P1-T011",
+            "cached": null
+          },
+          {
+            "cell": "L16",
+            "value": "Fresh clone; không dùng cache/local hidden state",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": "P2-T001",
+            "cached": null
+          },
+          {
+            "cell": "B17",
+            "value": "P2",
+            "cached": null
+          },
+          {
+            "cell": "C17",
+            "value": "UX/UI",
+            "cached": null
+          },
+          {
+            "cell": "D17",
+            "value": "Chỉ lập Phase 2 contract sau khi Phase 1 PASS",
+            "cached": null
+          },
+          {
+            "cell": "E17",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "F17",
+            "value": "TẠM HOÃN",
+            "cached": null
+          },
+          {
+            "cell": "J17",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "K17",
+            "value": "Phase 1 XONG",
+            "cached": null
+          },
+          {
+            "cell": "L17",
+            "value": "Không start implementation sớm",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A20",
+            "value": "Cách cập nhật: 1) chọn Trạng thái → 2) điền Phụ trách/Người kiểm tra → 3) ghi Việc tiếp theo → 4) khi XONG phải điền Bằng chứng → 5) cập nhật ngày Cập nhật cuối.",
+            "cached": null
+          }
+        ]
+      ]
+    },
+    {
+      "sheet": "05_VAN_DE_THAY_DOI",
+      "nonempty_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "VẤN ĐỀ / ĐỀ NGHỊ THAY ĐỔI / GHI CHÚ",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "Phân biệt rõ: VẤN ĐỀ = lỗi/blocker kỹ thuật; ĐỀ NGHỊ THAY ĐỔI = muốn đổi nội dung đã chốt; GHI CHÚ = thảo luận/action bình thường.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "A. VẤN ĐỀ (ISSUE)",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": "ID",
+            "cached": null
+          },
+          {
+            "cell": "B5",
+            "value": "Tên vấn đề",
+            "cached": null
+          },
+          {
+            "cell": "C5",
+            "value": "Mô tả",
+            "cached": null
+          },
+          {
+            "cell": "D5",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "E5",
+            "value": "Ưu tiên",
+            "cached": null
+          },
+          {
+            "cell": "F5",
+            "value": "Phụ trách",
+            "cached": null
+          },
+          {
+            "cell": "G5",
+            "value": "Task liên quan",
+            "cached": null
+          },
+          {
+            "cell": "H5",
+            "value": "Cách xử lý",
+            "cached": null
+          },
+          {
+            "cell": "I5",
+            "value": "Bằng chứng / Commit",
+            "cached": null
+          },
+          {
+            "cell": "J5",
+            "value": "Cập nhật cuối",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": "II-01",
+            "cached": null
+          },
+          {
+            "cell": "B6",
+            "value": "V3.2 original",
+            "cached": null
+          },
+          {
+            "cell": "C6",
+            "value": "Original package đã tìm được nhưng chưa import/rerun trong canonical repo.",
+            "cached": null
+          },
+          {
+            "cell": "D6",
+            "value": "TÌM THẤY / CHỜ CHẠY LẠI",
+            "cached": null
+          },
+          {
+            "cell": "E6",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "G6",
+            "value": "P1-T001..T003",
+            "cached": null
+          },
+          {
+            "cell": "H6",
+            "value": "Import exact package + rerun 115+22.",
+            "cached": null
+          },
+          {
+            "cell": "J6",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": "II-02",
+            "cached": null
+          },
+          {
+            "cell": "B7",
+            "value": "Hypothesis vs rule đã chốt",
+            "cached": null
+          },
+          {
+            "cell": "C7",
+            "value": "MVP learning hypothesis có thể bị hiểu nhầm thành architecture/scoring invariant.",
+            "cached": null
+          },
+          {
+            "cell": "D7",
+            "value": "MỞ",
+            "cached": null
+          },
+          {
+            "cell": "E7",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "H7",
+            "value": "Giữ phân loại rõ ở 02_SAN_PHAM; thay rule nền tảng phải có CR.",
+            "cached": null
+          },
+          {
+            "cell": "J7",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": "II-03",
+            "cached": null
+          },
+          {
+            "cell": "B8",
+            "value": "Listening replay authority",
+            "cached": null
+          },
+          {
+            "cell": "C8",
+            "value": "Client playback telemetry không chứng minh true listen/canonical score.",
+            "cached": null
+          },
+          {
+            "cell": "D8",
+            "value": "MỞ",
+            "cached": null
+          },
+          {
+            "cell": "E8",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "H8",
+            "value": "Map exact V3.2 contract; giữ server authority.",
+            "cached": null
+          },
+          {
+            "cell": "J8",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A9",
+            "value": "II-04",
+            "cached": null
+          },
+          {
+            "cell": "B9",
+            "value": "PostgreSQL runtime",
+            "cached": null
+          },
+          {
+            "cell": "C9",
+            "value": "DB tests/migrations/worker/readiness chưa proven.",
+            "cached": null
+          },
+          {
+            "cell": "D9",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "E9",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "G9",
+            "value": "P1-T005..T007",
+            "cached": null
+          },
+          {
+            "cell": "H9",
+            "value": "Có DB access rồi chạy runtime verification.",
+            "cached": null
+          },
+          {
+            "cell": "J9",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": "II-05",
+            "cached": null
+          },
+          {
+            "cell": "B10",
+            "value": "Flutter runtime",
+            "cached": null
+          },
+          {
+            "cell": "C10",
+            "value": "Chưa có toolchain/actual boot evidence.",
+            "cached": null
+          },
+          {
+            "cell": "D10",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "E10",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "G10",
+            "value": "P1-T008..T010",
+            "cached": null
+          },
+          {
+            "cell": "H10",
+            "value": "Install pinned Flutter/Android + run.",
+            "cached": null
+          },
+          {
+            "cell": "J10",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A11",
+            "value": "II-06",
+            "cached": null
+          },
+          {
+            "cell": "B11",
+            "value": "Hosted CI",
+            "cached": null
+          },
+          {
+            "cell": "C11",
+            "value": "Chưa có hosted remote/run evidence.",
+            "cached": null
+          },
+          {
+            "cell": "D11",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "E11",
+            "value": "P0",
+            "cached": null
+          },
+          {
+            "cell": "G11",
+            "value": "P1-T011",
+            "cached": null
+          },
+          {
+            "cell": "H11",
+            "value": "Configure remote and run workflow.",
+            "cached": null
+          },
+          {
+            "cell": "J11",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A12",
+            "value": "II-07",
+            "cached": null
+          },
+          {
+            "cell": "B12",
+            "value": "Old package layout mismatch",
+            "cached": null
+          },
+          {
+            "cell": "C12",
+            "value": "Source/full-pack path mismatch trong handoff cũ.",
+            "cached": null
+          },
+          {
+            "cell": "D12",
+            "value": "ĐÃ GIẢI QUYẾT",
+            "cached": null
+          },
+          {
+            "cell": "E12",
+            "value": "P2",
+            "cached": null
+          },
+          {
+            "cell": "H12",
+            "value": "Canonical layout/provenance đã xử lý.",
+            "cached": null
+          },
+          {
+            "cell": "I12",
+            "value": "fc6e40e",
+            "cached": null
+          },
+          {
+            "cell": "J12",
+            "value": "2026-09-24 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A13",
+            "value": "II-08",
+            "cached": null
+          },
+          {
+            "cell": "B13",
+            "value": "Detached HEAD bundle",
+            "cached": null
+          },
+          {
+            "cell": "C13",
+            "value": "Bundle cũ clone ra detached HEAD.",
+            "cached": null
+          },
+          {
+            "cell": "D13",
+            "value": "ĐÃ GIẢI QUYẾT",
+            "cached": null
+          },
+          {
+            "cell": "E13",
+            "value": "P2",
+            "cached": null
+          },
+          {
+            "cell": "H13",
+            "value": "Canonical named main bundle đã xử lý.",
+            "cached": null
+          },
+          {
+            "cell": "I13",
+            "value": "fc6e40e",
+            "cached": null
+          },
+          {
+            "cell": "J13",
+            "value": "2026-09-24 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A14",
+            "value": "II-09",
+            "cached": null
+          },
+          {
+            "cell": "B14",
+            "value": "Windows object storage",
+            "cached": null
+          },
+          {
+            "cell": "C14",
+            "value": "Windows path/fsync portability issue.",
+            "cached": null
+          },
+          {
+            "cell": "D14",
+            "value": "ĐÃ GIẢI QUYẾT",
+            "cached": null
+          },
+          {
+            "cell": "E14",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "H14",
+            "value": "Fix + rerun evidence.",
+            "cached": null
+          },
+          {
+            "cell": "I14",
+            "value": "51b741e",
+            "cached": null
+          },
+          {
+            "cell": "J14",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": "B. ĐỀ NGHỊ THAY ĐỔI (CHANGE REQUEST) — chỉ dùng khi muốn đổi nội dung ĐÃ CHỐT",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A18",
+            "value": "CR ID",
+            "cached": null
+          },
+          {
+            "cell": "B18",
+            "value": "Ngày",
+            "cached": null
+          },
+          {
+            "cell": "C18",
+            "value": "Người đề nghị",
+            "cached": null
+          },
+          {
+            "cell": "D18",
+            "value": "Nội dung muốn đổi",
+            "cached": null
+          },
+          {
+            "cell": "E18",
+            "value": "Lý do",
+            "cached": null
+          },
+          {
+            "cell": "F18",
+            "value": "Ảnh hưởng",
+            "cached": null
+          },
+          {
+            "cell": "G18",
+            "value": "Kế hoạch test/migration",
+            "cached": null
+          },
+          {
+            "cell": "H18",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "I18",
+            "value": "Người duyệt",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A26",
+            "value": "C. GHI CHÚ / ACTION",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A27",
+            "value": "Note ID",
+            "cached": null
+          },
+          {
+            "cell": "B27",
+            "value": "Ngày",
+            "cached": null
+          },
+          {
+            "cell": "C27",
+            "value": "Phase",
+            "cached": null
+          },
+          {
+            "cell": "D27",
+            "value": "Chủ đề",
+            "cached": null
+          },
+          {
+            "cell": "E27",
+            "value": "Nội dung",
+            "cached": null
+          },
+          {
+            "cell": "F27",
+            "value": "Việc cần làm",
+            "cached": null
+          },
+          {
+            "cell": "G27",
+            "value": "Phụ trách",
+            "cached": null
+          },
+          {
+            "cell": "H27",
+            "value": "Hạn",
+            "cached": null
+          },
+          {
+            "cell": "I27",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "J27",
+            "value": "Liên kết",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A28",
+            "value": "NOTE-001",
+            "cached": null
+          },
+          {
+            "cell": "B28",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "C28",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "D28",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "E28",
+            "value": "Original completed package đã được cung cấp sau khi trước đó repo không có.",
+            "cached": null
+          },
+          {
+            "cell": "F28",
+            "value": "Import/rerun original suites.",
+            "cached": null
+          },
+          {
+            "cell": "I28",
+            "value": "ĐANG LÀM",
+            "cached": null
+          },
+          {
+            "cell": "J28",
+            "value": "P1-T001 / II-01",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A29",
+            "value": "NOTE-002",
+            "cached": null
+          },
+          {
+            "cell": "B29",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "C29",
+            "value": "P1",
+            "cached": null
+          },
+          {
+            "cell": "D29",
+            "value": "Database",
+            "cached": null
+          },
+          {
+            "cell": "E29",
+            "value": "Không chia DB theo phase.",
+            "cached": null
+          },
+          {
+            "cell": "F29",
+            "value": "Dùng mingo + mingo_test + role mingo_app.",
+            "cached": null
+          },
+          {
+            "cell": "I29",
+            "value": "ĐANG LÀM",
+            "cached": null
+          },
+          {
+            "cell": "J29",
+            "value": "Database decision",
+            "cached": null
+          }
+        ]
+      ]
+    },
+    {
+      "sheet": "06_BANG_CHUNG",
+      "nonempty_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "BẰNG CHỨNG TEST / RUNTIME / CI",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "PASS LỊCH SỬ = kết quả có trong package cũ. PASS = đã có bằng chứng trong phạm vi hiện tại. CHỜ CHẠY = cần rerun. BỊ CHẶN = chưa thể chạy vì dependency.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "ID",
+            "cached": null
+          },
+          {
+            "cell": "B4",
+            "value": "Khu vực",
+            "cached": null
+          },
+          {
+            "cell": "C4",
+            "value": "Kiểm tra",
+            "cached": null
+          },
+          {
+            "cell": "D4",
+            "value": "Kết quả quan sát",
+            "cached": null
+          },
+          {
+            "cell": "E4",
+            "value": "Trạng thái",
+            "cached": null
+          },
+          {
+            "cell": "F4",
+            "value": "Ngày",
+            "cached": null
+          },
+          {
+            "cell": "G4",
+            "value": "Nguồn",
+            "cached": null
+          },
+          {
+            "cell": "H4",
+            "value": "Phạm vi / Giới hạn",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": "E01",
+            "cached": null
+          },
+          {
+            "cell": "B5",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C5",
+            "value": "Package provenance",
+            "cached": null
+          },
+          {
+            "cell": "D5",
+            "value": "Exact completed package + hash lineage đã tìm thấy.",
+            "cached": null
+          },
+          {
+            "cell": "E5",
+            "value": "PASS",
+            "cached": null
+          },
+          {
+            "cell": "F5",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G5",
+            "value": "Artifact audit",
+            "cached": null
+          },
+          {
+            "cell": "H5",
+            "value": "Phase 0 provenance.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": "E02",
+            "cached": null
+          },
+          {
+            "cell": "B6",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C6",
+            "value": "Contract packaged validation",
+            "cached": null
+          },
+          {
+            "cell": "D6",
+            "value": "115 PASS / 0 FAIL trong original package.",
+            "cached": null
+          },
+          {
+            "cell": "E6",
+            "value": "PASS LỊCH SỬ",
+            "cached": null
+          },
+          {
+            "cell": "F6",
+            "value": "2026-09-15 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G6",
+            "value": "V3.2 package",
+            "cached": null
+          },
+          {
+            "cell": "H6",
+            "value": "Không đồng nghĩa đã rerun trong canonical Mingo.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": "E03",
+            "cached": null
+          },
+          {
+            "cell": "B7",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C7",
+            "value": "SQL packaged validation",
+            "cached": null
+          },
+          {
+            "cell": "D7",
+            "value": "22 PASS / 0 FAIL trong original package.",
+            "cached": null
+          },
+          {
+            "cell": "E7",
+            "value": "PASS LỊCH SỬ",
+            "cached": null
+          },
+          {
+            "cell": "F7",
+            "value": "2026-09-15 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G7",
+            "value": "V3.2 package",
+            "cached": null
+          },
+          {
+            "cell": "H7",
+            "value": "PGlite packaged evidence; native concurrency là gate khác.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": "E04",
+            "cached": null
+          },
+          {
+            "cell": "B8",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C8",
+            "value": "Canonical contract rerun",
+            "cached": null
+          },
+          {
+            "cell": "D8",
+            "value": "Chưa chạy exact 115 checks trong canonical Mingo.",
+            "cached": null
+          },
+          {
+            "cell": "E8",
+            "value": "CHỜ CHẠY",
+            "cached": null
+          },
+          {
+            "cell": "F8",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G8",
+            "value": "P1-T002",
+            "cached": null
+          },
+          {
+            "cell": "H8",
+            "value": "Cần import original + requirements.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A9",
+            "value": "E05",
+            "cached": null
+          },
+          {
+            "cell": "B9",
+            "value": "V3.2",
+            "cached": null
+          },
+          {
+            "cell": "C9",
+            "value": "Canonical SQL rerun",
+            "cached": null
+          },
+          {
+            "cell": "D9",
+            "value": "Chưa chạy exact 22 SQL checks trong canonical Mingo.",
+            "cached": null
+          },
+          {
+            "cell": "E9",
+            "value": "CHỜ CHẠY",
+            "cached": null
+          },
+          {
+            "cell": "F9",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G9",
+            "value": "P1-T003",
+            "cached": null
+          },
+          {
+            "cell": "H9",
+            "value": "Cần import original + npm setup.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": "E06",
+            "cached": null
+          },
+          {
+            "cell": "B10",
+            "value": "Backend",
+            "cached": null
+          },
+          {
+            "cell": "C10",
+            "value": "Windows focused verification",
+            "cached": null
+          },
+          {
+            "cell": "D10",
+            "value": "Locked install + Ruff + 9 tests pass.",
+            "cached": null
+          },
+          {
+            "cell": "E10",
+            "value": "PASS",
+            "cached": null
+          },
+          {
+            "cell": "F10",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G10",
+            "value": "Mingo evidence",
+            "cached": null
+          },
+          {
+            "cell": "H10",
+            "value": "6 DB + 1 symlink skipped; final Python 3.12 rerun pending.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A11",
+            "value": "E07",
+            "cached": null
+          },
+          {
+            "cell": "B11",
+            "value": "API",
+            "cached": null
+          },
+          {
+            "cell": "C11",
+            "value": "Liveness",
+            "cached": null
+          },
+          {
+            "cell": "D11",
+            "value": "HTTP 200.",
+            "cached": null
+          },
+          {
+            "cell": "E11",
+            "value": "PASS",
+            "cached": null
+          },
+          {
+            "cell": "F11",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G11",
+            "value": "Mingo evidence",
+            "cached": null
+          },
+          {
+            "cell": "H11",
+            "value": "API process boot proven.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A12",
+            "value": "E08",
+            "cached": null
+          },
+          {
+            "cell": "B12",
+            "value": "API",
+            "cached": null
+          },
+          {
+            "cell": "C12",
+            "value": "Readiness",
+            "cached": null
+          },
+          {
+            "cell": "D12",
+            "value": "HTTP 503 khi chưa có DB.",
+            "cached": null
+          },
+          {
+            "cell": "E12",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "F12",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G12",
+            "value": "Mingo evidence",
+            "cached": null
+          },
+          {
+            "cell": "H12",
+            "value": "Phải trở thành 200 khi DB healthy.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A13",
+            "value": "E09",
+            "cached": null
+          },
+          {
+            "cell": "B13",
+            "value": "Clean clone",
+            "cached": null
+          },
+          {
+            "cell": "C13",
+            "value": "Backend-only",
+            "cached": null
+          },
+          {
+            "cell": "D13",
+            "value": "Backend clean clone verification pass.",
+            "cached": null
+          },
+          {
+            "cell": "E13",
+            "value": "PASS",
+            "cached": null
+          },
+          {
+            "cell": "F13",
+            "value": "2026-09-26 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G13",
+            "value": "51b741e",
+            "cached": null
+          },
+          {
+            "cell": "H13",
+            "value": "Không phải full-stack reproduction.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A14",
+            "value": "E10",
+            "cached": null
+          },
+          {
+            "cell": "B14",
+            "value": "PostgreSQL",
+            "cached": null
+          },
+          {
+            "cell": "C14",
+            "value": "6 integration/concurrency tests",
+            "cached": null
+          },
+          {
+            "cell": "D14",
+            "value": "Chưa chạy trên disposable test DB thật.",
+            "cached": null
+          },
+          {
+            "cell": "E14",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "F14",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G14",
+            "value": "P1-T006",
+            "cached": null
+          },
+          {
+            "cell": "H14",
+            "value": "Cần mingo_test.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A15",
+            "value": "E11",
+            "cached": null
+          },
+          {
+            "cell": "B15",
+            "value": "Worker",
+            "cached": null
+          },
+          {
+            "cell": "C15",
+            "value": "DB probe/runtime",
+            "cached": null
+          },
+          {
+            "cell": "D15",
+            "value": "Chưa proven.",
+            "cached": null
+          },
+          {
+            "cell": "E15",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "F15",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G15",
+            "value": "P1-T007",
+            "cached": null
+          },
+          {
+            "cell": "H15",
+            "value": "Cần DB.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A16",
+            "value": "E12",
+            "cached": null
+          },
+          {
+            "cell": "B16",
+            "value": "Flutter learner",
+            "cached": null
+          },
+          {
+            "cell": "C16",
+            "value": "Analyze/test/build/Android boot",
+            "cached": null
+          },
+          {
+            "cell": "D16",
+            "value": "Chưa chạy.",
+            "cached": null
+          },
+          {
+            "cell": "E16",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "F16",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G16",
+            "value": "P1-T009",
+            "cached": null
+          },
+          {
+            "cell": "H16",
+            "value": "Toolchain chưa có.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": "E13",
+            "cached": null
+          },
+          {
+            "cell": "B17",
+            "value": "Flutter staff",
+            "cached": null
+          },
+          {
+            "cell": "C17",
+            "value": "Analyze/test/build/Web boot",
+            "cached": null
+          },
+          {
+            "cell": "D17",
+            "value": "Chưa chạy.",
+            "cached": null
+          },
+          {
+            "cell": "E17",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "F17",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G17",
+            "value": "P1-T010",
+            "cached": null
+          },
+          {
+            "cell": "H17",
+            "value": "Toolchain chưa có.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A18",
+            "value": "E14",
+            "cached": null
+          },
+          {
+            "cell": "B18",
+            "value": "Hosted CI",
+            "cached": null
+          },
+          {
+            "cell": "C18",
+            "value": "Workflow execution",
+            "cached": null
+          },
+          {
+            "cell": "D18",
+            "value": "Chưa có hosted run.",
+            "cached": null
+          },
+          {
+            "cell": "E18",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "F18",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G18",
+            "value": "P1-T011",
+            "cached": null
+          },
+          {
+            "cell": "H18",
+            "value": "Chưa có remote.",
+            "cached": null
+          }
+        ],
+        [
+          {
+            "cell": "A19",
+            "value": "E15",
+            "cached": null
+          },
+          {
+            "cell": "B19",
+            "value": "Clean reproduce",
+            "cached": null
+          },
+          {
+            "cell": "C19",
+            "value": "Full stack",
+            "cached": null
+          },
+          {
+            "cell": "D19",
+            "value": "Chưa verify.",
+            "cached": null
+          },
+          {
+            "cell": "E19",
+            "value": "BỊ CHẶN",
+            "cached": null
+          },
+          {
+            "cell": "F19",
+            "value": "2026-09-27 00:00:00",
+            "cached": null
+          },
+          {
+            "cell": "G19",
+            "value": "P1-T012",
+            "cached": null
+          },
+          {
+            "cell": "H19",
+            "value": "Cần các gate trước.",
+            "cached": null
+          }
+        ]
+      ]
+    }
+  ]
+}

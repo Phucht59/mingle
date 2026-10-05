@@ -1,0 +1,44 @@
+--------- beginning of main
+09-26 22:14:51.471  4294  4294 I daptive_learner: Late-enabling -Xcheck:jni
+09-26 22:14:51.506  4294  4294 I daptive_learner: Using CollectorTypeCMC GC.
+09-26 22:14:51.523  4294  4294 W daptive_learner: Unexpected CPU variant for x86: x86_64.
+09-26 22:14:51.523  4294  4294 W daptive_learner: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+09-26 22:14:51.581  4294  4294 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-26 22:14:51.691  4294  4294 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-26 22:14:51.692  4294  4294 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-26 22:14:51.695  4294  4294 W ziparchive: Unable to open '/data/app/~~oOUHGBalmEGjp0WHwdZCUA==/com.example.adaptive_learner-cy6bSimbgtJ_rxgQLQQ61A==/base.dm': No such file or directory
+09-26 22:14:51.697  4294  4294 W ziparchive: Unable to open '/data/app/~~oOUHGBalmEGjp0WHwdZCUA==/com.example.adaptive_learner-cy6bSimbgtJ_rxgQLQQ61A==/base.dm': No such file or directory
+09-26 22:14:52.045  4294  4294 D nativeloader: Configuring clns-7 for other apk /data/app/~~oOUHGBalmEGjp0WHwdZCUA==/com.example.adaptive_learner-cy6bSimbgtJ_rxgQLQQ61A==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~oOUHGBalmEGjp0WHwdZCUA==/com.example.adaptive_learner-cy6bSimbgtJ_rxgQLQQ61A==/lib/x86_64:/data/app/~~oOUHGBalmEGjp0WHwdZCUA==/com.example.adaptive_learner-cy6bSimbgtJ_rxgQLQQ61A==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.adaptive_learner
+09-26 22:14:52.057  4294  4294 D CompatChangeReporter: Compat change id reported: 202956589; UID 10209; state: ENABLED
+09-26 22:14:52.082  4294  4294 V GraphicsEnvironment: Currently set values for:
+09-26 22:14:52.082  4294  4294 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-26 22:14:52.082  4294  4294 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-26 22:14:52.082  4294  4294 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+09-26 22:14:52.083  4294  4294 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-26 22:14:52.502  4294  4338 I ResourceExtractor: Resource version mismatch res_timestamp-1-1790435690603
+09-26 22:14:52.675  4294  4337 D nativeloader: Load /data/app/~~oOUHGBalmEGjp0WHwdZCUA==/com.example.adaptive_learner-cy6bSimbgtJ_rxgQLQQ61A==/lib/x86_64/libflutter.so using ns clns-7 from class loader (caller=/data/app/~~oOUHGBalmEGjp0WHwdZCUA==/com.example.adaptive_learner-cy6bSimbgtJ_rxgQLQQ61A==/base.apk): ok
+09-26 22:14:52.943  4294  4338 I ResourceExtractor: Extracted baseline resource assets/flutter_assets/kernel_blob.bin
+09-26 22:14:52.946  4294  4338 I ResourceExtractor: Extracted baseline resource assets/flutter_assets/vm_snapshot_data
+09-26 22:14:53.018  4294  4338 I ResourceExtractor: Extracted baseline resource assets/flutter_assets/isolate_snapshot_data
+09-26 22:14:53.104  4294  4294 W daptive_learner: type=1400 audit(0.0:66): avc:  denied  { read } for  name="max_map_count" dev="proc" ino=27336 scontext=u:r:untrusted_app:s0:c209,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=com.example.adaptive_learner
+09-26 22:14:53.120  4294  4294 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+09-26 22:14:53.121  4294  4294 I EGL_emulation: Opening libGLESv2_emulation.so
+09-26 22:14:53.166  4294  4294 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(94)] Using the Impeller rendering backend (OpenGLES).
+09-26 22:14:53.344  4294  4347 I flutter : The Dart VM service is listening on http://127.0.0.1:43403/DBXiCI1tVt4=/
+09-26 22:14:53.628  4294  4294 W daptive_learner: Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->getSourceNodeId()J (unsupported,test-api, reflection, allowed)
+09-26 22:14:53.628  4294  4294 W daptive_learner: Accessing hidden method Landroid/view/accessibility/AccessibilityRecord;->getSourceNodeId()J (unsupported, reflection, allowed)
+09-26 22:14:53.629  4294  4294 W daptive_learner: Accessing hidden field Landroid/view/accessibility/AccessibilityNodeInfo;->mChildNodeIds:Landroid/util/LongArray; (unsupported, reflection, allowed)
+09-26 22:14:53.629  4294  4294 W daptive_learner: Accessing hidden method Landroid/util/LongArray;->get(I)J (unsupported, reflection, allowed)
+09-26 22:14:53.677  4294  4294 D CompatChangeReporter: Compat change id reported: 279646685; UID 10209; state: ENABLED
+09-26 22:14:53.680  4294  4294 D CompatChangeReporter: Compat change id reported: 309578419; UID 10209; state: ENABLED
+09-26 22:14:53.705  4294  4294 W HWUI    : Unknown dataspace 0
+09-26 22:14:54.939  4294  4294 I Choreographer: Skipped 166 frames!  The application may be doing too much work on its main thread.
+09-26 22:14:54.988  4294  4298 I daptive_learner: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+09-26 22:14:54.998  4294  4294 I WindowExtensionsImpl: Initializing Window Extensions, vendor API level=6, activity embedding enabled=true
+09-26 22:14:55.107  4294  4333 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-26 22:14:55.183  4294  4340 I Gralloc4: mapper 4.x is not supported
+09-26 22:14:55.906  4294  4294 I Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+09-26 22:15:00.749  4294  4364 D ProfileInstaller: Installing profile for com.example.adaptive_learner
+09-26 22:15:17.434  4294  4340 D EGL_emulation: app_time_stats: avg=7102.03ms min=15.93ms max=21272.25ms count=3
+09-26 22:15:18.562  4294  4340 D EGL_emulation: app_time_stats: avg=1127.24ms min=1127.24ms max=1127.24ms count=1
+09-26 22:15:18.639  4294  4333 D EGL_emulation: app_time_stats: avg=11150.85ms min=1209.03ms max=21092.67ms count=2

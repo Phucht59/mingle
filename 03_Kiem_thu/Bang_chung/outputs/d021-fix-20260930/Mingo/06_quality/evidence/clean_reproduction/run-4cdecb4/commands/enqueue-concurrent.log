@@ -1,0 +1,5 @@
+UTC: 2026-09-26T15:07:46.856199+00:00
+Command: C:\Mingo\.local\clean-reproduction-20260926\.venv\Scripts\python.exe -m all_foundation.cli enqueue-probe --key clean-concurrent
+{"job_id": "345fe1d8-1bde-4658-a030-d3b5b396d877"}
+
+Exit code: 0

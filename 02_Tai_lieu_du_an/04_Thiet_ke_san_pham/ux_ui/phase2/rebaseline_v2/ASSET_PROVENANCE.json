@@ -1,0 +1,52 @@
+{
+  "created": "2026-10-01",
+  "assets": [
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/mascot.png",
+      "sha256": "cd6caaa4ce066198e2921f64a040b1a8c486e7f40d41fa1e2bf34e17979df168",
+      "source": "OpenAI built-in image_gen; original creation/reference edit; generated originals preserved",
+      "usage": "locally bundled presentation asset; human brand/license review pending"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/exploration.png",
+      "sha256": "6bd66c6d3aced8d284d17d48f6b51165938e278355c6d0af906c5dd9b5ac2983",
+      "source": "OpenAI built-in image_gen; original creation/reference edit; generated originals preserved",
+      "usage": "locally bundled presentation asset; human brand/license review pending"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/fonts/Inter.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "source": "Google Fonts official google/fonts ofl/inter (OFL1.1)",
+      "usage": "locally bundled presentation asset; human brand/license review pending"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/fonts/OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "source": "Google Fonts official google/fonts ofl/inter (OFL1.1)",
+      "usage": "locally bundled presentation asset; human brand/license review pending"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/hello.ogg",
+      "sha256": "ade8485f1cfd454e27ec1bb93cc0234d3187b2507230f72e96f46ac686e82972",
+      "sha1": "4cda0527da53ae7534968dcba6ec986c243ff072",
+      "source": "https://commons.wikimedia.org/wiki/File:En-us-hello.ogg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/En-us-hello.ogg",
+      "author": "Dvortygirl",
+      "created": "2005-08-13",
+      "license": "Public domain / PD-self, as declared by author on Commons",
+      "capture_date": "2026-10-01",
+      "usage": "Unmodified9036byte locally bundled pronunciation sample; not user speech or assessment evidence"
+    }
+  ],
+  "prompts": {
+    "mascot": "Original calm caramel3Dcapybara,bluebackpack/notebook,fullbody,transparent,notext/logos/confetti",
+    "hero": "Samecharacteridentity,quietriver-valleyandvillage,map,seatedrightthird,landscape3:2,opaque,negativespace,notextUI"
+  },
+  "tool": "image_gen.imagegen",
+  "reference": "Generated original mascot master; owner screenshots provide direction only",
+  "original_generated_files": [
+    "exec-32be010d-81a0-4b29-9ddd-f917a15dfc22.png",
+    "exec-4c1fb3fe-4af0-4606-83aa-d6872ff356b1.png"
+  ],
+  "no_Apple_assets": true
+}

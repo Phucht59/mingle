@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "grammar_L-021_isolatedDiff.png",
+    "SHA256": "a45082dde6c28748c29a472e6ae5d6d4e36eb1eba465e65a30d966626a59d8bf"
+  },
+  {
+    "Name": "grammar_L-021_maskedDiff.png",
+    "SHA256": "c5fdfd5982563b33e11a851d6f17ef2014e05200b95a0df939f28a7920f3771f"
+  },
+  {
+    "Name": "grammar_L-021_masterImage.png",
+    "SHA256": "4b95316d2843b183c7e21c6b0f86465a8feaf99296a6d0d01ceed6778745e0ce"
+  },
+  {
+    "Name": "grammar_L-021_testImage.png",
+    "SHA256": "26f19f8aafe42081a794a2a7ab44bb7277a35afa9b4653ba46f39af148b05dde"
+  }
+]

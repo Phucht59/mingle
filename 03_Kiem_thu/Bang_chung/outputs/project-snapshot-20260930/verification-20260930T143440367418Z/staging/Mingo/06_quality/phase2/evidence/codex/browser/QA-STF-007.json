@@ -1,0 +1,53 @@
+{
+  "id": "QA-STF-007",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-09-27T14:58:44.064Z",
+  "ended": "2026-09-27T14:58:44.480Z",
+  "expected": "Copy explains immutable new revision; destructive ambiguity is avoided.",
+  "steps": [
+    "Click: Staff",
+    "Click: Content",
+    "Click: Create draft",
+    "Click: Submit for review",
+    "Click: Open source & license",
+    "Click: Mark verified for prototype",
+    "Click: Approve",
+    "Click: Approve",
+    "Click: Cancel"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nREVIEW QUEUE\nContent review\n← Content\nBasic greetings · Draft 4\n\nEditorial checks complete.\n\nLicense: Verified\n\nPublish remains blocked until provenance/license requirements pass.\n\nRequest changes\nOpen source & license\nApprove",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "review",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": true,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

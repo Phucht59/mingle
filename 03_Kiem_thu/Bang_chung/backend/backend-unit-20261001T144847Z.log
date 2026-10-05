@@ -1,0 +1,21 @@
+Commit: a112f762ab08f6fa688cc4857b21d95d1055ab5c
+Command: C:\Mingo\.venv\Scripts\python.exe -m pytest 01_San_pham/backend --junitxml=C:\Mingo\03_Kiem_thu\Bang_chung\backend\backend-unit-20261001T144847Z.xml
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Mingo\01_San_pham\backend
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collected 16 items
+
+01_San_pham\backend\tests\test_postgres.py ssssss                        [ 37%]
+01_San_pham\backend\tests\test_unit.py .......s..                        [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Mingo\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: C:\Mingo\03_Kiem_thu\Bang_chung\backend\backend-unit-20261001T144847Z.xml -
+=================== 9 passed, 7 skipped, 1 warning in 4.33s ===================
+Exit code: 0

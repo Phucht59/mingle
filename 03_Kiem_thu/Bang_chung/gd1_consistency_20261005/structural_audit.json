@@ -1,0 +1,314 @@
+{
+  "catalog_screens": 61,
+  "catalog_states": 175,
+  "trace_rows": 175,
+  "missing_states": [],
+  "extra_states": [],
+  "duplicate_state_rows": 0,
+  "requirements": 16,
+  "duplicate_prd_ids": 0,
+  "dangling_refs": [],
+  "scope_rows": 61,
+  "missing_scope": [],
+  "future_routes": [
+    "S-040",
+    "S-041",
+    "S-050",
+    "S-051",
+    "S-060",
+    "S-061",
+    "S-062"
+  ],
+  "screens_without_direct_PRD_mapping": [
+    "L-001",
+    "L-002",
+    "L-028",
+    "L-033",
+    "L-053",
+    "L-054",
+    "L-062",
+    "L-064",
+    "L-070",
+    "L-071",
+    "L-072",
+    "L-073",
+    "S-001",
+    "S-010",
+    "S-020",
+    "S-021",
+    "S-022",
+    "S-023",
+    "S-031",
+    "S-032",
+    "S-034",
+    "S-040",
+    "S-041",
+    "S-051",
+    "S-060",
+    "S-061",
+    "S-062"
+  ],
+  "note": "Structural existence only; no assertion of semantic completeness or current runtime QA PASS.",
+  "qa_priority_by_requirement": {
+    "PRD-01": [
+      {
+        "id": "QA-LRN-001",
+        "priority": "P0",
+        "expected": "Cycle has explicit intro, roles and summary; user explicitly chooses whether to continue.",
+        "title": "Start finite cycle"
+      },
+      {
+        "id": "QA-LRN-002",
+        "priority": "P1",
+        "expected": "Finite progress is visible and never suggests infinite scroll.",
+        "title": "Cycle progress visibility"
+      },
+      {
+        "id": "QA-LRN-012",
+        "priority": "P1",
+        "expected": "Shows practiced evidence/needs review/next step, no fake mastery percentage.",
+        "title": "Cycle summary"
+      },
+      {
+        "id": "QA-LRN-021",
+        "priority": "P0",
+        "expected": "Submit is disabled or accessible validation prevents progression; explicit Skip is the only no-answer path where offered; no completion/evidence is fabricated.",
+        "title": "Required-response steps reject blank submit"
+      }
+    ],
+    "PRD-02": [
+      {
+        "id": "QA-LRN-006",
+        "priority": "P0",
+        "expected": "First wrong is acknowledged; retry is clearly practice and does not rewrite first response.",
+        "title": "Wrong first response + retry"
+      },
+      {
+        "id": "QA-LRN-007",
+        "priority": "P1",
+        "expected": "No infinite retry loop; final feedback state is clear.",
+        "title": "Retry exhausted state"
+      }
+    ],
+    "PRD-03": [
+      {
+        "id": "QA-LRN-008",
+        "priority": "P0",
+        "expected": "UI indicates assistance; copy does not present response as unaided.",
+        "title": "Hint assisted state"
+      },
+      {
+        "id": "QA-LRN-013",
+        "priority": "P0",
+        "expected": "Hint action is absent and Check context is explicit.",
+        "title": "Check has no pre-submit hint"
+      }
+    ],
+    "PRD-04": [
+      {
+        "id": "QA-LRN-009",
+        "priority": "P0",
+        "expected": "No completion/mastery/reward is granted in copy; learner can continue safely.",
+        "title": "Skip semantics"
+      },
+      {
+        "id": "QA-BIZ-003",
+        "priority": "P0",
+        "expected": "No streak/mastery/completion reward copy appears.",
+        "title": "Skip != completion"
+      }
+    ],
+    "PRD-05": [
+      {
+        "id": "QA-LRN-014",
+        "priority": "P1",
+        "expected": "Offered play policy can be shown; UI never claims physical listening verification.",
+        "title": "Listening Check policy copy"
+      },
+      {
+        "id": "QA-BIZ-005",
+        "priority": "P0",
+        "expected": "No statement says client replay count proves clean assessment.",
+        "title": "Playback telemetry authority"
+      },
+      {
+        "id": "QA-LRN-023",
+        "priority": "P1",
+        "expected": "Playback policy/telemetry wording is concrete; Check offers at most configured plays; offline missing media blocks safely; no physical-listening claim.",
+        "title": "Representative Listening flow is executable"
+      }
+    ],
+    "PRD-06": [
+      {
+        "id": "QA-LRN-004",
+        "priority": "P1",
+        "expected": "UI does not mark objective mastered just for viewing explanation.",
+        "title": "Learn content is not mastery"
+      },
+      {
+        "id": "QA-LRN-005",
+        "priority": "P1",
+        "expected": "Selection is visually distinct from submission/canonical result.",
+        "title": "Retrieve answer selection"
+      },
+      {
+        "id": "QA-LRN-022",
+        "priority": "P1",
+        "expected": "am/is/are scaffold and all interaction states are concrete; assisted remains assisted; Check has no hint and no blank progression.",
+        "title": "Representative Grammar flow is executable"
+      },
+      {
+        "id": "QA-LRN-023",
+        "priority": "P1",
+        "expected": "Playback policy/telemetry wording is concrete; Check offers at most configured plays; offline missing media blocks safely; no physical-listening claim.",
+        "title": "Representative Listening flow is executable"
+      }
+    ],
+    "PRD-07": [
+      {
+        "id": "QA-BIZ-006",
+        "priority": "P0",
+        "expected": "Challenge does not automatically change level/mastery/unlock.",
+        "title": "Challenge bounded"
+      }
+    ],
+    "PRD-08": [
+      {
+        "id": "QA-BIZ-007",
+        "priority": "P0",
+        "expected": "Prerequisite reason is clear and cannot be bypassed by preference.",
+        "title": "Focus/prerequisite"
+      }
+    ],
+    "PRD-09": [
+      {
+        "id": "QA-LRN-015",
+        "priority": "P0",
+        "expected": "Learner can continue with provisional/missing evidence state.",
+        "title": "Placement optional"
+      },
+      {
+        "id": "QA-LRN-016",
+        "priority": "P1",
+        "expected": "Result is provisional and does not claim external CEFR certification.",
+        "title": "Placement result uncertainty"
+      }
+    ],
+    "PRD-10": [
+      {
+        "id": "QA-LRN-017",
+        "priority": "P1",
+        "expected": "Goal setting is presented as intent, not competence.",
+        "title": "Goal editing"
+      },
+      {
+        "id": "QA-BIZ-008",
+        "priority": "P0",
+        "expected": "No fake mastery percentage or diagnosis.",
+        "title": "Qualitative evidence"
+      }
+    ],
+    "PRD-11": [
+      {
+        "id": "QA-BIZ-009",
+        "priority": "P0",
+        "expected": "Streak is engagement and not shown as skill/mastery.",
+        "title": "Streak separate from learning evidence"
+      }
+    ],
+    "PRD-12": [
+      {
+        "id": "QA-BIZ-010",
+        "priority": "P0",
+        "expected": "Rewards do not alter mastery/prerequisite/Check semantics.",
+        "title": "Rewards non-authoritative"
+      }
+    ],
+    "PRD-13": [
+      {
+        "id": "QA-LRN-018",
+        "priority": "P1",
+        "expected": "Preview is clearly non-progressing and shows prerequisite reason.",
+        "title": "Locked objective preview"
+      },
+      {
+        "id": "QA-BIZ-011",
+        "priority": "P0",
+        "expected": "Displayed reason matches defined reason category; no invented psychological cause.",
+        "title": "Recommendation reason truthful"
+      }
+    ],
+    "PRD-14": [
+      {
+        "id": "QA-STF-006",
+        "priority": "P1",
+        "expected": "Missing provenance is visibly blocking for publish.",
+        "title": "Source/license gate"
+      },
+      {
+        "id": "QA-STF-007",
+        "priority": "P1",
+        "expected": "Copy explains immutable new revision; destructive ambiguity is avoided.",
+        "title": "Publish confirmation"
+      },
+      {
+        "id": "QA-BIZ-012",
+        "priority": "P0",
+        "expected": "No direct edit-in-place; new draft/revision workflow.",
+        "title": "Immutable revision UX"
+      },
+      {
+        "id": "QA-STF-011",
+        "priority": "P1",
+        "expected": "Every transition works; publish confirmation explains immutability; published revision has no direct edit and new change starts a draft.",
+        "title": "Content publish lifecycle is executable end to end"
+      }
+    ],
+    "PRD-15": [
+      {
+        "id": "QA-OFF-001",
+        "priority": "P1",
+        "expected": "Offline state is visible but non-alarming; available offline actions remain usable.",
+        "title": "Offline banner"
+      },
+      {
+        "id": "QA-OFF-002",
+        "priority": "P0",
+        "expected": "Copy distinguishes saved on device / waiting to sync / synced.",
+        "title": "Queued vs synced"
+      },
+      {
+        "id": "QA-OFF-004",
+        "priority": "P0",
+        "expected": "UI refetches canonical state rather than locally overriding server truth.",
+        "title": "Canonical refresh"
+      },
+      {
+        "id": "QA-BIZ-013",
+        "priority": "P0",
+        "expected": "Decision/exposure/execution/outcome are not conflated.",
+        "title": "Lifecycle separation"
+      },
+      {
+        "id": "QA-OFF-007",
+        "priority": "P0",
+        "expected": "State remains queued/syncing/retryable as appropriate; Synced appears only after explicit authoritative acknowledgement/canonical refresh.",
+        "title": "Restored connectivity does not equal server-confirmed sync"
+      }
+    ],
+    "PRD-16": [
+      {
+        "id": "QA-LRN-019",
+        "priority": "P0",
+        "expected": "A usable curriculum/due/manual action remains; no AI error dead end.",
+        "title": "No recommendation fallback"
+      },
+      {
+        "id": "QA-BIZ-014",
+        "priority": "P0",
+        "expected": "Usable deterministic/manual learning flow remains.",
+        "title": "ML-disabled fallback"
+      }
+    ]
+  }
+}

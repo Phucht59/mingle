@@ -1,0 +1,44 @@
+{
+  "artifacts/model_fixture.json": {
+    "kind": "model",
+    "path": "artifacts/model_fixture.json",
+    "sha256": "cedcb6d4e282be9b1af402b20bea815faa0b5552aa727bc57cc52340362de5be",
+    "encoding": "jcs_json",
+    "fixture_only": true
+  },
+  "artifacts/preprocessing_fixture.json": {
+    "kind": "preprocessing",
+    "path": "artifacts/preprocessing_fixture.json",
+    "sha256": "4ff53661777badc649d5ed3020dc52844c5ea7062eeddc23c389992e35e20378",
+    "encoding": "jcs_json",
+    "fixture_only": true
+  },
+  "examples/feature_schema.example.json": {
+    "kind": "feature_schema",
+    "path": "examples/feature_schema.example.json",
+    "sha256": "245647160352ceaef961e7b40dcbf6e2bf8b3cdfa114ad46592aa73564ba9698",
+    "encoding": "jcs_json",
+    "fixture_only": true
+  },
+  "artifacts/validation_fixture.json": {
+    "kind": "validation",
+    "path": "artifacts/validation_fixture.json",
+    "sha256": "b3d87c1a70931c9683dec8aa5cdade9f89bc91d29b55bf18b3a4122e76ba9a19",
+    "encoding": "jcs_json",
+    "fixture_only": true
+  },
+  "artifacts/target_fixture.json": {
+    "kind": "target",
+    "path": "artifacts/target_fixture.json",
+    "sha256": "a5adb049b7652137fd39e525455172d1ac27c2b4624038c1cc3c5fea4fc236ce",
+    "encoding": "jcs_json",
+    "fixture_only": true
+  },
+  "artifacts/horizon_fixture.json": {
+    "kind": "horizon",
+    "path": "artifacts/horizon_fixture.json",
+    "sha256": "447a8a611104fc5eefc8c4ae038474acbe6d2ce0b9bc60d13d99dfb9dc4cfc92",
+    "encoding": "jcs_json",
+    "fixture_only": true
+  }
+}

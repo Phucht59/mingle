@@ -1,0 +1,92 @@
+{
+  "status": "FAIL",
+  "boundary": "Audit pack consistency only; GĐ1 gate remains FAIL",
+  "checks": [
+    {
+      "check": "Required report files present/nonempty",
+      "pass": true
+    },
+    {
+      "check": "16 trace requirements; all actual priority UNKNOWN",
+      "pass": true
+    },
+    {
+      "check": "17 area matrix / 17 account capabilities / 8 source-derived candidate AC",
+      "pass": true
+    },
+    {
+      "check": "All plausible candidates retained with path/hash/size/time and real read-only sheet metadata",
+      "pass": true
+    },
+    {
+      "check": "Workbook NOT FOUND; five prior candidates UNKNOWN",
+      "pass": true
+    },
+    {
+      "check": "Exact original request captured byte for byte",
+      "pass": true
+    },
+    {
+      "check": "Original102 / contract115 / SQL22",
+      "pass": true
+    },
+    {
+      "check": "Actual executed Flutter232/0/0 and backend9/0/7",
+      "pass": true
+    },
+    {
+      "check": "No protected source/workbook/status change",
+      "pass": true
+    },
+    {
+      "check": "Loaded backend source boundary current",
+      "pass": true
+    },
+    {
+      "check": "Prior12 IDs/statuses retained, three targeted findings OPEN, gateFAIL",
+      "pass": true
+    },
+    {
+      "check": "Finding schema exact",
+      "pass": true
+    },
+    {
+      "check": "Candidate canonical source hashes retained",
+      "pass": true
+    },
+    {
+      "check": "No fabricated workbook",
+      "pass": true
+    },
+    {
+      "check": "Balanced Mermaid/code fences",
+      "pass": true
+    },
+    {
+      "check": "All local report links and exact line locators exist",
+      "pass": false
+    },
+    {
+      "check": "All six orphan categories represented",
+      "pass": true
+    }
+  ],
+  "links_checked": 152,
+  "broken_links": [
+    {
+      "from": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\DECISION_REGISTER.md",
+      "target": "../07_Tien_do_du_an/PROJECT_STATE.md",
+      "error": "missing"
+    },
+    {
+      "from": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\DECISION_REGISTER.md",
+      "target": "../04_Thiet_ke_san_pham/GD1_INTERNAL_BA_CLOSURE_NOTES_20261005.md",
+      "error": "missing"
+    },
+    {
+      "from": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\MVP_PRD.md",
+      "target": "ux_ui/phase2/rebaseline_v2/MINGO_EVIDENCE_GATED_DEVELOPMENT_V1.md",
+      "error": "missing"
+    }
+  ]
+}

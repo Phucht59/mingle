@@ -1,0 +1,33 @@
+{
+  "checks": [
+    {
+      "name": "learner home renders",
+      "pass": true
+    },
+    {
+      "name": "learner nav four items",
+      "pass": true
+    },
+    {
+      "name": "retrieve screen renders",
+      "pass": true
+    },
+    {
+      "name": "offline banner visible",
+      "pass": true
+    },
+    {
+      "name": "staff sidebar six items",
+      "pass": true
+    },
+    {
+      "name": "content draft editor",
+      "pass": true
+    },
+    {
+      "name": "license block visible",
+      "pass": true
+    }
+  ],
+  "status": "PASS"
+}

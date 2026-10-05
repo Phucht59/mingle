@@ -1,0 +1,186 @@
+{
+  "browser": "153.0.8010.53",
+  "freshContextPerCase": true,
+  "headless": true,
+  "results": [
+    {
+      "id": "QA-LRN-001",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-001.json"
+    },
+    {
+      "id": "QA-LRN-006",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-006.json"
+    },
+    {
+      "id": "QA-LRN-008",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-008.json"
+    },
+    {
+      "id": "QA-LRN-009",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-009.json"
+    },
+    {
+      "id": "QA-LRN-013",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-013.json"
+    },
+    {
+      "id": "QA-LRN-015",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-015.json"
+    },
+    {
+      "id": "QA-LRN-019",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-019.json"
+    },
+    {
+      "id": "QA-OFF-002",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-OFF-002.json"
+    },
+    {
+      "id": "QA-OFF-003",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-OFF-003.json"
+    },
+    {
+      "id": "QA-OFF-004",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-OFF-004.json"
+    },
+    {
+      "id": "QA-BIZ-001",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-001.json"
+    },
+    {
+      "id": "QA-BIZ-002",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-002.json"
+    },
+    {
+      "id": "QA-BIZ-003",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-003.json"
+    },
+    {
+      "id": "QA-BIZ-004",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-004.json"
+    },
+    {
+      "id": "QA-BIZ-005",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-005.json"
+    },
+    {
+      "id": "QA-BIZ-007",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-007.json"
+    },
+    {
+      "id": "QA-BIZ-008",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-008.json"
+    },
+    {
+      "id": "QA-BIZ-009",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-009.json"
+    },
+    {
+      "id": "QA-BIZ-010",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-010.json"
+    },
+    {
+      "id": "QA-BIZ-011",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-011.json"
+    },
+    {
+      "id": "QA-BIZ-012",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-012.json"
+    },
+    {
+      "id": "QA-BIZ-013",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-013.json"
+    },
+    {
+      "id": "QA-BIZ-014",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-BIZ-014.json"
+    },
+    {
+      "id": "QA-ACC-001",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-ACC-001.json"
+    },
+    {
+      "id": "QA-ACC-003",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-ACC-003.json"
+    },
+    {
+      "id": "QA-ACC-007",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-ACC-007.json"
+    },
+    {
+      "id": "QA-ACC-008",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-ACC-008.json"
+    },
+    {
+      "id": "QA-LRN-021",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-LRN-021.json"
+    },
+    {
+      "id": "QA-OFF-007",
+      "status": "PASS",
+      "failure": null,
+      "evidence": "06_quality/phase2/evidence/codex/browser/QA-OFF-007.json"
+    }
+  ],
+  "prototype_files_sha256": {
+    "app.js": "91d4509c2f9b1bb5fb039681e19dfa697fc360cf6883fc234dab98c6f2da208b",
+    "index.html": "da205c22488ec4b9131b14619db2e96d75fad0bfcdf1f51de74c981a18474acf",
+    "styles.css": "2e301cdc99df622573dc61d37bbd8a28b3af62c227a5ff2b71cea1423f2d1081"
+  }
+}

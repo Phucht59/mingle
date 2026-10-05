@@ -1,0 +1,37 @@
+{
+  "id": "QA-HO-002",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "semantic_colors": {
+      "canvas": "#F6F8FC",
+      "surface": "#FFFFFF",
+      "surface_subtle": "#EEF2F7",
+      "text": "#0F172A",
+      "text_muted": "#475569",
+      "border": "#CBD5E1",
+      "primary": "#3046C5",
+      "primary_hover": "#2438A8",
+      "primary_soft": "#E8ECFF",
+      "accent": "#0F766E",
+      "accent_soft": "#CCFBF1",
+      "success": "#166534",
+      "success_soft": "#DCFCE7",
+      "warning": "#92400E",
+      "warning_soft": "#FEF3C7",
+      "danger": "#B91C1C",
+      "danger_soft": "#FEE2E2",
+      "info": "#1D4ED8",
+      "info_soft": "#DBEAFE",
+      "focus": "#7C3AED"
+    },
+    "focus_consumed": true,
+    "normalization": "CSS #fff equals token #FFFFFF"
+  },
+  "sources": [
+    "DESIGN_TOKENS.json",
+    "08_DESIGN_SYSTEM_SPEC.md",
+    "prototype/styles.css"
+  ],
+  "time": "2026-09-29T18:05:51.626529+00:00"
+}

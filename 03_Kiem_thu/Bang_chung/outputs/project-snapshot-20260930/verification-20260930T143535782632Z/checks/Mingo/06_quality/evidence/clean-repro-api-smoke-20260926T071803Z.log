@@ -1,0 +1,3 @@
+Command: C:\Mingo\.local\phase1-clean-reproduction\.venv\Scripts\python.exe 07_operations/scripts/smoke_api.py
+{"live": {"status": 200, "body": {"status": "alive"}, "request_id": "80dff3cf-a28c-457c-ba57-37eb5a233992"}, "ready": {"status": 503, "body": {"status": "not_ready"}, "request_id": "94fb3fab-bed2-40a6-80b7-f222bc489179"}}
+Exit code: 0

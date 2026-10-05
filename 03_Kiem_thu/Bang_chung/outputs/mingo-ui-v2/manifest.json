@@ -1,0 +1,5519 @@
+{
+  "sheets": [
+    {
+      "name": "02_Cong_viec",
+      "title": "Công việc",
+      "group": "THỰC HIỆN",
+      "end": "I",
+      "last": 21,
+      "kind": "table",
+      "width": 1057
+    },
+    {
+      "name": "03_Hanh_dong",
+      "title": "Hành động tiếp theo",
+      "group": "THỰC HIỆN",
+      "end": "F",
+      "last": 21,
+      "kind": "table",
+      "width": 1131
+    },
+    {
+      "name": "04_Nghiem_thu",
+      "title": "Nghiệm thu task",
+      "group": "THỰC HIỆN",
+      "end": "E",
+      "last": 21,
+      "kind": "table",
+      "width": 1101
+    },
+    {
+      "name": "05_Blocker",
+      "title": "Blocker",
+      "group": "THỰC HIỆN",
+      "end": "E",
+      "last": 25,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "06_Roadmap",
+      "title": "Roadmap",
+      "group": "KẾ HOẠCH",
+      "end": "G",
+      "last": 26,
+      "kind": "table",
+      "width": 1241
+    },
+    {
+      "name": "07_Checklist_P1",
+      "title": "Checklist Phase 1",
+      "group": "KẾ HOẠCH",
+      "end": "H",
+      "last": 20,
+      "kind": "table",
+      "width": 1152
+    },
+    {
+      "name": "08_San_pham",
+      "title": "Sản phẩm Mingo",
+      "group": "SẢN PHẨM",
+      "end": "D",
+      "last": 27,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "09_Luong_hoc",
+      "title": "Luồng học",
+      "group": "SẢN PHẨM",
+      "end": "D",
+      "last": 19,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "10_Quy_tac",
+      "title": "Quy tắc nghiệp vụ",
+      "group": "SẢN PHẨM",
+      "end": "C",
+      "last": 19,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "11_Da_chot",
+      "title": "Nội dung đã chốt",
+      "group": "SẢN PHẨM",
+      "end": "C",
+      "last": 22,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "12_Gia_thuyet",
+      "title": "Giả thuyết & chính sách",
+      "group": "SẢN PHẨM",
+      "end": "C",
+      "last": 17,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "13_Baseline_V3_2",
+      "title": "Baseline V3.2",
+      "group": "SẢN PHẨM",
+      "end": "C",
+      "last": 20,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "14_Van_de",
+      "title": "Vấn đề",
+      "group": "VẤN ĐỀ & THAY ĐỔI",
+      "end": "G",
+      "last": 17,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "15_Xu_ly_van_de",
+      "title": "Xử lý vấn đề",
+      "group": "VẤN ĐỀ & THAY ĐỔI",
+      "end": "F",
+      "last": 17,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "16_Thay_doi",
+      "title": "Đề nghị thay đổi",
+      "group": "VẤN ĐỀ & THAY ĐỔI",
+      "end": "J",
+      "last": 13,
+      "kind": "table",
+      "width": 1358
+    },
+    {
+      "name": "17_Ghi_chu",
+      "title": "Ghi chú & action",
+      "group": "VẤN ĐỀ & THAY ĐỔI",
+      "end": "F",
+      "last": 28,
+      "kind": "table",
+      "width": 1128
+    },
+    {
+      "name": "18_Bang_chung",
+      "title": "Bằng chứng",
+      "group": "KIỂM CHỨNG",
+      "end": "G",
+      "last": 23,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "19_Pham_vi_test",
+      "title": "Phạm vi bằng chứng",
+      "group": "KIỂM CHỨNG",
+      "end": "D",
+      "last": 23,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "20_Cach_lam_viec",
+      "title": "Cách làm việc",
+      "group": "HƯỚNG DẪN",
+      "end": "D",
+      "last": 22,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "21_Tu_dien",
+      "title": "Từ điển dự án",
+      "group": "HƯỚNG DẪN",
+      "end": "C",
+      "last": 16,
+      "kind": "table",
+      "width": 1098
+    },
+    {
+      "name": "00_Tong_quan",
+      "title": "Tổng quan",
+      "group": "DỰ ÁN",
+      "end": "I",
+      "last": 30,
+      "kind": "table",
+      "width": 1168
+    },
+    {
+      "name": "01_Muc_luc",
+      "title": "Mục lục",
+      "group": "ĐIỀU HƯỚNG",
+      "end": "F",
+      "last": 39,
+      "kind": "table",
+      "width": 1098
+    }
+  ],
+  "links": [
+    {
+      "sheet": "02_Cong_viec",
+      "cell": "I1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "03_Hanh_dong",
+      "cell": "F1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "04_Nghiem_thu",
+      "cell": "E1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "05_Blocker",
+      "cell": "E1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "06_Roadmap",
+      "cell": "G1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "07_Checklist_P1",
+      "cell": "H1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "08_San_pham",
+      "cell": "D1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "09_Luong_hoc",
+      "cell": "D1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "10_Quy_tac",
+      "cell": "C1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "11_Da_chot",
+      "cell": "C1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "12_Gia_thuyet",
+      "cell": "C1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "13_Baseline_V3_2",
+      "cell": "C1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "14_Van_de",
+      "cell": "G1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "15_Xu_ly_van_de",
+      "cell": "F1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "16_Thay_doi",
+      "cell": "J1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "17_Ghi_chu",
+      "cell": "F1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "18_Bang_chung",
+      "cell": "G1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "19_Pham_vi_test",
+      "cell": "D1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "20_Cach_lam_viec",
+      "cell": "D1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "21_Tu_dien",
+      "cell": "C1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "00_Tong_quan",
+      "cell": "I1",
+      "text": "← Mục lục",
+      "target": "01_Muc_luc"
+    },
+    {
+      "sheet": "00_Tong_quan",
+      "cell": "B28",
+      "target": "02_Cong_viec",
+      "text": "Công việc →"
+    },
+    {
+      "sheet": "00_Tong_quan",
+      "cell": "E28",
+      "target": "05_Blocker",
+      "text": "Blocker →"
+    },
+    {
+      "sheet": "00_Tong_quan",
+      "cell": "H28",
+      "target": "01_Muc_luc",
+      "text": "Tất cả sheet →"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C10",
+      "target": "02_Cong_viec",
+      "text": "Công việc"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C12",
+      "target": "03_Hanh_dong",
+      "text": "Hành động tiếp theo"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C14",
+      "target": "04_Nghiem_thu",
+      "text": "Nghiệm thu task"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C16",
+      "target": "05_Blocker",
+      "text": "Blocker"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C18",
+      "target": "06_Roadmap",
+      "text": "Roadmap"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C20",
+      "target": "07_Checklist_P1",
+      "text": "Checklist Phase 1"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F10",
+      "target": "08_San_pham",
+      "text": "Sản phẩm Mingo"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F12",
+      "target": "09_Luong_hoc",
+      "text": "Luồng học"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F14",
+      "target": "10_Quy_tac",
+      "text": "Quy tắc nghiệp vụ"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F16",
+      "target": "11_Da_chot",
+      "text": "Nội dung đã chốt"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F18",
+      "target": "12_Gia_thuyet",
+      "text": "Giả thuyết & chính sách"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F20",
+      "target": "13_Baseline_V3_2",
+      "text": "Baseline V3.2"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C26",
+      "target": "14_Van_de",
+      "text": "Vấn đề"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C28",
+      "target": "15_Xu_ly_van_de",
+      "text": "Xử lý vấn đề"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C30",
+      "target": "16_Thay_doi",
+      "text": "Đề nghị thay đổi"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C32",
+      "target": "17_Ghi_chu",
+      "text": "Ghi chú & action"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C34",
+      "target": "18_Bang_chung",
+      "text": "Bằng chứng"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "C36",
+      "target": "19_Pham_vi_test",
+      "text": "Phạm vi bằng chứng"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F26",
+      "target": "00_Tong_quan",
+      "text": "Tổng quan"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F28",
+      "target": "20_Cach_lam_viec",
+      "text": "Cách làm việc"
+    },
+    {
+      "sheet": "01_Muc_luc",
+      "cell": "F30",
+      "target": "21_Tu_dien",
+      "text": "Từ điển dự án"
+    }
+  ],
+  "audit": [
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A5",
+      "target": "02_Cong_viec",
+      "at": "B9",
+      "value": "P1-T001"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B5",
+      "target": "02_Cong_viec",
+      "at": "C9",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D5",
+      "target": "02_Cong_viec",
+      "at": "D9",
+      "value": "Import V3.2 original vào canonical repo"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E5",
+      "target": "02_Cong_viec",
+      "at": "E9",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F5",
+      "target": "02_Cong_viec",
+      "at": "F9",
+      "value": "ĐANG LÀM"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J5",
+      "target": "02_Cong_viec",
+      "at": "I9",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A6",
+      "target": "02_Cong_viec",
+      "at": "B10",
+      "value": "P1-T002"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B6",
+      "target": "02_Cong_viec",
+      "at": "C10",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D6",
+      "target": "02_Cong_viec",
+      "at": "D10",
+      "value": "Rerun 115 contract checks"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E6",
+      "target": "02_Cong_viec",
+      "at": "E10",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F6",
+      "target": "02_Cong_viec",
+      "at": "F10",
+      "value": "CHỜ"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J6",
+      "target": "02_Cong_viec",
+      "at": "I10",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A7",
+      "target": "02_Cong_viec",
+      "at": "B11",
+      "value": "P1-T003"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B7",
+      "target": "02_Cong_viec",
+      "at": "C11",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D7",
+      "target": "02_Cong_viec",
+      "at": "D11",
+      "value": "Rerun 22 SQL checks"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E7",
+      "target": "02_Cong_viec",
+      "at": "E11",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F7",
+      "target": "02_Cong_viec",
+      "at": "F11",
+      "value": "CHỜ"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J7",
+      "target": "02_Cong_viec",
+      "at": "I11",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A8",
+      "target": "02_Cong_viec",
+      "at": "B12",
+      "value": "P1-T004"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B8",
+      "target": "02_Cong_viec",
+      "at": "C12",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D8",
+      "target": "02_Cong_viec",
+      "at": "D12",
+      "value": "Python 3.12 full backend verification"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E8",
+      "target": "02_Cong_viec",
+      "at": "E12",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F8",
+      "target": "02_Cong_viec",
+      "at": "F12",
+      "value": "CHỜ"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J8",
+      "target": "02_Cong_viec",
+      "at": "I12",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A9",
+      "target": "02_Cong_viec",
+      "at": "B13",
+      "value": "P1-T005"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B9",
+      "target": "02_Cong_viec",
+      "at": "C13",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D9",
+      "target": "02_Cong_viec",
+      "at": "D13",
+      "value": "Provision/access mingo + mingo_test"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E9",
+      "target": "02_Cong_viec",
+      "at": "E13",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F9",
+      "target": "02_Cong_viec",
+      "at": "F13",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J9",
+      "target": "02_Cong_viec",
+      "at": "I13",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A10",
+      "target": "02_Cong_viec",
+      "at": "B14",
+      "value": "P1-T006"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B10",
+      "target": "02_Cong_viec",
+      "at": "C14",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D10",
+      "target": "02_Cong_viec",
+      "at": "D14",
+      "value": "Migration + six DB tests"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E10",
+      "target": "02_Cong_viec",
+      "at": "E14",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F10",
+      "target": "02_Cong_viec",
+      "at": "F14",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J10",
+      "target": "02_Cong_viec",
+      "at": "I14",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A11",
+      "target": "02_Cong_viec",
+      "at": "B15",
+      "value": "P1-T007"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B11",
+      "target": "02_Cong_viec",
+      "at": "C15",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D11",
+      "target": "02_Cong_viec",
+      "at": "D15",
+      "value": "ready=200 + worker probe"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E11",
+      "target": "02_Cong_viec",
+      "at": "E15",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F11",
+      "target": "02_Cong_viec",
+      "at": "F15",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J11",
+      "target": "02_Cong_viec",
+      "at": "I15",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A12",
+      "target": "02_Cong_viec",
+      "at": "B16",
+      "value": "P1-T008"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B12",
+      "target": "02_Cong_viec",
+      "at": "C16",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D12",
+      "target": "02_Cong_viec",
+      "at": "D16",
+      "value": "Install pinned Flutter 3.32.8 + Android tooling"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E12",
+      "target": "02_Cong_viec",
+      "at": "E16",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F12",
+      "target": "02_Cong_viec",
+      "at": "F16",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J12",
+      "target": "02_Cong_viec",
+      "at": "I16",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A13",
+      "target": "02_Cong_viec",
+      "at": "B17",
+      "value": "P1-T009"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B13",
+      "target": "02_Cong_viec",
+      "at": "C17",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D13",
+      "target": "02_Cong_viec",
+      "at": "D17",
+      "value": "Analyze/test/build + actual Android boot"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E13",
+      "target": "02_Cong_viec",
+      "at": "E17",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F13",
+      "target": "02_Cong_viec",
+      "at": "F17",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J13",
+      "target": "02_Cong_viec",
+      "at": "I17",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A14",
+      "target": "02_Cong_viec",
+      "at": "B18",
+      "value": "P1-T010"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B14",
+      "target": "02_Cong_viec",
+      "at": "C18",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D14",
+      "target": "02_Cong_viec",
+      "at": "D18",
+      "value": "Analyze/test/build + actual Web boot"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E14",
+      "target": "02_Cong_viec",
+      "at": "E18",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F14",
+      "target": "02_Cong_viec",
+      "at": "F18",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J14",
+      "target": "02_Cong_viec",
+      "at": "I18",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A15",
+      "target": "02_Cong_viec",
+      "at": "B19",
+      "value": "P1-T011"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B15",
+      "target": "02_Cong_viec",
+      "at": "C19",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D15",
+      "target": "02_Cong_viec",
+      "at": "D19",
+      "value": "Hosted CI green"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E15",
+      "target": "02_Cong_viec",
+      "at": "E19",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F15",
+      "target": "02_Cong_viec",
+      "at": "F19",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J15",
+      "target": "02_Cong_viec",
+      "at": "I19",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A16",
+      "target": "02_Cong_viec",
+      "at": "B20",
+      "value": "P1-T012"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B16",
+      "target": "02_Cong_viec",
+      "at": "C20",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D16",
+      "target": "02_Cong_viec",
+      "at": "D20",
+      "value": "Full clean reproduction"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E16",
+      "target": "02_Cong_viec",
+      "at": "E20",
+      "value": "P0"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F16",
+      "target": "02_Cong_viec",
+      "at": "F20",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J16",
+      "target": "02_Cong_viec",
+      "at": "I20",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A17",
+      "target": "02_Cong_viec",
+      "at": "B21",
+      "value": "P2-T001"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "B17",
+      "target": "02_Cong_viec",
+      "at": "C21",
+      "value": "P2"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "D17",
+      "target": "02_Cong_viec",
+      "at": "D21",
+      "value": "Chỉ lập Phase 2 contract sau khi Phase 1 PASS"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "E17",
+      "target": "02_Cong_viec",
+      "at": "E21",
+      "value": "P1"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "F17",
+      "target": "02_Cong_viec",
+      "at": "F21",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "J17",
+      "target": "02_Cong_viec",
+      "at": "I21",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A5",
+      "target": "03_Hanh_dong",
+      "at": "B9",
+      "value": "P1-T001"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C5",
+      "target": "03_Hanh_dong",
+      "at": "C9",
+      "value": "V3.2"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L5",
+      "target": "03_Hanh_dong",
+      "at": "E9",
+      "value": "Giữ byte-exact + provenance"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "N5",
+      "target": "03_Hanh_dong",
+      "at": "F9",
+      "value": "Original package đã tìm thấy."
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A6",
+      "target": "03_Hanh_dong",
+      "at": "B10",
+      "value": "P1-T002"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C6",
+      "target": "03_Hanh_dong",
+      "at": "C10",
+      "value": "V3.2"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K6",
+      "target": "03_Hanh_dong",
+      "at": "D10",
+      "value": "P1-T001"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L6",
+      "target": "03_Hanh_dong",
+      "at": "E10",
+      "value": "Run exact validator"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A7",
+      "target": "03_Hanh_dong",
+      "at": "B11",
+      "value": "P1-T003"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C7",
+      "target": "03_Hanh_dong",
+      "at": "C11",
+      "value": "V3.2"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K7",
+      "target": "03_Hanh_dong",
+      "at": "D11",
+      "value": "P1-T001"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L7",
+      "target": "03_Hanh_dong",
+      "at": "E11",
+      "value": "Run exact SQL suite"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A8",
+      "target": "03_Hanh_dong",
+      "at": "B12",
+      "value": "P1-T004"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C8",
+      "target": "03_Hanh_dong",
+      "at": "C12",
+      "value": "Backend"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L8",
+      "target": "03_Hanh_dong",
+      "at": "E12",
+      "value": "Install/verify Python 3.12 + rerun"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "N8",
+      "target": "03_Hanh_dong",
+      "at": "F12",
+      "value": "3.14.7 result kept as compatibility evidence only."
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A9",
+      "target": "03_Hanh_dong",
+      "at": "B13",
+      "value": "P1-T005"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C9",
+      "target": "03_Hanh_dong",
+      "at": "C13",
+      "value": "Database"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L9",
+      "target": "03_Hanh_dong",
+      "at": "E13",
+      "value": "Cần PostgreSQL authenticated role/session"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "N9",
+      "target": "03_Hanh_dong",
+      "at": "F13",
+      "value": "Không lưu password trong workbook."
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A10",
+      "target": "03_Hanh_dong",
+      "at": "B14",
+      "value": "P1-T006"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C10",
+      "target": "03_Hanh_dong",
+      "at": "C14",
+      "value": "Database"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K10",
+      "target": "03_Hanh_dong",
+      "at": "D14",
+      "value": "P1-T005"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L10",
+      "target": "03_Hanh_dong",
+      "at": "E14",
+      "value": "Run migrations + DB suite on mingo_test"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A11",
+      "target": "03_Hanh_dong",
+      "at": "B15",
+      "value": "P1-T007"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C11",
+      "target": "03_Hanh_dong",
+      "at": "C15",
+      "value": "API/Worker"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K11",
+      "target": "03_Hanh_dong",
+      "at": "D15",
+      "value": "P1-T006"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L11",
+      "target": "03_Hanh_dong",
+      "at": "E15",
+      "value": "Boot API/worker và lưu log/HTTP evidence"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A12",
+      "target": "03_Hanh_dong",
+      "at": "B16",
+      "value": "P1-T008"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C12",
+      "target": "03_Hanh_dong",
+      "at": "C16",
+      "value": "Flutter"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L12",
+      "target": "03_Hanh_dong",
+      "at": "E16",
+      "value": "Install toolchain + flutter doctor"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A13",
+      "target": "03_Hanh_dong",
+      "at": "B17",
+      "value": "P1-T009"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C13",
+      "target": "03_Hanh_dong",
+      "at": "C17",
+      "value": "Flutter learner"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K13",
+      "target": "03_Hanh_dong",
+      "at": "D17",
+      "value": "P1-T008"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L13",
+      "target": "03_Hanh_dong",
+      "at": "E17",
+      "value": "Run trên emulator/device; lưu bằng chứng"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A14",
+      "target": "03_Hanh_dong",
+      "at": "B18",
+      "value": "P1-T010"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C14",
+      "target": "03_Hanh_dong",
+      "at": "C18",
+      "value": "Flutter staff"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K14",
+      "target": "03_Hanh_dong",
+      "at": "D18",
+      "value": "P1-T008"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L14",
+      "target": "03_Hanh_dong",
+      "at": "E18",
+      "value": "Run Chrome; lưu bằng chứng"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A15",
+      "target": "03_Hanh_dong",
+      "at": "B19",
+      "value": "P1-T011"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C15",
+      "target": "03_Hanh_dong",
+      "at": "C19",
+      "value": "CI"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L15",
+      "target": "03_Hanh_dong",
+      "at": "E19",
+      "value": "Cần hosted Git remote; push main và chạy workflow"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A16",
+      "target": "03_Hanh_dong",
+      "at": "B20",
+      "value": "P1-T012"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C16",
+      "target": "03_Hanh_dong",
+      "at": "C20",
+      "value": "QA"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K16",
+      "target": "03_Hanh_dong",
+      "at": "D20",
+      "value": "P1-T001..P1-T011"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L16",
+      "target": "03_Hanh_dong",
+      "at": "E20",
+      "value": "Fresh clone; không dùng cache/local hidden state"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A17",
+      "target": "03_Hanh_dong",
+      "at": "B21",
+      "value": "P2-T001"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "C17",
+      "target": "03_Hanh_dong",
+      "at": "C21",
+      "value": "UX/UI"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "K17",
+      "target": "03_Hanh_dong",
+      "at": "D21",
+      "value": "Phase 1 XONG"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "L17",
+      "target": "03_Hanh_dong",
+      "at": "E21",
+      "value": "Không start implementation sớm"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A5",
+      "target": "04_Nghiem_thu",
+      "at": "B9",
+      "value": "P1-T001"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A6",
+      "target": "04_Nghiem_thu",
+      "at": "B10",
+      "value": "P1-T002"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A7",
+      "target": "04_Nghiem_thu",
+      "at": "B11",
+      "value": "P1-T003"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A8",
+      "target": "04_Nghiem_thu",
+      "at": "B12",
+      "value": "P1-T004"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A9",
+      "target": "04_Nghiem_thu",
+      "at": "B13",
+      "value": "P1-T005"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A10",
+      "target": "04_Nghiem_thu",
+      "at": "B14",
+      "value": "P1-T006"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A11",
+      "target": "04_Nghiem_thu",
+      "at": "B15",
+      "value": "P1-T007"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A12",
+      "target": "04_Nghiem_thu",
+      "at": "B16",
+      "value": "P1-T008"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A13",
+      "target": "04_Nghiem_thu",
+      "at": "B17",
+      "value": "P1-T009"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A14",
+      "target": "04_Nghiem_thu",
+      "at": "B18",
+      "value": "P1-T010"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A15",
+      "target": "04_Nghiem_thu",
+      "at": "B19",
+      "value": "P1-T011"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A16",
+      "target": "04_Nghiem_thu",
+      "at": "B20",
+      "value": "P1-T012"
+    },
+    {
+      "source": "04_CONG_VIEC",
+      "cell": "A17",
+      "target": "04_Nghiem_thu",
+      "at": "B21",
+      "value": "P2-T001"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "D6",
+      "target": "05_Blocker",
+      "at": "B9",
+      "value": "V3.2 original"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "F6",
+      "target": "05_Blocker",
+      "at": "D9",
+      "value": "Import exact package + rerun 115 contract + 22 SQL."
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "G6",
+      "target": "05_Blocker",
+      "at": "E9",
+      "value": "P1-T001..T003"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "D7",
+      "target": "05_Blocker",
+      "at": "B10",
+      "value": "PostgreSQL"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "F7",
+      "target": "05_Blocker",
+      "at": "D10",
+      "value": "Provision/access DB → migration → 6 DB tests."
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "G7",
+      "target": "05_Blocker",
+      "at": "E10",
+      "value": "P1-T005..T006"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "D8",
+      "target": "05_Blocker",
+      "at": "B11",
+      "value": "API + Worker"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "F8",
+      "target": "05_Blocker",
+      "at": "D11",
+      "value": "DB khỏe → /ready=200 → worker probe PASS."
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "G8",
+      "target": "05_Blocker",
+      "at": "E11",
+      "value": "P1-T007"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "D9",
+      "target": "05_Blocker",
+      "at": "B12",
+      "value": "Flutter learner/staff"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "F9",
+      "target": "05_Blocker",
+      "at": "D12",
+      "value": "Toolchain → learner Android boot + staff Web boot."
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "G9",
+      "target": "05_Blocker",
+      "at": "E12",
+      "value": "P1-T008..T010"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "D10",
+      "target": "05_Blocker",
+      "at": "B13",
+      "value": "Hosted CI"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "F10",
+      "target": "05_Blocker",
+      "at": "D13",
+      "value": "Có remote → chạy workflow từ clean checkout."
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "G10",
+      "target": "05_Blocker",
+      "at": "E13",
+      "value": "P1-T011"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "D11",
+      "target": "05_Blocker",
+      "at": "B14",
+      "value": "Clean reproduction"
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "F11",
+      "target": "05_Blocker",
+      "at": "D14",
+      "value": "Clone sạch và chạy toàn stack."
+    },
+    {
+      "source": "01_TONG_QUAN",
+      "cell": "G11",
+      "target": "05_Blocker",
+      "at": "E14",
+      "value": "P1-T012"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A5",
+      "target": "06_Roadmap",
+      "at": "B9",
+      "value": 0
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B5",
+      "target": "06_Roadmap",
+      "at": "C9",
+      "value": "Kiến trúc & Hợp đồng hệ thống"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C5",
+      "target": "06_Roadmap",
+      "at": "D9",
+      "value": "Chốt luật kiến trúc/contracts trước khi code."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D5",
+      "target": "06_Roadmap",
+      "at": "E9",
+      "value": "V3.2.0 + packaged 115 contract + 22 SQL evidence."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E5",
+      "target": "06_Roadmap",
+      "at": "F9",
+      "value": "XONG"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F5",
+      "target": "06_Roadmap",
+      "at": "G9",
+      "value": "Phase 0 hoàn tất."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A6",
+      "target": "06_Roadmap",
+      "at": "B10",
+      "value": 1
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B6",
+      "target": "06_Roadmap",
+      "at": "C10",
+      "value": "Nền tảng triển khai"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C6",
+      "target": "06_Roadmap",
+      "at": "D10",
+      "value": "Dựng backend/DB/worker/Flutter shells/CI và chứng minh runtime."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D6",
+      "target": "06_Roadmap",
+      "at": "E10",
+      "value": "V3.2 rerun + DB/worker + Flutter + CI + clean reproduction."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E6",
+      "target": "06_Roadmap",
+      "at": "F10",
+      "value": "=IF(COUNTIFS('04_CONG_VIEC'!$B$5:$B$200,\"P1\",'04_CONG_VIEC'!$F$5:$F$200,\"<>XONG\")=0,\"XONG\",\"ĐANG LÀM\")"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F6",
+      "target": "06_Roadmap",
+      "at": "G10",
+      "value": "Gate chưa pass."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A7",
+      "target": "06_Roadmap",
+      "at": "B11",
+      "value": 2
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B7",
+      "target": "06_Roadmap",
+      "at": "C11",
+      "value": "Hệ thống UX/UI sản phẩm"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C7",
+      "target": "06_Roadmap",
+      "at": "D11",
+      "value": "Thiết kế user journey, IA, design system, screen specs."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D7",
+      "target": "06_Roadmap",
+      "at": "E11",
+      "value": "UX system được duyệt và trace tới PRD."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E7",
+      "target": "06_Roadmap",
+      "at": "F11",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F7",
+      "target": "06_Roadmap",
+      "at": "G11",
+      "value": "Chỉ đủ điều kiện khi Phase 1 PASS."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A8",
+      "target": "06_Roadmap",
+      "at": "B12",
+      "value": 3
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B8",
+      "target": "06_Roadmap",
+      "at": "C12",
+      "value": "Tài khoản, đăng nhập & phân quyền"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C8",
+      "target": "06_Roadmap",
+      "at": "D12",
+      "value": "Login/session/role/permission thật ở server."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D8",
+      "target": "06_Roadmap",
+      "at": "E12",
+      "value": "Authz/security tests pass."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E8",
+      "target": "06_Roadmap",
+      "at": "F12",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A9",
+      "target": "06_Roadmap",
+      "at": "B13",
+      "value": 4
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B9",
+      "target": "06_Roadmap",
+      "at": "C13",
+      "value": "Nền tảng nội dung & xuất bản"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C9",
+      "target": "06_Roadmap",
+      "at": "D13",
+      "value": "Author/review/license/publish/versioned content."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D9",
+      "target": "06_Roadmap",
+      "at": "E13",
+      "value": "Publishing + provenance + immutable revisions."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E9",
+      "target": "06_Roadmap",
+      "at": "F13",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A10",
+      "target": "06_Roadmap",
+      "at": "B14",
+      "value": 5
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B10",
+      "target": "06_Roadmap",
+      "at": "C14",
+      "value": "Lõi học tập & đánh giá"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C10",
+      "target": "06_Roadmap",
+      "at": "D14",
+      "value": "Objectives, attempts, Check, progress, review, placement."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D10",
+      "target": "06_Roadmap",
+      "at": "E14",
+      "value": "Learning business rules chạy đúng."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E10",
+      "target": "06_Roadmap",
+      "at": "F14",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A11",
+      "target": "06_Roadmap",
+      "at": "B15",
+      "value": 6
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B11",
+      "target": "06_Roadmap",
+      "at": "C15",
+      "value": "Offline-first & đồng bộ"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C11",
+      "target": "06_Roadmap",
+      "at": "D15",
+      "value": "Học khi mất mạng; replay/idempotency/reconciliation."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D11",
+      "target": "06_Roadmap",
+      "at": "E15",
+      "value": "Offline adversarial tests pass."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E11",
+      "target": "06_Roadmap",
+      "at": "F15",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A12",
+      "target": "06_Roadmap",
+      "at": "B16",
+      "value": 7
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B12",
+      "target": "06_Roadmap",
+      "at": "C16",
+      "value": "Worker bền vững & xử lý nền"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C12",
+      "target": "06_Roadmap",
+      "at": "D16",
+      "value": "Jobs/retry/fencing/scheduling/projections."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D12",
+      "target": "06_Roadmap",
+      "at": "E16",
+      "value": "Worker failure/race tests pass."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E12",
+      "target": "06_Roadmap",
+      "at": "F16",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A13",
+      "target": "06_Roadmap",
+      "at": "B17",
+      "value": 8
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B13",
+      "target": "06_Roadmap",
+      "at": "C17",
+      "value": "Phân tích học tập & dữ liệu"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C13",
+      "target": "06_Roadmap",
+      "at": "D17",
+      "value": "Event model, point-in-time, source capture, projections."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D13",
+      "target": "06_Roadmap",
+      "at": "E17",
+      "value": "No leakage + telemetry quality."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E13",
+      "target": "06_Roadmap",
+      "at": "F17",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A14",
+      "target": "06_Roadmap",
+      "at": "B18",
+      "value": 9
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B14",
+      "target": "06_Roadmap",
+      "at": "C18",
+      "value": "Learning Intelligence"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C14",
+      "target": "06_Roadmap",
+      "at": "D18",
+      "value": "Mastery/knowledge state/adaptive path dựa product evidence."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D14",
+      "target": "06_Roadmap",
+      "at": "E18",
+      "value": "Evaluation contract + fallback."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E14",
+      "target": "06_Roadmap",
+      "at": "F18",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F14",
+      "target": "06_Roadmap",
+      "at": "G18",
+      "value": "Không freeze final mastery trước phase này."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A15",
+      "target": "06_Roadmap",
+      "at": "B19",
+      "value": 10
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B15",
+      "target": "06_Roadmap",
+      "at": "C19",
+      "value": "Production ML / Dự đoán rủi ro sớm"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C15",
+      "target": "06_Roadmap",
+      "at": "D19",
+      "value": "Risk prediction dùng product data."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D15",
+      "target": "06_Roadmap",
+      "at": "E19",
+      "value": "Validated target/horizon/model; no leakage."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E15",
+      "target": "06_Roadmap",
+      "at": "F19",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A16",
+      "target": "06_Roadmap",
+      "at": "B20",
+      "value": 11
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B16",
+      "target": "06_Roadmap",
+      "at": "C20",
+      "value": "Khuyến nghị & can thiệp"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C16",
+      "target": "06_Roadmap",
+      "at": "D20",
+      "value": "Decision/reason/exposure/execution/outcome."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D16",
+      "target": "06_Roadmap",
+      "at": "E20",
+      "value": "Auditable recommendation + fallback."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E16",
+      "target": "06_Roadmap",
+      "at": "F20",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A17",
+      "target": "06_Roadmap",
+      "at": "B21",
+      "value": 12
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B17",
+      "target": "06_Roadmap",
+      "at": "C21",
+      "value": "Sản phẩm cho Instructor / Advisor / Admin"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C17",
+      "target": "06_Roadmap",
+      "at": "D21",
+      "value": "Staff workflows hoàn chỉnh."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D17",
+      "target": "06_Roadmap",
+      "at": "E21",
+      "value": "Permissioned staff product."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E17",
+      "target": "06_Roadmap",
+      "at": "F21",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A18",
+      "target": "06_Roadmap",
+      "at": "B22",
+      "value": 13
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B18",
+      "target": "06_Roadmap",
+      "at": "C22",
+      "value": "Gia cố QA / Bảo mật / Privacy / Hiệu năng"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C18",
+      "target": "06_Roadmap",
+      "at": "D22",
+      "value": "Security/privacy/performance/backup/observability."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D18",
+      "target": "06_Roadmap",
+      "at": "E22",
+      "value": "Production hardening gate."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E18",
+      "target": "06_Roadmap",
+      "at": "F22",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A19",
+      "target": "06_Roadmap",
+      "at": "B23",
+      "value": 14
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B19",
+      "target": "06_Roadmap",
+      "at": "C23",
+      "value": "Internal Alpha"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C19",
+      "target": "06_Roadmap",
+      "at": "D23",
+      "value": "Đội nội bộ dùng end-to-end."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D19",
+      "target": "06_Roadmap",
+      "at": "E23",
+      "value": "Critical flows ổn định."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E19",
+      "target": "06_Roadmap",
+      "at": "F23",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A20",
+      "target": "06_Roadmap",
+      "at": "B24",
+      "value": 15
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B20",
+      "target": "06_Roadmap",
+      "at": "C24",
+      "value": "Closed Beta / Pilot"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C20",
+      "target": "06_Roadmap",
+      "at": "D24",
+      "value": "Nhóm user nhỏ dùng thật (~5 theo nguồn lực)."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D20",
+      "target": "06_Roadmap",
+      "at": "E24",
+      "value": "Usability/trust/reliability evidence."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E20",
+      "target": "06_Roadmap",
+      "at": "F24",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F20",
+      "target": "06_Roadmap",
+      "at": "G24",
+      "value": "Không claim causal efficacy."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A21",
+      "target": "06_Roadmap",
+      "at": "B25",
+      "value": 16
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B21",
+      "target": "06_Roadmap",
+      "at": "C25",
+      "value": "Production Launch"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C21",
+      "target": "06_Roadmap",
+      "at": "D25",
+      "value": "Public release có rollback/monitoring/support."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D21",
+      "target": "06_Roadmap",
+      "at": "E25",
+      "value": "Launch readiness pass."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E21",
+      "target": "06_Roadmap",
+      "at": "F25",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A22",
+      "target": "06_Roadmap",
+      "at": "B26",
+      "value": 17
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B22",
+      "target": "06_Roadmap",
+      "at": "C26",
+      "value": "Growth / Experimentation / Continuous Learning"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C22",
+      "target": "06_Roadmap",
+      "at": "D26",
+      "value": "Experiment, content growth, model/policy improvement."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D22",
+      "target": "06_Roadmap",
+      "at": "E26",
+      "value": "Continuous measurement/governance."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E22",
+      "target": "06_Roadmap",
+      "at": "F26",
+      "value": "TẠM HOÃN"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A27",
+      "target": "07_Checklist_P1",
+      "at": "B9",
+      "value": 1
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B27",
+      "target": "07_Checklist_P1",
+      "at": "C9",
+      "value": "V3.2"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C27",
+      "target": "07_Checklist_P1",
+      "at": "D9",
+      "value": "Import exact original V3.2 completed package vào repo + provenance."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D27",
+      "target": "07_Checklist_P1",
+      "at": "E9",
+      "value": "Exact package giữ nguyên; hash/provenance rõ."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E27",
+      "target": "07_Checklist_P1",
+      "at": "F9",
+      "value": "P1-T001"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F27",
+      "target": "07_Checklist_P1",
+      "at": "G9",
+      "value": "=VLOOKUP(\"P1-T001\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A28",
+      "target": "07_Checklist_P1",
+      "at": "B10",
+      "value": 2
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B28",
+      "target": "07_Checklist_P1",
+      "at": "C10",
+      "value": "V3.2"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C28",
+      "target": "07_Checklist_P1",
+      "at": "D10",
+      "value": "Rerun original contract suite."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D28",
+      "target": "07_Checklist_P1",
+      "at": "E10",
+      "value": "115/115 PASS."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E28",
+      "target": "07_Checklist_P1",
+      "at": "F10",
+      "value": "P1-T002"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F28",
+      "target": "07_Checklist_P1",
+      "at": "G10",
+      "value": "=VLOOKUP(\"P1-T002\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "G28",
+      "target": "07_Checklist_P1",
+      "at": "H10",
+      "value": "Bước 1"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A29",
+      "target": "07_Checklist_P1",
+      "at": "B11",
+      "value": 3
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B29",
+      "target": "07_Checklist_P1",
+      "at": "C11",
+      "value": "V3.2"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C29",
+      "target": "07_Checklist_P1",
+      "at": "D11",
+      "value": "Rerun original SQL suite."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D29",
+      "target": "07_Checklist_P1",
+      "at": "E11",
+      "value": "22/22 PASS."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E29",
+      "target": "07_Checklist_P1",
+      "at": "F11",
+      "value": "P1-T003"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F29",
+      "target": "07_Checklist_P1",
+      "at": "G11",
+      "value": "=VLOOKUP(\"P1-T003\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "G29",
+      "target": "07_Checklist_P1",
+      "at": "H11",
+      "value": "Bước 1"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A30",
+      "target": "07_Checklist_P1",
+      "at": "B12",
+      "value": 4
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B30",
+      "target": "07_Checklist_P1",
+      "at": "C12",
+      "value": "Python"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C30",
+      "target": "07_Checklist_P1",
+      "at": "D12",
+      "value": "Rerun backend bằng Python 3.12 canonical."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D30",
+      "target": "07_Checklist_P1",
+      "at": "E12",
+      "value": "Install/Ruff/tests/API smoke PASS."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E30",
+      "target": "07_Checklist_P1",
+      "at": "F12",
+      "value": "P1-T004"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F30",
+      "target": "07_Checklist_P1",
+      "at": "G12",
+      "value": "=VLOOKUP(\"P1-T004\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A31",
+      "target": "07_Checklist_P1",
+      "at": "B13",
+      "value": 5
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B31",
+      "target": "07_Checklist_P1",
+      "at": "C13",
+      "value": "PostgreSQL"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C31",
+      "target": "07_Checklist_P1",
+      "at": "D13",
+      "value": "Có DB chính mingo + mingo_test + role mingo_app."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D31",
+      "target": "07_Checklist_P1",
+      "at": "E13",
+      "value": "Kết nối an toàn; không commit secret."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E31",
+      "target": "07_Checklist_P1",
+      "at": "F13",
+      "value": "P1-T005"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F31",
+      "target": "07_Checklist_P1",
+      "at": "G13",
+      "value": "=VLOOKUP(\"P1-T005\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A32",
+      "target": "07_Checklist_P1",
+      "at": "B14",
+      "value": 6
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B32",
+      "target": "07_Checklist_P1",
+      "at": "C14",
+      "value": "PostgreSQL"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C32",
+      "target": "07_Checklist_P1",
+      "at": "D14",
+      "value": "Run migration + 6 integration/concurrency tests."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D32",
+      "target": "07_Checklist_P1",
+      "at": "E14",
+      "value": "6 PASS / 0 fail / 0 skip."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E32",
+      "target": "07_Checklist_P1",
+      "at": "F14",
+      "value": "P1-T006"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F32",
+      "target": "07_Checklist_P1",
+      "at": "G14",
+      "value": "=VLOOKUP(\"P1-T006\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "G32",
+      "target": "07_Checklist_P1",
+      "at": "H14",
+      "value": "Bước 5"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A33",
+      "target": "07_Checklist_P1",
+      "at": "B15",
+      "value": 7
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B33",
+      "target": "07_Checklist_P1",
+      "at": "C15",
+      "value": "API/Worker"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C33",
+      "target": "07_Checklist_P1",
+      "at": "D15",
+      "value": "Boot API + worker với DB khỏe."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D33",
+      "target": "07_Checklist_P1",
+      "at": "E15",
+      "value": "live=200, ready=200, worker probe PASS."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E33",
+      "target": "07_Checklist_P1",
+      "at": "F15",
+      "value": "P1-T007"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F33",
+      "target": "07_Checklist_P1",
+      "at": "G15",
+      "value": "=VLOOKUP(\"P1-T007\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "G33",
+      "target": "07_Checklist_P1",
+      "at": "H15",
+      "value": "Bước 6"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A34",
+      "target": "07_Checklist_P1",
+      "at": "B16",
+      "value": 8
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B34",
+      "target": "07_Checklist_P1",
+      "at": "C16",
+      "value": "Flutter"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C34",
+      "target": "07_Checklist_P1",
+      "at": "D16",
+      "value": "Install Flutter 3.32.8 + Android tooling."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D34",
+      "target": "07_Checklist_P1",
+      "at": "E16",
+      "value": "flutter doctor đủ điều kiện learner."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E34",
+      "target": "07_Checklist_P1",
+      "at": "F16",
+      "value": "P1-T008"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F34",
+      "target": "07_Checklist_P1",
+      "at": "G16",
+      "value": "=VLOOKUP(\"P1-T008\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A35",
+      "target": "07_Checklist_P1",
+      "at": "B17",
+      "value": 9
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B35",
+      "target": "07_Checklist_P1",
+      "at": "C17",
+      "value": "Flutter learner"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C35",
+      "target": "07_Checklist_P1",
+      "at": "D17",
+      "value": "Analyze/test/build + actual Android boot."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D35",
+      "target": "07_Checklist_P1",
+      "at": "E17",
+      "value": "App mở thật trên emulator/device."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E35",
+      "target": "07_Checklist_P1",
+      "at": "F17",
+      "value": "P1-T009"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F35",
+      "target": "07_Checklist_P1",
+      "at": "G17",
+      "value": "=VLOOKUP(\"P1-T009\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "G35",
+      "target": "07_Checklist_P1",
+      "at": "H17",
+      "value": "Bước 8"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A36",
+      "target": "07_Checklist_P1",
+      "at": "B18",
+      "value": 10
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B36",
+      "target": "07_Checklist_P1",
+      "at": "C18",
+      "value": "Flutter staff"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C36",
+      "target": "07_Checklist_P1",
+      "at": "D18",
+      "value": "Analyze/test/build + actual Web boot."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D36",
+      "target": "07_Checklist_P1",
+      "at": "E18",
+      "value": "Web app mở thật."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E36",
+      "target": "07_Checklist_P1",
+      "at": "F18",
+      "value": "P1-T010"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F36",
+      "target": "07_Checklist_P1",
+      "at": "G18",
+      "value": "=VLOOKUP(\"P1-T010\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "G36",
+      "target": "07_Checklist_P1",
+      "at": "H18",
+      "value": "Bước 8"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A37",
+      "target": "07_Checklist_P1",
+      "at": "B19",
+      "value": 11
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B37",
+      "target": "07_Checklist_P1",
+      "at": "C19",
+      "value": "CI"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C37",
+      "target": "07_Checklist_P1",
+      "at": "D19",
+      "value": "Hosted remote + workflow clean checkout."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D37",
+      "target": "07_Checklist_P1",
+      "at": "E19",
+      "value": "Backend + Flutter + V3.2 jobs xanh."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E37",
+      "target": "07_Checklist_P1",
+      "at": "F19",
+      "value": "P1-T011"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F37",
+      "target": "07_Checklist_P1",
+      "at": "G19",
+      "value": "=VLOOKUP(\"P1-T011\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "A38",
+      "target": "07_Checklist_P1",
+      "at": "B20",
+      "value": 12
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "B38",
+      "target": "07_Checklist_P1",
+      "at": "C20",
+      "value": "Clean reproduce"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "C38",
+      "target": "07_Checklist_P1",
+      "at": "D20",
+      "value": "Clone sạch và rerun full stack."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "D38",
+      "target": "07_Checklist_P1",
+      "at": "E20",
+      "value": "Không dựa cache/local hidden state."
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "E38",
+      "target": "07_Checklist_P1",
+      "at": "F20",
+      "value": "P1-T012"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "F38",
+      "target": "07_Checklist_P1",
+      "at": "G20",
+      "value": "=VLOOKUP(\"P1-T012\",'04_CONG_VIEC'!$A$5:$F$200,6,FALSE)"
+    },
+    {
+      "source": "03_ROADMAP",
+      "cell": "G38",
+      "target": "07_Checklist_P1",
+      "at": "H20",
+      "value": "Bước 1–11"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A17",
+      "target": "09_Luong_hoc",
+      "at": "B9",
+      "value": 1
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B17",
+      "target": "09_Luong_hoc",
+      "at": "C9",
+      "value": "Mở app"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C17",
+      "target": "09_Luong_hoc",
+      "at": "D9",
+      "value": "Người học vào Mingo; có thể chọn mục tiêu cá nhân."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A18",
+      "target": "09_Luong_hoc",
+      "at": "B10",
+      "value": 2
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B18",
+      "target": "09_Luong_hoc",
+      "at": "C10",
+      "value": "Placement ngắn hoặc bỏ qua"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C18",
+      "target": "09_Luong_hoc",
+      "at": "D10",
+      "value": "Tạo trạng thái bắt đầu tạm thời (provisional); không ép placement dài."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A19",
+      "target": "09_Luong_hoc",
+      "at": "B11",
+      "value": 3
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B19",
+      "target": "09_Luong_hoc",
+      "at": "C11",
+      "value": "Chọn mục tiêu học / chu kỳ học"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C19",
+      "target": "09_Luong_hoc",
+      "at": "D11",
+      "value": "Backend chọn nội dung đủ điều kiện theo curriculum, review, focus và prerequisite."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A20",
+      "target": "09_Luong_hoc",
+      "at": "B12",
+      "value": 4
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B20",
+      "target": "09_Luong_hoc",
+      "at": "C12",
+      "value": "Review"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C20",
+      "target": "09_Luong_hoc",
+      "at": "D12",
+      "value": "Ôn đúng thứ cần ôn; không tạo infinite scroll."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A21",
+      "target": "09_Luong_hoc",
+      "at": "B13",
+      "value": 5
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B21",
+      "target": "09_Luong_hoc",
+      "at": "C13",
+      "value": "Learn"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C21",
+      "target": "09_Luong_hoc",
+      "at": "D13",
+      "value": "Giải thích/ngữ cảnh ngắn phù hợp Vocabulary, Grammar hoặc Listening."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A22",
+      "target": "09_Luong_hoc",
+      "at": "B14",
+      "value": 6
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B22",
+      "target": "09_Luong_hoc",
+      "at": "C14",
+      "value": "Retrieve"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C22",
+      "target": "09_Luong_hoc",
+      "at": "D14",
+      "value": "Người học phải tự nhớ/trả lời; đây là bằng chứng quan trọng."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A23",
+      "target": "09_Luong_hoc",
+      "at": "B15",
+      "value": 7
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B23",
+      "target": "09_Luong_hoc",
+      "at": "C15",
+      "value": "Transfer"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C23",
+      "target": "09_Luong_hoc",
+      "at": "D15",
+      "value": "Dùng kiến thức trong ngữ cảnh khác."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A24",
+      "target": "09_Luong_hoc",
+      "at": "B16",
+      "value": 8
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B24",
+      "target": "09_Luong_hoc",
+      "at": "C16",
+      "value": "Check"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C24",
+      "target": "09_Luong_hoc",
+      "at": "D16",
+      "value": "Bài kiểm tra độc lập; server là nguồn quyết định điểm chính."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A25",
+      "target": "09_Luong_hoc",
+      "at": "B17",
+      "value": 9
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B25",
+      "target": "09_Luong_hoc",
+      "at": "C17",
+      "value": "Feedback + lưu evidence"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C25",
+      "target": "09_Luong_hoc",
+      "at": "D17",
+      "value": "Giữ đúng first response, retry, hint, skip và điều kiện assessment."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A26",
+      "target": "09_Luong_hoc",
+      "at": "B18",
+      "value": 10
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B26",
+      "target": "09_Luong_hoc",
+      "at": "C18",
+      "value": "Kết thúc cycle"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C26",
+      "target": "09_Luong_hoc",
+      "at": "D18",
+      "value": "Có điểm dừng rõ; người học chọn tiếp tục hoặc dừng."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A27",
+      "target": "09_Luong_hoc",
+      "at": "B19",
+      "value": 11
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B27",
+      "target": "09_Luong_hoc",
+      "at": "C19",
+      "value": "Tích lũy theo thời gian"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "C27",
+      "target": "09_Luong_hoc",
+      "at": "D19",
+      "value": "Review scheduler và analytics tích lũy; intelligence/risk/recommendation đến ở phase sau."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A32",
+      "target": "10_Quy_tac",
+      "at": "B9",
+      "value": "First response"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B32",
+      "target": "10_Quy_tac",
+      "at": "C9",
+      "value": "Câu trả lời đầu tiên phải được giữ. Retry đúng sau đó không biến lịch sử thành 'đúng ngay từ đầu'."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A33",
+      "target": "10_Quy_tac",
+      "at": "B10",
+      "value": "Hint"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B33",
+      "target": "10_Quy_tac",
+      "at": "C10",
+      "value": "Đúng sau hint = đúng có hỗ trợ (assisted), không phải đúng độc lập (unaided)."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A34",
+      "target": "10_Quy_tac",
+      "at": "B11",
+      "value": "Skip"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B34",
+      "target": "10_Quy_tac",
+      "at": "C11",
+      "value": "Skip được ghi lại nhưng KHÔNG phải completion, mastery hay progress."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A35",
+      "target": "10_Quy_tac",
+      "at": "B12",
+      "value": "Check"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B35",
+      "target": "10_Quy_tac",
+      "at": "C12",
+      "value": "Bài kiểm tra độc lập; không có hint trước khi submit."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A36",
+      "target": "10_Quy_tac",
+      "at": "B13",
+      "value": "Audio replay"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B36",
+      "target": "10_Quy_tac",
+      "at": "C13",
+      "value": "Telemetry ở client không chứng minh chắc chắn người dùng đã nghe bao nhiêu lần và không tự quyết điểm chuẩn."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A37",
+      "target": "10_Quy_tac",
+      "at": "B14",
+      "value": "Content revision"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B37",
+      "target": "10_Quy_tac",
+      "at": "C14",
+      "value": "Nội dung đã publish là bất biến; muốn sửa phải tạo revision mới."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A38",
+      "target": "10_Quy_tac",
+      "at": "B15",
+      "value": "Attempt"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B38",
+      "target": "10_Quy_tac",
+      "at": "C15",
+      "value": "Attempt phải pin đúng revision mà learner đã thấy lúc làm."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A39",
+      "target": "10_Quy_tac",
+      "at": "B16",
+      "value": "Offline"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B39",
+      "target": "10_Quy_tac",
+      "at": "C16",
+      "value": "Business command và telemetry đi hai luồng riêng; retry không được tạo progress hai lần."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A40",
+      "target": "10_Quy_tac",
+      "at": "B17",
+      "value": "Mastery / Risk"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B40",
+      "target": "10_Quy_tac",
+      "at": "C17",
+      "value": "Mastery và Risk là hai khái niệm khác nhau."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A41",
+      "target": "10_Quy_tac",
+      "at": "B18",
+      "value": "Recommendation"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B41",
+      "target": "10_Quy_tac",
+      "at": "C18",
+      "value": "Prediction ≠ Decision ≠ Exposure ≠ Execution ≠ Outcome."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A42",
+      "target": "10_Quy_tac",
+      "at": "B19",
+      "value": "ML OFF"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B42",
+      "target": "10_Quy_tac",
+      "at": "C19",
+      "value": "Khi ML/recommendation bị tắt, curriculum + review fallback vẫn phải tạo được chu kỳ học hợp lệ."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A47",
+      "target": "11_Da_chot",
+      "at": "B9",
+      "value": "V3.2"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B47",
+      "target": "11_Da_chot",
+      "at": "C9",
+      "value": "V3.2.0 completed baseline là source of truth của Phase 0."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A48",
+      "target": "11_Da_chot",
+      "at": "B10",
+      "value": "Stack"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B48",
+      "target": "11_Da_chot",
+      "at": "C10",
+      "value": "Flutter Android-first cho learner; Flutter Web cho staff; FastAPI/Python; PostgreSQL; Object Storage."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A49",
+      "target": "11_Da_chot",
+      "at": "B11",
+      "value": "Architecture"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B49",
+      "target": "11_Da_chot",
+      "at": "C11",
+      "value": "Modular monolith; API process + durable worker dùng cùng codebase."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A50",
+      "target": "11_Da_chot",
+      "at": "B12",
+      "value": "Authority"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B50",
+      "target": "11_Da_chot",
+      "at": "C12",
+      "value": "Máy chủ quyết định canonical scoring, progress và permission."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A51",
+      "target": "11_Da_chot",
+      "at": "B13",
+      "value": "Offline"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B51",
+      "target": "11_Da_chot",
+      "at": "C13",
+      "value": "Command queue tách telemetry queue."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A52",
+      "target": "11_Da_chot",
+      "at": "B14",
+      "value": "Content"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B52",
+      "target": "11_Da_chot",
+      "at": "C14",
+      "value": "Published content immutable/versioned; attempt/enrollment pin exact revision."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A53",
+      "target": "11_Da_chot",
+      "at": "B15",
+      "value": "Analytics time"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B53",
+      "target": "11_Da_chot",
+      "at": "C15",
+      "value": "Phân biệt event time và knowledge/availability/source capture."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A54",
+      "target": "11_Da_chot",
+      "at": "B16",
+      "value": "Mastery / Risk"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B54",
+      "target": "11_Da_chot",
+      "at": "C16",
+      "value": "Mastery khác Risk."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A55",
+      "target": "11_Da_chot",
+      "at": "B17",
+      "value": "Recommendation"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B55",
+      "target": "11_Da_chot",
+      "at": "C17",
+      "value": "Risk chỉ là input tùy chọn; ML/recommendation OFF thì app vẫn học được."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A56",
+      "target": "11_Da_chot",
+      "at": "B18",
+      "value": "Lifecycle"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B56",
+      "target": "11_Da_chot",
+      "at": "C18",
+      "value": "Prediction / Decision / Exposure / Execution / Outcome tách riêng."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A57",
+      "target": "11_Da_chot",
+      "at": "B19",
+      "value": "Hạ tầng"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B57",
+      "target": "11_Da_chot",
+      "at": "C19",
+      "value": "Không Kafka/Kubernetes/microservices/warehouse/external feature store nếu chưa có requirement/load thật."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A58",
+      "target": "11_Da_chot",
+      "at": "B20",
+      "value": "Database"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B58",
+      "target": "11_Da_chot",
+      "at": "C20",
+      "value": "Một Mingo: DB chính `mingo`, DB test disposable `mingo_test`, role `mingo_app`; không chia DB theo phase."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A59",
+      "target": "11_Da_chot",
+      "at": "B21",
+      "value": "Quản trị phase"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B59",
+      "target": "11_Da_chot",
+      "at": "C21",
+      "value": "Mỗi phase phải có deliverables + acceptance criteria + gate rồi mới qua phase sau."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A60",
+      "target": "11_Da_chot",
+      "at": "B22",
+      "value": "ML production"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B60",
+      "target": "11_Da_chot",
+      "at": "C22",
+      "value": "OULAD/UCI chỉ là research baseline; production model phải đánh giá bằng product data."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A65",
+      "target": "12_Gia_thuyet",
+      "at": "B9",
+      "value": "Tên Mingo"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B65",
+      "target": "12_Gia_thuyet",
+      "at": "C9",
+      "value": "Đang là working name; chưa freeze final brand."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A66",
+      "target": "12_Gia_thuyet",
+      "at": "B10",
+      "value": "~5 phút / cycle"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B66",
+      "target": "12_Gia_thuyet",
+      "at": "C10",
+      "value": "UX hypothesis; có thể đổi sau đo/pilot."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A67",
+      "target": "12_Gia_thuyet",
+      "at": "B11",
+      "value": "1 retry"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B67",
+      "target": "12_Gia_thuyet",
+      "at": "C11",
+      "value": "Retry count là hypothesis; việc giữ first response là nguyên tắc mạnh hơn."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A68",
+      "target": "12_Gia_thuyet",
+      "at": "B12",
+      "value": "2 lần nghe trong Check"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B68",
+      "target": "12_Gia_thuyet",
+      "at": "C12",
+      "value": "Hypothesis; server authority mới là invariant."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A69",
+      "target": "12_Gia_thuyet",
+      "at": "B13",
+      "value": "Placement 6–9 câu"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B69",
+      "target": "12_Gia_thuyet",
+      "at": "C13",
+      "value": "Thiết kế provisional; không phải CEFR cut score cuối."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A70",
+      "target": "12_Gia_thuyet",
+      "at": "B14",
+      "value": "Step-up threshold"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B70",
+      "target": "12_Gia_thuyet",
+      "at": "C14",
+      "value": "2 evidence + 1 Check + max 1 challenge là policy hypothesis."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A71",
+      "target": "12_Gia_thuyet",
+      "at": "B15",
+      "value": "Final mastery formula"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B71",
+      "target": "12_Gia_thuyet",
+      "at": "C15",
+      "value": "Chờ Phase 9 — Learning Intelligence."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A72",
+      "target": "12_Gia_thuyet",
+      "at": "B16",
+      "value": "Final risk label/model/weights"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B72",
+      "target": "12_Gia_thuyet",
+      "at": "C16",
+      "value": "Chờ Phase 10 + product data."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A73",
+      "target": "12_Gia_thuyet",
+      "at": "B17",
+      "value": "Recommendation ranking weights"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B73",
+      "target": "12_Gia_thuyet",
+      "at": "C17",
+      "value": "Chờ Phase 11."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A78",
+      "target": "13_Baseline_V3_2",
+      "at": "B9",
+      "value": "Tên package"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B78",
+      "target": "13_Baseline_V3_2",
+      "at": "C9",
+      "value": "ADAPTIVE_LANGUAGE_LEARNING_BASELINE_COMPLETED.zip"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A79",
+      "target": "13_Baseline_V3_2",
+      "at": "B10",
+      "value": "Version"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B79",
+      "target": "13_Baseline_V3_2",
+      "at": "C10",
+      "value": "3.2.0"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A80",
+      "target": "13_Baseline_V3_2",
+      "at": "B11",
+      "value": "Vai trò"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B80",
+      "target": "13_Baseline_V3_2",
+      "at": "C11",
+      "value": "Canonical Phase 0 architecture/contract baseline"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A81",
+      "target": "13_Baseline_V3_2",
+      "at": "B12",
+      "value": "Trạng thái gốc"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B81",
+      "target": "13_Baseline_V3_2",
+      "at": "C12",
+      "value": "Completed architecture and contract baseline; GO for core implementation; application runtime not validated"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A82",
+      "target": "13_Baseline_V3_2",
+      "at": "B13",
+      "value": "Kết quả contract trong package"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B82",
+      "target": "13_Baseline_V3_2",
+      "at": "C13",
+      "value": "115 PASS / 0 FAIL"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A83",
+      "target": "13_Baseline_V3_2",
+      "at": "B14",
+      "value": "Kết quả SQL trong package"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B83",
+      "target": "13_Baseline_V3_2",
+      "at": "C14",
+      "value": "22 PASS / 0 FAIL"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A84",
+      "target": "13_Baseline_V3_2",
+      "at": "B15",
+      "value": "Completed package SHA-256"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B84",
+      "target": "13_Baseline_V3_2",
+      "at": "C15",
+      "value": "1b4c9c10afad5245517d2593e5bbd98c7f233fc662c221ee8332cc386c83fe0a"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A85",
+      "target": "13_Baseline_V3_2",
+      "at": "B16",
+      "value": "V3 source archive SHA-256"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B85",
+      "target": "13_Baseline_V3_2",
+      "at": "C16",
+      "value": "7d46d057fab627d442a62aa5f33fbe9e63216ebbd6b04dc041e4505a7e4b6f55"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A86",
+      "target": "13_Baseline_V3_2",
+      "at": "B17",
+      "value": "Hiện tại trong Mingo"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B86",
+      "target": "13_Baseline_V3_2",
+      "at": "C17",
+      "value": "Original đã TÌM THẤY; canonical import/rerun vẫn đang chờ."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A87",
+      "target": "13_Baseline_V3_2",
+      "at": "B18",
+      "value": "V3.2 chứng minh"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B87",
+      "target": "13_Baseline_V3_2",
+      "at": "C18",
+      "value": "Architecture/contracts/schemas/DDL/API/protocol invariants được định nghĩa và packaged verification đã pass."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A88",
+      "target": "13_Baseline_V3_2",
+      "at": "B19",
+      "value": "V3.2 chưa chứng minh"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B88",
+      "target": "13_Baseline_V3_2",
+      "at": "C19",
+      "value": "FastAPI runtime thật, native PostgreSQL concurrency, Flutter device, hosted CI, production security/scale."
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "A89",
+      "target": "13_Baseline_V3_2",
+      "at": "B20",
+      "value": "Cách dùng"
+    },
+    {
+      "source": "02_SAN_PHAM",
+      "cell": "B89",
+      "target": "13_Baseline_V3_2",
+      "at": "C20",
+      "value": "Coder implement theo exact V3.2. Nếu phát hiện blocking defect thật → Issue/Change Request; không tự sửa business rule."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A6",
+      "target": "14_Van_de",
+      "at": "B9",
+      "value": "II-01"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B6",
+      "target": "14_Van_de",
+      "at": "C9",
+      "value": "V3.2 original"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D6",
+      "target": "14_Van_de",
+      "at": "D9",
+      "value": "TÌM THẤY / CHỜ CHẠY LẠI"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E6",
+      "target": "14_Van_de",
+      "at": "E9",
+      "value": "P0"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "G6",
+      "target": "14_Van_de",
+      "at": "G9",
+      "value": "P1-T001..T003"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A7",
+      "target": "14_Van_de",
+      "at": "B10",
+      "value": "II-02"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B7",
+      "target": "14_Van_de",
+      "at": "C10",
+      "value": "Hypothesis vs rule đã chốt"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D7",
+      "target": "14_Van_de",
+      "at": "D10",
+      "value": "MỞ"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E7",
+      "target": "14_Van_de",
+      "at": "E10",
+      "value": "P1"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A8",
+      "target": "14_Van_de",
+      "at": "B11",
+      "value": "II-03"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B8",
+      "target": "14_Van_de",
+      "at": "C11",
+      "value": "Listening replay authority"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D8",
+      "target": "14_Van_de",
+      "at": "D11",
+      "value": "MỞ"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E8",
+      "target": "14_Van_de",
+      "at": "E11",
+      "value": "P1"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A9",
+      "target": "14_Van_de",
+      "at": "B12",
+      "value": "II-04"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B9",
+      "target": "14_Van_de",
+      "at": "C12",
+      "value": "PostgreSQL runtime"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D9",
+      "target": "14_Van_de",
+      "at": "D12",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E9",
+      "target": "14_Van_de",
+      "at": "E12",
+      "value": "P0"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "G9",
+      "target": "14_Van_de",
+      "at": "G12",
+      "value": "P1-T005..T007"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A10",
+      "target": "14_Van_de",
+      "at": "B13",
+      "value": "II-05"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B10",
+      "target": "14_Van_de",
+      "at": "C13",
+      "value": "Flutter runtime"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D10",
+      "target": "14_Van_de",
+      "at": "D13",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E10",
+      "target": "14_Van_de",
+      "at": "E13",
+      "value": "P0"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "G10",
+      "target": "14_Van_de",
+      "at": "G13",
+      "value": "P1-T008..T010"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A11",
+      "target": "14_Van_de",
+      "at": "B14",
+      "value": "II-06"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B11",
+      "target": "14_Van_de",
+      "at": "C14",
+      "value": "Hosted CI"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D11",
+      "target": "14_Van_de",
+      "at": "D14",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E11",
+      "target": "14_Van_de",
+      "at": "E14",
+      "value": "P0"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "G11",
+      "target": "14_Van_de",
+      "at": "G14",
+      "value": "P1-T011"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A12",
+      "target": "14_Van_de",
+      "at": "B15",
+      "value": "II-07"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B12",
+      "target": "14_Van_de",
+      "at": "C15",
+      "value": "Old package layout mismatch"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D12",
+      "target": "14_Van_de",
+      "at": "D15",
+      "value": "ĐÃ GIẢI QUYẾT"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E12",
+      "target": "14_Van_de",
+      "at": "E15",
+      "value": "P2"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A13",
+      "target": "14_Van_de",
+      "at": "B16",
+      "value": "II-08"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B13",
+      "target": "14_Van_de",
+      "at": "C16",
+      "value": "Detached HEAD bundle"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D13",
+      "target": "14_Van_de",
+      "at": "D16",
+      "value": "ĐÃ GIẢI QUYẾT"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E13",
+      "target": "14_Van_de",
+      "at": "E16",
+      "value": "P2"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A14",
+      "target": "14_Van_de",
+      "at": "B17",
+      "value": "II-09"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B14",
+      "target": "14_Van_de",
+      "at": "C17",
+      "value": "Windows object storage"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D14",
+      "target": "14_Van_de",
+      "at": "D17",
+      "value": "ĐÃ GIẢI QUYẾT"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E14",
+      "target": "14_Van_de",
+      "at": "E17",
+      "value": "P1"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A6",
+      "target": "15_Xu_ly_van_de",
+      "at": "B9",
+      "value": "II-01"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C6",
+      "target": "15_Xu_ly_van_de",
+      "at": "C9",
+      "value": "Original package đã tìm được nhưng chưa import/rerun trong canonical repo."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H6",
+      "target": "15_Xu_ly_van_de",
+      "at": "D9",
+      "value": "Import exact package + rerun 115+22."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J6",
+      "target": "15_Xu_ly_van_de",
+      "at": "F9",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A7",
+      "target": "15_Xu_ly_van_de",
+      "at": "B10",
+      "value": "II-02"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C7",
+      "target": "15_Xu_ly_van_de",
+      "at": "C10",
+      "value": "MVP learning hypothesis có thể bị hiểu nhầm thành architecture/scoring invariant."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H7",
+      "target": "15_Xu_ly_van_de",
+      "at": "D10",
+      "value": "Giữ phân loại rõ ở 02_SAN_PHAM; thay rule nền tảng phải có CR."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J7",
+      "target": "15_Xu_ly_van_de",
+      "at": "F10",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A8",
+      "target": "15_Xu_ly_van_de",
+      "at": "B11",
+      "value": "II-03"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C8",
+      "target": "15_Xu_ly_van_de",
+      "at": "C11",
+      "value": "Client playback telemetry không chứng minh true listen/canonical score."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H8",
+      "target": "15_Xu_ly_van_de",
+      "at": "D11",
+      "value": "Map exact V3.2 contract; giữ server authority."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J8",
+      "target": "15_Xu_ly_van_de",
+      "at": "F11",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A9",
+      "target": "15_Xu_ly_van_de",
+      "at": "B12",
+      "value": "II-04"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C9",
+      "target": "15_Xu_ly_van_de",
+      "at": "C12",
+      "value": "DB tests/migrations/worker/readiness chưa proven."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H9",
+      "target": "15_Xu_ly_van_de",
+      "at": "D12",
+      "value": "Có DB access rồi chạy runtime verification."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J9",
+      "target": "15_Xu_ly_van_de",
+      "at": "F12",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A10",
+      "target": "15_Xu_ly_van_de",
+      "at": "B13",
+      "value": "II-05"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C10",
+      "target": "15_Xu_ly_van_de",
+      "at": "C13",
+      "value": "Chưa có toolchain/actual boot evidence."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H10",
+      "target": "15_Xu_ly_van_de",
+      "at": "D13",
+      "value": "Install pinned Flutter/Android + run."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J10",
+      "target": "15_Xu_ly_van_de",
+      "at": "F13",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A11",
+      "target": "15_Xu_ly_van_de",
+      "at": "B14",
+      "value": "II-06"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C11",
+      "target": "15_Xu_ly_van_de",
+      "at": "C14",
+      "value": "Chưa có hosted remote/run evidence."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H11",
+      "target": "15_Xu_ly_van_de",
+      "at": "D14",
+      "value": "Configure remote and run workflow."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J11",
+      "target": "15_Xu_ly_van_de",
+      "at": "F14",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A12",
+      "target": "15_Xu_ly_van_de",
+      "at": "B15",
+      "value": "II-07"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C12",
+      "target": "15_Xu_ly_van_de",
+      "at": "C15",
+      "value": "Source/full-pack path mismatch trong handoff cũ."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H12",
+      "target": "15_Xu_ly_van_de",
+      "at": "D15",
+      "value": "Canonical layout/provenance đã xử lý."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "I12",
+      "target": "15_Xu_ly_van_de",
+      "at": "E15",
+      "value": "fc6e40e"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J12",
+      "target": "15_Xu_ly_van_de",
+      "at": "F15",
+      "value": "2026-09-24 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A13",
+      "target": "15_Xu_ly_van_de",
+      "at": "B16",
+      "value": "II-08"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C13",
+      "target": "15_Xu_ly_van_de",
+      "at": "C16",
+      "value": "Bundle cũ clone ra detached HEAD."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H13",
+      "target": "15_Xu_ly_van_de",
+      "at": "D16",
+      "value": "Canonical named main bundle đã xử lý."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "I13",
+      "target": "15_Xu_ly_van_de",
+      "at": "E16",
+      "value": "fc6e40e"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J13",
+      "target": "15_Xu_ly_van_de",
+      "at": "F16",
+      "value": "2026-09-24 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "A14",
+      "target": "15_Xu_ly_van_de",
+      "at": "B17",
+      "value": "II-09"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C14",
+      "target": "15_Xu_ly_van_de",
+      "at": "C17",
+      "value": "Windows path/fsync portability issue."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H14",
+      "target": "15_Xu_ly_van_de",
+      "at": "D17",
+      "value": "Fix + rerun evidence."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "I14",
+      "target": "15_Xu_ly_van_de",
+      "at": "E17",
+      "value": "51b741e"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J14",
+      "target": "15_Xu_ly_van_de",
+      "at": "F17",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B28",
+      "target": "17_Ghi_chu",
+      "at": "C10",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C28",
+      "target": "17_Ghi_chu",
+      "at": "C12",
+      "value": "P1"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D28",
+      "target": "17_Ghi_chu",
+      "at": "C14",
+      "value": "V3.2"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E28",
+      "target": "17_Ghi_chu",
+      "at": "C16",
+      "value": "Original completed package đã được cung cấp sau khi trước đó repo không có."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "F28",
+      "target": "17_Ghi_chu",
+      "at": "C18",
+      "value": "Import/rerun original suites."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "G28",
+      "target": "17_Ghi_chu",
+      "at": "C20"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H28",
+      "target": "17_Ghi_chu",
+      "at": "C22"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "I28",
+      "target": "17_Ghi_chu",
+      "at": "C24",
+      "value": "ĐANG LÀM"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J28",
+      "target": "17_Ghi_chu",
+      "at": "C26",
+      "value": "P1-T001 / II-01"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "B29",
+      "target": "17_Ghi_chu",
+      "at": "F10",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "C29",
+      "target": "17_Ghi_chu",
+      "at": "F12",
+      "value": "P1"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "D29",
+      "target": "17_Ghi_chu",
+      "at": "F14",
+      "value": "Database"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "E29",
+      "target": "17_Ghi_chu",
+      "at": "F16",
+      "value": "Không chia DB theo phase."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "F29",
+      "target": "17_Ghi_chu",
+      "at": "F18",
+      "value": "Dùng mingo + mingo_test + role mingo_app."
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "G29",
+      "target": "17_Ghi_chu",
+      "at": "F20"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "H29",
+      "target": "17_Ghi_chu",
+      "at": "F22"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "I29",
+      "target": "17_Ghi_chu",
+      "at": "F24",
+      "value": "ĐANG LÀM"
+    },
+    {
+      "source": "05_VAN_DE_THAY_DOI",
+      "cell": "J29",
+      "target": "17_Ghi_chu",
+      "at": "F26",
+      "value": "Database decision"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A5",
+      "target": "18_Bang_chung",
+      "at": "B9",
+      "value": "E01"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B5",
+      "target": "18_Bang_chung",
+      "at": "C9",
+      "value": "V3.2"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C5",
+      "target": "18_Bang_chung",
+      "at": "D9",
+      "value": "Package provenance"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E5",
+      "target": "18_Bang_chung",
+      "at": "E9",
+      "value": "PASS"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F5",
+      "target": "18_Bang_chung",
+      "at": "F9",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G5",
+      "target": "18_Bang_chung",
+      "at": "G9",
+      "value": "Artifact audit"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A6",
+      "target": "18_Bang_chung",
+      "at": "B10",
+      "value": "E02"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B6",
+      "target": "18_Bang_chung",
+      "at": "C10",
+      "value": "V3.2"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C6",
+      "target": "18_Bang_chung",
+      "at": "D10",
+      "value": "Contract packaged validation"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E6",
+      "target": "18_Bang_chung",
+      "at": "E10",
+      "value": "PASS LỊCH SỬ"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F6",
+      "target": "18_Bang_chung",
+      "at": "F10",
+      "value": "2026-09-15 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G6",
+      "target": "18_Bang_chung",
+      "at": "G10",
+      "value": "V3.2 package"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A7",
+      "target": "18_Bang_chung",
+      "at": "B11",
+      "value": "E03"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B7",
+      "target": "18_Bang_chung",
+      "at": "C11",
+      "value": "V3.2"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C7",
+      "target": "18_Bang_chung",
+      "at": "D11",
+      "value": "SQL packaged validation"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E7",
+      "target": "18_Bang_chung",
+      "at": "E11",
+      "value": "PASS LỊCH SỬ"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F7",
+      "target": "18_Bang_chung",
+      "at": "F11",
+      "value": "2026-09-15 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G7",
+      "target": "18_Bang_chung",
+      "at": "G11",
+      "value": "V3.2 package"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A8",
+      "target": "18_Bang_chung",
+      "at": "B12",
+      "value": "E04"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B8",
+      "target": "18_Bang_chung",
+      "at": "C12",
+      "value": "V3.2"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C8",
+      "target": "18_Bang_chung",
+      "at": "D12",
+      "value": "Canonical contract rerun"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E8",
+      "target": "18_Bang_chung",
+      "at": "E12",
+      "value": "CHỜ CHẠY"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F8",
+      "target": "18_Bang_chung",
+      "at": "F12",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G8",
+      "target": "18_Bang_chung",
+      "at": "G12",
+      "value": "P1-T002"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A9",
+      "target": "18_Bang_chung",
+      "at": "B13",
+      "value": "E05"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B9",
+      "target": "18_Bang_chung",
+      "at": "C13",
+      "value": "V3.2"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C9",
+      "target": "18_Bang_chung",
+      "at": "D13",
+      "value": "Canonical SQL rerun"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E9",
+      "target": "18_Bang_chung",
+      "at": "E13",
+      "value": "CHỜ CHẠY"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F9",
+      "target": "18_Bang_chung",
+      "at": "F13",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G9",
+      "target": "18_Bang_chung",
+      "at": "G13",
+      "value": "P1-T003"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A10",
+      "target": "18_Bang_chung",
+      "at": "B14",
+      "value": "E06"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B10",
+      "target": "18_Bang_chung",
+      "at": "C14",
+      "value": "Backend"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C10",
+      "target": "18_Bang_chung",
+      "at": "D14",
+      "value": "Windows focused verification"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E10",
+      "target": "18_Bang_chung",
+      "at": "E14",
+      "value": "PASS"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F10",
+      "target": "18_Bang_chung",
+      "at": "F14",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G10",
+      "target": "18_Bang_chung",
+      "at": "G14",
+      "value": "Mingo evidence"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A11",
+      "target": "18_Bang_chung",
+      "at": "B15",
+      "value": "E07"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B11",
+      "target": "18_Bang_chung",
+      "at": "C15",
+      "value": "API"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C11",
+      "target": "18_Bang_chung",
+      "at": "D15",
+      "value": "Liveness"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E11",
+      "target": "18_Bang_chung",
+      "at": "E15",
+      "value": "PASS"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F11",
+      "target": "18_Bang_chung",
+      "at": "F15",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G11",
+      "target": "18_Bang_chung",
+      "at": "G15",
+      "value": "Mingo evidence"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A12",
+      "target": "18_Bang_chung",
+      "at": "B16",
+      "value": "E08"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B12",
+      "target": "18_Bang_chung",
+      "at": "C16",
+      "value": "API"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C12",
+      "target": "18_Bang_chung",
+      "at": "D16",
+      "value": "Readiness"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E12",
+      "target": "18_Bang_chung",
+      "at": "E16",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F12",
+      "target": "18_Bang_chung",
+      "at": "F16",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G12",
+      "target": "18_Bang_chung",
+      "at": "G16",
+      "value": "Mingo evidence"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A13",
+      "target": "18_Bang_chung",
+      "at": "B17",
+      "value": "E09"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B13",
+      "target": "18_Bang_chung",
+      "at": "C17",
+      "value": "Clean clone"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C13",
+      "target": "18_Bang_chung",
+      "at": "D17",
+      "value": "Backend-only"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E13",
+      "target": "18_Bang_chung",
+      "at": "E17",
+      "value": "PASS"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F13",
+      "target": "18_Bang_chung",
+      "at": "F17",
+      "value": "2026-09-26 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G13",
+      "target": "18_Bang_chung",
+      "at": "G17",
+      "value": "51b741e"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A14",
+      "target": "18_Bang_chung",
+      "at": "B18",
+      "value": "E10"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B14",
+      "target": "18_Bang_chung",
+      "at": "C18",
+      "value": "PostgreSQL"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C14",
+      "target": "18_Bang_chung",
+      "at": "D18",
+      "value": "6 integration/concurrency tests"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E14",
+      "target": "18_Bang_chung",
+      "at": "E18",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F14",
+      "target": "18_Bang_chung",
+      "at": "F18",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G14",
+      "target": "18_Bang_chung",
+      "at": "G18",
+      "value": "P1-T006"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A15",
+      "target": "18_Bang_chung",
+      "at": "B19",
+      "value": "E11"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B15",
+      "target": "18_Bang_chung",
+      "at": "C19",
+      "value": "Worker"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C15",
+      "target": "18_Bang_chung",
+      "at": "D19",
+      "value": "DB probe/runtime"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E15",
+      "target": "18_Bang_chung",
+      "at": "E19",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F15",
+      "target": "18_Bang_chung",
+      "at": "F19",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G15",
+      "target": "18_Bang_chung",
+      "at": "G19",
+      "value": "P1-T007"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A16",
+      "target": "18_Bang_chung",
+      "at": "B20",
+      "value": "E12"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B16",
+      "target": "18_Bang_chung",
+      "at": "C20",
+      "value": "Flutter learner"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C16",
+      "target": "18_Bang_chung",
+      "at": "D20",
+      "value": "Analyze/test/build/Android boot"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E16",
+      "target": "18_Bang_chung",
+      "at": "E20",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F16",
+      "target": "18_Bang_chung",
+      "at": "F20",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G16",
+      "target": "18_Bang_chung",
+      "at": "G20",
+      "value": "P1-T009"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A17",
+      "target": "18_Bang_chung",
+      "at": "B21",
+      "value": "E13"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B17",
+      "target": "18_Bang_chung",
+      "at": "C21",
+      "value": "Flutter staff"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C17",
+      "target": "18_Bang_chung",
+      "at": "D21",
+      "value": "Analyze/test/build/Web boot"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E17",
+      "target": "18_Bang_chung",
+      "at": "E21",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F17",
+      "target": "18_Bang_chung",
+      "at": "F21",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G17",
+      "target": "18_Bang_chung",
+      "at": "G21",
+      "value": "P1-T010"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A18",
+      "target": "18_Bang_chung",
+      "at": "B22",
+      "value": "E14"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B18",
+      "target": "18_Bang_chung",
+      "at": "C22",
+      "value": "Hosted CI"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C18",
+      "target": "18_Bang_chung",
+      "at": "D22",
+      "value": "Workflow execution"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E18",
+      "target": "18_Bang_chung",
+      "at": "E22",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F18",
+      "target": "18_Bang_chung",
+      "at": "F22",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G18",
+      "target": "18_Bang_chung",
+      "at": "G22",
+      "value": "P1-T011"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A19",
+      "target": "18_Bang_chung",
+      "at": "B23",
+      "value": "E15"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "B19",
+      "target": "18_Bang_chung",
+      "at": "C23",
+      "value": "Clean reproduce"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "C19",
+      "target": "18_Bang_chung",
+      "at": "D23",
+      "value": "Full stack"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "E19",
+      "target": "18_Bang_chung",
+      "at": "E23",
+      "value": "BỊ CHẶN"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "F19",
+      "target": "18_Bang_chung",
+      "at": "F23",
+      "value": "2026-09-27 00:00:00"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "G19",
+      "target": "18_Bang_chung",
+      "at": "G23",
+      "value": "P1-T012"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A5",
+      "target": "19_Pham_vi_test",
+      "at": "B9",
+      "value": "E01"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D5",
+      "target": "19_Pham_vi_test",
+      "at": "C9",
+      "value": "Exact completed package + hash lineage đã tìm thấy."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H5",
+      "target": "19_Pham_vi_test",
+      "at": "D9",
+      "value": "Phase 0 provenance."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A6",
+      "target": "19_Pham_vi_test",
+      "at": "B10",
+      "value": "E02"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D6",
+      "target": "19_Pham_vi_test",
+      "at": "C10",
+      "value": "115 PASS / 0 FAIL trong original package."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H6",
+      "target": "19_Pham_vi_test",
+      "at": "D10",
+      "value": "Không đồng nghĩa đã rerun trong canonical Mingo."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A7",
+      "target": "19_Pham_vi_test",
+      "at": "B11",
+      "value": "E03"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D7",
+      "target": "19_Pham_vi_test",
+      "at": "C11",
+      "value": "22 PASS / 0 FAIL trong original package."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H7",
+      "target": "19_Pham_vi_test",
+      "at": "D11",
+      "value": "PGlite packaged evidence; native concurrency là gate khác."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A8",
+      "target": "19_Pham_vi_test",
+      "at": "B12",
+      "value": "E04"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D8",
+      "target": "19_Pham_vi_test",
+      "at": "C12",
+      "value": "Chưa chạy exact 115 checks trong canonical Mingo."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H8",
+      "target": "19_Pham_vi_test",
+      "at": "D12",
+      "value": "Cần import original + requirements."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A9",
+      "target": "19_Pham_vi_test",
+      "at": "B13",
+      "value": "E05"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D9",
+      "target": "19_Pham_vi_test",
+      "at": "C13",
+      "value": "Chưa chạy exact 22 SQL checks trong canonical Mingo."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H9",
+      "target": "19_Pham_vi_test",
+      "at": "D13",
+      "value": "Cần import original + npm setup."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A10",
+      "target": "19_Pham_vi_test",
+      "at": "B14",
+      "value": "E06"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D10",
+      "target": "19_Pham_vi_test",
+      "at": "C14",
+      "value": "Locked install + Ruff + 9 tests pass."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H10",
+      "target": "19_Pham_vi_test",
+      "at": "D14",
+      "value": "6 DB + 1 symlink skipped; final Python 3.12 rerun pending."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A11",
+      "target": "19_Pham_vi_test",
+      "at": "B15",
+      "value": "E07"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D11",
+      "target": "19_Pham_vi_test",
+      "at": "C15",
+      "value": "HTTP 200."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H11",
+      "target": "19_Pham_vi_test",
+      "at": "D15",
+      "value": "API process boot proven."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A12",
+      "target": "19_Pham_vi_test",
+      "at": "B16",
+      "value": "E08"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D12",
+      "target": "19_Pham_vi_test",
+      "at": "C16",
+      "value": "HTTP 503 khi chưa có DB."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H12",
+      "target": "19_Pham_vi_test",
+      "at": "D16",
+      "value": "Phải trở thành 200 khi DB healthy."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A13",
+      "target": "19_Pham_vi_test",
+      "at": "B17",
+      "value": "E09"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D13",
+      "target": "19_Pham_vi_test",
+      "at": "C17",
+      "value": "Backend clean clone verification pass."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H13",
+      "target": "19_Pham_vi_test",
+      "at": "D17",
+      "value": "Không phải full-stack reproduction."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A14",
+      "target": "19_Pham_vi_test",
+      "at": "B18",
+      "value": "E10"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D14",
+      "target": "19_Pham_vi_test",
+      "at": "C18",
+      "value": "Chưa chạy trên disposable test DB thật."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H14",
+      "target": "19_Pham_vi_test",
+      "at": "D18",
+      "value": "Cần mingo_test."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A15",
+      "target": "19_Pham_vi_test",
+      "at": "B19",
+      "value": "E11"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D15",
+      "target": "19_Pham_vi_test",
+      "at": "C19",
+      "value": "Chưa proven."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H15",
+      "target": "19_Pham_vi_test",
+      "at": "D19",
+      "value": "Cần DB."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A16",
+      "target": "19_Pham_vi_test",
+      "at": "B20",
+      "value": "E12"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D16",
+      "target": "19_Pham_vi_test",
+      "at": "C20",
+      "value": "Chưa chạy."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H16",
+      "target": "19_Pham_vi_test",
+      "at": "D20",
+      "value": "Toolchain chưa có."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A17",
+      "target": "19_Pham_vi_test",
+      "at": "B21",
+      "value": "E13"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D17",
+      "target": "19_Pham_vi_test",
+      "at": "C21",
+      "value": "Chưa chạy."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H17",
+      "target": "19_Pham_vi_test",
+      "at": "D21",
+      "value": "Toolchain chưa có."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A18",
+      "target": "19_Pham_vi_test",
+      "at": "B22",
+      "value": "E14"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D18",
+      "target": "19_Pham_vi_test",
+      "at": "C22",
+      "value": "Chưa có hosted run."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H18",
+      "target": "19_Pham_vi_test",
+      "at": "D22",
+      "value": "Chưa có remote."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "A19",
+      "target": "19_Pham_vi_test",
+      "at": "B23",
+      "value": "E15"
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "D19",
+      "target": "19_Pham_vi_test",
+      "at": "C23",
+      "value": "Chưa verify."
+    },
+    {
+      "source": "06_BANG_CHUNG",
+      "cell": "H19",
+      "target": "19_Pham_vi_test",
+      "at": "D23",
+      "value": "Cần các gate trước."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A15",
+      "target": "20_Cach_lam_viec",
+      "at": "B9",
+      "value": 1
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B15",
+      "target": "20_Cach_lam_viec",
+      "at": "C9",
+      "value": "Không tự sửa nội dung đã chốt."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "C15",
+      "target": "20_Cach_lam_viec",
+      "at": "D9",
+      "value": "Muốn đổi kiến trúc/business rule đã khóa → tạo Đề nghị thay đổi (Change Request)."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A16",
+      "target": "20_Cach_lam_viec",
+      "at": "B10",
+      "value": 2
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B16",
+      "target": "20_Cach_lam_viec",
+      "at": "C10",
+      "value": "Không đánh XONG chỉ vì có code."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "C16",
+      "target": "20_Cach_lam_viec",
+      "at": "D10",
+      "value": "XONG phải có bằng chứng phù hợp: test, runtime, CI hoặc review theo gate."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A17",
+      "target": "20_Cach_lam_viec",
+      "at": "B11",
+      "value": 3
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B17",
+      "target": "20_Cach_lam_viec",
+      "at": "C11",
+      "value": "Phase 2 chưa được bắt đầu chính thức."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "C17",
+      "target": "20_Cach_lam_viec",
+      "at": "D11",
+      "value": "Chỉ đủ điều kiện khi toàn bộ task bắt buộc của Phase 1 XONG."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A18",
+      "target": "20_Cach_lam_viec",
+      "at": "B12",
+      "value": 4
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B18",
+      "target": "20_Cach_lam_viec",
+      "at": "C12",
+      "value": "Task là nguồn trạng thái hằng ngày."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "C18",
+      "target": "20_Cach_lam_viec",
+      "at": "D12",
+      "value": "Tổng quan và checklist Phase 1 tự đọc trạng thái từ 04_CONG_VIEC để tránh cập nhật lệch."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A19",
+      "target": "20_Cach_lam_viec",
+      "at": "B13",
+      "value": 5
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B19",
+      "target": "20_Cach_lam_viec",
+      "at": "C13",
+      "value": "Không ghi mật khẩu/token vào file."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "C19",
+      "target": "20_Cach_lam_viec",
+      "at": "D13",
+      "value": "Chỉ ghi tên biến môi trường hoặc nơi lưu secret; tuyệt đối không ghi plaintext credential."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A23",
+      "target": "21_Tu_dien",
+      "at": "B9",
+      "value": "Phase"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B23",
+      "target": "21_Tu_dien",
+      "at": "C9",
+      "value": "Giai đoạn phát triển có mục tiêu và điều kiện hoàn thành riêng."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A24",
+      "target": "21_Tu_dien",
+      "at": "B10",
+      "value": "Gate"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B24",
+      "target": "21_Tu_dien",
+      "at": "C10",
+      "value": "Điều kiện bắt buộc phải đạt trước khi được coi phase đã hoàn thành."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A25",
+      "target": "21_Tu_dien",
+      "at": "B11",
+      "value": "Blocker / Bị chặn"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B25",
+      "target": "21_Tu_dien",
+      "at": "C11",
+      "value": "Vướng mắc khiến task/gate chưa thể hoàn thành."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A26",
+      "target": "21_Tu_dien",
+      "at": "B12",
+      "value": "Evidence / Bằng chứng"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B26",
+      "target": "21_Tu_dien",
+      "at": "C12",
+      "value": "Kết quả test, log, runtime, CI, artifact hoặc review chứng minh một claim."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A27",
+      "target": "21_Tu_dien",
+      "at": "B13",
+      "value": "Issue / Vấn đề"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B27",
+      "target": "21_Tu_dien",
+      "at": "C13",
+      "value": "Bug, lỗi runtime, thiếu tooling, thiếu credential hoặc ambiguity cần xử lý."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A28",
+      "target": "21_Tu_dien",
+      "at": "B14",
+      "value": "Change Request / Đề nghị thay đổi"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B28",
+      "target": "21_Tu_dien",
+      "at": "C14",
+      "value": "Quy trình xin phép thay đổi nội dung đã chốt."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A29",
+      "target": "21_Tu_dien",
+      "at": "B15",
+      "value": "V3.2"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B29",
+      "target": "21_Tu_dien",
+      "at": "C15",
+      "value": "Baseline kiến trúc + hợp đồng hệ thống của Phase 0; không phải version app."
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "A30",
+      "target": "21_Tu_dien",
+      "at": "B16",
+      "value": "Telemetry"
+    },
+    {
+      "source": "00_BAT_DAU",
+      "cell": "B30",
+      "target": "21_Tu_dien",
+      "at": "C16",
+      "value": "Dữ liệu quan sát hành vi như nghe audio, mở hint, xem màn hình; không tự quyết canonical score."
+    }
+  ]
+}

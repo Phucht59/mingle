@@ -1,0 +1,898 @@
+[
+  {
+    "Type": "BR without Req",
+    "ID": "Actual workbook namespace UNKNOWN",
+    "Relation": "UNKNOWN",
+    "Source": "BA workbook NOT FOUND",
+    "Reason": "Cannot assert zero or enumerate absent IDs",
+    "Action": "Inspect actual 04/05/06/07 sheets; resolve or justify every MVP orphan"
+  },
+  {
+    "Type": "Trigger without Req/UC",
+    "ID": "Actual workbook namespace UNKNOWN",
+    "Relation": "UNKNOWN",
+    "Source": "BA workbook NOT FOUND",
+    "Reason": "Cannot assert zero or enumerate absent IDs",
+    "Action": "Inspect actual 04/05/06/07 sheets; resolve or justify every MVP orphan"
+  },
+  {
+    "Type": "UC without Requirement",
+    "ID": "Actual workbook namespace UNKNOWN",
+    "Relation": "UNKNOWN",
+    "Source": "BA workbook NOT FOUND",
+    "Reason": "Cannot assert zero or enumerate absent IDs",
+    "Action": "Inspect actual 04/05/06/07 sheets; resolve or justify every MVP orphan"
+  },
+  {
+    "Type": "UC without Requirement",
+    "ID": "J-S03",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\04_STAFF_JOURNEYS.md:15",
+    "Reason": "Conditional assigned-advisor support; V3.2 docs07 object scope; evidence-safe PRD10; no new intervention authorization",
+    "Action": "Keep source-derived classification; reconcile actual UC IDs without expanding MVP"
+  },
+  {
+    "Type": "UC without Requirement",
+    "ID": "J-S04",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\04_STAFF_JOURNEYS.md:19",
+    "Reason": "Explicit future intervention; Q12 DEFERRED-FUTURE and audit lifecycle contracts",
+    "Action": "Keep source-derived classification; reconcile actual UC IDs without expanding MVP"
+  },
+  {
+    "Type": "UC without Requirement",
+    "ID": "J-S05",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\04_STAFF_JOURNEYS.md:23",
+    "Reason": "Explicit analytics shell; future domain, no production data",
+    "Action": "Keep source-derived classification; reconcile actual UC IDs without expanding MVP"
+  },
+  {
+    "Type": "UC without Requirement",
+    "ID": "J-S06",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\04_STAFF_JOURNEYS.md:27",
+    "Reason": "Administration shell; V3.2 server role/audit, implementation later",
+    "Action": "Keep source-derived classification; reconcile actual UC IDs without expanding MVP"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-001",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:2; Q3 / J-L01",
+    "Reason": "Launch/recovery infrastructure; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-002",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:3; Q3 / J-L01",
+    "Reason": "Guest welcome; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-028",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:19; PRD02 / J-L04",
+    "Reason": "Feedback inherited learning step; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-033",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:24; Q7 / J-L12",
+    "Reason": "Resume inherited PRD01/15; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-053",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:31; Q4 / PRD10",
+    "Reason": "Voluntary profile preferences; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-054",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:32; Q10 / V3.2 docs04",
+    "Reason": "Download management; requires authenticated owner; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-062",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:35; QA error/accessibility",
+    "Reason": "Generic recovery shell; not new business feature; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-064",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:37; V3.2 docs07 / offline UX",
+    "Reason": "Reauth safety state; exact policy UNKNOWN; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-070",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:59; Q3 / PRD10",
+    "Reason": "Progress inherited qualitative evidence; durable state auth-gated; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-071",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:60; PRD13 / Course catalogue",
+    "Reason": "Search supporting browse; no separate product feature approval; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-072",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:61; PRD10 / preferences",
+    "Reason": "Settings support shell; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "L-073",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:62; Existing scope register",
+    "Reason": "Notification preferences fixture; actual delivery/policy deferred; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-001",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:38; V3.2 docs07",
+    "Reason": "Staff access shell; UI visibility is not authz; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-010",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:39; Existing staff IA",
+    "Reason": "Dashboard shell; no operational data proof; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-020",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:40; J-S03 / V3.2 docs07",
+    "Reason": "Assigned learner support shell; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-021",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:41; J-S03 / PRD10",
+    "Reason": "Learner overview support; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-022",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:42; J-S03 / PRD10",
+    "Reason": "Evidence support; no new risk permission; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-023",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:43; J-S03",
+    "Reason": "Activity support; no diagnosis; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-031",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:45; Q11 / J-S01 / PRD14",
+    "Reason": "Draft substep; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-032",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:46; Q11 / J-S01 / PRD14",
+    "Reason": "Preview substep; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-034",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:48; Q11 / J-S01 / PRD14",
+    "Reason": "Review queue substep; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-040",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:52; Q12 / J-S04..06",
+    "Reason": "Explicit future placeholder; not current MVP implementation; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-041",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:53; Q12 / J-S04..06",
+    "Reason": "Explicit future placeholder; not current MVP implementation; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-051",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:55; Q12 / J-S04..06",
+    "Reason": "Explicit future placeholder; not current MVP implementation; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-060",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:56; Q12 / J-S04..06",
+    "Reason": "Explicit future placeholder; not current MVP implementation; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-061",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:57; Q12 / J-S04..06",
+    "Reason": "Explicit future placeholder; not current MVP implementation; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Wireframe/State without direct business requirement",
+    "ID": "S-062",
+    "Relation": "DEFERRED",
+    "Source": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\ux_ui\\phase2\\rebaseline_v2\\SCREEN_SCOPE_REGISTER.csv:58; Q12 / J-S04..06",
+    "Reason": "Explicit future placeholder; not current MVP implementation; inherited catalog is not customer evidence",
+    "Action": "Retain basis and category; actual WF/business trace UNKNOWN"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-001",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:3",
+    "Reason": "QA spec: Required Phase 2 artifacts exist; declared req=blank; expected=Every file in handoff index exists and opens.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-002",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:18",
+    "Reason": "QA spec: V3.2 remains untouched; declared req=blank; expected=No Phase 2 artifact silently modifies original V3.2 source.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-003",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:33",
+    "Reason": "QA spec: Phase boundary is explicit; declared req=blank; expected=Docs identify Phase 3+ behavior as future/deferred, not implemented.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-004",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:48",
+    "Reason": "QA spec: Screen IDs unique; declared req=blank; expected=All learner/staff screen IDs are unique and traceable.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-005",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:63",
+    "Reason": "QA spec: Routes documented; declared req=blank; expected=Every inventory screen has a route or overlay identity.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-006",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:78",
+    "Reason": "QA spec: PRD traceability complete; declared req=blank; expected=PRD-01..PRD-16 all map to UX surfaces and QA cases.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-007",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:93",
+    "Reason": "QA spec: Locked vs hypothesis language; declared req=blank; expected=5m/retry/replay/placement thresholds are labelled hypotheses where applicable.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-008",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:108",
+    "Reason": "QA spec: No false learning claims; declared req=blank; expected=No precise mastery/diagnosis/efficacy claim appears in learner copy.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-009",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:123",
+    "Reason": "QA spec: No credential material; declared req=blank; expected=No password/token/secret URL in Phase 2 package.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QC-010",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:138",
+    "Reason": "QA spec: Prototype is self-contained; declared req=blank; expected=No external CDN/network dependency is required to render prototype.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-001",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:153",
+    "Reason": "QA spec: Learner top-level IA; declared req=blank; expected=Bottom navigation exposes only Home, Learn, Course, Profile.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-002",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:168",
+    "Reason": "QA spec: Onboarding outside main shell; declared req=blank; expected=Main bottom navigation is absent until main shell.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-003",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:183",
+    "Reason": "QA spec: Home purpose; declared req=blank; expected=Primary next action, reason and approximate duration are understandable.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-004",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:198",
+    "Reason": "QA spec: Learn purpose; declared req=blank; expected=Finite cycle start/resume is prominent; no endless-feed affordance.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-005",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:213",
+    "Reason": "QA spec: Course purpose; declared req=blank; expected=Open/current/due/locked/preview states are distinguishable.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-006",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:228",
+    "Reason": "QA spec: Profile purpose; declared req=blank; expected=Goal, qualitative evidence and settings are separated from mastery claims.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-007",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:243",
+    "Reason": "QA spec: Staff IA; declared req=blank; expected=Sidebar has Dashboard, Learners, Content, Interventions, Analytics, Administration.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-008",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:258",
+    "Reason": "QA spec: Publishing nested in Content; declared req=blank; expected=Publishing states are within Content lifecycle, not separate top-level product domain.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-009",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:273",
+    "Reason": "QA spec: Role visibility disclaimer; declared req=blank; expected=Docs state menu visibility is not authorization.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-NAV-010",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:288",
+    "Reason": "QA spec: Deep-link constraints; declared req=blank; expected=Deep-link rules require eligibility/permission re-check and no duplicate submit.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-LRN-003",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:333",
+    "Reason": "QA spec: Objective and reason; declared req=PRD-13; expected=Objective and factual reason are visible; no inferred mental state.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-LRN-010",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:438",
+    "Reason": "QA spec: Correct feedback tone; declared req=PRD-06; expected=Feedback is concise/supportive without mastery overclaim.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-LRN-011",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:453",
+    "Reason": "QA spec: Transfer step distinction; declared req=PRD-06; expected=Transfer changes cue/context and is not labelled as level-up.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-LRN-020",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:588",
+    "Reason": "QA spec: Nothing due state; declared req=PRD-16; expected=Honest empty/content-gap copy; no fabricated completion.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-001",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:603",
+    "Reason": "QA spec: Staff dashboard shell; declared req=blank; expected=Operational overview is structured without pretending future data exists.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-002",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:618",
+    "Reason": "QA spec: Learner list and detail; declared req=blank; expected=List/detail IA works and evidence/activity sections are distinct.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-003",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:633",
+    "Reason": "QA spec: No diagnosis language; declared req=blank; expected=No mental-state diagnosis or unsupported risk truth is presented.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-004",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:648",
+    "Reason": "QA spec: Content lifecycle navigation; declared req=blank; expected=Lifecycle is understandable and revision states are explicit.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-005",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:663",
+    "Reason": "QA spec: Draft vs published editability; declared req=blank; expected=Draft is editable; published view offers create-new-draft rather than edit-in-place.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-008",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:708",
+    "Reason": "QA spec: Intervention future boundary; declared req=blank; expected=Does not imply Phase 11/12 implementation or causal outcome exists.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-009",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:723",
+    "Reason": "QA spec: Analytics future boundary; declared req=blank; expected=Requires time/source definition and does not display invented production metrics.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-STF-010",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:738",
+    "Reason": "QA spec: Administration authorization note; declared req=blank; expected=Design never claims sidebar visibility is sufficient authorization.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-OFF-003",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:783",
+    "Reason": "QA spec: Sync retry failure; declared req=PRD-15; expected=Retry is safe and does not encourage duplicate manual submission.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-OFF-005",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:813",
+    "Reason": "QA spec: Media unavailable offline; declared req=PRD-15; expected=Valid alternative/sync action shown; no fabricated Check completion.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-OFF-006",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:828",
+    "Reason": "QA spec: Re-auth state; declared req=PRD-15; expected=User is told sign-in is required; local permission bypass is absent.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-BIZ-001",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:843",
+    "Reason": "QA spec: Server authority language; declared req=blank; expected=UI does not imply local selection equals canonical scored result.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-BIZ-002",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:858",
+    "Reason": "QA spec: Completion != mastery; declared req=blank; expected=Completing a cycle is not labelled mastery/pass unless separate evidence supports it.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-BIZ-004",
+    "Relation": "EXPLICIT",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:888",
+    "Reason": "QA spec: Assisted != unaided; declared req=PRD-03; expected=Assistance remains visible in evidence/feedback semantics.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-001",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1053",
+    "Reason": "QA spec: Keyboard navigation staff; declared req=blank; expected=All primary navigation/actions reachable with visible focus.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-002",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1068",
+    "Reason": "QA spec: Focus order learner; declared req=blank; expected=Focus order follows visual/semantic order.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-003",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1083",
+    "Reason": "QA spec: Touch targets; declared req=blank; expected=Primary tap targets meet 48dp target; no critical tiny icon-only action.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-004",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1098",
+    "Reason": "QA spec: Contrast; declared req=blank; expected=Target WCAG 2.2 AA contrast; semantic color never sole signal.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-005",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1113",
+    "Reason": "QA spec: Text scaling; declared req=blank; expected=Critical copy/actions remain readable without overlap/loss.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-006",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1128",
+    "Reason": "QA spec: Reduced motion; declared req=blank; expected=Non-essential motion can be disabled/reduced.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-007",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1143",
+    "Reason": "QA spec: Screen-reader names; declared req=blank; expected=Controls have meaningful labels/aria where needed.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-008",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1158",
+    "Reason": "QA spec: Error identification; declared req=blank; expected=Error is communicated by text/icon, not red color alone.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-009",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1173",
+    "Reason": "QA spec: Learner small width; declared req=blank; expected=No horizontal overflow; primary actions visible.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-010",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1188",
+    "Reason": "QA spec: Learner large phone; declared req=blank; expected=Layout remains bounded/readable; no excessive line length.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-011",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1203",
+    "Reason": "QA spec: Staff desktop; declared req=blank; expected=Sidebar/content widths usable; tables readable.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-012",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1218",
+    "Reason": "QA spec: Staff compact laptop; declared req=blank; expected=Sidebar can compact; core task remains usable.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-HO-001",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1233",
+    "Reason": "QA spec: Developer handoff completeness; declared req=blank; expected=Developer can implement Phase 3–5 UI without inventing missing interaction semantics.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-HO-002",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1248",
+    "Reason": "QA spec: Token source; declared req=blank; expected=Named tokens match; implementation can consume stable semantic names.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-HO-003",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1263",
+    "Reason": "QA spec: Test ID guidance; declared req=blank; expected=Recommended data-testid keys are stable and derived from screen/component IDs.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-HO-004",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1278",
+    "Reason": "QA spec: No production code claim; declared req=blank; expected=Prototype clearly labelled non-production and contains no backend business implementation.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-HO-005",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1293",
+    "Reason": "QA spec: QA package signoff fields; declared req=blank; expected=QC, QA, Product/Owner and Tech Lead fields exist with exit criteria.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-ACC-013",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1368",
+    "Reason": "QA spec: Critical form fields have programmatic accessible names; declared req=blank; expected=Each form control has a stable programmatic name through native label association or equivalent semantics.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Test without direct requirement",
+    "ID": "QA-HO-006",
+    "Relation": "UNKNOWN",
+    "Source": "C:\\Mingo\\03_Kiem_thu\\QA_QC\\phase2\\qa_cases.json:1383",
+    "Reason": "QA spec: Gate-critical Screen/State → QA mapping is explicit; declared req=blank; expected=Every inventory screen is explicitly marked gate-critical or supporting-only and maps to QA cases; gate-critical states have test references without inference.",
+    "Action": "If no explicit req: identify cited governance/accessibility/navigation/support/future basis before semantic closure; not automatically unauthorized. No new execution of this legacy ID claimed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-01",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:19",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-02",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:20",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-03",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:21",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-04",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:22",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-05",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:23",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-06",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:24",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-07",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:25",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-08",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:26",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-09",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:27",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-10",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:28",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-11",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:29",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-12",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:30",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-13",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:31",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-14",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:32",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-15",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:33",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Requirement without complete acceptance/test chain",
+    "ID": "PRD-16",
+    "Relation": "UNKNOWN",
+    "Source": "Actual workbook UNKNOWN; C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:34",
+    "Reason": "Repo acceptance + QA spec present, formal workbook Test/AC links and runtime proof not known",
+    "Action": "Map actual AC/Test IDs; distinguish spec, executable and executed"
+  },
+  {
+    "Type": "Executable check without product requirement",
+    "ID": "04_Van_hanh/tests/test_original_contract_adapter.py",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "04_Van_hanh/tests/test_original_contract_adapter.py",
+    "Reason": "Foundation adapter guards test audit integrity, not product feature",
+    "Action": "Execution result recorded at suite boundary; do not synthesize QA-ID pass mapping"
+  },
+  {
+    "Type": "Executable check without product requirement",
+    "ID": "01_San_pham/backend/tests",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "01_San_pham/backend/tests",
+    "Reason": "API/worker/database foundation; not learning/account implementation",
+    "Action": "Execution result recorded at suite boundary; do not synthesize QA-ID pass mapping"
+  },
+  {
+    "Type": "Executable check without explicit legacy QA ID",
+    "ID": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart",
+    "Reason": "Named invariants and catalog states inherit PRD/rule coverage; not one-to-one legacy QA result",
+    "Action": "Execution result recorded at suite boundary; do not synthesize QA-ID pass mapping"
+  },
+  {
+    "Type": "Executable check without explicit legacy QA ID",
+    "ID": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\independent_test.dart",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\independent_test.dart",
+    "Reason": "Named invariants and catalog states inherit PRD/rule coverage; not one-to-one legacy QA result",
+    "Action": "Execution result recorded at suite boundary; do not synthesize QA-ID pass mapping"
+  },
+  {
+    "Type": "Executable check without explicit legacy QA ID",
+    "ID": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart",
+    "Relation": "SEMANTICALLY SUPPORTED",
+    "Source": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart",
+    "Reason": "Named invariants and catalog states inherit PRD/rule coverage; not one-to-one legacy QA result",
+    "Action": "Execution result recorded at suite boundary; do not synthesize QA-ID pass mapping"
+  }
+]

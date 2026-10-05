@@ -1,0 +1,248 @@
+{
+  "id": "QA-ACC-010",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T14:51:11.569Z",
+  "ended": "2026-10-01T14:51:12.413Z",
+  "expected": "Layout remains bounded/readable; no excessive line length.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Learn",
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Course",
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Profile"
+  ],
+  "observed": "Mingo\nSynced\nPROFILE\nYour learning evidence\nVocabulary · Building\n\nRecent independent recall is available; Mingo still needs repeated evidence.\n\nListening · Needs more evidence\n\nNot enough independent Check evidence yet.\n\nGoal\nNot set\nDaily target\n1 cycle\nEdit goal\nSync status\nHome\nLearn\nCourse\nProfile",
+  "state": {
+    "surface": "learner",
+    "learner": "profile",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [
+    {
+      "viewport": 480,
+      "body": 480,
+      "doc": 480,
+      "buttons": [
+        {
+          "text": "Start cycle",
+          "w": 354,
+          "h": 48,
+          "right": 417
+        },
+        {
+          "text": "Home",
+          "w": 101,
+          "h": 48,
+          "right": 139
+        },
+        {
+          "text": "Learn",
+          "w": 101,
+          "h": 48,
+          "right": 240
+        },
+        {
+          "text": "Course",
+          "w": 101,
+          "h": 48,
+          "right": 341
+        },
+        {
+          "text": "Profile",
+          "w": 101,
+          "h": 48,
+          "right": 442
+        }
+      ]
+    },
+    {
+      "viewport": 480,
+      "body": 480,
+      "doc": 480,
+      "buttons": [
+        {
+          "text": "Start",
+          "w": 354,
+          "h": 48,
+          "right": 417
+        },
+        {
+          "text": "Start",
+          "w": 354,
+          "h": 48,
+          "right": 417
+        },
+        {
+          "text": "Start",
+          "w": 354,
+          "h": 48,
+          "right": 417
+        },
+        {
+          "text": "Home",
+          "w": 101,
+          "h": 48,
+          "right": 139
+        },
+        {
+          "text": "Learn",
+          "w": 101,
+          "h": 48,
+          "right": 240
+        },
+        {
+          "text": "Course",
+          "w": 101,
+          "h": 48,
+          "right": 341
+        },
+        {
+          "text": "Profile",
+          "w": 101,
+          "h": 48,
+          "right": 442
+        }
+      ]
+    },
+    {
+      "viewport": 480,
+      "body": 480,
+      "doc": 480,
+      "buttons": [
+        {
+          "text": "Practice",
+          "w": 91.59375,
+          "h": 48,
+          "right": 154.59375
+        },
+        {
+          "text": "Preview",
+          "w": 91.421875,
+          "h": 48,
+          "right": 154.421875
+        },
+        {
+          "text": "Home",
+          "w": 101,
+          "h": 48,
+          "right": 139
+        },
+        {
+          "text": "Learn",
+          "w": 101,
+          "h": 48,
+          "right": 240
+        },
+        {
+          "text": "Course",
+          "w": 101,
+          "h": 48,
+          "right": 341
+        },
+        {
+          "text": "Profile",
+          "w": 101,
+          "h": 48,
+          "right": 442
+        }
+      ]
+    },
+    {
+      "viewport": 480,
+      "body": 480,
+      "doc": 480,
+      "buttons": [
+        {
+          "text": "Edit goal",
+          "w": 388,
+          "h": 48,
+          "right": 434
+        },
+        {
+          "text": "Sync status",
+          "w": 388,
+          "h": 48,
+          "right": 434
+        },
+        {
+          "text": "Home",
+          "w": 101,
+          "h": 48,
+          "right": 139
+        },
+        {
+          "text": "Learn",
+          "w": 101,
+          "h": 48,
+          "right": 240
+        },
+        {
+          "text": "Course",
+          "w": 101,
+          "h": 48,
+          "right": 341
+        },
+        {
+          "text": "Profile",
+          "w": 101,
+          "h": 48,
+          "right": 442
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js",
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js",
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js",
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js",
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

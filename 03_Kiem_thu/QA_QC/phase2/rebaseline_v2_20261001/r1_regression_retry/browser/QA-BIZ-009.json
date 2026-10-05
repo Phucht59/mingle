@@ -1,0 +1,18 @@
+{
+  "id": "QA-BIZ-009",
+  "priority": "P0",
+  "status": "FAIL",
+  "started": "2026-10-01T16:16:11.408Z",
+  "ended": "2026-10-01T16:16:11.427Z",
+  "expected": "Streak is engagement and not shown as skill/mastery.",
+  "steps": [],
+  "observed": "",
+  "state": null,
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/"
+  ],
+  "failure": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:8765/\", waiting until \"load\"\u001b[22m\n"
+}

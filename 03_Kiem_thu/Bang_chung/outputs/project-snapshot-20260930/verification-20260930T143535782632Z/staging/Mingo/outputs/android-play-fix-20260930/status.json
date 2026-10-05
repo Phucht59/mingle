@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-30",
+  "status": "Verified: new AVD boot and Quick Boot through Android Studio Device Manager Play",
+  "avd": "Mingo_API_35",
+  "displayName": "Mingo API 35",
+  "sdk": "C:\\Android\\Sdk (physical directory, no junction)",
+  "sdkCopy": "51182 files, 19.049 GB, 0 failures",
+  "graphics": "host",
+  "vulkan": "disabled via persistent advancedFeatures.ini",
+  "quickBoot": "enabled",
+  "verifiedQuickBootMs": 5986,
+  "sourceSdkPreserved": "C:\\Users\\Phúc\\AppData\\Local\\Android\\Sdk",
+  "oldJunctionPreserved": "C:\\Android\\Sdk-link-before-play-fix",
+  "note": "The old AVD was deleted by the user. This verifies emulator launch through Device Manager; repository-root project Run configuration is not configured."
+}

@@ -1,0 +1,82 @@
+UTC: 2026-09-26T15:06:15.663280+00:00
+Command: pwsh -NoProfile -File 07_operations/scripts/bootstrap_clients.ps1 -Flutter C:\Dev\flutter-3.32.8\bin\flutter.bat
+Recreating project 05_code\apps\learner...
+  05_code\apps\learner\.idea\libraries\Dart_SDK.xml (created)
+  05_code\apps\learner\.idea\libraries\KotlinJavaRuntime.xml (created)
+  05_code\apps\learner\.idea\modules.xml (created)
+  05_code\apps\learner\.idea\runConfigurations\main_dart.xml (created)
+  05_code\apps\learner\.idea\workspace.xml (created)
+  05_code\apps\learner\android\app\build.gradle.kts (created)
+  05_code\apps\learner\android\app\src\main\kotlin\com\example\adaptive_learner\MainActivity.kt (created)
+  05_code\apps\learner\android\build.gradle.kts (created)
+  05_code\apps\learner\android\adaptive_learner_android.iml (created)
+  05_code\apps\learner\android\.gitignore (created)
+  05_code\apps\learner\android\app\src\debug\AndroidManifest.xml (created)
+  05_code\apps\learner\android\app\src\main\AndroidManifest.xml (created)
+  05_code\apps\learner\android\app\src\main\res\drawable\launch_background.xml (created)
+  05_code\apps\learner\android\app\src\main\res\drawable-v21\launch_background.xml (created)
+  05_code\apps\learner\android\app\src\main\res\mipmap-hdpi\ic_launcher.png (created)
+  05_code\apps\learner\android\app\src\main\res\mipmap-mdpi\ic_launcher.png (created)
+  05_code\apps\learner\android\app\src\main\res\mipmap-xhdpi\ic_launcher.png (created)
+  05_code\apps\learner\android\app\src\main\res\mipmap-xxhdpi\ic_launcher.png (created)
+  05_code\apps\learner\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png (created)
+  05_code\apps\learner\android\app\src\main\res\values\styles.xml (created)
+  05_code\apps\learner\android\app\src\main\res\values-night\styles.xml (created)
+  05_code\apps\learner\android\app\src\profile\AndroidManifest.xml (created)
+  05_code\apps\learner\android\gradle\wrapper\gradle-wrapper.properties (created)
+  05_code\apps\learner\android\gradle.properties (created)
+  05_code\apps\learner\android\settings.gradle.kts (created)
+  05_code\apps\learner\adaptive_learner.iml (created)
+  05_code\apps\learner\README.md (created)
+  05_code\apps\learner\web\favicon.png (created)
+  05_code\apps\learner\web\icons\Icon-192.png (created)
+  05_code\apps\learner\web\icons\Icon-512.png (created)
+  05_code\apps\learner\web\icons\Icon-maskable-192.png (created)
+  05_code\apps\learner\web\icons\Icon-maskable-512.png (created)
+  05_code\apps\learner\web\index.html (created)
+  05_code\apps\learner\web\manifest.json (created)
+Wrote 37 files.
+
+All done!
+You can find general documentation for Flutter at: https://docs.flutter.dev/
+Detailed API documentation is available at: https://api.flutter.dev/
+If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+
+In order to run your application, type:
+
+  $ cd 05_code\apps\learner
+  $ flutter run
+
+Your application code is in 05_code\apps\learner\lib\main.dart.
+
+Recreating project 05_code\apps\staff...
+  05_code\apps\staff\.idea\libraries\Dart_SDK.xml (created)
+  05_code\apps\staff\.idea\libraries\KotlinJavaRuntime.xml (created)
+  05_code\apps\staff\.idea\modules.xml (created)
+  05_code\apps\staff\.idea\runConfigurations\main_dart.xml (created)
+  05_code\apps\staff\.idea\workspace.xml (created)
+  05_code\apps\staff\adaptive_staff.iml (created)
+  05_code\apps\staff\README.md (created)
+  05_code\apps\staff\web\favicon.png (created)
+  05_code\apps\staff\web\icons\Icon-192.png (created)
+  05_code\apps\staff\web\icons\Icon-512.png (created)
+  05_code\apps\staff\web\icons\Icon-maskable-192.png (created)
+  05_code\apps\staff\web\icons\Icon-maskable-512.png (created)
+  05_code\apps\staff\web\index.html (created)
+  05_code\apps\staff\web\manifest.json (created)
+Wrote 14 files.
+
+All done!
+You can find general documentation for Flutter at: https://docs.flutter.dev/
+Detailed API documentation is available at: https://api.flutter.dev/
+If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+
+In order to run your application, type:
+
+  $ cd 05_code\apps\staff
+  $ flutter run
+
+Your application code is in 05_code\apps\staff\lib\main.dart.
+
+
+Exit code: 0

@@ -1,0 +1,4 @@
+Commit: eb0dcc169c64813fa8d08aa715eb65073b2f33fe
+Command: python 07_operations/scripts/check_original_contracts.py
+{"status": "BLOCKED", "reason": "Exact V3.2 sources and original suites absent", "contract_checks": "NOT_RUN", "sql_checks": "NOT_RUN"}
+Exit code: 1

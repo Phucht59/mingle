@@ -1,0 +1,14 @@
+{
+  "requirements": 16,
+  "trace_rows": 16,
+  "account_capabilities": 17,
+  "candidate_acceptance": 8,
+  "consistency_areas": 17,
+  "orphans": 112,
+  "candidate_docs": 3,
+  "critical_open": [
+    "AUD-001",
+    "AUD-003",
+    "AUD-005"
+  ]
+}

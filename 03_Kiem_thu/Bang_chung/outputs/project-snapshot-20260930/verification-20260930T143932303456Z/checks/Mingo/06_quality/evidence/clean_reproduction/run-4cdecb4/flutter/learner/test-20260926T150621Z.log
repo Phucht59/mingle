@@ -1,0 +1,6 @@
+Commit: 4cdecb426d33b2996f4a3a72cc78da6a276b713f
+Command: flutter test
+00:00 +0: loading C:/Mingo/.local/clean-reproduction-20260926/05_code/apps/learner/test/widget_test.dart
+00:00 +0: shell renders without learning claims or overflow
+00:01 +1: All tests passed!
+Exit code: 0

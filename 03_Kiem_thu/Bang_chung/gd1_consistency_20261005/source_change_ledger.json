@@ -1,0 +1,1622 @@
+[
+  {
+    "path": "01_San_pham/compose.yaml",
+    "before_sha256": "50158d75f4dedb7510fb336911acdd9ad3ddb43cb34de07334f82057f0d92019",
+    "after_sha256": "50158d75f4dedb7510fb336911acdd9ad3ddb43cb34de07334f82057f0d92019"
+  },
+  {
+    "path": "01_San_pham/README.md",
+    "before_sha256": "304e223e04c94fe738fa4fa66d8be4d8ad831102ad07e46a80b2442f57678ed6",
+    "after_sha256": "304e223e04c94fe738fa4fa66d8be4d8ad831102ad07e46a80b2442f57678ed6"
+  },
+  {
+    "path": "01_San_pham/backend/pyproject.toml",
+    "before_sha256": "c913f72a5977fd477ebd88cba440e05056c683c9ddc58b2d6f3778ff4031a3ca",
+    "after_sha256": "c913f72a5977fd477ebd88cba440e05056c683c9ddc58b2d6f3778ff4031a3ca"
+  },
+  {
+    "path": "01_San_pham/apps/learner/analysis_options.yaml",
+    "before_sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238",
+    "after_sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238"
+  },
+  {
+    "path": "01_San_pham/apps/learner/pubspec.yaml",
+    "before_sha256": "623375657d6d8d7e39da9aa67bc8934be725376828764a2b2833cabf48e42b48",
+    "after_sha256": "623375657d6d8d7e39da9aa67bc8934be725376828764a2b2833cabf48e42b48"
+  },
+  {
+    "path": "01_San_pham/apps/learner/README.md",
+    "before_sha256": "fd6e75be3bcb987e636db4a1fdf66d657565c0b0b1b7054145c8f411888ca3e6",
+    "after_sha256": "fd6e75be3bcb987e636db4a1fdf66d657565c0b0b1b7054145c8f411888ca3e6"
+  },
+  {
+    "path": "01_San_pham/apps/staff/analysis_options.yaml",
+    "before_sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238",
+    "after_sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238"
+  },
+  {
+    "path": "01_San_pham/apps/staff/pubspec.yaml",
+    "before_sha256": "2896af4b9fd70f259dab261d43a8760948814b018cd8842afe5df838b4b65f0a",
+    "after_sha256": "2896af4b9fd70f259dab261d43a8760948814b018cd8842afe5df838b4b65f0a"
+  },
+  {
+    "path": "01_San_pham/apps/staff/README.md",
+    "before_sha256": "13af613904c7b6874ad7c95585e1f60464767656bd1ae79a36b1045f7579bd33",
+    "after_sha256": "13af613904c7b6874ad7c95585e1f60464767656bd1ae79a36b1045f7579bd33"
+  },
+  {
+    "path": "01_San_pham/apps/learner/integration_test/boot_test.dart",
+    "before_sha256": "27216ef92fe04464816f6191184a65a032d47b95df888aa38a16b115fbe11f63",
+    "after_sha256": "27216ef92fe04464816f6191184a65a032d47b95df888aa38a16b115fbe11f63"
+  },
+  {
+    "path": "01_San_pham/apps/learner/integration_test/performance_test.dart",
+    "before_sha256": "6549b1d095d135d1ecb410d2ef38c3197b86807b8b40e71e1791ed8ab5c55b9a",
+    "after_sha256": "6549b1d095d135d1ecb410d2ef38c3197b86807b8b40e71e1791ed8ab5c55b9a"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/main.dart",
+    "before_sha256": "da8f4e9039e4b36ee2478b6bdd9b05f0b9f263023ec2a6a5e0280b0f26e4d6d0",
+    "after_sha256": "da8f4e9039e4b36ee2478b6bdd9b05f0b9f263023ec2a6a5e0280b0f26e4d6d0"
+  },
+  {
+    "path": "01_San_pham/apps/learner/test/widget_test.dart",
+    "before_sha256": "357f0978f783b1d3befd0cbf091b64ebf336e3dd4e5c0c36f16697b86cee0126",
+    "after_sha256": "357f0978f783b1d3befd0cbf091b64ebf336e3dd4e5c0c36f16697b86cee0126"
+  },
+  {
+    "path": "01_San_pham/apps/learner/test_driver/performance_driver.dart",
+    "before_sha256": "ae3156a47b7e3aacdb7b4d12b17b49f2346fd061acac42b79e2185db737d0d99",
+    "after_sha256": "ae3156a47b7e3aacdb7b4d12b17b49f2346fd061acac42b79e2185db737d0d99"
+  },
+  {
+    "path": "01_San_pham/apps/learner/web/manifest.json",
+    "before_sha256": "73901f658582faced254841056bcf560f52adffc4476a05683599aa740f03644",
+    "after_sha256": "73901f658582faced254841056bcf560f52adffc4476a05683599aa740f03644"
+  },
+  {
+    "path": "01_San_pham/apps/staff/integration_test/boot_test.dart",
+    "before_sha256": "14a93f7d285a496ae82264873619310502f748b33e4a37052780ab10b6858ff4",
+    "after_sha256": "14a93f7d285a496ae82264873619310502f748b33e4a37052780ab10b6858ff4"
+  },
+  {
+    "path": "01_San_pham/apps/staff/lib/main.dart",
+    "before_sha256": "093edb69f6f352eb8b2924a870bb3182238f004d35fb74f2b37956d35545096a",
+    "after_sha256": "093edb69f6f352eb8b2924a870bb3182238f004d35fb74f2b37956d35545096a"
+  },
+  {
+    "path": "01_San_pham/apps/staff/test/widget_test.dart",
+    "before_sha256": "76cbc3b656988a7145d1c2df4f33b5430bd6e97d288f023e184ff79effde2929",
+    "after_sha256": "76cbc3b656988a7145d1c2df4f33b5430bd6e97d288f023e184ff79effde2929"
+  },
+  {
+    "path": "01_San_pham/apps/staff/web/manifest.json",
+    "before_sha256": "0829ee839cd96d2ea5dcc0de5236f33e7b48f5d1d44652a60e898cc714792bef",
+    "after_sha256": "0829ee839cd96d2ea5dcc0de5236f33e7b48f5d1d44652a60e898cc714792bef"
+  },
+  {
+    "path": "01_San_pham/backend/tests/conftest.py",
+    "before_sha256": "3989b433a088f85a70ee2279e7121c34b0569e254040a633f56e058040cb997c",
+    "after_sha256": "3989b433a088f85a70ee2279e7121c34b0569e254040a633f56e058040cb997c"
+  },
+  {
+    "path": "01_San_pham/backend/tests/test_postgres.py",
+    "before_sha256": "b7d586d14dcad252c04df7beb159601caf9dc48f1be4ebe7346db70f5cacb977",
+    "after_sha256": "b7d586d14dcad252c04df7beb159601caf9dc48f1be4ebe7346db70f5cacb977"
+  },
+  {
+    "path": "01_San_pham/backend/tests/test_unit.py",
+    "before_sha256": "a11f7ba497ccce51d96d7b182dd36e5dcfae10223ead35e82f5b257fd17f944a",
+    "after_sha256": "a11f7ba497ccce51d96d7b182dd36e5dcfae10223ead35e82f5b257fd17f944a"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/api.py",
+    "before_sha256": "c6c61ead5b48767c5c53336582a9d37bee3602625b22a19d72fa282613918511",
+    "after_sha256": "c6c61ead5b48767c5c53336582a9d37bee3602625b22a19d72fa282613918511"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/cli.py",
+    "before_sha256": "3fe8d2e904c9cd7a1051976ed16f585a101f28a70ab819c3626091116492b477",
+    "after_sha256": "3fe8d2e904c9cd7a1051976ed16f585a101f28a70ab819c3626091116492b477"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/config.py",
+    "before_sha256": "3c082c0262692731844cf97f8f1d5e24eab002cf98a0c9a7cc8e4dc14a4a2b70",
+    "after_sha256": "3c082c0262692731844cf97f8f1d5e24eab002cf98a0c9a7cc8e4dc14a4a2b70"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/db.py",
+    "before_sha256": "6aca74432dbf27e40aacc50001d112cf566482eb2ded3acf52107665b3060542",
+    "after_sha256": "6aca74432dbf27e40aacc50001d112cf566482eb2ded3acf52107665b3060542"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/logging.py",
+    "before_sha256": "be3f7a2ad7782140f861a5342bd6c2d3f114514b984952269998b74cc9d4b139",
+    "after_sha256": "be3f7a2ad7782140f861a5342bd6c2d3f114514b984952269998b74cc9d4b139"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/ports.py",
+    "before_sha256": "50761e17b2693eae8250b7aea027c1fc4aa5aa3eb9f6c8c4ac69ecef6cdb13e9",
+    "after_sha256": "50761e17b2693eae8250b7aea027c1fc4aa5aa3eb9f6c8c4ac69ecef6cdb13e9"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/storage.py",
+    "before_sha256": "934e862ef2576b12f4107847d242d150e51e1ac0712196f18137e3d5789fe1e4",
+    "after_sha256": "934e862ef2576b12f4107847d242d150e51e1ac0712196f18137e3d5789fe1e4"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/worker.py",
+    "before_sha256": "6fb0bbfd3131bc206c12be57d91aa842b6019b2c49d772290d77131c95d1096e",
+    "after_sha256": "6fb0bbfd3131bc206c12be57d91aa842b6019b2c49d772290d77131c95d1096e"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/__init__.py",
+    "before_sha256": "f8f96e3f44b19994edb28999f7a6646215c764a41ba2410b9096251eca64cc61",
+    "after_sha256": "f8f96e3f44b19994edb28999f7a6646215c764a41ba2410b9096251eca64cc61"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/migrations/001_runtime_probe.sql",
+    "before_sha256": "3478aa99152f90dacb3d1345b9c6bbe318c25293dbe22ac4022c17672e7f3129",
+    "after_sha256": "3478aa99152f90dacb3d1345b9c6bbe318c25293dbe22ac4022c17672e7f3129"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/migrations/002_worker_heartbeat.sql",
+    "before_sha256": "080420bc964cabb802277feab22fc42db5f14c994a78fdc57796d2aa6466514a",
+    "after_sha256": "080420bc964cabb802277feab22fc42db5f14c994a78fdc57796d2aa6466514a"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/analysis_options.yaml",
+    "before_sha256": "c1e9534c05acb3643e72a82ad3d92d56d2ba9b0df2add014c18f7e1d462f24e4",
+    "after_sha256": "c1e9534c05acb3643e72a82ad3d92d56d2ba9b0df2add014c18f7e1d462f24e4"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/pubspec.yaml",
+    "before_sha256": "6c62bfe546c707939d2a472dbe052d377778b06440b943a5aab2af5e2f2100e3",
+    "after_sha256": "6c62bfe546c707939d2a472dbe052d377778b06440b943a5aab2af5e2f2100e3"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/mingo_ui.dart",
+    "before_sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3",
+    "after_sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/test/dark_capture_test.dart",
+    "before_sha256": "98f3605dc5dad87795adbc2b37f16ac3c47a95a9c57cb1d71daef290f8f8445d",
+    "after_sha256": "98f3605dc5dad87795adbc2b37f16ac3c47a95a9c57cb1d71daef290f8f8445d"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+    "before_sha256": "51e9d9a549dc77810d742e36096bd6a2101255150f3f818d65511f8f970ad7ca",
+    "after_sha256": "51e9d9a549dc77810d742e36096bd6a2101255150f3f818d65511f8f970ad7ca"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/test/independent_test.dart",
+    "before_sha256": "8397ce43362a6837f10d76c8f7ac84b21a00a16dd0028ff38f9227ea848fa682",
+    "after_sha256": "8397ce43362a6837f10d76c8f7ac84b21a00a16dd0028ff38f9227ea848fa682"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart",
+    "before_sha256": "ce8ab17194daecdce9952da8281b7158981c5cd9847758c46f41d7e886d59b82",
+    "after_sha256": "ce8ab17194daecdce9952da8281b7158981c5cd9847758c46f41d7e886d59b82"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/test/visual_candidate_test.dart",
+    "before_sha256": "0dae241da2126b91c6b188a6779f5a3bf727a7bc796de9d874db04831294de8f",
+    "after_sha256": "0dae241da2126b91c6b188a6779f5a3bf727a7bc796de9d874db04831294de8f"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/audio.dart",
+    "before_sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+    "after_sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/catalog.dart",
+    "before_sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+    "after_sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/design.dart",
+    "before_sha256": "e2569f23f04becaf5dab3127796bf4afbb3d62e0591ba8eb8a33b6afc9a8d537",
+    "after_sha256": "e2569f23f04becaf5dab3127796bf4afbb3d62e0591ba8eb8a33b6afc9a8d537"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/fixtures.dart",
+    "before_sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+    "after_sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/journey.dart",
+    "before_sha256": "dd16f8a7b5cacf55636b74d3a19c7eec35569fe513775853f4aa7df9e33e2a89",
+    "after_sha256": "dd16f8a7b5cacf55636b74d3a19c7eec35569fe513775853f4aa7df9e33e2a89"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/learner.dart",
+    "before_sha256": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90",
+    "after_sha256": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson.dart",
+    "before_sha256": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29",
+    "after_sha256": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson_content.dart",
+    "before_sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+    "after_sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/staff.dart",
+    "before_sha256": "4b8fc9a8f186d3862244f97008ca1ebcaf695bee4373bb8f664fd50b86a09bf5",
+    "after_sha256": "4b8fc9a8f186d3862244f97008ca1ebcaf695bee4373bb8f664fd50b86a09bf5"
+  },
+  {
+    "path": "01_San_pham/postgres/init/001_create_test_database.sql",
+    "before_sha256": "0edf2196f399edc78b9929ab3a7f6c81cc09a9eec69266a981787b7fcbb593b0",
+    "after_sha256": "0edf2196f399edc78b9929ab3a7f6c81cc09a9eec69266a981787b7fcbb593b0"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/README.md",
+    "before_sha256": "f1902664a9ec9f31cb9116c1b3e1db7065c1849bcadd0ccb6060214bb1a6aedb",
+    "after_sha256": "f1902664a9ec9f31cb9116c1b3e1db7065c1849bcadd0ccb6060214bb1a6aedb"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/01_Tong_quan_du_an/README.md",
+    "before_sha256": "67829750cb56599d01326eda2a1ae38e17594b4da1613a0449e9d6de1a0de7a4",
+    "after_sha256": "67829750cb56599d01326eda2a1ae38e17594b4da1613a0449e9d6de1a0de7a4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/02_Ke_hoach_phat_trien/BACKLOG.md",
+    "before_sha256": "2652d6bbc9c842ef30f064ed688fbcca783eceafe78aeadc2dc06b0dda7e3086",
+    "after_sha256": "2652d6bbc9c842ef30f064ed688fbcca783eceafe78aeadc2dc06b0dda7e3086"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/02_Ke_hoach_phat_trien/IMPLEMENTATION_ROADMAP.md",
+    "before_sha256": "f8868a1e4ec48c131531f00b4c2a53fd613ee6dc7392b4385e5cfcac6c12b773",
+    "after_sha256": "f8868a1e4ec48c131531f00b4c2a53fd613ee6dc7392b4385e5cfcac6c12b773"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/02_Ke_hoach_phat_trien/ROADMAP_PHASE_0_TO_17.md",
+    "before_sha256": "cb5e98a3b99a1f2587c54fbdd8231d0ebc5203c8d38eb503e851999a314247dc",
+    "after_sha256": "cb5e98a3b99a1f2587c54fbdd8231d0ebc5203c8d38eb503e851999a314247dc"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/README.md",
+    "before_sha256": "a8e88c18d7244e1fb025e6513a83777adefe13b618415594585c77c3315944b2",
+    "after_sha256": "a8e88c18d7244e1fb025e6513a83777adefe13b618415594585c77c3315944b2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/MVP_PRD.md",
+    "before_sha256": "fb3c5b8bac003d3a25b61e7c72918009b4a2deee55740296a62924c6eb063cb2",
+    "after_sha256": "b97e814027ba08d8727a4d69157006c38e8651ac998d1f2a7037bc175881b956"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/PRODUCT_CHARTER.md",
+    "before_sha256": "6aaae7d1b7ecbca97a532c907e23d29ddf6034781c002147fb08fe869e8d5b83",
+    "after_sha256": "667c285c2945c31cf9f9d088d30a8641b4be24807486b06939228bed7108d25b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/README.md",
+    "before_sha256": "8d5c1ee6d91a2d39bcd1cdbffbd3e227a076d4c4de4bb32e19ce429e2fa78070",
+    "after_sha256": "8d5c1ee6d91a2d39bcd1cdbffbd3e227a076d4c4de4bb32e19ce429e2fa78070"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/DECISION_TEST_VECTORS.md",
+    "before_sha256": "7927d8580ca950f88a04ae685ef433d3fadb1c2f81b6d765563dc635b4237cb6",
+    "after_sha256": "7927d8580ca950f88a04ae685ef433d3fadb1c2f81b6d765563dc635b4237cb6"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/README.md",
+    "before_sha256": "5065ae6fc297758f9f1f9d62bcfa63f10cd1777aebde3949096b3aaeb7086176",
+    "after_sha256": "5065ae6fc297758f9f1f9d62bcfa63f10cd1777aebde3949096b3aaeb7086176"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/REPO_STRUCTURE.md",
+    "before_sha256": "2dddb24ecdc10d74217728fd1730481145a445b12a0d1feca0e42294f102f3bf",
+    "after_sha256": "2dddb24ecdc10d74217728fd1730481145a445b12a0d1feca0e42294f102f3bf"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3_2_COMPATIBILITY_MATRIX.md",
+    "before_sha256": "d991008507f0b14b46710a7e48c8460cb7dba4d5c5b5ba1fba6cddf2cb13d728",
+    "after_sha256": "d991008507f0b14b46710a7e48c8460cb7dba4d5c5b5ba1fba6cddf2cb13d728"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/06_Quyet_dinh_da_chot/CHANGE_REQUESTS.md",
+    "before_sha256": "87e174c6ff762bfff4c4f75aac509ea35d4fca4338679aa47503b77f5907d0dd",
+    "after_sha256": "e46679774bc138eb0a45ab7a7d0b23aa059a13eb7a01b85e55faf798aba35e9a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/06_Quyet_dinh_da_chot/DECISION_REGISTER.md",
+    "before_sha256": "4beb457cf4a88041e3670f370e20f1f089012ef5aee5bc313154189ad1bcfe0f",
+    "after_sha256": "4b4d29a3888701bfe84f6a5f9af69de4f2ca05de25a9c669f7c14af92f420fed"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/06_Quyet_dinh_da_chot/IMPLEMENTATION_ISSUES.md",
+    "before_sha256": "bac628bb2ed2203027630868a74b7c12c021793ac019ce8ba64315e4fadcbfbf",
+    "after_sha256": "bac628bb2ed2203027630868a74b7c12c021793ac019ce8ba64315e4fadcbfbf"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/PHASE_STATUS.yaml",
+    "before_sha256": "9b66548260e2bbe47d4eeeab473ade77439695754bab8255067a826bd35d6774",
+    "after_sha256": "9b66548260e2bbe47d4eeeab473ade77439695754bab8255067a826bd35d6774"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_MEMORY.md",
+    "before_sha256": "bb682792ad73663454f76c8e143c4e6bc39a8cb344b1c109d7da2671c79243c1",
+    "after_sha256": "bb682792ad73663454f76c8e143c4e6bc39a8cb344b1c109d7da2671c79243c1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_PROGRESS_SNAPSHOT.md",
+    "before_sha256": "b610026e44badb2082a1c03981fe9e31f3dbd59762390e647754bcac60c4b185",
+    "after_sha256": "b610026e44badb2082a1c03981fe9e31f3dbd59762390e647754bcac60c4b185"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_STATE.md",
+    "before_sha256": "cadf5c8e8a427edab4b15a8663e21a5be178696bc43ac180481406451215f4d9",
+    "after_sha256": "253de9f26b4989857d6a0587cabe5d7879300af2bdad31ef52af8598aa7c639c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Quan_ly_du_an_Mingo.xlsx",
+    "before_sha256": "2b201e1b0ca6aeb40dd81e77780bd9b362ce672bf3bb2fd09cd7ae8dbdd23d35",
+    "after_sha256": "2b201e1b0ca6aeb40dd81e77780bd9b362ce672bf3bb2fd09cd7ae8dbdd23d35"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/README.md",
+    "before_sha256": "36296440191dbf55fdf26efbe0f2f2cd46c0d11230dadca213a817daa874e116",
+    "after_sha256": "36296440191dbf55fdf26efbe0f2f2cd46c0d11230dadca213a817daa874e116"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/PHASE1_CLOSURE_20260926.md",
+    "before_sha256": "19bada962fae28c7008f7e0edba67fb23277cec99bdbdbfb339e6ab1383fc61e",
+    "after_sha256": "19bada962fae28c7008f7e0edba67fb23277cec99bdbdbfb339e6ab1383fc61e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/README.md",
+    "before_sha256": "dc8aaba41132fdb3cb6dc4e4fb589b24cffa07f153c6307d1a6621f35399ff54",
+    "after_sha256": "dc8aaba41132fdb3cb6dc4e4fb589b24cffa07f153c6307d1a6621f35399ff54"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/RELEASE_CHECK.md",
+    "before_sha256": "4b74f8408a03dd1cfd2bf25b2eda0bba0bf7e7c468efdef4f4014fe651932487",
+    "after_sha256": "4b74f8408a03dd1cfd2bf25b2eda0bba0bf7e7c468efdef4f4014fe651932487"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/RELEASE_CHECK_20260926.md",
+    "before_sha256": "4e1c0aedc12294aef81267e50addc61a8d26b9b841eee67cf8aa0cb71ce9677c",
+    "after_sha256": "4e1c0aedc12294aef81267e50addc61a8d26b9b841eee67cf8aa0cb71ce9677c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/legacy_kltn/LEGACY_RESEARCH_CONTEXT.md",
+    "before_sha256": "53128217d8dbbcbe674b042fe0622fdea745113ee06b9b5e6d7640cda752f623",
+    "after_sha256": "53128217d8dbbcbe674b042fe0622fdea745113ee06b9b5e6d7640cda752f623"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/phase1/00_RESEARCH_HANDOFF_README.md",
+    "before_sha256": "3ce94d4a5a4e58a82b62b0b4262f6fe680b378abd8f5cb4db6d09bf87d187ac7",
+    "after_sha256": "3ce94d4a5a4e58a82b62b0b4262f6fe680b378abd8f5cb4db6d09bf87d187ac7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/phase1/01_MASTER_MEMORY_TRANSFER.md",
+    "before_sha256": "cd9726e9226b43086ca1c27db889425758b84c15eea5dd7405d496c4c468dd84",
+    "after_sha256": "cd9726e9226b43086ca1c27db889425758b84c15eea5dd7405d496c4c468dd84"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/phase1/02_ADAPTIVE_PROJECT_CONTEXT.md",
+    "before_sha256": "e88121f05f9505b804cadb0a067e86eec9f7a1d5c7a9b0cfa7df1c95152f1684",
+    "after_sha256": "e88121f05f9505b804cadb0a067e86eec9f7a1d5c7a9b0cfa7df1c95152f1684"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/phase1/03_RESEARCH_QUESTIONS_18.md",
+    "before_sha256": "2e19e518f400c1d09524dfa14f6bd0f5ff1e9465a1a2eef5ef6b1e2b67bd1bc5",
+    "after_sha256": "2e19e518f400c1d09524dfa14f6bd0f5ff1e9465a1a2eef5ef6b1e2b67bd1bc5"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/phase1/04_RESEARCH_SUPER_PROMPT.md",
+    "before_sha256": "dbae39888f29bfc2b4664a889d0fd49eeb45af7f22416106a19e7080626cdf66",
+    "after_sha256": "dbae39888f29bfc2b4664a889d0fd49eeb45af7f22416106a19e7080626cdf66"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/phase1/05_EXPECTED_OUTPUT_STRUCTURE.md",
+    "before_sha256": "70bf7ad6ecef4178c2c8869c87187dccc02538a39ee95fa20533c26557b10603",
+    "after_sha256": "70bf7ad6ecef4178c2c8869c87187dccc02538a39ee95fa20533c26557b10603"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/03_Nghien_cuu/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md",
+    "before_sha256": "3303fc63ad897c15ecf23f8f7824d39234c13bf2b54d99188d8eaf35e59e6f28",
+    "after_sha256": "3303fc63ad897c15ecf23f8f7824d39234c13bf2b54d99188d8eaf35e59e6f28"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/ADAPTIVE_FEED_MVP_SPEC.md",
+    "before_sha256": "347fce82e58f511eabae48104d440ce3beaf50de014b1c47a9a26b845ca33ac3",
+    "after_sha256": "347fce82e58f511eabae48104d440ce3beaf50de014b1c47a9a26b845ca33ac3"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/LEARNER_EVIDENCE_MODEL.md",
+    "before_sha256": "98786acf238da79e6b47760e445f11399bb828059a97b26ff51b1f4d437d3ecb",
+    "after_sha256": "dc1ee120e6f4864c7bd3fde62ced9d269da135fdd1c542a7ae46fd2bf631fea4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/PILOT_AND_CONTENT_CONSTRAINTS.md",
+    "before_sha256": "1b22be0747430db59da8bd0761ed7ba9b29b18fdee17209e50426f9052d2d6bd",
+    "after_sha256": "1b22be0747430db59da8bd0761ed7ba9b29b18fdee17209e50426f9052d2d6bd"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/SHORT_SESSION_LEARNING_DIRECTION.md",
+    "before_sha256": "3c92084cb13130a283d934ad130953c413e6b1d34cf6e1ac72509ab6f393522d",
+    "after_sha256": "3c92084cb13130a283d934ad130953c413e6b1d34cf6e1ac72509ab6f393522d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/01_PHASE_2_CONTRACT.md",
+    "before_sha256": "53a3da92057ea17bf6e9e74055f82f553524ab6bf1648f4f634afffbfb3dccba",
+    "after_sha256": "53a3da92057ea17bf6e9e74055f82f553524ab6bf1648f4f634afffbfb3dccba"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/02_INFORMATION_ARCHITECTURE.md",
+    "before_sha256": "1198b225dcae541ee20ad5809c2835938d5702f58a88a0cbcc98c6089b7d07e2",
+    "after_sha256": "1198b225dcae541ee20ad5809c2835938d5702f58a88a0cbcc98c6089b7d07e2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/03_LEARNER_JOURNEYS.md",
+    "before_sha256": "4952ec848f76d6f9ed38f4013e174adf69c3194beed1174ed06d1442a42a932e",
+    "after_sha256": "4952ec848f76d6f9ed38f4013e174adf69c3194beed1174ed06d1442a42a932e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/04_STAFF_JOURNEYS.md",
+    "before_sha256": "cef86dc17e8140389e5741f96c9ee52e3b4ab71386ac6384a317c227c0deb35e",
+    "after_sha256": "cef86dc17e8140389e5741f96c9ee52e3b4ab71386ac6384a317c227c0deb35e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/05_NAVIGATION_ROUTING_SPEC.md",
+    "before_sha256": "e0b5112e57ddb27b4f831991404669ed39b34e176c181884dd918ab4dfffa753",
+    "after_sha256": "e0b5112e57ddb27b4f831991404669ed39b34e176c181884dd918ab4dfffa753"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/06_SCREEN_SPECIFICATIONS.md",
+    "before_sha256": "d6e5b823187746d2945edb1558bca2f8eb95119150d9d693c81f28153f198dbd",
+    "after_sha256": "d6e5b823187746d2945edb1558bca2f8eb95119150d9d693c81f28153f198dbd"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/07_UI_STATE_CATALOG.md",
+    "before_sha256": "23fe7cadd77f71d525874f02fcd94b3fa9bbbd8bfe21309dabb677aa6e54f587",
+    "after_sha256": "23fe7cadd77f71d525874f02fcd94b3fa9bbbd8bfe21309dabb677aa6e54f587"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/08_DESIGN_SYSTEM_SPEC.md",
+    "before_sha256": "91683bb3a49e68459eaab57e2cdc2410e5f67adf9c032e534ae26f99f38f0316",
+    "after_sha256": "91683bb3a49e68459eaab57e2cdc2410e5f67adf9c032e534ae26f99f38f0316"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/09_ACCESSIBILITY_RESPONSIVE_SPEC.md",
+    "before_sha256": "6fcef3151ad388d388c6248f746746e880e533345fe70aa4a4c70727f4438f8d",
+    "after_sha256": "6fcef3151ad388d388c6248f746746e880e533345fe70aa4a4c70727f4438f8d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/10_CONTENT_MICROCOPY_GUIDE.md",
+    "before_sha256": "f4444b6bbdbf4122954a662f098cd2ede35ab8f63af89072b9b5a952223f0018",
+    "after_sha256": "f4444b6bbdbf4122954a662f098cd2ede35ab8f63af89072b9b5a952223f0018"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/11_OFFLINE_SYNC_UX_SPEC.md",
+    "before_sha256": "74afa951ff0afd7e82bc50a2c030d894ed1f23c3db345c5e6e8291284f31b67c",
+    "after_sha256": "74afa951ff0afd7e82bc50a2c030d894ed1f23c3db345c5e6e8291284f31b67c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/12_UX_REQUIREMENT_TRACEABILITY.md",
+    "before_sha256": "79318b20ce6fd9ed8ac68f98ea1846120354cb2dace50473bc92c1dc9f22200d",
+    "after_sha256": "79318b20ce6fd9ed8ac68f98ea1846120354cb2dace50473bc92c1dc9f22200d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/13_DEVELOPER_HANDOFF.md",
+    "before_sha256": "60c529188935a9e048beace9b294a11affe1ed628838e593ade003ff1c64a7f4",
+    "after_sha256": "60c529188935a9e048beace9b294a11affe1ed628838e593ade003ff1c64a7f4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/14_DESIGN_REVIEW_DECISIONS.md",
+    "before_sha256": "7e631a8dd48879b1234654459594f587a3f40362080970a731d7ad44e5c36dbd",
+    "after_sha256": "7e631a8dd48879b1234654459594f587a3f40362080970a731d7ad44e5c36dbd"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md",
+    "before_sha256": "dba9340d3aced352e207b1778b159f55f22f7a5b02ae1a2d97a619f7b0e70f0b",
+    "after_sha256": "dba9340d3aced352e207b1778b159f55f22f7a5b02ae1a2d97a619f7b0e70f0b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/16_ACCESSIBILITY_FOCUS_LIVE_REGION_SPEC.md",
+    "before_sha256": "d2e7dfef7db4708b80f08fa7379134e4b0410b44203975378b2e25cb42fae38f",
+    "after_sha256": "d2e7dfef7db4708b80f08fa7379134e4b0410b44203975378b2e25cb42fae38f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/17_SCREEN_STATE_QA_TRACEABILITY.md",
+    "before_sha256": "6181f37d7fe684e6673e64c5757d09110342bf034fc7cd6ebf164050144657eb",
+    "after_sha256": "6181f37d7fe684e6673e64c5757d09110342bf034fc7cd6ebf164050144657eb"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/DESIGN_TOKENS.json",
+    "before_sha256": "46e1293869353757d00840da42ee387f9804e8ba2260a25c0edbe0d4ff74b666",
+    "after_sha256": "46e1293869353757d00840da42ee387f9804e8ba2260a25c0edbe0d4ff74b666"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/PHASE_2_SPEC.json",
+    "before_sha256": "daa7b54d0e9e238fd9aca8bf37f0db43f668e5b8758502919b0296f0abe8f2e1",
+    "after_sha256": "daa7b54d0e9e238fd9aca8bf37f0db43f668e5b8758502919b0296f0abe8f2e1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/PRD_TRACEABILITY.csv",
+    "before_sha256": "54c2f236bda37030cea62e8ad3ff90df85e399111892466c9455ed68d96460a4",
+    "after_sha256": "54c2f236bda37030cea62e8ad3ff90df85e399111892466c9455ed68d96460a4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/PROTOTYPE_README.md",
+    "before_sha256": "e3c9119908b2576c0fa4e43953f3cedc077739491d24f7445448abe68b709657",
+    "after_sha256": "e3c9119908b2576c0fa4e43953f3cedc077739491d24f7445448abe68b709657"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/README.md",
+    "before_sha256": "0b78afa21f007d36fa240d91bc957cbd4e1c380ab03b2b87a230abb66a2dde6d",
+    "after_sha256": "0b78afa21f007d36fa240d91bc957cbd4e1c380ab03b2b87a230abb66a2dde6d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/SCREEN_INVENTORY.csv",
+    "before_sha256": "b63ad680debccfebe120c0d598d4a126d2ca44f3a69fe1bd580d1232bfafed97",
+    "after_sha256": "b63ad680debccfebe120c0d598d4a126d2ca44f3a69fe1bd580d1232bfafed97"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/SCREEN_STATE_QA_TRACEABILITY.csv",
+    "before_sha256": "a5fb1e82d78a2bbce555c5700d80f24479448bef3cffd7dea853bd2867f05da7",
+    "after_sha256": "a5fb1e82d78a2bbce555c5700d80f24479448bef3cffd7dea853bd2867f05da7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ACCESSIBILITY_MANUAL_CHECKLIST.md",
+    "before_sha256": "53b1f1c57b50faa063825b8db348de661876bcc346805be1f89b9fc8d47ef899",
+    "after_sha256": "53b1f1c57b50faa063825b8db348de661876bcc346805be1f89b9fc8d47ef899"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ACCESSIBILITY_TEST_PLAN.md",
+    "before_sha256": "6bc8dbc97e8d5eae74fe119f5bf0f272187569dea383126af59d1b9e19e6beac",
+    "after_sha256": "6bc8dbc97e8d5eae74fe119f5bf0f272187569dea383126af59d1b9e19e6beac"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ACCESSIBILITY_TEST_REPORT.md",
+    "before_sha256": "e4f19ea6672a4bfe4c442e7fed2b9afd89a77ec694d4907b9d1f0571e739e1d7",
+    "after_sha256": "e4f19ea6672a4bfe4c442e7fed2b9afd89a77ec694d4907b9d1f0571e739e1d7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ADAPTATION_PRINCIPLES.md",
+    "before_sha256": "44f9182351c97452d585bc98f41bb9974d07b3475db73429e8e9b32fcb3e6b7a",
+    "after_sha256": "44f9182351c97452d585bc98f41bb9974d07b3475db73429e8e9b32fcb3e6b7a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ADDITIONAL_PRESENTATION_TRACEABILITY.csv",
+    "before_sha256": "e3fcab0efb3d33c5f823ead264918476e3fb2246b27f6cc326e32672c2dbf199",
+    "after_sha256": "e3fcab0efb3d33c5f823ead264918476e3fb2246b27f6cc326e32672c2dbf199"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ASSET_PROVENANCE.json",
+    "before_sha256": "87d7874f6fb8280020144813c1edb33648a010961297312154f09bd13899915b",
+    "after_sha256": "87d7874f6fb8280020144813c1edb33648a010961297312154f09bd13899915b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/CAPYBARA_ASSET_MANIFEST.md",
+    "before_sha256": "72eda8b44878c7c33a220c2f1cc0b42f909f4cd1df596315daee1aff9a95cb8c",
+    "after_sha256": "72eda8b44878c7c33a220c2f1cc0b42f909f4cd1df596315daee1aff9a95cb8c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/CONTENT_QUALITY_RUBRIC.md",
+    "before_sha256": "51e998bfbdda7fc7011582d1d3dff837a72091d2160d7f840f6e075e232146bd",
+    "after_sha256": "51e998bfbdda7fc7011582d1d3dff837a72091d2160d7f840f6e075e232146bd"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/D021_D022_RECONCILIATION.md",
+    "before_sha256": "bd87769b382857581afdce1c6d3b5e348e03e9b61b8f6d4788ace386c65666ae",
+    "after_sha256": "bd87769b382857581afdce1c6d3b5e348e03e9b61b8f6d4788ace386c65666ae"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/DELIVERABLE_INDEX.md",
+    "before_sha256": "1bca1491a3408636b5ea4a6930f8e441040f886d926de80fe642f90ca85b6fae",
+    "after_sha256": "1bca1491a3408636b5ea4a6930f8e441040f886d926de80fe642f90ca85b6fae"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/DEVELOPER_HANDOFF_V2.md",
+    "before_sha256": "2ee01cd31f270f7d2773a67d943c3481a84a0c71e10123532401a7017e34ff42",
+    "after_sha256": "2ee01cd31f270f7d2773a67d943c3481a84a0c71e10123532401a7017e34ff42"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/DEVICE_TEST_MATRIX.md",
+    "before_sha256": "d337e26d30139220e9fe0add0571562cd661ea6a682bc9e964b8e1686ef0100f",
+    "after_sha256": "d337e26d30139220e9fe0add0571562cd661ea6a682bc9e964b8e1686ef0100f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/EXPLORATORY_TELEMETRY_SPEC.md",
+    "before_sha256": "7451f89c2623b0c1dab4f60dc63cfc440cd751a91856b6aec5b73347f9e1f4e3",
+    "after_sha256": "7451f89c2623b0c1dab4f60dc63cfc440cd751a91856b6aec5b73347f9e1f4e3"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/FROZEN_DECISIONS_AND_SCOPE.md",
+    "before_sha256": "b43f270a2b84f953e1132e5ae4d7fd1bd5c37da96d9cfc2448e66c74dcdb6494",
+    "after_sha256": "b43f270a2b84f953e1132e5ae4d7fd1bd5c37da96d9cfc2448e66c74dcdb6494"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/HUMAN_APPROVAL_REQUIRED.md",
+    "before_sha256": "9ffa828b1b3d1370edb177bd710c27aa8fe2f491ac7048c84f106a9d69b1e880",
+    "after_sha256": "9ffa828b1b3d1370edb177bd710c27aa8fe2f491ac7048c84f106a9d69b1e880"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/INDEPENDENT_VERIFICATION_PROTOCOL.md",
+    "before_sha256": "b680983d29d042abf5c583ee9e98e37ad742ee7f84befc6ceaca571f5c842278",
+    "after_sha256": "b680983d29d042abf5c583ee9e98e37ad742ee7f84befc6ceaca571f5c842278"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/INITIAL_WEDGE_RESEARCH_PLAN.md",
+    "before_sha256": "cf4a8c73d9d1997042bdfbcd60e8a490c1e304a45c3dd57efe1dbf2032bb11a7",
+    "after_sha256": "cf4a8c73d9d1997042bdfbcd60e8a490c1e304a45c3dd57efe1dbf2032bb11a7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/LEARNING_EXPERIENCE_MODEL.md",
+    "before_sha256": "76e2f0ee678dfe661e5a830f6a1862985dabc25e174c44b93b22a51b3a07528f",
+    "after_sha256": "76e2f0ee678dfe661e5a830f6a1862985dabc25e174c44b93b22a51b3a07528f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MASCOT_STYLE_GUIDE.md",
+    "before_sha256": "5c420c451aca86ffc93812580d2acb2e8d80d3b682a2997e0a2b93312cf56506",
+    "after_sha256": "5c420c451aca86ffc93812580d2acb2e8d80d3b682a2997e0a2b93312cf56506"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_DESIGN_SYSTEM_V2.md",
+    "before_sha256": "780d5bfad3d3124d26b549ed83d9b2989c4214c8b58f83dda242edd08b91a3fe",
+    "after_sha256": "780d5bfad3d3124d26b549ed83d9b2989c4214c8b58f83dda242edd08b91a3fe"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_EVIDENCE_GATED_DEVELOPMENT_V1.md",
+    "before_sha256": "bf83acc1fac4c957cc43ba0229d734dafd785403d40a46d606849d848fd66b76",
+    "after_sha256": "bf83acc1fac4c957cc43ba0229d734dafd785403d40a46d606849d848fd66b76"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_PERFORMANCE_BUDGET_V1.md",
+    "before_sha256": "969be92cd948f22db735d4d5a546d0ab952a1799f76b2add30f9013e743e2d1b",
+    "after_sha256": "969be92cd948f22db735d4d5a546d0ab952a1799f76b2add30f9013e743e2d1b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_POST_REBASELINE_AUDIT.md",
+    "before_sha256": "789c36908418f66354b4a185758b28238c2dcbd37a2d70189677534e8b52aefa",
+    "after_sha256": "789c36908418f66354b4a185758b28238c2dcbd37a2d70189677534e8b52aefa"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_PRODUCT_MEASUREMENT_FRAMEWORK.md",
+    "before_sha256": "a539f353398bfb60c29cb558dab8a3838a583c3f343803f13efd384aa8f7305a",
+    "after_sha256": "a539f353398bfb60c29cb558dab8a3838a583c3f343803f13efd384aa8f7305a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_RESEARCH_EVIDENCE_REGISTER.md",
+    "before_sha256": "c389b4cc8679c2ab2481929904330beda1e89f09eceeb79c2c0e54ddd376c516",
+    "after_sha256": "c389b4cc8679c2ab2481929904330beda1e89f09eceeb79c2c0e54ddd376c516"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MOTION_SPEC.md",
+    "before_sha256": "bfd1efacb6f94be0099c806db1064ef93024ef878277dd30fbb08d2aa392319c",
+    "after_sha256": "bfd1efacb6f94be0099c806db1064ef93024ef878277dd30fbb08d2aa392319c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/OWNER_READBACK_CHECKPOINT.md",
+    "before_sha256": "41d3835def0230945329754d1c39fe0c6e42e90e3170933a2a8a0e35313f2328",
+    "after_sha256": "41d3835def0230945329754d1c39fe0c6e42e90e3170933a2a8a0e35313f2328"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PERFORMANCE_TEST_REPORT.md",
+    "before_sha256": "9125b0c034a721fd2eea4befe83e61a1d639c266359a028702bf5271bcfa09ba",
+    "after_sha256": "9125b0c034a721fd2eea4befe83e61a1d639c266359a028702bf5271bcfa09ba"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE1_REVALIDATION_REPORT.md",
+    "before_sha256": "0ec2ce8d2789d125f50d47863b707c699c77c7237d1743c317a3b5d819165b3d",
+    "after_sha256": "0ec2ce8d2789d125f50d47863b707c699c77c7237d1743c317a3b5d819165b3d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_DIARY_PILOT_PLAN.md",
+    "before_sha256": "feb59f3b71800d1788e6bc2e3ec66567478e8e015725fd46217435b04b0d5314",
+    "after_sha256": "feb59f3b71800d1788e6bc2e3ec66567478e8e015725fd46217435b04b0d5314"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_FINAL_GATE_REPORT.md",
+    "before_sha256": "876799569b3e7bfe8761068466aa24fcc583f7a4854e229e6c4a39f5b24a3c2b",
+    "after_sha256": "876799569b3e7bfe8761068466aa24fcc583f7a4854e229e6c4a39f5b24a3c2b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_RESEARCH_RATIONALE.md",
+    "before_sha256": "eea3e5bfab1981687b6f03db362121e4e1f6fed5287cc0809d77b43778a5d921",
+    "after_sha256": "eea3e5bfab1981687b6f03db362121e4e1f6fed5287cc0809d77b43778a5d921"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_SCREEN_INVENTORY.md",
+    "before_sha256": "7872ded19f07741c825a276a710e12d6680035acfd15f52b672bed0b06c33c51",
+    "after_sha256": "7872ded19f07741c825a276a710e12d6680035acfd15f52b672bed0b06c33c51"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_USABILITY_TEST_PROTOCOL.md",
+    "before_sha256": "1aa68c3925388fce7e42bc8db93f7f59e567fa7ca107c018b7d7cc0a8bf2aa80",
+    "after_sha256": "1aa68c3925388fce7e42bc8db93f7f59e567fa7ca107c018b7d7cc0a8bf2aa80"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PRD_TRACEABILITY_V2.csv",
+    "before_sha256": "1bcfad85a838cf5bd218bb2f49fed5ed86ba0fbcbb749365f775c7b954fe7aab",
+    "after_sha256": "1bcfad85a838cf5bd218bb2f49fed5ed86ba0fbcbb749365f775c7b954fe7aab"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PRODUCT_LANGUAGE_GLOSSARY.md",
+    "before_sha256": "fbb562e25a03b62e3c193d5071efc9bba61f060c59ae35b1c52b9798f2b20a8b",
+    "after_sha256": "fbb562e25a03b62e3c193d5071efc9bba61f060c59ae35b1c52b9798f2b20a8b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/README.md",
+    "before_sha256": "4bed66074a710dbbd79e02504bf1b7047ad973ca809342e2b0c7e19e8d645970",
+    "after_sha256": "4bed66074a710dbbd79e02504bf1b7047ad973ca809342e2b0c7e19e8d645970"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/REGRESSION_REPORT.md",
+    "before_sha256": "3d8d53003d2a01e79a90f81e41f974aaa60a6731eded041ceb47c503e959f6d3",
+    "after_sha256": "3d8d53003d2a01e79a90f81e41f974aaa60a6731eded041ceb47c503e959f6d3"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/SCREENSHOT_PACK.md",
+    "before_sha256": "e8754dda060b2840f5799ce2e21d0ae2b23e01e87de736e3a1ced24241fdae61",
+    "after_sha256": "e8754dda060b2840f5799ce2e21d0ae2b23e01e87de736e3a1ced24241fdae61"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/SCREEN_CATALOG.json",
+    "before_sha256": "b0e7d3433d907840112383a56bf7923090bdce31166af9abda7c288a307eb674",
+    "after_sha256": "b0e7d3433d907840112383a56bf7923090bdce31166af9abda7c288a307eb674"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/SCREEN_SCOPE_REGISTER.csv",
+    "before_sha256": "d8e4598b15c920a1c69b99673b4220e36157f5f30c72a88179c014ac2024defb",
+    "after_sha256": "d8e4598b15c920a1c69b99673b4220e36157f5f30c72a88179c014ac2024defb"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/SCREEN_STATE_TRACEABILITY.csv",
+    "before_sha256": "988c453acdd50dbe30b9b89ac2d22b17a97028816ee51cc4648b9efd41e91e5c",
+    "after_sha256": "988c453acdd50dbe30b9b89ac2d22b17a97028816ee51cc4648b9efd41e91e5c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/SOURCE_PACKAGE_STATUS.md",
+    "before_sha256": "4d157fbd61b6e1dfbba3c82b1e622b243e4a1b738797672037cce3c0763e474c",
+    "after_sha256": "4d157fbd61b6e1dfbba3c82b1e622b243e4a1b738797672037cce3c0763e474c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/STATE_AND_BEHAVIOR_CONTRACT.md",
+    "before_sha256": "f39c2cdb842311dde7a8475d1ee5702d3bd94561ff6cd1790fd4c3a24b1a845c",
+    "after_sha256": "f39c2cdb842311dde7a8475d1ee5702d3bd94561ff6cd1790fd4c3a24b1a845c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/TELEMETRY_PURPOSE_REGISTER.md",
+    "before_sha256": "eb650186615dbe1a022e74827ef8950af6a926b8c92e73944168b7fc355bcb31",
+    "after_sha256": "eb650186615dbe1a022e74827ef8950af6a926b8c92e73944168b7fc355bcb31"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/THIRD_PARTY_NOTICES.md",
+    "before_sha256": "7d68a76e2bea6b98b0f63bc3bc87bb5da4ff4c85abeffd26c3a01b01f7d9eacd",
+    "after_sha256": "7d68a76e2bea6b98b0f63bc3bc87bb5da4ff4c85abeffd26c3a01b01f7d9eacd"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/V3_2_INTEGRITY_REPORT.md",
+    "before_sha256": "1837757214717b9079566d7757e178e1aacc9ce3bd01dc697236625db1a78358",
+    "after_sha256": "1837757214717b9079566d7757e178e1aacc9ce3bd01dc697236625db1a78358"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/CHANGE_CONTROL.md",
+    "before_sha256": "4d41d724803024f857f66270699302a0de45654649cf9224d6ed3452e38ab43f",
+    "after_sha256": "4d41d724803024f857f66270699302a0de45654649cf9224d6ed3452e38ab43f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/FROZEN_TECHNICAL_DECISIONS.md",
+    "before_sha256": "073a919c5d8570ed747e3bc555549ec709df88ef95ac994b80e26192e39c58d3",
+    "after_sha256": "073a919c5d8570ed747e3bc555549ec709df88ef95ac994b80e26192e39c58d3"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/SYSTEM_BOUNDARIES.md",
+    "before_sha256": "698636562d5a16bbf7ad5281839498a212ec57da60292946ea6c0567e3a983f9",
+    "after_sha256": "698636562d5a16bbf7ad5281839498a212ec57da60292946ea6c0567e3a983f9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/V3_2_BASELINE_SUMMARY.md",
+    "before_sha256": "bf8206c81ee2cb8b1eec89e9febf2af18f7305b7933c4105fa34093d52cbbbaa",
+    "after_sha256": "bf8206c81ee2cb8b1eec89e9febf2af18f7305b7933c4105fa34093d52cbbbaa"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/data_ml/ANALYTICS_TIME_MODEL.md",
+    "before_sha256": "1e5f35ffec66d6f23b79630f67250685af0d3c4334b5ca7290914e2f423bfe2d",
+    "after_sha256": "1e5f35ffec66d6f23b79630f67250685af0d3c4334b5ca7290914e2f423bfe2d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/data_ml/DECISION_EVENT_LIFECYCLE.md",
+    "before_sha256": "f8782e5fde19afdd8087fe123fd2bd2a43b9b58f6763bba81b6e11f3e8fd7879",
+    "after_sha256": "f8782e5fde19afdd8087fe123fd2bd2a43b9b58f6763bba81b6e11f3e8fd7879"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/data_ml/LEARNING_INTELLIGENCE_GUARDRAILS.md",
+    "before_sha256": "6782759fa63f2854a50cac09469c44fe69564af264ad17558c4ca2888007cb4a",
+    "after_sha256": "6782759fa63f2854a50cac09469c44fe69564af264ad17558c4ca2888007cb4a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3.2/README.md",
+    "before_sha256": "3714afafa8bef0e7bf2478c43cf7eb553db3a046f992233cfbf2bd7fdffcae22",
+    "after_sha256": "3714afafa8bef0e7bf2478c43cf7eb553db3a046f992233cfbf2bd7fdffcae22"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/README.md",
+    "before_sha256": "99f131b64c3005806cc09bb20ed03511956167bcec4adb3ecb399591c8e43c76",
+    "after_sha256": "99f131b64c3005806cc09bb20ed03511956167bcec4adb3ecb399591c8e43c76"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/original_verification/README.md",
+    "before_sha256": "da264a280d0a0aed238a45f24c8f03872d9062fc84372a22be7dc93ec007c0d8",
+    "after_sha256": "da264a280d0a0aed238a45f24c8f03872d9062fc84372a22be7dc93ec007c0d8"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/FINALIZATION_REPORT_VI.md",
+    "before_sha256": "dad0e21b9ba7715ad8f42d22c649049a5b188f33bc57b984a81ad5f70df79e46",
+    "after_sha256": "dad0e21b9ba7715ad8f42d22c649049a5b188f33bc57b984a81ad5f70df79e46"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/IMPLEMENTATION_HANDOFF_PROMPT.md",
+    "before_sha256": "590df838b166dc5208a0f931159c4a5d6da650f1e8301c736409a6447e116cb9",
+    "after_sha256": "590df838b166dc5208a0f931159c4a5d6da650f1e8301c736409a6447e116cb9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/MANIFEST.json",
+    "before_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d",
+    "after_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/package-lock.json",
+    "before_sha256": "40ed32ca2a4c0052e74ff2f34fe178ef334caecb642583ff91cbdf75676df84a",
+    "after_sha256": "40ed32ca2a4c0052e74ff2f34fe178ef334caecb642583ff91cbdf75676df84a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/package.json",
+    "before_sha256": "f7ee71060e2a4709492b4f5ffc086ba93cd6f531fd74f7a556bc1c5444f94291",
+    "after_sha256": "f7ee71060e2a4709492b4f5ffc086ba93cd6f531fd74f7a556bc1c5444f94291"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/README.md",
+    "before_sha256": "af202458d3d693d16913fb6af061bf47824e35e9ca85f356b110714ca57f23ca",
+    "after_sha256": "af202458d3d693d16913fb6af061bf47824e35e9ca85f356b110714ca57f23ca"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/SQL_VALIDATION_REPORT.json",
+    "before_sha256": "db759a01e30fc8b76c44936a30b8ca6538c091eedcd5592a91c2c5edcfea7f01",
+    "after_sha256": "db759a01e30fc8b76c44936a30b8ca6538c091eedcd5592a91c2c5edcfea7f01"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validation_results.json",
+    "before_sha256": "fa2a9440e14edbea584f4f83d379f211b3709bce5333465c283bc2b633a91575",
+    "after_sha256": "fa2a9440e14edbea584f4f83d379f211b3709bce5333465c283bc2b633a91575"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/activity_content.json",
+    "before_sha256": "fc84f5a2654c31f145dc0be780b606c06d805b65b740571a5f661487af9b8f83",
+    "after_sha256": "fc84f5a2654c31f145dc0be780b606c06d805b65b740571a5f661487af9b8f83"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/evidence_manifest.json",
+    "before_sha256": "23447ece8d9e66a411f5d61944988d6284b0e36f982c509ea348e32e97dcc0cc",
+    "after_sha256": "23447ece8d9e66a411f5d61944988d6284b0e36f982c509ea348e32e97dcc0cc"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/feature_payload.json",
+    "before_sha256": "b3d8938e07a23d6a8f93cae5d5f13836281df95eeadd222489c4198f3d9c66a7",
+    "after_sha256": "b3d8938e07a23d6a8f93cae5d5f13836281df95eeadd222489c4198f3d9c66a7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/horizon_fixture.json",
+    "before_sha256": "4102dc73a3af9f72610b7eeb6c49cac0ef534ab861ab967e9c55342e16ae1531",
+    "after_sha256": "4102dc73a3af9f72610b7eeb6c49cac0ef534ab861ab967e9c55342e16ae1531"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/model_fixture.json",
+    "before_sha256": "9974c055c77c7eacc2d57a69fcdc9aaf9104337f8601dc6f671f583ba1517875",
+    "after_sha256": "9974c055c77c7eacc2d57a69fcdc9aaf9104337f8601dc6f671f583ba1517875"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/preprocessing_fixture.json",
+    "before_sha256": "cde7a2fa6ab41336cae373a31b409a8ee86dd82e96139a18196486390b554e9c",
+    "after_sha256": "cde7a2fa6ab41336cae373a31b409a8ee86dd82e96139a18196486390b554e9c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/progress_revision.json",
+    "before_sha256": "45583c6d2037b3b8c0a0136aee9fc2e43a08256fcb6212d04ef7cc42b6495409",
+    "after_sha256": "45583c6d2037b3b8c0a0136aee9fc2e43a08256fcb6212d04ef7cc42b6495409"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/registry.json",
+    "before_sha256": "8db227193db0035faf3f509c0014643a9b5ca20531b2f996ceecce10e3a696c4",
+    "after_sha256": "8db227193db0035faf3f509c0014643a9b5ca20531b2f996ceecce10e3a696c4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/resource_map.json",
+    "before_sha256": "f3a66871542d26781d7b1469e29c91501649f8ee164abc2583a31389bd20cd9d",
+    "after_sha256": "f3a66871542d26781d7b1469e29c91501649f8ee164abc2583a31389bd20cd9d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/scoring_revision.json",
+    "before_sha256": "160f06959ee361b33a5f908e3ab110b585317c0dcdb02fb434a25e8a9e6f026c",
+    "after_sha256": "160f06959ee361b33a5f908e3ab110b585317c0dcdb02fb434a25e8a9e6f026c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/target_fixture.json",
+    "before_sha256": "2c296e198f9bb1ef908d6f39a9562f3bd847e0caf628887afc3eeb22308f0543",
+    "after_sha256": "2c296e198f9bb1ef908d6f39a9562f3bd847e0caf628887afc3eeb22308f0543"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/validation_fixture.json",
+    "before_sha256": "05799a3e88bd031077a9423a33ab989ef79d479af9ab81f666b0efff20449a80",
+    "after_sha256": "05799a3e88bd031077a9423a33ab989ef79d479af9ab81f666b0efff20449a80"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/command_digest_policy_v1.json",
+    "before_sha256": "2cc359201a61b47368e4560c119f190583c9770fec1ec0162f26a4bf82eaae1f",
+    "after_sha256": "2cc359201a61b47368e4560c119f190583c9770fec1ec0162f26a4bf82eaae1f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/core_ddl_postgresql.sql",
+    "before_sha256": "106ae5980783aa69bc242c6d17ee45ec360aa41bc63237f711b4c87a17c7fec7",
+    "after_sha256": "106ae5980783aa69bc242c6d17ee45ec360aa41bc63237f711b4c87a17c7fec7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/event_catalog_v1.json",
+    "before_sha256": "ad6b3c1cfc9afe683866cb6e0677af138315838357480f3ecb88e7c293a1b5d6",
+    "after_sha256": "ad6b3c1cfc9afe683866cb6e0677af138315838357480f3ecb88e7c293a1b5d6"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/openapi_vertical_slice_v1.yaml",
+    "before_sha256": "c7c03d0492ee8586094ee07ba04a4bb22528d8201648c1192af79b16053335ec",
+    "after_sha256": "c7c03d0492ee8586094ee07ba04a4bb22528d8201648c1192af79b16053335ec"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/reason_code_catalog_v1.json",
+    "before_sha256": "432bdceb4d255d421ff7fc694a5fb8f562691196a8d3894fd1d3ccc095670003",
+    "after_sha256": "432bdceb4d255d421ff7fc694a5fb8f562691196a8d3894fd1d3ccc095670003"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/scoring_policy_v1.json",
+    "before_sha256": "3c95c20413cf04e5994f3f35c58a7cf23805be86fa7c67f63d816560b9f7b7cd",
+    "after_sha256": "3c95c20413cf04e5994f3f35c58a7cf23805be86fa7c67f63d816560b9f7b7cd"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/00_FIX_MATRIX_V3.md",
+    "before_sha256": "dce21fafa9b903e1a705cb5f30dad86c3af8ad9f294b3c42f019dd641c7990a2",
+    "after_sha256": "dce21fafa9b903e1a705cb5f30dad86c3af8ad9f294b3c42f019dd641c7990a2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/01_MASTER_BASELINE_V3.md",
+    "before_sha256": "7b4e587a1992fa763e4ea5438c1cdfbb973ba08236a58413249d8e5ad7c85f49",
+    "after_sha256": "7b4e587a1992fa763e4ea5438c1cdfbb973ba08236a58413249d8e5ad7c85f49"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/02_MVP_INVARIANTS.md",
+    "before_sha256": "540dca0705d55757bc15513c360d7deb42a31880e3408d6c185a4cfdb5b388f1",
+    "after_sha256": "540dca0705d55757bc15513c360d7deb42a31880e3408d6c185a4cfdb5b388f1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/03_RECEIPT_SYNC_PROTOCOL.md",
+    "before_sha256": "aa626f755623f0bcb586b333bb2a03a524d7ee301beab65d58c9c73904df37cf",
+    "after_sha256": "aa626f755623f0bcb586b333bb2a03a524d7ee301beab65d58c9c73904df37cf"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/04_OFFLINE_CONTENT_ACCESS_PROTOCOL.md",
+    "before_sha256": "b5b0edaac70ce9edb98a302ebaeb01f155437eab4487e9ceefd7da1287a31653",
+    "after_sha256": "b5b0edaac70ce9edb98a302ebaeb01f155437eab4487e9ceefd7da1287a31653"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/05_POINT_IN_TIME_SOURCE_CAPTURE.md",
+    "before_sha256": "45e21344c07fb8919815bfa3ad4e93ac6e9798665fdb5dc3c10885634bf3c3a0",
+    "after_sha256": "45e21344c07fb8919815bfa3ad4e93ac6e9798665fdb5dc3c10885634bf3c3a0"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/06_ML_CONTRACT_V3.md",
+    "before_sha256": "097b48fead180365e8c3f9eec3db034b97c060cdbfeb377cb971c974f1a543d4",
+    "after_sha256": "097b48fead180365e8c3f9eec3db034b97c060cdbfeb377cb971c974f1a543d4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/07_SECURITY_PERMISSION_V3.md",
+    "before_sha256": "3bda6875e328666c14def5c3763b4b37bbcf85873a10b821ca8259bc9fb36e81",
+    "after_sha256": "3bda6875e328666c14def5c3763b4b37bbcf85873a10b821ca8259bc9fb36e81"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/08_WORKER_FENCING_OUTBOX.md",
+    "before_sha256": "84317b63b543dbb984413dd542ae5ea315e5191940fc558f988140bdbf9eb8e6",
+    "after_sha256": "84317b63b543dbb984413dd542ae5ea315e5191940fc558f988140bdbf9eb8e6"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/09_RECOMMENDATION_AUDIT_V3.md",
+    "before_sha256": "2e1f19bb2b3613e45bbf8da43c2a8fa388b7fa9a0d9813f57ca6d62ac9596b10",
+    "after_sha256": "2e1f19bb2b3613e45bbf8da43c2a8fa388b7fa9a0d9813f57ca6d62ac9596b10"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/10_RETENTION_DELETE_RESTORE_V3.md",
+    "before_sha256": "e4dd8a120f2b460f8e85061e87da2d840a767dfb205797ae5963afd6018a2da9",
+    "after_sha256": "e4dd8a120f2b460f8e85061e87da2d840a767dfb205797ae5963afd6018a2da9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/11_CORE_ERD_V3.md",
+    "before_sha256": "afc39b7e19532edce03d15d88ae18920c9278e2d1d4ac358a2ebff50edaae85c",
+    "after_sha256": "afc39b7e19532edce03d15d88ae18920c9278e2d1d4ac358a2ebff50edaae85c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/12_ACCEPTANCE_TESTS_V3.md",
+    "before_sha256": "c31e75a5f5c087a956ba7333049c262acd4de351ff596e703e848a37559aaf5a",
+    "after_sha256": "c31e75a5f5c087a956ba7333049c262acd4de351ff596e703e848a37559aaf5a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/13_FREEZE_LIST_V3.md",
+    "before_sha256": "d7f30efb5487b5f60e03396fa6fec5a7909e8347c564b5454d2150cf97df61ff",
+    "after_sha256": "d7f30efb5487b5f60e03396fa6fec5a7909e8347c564b5454d2150cf97df61ff"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/14_SUBMIT_ALGORITHM.md",
+    "before_sha256": "d5c71b33c9f15c9af90c59483e73a5b6a27672b7b3c31005b6db3ab693e857bc",
+    "after_sha256": "d5c71b33c9f15c9af90c59483e73a5b6a27672b7b3c31005b6db3ab693e857bc"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/15_OPERATIONS_AND_DELIVERY.md",
+    "before_sha256": "7b69a03a031eae78a4f2c3158805a134b81563a9ee05ff088970b3234555b849",
+    "after_sha256": "7b69a03a031eae78a4f2c3158805a134b81563a9ee05ff088970b3234555b849"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_receipt.accepted.example.json",
+    "before_sha256": "4f86ebb9b95ceec0b4da0dc744195529b3f66d6317b81b27f7338dbb76e6c3e6",
+    "after_sha256": "4f86ebb9b95ceec0b4da0dc744195529b3f66d6317b81b27f7338dbb76e6c3e6"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_receipt.rejected.example.json",
+    "before_sha256": "4fc9524a5b0680860478c3ae887b003a353e2ce9953ee5d7d37a62da2fee9675",
+    "after_sha256": "4fc9524a5b0680860478c3ae887b003a353e2ce9953ee5d7d37a62da2fee9675"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.duplicate.example.json",
+    "before_sha256": "2816965586b1282f688d376392e37324e8a28fdd1585e70793301574fb7c74f2",
+    "after_sha256": "2816965586b1282f688d376392e37324e8a28fdd1585e70793301574fb7c74f2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.duplicate_rejected.example.json",
+    "before_sha256": "3bf24e1498fbe1dcdfcc408a2bc51faffa285e483882f587d810770dcf9fd068",
+    "after_sha256": "3bf24e1498fbe1dcdfcc408a2bc51faffa285e483882f587d810770dcf9fd068"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.retryable.example.json",
+    "before_sha256": "6532c7d440b20bee48733a561f0bb8a94f87f061c97dc2b5c1ef81864dd80bf2",
+    "after_sha256": "6532c7d440b20bee48733a561f0bb8a94f87f061c97dc2b5c1ef81864dd80bf2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/content_release_manifest.example.json",
+    "before_sha256": "0d0c80262c73d601ac89009add7fa811ce625fef083ee712bcc76a1677b46933",
+    "after_sha256": "0d0c80262c73d601ac89009add7fa811ce625fef083ee712bcc76a1677b46933"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/feature_schema.example.json",
+    "before_sha256": "cfeda5925119abaa7440b8846763ef705d13e83fcd5fc9ec05265e8d7a360f18",
+    "after_sha256": "cfeda5925119abaa7440b8846763ef705d13e83fcd5fc9ec05265e8d7a360f18"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/feature_snapshot.example.json",
+    "before_sha256": "dc8428ec21175188bb5c5c40caeb554e24a8b2c4428301173e24942e2d19baef",
+    "after_sha256": "dc8428ec21175188bb5c5c40caeb554e24a8b2c4428301173e24942e2d19baef"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/model_bundle.example.json",
+    "before_sha256": "e0397c18de16978a02cccf0b47160d3a063c09dbbfe383a9e9e4a35b9b8af1ef",
+    "after_sha256": "e0397c18de16978a02cccf0b47160d3a063c09dbbfe383a9e9e4a35b9b8af1ef"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/offline_download_grant.example.json",
+    "before_sha256": "520f2ba64b13cf3b85287334a2ff35b3d4c915810c9da96a37cdf767f4207b58",
+    "after_sha256": "520f2ba64b13cf3b85287334a2ff35b3d4c915810c9da96a37cdf767f4207b58"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/offline_package.example.json",
+    "before_sha256": "40dc8dd0e07c22a5611e6edd1b54ad70f2ad3c80c1ac7d5c2aacaaf57c180870",
+    "after_sha256": "40dc8dd0e07c22a5611e6edd1b54ad70f2ad3c80c1ac7d5c2aacaaf57c180870"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/prediction.available.example.json",
+    "before_sha256": "706778356324581041c88b1fa3fc3e6b2b5e75dcbba6b8bd522bd9925d9299a1",
+    "after_sha256": "706778356324581041c88b1fa3fc3e6b2b5e75dcbba6b8bd522bd9925d9299a1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/prediction.model_unavailable.example.json",
+    "before_sha256": "76ae2ea4efa8ecb980aa56df7eefdc5a1d2f001b05fab2d25e8c97a44a11f9b2",
+    "after_sha256": "76ae2ea4efa8ecb980aa56df7eefdc5a1d2f001b05fab2d25e8c97a44a11f9b2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/recommendation_decision.rule.example.json",
+    "before_sha256": "4880f4ea4edd08a4d6b5eaf6b1254e641a6bfcf3c2ea0cc1f46f4040df8be3f2",
+    "after_sha256": "4880f4ea4edd08a4d6b5eaf6b1254e641a6bfcf3c2ea0cc1f46f4040df8be3f2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/release_access_status.example.json",
+    "before_sha256": "d8ca583620acf7e13c04922f4e9df4500691c9a42e38b4f1d55af2ebc7e927f1",
+    "after_sha256": "d8ca583620acf7e13c04922f4e9df4500691c9a42e38b4f1d55af2ebc7e927f1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/source_capture.example.json",
+    "before_sha256": "c9cbfa60e69477bce30b06ac4e13379ce4ff35af2ecc845357da88e6922097f9",
+    "after_sha256": "c9cbfa60e69477bce30b06ac4e13379ce4ff35af2ecc845357da88e6922097f9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/submit_attempt_command.example.json",
+    "before_sha256": "2cd0064d757e56f3b2be2b775013ea503c65fac8a0498c2fb1902bc3bfda3b0d",
+    "after_sha256": "2cd0064d757e56f3b2be2b775013ea503c65fac8a0498c2fb1902bc3bfda3b0d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/review/SECOND_SUPERVISOR_REVIEW_SOURCE.md",
+    "before_sha256": "9be0fec4aef5233b7b206fae401dbf9609dd95b1d056aef3a8d3b72d731ca859",
+    "after_sha256": "9be0fec4aef5233b7b206fae401dbf9609dd95b1d056aef3a8d3b72d731ca859"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/activity_content_v1.schema.json",
+    "before_sha256": "a148d277bdbd11cf529970138cfcb641b35c1940b221bd56e80b328e4852b37f",
+    "after_sha256": "a148d277bdbd11cf529970138cfcb641b35c1940b221bd56e80b328e4852b37f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/api_error_v1.schema.json",
+    "before_sha256": "04ad8073bc7634bb1dde5bb5b85831da20826666bff4a7e697cc285f4a315ab9",
+    "after_sha256": "04ad8073bc7634bb1dde5bb5b85831da20826666bff4a7e697cc285f4a315ab9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/canonical_command_result_v1.schema.json",
+    "before_sha256": "e995a0628fc63f0701686162721da3963af33b44b226397b3cfbce78a3552bc8",
+    "after_sha256": "e995a0628fc63f0701686162721da3963af33b44b226397b3cfbce78a3552bc8"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/client_event_v1.schema.json",
+    "before_sha256": "d7ee5b69bb896c5cd434535c112e1ac80eb87e331a9d28a10e8e54d946919ff0",
+    "after_sha256": "d7ee5b69bb896c5cd434535c112e1ac80eb87e331a9d28a10e8e54d946919ff0"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_receipt_v1.schema.json",
+    "before_sha256": "db568bdb65913badd836d5f8f654881c7a7c9859c8e686728a3cca18e336d665",
+    "after_sha256": "db568bdb65913badd836d5f8f654881c7a7c9859c8e686728a3cca18e336d665"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_sync_batch_response_v1.schema.json",
+    "before_sha256": "44a2324b9cd3a0080e3bb999f6c5e17248840ab8896e5e391440c9c756ddcc69",
+    "after_sha256": "44a2324b9cd3a0080e3bb999f6c5e17248840ab8896e5e391440c9c756ddcc69"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_sync_result_v1.schema.json",
+    "before_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "after_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/content_release_manifest_v1.schema.json",
+    "before_sha256": "4eae904777e396d8d47c218372d07005103a30f96981de7899a7a8db8c9966bf",
+    "after_sha256": "4eae904777e396d8d47c218372d07005103a30f96981de7899a7a8db8c9966bf"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/current_canonical_state_v1.schema.json",
+    "before_sha256": "9f3124f49da3f3b13b35f8e5e1bab2bd31ac49c3583be64e9a550e98c9c6dad7",
+    "after_sha256": "9f3124f49da3f3b13b35f8e5e1bab2bd31ac49c3583be64e9a550e98c9c6dad7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/event_batch_response_v1.schema.json",
+    "before_sha256": "b5c82568f3c0d4c87a1a10d808136d26844b7f36605863ca023d45a48636b70d",
+    "after_sha256": "b5c82568f3c0d4c87a1a10d808136d26844b7f36605863ca023d45a48636b70d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/evidence_publication_v1.schema.json",
+    "before_sha256": "19170fca166edf472bd98beab4bd4c6c41c27475823342ddd040c905b4180cb2",
+    "after_sha256": "19170fca166edf472bd98beab4bd4c6c41c27475823342ddd040c905b4180cb2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/feature_schema_v1.schema.json",
+    "before_sha256": "85ec2cf71d36754e2a00b6debbf9408aacfddb39afbc7a7cc8d24ee7da0b598a",
+    "after_sha256": "85ec2cf71d36754e2a00b6debbf9408aacfddb39afbc7a7cc8d24ee7da0b598a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/feature_snapshot_v1.schema.json",
+    "before_sha256": "53fd777e1d1bf4be505c8e7d0e33fa4a068a3b24268e79d72aca4ff8a02e9d5a",
+    "after_sha256": "53fd777e1d1bf4be505c8e7d0e33fa4a068a3b24268e79d72aca4ff8a02e9d5a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/model_bundle_v1.schema.json",
+    "before_sha256": "d8a614fc05e7eadad8edcb259f5e716a3e834cb0db3247f008d5d23c638f181d",
+    "after_sha256": "d8a614fc05e7eadad8edcb259f5e716a3e834cb0db3247f008d5d23c638f181d"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/offline_download_grant_v1.schema.json",
+    "before_sha256": "e1050422ef166645c0b0d341d3d86249b619562955dd82595c79a8c8986c66e8",
+    "after_sha256": "e1050422ef166645c0b0d341d3d86249b619562955dd82595c79a8c8986c66e8"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/offline_package_v1.schema.json",
+    "before_sha256": "f763b9fc64cc2878dd7a99bb0f289edc8297c120f62186138e955a94ae7d171a",
+    "after_sha256": "f763b9fc64cc2878dd7a99bb0f289edc8297c120f62186138e955a94ae7d171a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/outcome_observation_v1.schema.json",
+    "before_sha256": "9de9288f87c5c272e30b2046b6b1e71331b473df7b3f78681466c36531d0bd3f",
+    "after_sha256": "9de9288f87c5c272e30b2046b6b1e71331b473df7b3f78681466c36531d0bd3f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/prediction_v1.schema.json",
+    "before_sha256": "0e30080d646848863b80d5d77e49bbd9f32d2306fd5b49622734f5a8211da5a3",
+    "after_sha256": "0e30080d646848863b80d5d77e49bbd9f32d2306fd5b49622734f5a8211da5a3"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/progress_v1.schema.json",
+    "before_sha256": "34ba357881bfe39a75bc7bd13ad9232e3e6314e01834554338dd6b6abbb6a68f",
+    "after_sha256": "34ba357881bfe39a75bc7bd13ad9232e3e6314e01834554338dd6b6abbb6a68f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/receipt_lookup_v1.schema.json",
+    "before_sha256": "e232305abb7086852da592972c617d567b36c6baeb1763eb914d073d6933e1d7",
+    "after_sha256": "e232305abb7086852da592972c617d567b36c6baeb1763eb914d073d6933e1d7"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/recommendation_decision_v1.schema.json",
+    "before_sha256": "ece7e34f8e431fa8b7b19965ca70a9c99467bbe8df5d516e787b90a628cfb336",
+    "after_sha256": "ece7e34f8e431fa8b7b19965ca70a9c99467bbe8df5d516e787b90a628cfb336"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/recommendation_exposure_v1.schema.json",
+    "before_sha256": "935d55cf556a9359025671da277cbac935131815ed449534c544f6109d8a091f",
+    "after_sha256": "935d55cf556a9359025671da277cbac935131815ed449534c544f6109d8a091f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/release_access_status_v1.schema.json",
+    "before_sha256": "2f4809833a812854b07afbcc9ddb60522d0b740f24889cda4b60fb6ffac15073",
+    "after_sha256": "2f4809833a812854b07afbcc9ddb60522d0b740f24889cda4b60fb6ffac15073"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/scoring_key_v1.schema.json",
+    "before_sha256": "e976008a490be1490bbaaa1d08c76860fd6b564a83b3806df8c3137e0a31c83e",
+    "after_sha256": "e976008a490be1490bbaaa1d08c76860fd6b564a83b3806df8c3137e0a31c83e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/source_capture_v1.schema.json",
+    "before_sha256": "e593d06107f10268ab42499149815a6a59f4bb399471de59dd8d7a86079ffa8a",
+    "after_sha256": "e593d06107f10268ab42499149815a6a59f4bb399471de59dd8d7a86079ffa8a"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/stored_event_v1.schema.json",
+    "before_sha256": "a0430a56346bda583fb48bad384d2d4831d0545c56962ae12126176cd86fbbfc",
+    "after_sha256": "a0430a56346bda583fb48bad384d2d4831d0545c56962ae12126176cd86fbbfc"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/submit_attempt_command_v1.schema.json",
+    "before_sha256": "0b1b546d7ee542df878b39232e35c9a331eb2f76125f58e184cd50e0dcb30aaa",
+    "after_sha256": "0b1b546d7ee542df878b39232e35c9a331eb2f76125f58e184cd50e0dcb30aaa"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/example_schema_bindings.json",
+    "before_sha256": "b3d8836afec2b915164a0809bee8eb186df99634ea12bfdf38d073a67ee5d522",
+    "after_sha256": "b3d8836afec2b915164a0809bee8eb186df99634ea12bfdf38d073a67ee5d522"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validators/run_checks.py",
+    "before_sha256": "3cd84ebd98f36d429e440cf65aefd18114ac3382ba00cd15e0a07001262c3ec1",
+    "after_sha256": "3cd84ebd98f36d429e440cf65aefd18114ac3382ba00cd15e0a07001262c3ec1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validators/validate_contracts.py",
+    "before_sha256": "2645f0d29219da029b57e9c71e0eda854d93719fb41ad3d09adb64ae245b00a5",
+    "after_sha256": "2645f0d29219da029b57e9c71e0eda854d93719fb41ad3d09adb64ae245b00a5"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/server_only/scoring_key.json",
+    "before_sha256": "933cd2e36300bad148290a7fe5f89b76496f7895736fb4d3736ae1ff67f1b204",
+    "after_sha256": "933cd2e36300bad148290a7fe5f89b76496f7895736fb4d3736ae1ff67f1b204"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/audio_replayed_v1.schema.json",
+    "before_sha256": "8366a0d7c8186d746220594b5f2d08e8885063019b6a4b6b6deaa69268029935",
+    "after_sha256": "8366a0d7c8186d746220594b5f2d08e8885063019b6a4b6b6deaa69268029935"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/hint_opened_v1.schema.json",
+    "before_sha256": "d5a88b3ad5c87ae987f19d95795bf4dd47026e79027ba3f79f1f61cdafd152e1",
+    "after_sha256": "d5a88b3ad5c87ae987f19d95795bf4dd47026e79027ba3f79f1f61cdafd152e1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/recommendation_exposed_v1.schema.json",
+    "before_sha256": "68aca2ae466b703d8ad6e5d1cce547fe5ef54d5e9a98c781200af27310efcbc1",
+    "after_sha256": "68aca2ae466b703d8ad6e5d1cce547fe5ef54d5e9a98c781200af27310efcbc1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/session_started_v1.schema.json",
+    "before_sha256": "942ffd522aa2fad6a7ec792cc8a0f33bcfedc770431fccee74013b3112803637",
+    "after_sha256": "942ffd522aa2fad6a7ec792cc8a0f33bcfedc770431fccee74013b3112803637"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/feature_duplicate_position_name.json",
+    "before_sha256": "bb9772d4cd0758e9b0fcc128e322152e7691ec3f9da921c6f2af509fa1c9525e",
+    "after_sha256": "bb9772d4cd0758e9b0fcc128e322152e7691ec3f9da921c6f2af509fa1c9525e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/prediction_available_missing_probability.json",
+    "before_sha256": "858c7f286e7a6332007e0f980ce5b36f6abf3efec38ed1fca965074c7d6c8eb2",
+    "after_sha256": "858c7f286e7a6332007e0f980ce5b36f6abf3efec38ed1fca965074c7d6c8eb2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/prediction_unavailable_with_probability.json",
+    "before_sha256": "37a12cac8c19c411fc272433a203f42e8ddfb67ba8eee929aad9d030ee8f3474",
+    "after_sha256": "37a12cac8c19c411fc272433a203f42e8ddfb67ba8eee929aad9d030ee8f3474"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/replayable_snapshot_without_source_capture.json",
+    "before_sha256": "eae1286cd65c9a3b2dcfe82a42313d4dafecf742bf8505122b26c8da376b62cd",
+    "after_sha256": "eae1286cd65c9a3b2dcfe82a42313d4dafecf742bf8505122b26c8da376b62cd"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Rebaseline_Phase2_V2_20261001/PRE_REWORK_AUDIT.md",
+    "before_sha256": "dfe88de042bc35888c6e7c34e6b3126ad1b2bb87b84802e900268270059b7f19",
+    "after_sha256": "dfe88de042bc35888c6e7c34e6b3126ad1b2bb87b84802e900268270059b7f19"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Rebaseline_Phase2_V2_20261001/PRE_REWORK_BASELINE.json",
+    "before_sha256": "8140cd45e9f66ea064b7117a58ce473b49ecffa58ddae49c9b8c797f9b0c8787",
+    "after_sha256": "8140cd45e9f66ea064b7117a58ce473b49ecffa58ddae49c9b8c797f9b0c8787"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Rebaseline_Phase2_V2_20261001/REPOSITORY_PATH_MIGRATION.md",
+    "before_sha256": "01edf732ee8b5f21b9c14584c76fed732f7194ffcb58c3e5772aface26b051a9",
+    "after_sha256": "01edf732ee8b5f21b9c14584c76fed732f7194ffcb58c3e5772aface26b051a9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/browser_validation.json",
+    "before_sha256": "6fba96dccad5ec217c8f83c55af4ef03c44ebcc13031f237fffa2bb0b71f3992",
+    "after_sha256": "6fba96dccad5ec217c8f83c55af4ef03c44ebcc13031f237fffa2bb0b71f3992"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/PATH_ADAPTATIONS.json",
+    "before_sha256": "ef120fe8d54fa616bd6d20dea163b6dad4ac6555aa942def1f38372ead169fc9",
+    "after_sha256": "ef120fe8d54fa616bd6d20dea163b6dad4ac6555aa942def1f38372ead169fc9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/PATH_DEPENDENCY_REPORT.md",
+    "before_sha256": "8266fc5e7ecce4df9fdaf0b1d5cf6d4ffd7daf109465f6db7863ddb685a98c71",
+    "after_sha256": "8266fc5e7ecce4df9fdaf0b1d5cf6d4ffd7daf109465f6db7863ddb685a98c71"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/REPOSITORY_INVENTORY_BEFORE.md",
+    "before_sha256": "3264395bc6a173a14e6762ee1a8572f2712e315f95df5cbeb9c339bcd677b4b2",
+    "after_sha256": "3264395bc6a173a14e6762ee1a8572f2712e315f95df5cbeb9c339bcd677b4b2"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/REPOSITORY_RESTRUCTURE_PLAN.md",
+    "before_sha256": "8c5eaf9c609b9e7d7353cd4d49e155a55bd8aea381847dcbe68a406db6598972",
+    "after_sha256": "8c5eaf9c609b9e7d7353cd4d49e155a55bd8aea381847dcbe68a406db6598972"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/REPOSITORY_RESTRUCTURE_REPORT.md",
+    "before_sha256": "0c8ec419748087787e6c25a841fff18d02d37dac9cab1b464e5167b5d9a781b5",
+    "after_sha256": "0c8ec419748087787e6c25a841fff18d02d37dac9cab1b464e5167b5d9a781b5"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/RESTRUCTURE_BASELINE.json",
+    "before_sha256": "5f2a99909f61c94e097ca200d96de449ceaa24963b5300f49c9a8412d0b38a3e",
+    "after_sha256": "5f2a99909f61c94e097ca200d96de449ceaa24963b5300f49c9a8412d0b38a3e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/V3_2_HASH_CHECK.json",
+    "before_sha256": "c14cab9b13cff772bf24217b0bf29f5b42214b31bd4240a48add3f10b6d17d13",
+    "after_sha256": "c14cab9b13cff772bf24217b0bf29f5b42214b31bd4240a48add3f10b6d17d13"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/verification_after.json",
+    "before_sha256": "e8886246cb428c53126dfd7f443aee3ea314cb31a1b285f21715dd8043e39fd9",
+    "after_sha256": "e8886246cb428c53126dfd7f443aee3ea314cb31a1b285f21715dd8043e39fd9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/verification_before.json",
+    "before_sha256": "9d136aaa7a2df5cc936068218eec83fa2bc6b1b4a99c2418c2b06bd1761eafc4",
+    "after_sha256": "9d136aaa7a2df5cc936068218eec83fa2bc6b1b4a99c2418c2b06bd1761eafc4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_EXECUTION_HANDOFF.md",
+    "before_sha256": "18493a13e08090bafa1f345622033b7b356efd0345d00c0e233bb7e5d44d76d5",
+    "after_sha256": "18493a13e08090bafa1f345622033b7b356efd0345d00c0e233bb7e5d44d76d5"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_START_HERE.md",
+    "before_sha256": "130e8dc1cba347a72beba980e1a8bf6c449499822af243204a32a21893fdbf5e",
+    "after_sha256": "130e8dc1cba347a72beba980e1a8bf6c449499822af243204a32a21893fdbf5e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_SUPER_PROMPT.md",
+    "before_sha256": "497550ba233ad2ae93be3f6f1856c52778cc325124ec960fa465d6d1da32cf67",
+    "after_sha256": "497550ba233ad2ae93be3f6f1856c52778cc325124ec960fa465d6d1da32cf67"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/DEFECT_TRIAGE_WORKFLOW.md",
+    "before_sha256": "56dfaf352ff046484aea01e5f456687b24f399406ff050f6de0b552a90ecb49f",
+    "after_sha256": "56dfaf352ff046484aea01e5f456687b24f399406ff050f6de0b552a90ecb49f"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/EVIDENCE_GATED_HANDOFF_20261003.md",
+    "before_sha256": "3dde06752842a329deb33a405363139e1116d2681333e787e0e9ef37f78662a4",
+    "after_sha256": "3dde06752842a329deb33a405363139e1116d2681333e787e0e9ef37f78662a4"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/HANDOFF_INDEX.md",
+    "before_sha256": "18898c8e96c0982373a0181b58fcd449950122314f4cbb1fe2a769e59e3a22d9",
+    "after_sha256": "18898c8e96c0982373a0181b58fcd449950122314f4cbb1fe2a769e59e3a22d9"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/PHASE2_QA_HANDOFF.md",
+    "before_sha256": "65dcfea1c92973e59190bb1612dbd5ccd64b89fdf67b490cf7b8a0f8684c790c",
+    "after_sha256": "65dcfea1c92973e59190bb1612dbd5ccd64b89fdf67b490cf7b8a0f8684c790c"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/PHASE2_RELEASE_NOTES.md",
+    "before_sha256": "ca9ec67c1652d0227ae0c22088b987f882de08e8a30201d0068a101205004327",
+    "after_sha256": "ca9ec67c1652d0227ae0c22088b987f882de08e8a30201d0068a101205004327"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/PHASE2_REWORK_R1_RELEASE_NOTES.md",
+    "before_sha256": "8499d376739089707023215e04e4aeee3addb7861aa67d4d74250b670315f320",
+    "after_sha256": "8499d376739089707023215e04e4aeee3addb7861aa67d4d74250b670315f320"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_ENTRY_EXIT_CRITERIA.md",
+    "before_sha256": "cf574ab602823e2abaad132dbafada0ee4ea05c663a561687bdec27d114d39e5",
+    "after_sha256": "cf574ab602823e2abaad132dbafada0ee4ea05c663a561687bdec27d114d39e5"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_EXECUTION_PLAN.md",
+    "before_sha256": "73072b5769054693a5f58f1a027e738be8674c130d16a7138daf1a828c686dff",
+    "after_sha256": "73072b5769054693a5f58f1a027e738be8674c130d16a7138daf1a828c686dff"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_QC_RETEST_PROMPT.md",
+    "before_sha256": "26d377bac949d9869d9754d31e59a10719abb834eb89a98e47ddb19de3799489",
+    "after_sha256": "26d377bac949d9869d9754d31e59a10719abb834eb89a98e47ddb19de3799489"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_RETEST_HANDOFF.md",
+    "before_sha256": "70381218b6a598fd6ab5c0d981824e44c9e56cac66699f9ddef128e75d2e14c6",
+    "after_sha256": "70381218b6a598fd6ab5c0d981824e44c9e56cac66699f9ddef128e75d2e14c6"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_RETEST_HANDOFF_TEMPLATE.md",
+    "before_sha256": "edf7083a05940a30a6d3103640d4cdd3ebaad639c016f9e47bde814d5fd178f8",
+    "after_sha256": "edf7083a05940a30a6d3103640d4cdd3ebaad639c016f9e47bde814d5fd178f8"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/REWORK_R1_PACKAGE_README.md",
+    "before_sha256": "3f7157a13c39e4955037d71065bd0afc1c368a3cdb0ecfd9ef4f043e698cdfe5",
+    "after_sha256": "3f7157a13c39e4955037d71065bd0afc1c368a3cdb0ecfd9ef4f043e698cdfe5"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/phase2/V2_HANDOFF_20261002.md",
+    "before_sha256": "46592b9e1bafe883f5d3815c7eb2d86cc479da32e5abbb8914d14ae187786f07",
+    "after_sha256": "46592b9e1bafe883f5d3815c7eb2d86cc479da32e5abbb8914d14ae187786f07"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/provenance/CANONICAL_MANIFEST_SHA256.json",
+    "before_sha256": "685a0820f5dcabe750a3abb90902642c44e9591cd46d2439a80c7b7fae86ee0e",
+    "after_sha256": "685a0820f5dcabe750a3abb90902642c44e9591cd46d2439a80c7b7fae86ee0e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/provenance/ORIGINAL_FULL_PACK_MANIFEST_SHA256.json",
+    "before_sha256": "43f3e6aaa1cbfebd601479660a117d991fec960d4db4ed28a4e21727702bcf0b",
+    "after_sha256": "43f3e6aaa1cbfebd601479660a117d991fec960d4db4ed28a4e21727702bcf0b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/provenance/REORGANIZATION_RECORD.md",
+    "before_sha256": "7927b5af51d8151d0b1ab19050f97d599deff04058c41ab717bd97949aca8c9b",
+    "after_sha256": "7927b5af51d8151d0b1ab19050f97d599deff04058c41ab717bd97949aca8c9b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/SOURCE.md",
+    "before_sha256": "b54ae0c7d7b3a14ae70847b44754137546ccb4c5c6e6acba8d972c8c09f25d9a",
+    "after_sha256": "b54ae0c7d7b3a14ae70847b44754137546ccb4c5c6e6acba8d972c8c09f25d9a"
+  },
+  {
+    "path": "04_Van_hanh/README.md",
+    "before_sha256": "2eac7e76476df71285f2d3db05aa55324bdd1ea3d160ba62e80530314aef51fe",
+    "after_sha256": "2eac7e76476df71285f2d3db05aa55324bdd1ea3d160ba62e80530314aef51fe"
+  },
+  {
+    "path": "04_Van_hanh/Cau_hinh/CONFIG_AND_SECRETS.md",
+    "before_sha256": "de9a8aac8ba6100042e4aab94ed50728d1b04ccbe73b9dd2200e65770201a1a7",
+    "after_sha256": "de9a8aac8ba6100042e4aab94ed50728d1b04ccbe73b9dd2200e65770201a1a7"
+  },
+  {
+    "path": "04_Van_hanh/Cau_hinh/ENVIRONMENTS.md",
+    "before_sha256": "a20d9fc5191e88925e3d8ebd7b5691a34081fb7a7d25a0a63a3970a8e4d62056",
+    "after_sha256": "a20d9fc5191e88925e3d8ebd7b5691a34081fb7a7d25a0a63a3970a8e4d62056"
+  },
+  {
+    "path": "04_Van_hanh/Runbook/DATABASE_BOOTSTRAP_AND_MIGRATIONS.md",
+    "before_sha256": "6530d041f9a0b094f5f7395973bef098255d84266ef413bebd7b8ecb7a67afbd",
+    "after_sha256": "6530d041f9a0b094f5f7395973bef098255d84266ef413bebd7b8ecb7a67afbd"
+  },
+  {
+    "path": "04_Van_hanh/Runbook/LOCAL_RUNTIME.md",
+    "before_sha256": "da0a26cb142d982ee7e67375299b4c4cdb7e8eaa8a41329199f94452b1e88b72",
+    "after_sha256": "da0a26cb142d982ee7e67375299b4c4cdb7e8eaa8a41329199f94452b1e88b72"
+  },
+  {
+    "path": "04_Van_hanh/Runbook/PHASE1_FOUNDATION.md",
+    "before_sha256": "a72d8759171075c6b64d6ba2abc732c8e87d1a4188e25e267a07d712d5695004",
+    "after_sha256": "a72d8759171075c6b64d6ba2abc732c8e87d1a4188e25e267a07d712d5695004"
+  },
+  {
+    "path": "04_Van_hanh/Runbook/V3_2_VERIFICATION.md",
+    "before_sha256": "d6683c28352a911202539dcbaff29a7b338e10089289562f14b1f084b7c579df",
+    "after_sha256": "d6683c28352a911202539dcbaff29a7b338e10089289562f14b1f084b7c579df"
+  },
+  {
+    "path": "04_Van_hanh/Runbook/WINDOWS_FLUTTER.md",
+    "before_sha256": "171a43abab788e96cc4a1b8c5730d5f5b31585bda3ef19a8a79f3fe8f640d8b7",
+    "after_sha256": "171a43abab788e96cc4a1b8c5730d5f5b31585bda3ef19a8a79f3fe8f640d8b7"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/check_original_contracts.py",
+    "before_sha256": "4bf84679e0270f3de85ec88ee759cdb57ee5f6d8c2367c9b630ca461fa9daf73",
+    "after_sha256": "4bf84679e0270f3de85ec88ee759cdb57ee5f6d8c2367c9b630ca461fa9daf73"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/repository_paths.py",
+    "before_sha256": "7497c8aaf4ea825da9f9ce37d1a0244c78df6fa2dab53732a9aa1cf0b550ad98",
+    "after_sha256": "7497c8aaf4ea825da9f9ce37d1a0244c78df6fa2dab53732a9aa1cf0b550ad98"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/run_phase2_qa.py",
+    "before_sha256": "c97789413e60592131524cbbf09cebe589b4cbb209e25d9b4af193ff424943a8",
+    "after_sha256": "c97789413e60592131524cbbf09cebe589b4cbb209e25d9b4af193ff424943a8"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/smoke_api.py",
+    "before_sha256": "f8684dd5443f0c1faed1fb277b67952b8b4e00b71c6e593de80b0649e8ea44c0",
+    "after_sha256": "f8684dd5443f0c1faed1fb277b67952b8b4e00b71c6e593de80b0649e8ea44c0"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/verify_evidence_gated_phase2.py",
+    "before_sha256": "008f3c672f8e471e267f808916c65dbc7c19639621667bdda4215901f801102e",
+    "after_sha256": "008f3c672f8e471e267f808916c65dbc7c19639621667bdda4215901f801102e"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/verify_phase2_artifacts.py",
+    "before_sha256": "9f268ae165849299d0b36d35316cdeddd7c6520f6d68f1f897658cfcd30bcba4",
+    "after_sha256": "9f268ae165849299d0b36d35316cdeddd7c6520f6d68f1f897658cfcd30bcba4"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/verify_phase2_package_manifest.py",
+    "before_sha256": "6ed168bc85d2357422dacdfb1514f748dad9cf7dea053b7c681f301a794aadcb",
+    "after_sha256": "6ed168bc85d2357422dacdfb1514f748dad9cf7dea053b7c681f301a794aadcb"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/verify_phase2_review.py",
+    "before_sha256": "57a5d9087bec7037c9cf4a251eac237c3d425ac8114f02cc06f367b680a66405",
+    "after_sha256": "57a5d9087bec7037c9cf4a251eac237c3d425ac8114f02cc06f367b680a66405"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/verify_phase2_rework.py",
+    "before_sha256": "cbb92603a35be8a7249f6df038cb0710669ec14ef8dda971b00161746a5bef5b",
+    "after_sha256": "cbb92603a35be8a7249f6df038cb0710669ec14ef8dda971b00161746a5bef5b"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/verify_phase2_v2.py",
+    "before_sha256": "3f5f4026749aba2d42f4a5c5a3696d0f07162597886c82613b13bad6e463b056",
+    "after_sha256": "3f5f4026749aba2d42f4a5c5a3696d0f07162597886c82613b13bad6e463b056"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/verify_restructure.py",
+    "before_sha256": "8ec277dfb1c63362d32bdf63ad84062ace014c18ab21b35b5c6d493f003c2090",
+    "after_sha256": "8ec277dfb1c63362d32bdf63ad84062ace014c18ab21b35b5c6d493f003c2090"
+  },
+  {
+    "path": "04_Van_hanh/tests/test_original_contract_adapter.py",
+    "before_sha256": "ddfcb6862447776dab3e33176bd0e3ec8406348dce9f790a2511624c5a8534c7",
+    "after_sha256": "ddfcb6862447776dab3e33176bd0e3ec8406348dce9f790a2511624c5a8534c7"
+  },
+  {
+    "path": "04_Van_hanh/Trien_khai/CI_CD.md",
+    "before_sha256": "b5f29c1085b38c2f49e985a5f1cffa6decc4fc18cc8cfb4b6bfbceaa6a1a78c2",
+    "after_sha256": "b5f29c1085b38c2f49e985a5f1cffa6decc4fc18cc8cfb4b6bfbceaa6a1a78c2"
+  },
+  {
+    "path": ".github/workflows/foundation.yaml",
+    "before_sha256": "6deec3a6b7544a31f044814b93c737eed2c19fd2c2bd4c8ddfe9bcef575cd2ea",
+    "after_sha256": "6deec3a6b7544a31f044814b93c737eed2c19fd2c2bd4c8ddfe9bcef575cd2ea"
+  }
+]

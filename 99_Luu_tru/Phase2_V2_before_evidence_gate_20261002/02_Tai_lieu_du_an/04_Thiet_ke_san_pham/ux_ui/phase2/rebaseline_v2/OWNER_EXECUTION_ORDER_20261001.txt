@@ -1,0 +1,2463 @@
+# SUPER PROMPT — MINGO
+# HUMAN PRODUCT RE-BASELINE + REPOSITORY REORGANIZATION + PHASE 2 COMPLETE UX/UI REWORK
+# TARGET: COMPLETE ALL MACHINE-EXECUTABLE WORK FOR PHASE 0–2, CLOSE PHASE 2 TECHNICALLY,
+# PRESERVE V3.2, PREPARE HUMAN GATES, DO NOT START PHASE 3.
+
+Bạn đang tiếp quản project Mingo từ một account/context mới.
+
+Hãy coi toàn bộ nội dung prompt này là PROJECT HANDOFF + EXECUTION ORDER.
+
+============================================================
+I. PROJECT IDENTITY
+============================================================
+
+Tên sản phẩm: Mingo
+
+Mingo là một Adaptive Language Learning & Early Intervention Platform được phát triển từ KLTN của Trần Hoàng Phúc thành một sản phẩm thực tế theo quy trình startup công nghệ.
+
+Mục tiêu dài hạn:
+
+- learner mobile app;
+- short-session language learning;
+- content platform;
+- assessment;
+- offline-first;
+- telemetry;
+- analytics;
+- learning intelligence;
+- risk prediction;
+- recommendation/intervention;
+- staff/admin web;
+- production deployment;
+- continuous improvement.
+
+Triết lý quan trọng:
+
+Mingo phải là một sản phẩm học tập hoạt động hoàn chỉnh kể cả khi ML / risk prediction / recommendation bị disable.
+
+ML là lớp nâng cấp.
+ML không phải dependency sống còn của learning product.
+
+============================================================
+II. SOURCE OF TRUTH / ARCHITECTURE BASELINE
+============================================================
+
+Architecture/contract baseline hiện tại:
+
+V3.2
+
+V3.2 là SOURCE OF TRUTH cho implementation.
+
+Known verified baseline:
+
+- 115 contract checks PASS
+- 22 SQL checks PASS
+- baseline V3.2 đã được đánh giá đủ để implementation
+- đây là architecture/specification/verification-code baseline
+- KHÔNG tự ý redesign architecture tổng quát
+- chỉ reopen architecture nếu implementation phát hiện BLOCKING DEFECT cụ thể
+
+Bất kỳ thay đổi nền móng nào có ảnh hưởng business rule / contract:
+
+KHÔNG sửa âm thầm.
+
+Phải:
+
+1. tạo Implementation Issue / Change Request;
+2. mô tả vấn đề;
+3. impact analysis;
+4. options;
+5. recommendation;
+6. explicit decision;
+7. sau đó mới sửa nếu được phép.
+
+Không được sửa byte các V3.2 originals nếu chưa có approved Change Request.
+
+Trước và sau toàn bộ work:
+
+- verify V3.2 file inventory;
+- verify hash;
+- chạy toàn bộ contract checks có thể chạy;
+- chạy 22 SQL checks;
+- ghi lại environment limitation nếu dependency/test không chạy được;
+- tuyệt đối không giả PASS.
+
+============================================================
+III. STACK ĐÃ CHỐT
+============================================================
+
+Learner:
+Flutter
+Android-first
+
+Staff/Admin:
+Flutter Web
+
+Backend:
+FastAPI / Python
+
+Database:
+PostgreSQL
+
+Storage:
+Object Storage
+
+Architecture:
+Modular monolith
+
+Runtime:
+API process + durable worker process trong cùng codebase
+
+Server authoritative:
+
+- scoring
+- progress
+- permission
+
+Command phải tách telemetry.
+
+Offline client:
+
+- durable command queue
+- telemetry queue
+
+Published content:
+
+- immutable
+- versioned
+
+Enrollment / attempt:
+
+- pin exact revision
+
+Analytics:
+
+- event time
+- knowledge / availability time
+- source capture
+
+Mastery != Risk
+
+Risk chỉ là optional input cho recommendation.
+
+OULAD/UCI:
+
+- chỉ research baseline
+- KHÔNG mặc định production weights
+
+Prediction / Recommendation Decision / Exposure / Execution / Outcome:
+
+- là các lớp riêng
+
+Không dùng Kafka/Kubernetes/microservices/data warehouse/external feature store nếu chưa có requirement/load thực.
+
+============================================================
+IV. PHASE STATUS TRƯỚC ĐỢT WORK NÀY
+============================================================
+
+Phase 0 — Architecture & Contract Baseline:
+DONE
+
+Phase 1 — Implementation Foundation:
+DONE theo technical gate trước đó.
+
+Phase 2 — UX/UI Product System:
+TECHNICALLY NEAR COMPLETE nhưng đang được REOPEN có kiểm soát cho HUMAN PRODUCT RE-BASELINE và FULL UX/UI REDESIGN.
+
+Phase 3 — Identity/Auth/Authorization:
+HOLD.
+KHÔNG ĐƯỢC IMPLEMENT trong nhiệm vụ này.
+
+Lý do reopen Phase 2:
+
+Phase 0–2 trước đây phần lớn được xây bởi AI agents và chưa trải qua đủ Product Owner human review.
+
+Không xóa Phase 0–2.
+Không làm lại vô lý.
+
+Mục tiêu là:
+
+AUDIT
+→ UNDERSTAND
+→ KEEP WHAT IS CORRECT
+→ FIX WHAT IS WEAK
+→ REVALIDATE
+→ FREEZE
+→ mới cho phép Phase 3.
+
+============================================================
+V. NGUYÊN TẮC LÀM VIỆC BẮT BUỘC
+============================================================
+
+1. Không rush code trước khi hiểu repo hiện tại.
+2. Không phá V3.2.
+3. Không coi schema/test static PASS là runtime PASS.
+4. Không fake human validation.
+5. Không fake user research.
+6. Không tự tạo dữ liệu “user thích”.
+7. Không tự ký Tech Lead / Product Owner approval.
+8. Không đổi business rule để làm test xanh.
+9. Không scope-creep các mockup visual thành feature requirement mới.
+10. Không implement Phase 3.
+11. Không hardcode ML/mastery/risk giả.
+12. Không coi streak là mastery.
+13. Assisted != unaided.
+14. Skip != completion.
+15. Telemetry != authoritative scoring command.
+16. Staff visibility != server authorization.
+17. Offline UI state không được giả là sync đã thành công nếu server chưa acknowledgement.
+18. Published content đã publish phải immutable.
+19. Không khóa production ML weights từ dataset nghiên cứu cũ.
+20. Mọi claim “DONE” phải có evidence.
+
+Nếu repo đang có uncommitted changes:
+
+- inspect;
+- preserve;
+- không reset;
+- không clean;
+- không overwrite thay đổi không thuộc task.
+
+============================================================
+VI. WORKSTREAM A — AUDIT REPOSITORY TRƯỚC KHI SỬA
+============================================================
+
+Trước tiên:
+
+1. đọc START_HERE;
+2. đọc README;
+3. đọc PROJECT_MAP;
+4. đọc REPO_RULES;
+5. đọc governance state;
+6. xác định current Git commit;
+7. git status;
+8. inventory toàn repo;
+9. xác định source code thật;
+10. xác định V3.2 originals;
+11. xác định Phase 1 implementation;
+12. xác định toàn bộ Phase 2 artifacts;
+13. xác định prototype hiện tại;
+14. xác định Flutter learner shell;
+15. xác định Flutter staff shell;
+16. xác định test/evidence;
+17. xác định CI;
+18. xác định scripts đang chứa hard-coded path.
+
+Tạo:
+
+PRE_REWORK_AUDIT.md
+
+Nội dung:
+
+- current state;
+- file inventory;
+- Phase 0 status;
+- Phase 1 status;
+- Phase 2 status;
+- known blockers;
+- stale governance files;
+- architecture constraints;
+- risks;
+- path dependencies;
+- proposed migration.
+
+Không sửa code lớn trước khi audit này xong.
+
+============================================================
+VII. WORKSTREAM B — REORGANIZE REPOSITORY
+============================================================
+
+Root hiện tại từng có kiểu:
+
+01_governance
+02_product
+03_research
+04_architecture
+05_code
+06_quality
+07_operations
+08_handoff
+99_archive
+outputs
+Manage Project.xlsx
+...
+
+Cấu trúc này không thân thiện cho con người.
+
+Mục tiêu mới:
+
+Mingo/
+│
+├── 01_San_pham/
+│
+├── 02_Tai_lieu_du_an/
+│
+├── 03_Kiem_thu/
+│
+├── 04_Van_hanh/
+│
+├── 99_Luu_tru/
+│
+├── README.md
+├── START_HERE.md
+└── các technical root files cần thiết
+
+Giữ ở root nếu tooling cần:
+
+- .git
+- .github
+- .gitignore
+- .gitattributes
+- IDE/tool config thực sự cần ở root
+- project-level config cần thiết
+
+Không move mù quáng.
+
+------------------------------------------------------------
+A. 01_San_pham
+------------------------------------------------------------
+
+Chứa actual product implementation.
+
+Cấu trúc gợi ý:
+
+01_San_pham/
+├── backend/
+├── learner_app/
+├── staff_web/
+└── cong_cu_phat_trien/
+
+LƯU Ý:
+
+API process và durable worker vẫn phải cùng backend codebase theo architecture modular monolith.
+
+Không tách worker thành service/microservice riêng chỉ vì folder đẹp.
+
+Database migrations đặt ở vị trí phù hợp với backend hiện tại, không cần tạo duplication.
+
+------------------------------------------------------------
+B. 02_Tai_lieu_du_an
+------------------------------------------------------------
+
+02_Tai_lieu_du_an/
+├── 01_Tong_quan_du_an/
+├── 02_Ke_hoach_phat_trien/
+├── 03_Nghien_cuu/
+├── 04_Thiet_ke_san_pham/
+├── 05_Kien_truc_he_thong/
+│   └── V3.2/
+├── 06_Quyet_dinh_da_chot/
+├── 07_Tien_do_du_an/
+└── 08_Ban_giao/
+
+Research tiếp tục chia logic nếu phù hợp:
+
+03_Nghien_cuu/
+├── Nen_tang_giao_duc/
+├── Hanh_vi_nguoi_hoc/
+├── Microlearning/
+├── Adaptive_learning/
+├── Learning_analytics/
+├── Early_risk_prediction/
+├── Recommendation/
+└── Nguon_tham_khao/
+
+------------------------------------------------------------
+C. 03_Kiem_thu
+------------------------------------------------------------
+
+Chứa:
+
+- QA/QC
+- test reports
+- audit
+- visual regression
+- screenshots
+- gate evidence
+- accessibility evidence
+- Phase-specific quality evidence
+
+------------------------------------------------------------
+D. 04_Van_hanh
+------------------------------------------------------------
+
+Chứa:
+
+- deployment
+- environment
+- runbook
+- monitoring
+- operational documentation
+
+------------------------------------------------------------
+E. 99_Luu_tru
+------------------------------------------------------------
+
+Chỉ historical / superseded artifacts.
+
+Không archive file còn là source of truth.
+
+------------------------------------------------------------
+F. FILE SYSTEM NAMING
+------------------------------------------------------------
+
+Folder physical:
+
+- dùng tiếng Việt không dấu;
+- dùng underscore;
+- không space nếu không cần thiết.
+
+Ví dụ:
+
+Thiet_ke_san_pham
+
+không dùng:
+
+Thiết kế sản phẩm
+
+Display title trong document vẫn dùng tiếng Việt đầy đủ dấu.
+
+------------------------------------------------------------
+G. RESTRUCTURE SAFETY
+------------------------------------------------------------
+
+Trước move:
+
+tạo:
+
+REPOSITORY_PATH_MIGRATION.md
+
+mapping:
+
+OLD PATH → NEW PATH → REASON → REFERENCES TO UPDATE
+
+Sau move phải sửa:
+
+- imports;
+- scripts;
+- workflow CI;
+- path references;
+- README;
+- START_HERE;
+- manifests;
+- test scripts;
+- shell/batch/PowerShell;
+- package verification;
+- documentation links.
+
+Ưu tiên git mv nếu repository Git cho phép.
+
+Không làm mất history.
+
+Không commit:
+
+- .venv
+- .ruff_cache
+- build/
+- generated local cache
+- unnecessary IDE state
+
+Kiểm tra .gitignore.
+
+============================================================
+VIII. HUMAN PRODUCT RE-BASELINE — 12 VẤN ĐỀ ĐÃ ĐƯỢC CHẤP NHẬN
+============================================================
+
+12 vấn đề dưới đây đã được Product Owner chấp nhận là vấn đề cần xử lý.
+
+Hãy coi các hướng giải quyết là FROZEN PRODUCT DIRECTION trừ khi chúng xung đột V3.2.
+
+------------------------------------------------------------
+ISSUE 01 — UX ĐÚNG SPEC NHƯNG CÓ THỂ KHÔNG TỰ NHIÊN
+------------------------------------------------------------
+
+Problem:
+
+AI có thể tạo flow logic hoàn chỉnh nhưng user thật vẫn không hiểu hoặc không thích.
+
+Resolution:
+
+- task-oriented UX;
+- one primary action;
+- realistic user journey;
+- usability-testable screens;
+- remove internal-system language;
+- progressive disclosure.
+
+Codex phải:
+
+- audit từng learner screen;
+- xác định Primary User Intent;
+- Primary CTA;
+- Secondary CTA;
+- content hierarchy;
+- cognitive load;
+- remove unnecessary elements;
+- prepare moderated think-aloud test protocol.
+
+Tạo:
+
+PHASE2_USABILITY_TEST_PROTOCOL.md
+
+Không được ghi “user validation PASS” nếu chưa test người thật.
+
+------------------------------------------------------------
+ISSUE 02 — 5 PHÚT CHƯA ĐƯỢC CHỨNG MINH LÀ SESSION TỐI ƯU
+------------------------------------------------------------
+
+Product direction:
+
+Short session vẫn là định hướng.
+
+Không coi “exactly 5:00” là chân lý khoa học.
+
+UI nên dùng:
+
+- “Khoảng 5 phút”
+hoặc
+- estimated session duration từ content metadata.
+
+Không hardcode 5 phút cho mọi lesson nếu lesson khác nhau.
+
+Chuẩn bị telemetry để sau này đo:
+
+- session_started_at;
+- session_completed_at;
+- duration;
+- abandon stage;
+- resume;
+- voluntary second session;
+- next-day return.
+
+Không khóa duration policy cuối cùng trước pilot.
+
+------------------------------------------------------------
+ISSUE 03 — CORE LEARNING LOOP CHƯA ĐƯỢC CHỨNG MINH
+------------------------------------------------------------
+
+Core learner loop cần trở thành trung tâm UX:
+
+OPEN
+→ ONE RECOMMENDED NEXT ACTION
+→ DO LEARNING ACTIVITY
+→ IMMEDIATE FEEDBACK
+→ SESSION SUMMARY
+→ CLEAR NEXT STEP
+
+Home không được trở thành dashboard nhồi thông tin.
+
+Home above-the-fold phải ưu tiên:
+
+TODAY'S LEARNING ACTION.
+
+Secondary progress xuống sau primary action.
+
+------------------------------------------------------------
+ISSUE 04 — RECOMMENDATION XUẤT HIỆN TRƯỚC KHI USER TIN HỆ THỐNG
+------------------------------------------------------------
+
+Không dùng wording:
+
+“AI biết bạn”
+“Mingo đã hiểu bạn”
+“AI chọn chính xác cho bạn”
+
+khi chưa đủ evidence.
+
+Early recommendation nên có explainable reason:
+
+- theo mục tiêu bạn chọn;
+- đến lúc ôn lại;
+- tiếp tục bài đang học;
+- bước kế tiếp trong lộ trình;
+- dựa trên kết quả gần đây.
+
+Reason phải human-readable.
+
+Risk không bắt buộc cho recommendation.
+
+Recommendation phải vẫn chạy deterministic khi ML disable.
+
+------------------------------------------------------------
+ISSUE 05 — ONBOARDING CÓ NGUY CƠ QUÁ DÀI
+------------------------------------------------------------
+
+Dùng progressive profiling.
+
+First-use goal:
+
+user phải chạm được learning value càng sớm càng tốt.
+
+Không hỏi hàng loạt:
+
+- profile;
+- goal;
+- schedule;
+- preference;
+- notification;
+- placement;
+- account detail;
+
+trước khi user thấy sản phẩm có ích.
+
+Chỉ giữ thông tin thật sự cần cho first lesson.
+
+Các thông tin khác thu dần.
+
+Onboarding phải:
+
+- ngắn;
+- optional ở các bước không critical;
+- cho skip hợp lý;
+- không biến thành marketing carousel dài.
+
+------------------------------------------------------------
+ISSUE 06 — CONTENT QUALITY CHƯA ĐƯỢC CHỨNG MINH
+------------------------------------------------------------
+
+UI render đúng không đồng nghĩa bài học tốt.
+
+Tạo:
+
+CONTENT_QUALITY_RUBRIC.md
+
+Mỗi learning activity cần mô tả được:
+
+- learning objective;
+- prerequisite nếu có;
+- expected response;
+- misconception;
+- feedback;
+- retrieval opportunity;
+- transfer opportunity;
+- independent check;
+- difficulty rationale;
+- content source/provenance.
+
+Không khóa curriculum cuối cùng trong Phase 2.
+
+Không tự tạo production curriculum như fact.
+
+============================================================
+ISSUE 07 — PROGRESS CÓ THỂ FAKE MASTERY
+============================================================
+
+Không hiển thị fake scientific precision kiểu:
+
+“Mastery 83%”
+
+nếu chưa có evidence/model production đáng tin.
+
+Learner-facing progress ưu tiên:
+
+- lesson completed;
+- topics practiced;
+- independent retrieval observed;
+- repeated evidence;
+- practice due;
+- next focus.
+
+Internal:
+
+evidence model
+
+External wording:
+
+“Tiến độ”
+“Kỹ năng đang luyện”
+“Bạn đã luyện...”
+“Nên ôn lại...”
+
+Streak:
+
+habit indicator
+
+KHÔNG mastery.
+
+============================================================
+ISSUE 08 — OFFLINE ARCHITECTURE ĐÚNG NHƯNG UX CÓ THỂ QUÁ KỸ THUẬT
+============================================================
+
+Internal state có thể là:
+
+queued
+syncing
+acknowledged
+retry
+failed
+
+Learner UI KHÔNG nói kỹ thuật trừ khi cần.
+
+Ví dụ:
+
+local durable saved:
+“Đã lưu trên thiết bị”
+
+sync pending:
+“Sẽ đồng bộ khi có mạng”
+
+sync success:
+“Đã đồng bộ”
+
+failure:
+“Chưa thể đồng bộ. Dữ liệu của bạn vẫn được lưu trên thiết bị.”
+
+Không nói:
+
+canonical acknowledgement
+telemetry queue
+command queue
+server authoritative
+
+với learner.
+
+============================================================
+ISSUE 09 — STAFF/ADMIN DỄ BỊ BUILD QUÁ LỚN QUÁ SỚM
+============================================================
+
+Phase 2 có thể design future state.
+
+Nhưng implementation không được biến mỗi mockup thành feature commitment.
+
+Staff MVP phải ưu tiên workflow thực:
+
+- learner lookup;
+- learner evidence overview;
+- content lifecycle preview;
+- revision visibility;
+- publish-state clarity;
+- operations cần thiết cho pilot.
+
+Advanced:
+
+- analytics;
+- interventions;
+- admin;
+- risk tooling;
+
+giữ thiết kế/reference nếu scope yêu cầu,
+nhưng không build backend nghiệp vụ trước roadmap.
+
+============================================================
+ISSUE 10 — INTERNAL TERMINOLOGY CÓ THỂ LỌT RA USER UI
+============================================================
+
+Tạo:
+
+PRODUCT_LANGUAGE_GLOSSARY.md
+
+Hai cột chính:
+
+INTERNAL SYSTEM LANGUAGE
+vs
+LEARNER / STAFF LANGUAGE
+
+Ví dụ:
+
+canonical acknowledgement
+→ đã đồng bộ
+
+learner evidence
+→ tiến độ / bằng chứng học phù hợp ngữ cảnh
+
+recommendation decision
+→ bài học được gợi ý
+
+risk score
+→ tuyệt đối không show trực tiếp nếu chưa có product rule.
+
+Mỗi terminology phải được kiểm tra:
+
+- plain language;
+- no fake diagnosis;
+- no technical jargon.
+
+============================================================
+ISSUE 11 — COGNITIVE LOAD CHƯA ĐƯỢC KIỂM CHỨNG
+============================================================
+
+Áp dụng:
+
+ONE SCREEN / ONE PRIMARY IDEA.
+
+Không nghĩa là mỗi màn chỉ có một widget.
+
+Nó nghĩa là:
+
+mỗi màn phải có một primary task rõ.
+
+Home:
+bắt đầu learning.
+
+Learn:
+browse/select lesson.
+
+Lesson:
+hoàn thành current interaction.
+
+Result:
+hiểu kết quả + next step.
+
+Path:
+hiểu mình đang ở đâu.
+
+Progress:
+hiểu tiến bộ.
+
+Profile:
+quản lý bản thân/settings.
+
+Secondary content:
+
+progressive disclosure.
+
+Không tạo dashboard learner quá nhiều cards.
+
+============================================================
+ISSUE 12 — ACCESSIBILITY CHƯA CÓ ĐỦ REAL-WORLD VALIDATION
+============================================================
+
+Technical requirements:
+
+- semantic labels;
+- logical focus order;
+- TalkBack;
+- keyboard where relevant;
+- text scaling;
+- no clipping at 200% text;
+- sufficient contrast;
+- state not communicated by color only;
+- minimum mobile touch target >= 48dp;
+- reduced-motion support;
+- no inaccessible gesture-only action;
+- error announcements;
+- dynamic state announcements;
+- offline/sync status understandable by screen reader.
+
+Android-first.
+
+Tạo:
+
+ACCESSIBILITY_TEST_PLAN.md
+ACCESSIBILITY_MANUAL_CHECKLIST.md
+
+Nếu không thể chạy actual TalkBack trong environment:
+
+mark:
+
+HUMAN/DEVICE TEST REQUIRED
+
+KHÔNG fake PASS.
+
+============================================================
+IX. SCIENTIFIC / EVIDENCE STANDARD
+============================================================
+
+Đừng viết “best practice” không nguồn.
+
+Tạo:
+
+PHASE2_RESEARCH_RATIONALE.md
+
+Mỗi research-backed quyết định phải theo format:
+
+CLAIM
+SOURCE
+EVIDENCE TYPE
+POPULATION/CONTEXT
+DESIGN IMPLICATION
+LIMITATION
+WHAT MINGO WILL DO
+WHAT MINGO WILL NOT CLAIM
+
+Ưu tiên nguồn theo thứ tự:
+
+1. official platform documentation;
+2. systematic review / meta-analysis / peer-reviewed literature;
+3. established HCI/UX research;
+4. high-quality industry research;
+5. opinion/blog chỉ dùng supplemental.
+
+Research bắt buộc kiểm tra:
+
+A. Apple Human Interface Guidelines
+
+- Design Principles
+- Layout
+- Typography
+- Color
+- Branding
+- Materials
+- Motion
+- Accessibility
+
+B. Android official
+
+- accessibility
+- TalkBack
+- 48dp target
+- adaptive layout
+- offline-first guidance
+- Android interaction conventions
+
+C. WCAG 2.2
+
+D. UX/HCI
+
+- progressive disclosure
+- onboarding
+- usability testing
+- cognitive load
+- task-oriented design
+
+E. Learning science
+
+- retrieval practice
+- distributed/spacing practice
+- feedback
+- transfer
+- cognitive load
+- motivation/autonomy/competence
+- microlearning / short learning session evidence
+
+Ưu tiên evidence phù hợp language learning.
+
+Không suy rộng từ health education/other population mà không ghi limitation.
+
+Không viết:
+
+“5 phút được khoa học chứng minh là tối ưu”
+
+nếu source không chứng minh điều đó.
+
+============================================================
+X. PHASE 2 UI REDESIGN — FROZEN DESIGN DIRECTION
+============================================================
+
+UI concept mới đã được Product Owner chấp nhận.
+
+Tên direction:
+
+MINGO — QUIET EXPLORATION
+
+hoặc một tên nội bộ tương đương.
+
+DNA:
+
+APPLE DESIGN DISCIPLINE
+×
+MINGO FRIENDLY LEARNING
+×
+WORLD EXPLORATION
+×
+CAPYBARA COMPANION
+
+KHÔNG clone Apple.
+
+KHÔNG copy Apple assets.
+
+KHÔNG làm Android app giả iOS.
+
+Chỉ học:
+
+- visual restraint;
+- hierarchy;
+- whitespace;
+- clarity;
+- typographic discipline;
+- purposeful motion;
+- materials;
+- content-first composition.
+
+============================================================
+XI. 4 NGUYÊN TẮC DNA CỐT LÕI DO PRODUCT OWNER FREEZE
+============================================================
+
+------------------------------------------------------------
+1. COMPOSITION — ONE SHOT, ONE IDEA
+------------------------------------------------------------
+
+Mỗi viewport / screen state có đúng một ý chính.
+
+Ví dụ Home:
+
+HERO:
+today's learning intention
+
+PRIMARY CARD:
+today lesson
+
+PRIMARY CTA:
+Bắt đầu học
+
+Progress:
+
+secondary.
+
+Streak:
+
+tertiary hoặc contextual.
+
+Không đưa:
+
+recommendation
+progress
+streak
+goal
+analytics
+shortcuts
+badges
+tips
+notifications
+
+cùng cạnh tranh attention.
+
+Visual hierarchy phải nhìn 1–2 giây là hiểu:
+
+“What should I do now?”
+
+------------------------------------------------------------
+2. TYPOGRAPHY — ONE BRAND, ONE TYPE LAW
+------------------------------------------------------------
+
+Không dùng 4–5 font.
+
+Wordmark Mingo:
+
+custom brand mark nếu asset có.
+
+UI:
+
+một primary type family.
+
+Nếu repo chưa có licensed brand typeface:
+
+dùng một open-source, high-legibility family hỗ trợ Vietnamese tốt.
+Ưu tiên Inter hoặc lựa chọn tương đương sau khi audit.
+
+Script fallback hợp lý cho ngôn ngữ không Latin.
+
+Không fake SF Pro / không bundle Apple font.
+
+Define token:
+
+displayLarge
+displayMedium
+headline
+title
+body
+label
+caption
+
+Giới hạn weights.
+
+Không dùng bold mọi thứ.
+
+Typography hierarchy phải làm phần lớn công việc trước khi dùng card/color.
+
+------------------------------------------------------------
+3. COLOR — ONE VIVID, EVERYTHING ELSE QUIET
+------------------------------------------------------------
+
+Interaction accent chính:
+
+MINGO BLUE
+
+Một vivid accent.
+
+Phần còn lại:
+
+- warm white;
+- cool white;
+- muted navy;
+- soft gray;
+- subtle warm neutral.
+
+Orange:
+
+chỉ semantic/accent nhỏ:
+streak / warmth / tiny brand spark
+
+Green:
+
+success/progress semantic khi thật sự cần.
+
+Red:
+
+error/destructive.
+
+Không rainbow UI.
+
+Không dùng 5 màu CTA.
+
+CONTENT IMAGE có thể colorful,
+nhưng UI chrome phải quiet.
+
+Rule:
+
+nếu hero imagery rực:
+controls xung quanh phải lặng.
+
+nếu CTA vivid:
+card surface phải lặng.
+
+------------------------------------------------------------
+4. TRANSITION — INVISIBLE CUT
+------------------------------------------------------------
+
+Motion phải “biến mất” khỏi nhận thức.
+
+User cảm nhận continuity,
+không cảm nhận animation đang khoe kỹ thuật.
+
+Motion chỉ phục vụ:
+
+- hierarchy;
+- continuity;
+- feedback;
+- orientation;
+- state change.
+
+Không:
+
+- bounce vô nghĩa;
+- confetti mỗi interaction;
+- excessive parallax;
+- looping mascot animation gây mất tập trung.
+
+Use restrained:
+
+- fade;
+- subtle slide;
+- matched/hero transition;
+- scale rất nhẹ;
+- spring rất nhẹ khi hợp lý.
+
+Respect reduced-motion.
+
+============================================================
+XII. CAPYBARA — OFFICIAL MINGO MASCOT DIRECTION
+============================================================
+
+Bỏ penguin.
+
+Mascot chính:
+
+CAPYBARA.
+
+Character DNA:
+
+- calm;
+- friendly;
+- curious;
+- emotionally warm;
+- intelligent nhưng không “teacher authority”;
+- giống một người bạn đồng hành;
+- không hyperactive;
+- không trẻ con quá mức;
+- không casino/game mascot.
+
+Visual:
+
+- premium stylized 3D;
+- soft volumetric fur;
+- warm caramel/brown;
+- rounded natural capybara proportions;
+- recognizable capybara muzzle;
+- subtle blush;
+- expressive but restrained eyes;
+- high-quality lighting;
+- soft materials;
+- world-travel/learning props.
+
+Recurring props:
+
+- small book;
+- map;
+- backpack;
+- notebook;
+- headphones khi listening context;
+- cup / calm environment nếu appropriate.
+
+Không random costume chỉ để trang trí.
+
+Character model phải consistent giữa screens.
+
+Tạo:
+
+MASCOT_STYLE_GUIDE.md
+
+Bao gồm:
+
+- canonical proportions;
+- palette;
+- expressions;
+- allowed poses;
+- allowed props;
+- forbidden visual patterns;
+- accessibility rules;
+- where mascot appears;
+- where mascot must NOT appear.
+
+Mascot không được chiếm mọi screen.
+
+Lesson interaction cần tập trung:
+mascot chỉ contextual.
+
+Quiz critical:
+không để mascot cạnh tranh question.
+
+Result:
+mascot có thể celebrate nhẹ.
+
+Error:
+mascot calm/supportive,
+không shame user.
+
+Offline:
+mascot có thể reading/resting,
+message reassuring.
+
+Nếu environment không có image-generation capability:
+
+KHÔNG tự nhét stock image/copyrighted asset.
+
+Tạo asset specification + placeholder có chất lượng và explicit TODO.
+
+============================================================
+XIII. MINGO BRAND FEEL
+============================================================
+
+Brand emotions:
+
+- calm;
+- warm;
+- optimistic;
+- intelligent;
+- lightweight;
+- supportive;
+- worldly;
+- curious.
+
+Mingo không phải:
+
+- Duolingo clone;
+- school LMS;
+- admin dashboard;
+- productivity SaaS;
+- casino gamification;
+- AI chatbot;
+- childish cartoon game.
+
+Mingo là:
+
+“người bạn học giúp bạn tiến thêm một bước nhỏ mỗi ngày.”
+
+Potential tone:
+
+ngắn
+ấm
+không patronizing
+không ép
+không guilt
+không fake science.
+
+============================================================
+XIV. VISUAL WORLD
+============================================================
+
+Visual content có thể dùng concept:
+
+language opens a wider world.
+
+Travel imagery:
+
+- Mediterranean / old town / café / street;
+- local daily conversation;
+- cultural context;
+- nature;
+- city;
+- real-world scenarios.
+
+Nhưng:
+
+không biến app thành travel booking app.
+
+World imagery là emotional context cho language.
+
+============================================================
+XV. HOME — REQUIRED NEW COMPOSITION
+============================================================
+
+Home phải ưu tiên simplicity.
+
+Above fold:
+
+1. compact Mingo brand;
+2. short contextual greeting;
+3. hero/mascot/world visual;
+4. TODAY LESSON card;
+5. ONE prominent CTA.
+
+Example hierarchy:
+
+Mingo
+
+Xin chào,
+
+Hôm nay,
+học thêm
+một chút nhé!
+
+supporting copy ngắn
+
+[capybara visual]
+
+BÀI HỌC HÔM NAY
+
+Chào hỏi và làm quen
+
+short description
+
+~5 phút | Cơ bản
+
+[Bắt đầu học]
+
+Below:
+
+one compact progress strip.
+
+Không đặt 7 cards ngang nhau.
+
+============================================================
+XVI. LEARN SCREEN
+============================================================
+
+Mục đích:
+
+browse khi user chủ động.
+
+Không cạnh tranh với Home recommendation.
+
+Learn:
+
+- search;
+- minimal filters;
+- topics;
+- recent/resume;
+- lessons.
+
+Cards:
+
+image optional;
+title;
+one-line objective;
+estimated duration;
+difficulty;
+single CTA/row action.
+
+Không show lifecycle internals.
+
+============================================================
+XVII. LESSON EXPERIENCE
+============================================================
+
+Lesson phải full focus.
+
+Trong lesson:
+
+REMOVE bottom nav.
+
+Top:
+
+back
+compact progress
+
+Body:
+
+ONE activity.
+
+Bottom:
+
+one primary action.
+
+Learning stages giữ semantic:
+
+Review
+Learn
+Retrieve
+Transfer
+Check
+
+Nhưng không nhất thiết show 5 technical labels liên tục cho learner.
+
+Có thể map sang user-friendly wording.
+
+Interactions:
+
+- choice;
+- audio;
+- speaking;
+- reorder;
+- typing;
+- recognition;
+- contextual dialogue;
+- hint;
+- skip.
+
+Hint:
+
+optional,
+không shame.
+
+Skip:
+
+rõ nghĩa,
+không count complete.
+
+Assisted:
+
+recorded separately.
+
+============================================================
+XVIII. FEEDBACK
+============================================================
+
+Feedback phải immediate và task-specific.
+
+Không chỉ:
+
+“Correct!”
+
+Cần khi appropriate:
+
+- why;
+- correct form;
+- relevant contrast;
+- retry;
+- next.
+
+Sai:
+
+không punitive.
+
+Không dùng đỏ full screen.
+
+Không rung mạnh liên tục.
+
+============================================================
+XIX. RESULT SCREEN
+============================================================
+
+Result chỉ cần trả lời:
+
+1. Tôi vừa hoàn thành gì?
+2. Tôi học được gì?
+3. Tôi nên làm gì tiếp?
+
+Không fake mastery.
+
+Có thể show:
+
+- activity complete;
+- 5 words practiced;
+- greeting pattern retrieved independently;
+- listening needs more practice;
+- next review due later.
+
+CTA:
+
+Tiếp tục
+hoặc
+Xong
+
+Không tạo 10 metric.
+
+============================================================
+XX. COURSE PATH
+============================================================
+
+Course Path phải tạo cảm giác “journey”.
+
+Không chỉ card list.
+
+Nhưng tránh game-board quá trẻ con.
+
+Visual:
+
+calm exploration map / stepped path / chapters.
+
+States:
+
+- current;
+- completed;
+- review due;
+- preview;
+- locked.
+
+Locked content:
+
+không shame.
+
+Explain unlock rule đơn giản.
+
+============================================================
+XXI. PROGRESS
+============================================================
+
+Primary purpose:
+
+“I am moving forward.”
+
+No fake mastery percentage.
+
+Allowed:
+
+- sessions completed;
+- independent practice;
+- repeated evidence;
+- topic coverage;
+- review due;
+- weekly consistency.
+
+Skills:
+
+Vocabulary
+Listening
+Speaking
+Grammar
+etc.
+
+Nhưng bar/level chỉ được dùng nếu semantics định nghĩa rõ.
+
+Nếu 3/5 dùng:
+
+must define 3/5 = what?
+
+Không để visual imply mastery nếu chỉ completion.
+
+============================================================
+XXII. PROFILE / SETTINGS
+============================================================
+
+Profile:
+
+light.
+
+Không dashboard analytics.
+
+Include:
+
+- identity;
+- learning goal;
+- daily/session preference;
+- language;
+- downloads/offline;
+- accessibility;
+- notification;
+- theme;
+- account/settings.
+
+Sync wording learner-friendly.
+
+============================================================
+XXIII. OFFLINE / ERROR / EMPTY / LOADING
+============================================================
+
+Phải thiết kế state đầy đủ:
+
+- offline but usable;
+- content unavailable offline;
+- saved locally;
+- sync pending;
+- syncing;
+- sync success;
+- sync failure;
+- retry;
+- empty course;
+- no recommendation;
+- service unavailable;
+- worker delay if user-visible;
+- content revision unavailable;
+- generic error.
+
+Không blame user.
+
+Không expose stack traces.
+
+============================================================
+XXIV. STAFF WEB
+============================================================
+
+Staff visual DNA cùng Mingo:
+
+- quiet;
+- clear;
+- typography-first;
+- white space;
+- Mingo Blue accent;
+- capybara dùng cực kỳ hạn chế.
+
+Staff không cần mascot ở mọi dashboard.
+
+Desktop density có thể cao hơn learner.
+
+Primary tasks:
+
+Dashboard:
+actual operational summary only.
+
+Learners:
+search/filter/list.
+
+Learner detail:
+evidence + relevant learning history.
+
+Content:
+content/revision state.
+
+Publishing:
+immutable published revision semantics.
+
+Future Analytics/Interventions/Admin:
+
+có thể thiết kế state,
+nhưng không build fake backend.
+
+============================================================
+XXV. SCREEN INVENTORY
+============================================================
+
+KHÔNG dựa vào list dưới đây làm complete list.
+
+Phải scan toàn Phase 2 spec và tìm TẤT CẢ existing screens/states.
+
+At minimum learner coverage:
+
+- splash
+- first launch
+- onboarding
+- goal selection
+- optional placement intro
+- home
+- resume session
+- learn browse
+- search
+- filter
+- lesson detail
+- session intro
+- Review
+- Learn
+- Retrieve
+- Transfer
+- Check
+- listening
+- speaking
+- multiple choice
+- text input
+- hint
+- skip
+- assisted
+- incorrect feedback
+- correct feedback
+- retry
+- result
+- next step
+- course path
+- current
+- due review
+- locked
+- progress
+- profile
+- goal
+- settings
+- downloads
+- offline
+- sync states
+- notifications
+- accessibility states
+- errors
+- empty
+- loading
+
+Staff:
+
+scan spec and cover every Phase 2 state.
+
+Tạo:
+
+PHASE2_SCREEN_INVENTORY.md
+
+Columns:
+
+ID
+User
+Route
+Purpose
+Primary action
+Secondary action
+States
+Source requirement
+Implementation
+Test
+Screenshot
+Status
+
+Mục tiêu:
+
+100% Phase 2 screen/state traceability.
+
+============================================================
+XXVI. IMPORTANT — MOCKUPS ARE NOT NEW FEATURES
+============================================================
+
+Các visual concepts trước đây từng có:
+
+- badges;
+- shop;
+- personalization;
+- AI chat;
+- daily challenge;
+- XP;
+- outfits.
+
+KHÔNG mặc định chúng là requirement.
+
+Chỉ implement nếu project source/PRD đã approve.
+
+Visual inspiration != product requirement.
+
+Nếu feature không tồn tại trong PRD:
+
+do not add business behavior.
+
+============================================================
+XXVII. FLUTTER IMPLEMENTATION STRATEGY
+============================================================
+
+Phase 2 lần này phải tạo UI thực sự usable trong Flutter,
+không chỉ HTML screenshot nếu repository hiện có Flutter app.
+
+Learner:
+
+implement production-quality presentation layer trong learner Flutter app.
+
+Nhưng:
+
+- dùng fixture/demo state ở nơi backend phase sau chưa tồn tại;
+- không fake server behavior;
+- no auth implementation;
+- no content backend implementation;
+- no Phase 6 real sync implementation;
+- no ML implementation.
+
+UI architecture:
+
+- design tokens;
+- theme;
+- shared components;
+- responsive layouts;
+- semantics;
+- state models;
+- no giant monolithic screen files.
+
+Staff:
+
+implement consistent Flutter Web presentation layer phù hợp Phase 2 scope.
+
+============================================================
+XXVIII. DESIGN SYSTEM
+============================================================
+
+Tạo canonical design system:
+
+MINGO_DESIGN_SYSTEM_V2.md
+
+và code tokens.
+
+Define:
+
+- color tokens;
+- semantic colors;
+- typography;
+- spacing;
+- radii;
+- elevation/material;
+- blur;
+- grid;
+- breakpoints;
+- icon rules;
+- illustration;
+- card rules;
+- CTA hierarchy;
+- form controls;
+- nav;
+- empty/error/loading;
+- motion;
+- mascot;
+- accessibility.
+
+Không hardcode style ngẫu nhiên từng screen.
+
+============================================================
+XXIX. COLOR SYSTEM REQUIREMENT
+============================================================
+
+Không copy exact Apple palette một cách máy móc.
+
+Tạo Mingo-owned color system.
+
+Suggested logic:
+
+Primary brand/action:
+Mingo Blue
+
+Background:
+quiet warm/cool white
+
+Text:
+deep navy/ink
+
+Secondary text:
+muted gray-blue
+
+Warm accent:
+very limited orange
+
+Success:
+green
+
+Warning:
+warm amber
+
+Error:
+red
+
+All semantics phải có:
+
+- light;
+- dark nếu project hỗ trợ;
+- high-contrast strategy.
+
+Check contrast programmatically where possible.
+
+============================================================
+XXX. TYPOGRAPHY SYSTEM
+============================================================
+
+One primary family.
+
+Mingo logo = brand asset.
+
+No random handwritten font across UI.
+
+Handwritten accent chỉ có thể xuất hiện trong illustration/content,
+không phải core UI.
+
+Support:
+
+- Vietnamese;
+- dynamic text scaling;
+- localization expansion.
+
+Test 200% text scale.
+
+No clipped CTA.
+
+============================================================
+XXXI. MOTION SYSTEM
+============================================================
+
+Tạo:
+
+MOTION_SPEC.md
+
+Define:
+
+- duration tokens;
+- easing;
+- route transition;
+- card expansion;
+- lesson transition;
+- feedback transition;
+- progress update;
+- loading;
+- reduced motion.
+
+Motion không thay thế state text.
+
+============================================================
+XXXII. ACCESSIBILITY IMPLEMENTATION
+============================================================
+
+Learner Android:
+
+minimum 48dp interactive target.
+
+WCAG 2.2 AA target baseline where applicable.
+
+Contrast:
+
+normal text >= 4.5:1
+large text >= 3:1
+
+Text scaling:
+
+200% without loss of required functionality.
+
+Semantics:
+
+every control labelled.
+
+Do not:
+
+icon-only ambiguous buttons
+color-only state
+gesture-only critical actions.
+
+Test:
+
+360px equivalent narrow viewport
+other representative Android sizes
+font scale
+TalkBack/manual device when possible.
+
+============================================================
+XXXIII. RESPONSIVE / DEVICE TEST MATRIX
+============================================================
+
+Learner:
+
+at least representative:
+
+- compact Android;
+- 360 width;
+- 412/430 range;
+- tall screen;
+- landscape where relevant;
+- text scale 1.0;
+- 1.3;
+- 1.5;
+- 2.0.
+
+Staff web:
+
+test at least:
+
+- 1280;
+- 1440;
+- 1920;
+- narrower desktop/tablet breakpoint if supported.
+
+No overflow.
+
+No unusable modal.
+
+============================================================
+XXXIV. QA / AUTOMATION
+============================================================
+
+Create/update:
+
+- unit tests for design/state logic;
+- widget tests;
+- navigation tests;
+- semantics/accessibility tests;
+- golden/visual regression where practical;
+- screen inventory verifier;
+- route verifier;
+- responsive test;
+- no-overflow test;
+- terminology lint if practical;
+- design token lint if practical.
+
+Do not snapshot meaningless pixels only.
+
+Golden tests complement, not replace behavior tests.
+
+============================================================
+XXXV. USER RESEARCH PREPARATION
+============================================================
+
+Pilot resource baseline:
+
+small pilot, previously expected around 5 users.
+
+Do NOT claim statistical validation from 5 users.
+
+Use small sample for qualitative usability.
+
+Prepare:
+
+1. recruitment criteria;
+2. moderator guide;
+3. tasks;
+4. observation form;
+5. consent/privacy checklist;
+6. issue severity rubric;
+7. think-aloud instructions;
+8. session debrief;
+9. 7–14 day diary pilot plan;
+10. telemetry analysis plan.
+
+Core tasks:
+
+- open app;
+- find what to learn;
+- start first lesson;
+- use hint;
+- answer incorrectly;
+- complete;
+- understand progress;
+- resume;
+- use offline;
+- find next lesson.
+
+Measure:
+
+qualitative:
+confusion
+wrong taps
+hesitation
+terminology misunderstanding
+unexpected navigation
+perceived value
+
+quantitative exploratory:
+task completion
+time
+error
+abandon
+session duration
+repeat session
+return behavior
+
+Do not overclaim sample.
+
+============================================================
+XXXVI. TELEMETRY PREPARATION
+============================================================
+
+Only event schema/spec if implementation phase not appropriate.
+
+Respect:
+
+command != telemetry.
+
+Potential UI events:
+
+screen_viewed
+lesson_card_viewed
+lesson_started
+activity_started
+hint_requested
+answer_submitted
+activity_skipped
+session_completed
+session_abandoned
+lesson_resumed
+recommendation_reason_opened
+offline_notice_viewed
+sync_status_viewed
+
+Do not let telemetry determine authoritative progress.
+
+============================================================
+XXXVII. GOVERNANCE CONSISTENCY
+============================================================
+
+Known previous problem:
+
+governance files could become stale relative to newest evidence.
+
+After work update all canonical state consistently.
+
+Potential files:
+
+PROJECT_MEMORY
+PROJECT_STATE
+PHASE_STATUS
+ROADMAP
+START_HERE
+README
+gate reports
+
+Do not leave multiple files claiming different “current truth”.
+
+Clearly distinguish:
+
+CURRENT STATE
+vs
+HISTORICAL SNAPSHOT.
+
+============================================================
+XXXVIII. PHASE 2 GATE
+============================================================
+
+Target:
+
+100% machine-executable Phase 2 completion.
+
+BUT:
+
+Phase 2 may only be marked globally DONE if ALL mandatory gates truly pass.
+
+Technical gates:
+
+- inventory complete;
+- all Phase2 screens implemented or explicitly deferred per approved scope;
+- design system complete;
+- UI consistent;
+- responsive;
+- accessibility static tests;
+- test suite;
+- Phase2 verifiers;
+- traceability;
+- V3.2 preserved;
+- Phase1 regression;
+- repository migration valid;
+- docs current;
+- screenshots/evidence complete.
+
+Human/device gates:
+
+- real TalkBack session;
+- usability review;
+- Tech Lead acceptance;
+- Product Owner UAT.
+
+Codex:
+
+KHÔNG được tự ký human gate.
+
+Nếu human evidence chưa có:
+
+status phải là:
+
+PHASE 2 — TECHNICALLY COMPLETE / HUMAN GATE PENDING
+
+Không được:
+
+PHASE 2 DONE 100%
+
+chỉ vì automated test xanh.
+
+Nếu tất cả human evidence đã tồn tại và verify được:
+có thể close theo rules.
+
+============================================================
+XXXIX. D021 / D022 / PREVIOUS FINAL-GATE WORK
+============================================================
+
+Inspect previous Phase2 final gate evidence.
+
+Specifically verify historical pending items such as:
+
+- D021 toolbar/layout fix;
+- D022 workbook derivative/final visual evidence;
+- TalkBack;
+- Tech Lead;
+- Product Owner UAT.
+
+Do not blindly preserve old pending labels if evidence now exists.
+
+Do not blindly mark resolved if evidence missing.
+
+Create reconciliation table:
+
+OLD STATUS
+NEW EVIDENCE
+CURRENT STATUS
+ACTION
+
+============================================================
+XL. PHASE 1 REVALIDATION
+============================================================
+
+Do not rewrite Phase1 architecture.
+
+After repo/UI work rerun relevant foundation:
+
+Backend:
+
+- tests;
+- lint;
+- migration;
+- PostgreSQL integration/concurrency;
+- health;
+- readiness;
+- durable worker probe.
+
+Learner Flutter:
+
+- analyze;
+- test;
+- build if environment supports.
+
+Staff Flutter Web:
+
+- analyze;
+- test;
+- build.
+
+CI:
+
+update paths after restructure.
+
+If local environment lacks dependency:
+
+record it,
+do not fake success.
+
+============================================================
+XLI. PHASE 0 REVALIDATION
+============================================================
+
+After all moves:
+
+prove V3.2 unchanged.
+
+Output:
+
+- expected files;
+- actual files;
+- missing;
+- extra;
+- hash mismatch.
+
+Target:
+
+0 missing
+0 unexpected within sealed baseline
+0 hash mismatch.
+
+Run:
+
+115 contract checks
+22 SQL checks
+
+if environment permits.
+
+============================================================
+XLII. REQUIRED DELIVERABLES
+============================================================
+
+At end produce at least:
+
+1. PRE_REWORK_AUDIT.md
+2. REPOSITORY_PATH_MIGRATION.md
+3. MINGO_DESIGN_SYSTEM_V2.md
+4. MASCOT_STYLE_GUIDE.md
+5. MOTION_SPEC.md
+6. PRODUCT_LANGUAGE_GLOSSARY.md
+7. CONTENT_QUALITY_RUBRIC.md
+8. PHASE2_RESEARCH_RATIONALE.md
+9. PHASE2_SCREEN_INVENTORY.md
+10. PHASE2_USABILITY_TEST_PROTOCOL.md
+11. PHASE2_DIARY_PILOT_PLAN.md
+12. ACCESSIBILITY_TEST_PLAN.md
+13. ACCESSIBILITY_MANUAL_CHECKLIST.md
+14. updated Flutter learner UI
+15. updated Flutter Web staff UI
+16. test suite
+17. visual evidence/screenshot pack
+18. traceability matrix
+19. regression results
+20. V3.2 integrity report
+21. Phase1 revalidation report
+22. PHASE2_FINAL_GATE_REPORT.md
+23. HUMAN_APPROVAL_REQUIRED.md if necessary
+24. current PROJECT_STATE update
+25. project progress snapshot
+26. handoff report
+
+============================================================
+XLIII. REQUIRED FINAL REPORT FORMAT
+============================================================
+
+Final response/report must contain:
+
+A. EXECUTIVE SUMMARY
+
+What changed.
+
+B. PHASE STATUS
+
+Phase 0:
+DONE / PASS / BLOCKED
+
+Phase 1:
+DONE / REGRESSION PASS / BLOCKED
+
+Phase 2:
+TECHNICALLY COMPLETE / HUMAN GATE PENDING / DONE
+
+Phase 3:
+HOLD
+
+C. DONE
+
+Exact work completed.
+
+D. ACTIVE
+
+Anything remaining.
+
+E. BLOCKED
+
+Why.
+
+F. DEFERRED
+
+Explicitly intentional future work.
+
+G. DECISIONS FROZEN
+
+List new approved decisions:
+
+- repository human-friendly structure;
+- short-session is principle, exact duration remains measurable;
+- core learning loop;
+- progressive onboarding;
+- evidence-based progress;
+- offline plain language;
+- task-based staff MVP;
+- product vocabulary;
+- Apple discipline × Mingo DNA;
+- Mingo Blue / quiet palette;
+- one screen one idea;
+- typography discipline;
+- invisible transitions;
+- capybara official mascot;
+- no penguin;
+- no fake mastery;
+- no visual mockup scope creep.
+
+H. CHANGE REQUESTS
+
+Only if needed.
+
+I. TEST RESULTS
+
+Actual numbers.
+
+J. V3.2 INTEGRITY
+
+Actual numbers.
+
+K. HUMAN GATES
+
+Explicit.
+
+L. NEXT SAFE ACTION
+
+Must NOT start Phase3 unless Phase2 gate truly allows it.
+
+============================================================
+XLIV. DEFINITION OF DONE
+============================================================
+
+Task này chỉ hoàn tất khi:
+
+- repo dễ hiểu cho con người;
+- source code dễ tìm;
+- docs dễ tìm;
+- research dễ tìm;
+- V3.2 protected;
+- Phase1 regressions pass;
+- full Phase2 UI inventory covered;
+- learner UI có coherent Mingo identity;
+- staff UI consistent;
+- capybara mascot consistent;
+- one-screen-one-purpose principle applied;
+- color discipline applied;
+- typography discipline applied;
+- motion discipline applied;
+- offline UX simplified;
+- progress avoids fake mastery;
+- recommendation explanation clear;
+- onboarding low-friction;
+- terminology user-friendly;
+- accessibility addressed;
+- research rationale exists;
+- tests/evidence exist;
+- governance current;
+- no human validation fabricated.
+
+============================================================
+XLV. EXECUTION ORDER
+============================================================
+
+Execute in this order:
+
+1. Audit
+2. Protect V3.2
+3. Map repository migration
+4. Reorganize repository safely
+5. Repair references/CI/scripts
+6. Re-run baseline
+7. Audit Phase2 product UX
+8. Build research rationale
+9. Build Design System V2
+10. Build mascot system
+11. Rewrite product language
+12. Update Phase2 UX specs
+13. Implement learner Flutter UI
+14. Implement staff Flutter Web UI
+15. Implement all state variants
+16. Accessibility
+17. Responsive
+18. Automated tests
+19. Visual regression/evidence
+20. Phase1 regression
+21. V3.2 final integrity
+22. Update governance
+23. Generate final gate
+24. STOP before Phase3 unless human gate is truly closed.
+
+============================================================
+XLVI. FINAL IMPORTANT INSTRUCTION
+============================================================
+
+Do not optimize for:
+
+“make all checks green.”
+
+Optimize for:
+
+“build a coherent, scientifically defensible, usable product system while preserving the architecture contract.”
+
+If an existing Phase2 decision is weak:
+
+improve it.
+
+If it conflicts with V3.2:
+
+create Change Request instead of silently changing V3.2.
+
+If a test encodes a bad old UI decision:
+
+update the Phase2 test/spec only after documenting why.
+
+Do not preserve bad UX just because an old screenshot/test expects it.
+
+At the same time:
+
+do not change foundational business semantics merely to fit the new visual design.
+
+Presentation may change substantially.
+
+System truth must remain correct.
+
+The final Phase2 should no longer feel like:
+
+“AI generated education SaaS prototype.”
+
+It should feel like:
+
+“Mingo — a calm, distinctive, trustworthy language-learning companion with a clear product identity.”
+
+Start by auditing the repository.
+Do not ask me to repeat the project context.
+Do not start Phase3.
+Proceed through the work systematically and show evidence for every completion claim.

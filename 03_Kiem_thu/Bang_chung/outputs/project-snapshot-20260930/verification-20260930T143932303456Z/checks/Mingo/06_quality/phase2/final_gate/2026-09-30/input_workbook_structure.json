@@ -1,0 +1,181 @@
+{
+  "input_hashes": {
+    "Mingo_Phase2_R1_Independent_QC_QA_Retest_2026-09-29.md": "d20e6fb275af99e4df4823e314626bcdc85ad771ec15a4ab23ecc9f2f013f00f",
+    "Mingo_Phase2_R1_Independent_Evidence_Summary_2026-09-29.json": "759862b84fea3eb71919c2a443c9ad4bc298e15a30058497b943bc88824fb5b0",
+    "Mingo_Phase2_R1_Independent_QA_Control_2026-09-29.xlsx": "6c3792d76628e894c46e814db933714a63b6669fd6bd936f1ac3b4d575438222"
+  },
+  "sheets": {
+    "00_Dashboard": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 3,
+      "merged_ranges": [
+        "A2:N2",
+        "A1:N1"
+      ],
+      "formula_samples": [
+        {
+          "cell": "E9",
+          "formula": "=COUNTIF('04_QA_Test_Cases'!K5:K250,\"BLOCKED\")",
+          "cached": 0
+        },
+        {
+          "cell": "E10",
+          "formula": "=COUNTIF('04_QA_Test_Cases'!K5:K250,\"NOT RUN\")",
+          "cached": 0
+        },
+        {
+          "cell": "E11",
+          "formula": "=COUNTIFS('06_Defect_Log'!F5:F200,\"<>CLOSED\",'06_Defect_Log'!E5:E200,\"P0\")+COUNTIFS('06_Defect_Log'!F5:F200,\"<>CLOSED\",'06_Defect_Log'!E5:E200,\"P1\")",
+          "cached": 0
+        }
+      ]
+    },
+    "01_Screen_Inventory": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A1:J1",
+        "A2:J2"
+      ],
+      "formula_samples": []
+    },
+    "02_State_Catalog": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A1:D1",
+        "A2:D2"
+      ],
+      "formula_samples": []
+    },
+    "03_PRD_Traceability": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A2:E2",
+        "A1:E1"
+      ],
+      "formula_samples": []
+    },
+    "04_QA_Test_Cases": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A2:N2",
+        "A1:N1"
+      ],
+      "formula_samples": []
+    },
+    "05_QC_Checklist": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A2:G2",
+        "A1:G1"
+      ],
+      "formula_samples": []
+    },
+    "06_Defect_Log": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A2:N2",
+        "A1:N1"
+      ],
+      "formula_samples": []
+    },
+    "07_Test_Run": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 10,
+      "merged_ranges": [
+        "A2:L2",
+        "A1:L1"
+      ],
+      "formula_samples": [
+        {
+          "cell": "J5",
+          "formula": "=IF(F5=0,\"\",G5/F5)",
+          "cached": 1
+        },
+        {
+          "cell": "J6",
+          "formula": "=IF(F6=0,\"\",G6/F6)",
+          "cached": null
+        },
+        {
+          "cell": "J7",
+          "formula": "=IF(F7=0,\"\",G7/F7)",
+          "cached": null
+        }
+      ]
+    },
+    "08_Signoff": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A2:H2",
+        "A1:H1"
+      ],
+      "formula_samples": []
+    },
+    "09_Lists": {
+      "rows": 300,
+      "columns": 26,
+      "formulas": 0,
+      "merged_ranges": [
+        "A2:H2",
+        "A1:H1"
+      ],
+      "formula_samples": []
+    },
+    "10_Independent_Audit": {
+      "rows": 42,
+      "columns": 6,
+      "formulas": 0,
+      "merged_ranges": [
+        "A1:F1"
+      ],
+      "formula_samples": []
+    },
+    "11_Rework_R1": {
+      "rows": 20,
+      "columns": 8,
+      "formulas": 0,
+      "merged_ranges": [
+        "A2:H2",
+        "A1:H1"
+      ],
+      "formula_samples": []
+    },
+    "12_Codex_Execution": {
+      "rows": 18,
+      "columns": 10,
+      "formulas": 0,
+      "merged_ranges": [
+        "A1:J1",
+        "A2:J2"
+      ],
+      "formula_samples": []
+    },
+    "11_Independent_Retest_R1": {
+      "rows": 31,
+      "columns": 6,
+      "formulas": 0,
+      "merged_ranges": [
+        "A1:F1"
+      ],
+      "formula_samples": []
+    }
+  },
+  "error_cells": [],
+  "recalculation": "NOT RUN; read-only structure and cached values only"
+}

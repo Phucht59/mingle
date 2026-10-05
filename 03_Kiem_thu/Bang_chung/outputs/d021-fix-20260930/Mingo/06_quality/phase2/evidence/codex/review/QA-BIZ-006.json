@@ -1,0 +1,52 @@
+{
+  "id": "QA-BIZ-006",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "review": "Challenge is a bounded product hypothesis. Course preview keeps prerequisites locked; challenge/preference does not confer skill or override eligibility. This case requests spec review, not a production challenge engine.",
+    "matching_screens": [
+      {
+        "id": "L-022",
+        "name": "Review Item",
+        "route": "/learn/cycle/review",
+        "surface": "Learner",
+        "area": "Learning",
+        "purpose": "Due/prerequisite review within bounded cycle",
+        "entry": "Cycle start",
+        "actions": "Answer / Skip",
+        "states": "Ready, selected, validation-error, submitted-result, skipped",
+        "rules": "Blank submit is impossible; Skip is explicit and creates no completion/mastery."
+      },
+      {
+        "id": "L-041",
+        "name": "Objective Detail",
+        "route": "/course/objective/:id",
+        "surface": "Learner",
+        "area": "Course",
+        "purpose": "Explain objective, evidence and eligibility",
+        "entry": "Course map",
+        "actions": "Start eligible practice / Review",
+        "states": "Eligible, due, locked, insufficient-evidence",
+        "rules": "Prerequisite guardrail remains authoritative"
+      },
+      {
+        "id": "L-042",
+        "name": "Locked Preview",
+        "route": "/course/objective/:id/preview",
+        "surface": "Learner",
+        "area": "Course",
+        "purpose": "Safe preview of locked objective",
+        "entry": "Locked objective",
+        "actions": "Back / Work on prerequisite",
+        "states": "Preview-open, preview-close",
+        "rules": "Preview cannot create evidence, progress, completion, prerequisite bypass or unlock."
+      }
+    ]
+  },
+  "sources": [
+    "01_PHASE_2_CONTRACT.md",
+    "PHASE_2_SPEC.json",
+    "12_UX_REQUIREMENT_TRACEABILITY.md"
+  ],
+  "time": "2026-09-29T18:05:51.622226+00:00"
+}

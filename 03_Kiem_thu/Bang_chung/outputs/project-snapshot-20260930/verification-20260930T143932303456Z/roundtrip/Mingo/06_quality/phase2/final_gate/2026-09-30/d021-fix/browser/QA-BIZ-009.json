@@ -1,0 +1,49 @@
+{
+  "id": "QA-BIZ-009",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-29T18:06:28.610Z",
+  "ended": "2026-09-29T18:06:28.875Z",
+  "expected": "Streak is engagement and not shown as skill/mastery.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Profile"
+  ],
+  "observed": "Mingo\nSynced\nPROFILE\nYour learning evidence\nVocabulary · Building\n\nRecent independent recall is available; Mingo still needs repeated evidence.\n\nListening · Needs more evidence\n\nNot enough independent Check evidence yet.\n\nGoal\nNot set\nDaily target\n1 cycle\nEdit goal\nSync status\nHome\nLearn\nCourse\nProfile",
+  "state": {
+    "surface": "learner",
+    "learner": "profile",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

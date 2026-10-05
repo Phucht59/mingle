@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "phase_1": "DONE",
+  "phase_2": "ELIGIBLE_TO_START_NOT_STARTED",
+  "original_files_integrity": 102,
+  "original_contract_checks": {
+    "passed": 115,
+    "failed": 0,
+    "total": 115
+  },
+  "original_sql_checks": {
+    "passed": 22,
+    "failed": 0,
+    "total": 22
+  },
+  "hosted_run": 36252349822,
+  "hosted_commit": "d4165e8acdffa4e0a747b11ac3e1c3c852674293",
+  "all_four_hosted_jobs_pass": true,
+  "fresh_clone_original_suite_pass": true,
+  "runtime_source_unchanged_since_full_reproduction": true,
+  "simultaneous_api_worker_pass": true,
+  "remaining_phase_1_blockers": []
+}

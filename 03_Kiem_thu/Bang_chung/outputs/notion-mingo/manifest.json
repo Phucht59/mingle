@@ -1,0 +1,25 @@
+{
+  "files": [
+    "MINGO.md",
+    "MINGO/Cong viec.md",
+    "MINGO/Cong viec/Task.csv",
+    "MINGO/Cong viec/Roadmap.csv",
+    "MINGO/San pham.md",
+    "MINGO/San pham/Luong nguoi hoc.md",
+    "MINGO/San pham/Luat nghiep vu.md",
+    "MINGO/San pham/Quyet dinh da chot.md",
+    "MINGO/San pham/Gia thuyet.md",
+    "MINGO/San pham/Baseline V3.2.md",
+    "MINGO/Kiem soat.md",
+    "MINGO/Kiem soat/Van de.csv",
+    "MINGO/Kiem soat/Bang chung.csv",
+    "MINGO/Kiem soat/Thay doi.md",
+    "MINGO/Cach lam viec.md",
+    "MINGO/Nhat ky.md"
+  ],
+  "tasks": 13,
+  "phases": 18,
+  "issues": 9,
+  "evidence": 15,
+  "notes": 2
+}

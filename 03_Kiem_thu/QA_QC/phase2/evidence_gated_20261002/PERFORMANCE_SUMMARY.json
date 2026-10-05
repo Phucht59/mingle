@@ -1,0 +1,262 @@
+{
+  "provenance": "RERUN NOW",
+  "utc": "2026-10-03T04:11:13.932788+00:00",
+  "profile_host": "03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/performance/20261003T035003Z-82d57cfa/host_report.json",
+  "release_host": "03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/performance/20261003T040418Z-7102af70/host_report.json",
+  "physical_device": "PENDING",
+  "refresh60": "MEASURED_EMULATOR_ONLY; budget not met",
+  "refresh90": "UNMEASURED",
+  "refresh120": "UNMEASURED",
+  "frames": [
+    {
+      "scenario": "first_home_widget_mount_not_android_cold_start",
+      "frames": 3,
+      "ui_p95_ms": 89.847,
+      "raster_p95_ms": 325.93,
+      "overrun_percent_proxy": 100.0,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    },
+    {
+      "scenario": "home_scroll",
+      "frames": 608,
+      "ui_p95_ms": 18.123,
+      "raster_p95_ms": 70.5,
+      "overrun_percent_proxy": 96.875,
+      "sample_status": "ENGINEERING_SAMPLE_ONLY"
+    },
+    {
+      "scenario": "home_to_lesson",
+      "frames": 8,
+      "ui_p95_ms": 15.943,
+      "raster_p95_ms": 29.978,
+      "overrun_percent_proxy": 12.5,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    },
+    {
+      "scenario": "answer_interaction",
+      "frames": 9,
+      "ui_p95_ms": 4.032,
+      "raster_p95_ms": 105.294,
+      "overrun_percent_proxy": 22.22222222222222,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    },
+    {
+      "scenario": "immediate_feedback",
+      "frames": 4,
+      "ui_p95_ms": 6.158,
+      "raster_p95_ms": 26.482,
+      "overrun_percent_proxy": 50.0,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    },
+    {
+      "scenario": "lesson_to_result",
+      "frames": 73,
+      "ui_p95_ms": 16.18,
+      "raster_p95_ms": 28.734,
+      "overrun_percent_proxy": 13.698630136986301,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    },
+    {
+      "scenario": "result_to_course",
+      "frames": 8,
+      "ui_p95_ms": 22.627,
+      "raster_p95_ms": 23.219,
+      "overrun_percent_proxy": 12.5,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    },
+    {
+      "scenario": "course_scroll",
+      "frames": 704,
+      "ui_p95_ms": 6.38,
+      "raster_p95_ms": 45.429,
+      "overrun_percent_proxy": 90.19886363636364,
+      "sample_status": "ENGINEERING_SAMPLE_ONLY"
+    },
+    {
+      "scenario": "home_scroll_text_200_percent",
+      "frames": 742,
+      "ui_p95_ms": 6.08,
+      "raster_p95_ms": 33.942,
+      "overrun_percent_proxy": 89.8921832884097,
+      "sample_status": "ENGINEERING_SAMPLE_ONLY"
+    },
+    {
+      "scenario": "offline_fixture_render_not_network_sync",
+      "frames": 3,
+      "ui_p95_ms": 8.627,
+      "raster_p95_ms": 17.539,
+      "overrun_percent_proxy": 33.333333333333336,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    },
+    {
+      "scenario": "warm_home_widget_mount_not_android_warm_start",
+      "frames": 3,
+      "ui_p95_ms": 5.499,
+      "raster_p95_ms": 17.704,
+      "overrun_percent_proxy": 33.333333333333336,
+      "sample_status": "INSUFFICIENT_SAMPLE_FOR_DEVICE_GATE"
+    }
+  ],
+  "source_match_current_candidate": true,
+  "release_apk": {
+    "mode": "release",
+    "bytes": 26034345,
+    "release_signing": "Generated local debug signing; not production release",
+    "entrypoint": "lib/main.dart",
+    "sha256": "ddaa2b02bf112082bc474fbfb37da05b3e5445cd616e66a9817588a9fdf65130"
+  },
+  "aab": {
+    "bytes": 44977818,
+    "note": "Bundle size is not Play delivery size; local generated signing only",
+    "sha256": "e8a2a759bf153d6c58979de819a323fe0e6ba604ccc302b81e2a5c6d668eecf3"
+  },
+  "cold": {
+    "total_time": {
+      "count": 5,
+      "p95_ms": 2677.0,
+      "median_ms": 2617.0
+    },
+    "samples": [
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2677\r\nWaitTime: 2682\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 2677,
+        "waittime_ms": 2682,
+        "status": "REPORTED_OK",
+        "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+        "process_after_launch": "5559"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2495\r\nWaitTime: 2501\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 2495,
+        "waittime_ms": 2501,
+        "status": "REPORTED_OK",
+        "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+        "process_after_launch": "5608"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2507\r\nWaitTime: 2552\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 2507,
+        "waittime_ms": 2552,
+        "status": "REPORTED_OK",
+        "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+        "process_after_launch": "5655"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2644\r\nWaitTime: 2662\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 2644,
+        "waittime_ms": 2662,
+        "status": "REPORTED_OK",
+        "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+        "process_after_launch": "5699"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 2617\r\nWaitTime: 2640\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 2617,
+        "waittime_ms": 2640,
+        "status": "REPORTED_OK",
+        "classification": "PROCESS_COLD_NO_DATA_OR_FILESYSTEM_CACHE_CLEAR",
+        "process_after_launch": "5744"
+      }
+    ],
+    "metric": "Android am start -W reported activity time, not meaningful-learning latency",
+    "this_time": {
+      "count": 0,
+      "p95_ms": null,
+      "median_ms": null
+    }
+  },
+  "warm": {
+    "note": "WaitTime is command completion, not an equivalent to cold ThisTime/TotalTime",
+    "samples": [
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 199\r\nWaitTime: 204\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 199,
+        "waittime_ms": 204,
+        "status": "REPORTED_OK",
+        "same_process": true,
+        "classification": "WARM_BACKGROUND_RETURN"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 137\r\nWaitTime: 141\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 137,
+        "waittime_ms": 141,
+        "status": "REPORTED_OK",
+        "same_process": true,
+        "classification": "WARM_BACKGROUND_RETURN"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 270\r\nWaitTime: 288\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 270,
+        "waittime_ms": 288,
+        "status": "REPORTED_OK",
+        "same_process": true,
+        "classification": "WARM_BACKGROUND_RETURN"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 138\r\nWaitTime: 144\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 138,
+        "waittime_ms": 144,
+        "status": "REPORTED_OK",
+        "same_process": true,
+        "classification": "WARM_BACKGROUND_RETURN"
+      },
+      {
+        "raw_report": "Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: HOT\r\nActivity: com.example.adaptive_learner/.MainActivity\r\nTotalTime: 135\r\nWaitTime: 141\r\nComplete",
+        "thistime_ms": null,
+        "totaltime_ms": 135,
+        "waittime_ms": 141,
+        "status": "REPORTED_OK",
+        "same_process": true,
+        "classification": "WARM_BACKGROUND_RETURN"
+      }
+    ],
+    "wait_time": {
+      "count": 5,
+      "p95_ms": 288.0,
+      "median_ms": 144.0
+    }
+  },
+  "pss_kib": 73883,
+  "codec": [
+    {
+      "asset": "packages/mingo_ui/assets/exploration.png",
+      "encoded_bytes": 2269212,
+      "requested_decode_width_px": 1080,
+      "decoded_width_px": 1080,
+      "decoded_height_px": 720,
+      "decoded_rgba_bytes_estimate": 3110400,
+      "bundle_load_and_first_codec_frame_ms": 73.101,
+      "cache_condition": "AFTER_JOURNEY_NOT_COLD_FILESYSTEM",
+      "production_image_provider_timing": false
+    },
+    {
+      "asset": "packages/mingo_ui/assets/mascot.png",
+      "encoded_bytes": 2302299,
+      "requested_decode_width_px": 473,
+      "decoded_width_px": 473,
+      "decoded_height_px": 709,
+      "decoded_rgba_bytes_estimate": 1341428,
+      "bundle_load_and_first_codec_frame_ms": 64.736,
+      "cache_condition": "AFTER_JOURNEY_NOT_COLD_FILESYSTEM",
+      "production_image_provider_timing": false
+    }
+  ],
+  "encoded_asset_targets": "NOT MET for hero/mascot; total authored assets below8MiB",
+  "limitations": [
+    "SoftwareSwiftShader is not a physical device tier",
+    "Budget overrun is not exact compositor dropped-frame count",
+    "Short windows with fewer300 frames are diagnostic only",
+    "ActivityTotalTime is not meaningful-learning latency",
+    "Single PSS snapshot is not a leak proof",
+    "Battery/thermal snapshots are not energy/physical-thermal tests"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "doc": "MINGO_PERFORMANCE_BUDGET_V1.md",
+    "target": "PERFORMANCE_TEST_REPORT.md",
+    "exists": true
+  },
+  {
+    "doc": "MINGO_PERFORMANCE_BUDGET_V1.md",
+    "target": "DEVICE_TEST_MATRIX.md",
+    "exists": true
+  },
+  {
+    "doc": "MINGO_PERFORMANCE_BUDGET_V1.md",
+    "target": "../../../../../04_Van_hanh/Scripts/run_performance_benchmark.ps1",
+    "exists": true
+  },
+  {
+    "doc": "PERFORMANCE_TEST_REPORT.md",
+    "target": "../../../../../03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/performance/",
+    "exists": true
+  },
+  {
+    "doc": "PERFORMANCE_TEST_REPORT.md",
+    "target": "../../../../../01_San_pham/apps/learner/integration_test/performance_test.dart",
+    "exists": true
+  },
+  {
+    "doc": "PERFORMANCE_TEST_REPORT.md",
+    "target": "../../../../../01_San_pham/apps/learner/test_driver/performance_driver.dart",
+    "exists": true
+  },
+  {
+    "doc": "PERFORMANCE_TEST_REPORT.md",
+    "target": "../../../../../04_Van_hanh/Scripts/run_performance_benchmark.ps1",
+    "exists": true
+  },
+  {
+    "doc": "PERFORMANCE_TEST_REPORT.md",
+    "target": "MINGO_PERFORMANCE_BUDGET_V1.md",
+    "exists": true
+  },
+  {
+    "doc": "PERFORMANCE_TEST_REPORT.md",
+    "target": "DEVICE_TEST_MATRIX.md",
+    "exists": true
+  }
+]

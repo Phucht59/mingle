@@ -1,0 +1,41 @@
+Obtaining file:///workspace/scratch/f0ee7a62962d/adaptive-learning/backend
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: fastapi<1,>=0.115 in ./.phase1-venv/lib/python3.12/site-packages (from adaptive-learning-foundation==0.1.0) (0.141.1)
+Requirement already satisfied: uvicorn<1,>=0.30 in ./.phase1-venv/lib/python3.12/site-packages (from adaptive-learning-foundation==0.1.0) (0.53.0)
+Requirement already satisfied: psycopg<4,>=3.2 in ./.phase1-venv/lib/python3.12/site-packages (from psycopg[binary]<4,>=3.2->adaptive-learning-foundation==0.1.0) (3.3.6)
+Requirement already satisfied: pytest<10,>=8 in ./.phase1-venv/lib/python3.12/site-packages (from adaptive-learning-foundation==0.1.0) (9.1.1)
+Requirement already satisfied: httpx<1,>=0.27 in ./.phase1-venv/lib/python3.12/site-packages (from adaptive-learning-foundation==0.1.0) (0.28.1)
+Requirement already satisfied: ruff<1,>=0.9 in ./.phase1-venv/lib/python3.12/site-packages (from adaptive-learning-foundation==0.1.0) (0.16.8)
+Requirement already satisfied: starlette>=0.46.0 in ./.phase1-venv/lib/python3.12/site-packages (from fastapi<1,>=0.115->adaptive-learning-foundation==0.1.0) (1.7.0)
+Requirement already satisfied: pydantic>=2.9.0 in ./.phase1-venv/lib/python3.12/site-packages (from fastapi<1,>=0.115->adaptive-learning-foundation==0.1.0) (2.13.5)
+Requirement already satisfied: typing-extensions>=4.8.0 in ./.phase1-venv/lib/python3.12/site-packages (from fastapi<1,>=0.115->adaptive-learning-foundation==0.1.0) (4.16.0)
+Requirement already satisfied: typing-inspection>=0.4.2 in ./.phase1-venv/lib/python3.12/site-packages (from fastapi<1,>=0.115->adaptive-learning-foundation==0.1.0) (0.4.4)
+Requirement already satisfied: annotated-doc>=0.0.2 in ./.phase1-venv/lib/python3.12/site-packages (from fastapi<1,>=0.115->adaptive-learning-foundation==0.1.0) (0.0.5)
+Requirement already satisfied: anyio in ./.phase1-venv/lib/python3.12/site-packages (from httpx<1,>=0.27->adaptive-learning-foundation==0.1.0) (4.15.1)
+Requirement already satisfied: certifi in ./.phase1-venv/lib/python3.12/site-packages (from httpx<1,>=0.27->adaptive-learning-foundation==0.1.0) (2026.7.22)
+Requirement already satisfied: httpcore==1.* in ./.phase1-venv/lib/python3.12/site-packages (from httpx<1,>=0.27->adaptive-learning-foundation==0.1.0) (1.0.9)
+Requirement already satisfied: idna in ./.phase1-venv/lib/python3.12/site-packages (from httpx<1,>=0.27->adaptive-learning-foundation==0.1.0) (3.20)
+Requirement already satisfied: h11>=0.16 in ./.phase1-venv/lib/python3.12/site-packages (from httpcore==1.*->httpx<1,>=0.27->adaptive-learning-foundation==0.1.0) (0.16.0)
+Requirement already satisfied: psycopg-binary==3.3.6 in ./.phase1-venv/lib/python3.12/site-packages (from psycopg[binary]<4,>=3.2->adaptive-learning-foundation==0.1.0) (3.3.6)
+Requirement already satisfied: iniconfig>=1.0.1 in ./.phase1-venv/lib/python3.12/site-packages (from pytest<10,>=8->adaptive-learning-foundation==0.1.0) (2.3.0)
+Requirement already satisfied: packaging>=22 in ./.phase1-venv/lib/python3.12/site-packages (from pytest<10,>=8->adaptive-learning-foundation==0.1.0) (26.3)
+Requirement already satisfied: pluggy<2,>=1.5 in ./.phase1-venv/lib/python3.12/site-packages (from pytest<10,>=8->adaptive-learning-foundation==0.1.0) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in ./.phase1-venv/lib/python3.12/site-packages (from pytest<10,>=8->adaptive-learning-foundation==0.1.0) (2.21.0)
+Requirement already satisfied: click>=7.0 in ./.phase1-venv/lib/python3.12/site-packages (from uvicorn<1,>=0.30->adaptive-learning-foundation==0.1.0) (8.5.0)
+Requirement already satisfied: annotated-types>=0.6.0 in ./.phase1-venv/lib/python3.12/site-packages (from pydantic>=2.9.0->fastapi<1,>=0.115->adaptive-learning-foundation==0.1.0) (0.8.0)
+Requirement already satisfied: pydantic-core==2.46.5 in ./.phase1-venv/lib/python3.12/site-packages (from pydantic>=2.9.0->fastapi<1,>=0.115->adaptive-learning-foundation==0.1.0) (2.46.5)
+Building wheels for collected packages: adaptive-learning-foundation
+  Building editable for adaptive-learning-foundation (pyproject.toml): started
+  Building editable for adaptive-learning-foundation (pyproject.toml): finished with status 'done'
+  Created wheel for adaptive-learning-foundation: filename=adaptive_learning_foundation-0.1.0-0.editable-py3-none-any.whl size=1565 sha256=e2881309255f22c5f5137ee908140dcd3ee52f50bf372417181d2468af29b81d
+  Stored in directory: /tmp/pip-ephem-wheel-cache-cjjiv0f5/wheels/24/29/94/7397ddabdcbd5a12daff193bd1628c2046d3619774ae438b99
+Successfully built adaptive-learning-foundation
+Installing collected packages: adaptive-learning-foundation
+Successfully installed adaptive-learning-foundation-0.1.0

@@ -1,0 +1,17 @@
+{
+  "recursive_command": "rg --files --hidden --no-ignore -g AGENTS.md -g AGENTS.override.md -g !.git/**",
+  "exit": 1,
+  "paths": [],
+  "ancestor_paths": {
+    "C:\\AGENTS.md": false,
+    "C:\\AGENTS.override.md": false,
+    "C:\\Mingo\\AGENTS.md": false,
+    "C:\\Mingo\\AGENTS.override.md": false
+  },
+  "read": [
+    "README.md",
+    "START_HERE.md",
+    "REPO_RULES.md"
+  ],
+  "applicable_precedence": "Targeted user write restrictions override generic repo evidence placement and governance write rules."
+}

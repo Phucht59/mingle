@@ -1,0 +1,9 @@
+{
+  "apk_path": "01_San_pham/apps/learner/build/app/outputs/flutter-apk/app-debug.apk",
+  "apk_sha256": "21df81248b70809ca653fdf6920631b95c8fa3b2f0c1bfdc22316acb4104693e",
+  "device": "emulator-5554",
+  "result": "Installed normal app after integration harness; cold launch Status: ok; screenshot visually inspected",
+  "screenshot": "android_normal_review.png",
+  "screenshot_sha256": "f66e09ae25f8a084bced4cceccf7b6d8d2ec55a3cb8282de338e0d250f8cef40",
+  "scope": "Local debug preview; not physical audio/accessibility/human approval"
+}

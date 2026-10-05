@@ -1,0 +1,29 @@
+{
+  "digest_version": "command_digest_v1",
+  "canonicalization": "RFC8785_JCS",
+  "hash": "SHA-256",
+  "exclude_fields": [
+    "command_id"
+  ],
+  "remove_null_optional_fields": true,
+  "sort_arrays": {
+    "answers": "question_revision_id"
+  },
+  "reject_duplicate_answer_question_ids": true,
+  "included_semantic_fields": [
+    "attempt_id",
+    "enrollment_id",
+    "activity_revision_id",
+    "release_activity_id",
+    "submission_mode",
+    "offline_grant_id",
+    "occurred_at",
+    "expected_state_version",
+    "answers",
+    "device_installation_id",
+    "package_id"
+  ],
+  "safe_integer_limit": 9007199254740991,
+  "duplicate_json_keys": "reject",
+  "timestamp_normalization": "none; retry preserves exact original occurrence string"
+}

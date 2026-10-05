@@ -1,0 +1,9 @@
+--------- beginning of main
+10-03 10:37:44.372   398   398 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+10-03 10:37:44.410   398   398 I AndroidRuntime: Using default boot image
+10-03 10:37:44.410   398   398 I AndroidRuntime: Leaving lock profiling enabled
+10-03 10:38:00.488   872   872 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+10-03 10:38:44.608  2389  2453 I flutter : The Dart VM service is listening on http://127.0.0.1:40281/ZFM47eqy6DE=/
+10-03 10:38:44.662  2389  2389 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(94)] Using the Impeller rendering backend (OpenGLES).
+10-03 10:38:47.731  2389  2446 E flutter : [ERROR:flutter/impeller/renderer/backend/gles/texture_gles.cc(208)] Break on 'ImpellerValidationBreak' to inspect point of failure: Invalid texture descriptor.
+10-03 10:38:47.812  2389  2446 F flutter : [FATAL:flutter/impeller/renderer/backend/gles/blit_pass_gles.cc(88)] Check failed: result. Must be able to encode GL commands without error.

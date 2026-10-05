@@ -1,0 +1,148 @@
+2026-09-26T15:04:37.8729058Z Current runner version: '2.337.0'
+2026-09-26T15:04:37.8759430Z ##[group]Runner Image Provisioner
+2026-09-26T15:04:37.8760492Z Hosted Compute Agent
+2026-09-26T15:04:37.8761194Z Version: 20260828.587
+2026-09-26T15:04:37.8761837Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+2026-09-26T15:04:37.8762676Z Build Date: 2026-08-28T16:44:25Z
+2026-09-26T15:04:37.8763391Z Worker ID: {3e9290ad-c4a7-4930-996c-3bb07182ac14}
+2026-09-26T15:04:37.8764173Z Azure Region: westus
+2026-09-26T15:04:37.8764804Z ##[endgroup]
+2026-09-26T15:04:37.8766520Z ##[group]Operating System
+2026-09-26T15:04:37.8767297Z Ubuntu
+2026-09-26T15:04:37.8767890Z 24.04.5
+2026-09-26T15:04:37.8768408Z LTS
+2026-09-26T15:04:37.8769338Z ##[endgroup]
+2026-09-26T15:04:37.8769906Z ##[group]Runner Image
+2026-09-26T15:04:37.8770493Z Image: ubuntu-24.04
+2026-09-26T15:04:37.8771142Z Version: 20260920.314.1
+2026-09-26T15:04:37.8772501Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+2026-09-26T15:04:37.8774179Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+2026-09-26T15:04:37.8775145Z ##[endgroup]
+2026-09-26T15:04:37.8776397Z ##[group]GITHUB_TOKEN Permissions
+2026-09-26T15:04:37.8778940Z Contents: read
+2026-09-26T15:04:37.8779697Z Metadata: read
+2026-09-26T15:04:37.8780274Z ##[endgroup]
+2026-09-26T15:04:37.8782664Z Secret source: Actions
+2026-09-26T15:04:37.8783739Z Cache mode: write
+2026-09-26T15:04:37.8785101Z Prepare workflow directory
+2026-09-26T15:04:37.9218059Z Prepare all required actions
+2026-09-26T15:04:37.9270887Z Getting action download info
+2026-09-26T15:04:38.2746850Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-09-26T15:04:38.3919437Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-09-26T15:04:38.5883240Z Complete job name: original-v3-2
+2026-09-26T15:04:38.6698186Z ##[group]Run actions/checkout@v4
+2026-09-26T15:04:38.6699661Z with:
+2026-09-26T15:04:38.6700148Z   repository: Phucht59/mingo
+2026-09-26T15:04:38.6704155Z   token: ***
+2026-09-26T15:04:38.6704595Z   ssh-strict: true
+2026-09-26T15:04:38.6705035Z   ssh-user: git
+2026-09-26T15:04:38.6705480Z   persist-credentials: true
+2026-09-26T15:04:38.6705962Z   clean: true
+2026-09-26T15:04:38.6706415Z   sparse-checkout-cone-mode: true
+2026-09-26T15:04:38.6706968Z   fetch-depth: 1
+2026-09-26T15:04:38.6707401Z   fetch-tags: false
+2026-09-26T15:04:38.6707847Z   show-progress: true
+2026-09-26T15:04:38.6708289Z   lfs: false
+2026-09-26T15:04:38.6708908Z   submodules: false
+2026-09-26T15:04:38.6709366Z   set-safe-directory: true
+2026-09-26T15:04:38.6709870Z   allow-unsafe-pr-checkout: false
+2026-09-26T15:04:38.6710665Z ##[endgroup]
+2026-09-26T15:04:38.7790560Z Syncing repository: Phucht59/mingo
+2026-09-26T15:04:38.7793383Z ##[group]Getting Git version info
+2026-09-26T15:04:38.7794582Z Working directory is '/home/runner/work/mingo/mingo'
+2026-09-26T15:04:38.7796129Z [command]/usr/bin/git version
+2026-09-26T15:04:38.7918342Z git version 2.55.0
+2026-09-26T15:04:38.7943293Z ##[endgroup]
+2026-09-26T15:04:38.7960652Z Temporarily overriding HOME='/home/runner/work/_temp/bbf862e1-e11f-46ea-9649-d05f3cf92600' before making global git config changes
+2026-09-26T15:04:38.7962403Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-26T15:04:38.7966775Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/mingo/mingo
+2026-09-26T15:04:38.8029258Z Deleting the contents of '/home/runner/work/mingo/mingo'
+2026-09-26T15:04:38.8035924Z ##[group]Initializing the repository
+2026-09-26T15:04:38.8041329Z [command]/usr/bin/git init /home/runner/work/mingo/mingo
+2026-09-26T15:04:38.8184926Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-09-26T15:04:38.8187356Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-09-26T15:04:38.8189629Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-09-26T15:04:38.8191271Z hint: call:
+2026-09-26T15:04:38.8191807Z hint:
+2026-09-26T15:04:38.8192783Z hint: 	git config --global init.defaultBranch <name>
+2026-09-26T15:04:38.8193730Z hint:
+2026-09-26T15:04:38.8194885Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-09-26T15:04:38.8198840Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-09-26T15:04:38.8201152Z hint:
+2026-09-26T15:04:38.8202534Z hint: 	git branch -m <name>
+2026-09-26T15:04:38.8203767Z hint:
+2026-09-26T15:04:38.8204927Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-09-26T15:04:38.8206890Z Initialized empty Git repository in /home/runner/work/mingo/mingo/.git/
+2026-09-26T15:04:38.8210762Z [command]/usr/bin/git remote add origin https://github.com/Phucht59/mingo
+2026-09-26T15:04:38.8264137Z ##[endgroup]
+2026-09-26T15:04:38.8265518Z ##[group]Disabling automatic garbage collection
+2026-09-26T15:04:38.8270386Z [command]/usr/bin/git config --local gc.auto 0
+2026-09-26T15:04:38.8307954Z ##[endgroup]
+2026-09-26T15:04:38.8309049Z ##[group]Setting up auth
+2026-09-26T15:04:38.8318659Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-26T15:04:38.8371724Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-26T15:04:38.8843989Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-26T15:04:38.8884373Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-26T15:04:38.9125734Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-26T15:04:38.9165983Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-26T15:04:38.9432371Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-09-26T15:04:38.9481506Z ##[endgroup]
+2026-09-26T15:04:38.9482962Z ##[group]Fetching the repository
+2026-09-26T15:04:38.9494190Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4cdecb426d33b2996f4a3a72cc78da6a276b713f:refs/remotes/origin/main
+2026-09-26T15:04:39.5214356Z From https://github.com/Phucht59/mingo
+2026-09-26T15:04:39.5216308Z  * [new ref]         4cdecb426d33b2996f4a3a72cc78da6a276b713f -> origin/main
+2026-09-26T15:04:39.5224194Z ##[endgroup]
+2026-09-26T15:04:39.5225935Z ##[group]Determining the checkout info
+2026-09-26T15:04:39.5227815Z ##[endgroup]
+2026-09-26T15:04:39.5232674Z [command]/usr/bin/git sparse-checkout disable
+2026-09-26T15:04:39.5300331Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-09-26T15:04:39.5341497Z ##[group]Checking out the ref
+2026-09-26T15:04:39.5347763Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-09-26T15:04:39.5575209Z Switched to a new branch 'main'
+2026-09-26T15:04:39.5580546Z branch 'main' set up to track 'origin/main'.
+2026-09-26T15:04:39.5593735Z ##[endgroup]
+2026-09-26T15:04:39.5640986Z [command]/usr/bin/git log -1 --format=%H
+2026-09-26T15:04:39.5671307Z 4cdecb426d33b2996f4a3a72cc78da6a276b713f
+2026-09-26T15:04:39.6071441Z ##[group]Run actions/setup-python@v5
+2026-09-26T15:04:39.6072855Z with:
+2026-09-26T15:04:39.6073838Z   python-version: 3.12
+2026-09-26T15:04:39.6074960Z   check-latest: false
+2026-09-26T15:04:39.6086138Z   token: ***
+2026-09-26T15:04:39.6087216Z   update-environment: true
+2026-09-26T15:04:39.6088443Z   allow-prereleases: false
+2026-09-26T15:04:39.6090019Z   freethreaded: false
+2026-09-26T15:04:39.6091139Z ##[endgroup]
+2026-09-26T15:04:39.7563647Z ##[group]Installed versions
+2026-09-26T15:04:39.7668077Z (node:2308) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-09-26T15:04:39.7672126Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-09-26T15:04:39.7674811Z Successfully set up CPython (3.12.14)
+2026-09-26T15:04:39.7677614Z ##[endgroup]
+2026-09-26T15:04:39.7936985Z ##[group]Run python 07_operations/scripts/check_original_contracts.py
+2026-09-26T15:04:39.7940527Z [36;1mpython 07_operations/scripts/check_original_contracts.py[0m
+2026-09-26T15:04:39.8304683Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:04:39.8305910Z env:
+2026-09-26T15:04:39.8307059Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:04:39.8309217Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-09-26T15:04:39.8311165Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:04:39.8312867Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:04:39.8314569Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-09-26T15:04:39.8316424Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-09-26T15:04:39.8317892Z ##[endgroup]
+2026-09-26T15:04:39.9058365Z {"status": "BLOCKED", "reason": "Exact V3.2 sources and original suites absent", "contract_checks": "NOT_RUN", "sql_checks": "NOT_RUN"}
+2026-09-26T15:04:39.9115479Z ##[error]Process completed with exit code 1.
+2026-09-26T15:04:39.9489243Z Post job cleanup.
+2026-09-26T15:04:40.0411646Z [command]/usr/bin/git version
+2026-09-26T15:04:40.0459186Z git version 2.55.0
+2026-09-26T15:04:40.0505912Z Temporarily overriding HOME='/home/runner/work/_temp/a8d29f9e-c997-4ea9-a4f0-3ef645219ca2' before making global git config changes
+2026-09-26T15:04:40.0510528Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-26T15:04:40.0515312Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/mingo/mingo
+2026-09-26T15:04:40.0567101Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-26T15:04:40.0617845Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-26T15:04:40.0916774Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-26T15:04:40.0923805Z http.https://github.com/.extraheader
+2026-09-26T15:04:40.0940331Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-09-26T15:04:40.0987690Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-26T15:04:40.1272058Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-26T15:04:40.1310382Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-26T15:04:40.1764015Z Cleaning up orphan processes
+2026-09-26T15:04:40.2130506Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "audio_replayed_v1",
+  "type": "object",
+  "required": [
+    "media_resource_id",
+    "position_ms"
+  ],
+  "properties": {
+    "media_resource_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "position_ms": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

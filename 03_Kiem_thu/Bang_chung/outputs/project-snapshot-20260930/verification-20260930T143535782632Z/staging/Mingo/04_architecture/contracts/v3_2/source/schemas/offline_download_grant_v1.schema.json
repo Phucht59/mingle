@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "offline_download_grant_v1.schema.json",
+  "title": "OfflineDownloadGrantV1",
+  "type": "object",
+  "required": [
+    "grant_id",
+    "learner_id",
+    "enrollment_id",
+    "device_installation_id",
+    "package_id",
+    "course_release_id",
+    "release_manifest_sha256",
+    "issued_at",
+    "learn_until",
+    "upload_until",
+    "policy_version"
+  ],
+  "properties": {
+    "grant_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "learner_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "enrollment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "device_installation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "package_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "course_release_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "release_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "learn_until": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "upload_until": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "policy_version": {
+      "const": "offline_policy_v1"
+    },
+    "revoked_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}

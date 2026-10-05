@@ -1,0 +1,4 @@
+Command: C:\Mingo\.venv\Scripts\python.exe -m all_foundation.cli enqueue-probe --key evidence-gated-20261002T160328Z
+{"job_id": "812b736c-4a50-4312-94d0-ad819a5a252e"}
+
+Exit code: 0

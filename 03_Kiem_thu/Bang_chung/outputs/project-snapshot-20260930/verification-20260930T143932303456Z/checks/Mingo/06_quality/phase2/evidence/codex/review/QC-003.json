@@ -1,0 +1,10 @@
+{
+  "id": "QC-003",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": "## Out of scope\n\n- Production authentication/authorization (Phase 3).\n- Content backend/publishing implementation (Phase 4).\n- Learning/scoring/progress engine implementation (Phase 5).\n- Offline synchronization engine implementation (Phase 6).\n- Worker domain expansion (Phase 7).\n- Production analytics/intelligence/risk/recommendation logic (Phases 8–11).\n- Full staff business application implementation (Phase 12).\n- Production security/performance hardening (Phase 13).\n\nPrototype data is illustrative only and must not be mistaken for production logic or validated learning/risk outputs.\n\n",
+  "sources": [
+    "01_PHASE_2_CONTRACT.md"
+  ],
+  "time": "2026-09-30T14:39:35.086958+00:00"
+}

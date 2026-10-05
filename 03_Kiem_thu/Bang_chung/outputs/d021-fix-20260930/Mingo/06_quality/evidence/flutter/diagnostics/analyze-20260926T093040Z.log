@@ -1,0 +1,7 @@
+Command: flutter analyze
+Analyzing learner...                                            
+
+warning - The include file 'package:flutter_lints/flutter.yaml' in 'C:\Mingo\05_code\apps\learner\analysis_options.yaml' can't be found when analyzing 'C:\Mingo\05_code\apps\learner' - analysis_options.yaml:10:10 - include_file_not_found
+
+1 issue found. (ran in 24.2s)
+Exit code: 1

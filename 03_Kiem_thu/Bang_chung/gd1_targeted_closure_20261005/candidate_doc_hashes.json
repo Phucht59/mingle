@@ -1,0 +1,23 @@
+[
+  {
+    "canonical": "C:\\Mingo\\02_Tai_lieu_du_an\\06_Quyet_dinh_da_chot\\DECISION_REGISTER.md",
+    "canonical_sha256": "4b4d29a3888701bfe84f6a5f9af69de4f2ca05de25a9c669f7c14af92f420fed",
+    "candidate": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\DECISION_REGISTER.md",
+    "candidate_sha256": "e1e17a1f96617b2ecfa0aad82bdcd202a9f323c2c0512c9c79d480fbb281473f",
+    "patch": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\DECISION_REGISTER.patch"
+  },
+  {
+    "canonical": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham\\MVP_PRD.md",
+    "canonical_sha256": "b97e814027ba08d8727a4d69157006c38e8651ac998d1f2a7037bc175881b956",
+    "candidate": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\MVP_PRD.md",
+    "candidate_sha256": "4dbafef6e24ae2d06d0dd72919c1f82708845341f5e12dacb9553b48a1be7178",
+    "patch": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\MVP_PRD.patch"
+  },
+  {
+    "canonical": "C:\\Mingo\\02_Tai_lieu_du_an\\06_Quyet_dinh_da_chot\\CHANGE_REQUESTS.md",
+    "canonical_sha256": "e46679774bc138eb0a45ab7a7d0b23aa059a13eb7a01b85e55faf798aba35e9a",
+    "candidate": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\CHANGE_REQUESTS.md",
+    "candidate_sha256": "e2a0f2f43e720a6fe4ad335a34894a8dfc647ec1495a96c61ff40c815ec0cec8",
+    "patch": "C:\\Mingo\\03_Kiem_thu\\Bao_cao\\GD1_Targeted_Closure_20261005\\candidate_docs\\CHANGE_REQUESTS.patch"
+  }
+]

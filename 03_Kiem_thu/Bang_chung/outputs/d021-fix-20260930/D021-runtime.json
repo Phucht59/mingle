@@ -1,0 +1,287 @@
+{
+  "platform": "win32",
+  "browser": "154.0.8037.58",
+  "method": "Original R1 assets; 320px viewport; each computed font size doubled (same text-scale proxy as canonical supplemental test). No source change. This is not interactive assistive technology.",
+  "results": [
+    {
+      "route": "Home",
+      "viewport": 320,
+      "document": 320,
+      "app": {
+        "tag": "MAIN",
+        "classes": "",
+        "id": "app",
+        "text": "MingoSyncedTodayReady for a short cycle?One clear objective. You can stop when the cycle ends.Due for reviewBasic greetingsReview ",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "phone": {
+        "tag": "SECTION",
+        "classes": "phone",
+        "id": "",
+        "text": "MingoSyncedTodayReady for a short cycle?One clear objective. You can stop when the cycle ends.Due for reviewBasic greetingsReview ",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "allOverflow": [],
+      "learnerOverflow": [],
+      "toolbarOverflow": [],
+      "bottomNav": [
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn active",
+          "id": "",
+          "text": "Home",
+          "left": 8,
+          "right": 84,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Learn",
+          "left": 84,
+          "right": 160,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Course",
+          "left": 160,
+          "right": 236,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Profile",
+          "left": 236,
+          "right": 312,
+          "width": 76,
+          "scrollWidth": 76
+        }
+      ]
+    },
+    {
+      "route": "Learn",
+      "viewport": 320,
+      "document": 320,
+      "app": {
+        "tag": "MAIN",
+        "classes": "",
+        "id": "app",
+        "text": "MingoSyncedLearnChoose a representative cycleDue for reviewVocabulary: Basic greetingsReview → Learn → Retrieve → Transfer → Check",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "phone": {
+        "tag": "SECTION",
+        "classes": "phone",
+        "id": "",
+        "text": "MingoSyncedLearnChoose a representative cycleDue for reviewVocabulary: Basic greetingsReview → Learn → Retrieve → Transfer → Check",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "allOverflow": [],
+      "learnerOverflow": [],
+      "toolbarOverflow": [],
+      "bottomNav": [
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Home",
+          "left": 8,
+          "right": 84,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn active",
+          "id": "",
+          "text": "Learn",
+          "left": 84,
+          "right": 160,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Course",
+          "left": 160,
+          "right": 236,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Profile",
+          "left": 236,
+          "right": 312,
+          "width": 76,
+          "scrollWidth": 76
+        }
+      ]
+    },
+    {
+      "route": "Course",
+      "viewport": 320,
+      "document": 320,
+      "app": {
+        "tag": "MAIN",
+        "classes": "",
+        "id": "app",
+        "text": "MingoSyncedCourseYour pathCurrentBasic greetingsBuilding evidencePracticeDue reviewIntroducing yourselfA quick review is due.Locke",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "phone": {
+        "tag": "SECTION",
+        "classes": "phone",
+        "id": "",
+        "text": "MingoSyncedCourseYour pathCurrentBasic greetingsBuilding evidencePracticeDue reviewIntroducing yourselfA quick review is due.Locke",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "allOverflow": [],
+      "learnerOverflow": [],
+      "toolbarOverflow": [],
+      "bottomNav": [
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Home",
+          "left": 8,
+          "right": 84,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Learn",
+          "left": 84,
+          "right": 160,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn active",
+          "id": "",
+          "text": "Course",
+          "left": 160,
+          "right": 236,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Profile",
+          "left": 236,
+          "right": 312,
+          "width": 76,
+          "scrollWidth": 76
+        }
+      ]
+    },
+    {
+      "route": "Profile",
+      "viewport": 320,
+      "document": 320,
+      "app": {
+        "tag": "MAIN",
+        "classes": "",
+        "id": "app",
+        "text": "MingoSyncedProfileYour learning evidenceVocabulary · BuildingRecent independent recall is available; Mingo still needs repeated ev",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "phone": {
+        "tag": "SECTION",
+        "classes": "phone",
+        "id": "",
+        "text": "MingoSyncedProfileYour learning evidenceVocabulary · BuildingRecent independent recall is available; Mingo still needs repeated ev",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "allOverflow": [],
+      "learnerOverflow": [],
+      "toolbarOverflow": [],
+      "bottomNav": [
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Home",
+          "left": 8,
+          "right": 84,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Learn",
+          "left": 84,
+          "right": 160,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn ",
+          "id": "",
+          "text": "Course",
+          "left": 160,
+          "right": 236,
+          "width": 76,
+          "scrollWidth": 76
+        },
+        {
+          "tag": "BUTTON",
+          "classes": "nav-btn active",
+          "id": "",
+          "text": "Profile",
+          "left": 236,
+          "right": 312,
+          "width": 76,
+          "scrollWidth": 76
+        }
+      ]
+    }
+  ]
+}

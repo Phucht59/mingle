@@ -16,6 +16,12 @@
 *.png binary
 *.jpg binary
 *.jpeg binary
-
 # User-supplied V3.2 originals: preserve exact bytes and manifest hashes.
-/04_architecture/contracts/v3_2/source/** -text
+/02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/** -text
+# Captured audit evidence and its SHA manifests keep their original bytes.
+/03_Kiem_thu/Bang_chung/gd1_consistency_20261005/** -text
+/03_Kiem_thu/Bang_chung/gd1_targeted_closure_20261005/** -text
+/03_Kiem_thu/Bao_cao/GD1_Consistency_Audit_20261005/** -text
+/03_Kiem_thu/Bao_cao/GD1_Targeted_Closure_20261005/** -text
+03_Kiem_thu/QA_QC/QA_Handoff_Phase1_2_20261002/Mingo_QA_Phase1_Phase2_2026-10-02.zip filter=lfs diff=lfs merge=lfs -text
+03_Kiem_thu/QA_QC/QA_Handoff_Phase1_2_20261003/Mingo_QA_Phase1_Phase2_EvidenceGate_2026-10-03.zip filter=lfs diff=lfs merge=lfs -text

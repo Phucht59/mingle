@@ -1,0 +1,105 @@
+Command: "C:\Program Files\nodejs\node.EXE" tests/check_sql.mjs
+{
+  "engine": "PGlite PostgreSQL WASM",
+  "engine_version": "PostgreSQL 18.3 (PGlite 0.5.8) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+  "passed": 22,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "DDL executes in PostgreSQL WASM",
+      "status": "PASS"
+    },
+    {
+      "name": "valid attempt/answers/score/credit/receipt/outbox commits atomically",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong enrollment owner rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "activity from another release rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate command receipt rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "accepted receipt without attempt cannot commit",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong computed score cannot commit",
+      "status": "PASS"
+    },
+    {
+      "name": "incomplete question set cannot commit",
+      "status": "PASS"
+    },
+    {
+      "name": "missing outbox cannot commit",
+      "status": "PASS"
+    },
+    {
+      "name": "rollback leaves no partial attempt after deferred failure",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid option blocked by foreign key",
+      "status": "PASS"
+    },
+    {
+      "name": "repeat attempt retains one completion credit",
+      "status": "PASS"
+    },
+    {
+      "name": "optional activity score creates no credit",
+      "status": "PASS"
+    },
+    {
+      "name": "optional activity cannot receive required completion credit",
+      "status": "PASS"
+    },
+    {
+      "name": "credit bound to actual enrollment/activity of first attempt",
+      "status": "PASS"
+    },
+    {
+      "name": "canonical progress cannot drift from completion credits",
+      "status": "PASS"
+    },
+    {
+      "name": "attempt history cannot be overwritten",
+      "status": "PASS"
+    },
+    {
+      "name": "receipt history cannot be overwritten",
+      "status": "PASS"
+    },
+    {
+      "name": "scoring history cannot be overwritten",
+      "status": "PASS"
+    },
+    {
+      "name": "job logical effect uniqueness includes timer jobs without outbox",
+      "status": "PASS"
+    },
+    {
+      "name": "stale worker generation cannot complete reacquired job",
+      "status": "PASS"
+    },
+    {
+      "name": "exposure cannot target another learner decision",
+      "status": "PASS"
+    }
+  ],
+  "not_validated": [
+    "native PostgreSQL multi-connection concurrency",
+    "FastAPI command handler",
+    "JWT/RLS",
+    "production migrations and restore"
+  ]
+}
+
+Exit code: 0

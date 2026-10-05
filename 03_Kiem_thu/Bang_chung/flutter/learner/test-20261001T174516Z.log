@@ -1,0 +1,6 @@
+Commit: a112f762ab08f6fa688cc4857b21d95d1055ab5c
+Command: flutter test
+00:00 +0: loading C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart
+00:00 +0: V2 entry discloses review fixture and renders without overflow
+00:01 +1: All tests passed!
+Exit code: 0

@@ -1,0 +1,42 @@
+{
+  "source": "C:\\Mingo\\06_quality\\phase2\\final_gate\\2026-09-30\\inputs\\Mingo_Phase2_R1_Independent_QA_Control_2026-09-29.xlsx",
+  "output": "C:\\Mingo\\outputs\\phase2-completion-20260930\\Mingo_Phase2_QA_Control_Dashboard_Corrected_2026-09-30.xlsx",
+  "source_sha256": "6c3792d76628e894c46e814db933714a63b6669fd6bd936f1ac3b4d575438222",
+  "output_sha256": "e4fefc2f813c3b549d4f7263d974b157b1a17c537828519403c64f4e1758ad31",
+  "changed_parts": [
+    "xl/worksheets/sheet1.xml"
+  ],
+  "changed_cells": [
+    "A2",
+    "B4",
+    "E4",
+    "I4",
+    "B5",
+    "E5",
+    "I5",
+    "B6",
+    "E6",
+    "I6",
+    "E7",
+    "I7",
+    "E8",
+    "I8",
+    "I9",
+    "B10",
+    "I10",
+    "I11",
+    "B14"
+  ],
+  "totals": {
+    "unique_cases": 94,
+    "p0": 44,
+    "pass": 94
+  },
+  "unchanged_sheets": 13,
+  "all_non_dashboard_zip_parts_byte_identical": true,
+  "all_sheet_cell_styles_preserved": true,
+  "signoff_sheet_byte_identical": true,
+  "gate": "HOLD / NOT PASSED",
+  "independent_report_confirmation": "PENDING",
+  "visual_check": "native Excel required; artifact renderer exceeded two bounded attempts"
+}

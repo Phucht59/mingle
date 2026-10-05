@@ -1,0 +1,1518 @@
+MINGO — SUPER PROMPT #2
+GĐ1 TARGETED CLOSURE — AUD-001 / AUD-003 / AUD-005
+
+============================================================
+MISSION
+============================================================
+
+Bạn là Codex đang làm vai trò:
+
+Senior Implementation Consistency Auditor
++ Senior BA Traceability Auditor
++ Verification Operator
+
+cho dự án:
+
+MINGO — Adaptive Language Learning Platform
+
+Đây KHÔNG phải architecture redesign.
+Đây KHÔNG phải product ideation.
+Đây KHÔNG phải feature implementation.
+Đây KHÔNG phải một audit tổng quát mới.
+
+Nhiệm vụ duy nhất của lượt này là:
+
+1. tìm actual BA workbook;
+2. audit workbook thực tế;
+3. đóng hoặc chứng minh chưa thể đóng:
+   - AUD-001
+   - AUD-003
+   - AUD-005;
+4. chạy lại verification hiện hữu phù hợp;
+5. tạo Gate Recommendation mới cho GĐ1.
+
+Không được ép kết quả thành PASS.
+
+Evidence quyết định verdict.
+
+============================================================
+CURRENT DATE / ENVIRONMENT CONTEXT
+============================================================
+
+Ngày nghiệp vụ hiện tại:
+
+2026-10-05
+Timezone: Asia/Ho_Chi_Minh
+
+Expected local repository root:
+
+C:\Mingo
+
+Canonical GitHub repository:
+
+https://github.com/Phucht59/mingle
+
+Tên "mingo" và "mingle" từng được dùng trong project history.
+Không suy luận đây là hai project khác nếu repository identity chứng minh cùng repo.
+
+Previous targeted audit boundary:
+
+C:\Mingo\03_Kiem_thu\Bao_cao\GD1_Consistency_Audit_20261005\
+
+Previous audit verdict:
+
+FAIL
+
+Previous gate-blocking findings:
+
+AUD-001 — BLOCKER
+Actual 16-sheet BA workbook was NOT FOUND.
+
+AUD-003 — HIGH
+P0/P1 semantic traceability was not fully verified.
+
+AUD-005 — HIGH
+Account lifecycle BA coverage was not fully verified.
+
+ƯU TIÊN tuyệt đối:
+
+AUD-001
+→ AUD-003
+→ AUD-005
+→ verification regression
+→ GĐ1 gate.
+
+Không mở lại các finding đã FIXED/PASS trừ khi actual workbook tạo ra contradiction mới.
+
+============================================================
+SOURCE-OF-TRUTH HIERARCHY
+============================================================
+
+Áp dụng thứ tự authority sau:
+
+LEVEL 1
+V3.2 Architecture / Contract baseline
+
+>
+
+LEVEL 2
+Explicit Product Owner decisions, bao gồm decision packet trong prompt này
+
+>
+
+LEVEL 3
+Actual GĐ1 BA workbook
+
+>
+
+LEVEL 4
+Current repository implementation/spec artifacts
+
+>
+
+LEVEL 5
+Progress snapshots / historical status documents
+
+Nếu hai nguồn mâu thuẫn:
+
+- nguồn cao hơn thắng;
+- không tự "trộn" hai semantics;
+- ghi finding nếu lower source bị drift;
+- foundational change chỉ được thực hiện qua Change Request.
+
+Snapshot chỉ là continuity context.
+Snapshot không được override V3.2 hoặc explicit PO decision.
+
+============================================================
+V3.2 — PROTECTED BASELINE
+============================================================
+
+V3.2 là source of truth cho architecture/contracts.
+
+Known verified baseline từ audit trước:
+
+- 115/115 contract checks PASS
+- 22/22 SQL checks PASS
+- 102 original source hashes intact
+
+Các nguyên tắc sau được bảo vệ:
+
+- Flutter learner, Android-first
+- Flutter Web staff/admin
+- FastAPI/Python
+- PostgreSQL
+- Object Storage
+- Modular monolith
+- API process + durable worker
+- server authoritative for scoring/progress/permission
+- command != telemetry
+- durable command queue + telemetry queue
+- network restored != synced
+- published content immutable/versioned
+- attempt/enrollment pins exact revision
+- event time != knowledge/availability time
+- exact source capture
+- Mastery != Risk
+- ML optional
+- deterministic fallback
+- Prediction
+  → Recommendation Decision
+  → Exposure
+  → Execution
+  → Outcome
+
+Không sửa V3.2.
+
+Không sửa contract/schema/test để ép audit pass.
+
+Nếu actual workbook contradict V3.2:
+
+ghi finding.
+
+Nếu cần thay V3.2:
+
+tạo DRAFT Change Request,
+không sửa baseline.
+
+============================================================
+PRODUCT / LEARNING PRINCIPLES — APPROVED
+============================================================
+
+Giữ các nguyên tắc:
+
+- finite meaningful learning cycle
+- no infinite feed as core
+- no forced timer
+- exact 5 minutes is NOT invariant
+- first response preserved
+- retry does not rewrite first response
+- assisted != unaided
+- skip != completion
+- skip does not create mastery evidence
+- independent Check is distinct from assisted practice
+- no fake mastery percentage
+- recommendation must work when ML is disabled
+- recommendation reason must be truthful/auditable
+- no psychological label inference from clickstream
+- no "visual learner / auditory learner" personalization
+- progress should tell:
+  + what was done;
+  + what needs reinforcement;
+  + what to do next.
+
+============================================================
+PO DECISION PACKET — AUTHORITATIVE
+============================================================
+
+Product Owner has approved Q1–Q15.
+
+Q12 is explicitly DEFERRED-FUTURE,
+not permanently rejected.
+
+Use the following interpretation.
+
+------------------------------------------------------------
+Q1 — Initial MVP user
+------------------------------------------------------------
+
+Working MVP segment:
+
+Vietnamese learner,
+primarily 18–35,
+self-learning English,
+beginner / rebuilder.
+
+Classification:
+
+APPROVED OPERATING HYPOTHESIS.
+
+It is NOT customer-validated market truth.
+
+------------------------------------------------------------
+Q2 — Language scope
+------------------------------------------------------------
+
+MVP is English-first.
+
+Architecture/content model should not unnecessarily hard-code English
+where generalization is already supported.
+
+Do NOT build additional languages in this task.
+
+------------------------------------------------------------
+Q3 — Guest / Account Gate
+------------------------------------------------------------
+
+APPROVED.
+
+Guest may browse/preview Mingo.
+
+Guest may see, as applicable:
+
+- Welcome / product introduction
+- demo/home/catalog surfaces
+- Course
+- Lesson preview
+
+Before an action that creates learner learning state/evidence,
+authentication is required.
+
+Examples requiring authenticated learner:
+
+- Start Learning
+- learning Attempt
+- independent Check
+- durable Progress
+- Offline learning download
+- learning sync
+
+Authentication target:
+
+- Email: required supported method
+- Google: target supported method
+- Facebook: DEFERRED-FUTURE / optional expansion if feasible
+
+After successful authentication,
+the user should return to the intended learning destination/context
+when technically and semantically valid.
+
+Do NOT ask PO again whether learning requires an account.
+That decision already exists.
+
+If workbook lacks this,
+treat it first as DOCUMENTATION SYNCHRONIZATION,
+not automatically as a new business decision.
+
+------------------------------------------------------------
+Q4 — Goal
+------------------------------------------------------------
+
+Goal is optional and editable.
+
+Goal:
+
+- is preference/context;
+- is not mastery;
+- does not rewrite historical evidence;
+- does not bypass prerequisite;
+- may help rank eligible content.
+
+Exact goal category list remains subject to validation.
+
+------------------------------------------------------------
+Q5 — Placement
+------------------------------------------------------------
+
+Placement is optional.
+
+Skip is legitimate and non-punitive.
+
+Placement result is:
+
+provisional starting point
+
+NOT:
+
+mastery truth.
+
+Exact "6–9 items" is NOT production invariant.
+
+------------------------------------------------------------
+Q6 — Home priority
+------------------------------------------------------------
+
+APPROVED BASELINE ORDER:
+
+1. valid unfinished session / Resume
+2. due Review
+3. next eligible path content
+4. goal-matched eligible content
+5. deterministic fallback
+6. honest empty state when nothing is eligible
+
+Do not invent numeric thresholds below this priority.
+
+Do not let goal bypass eligibility/prerequisite.
+
+------------------------------------------------------------
+Q7 — Interruption
+------------------------------------------------------------
+
+APPROVED.
+
+Learning activity/session should autosave at the appropriate durable boundary.
+
+Leaving the app does not automatically mean abandoning learning.
+
+Resume behavior must exist conceptually.
+
+Do not create fake "your progress will be lost" UX
+when the product has already persisted valid state.
+
+------------------------------------------------------------
+Q8 — Return after absence
+------------------------------------------------------------
+
+APPROVED principle.
+
+No guilt/punishment.
+
+System may offer short reactivation/review
+before continuing path.
+
+Exact absence duration threshold is NOT frozen.
+
+------------------------------------------------------------
+Q9 — Gamification
+------------------------------------------------------------
+
+MVP may use light streak / meaningful milestones.
+
+Streak != proficiency/mastery.
+
+No XP farming economy, pressure leaderboard, shop economy
+as MVP core.
+
+These are not necessarily permanently rejected;
+see Q12.
+
+------------------------------------------------------------
+Q10 — Offline
+------------------------------------------------------------
+
+Approved MVP direction:
+
+download eligible content before offline use
+→ learn offline
+→ durable local save
+→ sync later
+
+UX/business state must distinguish:
+
+- available/downloaded locally
+- pending sync
+- syncing
+- synced
+- failed
+
+Network restored != synced.
+
+------------------------------------------------------------
+Q11 — Staff content lifecycle
+------------------------------------------------------------
+
+Approved minimum business role direction:
+
+Author
+→ Reviewer
+→ Publisher/Admin
+
+Minimum lifecycle:
+
+Draft
+→ Submit Review
+→ Review
+→ Return or Approve
+→ Publish
+→ Published Revision
+→ New Revision when changes are needed
+
+Published revision remains immutable.
+
+Do not invent enterprise CMS complexity.
+
+------------------------------------------------------------
+Q12 — Future capabilities
+------------------------------------------------------------
+
+The following are:
+
+DEFERRED-FUTURE
+
+not permanently rejected:
+
+- advanced Speaking AI
+- AI chatbot
+- social/community
+- leaderboard
+- advanced gamification
+- production Risk Prediction
+- ML ranking/adaptive optimization
+- advanced Intervention
+
+They are OUT OF CURRENT MVP IMPLEMENTATION,
+but remain future candidates.
+
+Do not implement/spec them deeply in GĐ1 closure.
+
+------------------------------------------------------------
+Q13 — Pricing
+------------------------------------------------------------
+
+Pricing / monetization is RESEARCH.
+
+Not frozen for GĐ1.
+
+------------------------------------------------------------
+Q14 — Child product
+------------------------------------------------------------
+
+Child/Guardian product mode is DEFERRED-FUTURE.
+
+Do not treat 0–17 as same UX as adult learner.
+
+Do not design child product in this task.
+
+------------------------------------------------------------
+Q15 — Customer validation
+------------------------------------------------------------
+
+Real customer discovery has NOT been completed.
+
+Classification:
+
+VALIDATION DEBT.
+
+This task may approve:
+
+"GĐ1 — Internal BA Baseline"
+
+if internal evidence is complete.
+
+It may NOT claim:
+
+- customer validated
+- market validated
+- product-market fit
+- learning efficacy proven
+- ML efficacy proven
+
+Do not change customer discovery to DONE.
+
+============================================================
+ARTIFACT DISCOVERY — AUD-001
+============================================================
+
+FIRST TARGET:
+
+actual BA workbook.
+
+Exact expected title:
+
+Mingo GD1 — Quản lý Phân tích Nghiệp vụ.xlsx
+
+Also search filename variants such as:
+
+Mingo_GD1_Quan_Ly_Phan_Tich_Nghiep_Vu.xlsx
+
+Search recursively under:
+
+C:\Mingo\
+
+with particular attention to:
+
+C:\Mingo\02_Tai_lieu_du_an\**
+
+Expected canonical project zone if file is missing:
+
+C:\Mingo\02_Tai_lieu_du_an\**\Mingo GD1 — Quản lý Phân tích Nghiệp vụ.xlsx
+
+Do NOT create the missing file just to satisfy AUD-001.
+
+Also search for:
+
+MINGO_PROJECT_PROGRESS_SNAPSHOT_2026-10-04.md
+
+and current:
+
+MINGO_PROJECT_PROGRESS_SNAPSHOT_2026-10-05.md
+
+Historical snapshot absence is NOT automatically gate-blocking
+because AUD-002 was already handled separately.
+
+------------------------------------------------------------
+TRANSFER IDENTITY ANCHORS
+------------------------------------------------------------
+
+The exact workbook supplied by PO to the research session had SHA-256:
+
+0878ee84d20283dc90bd8881c8a8b3f9ea91e150fbf86803b8e54a2aff85251e
+
+The exact 2026-10-04 snapshot supplied to that session had SHA-256:
+
+795252dbf8e9cc26ae5f319a9121121e4b5d4bd60d8e3d801773c43a43c4b148
+
+These hashes are identity anchors only.
+
+If local hash MATCHES:
+record EXACT MATCH.
+
+If local hash differs:
+record DIFFERENT VERSION,
+inspect content/version,
+do NOT reject the artifact solely because the hash differs.
+
+------------------------------------------------------------
+EXPECTED WORKBOOK SHEETS
+------------------------------------------------------------
+
+Expected 16-sheet artifact:
+
+00_Dashboard
+01_Huong_dan
+02_Roadmap_8_GD
+03_Yeu_cau_Nghiep_vu
+04_Business_Rules
+05_UseCase_Trigger
+06_User_Journey
+07_RTM
+08_Wireframe_Learner
+09_Wireframe_Staff
+10_WBS
+11_RACI
+12_RAID
+13_Research_Evidence
+14_Decision_Log
+15_Test_Gate
+
+The exact workbook supplied to the research session had diagnostic counts:
+
+- 16 PRD
+- 30 BR
+- 25 Trigger
+- 14 Use Case
+- 8 RTM Need rows
+- 9 learner WF
+- 1 staff WF
+
+These are FINGERPRINTS,
+not requirements.
+
+If local version differs:
+
+do not mutate it to force counts;
+record VERSION DRIFT and inspect the actual version.
+
+------------------------------------------------------------
+KNOWN WORKBOOK CANDIDATES TO VERIFY
+------------------------------------------------------------
+
+These are NOT assumptions to blindly copy.
+
+Verify them against the actual workbook:
+
+Candidate A:
+07_RTM previously contained:
+
+N-06 → WF-10
+
+while learner wireframe namespace appeared to contain WF-01..WF-09.
+
+Candidate B:
+10_WBS item 1.11 Traceability was previously marked DONE.
+
+Candidate C:
+Requirement trace columns such as Evidence/Wireframe/Test
+were incomplete in an earlier artifact.
+
+Candidate D:
+Business Rule "Related Req" mappings were incomplete.
+
+Candidate E:
+Account lifecycle was not represented as a complete canonical BA flow.
+
+For each candidate report:
+
+CONFIRMED
+FIXED IN CURRENT VERSION
+NOT APPLICABLE
+NOT FOUND
+UNKNOWN
+
+Never assume the prior observation is still true.
+
+============================================================
+AUD-001 CLOSURE RULE
+============================================================
+
+AUD-001 may be CLOSED only when:
+
+1. an actual BA workbook is present;
+2. absolute path is recorded;
+3. SHA-256 is recorded;
+4. file size and modified timestamp are recorded;
+5. workbook can be opened without fabrication;
+6. actual sheet inventory is recorded;
+7. artifact authority/version is stated.
+
+If file is absent:
+
+AUD-001 remains BLOCKER.
+
+Output:
+
+NOT FOUND
+
+and list:
+
+- search roots;
+- filename patterns used;
+- expected canonical project zone;
+- every plausible candidate found and why it was rejected.
+
+Continue repository-only checks,
+but DO NOT claim workbook closure.
+
+============================================================
+REPOSITORY SAFETY / OPERATING MODE
+============================================================
+
+Before doing anything:
+
+1. locate and read all applicable:
+   - AGENTS.md
+   - AGENTS.override.md
+   - repo instructions
+   - README / START_HERE / REPO_RULES where applicable;
+
+2. record:
+   - git root
+   - current branch
+   - HEAD SHA
+   - git remotes
+   - git status --porcelain
+   - existing dirty files.
+
+Do not destroy pre-existing dirty state.
+
+FORBIDDEN:
+
+- git reset
+- git clean
+- git checkout to discard changes
+- git restore on unknown user changes
+- git stash
+- commit
+- amend
+- merge
+- rebase
+- pull
+- push
+- branch creation
+- dependency upgrades
+- package-lock changes
+- migration changes
+- schema changes
+- code changes
+- test changes
+- V3.2 changes
+
+No command may intentionally modify production/source semantics.
+
+Allowed writes are restricted to:
+
+A. new audit report/evidence files under the dedicated audit output;
+B. candidate documentation patches that do NOT replace canonical files;
+C. a candidate workbook copy ONLY if a safe clerical fix is needed.
+
+Do NOT overwrite the canonical workbook.
+
+If creating a candidate workbook:
+
+preserve original untouched,
+write:
+
+Mingo_GD1_Quan_Ly_Phan_Tich_Nghiep_Vu_TARGETED_CANDIDATE_20261005.xlsx
+
+inside the audit output directory.
+
+Record original and candidate SHA-256.
+
+============================================================
+OUTPUT DIRECTORY
+============================================================
+
+Create a NEW targeted closure directory.
+
+Preferred:
+
+C:\Mingo\03_Kiem_thu\Bao_cao\GD1_Targeted_Closure_20261005\
+
+Evidence:
+
+C:\Mingo\03_Kiem_thu\Bang_chung\gd1_targeted_closure_20261005\
+
+If the report directory already exists:
+
+do not overwrite a previous completed audit.
+
+Create a deterministic suffix, for example:
+
+GD1_Targeted_Closure_20261005_v2
+
+Record the actual path used.
+
+============================================================
+BASELINE BEFORE FIXES
+============================================================
+
+Before applying any safe documentation fix:
+
+capture:
+
+- git status
+- hashes of affected artifacts
+- workbook sheet inventory
+- requirement inventory
+- current finding status
+- test/check baseline
+
+All findings must preserve:
+
+Observed BEFORE fix
+
+and
+
+Disposition AFTER fix.
+
+Never erase evidence that a defect existed.
+
+============================================================
+WORKBOOK INGESTION METHOD
+============================================================
+
+Read workbook programmatically in a non-destructive mode.
+
+Inspect at minimum:
+
+- visible/hidden sheets
+- sheet names
+- used ranges
+- formulas where relevant
+- IDs
+- relationships
+- statuses
+- priority
+- decision classification
+- test IDs
+- wireframe IDs
+- duplicate IDs
+- dangling IDs
+
+Do not use file existence as semantic PASS.
+
+For every relationship classify evidence as:
+
+EXPLICIT
+SEMANTICALLY SUPPORTED
+MISSING
+CONFLICT
+DEFERRED
+NOT APPLICABLE
+UNKNOWN
+
+"Semantically supported" requires cited source text.
+
+Do not create trace edges based only on similar names.
+
+============================================================
+P0 / P1 INVENTORY
+============================================================
+
+Priority must come from the actual requirement artifact.
+
+Do NOT infer requirement priority from:
+
+- QA priority
+- screen priority
+- implementation order
+- your own judgment.
+
+If requirement priority is blank:
+
+Priority = UNKNOWN
+
+and create a gap.
+
+The PO-supplied workbook version had the following diagnostic priority split:
+
+P0:
+PRD-01
+PRD-02
+PRD-03
+PRD-04
+PRD-10
+PRD-14
+PRD-15
+PRD-16
+
+P1:
+PRD-05
+PRD-06
+PRD-07
+PRD-08
+PRD-09
+PRD-11
+PRD-12
+PRD-13
+
+Treat this only as a fingerprint.
+
+If actual workbook differs,
+use actual workbook and report drift.
+
+Audit P0 FIRST.
+
+Then P1.
+
+============================================================
+AUD-003 — SEMANTIC TRACEABILITY AUDIT
+============================================================
+
+Required semantic chain:
+
+Business Need
+→ Requirement
+→ Business Rule
+→ Trigger
+→ Use Case / Flow
+→ Screen / State
+→ Acceptance Criteria
+→ Test / Verification
+
+A capability does NOT necessarily require one unique artifact at every node.
+
+But if a node is omitted,
+you must explain why traceability remains sufficient.
+
+For every P0/P1 requirement produce:
+
+Requirement ID
+Priority
+Requirement statement
+Decision status
+
+Business Rule:
+- IDs
+- evidence location
+- relation type
+
+Trigger:
+- IDs
+- evidence location
+- relation type
+
+Use Case / Flow:
+- IDs
+- evidence location
+- relation type
+
+Screen / State:
+- IDs
+- evidence location
+- relation type
+
+Acceptance/Test:
+- IDs
+- evidence location
+- executed or specification-only
+
+Result:
+PASS
+PARTIAL
+FAIL
+DEFERRED
+UNKNOWN
+
+Gap:
+specific missing semantic link.
+
+Every evidence reference should use exact locator when possible:
+
+Workbook:
+Sheet!Cell
+Sheet!Range
+Row ID
+
+Repo:
+absolute or repository-relative path
++ section / line / identifier when available.
+
+Do not use generic evidence such as:
+
+"Found in docs."
+
+============================================================
+AUD-003 CLOSURE RULE
+============================================================
+
+AUD-003 can close only when:
+
+1. every P0 requirement has a reviewable semantic chain;
+2. every P1 requirement has a reviewable semantic chain or explicit justified DEFERRED classification;
+3. no gate-relevant dangling references remain;
+4. orphan BR/Trigger/UC relevant to MVP are resolved or justified;
+5. requirement priority comes from accountable source;
+6. Acceptance/Test references distinguish:
+   - spec exists
+   - executable test exists
+   - test actually executed;
+7. all safe trace links are repaired in the candidate closure artifact/patch plan;
+8. no semantic contradiction remains hidden as a "trace fix".
+
+A traceability gap is NOT closed by merely putting IDs into cells.
+
+============================================================
+AUD-005 — ACCOUNT LIFECYCLE AUDIT
+============================================================
+
+Important:
+
+Do NOT treat "does Mingo require account to learn?"
+as unresolved.
+
+PO already decided the Account Gate.
+
+Audit the following candidate lifecycle surface:
+
+A. Guest state
+B. Register / create account
+C. Sign in
+D. Sign out
+E. Session restoration / returning user
+F. Authentication failure
+G. Credential/account recovery
+H. Reauthentication for sensitive actions if required
+I. Device change / restoring server-backed learner state
+J. Account state / unavailable account if applicable
+K. Profile/preferences
+L. Account deletion
+M. Data export where required
+N. Return to intended destination after authentication
+
+For each capability classify:
+
+APPROVED
+REQUIRED BY V3.2 CONTRACT
+EXPLICIT IN WORKBOOK
+EXPLICIT IN REPO
+DEFERRED
+UNDECIDED
+NOT APPLICABLE
+
+Then map:
+
+Account Capability
+→ Requirement
+→ BR
+→ Trigger
+→ UC
+→ Screen/State
+→ Acceptance/Test.
+
+============================================================
+ACCOUNT CHANGE-REQUEST RULE
+============================================================
+
+Do NOT create CR-GD1-001 merely because the workbook failed to copy
+an already-approved PO decision.
+
+The following are safe synchronization:
+
+- guest may browse;
+- authentication required before learning evidence;
+- Email required target;
+- Google target;
+- Facebook deferred/future;
+- preserve destination after successful login;
+- Q4/Q5/Q6/Q7/Q8/Q10/Q11 principles already approved.
+
+A Change Request is required ONLY when closing AUD-005 requires
+a business semantic that is not already determined by:
+
+V3.2
+or
+explicit PO decisions
+or
+existing approved workbook rule.
+
+Examples that may require CR if sources do not decide them:
+
+- mandatory email verification policy;
+- exact password recovery rules;
+- exact session expiry;
+- exact concurrent-device policy;
+- exact suspended/deactivated-account behavior;
+- exact data-export SLA;
+- exact deletion grace period;
+- exact recovery window;
+- exact provider linking/unlinking behavior.
+
+Do NOT invent these.
+
+If such unresolved semantics are necessary for GĐ1 closure:
+
+create:
+
+CR-GD1-001 — DRAFT
+
+with exact decision questions.
+
+If they can be safely deferred without breaking P0 business behavior:
+
+classify them explicitly as DEFERRED
+with reason and target stage.
+
+============================================================
+AUD-005 CLOSURE RULE
+============================================================
+
+AUD-005 can close if:
+
+1. Account Gate is traceable;
+2. minimum MVP account behavior is explicitly scoped;
+3. each necessary lifecycle capability is:
+   - specified,
+   - explicitly deferred,
+   - or escalated via CR;
+4. no P0 learning flow depends on undefined authentication behavior;
+5. deletion/export/privacy boundaries are not falsely declared implemented;
+6. future Auth implementation remains GĐ4/appropriate technical stage;
+7. no auth code is implemented in this task.
+
+If a required P0 business decision is still unknown:
+
+AUD-005 stays HIGH/OPEN.
+
+============================================================
+SAFE FIX CLASSIFICATION
+============================================================
+
+SAFE — no Change Request:
+
+- spelling/terminology normalization;
+- stale status correction;
+- broken reference repair when intended target is unambiguous;
+- adding missing trace link that is explicitly supported by sources;
+- changing WBS status from DONE to ACTIVE when DoD is objectively unmet;
+- synchronizing workbook with explicit higher-authority PO decision;
+- changing Q12 label from REJECTED/OUT FOREVER to DEFERRED-FUTURE;
+- synchronizing approved Home priority;
+- adding exact evidence locator;
+- correcting outdated source reference;
+- marking UNKNOWN instead of pretending a decision exists.
+
+NOT SAFE — Change Request required:
+
+- adding new product behavior not already approved;
+- changing authorization meaning;
+- changing learning-evidence semantics;
+- changing completion/mastery meaning;
+- changing recommendation priority beyond approved order;
+- adding threshold;
+- adding retry/replay/skip numeric limit;
+- creating new required account policy;
+- changing V3.2;
+- redefining MVP audience as validated fact;
+- changing deferred capability into MVP;
+- changing requirement priority without accountable authority.
+
+============================================================
+KNOWN N-06 → WF-10 RULE
+============================================================
+
+If actual RTM contains:
+
+N-06 → WF-10
+
+and no WF-10 exists:
+
+do NOT guess the replacement.
+
+Investigate:
+
+- use case semantics;
+- offline wireframe/state;
+- current screen catalog;
+- learner profile/download/offline states;
+- repo state catalog.
+
+Only repair the reference if the intended target is unambiguous
+from explicit evidence.
+
+Otherwise:
+
+keep finding OPEN,
+list candidate targets,
+state why none is authoritative.
+
+============================================================
+WBS 1.11 RULE
+============================================================
+
+If:
+
+10_WBS / item 1.11 Traceability
+
+is marked DONE
+while AUD-003 evidence shows traceability incomplete:
+
+changing:
+
+DONE → ACTIVE
+
+is a SAFE STATUS FIX.
+
+Do not mark it DONE again until AUD-003 closure conditions are met.
+
+============================================================
+EXECUTABLE VERIFICATION
+============================================================
+
+Before running commands:
+
+verify each referenced path/script exists.
+
+Do not invent command names.
+
+Prefer existing documented commands.
+
+Known previous commands to verify and reuse when still applicable:
+
+1.
+
+.local/v32-venv/Scripts/python.exe -X utf8 04_Van_hanh/Scripts/check_original_contracts.py
+
+Previous expected evidence:
+
+115 contract checks
+22 SQL checks
+102 original hashes intact
+
+2.
+
+.local/v32-venv/Scripts/python.exe -m pip check
+
+3.
+
+.local/v32-venv/Scripts/python.exe -m unittest discover -s 04_Van_hanh/tests -v
+
+Previous result:
+
+9 additive guards passed
+
+4.
+
+.venv/Scripts/python.exe -m pytest 01_San_pham/backend/tests -q
+
+If generating JUnit output,
+write only under the new audit evidence directory.
+
+5.
+
+Flutter tests previously used:
+
+flutter test test/fixture_test.dart test/independent_test.dart test/presentation_test.dart --reporter json
+
+Run from the correct Flutter package directory.
+
+6.
+
+Existing verification script candidate:
+
+python -X utf8 04_Van_hanh/Scripts/verify_phase2_artifacts.py
+
+Only run if still applicable and source/path exists.
+
+Record for EVERY command:
+
+- working directory
+- exact command
+- environment/tool versions if material
+- start/end time
+- exit code
+- actual result
+- pass/fail/skip count
+- generated artifact
+- limitation.
+
+Do not report:
+
+"PASS"
+
+when command was not executed.
+
+Use:
+
+NOT EXECUTED
+BLOCKED
+SKIPPED
+PARTIAL EXECUTION
+
+as appropriate.
+
+============================================================
+TEST / EVIDENCE SEMANTICS
+============================================================
+
+Distinguish:
+
+ARTIFACT PRESENT
+
+STRUCTURAL VALIDATION
+
+SEMANTIC VALIDATION
+
+EXECUTABLE CHECK
+
+RUNTIME VALIDATION
+
+HUMAN VALIDATION
+
+CUSTOMER VALIDATION
+
+Never collapse them.
+
+Examples:
+
+Contract file exists
+!=
+contract test passed.
+
+Contract test passed
+!=
+runtime feature implemented.
+
+Flutter widget test passed
+!=
+human usability passed.
+
+Customer discovery plan exists
+!=
+customer validation completed.
+
+============================================================
+REPOSITORY STATE PROTECTION
+============================================================
+
+Capture git status BEFORE tests.
+
+Capture git status AFTER tests.
+
+Compare them.
+
+If tests create generated noise:
+
+identify it.
+
+Do not delete or restore files unless you can prove they were generated
+by this audit and are not pre-existing user work.
+
+Never erase unknown dirty files.
+
+No commit/push in this task.
+
+============================================================
+FINDING SEVERITY
+============================================================
+
+BLOCKER
+
+GĐ1 internal baseline cannot close.
+
+Examples:
+
+- actual canonical artifact missing;
+- contradiction with V3.2 affecting P0 behavior;
+- missing P0 business definition causing undefined product behavior.
+
+HIGH
+
+Must normally be resolved before gate.
+
+Examples:
+
+- incomplete P0/P1 semantic trace;
+- unresolved MVP account behavior.
+
+MEDIUM
+
+Debt that does not block internal baseline.
+
+LOW
+
+Editorial/cleanup.
+
+INFO
+
+Observation/evidence.
+
+============================================================
+FINDING FORMAT
+============================================================
+
+Use exactly:
+
+ID:
+Severity:
+Status:
+Area:
+Artifact:
+Location:
+Observed:
+Expected:
+Evidence:
+Source of truth:
+Impact:
+Recommended action:
+Change Request required:
+Gate blocking:
+Before fix:
+After fix:
+
+Preserve existing IDs:
+
+AUD-001
+AUD-003
+AUD-005
+
+Do not create replacement IDs for the same problem.
+
+New distinct issues:
+
+AUD-013 onward
+or the next unused ID after inspecting the existing register.
+
+============================================================
+GATE LOGIC
+============================================================
+
+FAIL if:
+
+- AUD-001 remains BLOCKER;
+- OR AUD-003 remains HIGH;
+- OR AUD-005 remains HIGH;
+- OR any new BLOCKER/HIGH remains unresolved.
+
+CONDITIONAL PASS if:
+
+- no BLOCKER;
+- no unresolved HIGH;
+- only MEDIUM/LOW/INFO debt remains;
+- customer validation remains VALIDATION DEBT;
+- implementation/runtime debt is clearly separated.
+
+PASS if:
+
+- no BLOCKER;
+- no unresolved HIGH;
+- P0/P1 BA baseline is internally consistent;
+- remaining debt is explicitly non-gating.
+
+A PASS means only:
+
+GĐ1 — INTERNAL BA BASELINE APPROVED
+
+It does NOT mean:
+
+- Customer Validated
+- Market Validated
+- Product-Market Fit
+- Production Ready
+- Learning Effectiveness Proven
+- ML Effectiveness Proven.
+
+============================================================
+REQUIRED CONSISTENCY MATRIX
+============================================================
+
+Produce:
+
+| Area | V3.2 | PO Decision | Workbook | Repo | Snapshot | Result | Finding |
+
+Include at least:
+
+Architecture
+Authority
+Content versioning
+Learning evidence
+Assessment
+Offline
+Telemetry
+Analytics
+Recommendation
+ML optionality
+Privacy
+Actors
+Account
+Staff/content
+NFR
+Scope
+Traceability
+
+============================================================
+REQUIRED TRACEABILITY TABLE
+============================================================
+
+Produce:
+
+| Requirement | Priority | BR | Trigger | UC/Flow | Screen/State | Acceptance/Test | Evidence Type | Result | Gap |
+
+Audit ALL P0 first.
+
+Then ALL P1.
+
+Also include orphan registers:
+
+- BR without Req
+- Trigger without Req/UC
+- UC without Requirement
+- Wireframe/State without business basis
+- Test without requirement
+- Requirement without test/acceptance
+
+Do not assume every support screen is unauthorized.
+Justify inherited/support/future surfaces.
+
+============================================================
+REQUIRED ACCOUNT MATRIX
+============================================================
+
+Produce:
+
+| Account Capability | Status | Requirement | BR | Trigger | UC | Screen/State | Test/AC | Source | Gap |
+
+At minimum inspect:
+
+Guest browse
+Registration
+Login
+Email auth
+Google auth
+Facebook future
+Logout
+Session restoration
+Recovery
+Reauthentication
+Device change
+Profile/preferences
+Delete account
+Export data
+Return-to-intended-destination
+
+Do not invent policies.
+
+============================================================
+MERMAID OUTPUTS REQUIRED
+============================================================
+
+Include a traceability diagram:
+
+```mermaid
+flowchart LR
+    REQ[Requirement] --> BR[Business Rule]
+    BR --> TRG[Trigger]
+    TRG --> UC[Use Case / Flow]
+    UC --> UI[Screen / State]
+    UI --> AC[Acceptance Criteria]
+    AC --> TEST[Test / Verification]

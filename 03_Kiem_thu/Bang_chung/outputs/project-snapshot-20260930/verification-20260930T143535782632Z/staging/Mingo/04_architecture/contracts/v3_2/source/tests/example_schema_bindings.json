@@ -1,0 +1,19 @@
+{
+  "submit_attempt_command": "submit_attempt_command",
+  "command_receipt.accepted": "command_receipt",
+  "command_receipt.rejected": "command_receipt",
+  "command_sync_result.duplicate": "command_sync_result",
+  "command_sync_result.duplicate_rejected": "command_sync_result",
+  "command_sync_result.retryable": "command_sync_result",
+  "content_release_manifest": "content_release_manifest",
+  "offline_download_grant": "offline_download_grant",
+  "offline_package": "offline_package",
+  "release_access_status": "release_access_status",
+  "source_capture": "source_capture",
+  "feature_snapshot": "feature_snapshot",
+  "feature_schema": "feature_schema",
+  "model_bundle": "model_bundle",
+  "prediction.available": "prediction",
+  "prediction.model_unavailable": "prediction",
+  "recommendation_decision.rule": "recommendation_decision"
+}

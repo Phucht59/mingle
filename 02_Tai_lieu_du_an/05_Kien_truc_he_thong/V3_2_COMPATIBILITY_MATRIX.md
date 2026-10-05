@@ -1,0 +1,30 @@
+# V3.2 compatibility mapping — exact source, 2026-09-26
+
+All references below are relative to `contracts/v3_2/source`. Their exact byte hashes
+are in `02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/SHA256SUMS.txt`. This maps the Phase 1 requirements
+to the supplied authority; it does not claim that future product features already run.
+
+| Requirement | Exact authority | Assessment and implementation boundary | Original verification / remaining acceptance |
+|---|---|---|---|
+| First answer, retry, hint and skip (PRD-02..04) | `docs/02_MVP_INVARIANTS.md` §§1–5, `contracts/scoring_policy_v1.json` (`completion_policy_v1`), `schemas/submit_attempt_command_v1.schema.json` | COMPATIBLE authority boundary. Every submitted activity answers all questions; skip alone submits no scored completion. Feedback retry uses a new attempt ID, never overwrites finalized answers. First/assisted pedagogical evidence is additional product context, not a new score formula | `score exact command`, rejection checks for duplicate/missing questions and invalid options; SQL immutable history/repeat credit. Full learning handler and pedagogical evidence tests remain Phase 5 |
+| Replay, hint, Check and placement (PRD-03,05,09) | `contracts/event_catalog_v1.json` (`audio_replayed`, `hint_opened`), `schemas/events/audio_replayed_v1.schema.json`, `docs/07_SECURITY_PERMISSION_V3.md` (Telemetry context), `validators/validate_contracts.py::validate_event` | COMPATIBLE authority boundary; II-03 mapping resolved. Audio payload has media ID and position, not verified listens. UI cap/placement conditions cannot authorize score. New condition metadata requires an explicit versioned contract when implemented | Schema/meta checks run in original suite. Runtime ownership/late-event/offline tests are future Phase 3/5/6 acceptance; original 115 do not execute every helper, including `validate_event` |
+| Content, revisions and curriculum (PRD-06..08,13..14) | `docs/04_OFFLINE_CONTENT_ACCESS_PROTOCOL.md`, `schemas/content_release_manifest_v1.schema.json`, `schemas/offline_download_grant_v1.schema.json`, `docs/13_FREEZE_LIST_V3.md` | COMPATIBLE immutable content/release pinning. Full A0–B2 curriculum, prerequisites and adaptive path are later product work; first contract implementation supports the two frozen MCQ activity types | `release semantic/JCS/resource graph`, activity/key/resource bytes and offline grant checks. Publishing/device download and curriculum tests remain Phase 4/5/6/9 |
+| Learning evidence, time and Q9 (PRD-07,10,15) | `docs/05_POINT_IN_TIME_SOURCE_CAPTURE.md` (V3.2 visibility correction), `schemas/source_capture_v1.schema.json`, `schemas/feature_snapshot_v1.schema.json`, `docs/06_ML_CONTRACT_V3.md` | COMPATIBLE evidence boundary. Read-view membership is authority; timestamp filters cannot recreate old visibility. Mastery/risk and the Q9 challenge policy remain separate. New objective/band/condition fields are an IMPLEMENTATION GAP for later versioned schemas | `source capture membership/hash`, snapshot lineage and rejects for future evidence, wrong payload and impersonated read views. Native capture/learning-policy runtime tests remain Phase 8/9 |
+| Progress, streak and rewards (PRD-11..12) | `docs/02_MVP_INVARIANTS.md` §§3–6, `docs/03_RECEIPT_SYNC_PROTOCOL.md`, `contracts/core_ddl_postgresql.sql` (completion_credit/progress_state constraints) | COMPATIBLE: completion is valid fully scored submission; required credit unique by enrollment/activity. Streak/XP/timezone are not specified in V3.2 and cannot change canonical progress. IMPLEMENTATION GAP belongs to later product policy | Original SQL optional/repeat credit, progress drift, duplicate receipt and rollback checks. Native domain concurrency/reward timezone tests remain Phase 5/6/13 |
+| Scheduler, disabled ML and decision audit (PRD-08,13,16) | `docs/09_RECOMMENDATION_AUDIT_V3.md`, `schemas/recommendation_decision_v1.schema.json`, `schemas/model_bundle_v1.schema.json`, `docs/13_FREEZE_LIST_V3.md` | COMPATIBLE rule-based path and optional prediction. Decision/exposure/execution/outcome remain separate; model fixtures stay non-deployable. Scheduler implementation remains later scope | Rule recommendation audit/window; production/shadow fixture rejection; original SQL foreign-learner exposure rejection. Product fallback tests remain Phase 9/11 |
+| Staff, identity and security | `docs/07_SECURITY_PERMISSION_V3.md`, `contracts/openapi_vertical_slice_v1.yaml`, `docs/03_RECEIPT_SYNC_PROTOCOL.md` complete response matrix | COMPATIBLE server-owned identity/scope and auth/business-receipt separation. Current Phase 1 API exposes health endpoints only; it does not claim authenticated domain routes | Full OpenAPI validation and foreign-owner SQL constraints. Actual JWT/RLS/object-scope denial tests remain Phase 3/12/13 |
+| Durable work and immutable storage | `docs/08_WORKER_FENCING_OUTBOX.md`, `docs/10_RETENTION_DELETE_RESTORE_V3.md` | COMPATIBLE foundation direction. Current lease-token infrastructure probes are not a claim of implemented domain generation fencing, deletion, backup or restoration | Original SQL stale-generation/logical-effect uniqueness plus six independent native foundation tests. Domain deletion/recovery and pilot SLO acceptance remain Phase 7/13/15 |
+
+## II-03 resolution
+
+`audio_replayed` is analytics/ML-candidate telemetry with enrollment/activity/media
+context. A reported event cannot prove physical listens; a missing event cannot prove
+zero listens. `submit_attempt_v1` and server scoring remain independent of playback.
+The product's two offered plays is a UI hypothesis. Check condition quality and Q9
+eligibility must stay unknown when supporting context is missing. These decisions
+resolve the authority question without adding fields to frozen schemas or changing
+their score rules. V1–V9 in `DECISION_TEST_VECTORS.md` remain later domain acceptance.
+
+No demonstrated contradiction requires changing V3.2; no Change Request is opened.
+Phase 1 closes repository/toolchain/runtime-foundation and authority-mapping work.
+The existing Phase 0–17 roadmap retains all later runtime/product acceptance gates.

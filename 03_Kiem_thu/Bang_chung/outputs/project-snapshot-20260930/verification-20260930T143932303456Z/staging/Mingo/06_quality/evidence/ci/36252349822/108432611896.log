@@ -1,0 +1,312 @@
+2026-09-26T15:33:29.2463808Z Current runner version: '2.337.0'
+2026-09-26T15:33:29.2493005Z ##[group]Runner Image Provisioner
+2026-09-26T15:33:29.2494277Z Hosted Compute Agent
+2026-09-26T15:33:29.2495056Z Version: 20260828.587
+2026-09-26T15:33:29.2495723Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+2026-09-26T15:33:29.2496556Z Build Date: 2026-08-28T16:44:25Z
+2026-09-26T15:33:29.2497294Z Worker ID: {da5607d3-e2dd-4e3d-abfb-3982b473b536}
+2026-09-26T15:33:29.2498032Z Azure Region: eastus
+2026-09-26T15:33:29.2498754Z ##[endgroup]
+2026-09-26T15:33:29.2500352Z ##[group]Operating System
+2026-09-26T15:33:29.2501014Z Ubuntu
+2026-09-26T15:33:29.2501661Z 24.04.5
+2026-09-26T15:33:29.2502263Z LTS
+2026-09-26T15:33:29.2502833Z ##[endgroup]
+2026-09-26T15:33:29.2503903Z ##[group]Runner Image
+2026-09-26T15:33:29.2504788Z Image: ubuntu-24.04
+2026-09-26T15:33:29.2505513Z Version: 20260920.314.1
+2026-09-26T15:33:29.2506890Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+2026-09-26T15:33:29.2508539Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+2026-09-26T15:33:29.2509493Z ##[endgroup]
+2026-09-26T15:33:29.2511119Z ##[group]GITHUB_TOKEN Permissions
+2026-09-26T15:33:29.2513738Z Contents: read
+2026-09-26T15:33:29.2514513Z Metadata: read
+2026-09-26T15:33:29.2515136Z ##[endgroup]
+2026-09-26T15:33:29.2517400Z Secret source: Actions
+2026-09-26T15:33:29.2518478Z Cache mode: write
+2026-09-26T15:33:29.2519993Z Prepare workflow directory
+2026-09-26T15:33:29.2861922Z Prepare all required actions
+2026-09-26T15:33:29.2910987Z Getting action download info
+2026-09-26T15:33:29.5379388Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-09-26T15:33:29.6303756Z Download action repository 'subosito/flutter-action@v2' (SHA:1a449444c387b1966244ae4d4f8c696479add0b2)
+2026-09-26T15:33:29.8391724Z Getting action download info
+2026-09-26T15:33:29.9287603Z Download action repository 'actions/cache@v5' (SHA:caa296126883cff596d87d8935842f9db880ef25)
+2026-09-26T15:33:30.0756015Z Complete job name: flutter (staff)
+2026-09-26T15:33:30.1543654Z ##[group]Run actions/checkout@v4
+2026-09-26T15:33:30.1544632Z with:
+2026-09-26T15:33:30.1545105Z   repository: Phucht59/mingo
+2026-09-26T15:33:30.1548862Z   token: ***
+2026-09-26T15:33:30.1549315Z   ssh-strict: true
+2026-09-26T15:33:30.1549767Z   ssh-user: git
+2026-09-26T15:33:30.1550222Z   persist-credentials: true
+2026-09-26T15:33:30.1550719Z   clean: true
+2026-09-26T15:33:30.1551183Z   sparse-checkout-cone-mode: true
+2026-09-26T15:33:30.1551720Z   fetch-depth: 1
+2026-09-26T15:33:30.1552161Z   fetch-tags: false
+2026-09-26T15:33:30.1552623Z   show-progress: true
+2026-09-26T15:33:30.1553255Z   lfs: false
+2026-09-26T15:33:30.1553703Z   submodules: false
+2026-09-26T15:33:30.1554165Z   set-safe-directory: true
+2026-09-26T15:33:30.1554679Z   allow-unsafe-pr-checkout: false
+2026-09-26T15:33:30.1555497Z ##[endgroup]
+2026-09-26T15:33:30.2716051Z Syncing repository: Phucht59/mingo
+2026-09-26T15:33:30.2718462Z ##[group]Getting Git version info
+2026-09-26T15:33:30.2719496Z Working directory is '/home/runner/work/mingo/mingo'
+2026-09-26T15:33:30.2754381Z [command]/usr/bin/git version
+2026-09-26T15:33:30.2843880Z git version 2.55.0
+2026-09-26T15:33:30.2868608Z ##[endgroup]
+2026-09-26T15:33:30.2886448Z Temporarily overriding HOME='/home/runner/work/_temp/b411baa3-50d9-4c26-89bc-c0ffd27c2898' before making global git config changes
+2026-09-26T15:33:30.2889323Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-26T15:33:30.2894686Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/mingo/mingo
+2026-09-26T15:33:30.2964461Z Deleting the contents of '/home/runner/work/mingo/mingo'
+2026-09-26T15:33:30.2966811Z ##[group]Initializing the repository
+2026-09-26T15:33:30.2968222Z [command]/usr/bin/git init /home/runner/work/mingo/mingo
+2026-09-26T15:33:30.3090536Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-09-26T15:33:30.3098181Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-09-26T15:33:30.3110469Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-09-26T15:33:30.3117784Z hint: call:
+2026-09-26T15:33:30.3118726Z hint:
+2026-09-26T15:33:30.3119742Z hint: 	git config --global init.defaultBranch <name>
+2026-09-26T15:33:30.3120418Z hint:
+2026-09-26T15:33:30.3121024Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-09-26T15:33:30.3122383Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-09-26T15:33:30.3123847Z hint:
+2026-09-26T15:33:30.3124542Z hint: 	git branch -m <name>
+2026-09-26T15:33:30.3125350Z hint:
+2026-09-26T15:33:30.3126413Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-09-26T15:33:30.3128179Z Initialized empty Git repository in /home/runner/work/mingo/mingo/.git/
+2026-09-26T15:33:30.3130810Z [command]/usr/bin/git remote add origin https://github.com/Phucht59/mingo
+2026-09-26T15:33:30.3218809Z ##[endgroup]
+2026-09-26T15:33:30.3220092Z ##[group]Disabling automatic garbage collection
+2026-09-26T15:33:30.3221226Z [command]/usr/bin/git config --local gc.auto 0
+2026-09-26T15:33:30.3255352Z ##[endgroup]
+2026-09-26T15:33:30.3257708Z ##[group]Setting up auth
+2026-09-26T15:33:30.3262985Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-26T15:33:30.3299355Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-26T15:33:30.3767030Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-26T15:33:30.3809023Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-26T15:33:30.4056169Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-26T15:33:30.4094049Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-26T15:33:30.4318321Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-09-26T15:33:30.4360926Z ##[endgroup]
+2026-09-26T15:33:30.4362062Z ##[group]Fetching the repository
+2026-09-26T15:33:30.4372971Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +d4165e8acdffa4e0a747b11ac3e1c3c852674293:refs/remotes/origin/main
+2026-09-26T15:33:30.7336374Z From https://github.com/Phucht59/mingo
+2026-09-26T15:33:30.7338635Z  * [new ref]         d4165e8acdffa4e0a747b11ac3e1c3c852674293 -> origin/main
+2026-09-26T15:33:30.7341648Z ##[endgroup]
+2026-09-26T15:33:30.7342798Z ##[group]Determining the checkout info
+2026-09-26T15:33:30.7345247Z ##[endgroup]
+2026-09-26T15:33:30.7350015Z [command]/usr/bin/git sparse-checkout disable
+2026-09-26T15:33:30.7408643Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-09-26T15:33:30.7443839Z ##[group]Checking out the ref
+2026-09-26T15:33:30.7448777Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-09-26T15:33:30.7775099Z Switched to a new branch 'main'
+2026-09-26T15:33:30.7781977Z branch 'main' set up to track 'origin/main'.
+2026-09-26T15:33:30.7789929Z ##[endgroup]
+2026-09-26T15:33:30.7831291Z [command]/usr/bin/git log -1 --format=%H
+2026-09-26T15:33:30.7857511Z d4165e8acdffa4e0a747b11ac3e1c3c852674293
+2026-09-26T15:33:30.8604335Z ##[group]Run subosito/flutter-action@v2
+2026-09-26T15:33:30.8605586Z with:
+2026-09-26T15:33:30.8606492Z   flutter-version: 3.32.8
+2026-09-26T15:33:30.8607532Z   channel: stable
+2026-09-26T15:33:30.8608474Z   architecture: X64
+2026-09-26T15:33:30.8609413Z   cache: false
+2026-09-26T15:33:30.8610359Z   pub-cache-path: default
+2026-09-26T15:33:30.8611594Z   dry-run: false
+2026-09-26T15:33:30.8612722Z   git-source: https://github.com/flutter/flutter.git
+2026-09-26T15:33:30.8614284Z ##[endgroup]
+2026-09-26T15:33:30.8685740Z ##[start-action display=Make yq tool available on Windows runners;id=__subosito_flutter-action.__run]
+2026-09-26T15:33:30.8720634Z ##[end-action id=__subosito_flutter-action.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-09-26T15:33:30.8727758Z ##[start-action display=Make setup script executable;id=__subosito_flutter-action.__run_2]
+2026-09-26T15:33:30.8786013Z ##[group]Run chmod +x "$GITHUB_ACTION_PATH/setup.sh"
+2026-09-26T15:33:30.8787576Z [36;1mchmod +x "$GITHUB_ACTION_PATH/setup.sh"[0m
+2026-09-26T15:33:30.9085505Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-09-26T15:33:30.9086914Z ##[endgroup]
+2026-09-26T15:33:30.9236132Z ##[end-action id=__subosito_flutter-action.__run_2;outcome=success;conclusion=success;duration_ms=50]
+2026-09-26T15:33:30.9242971Z ##[start-action display=Set action inputs;id=__subosito_flutter-action.flutter-action]
+2026-09-26T15:33:30.9304583Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh -p \
+2026-09-26T15:33:30.9305979Z [36;1m$GITHUB_ACTION_PATH/setup.sh -p \[0m
+2026-09-26T15:33:30.9307175Z [36;1m  -n '3.32.8' \[0m
+2026-09-26T15:33:30.9308139Z [36;1m  -f '' \[0m
+2026-09-26T15:33:30.9309043Z [36;1m  -a 'X64' \[0m
+2026-09-26T15:33:30.9309966Z [36;1m  -k '' \[0m
+2026-09-26T15:33:30.9310866Z [36;1m  -c '' \[0m
+2026-09-26T15:33:30.9311766Z [36;1m  -l '' \[0m
+2026-09-26T15:33:30.9312703Z [36;1m  -d 'default' \[0m
+2026-09-26T15:33:30.9314242Z [36;1m  -g 'https://github.com/flutter/flutter.git' \[0m
+2026-09-26T15:33:30.9315599Z [36;1m  stable[0m
+2026-09-26T15:33:30.9380066Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-09-26T15:33:30.9381417Z ##[endgroup]
+2026-09-26T15:33:31.1062537Z ##[end-action id=__subosito_flutter-action.flutter-action;outcome=success;conclusion=success;duration_ms=181]
+2026-09-26T15:33:31.1072477Z ##[start-action display=Cache Flutter;id=__subosito_flutter-action.cache-flutter]
+2026-09-26T15:33:31.1086659Z ##[end-action id=__subosito_flutter-action.cache-flutter;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-09-26T15:33:31.1093846Z ##[start-action display=Cache pub dependencies;id=__subosito_flutter-action.cache-pub]
+2026-09-26T15:33:31.1124363Z ##[end-action id=__subosito_flutter-action.cache-pub;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-09-26T15:33:31.1130909Z ##[start-action display=Run setup script;id=__subosito_flutter-action.__run_3]
+2026-09-26T15:33:31.1195888Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh \
+2026-09-26T15:33:31.1197179Z [36;1m$GITHUB_ACTION_PATH/setup.sh \[0m
+2026-09-26T15:33:31.1198334Z [36;1m  -n '3.32.8' \[0m
+2026-09-26T15:33:31.1199307Z [36;1m  -a 'x64' \[0m
+2026-09-26T15:33:31.1200514Z [36;1m  -c '/opt/hostedtoolcache/flutter/stable-3.32.8-x64' \[0m
+2026-09-26T15:33:31.1201969Z [36;1m  -d '/home/runner/.pub-cache' \[0m
+2026-09-26T15:33:31.1203386Z [36;1m  stable[0m
+2026-09-26T15:33:31.1276114Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-09-26T15:33:31.1277478Z ##[endgroup]
+2026-09-26T15:33:31.2874873Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2026-09-26T15:33:31.2878333Z                                  Dload  Upload   Total   Spent    Left  Speed
+2026-09-26T15:33:31.2880685Z 
+2026-09-26T15:33:31.6590023Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2026-09-26T15:33:32.6604498Z   5 1367M    5 80.7M    0     0   217M      0  0:00:06 --:--:--  0:00:06  217M
+2026-09-26T15:33:33.6584583Z  24 1367M   24  340M    0     0   247M      0  0:00:05  0:00:01  0:00:04  247M
+2026-09-26T15:33:34.6651670Z  44 1367M   44  610M    0     0   257M      0  0:00:05  0:00:02  0:00:03  257M
+2026-09-26T15:33:35.6595211Z  63 1367M   63  873M    0     0   258M      0  0:00:05  0:00:03  0:00:02  258M
+2026-09-26T15:33:36.4261017Z  84 1367M   84 1150M    0     0   263M      0  0:00:05  0:00:04  0:00:01  262M
+2026-09-26T15:34:25.1269255Z 100 1367M  100 1367M    0     0   266M      0  0:00:05  0:00:05 --:--:--  269M
+2026-09-26T15:34:25.1286357Z ##[end-action id=__subosito_flutter-action.__run_3;outcome=success;conclusion=success;duration_ms=54015]
+2026-09-26T15:34:25.1357390Z ##[group]Run bash 07_operations/scripts/bootstrap_clients.sh
+2026-09-26T15:34:25.1357876Z [36;1mbash 07_operations/scripts/bootstrap_clients.sh[0m
+2026-09-26T15:34:25.1423402Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:34:25.1423679Z env:
+2026-09-26T15:34:25.1423995Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.32.8-x64/flutter
+2026-09-26T15:34:25.1424395Z   PUB_CACHE: /home/runner/.pub-cache
+2026-09-26T15:34:25.1424666Z ##[endgroup]
+2026-09-26T15:34:30.1820579Z Recreating project 05_code/apps/learner...
+2026-09-26T15:34:30.2457255Z   05_code/apps/learner/android/app/src/profile/AndroidManifest.xml (created)
+2026-09-26T15:34:30.2540554Z   05_code/apps/learner/android/app/src/main/res/values-night/styles.xml (created)
+2026-09-26T15:34:30.2556236Z   05_code/apps/learner/android/app/src/main/res/mipmap-mdpi/ic_launcher.png (created)
+2026-09-26T15:34:30.2564698Z   05_code/apps/learner/android/app/src/main/res/drawable-v21/launch_background.xml (created)
+2026-09-26T15:34:30.2570296Z   05_code/apps/learner/android/app/src/main/res/drawable/launch_background.xml (created)
+2026-09-26T15:34:30.2584546Z   05_code/apps/learner/android/app/src/main/res/values/styles.xml (created)
+2026-09-26T15:34:30.2585765Z   05_code/apps/learner/android/app/src/main/res/mipmap-hdpi/ic_launcher.png (created)
+2026-09-26T15:34:30.2586930Z   05_code/apps/learner/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png (created)
+2026-09-26T15:34:30.2589201Z   05_code/apps/learner/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png (created)
+2026-09-26T15:34:30.2594755Z   05_code/apps/learner/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png (created)
+2026-09-26T15:34:30.2604422Z   05_code/apps/learner/android/app/src/main/AndroidManifest.xml (created)
+2026-09-26T15:34:30.2640841Z   05_code/apps/learner/android/app/src/debug/AndroidManifest.xml (created)
+2026-09-26T15:34:30.2648062Z   05_code/apps/learner/android/.gitignore (created)
+2026-09-26T15:34:30.2652235Z   05_code/apps/learner/android/settings.gradle.kts (created)
+2026-09-26T15:34:30.2660506Z   05_code/apps/learner/android/gradle.properties (created)
+2026-09-26T15:34:30.2665485Z   05_code/apps/learner/android/gradle/wrapper/gradle-wrapper.properties (created)
+2026-09-26T15:34:30.2677180Z   05_code/apps/learner/web/icons/Icon-maskable-192.png (created)
+2026-09-26T15:34:30.2687834Z   05_code/apps/learner/web/icons/Icon-192.png (created)
+2026-09-26T15:34:30.2692339Z   05_code/apps/learner/web/icons/Icon-maskable-512.png (created)
+2026-09-26T15:34:30.2698251Z   05_code/apps/learner/web/icons/Icon-512.png (created)
+2026-09-26T15:34:30.2702870Z   05_code/apps/learner/web/manifest.json (created)
+2026-09-26T15:34:30.2715082Z   05_code/apps/learner/web/favicon.png (created)
+2026-09-26T15:34:30.2719543Z   05_code/apps/learner/web/index.html (created)
+2026-09-26T15:34:30.2732874Z   05_code/apps/learner/android/adaptive_learner_android.iml (created)
+2026-09-26T15:34:30.2745150Z   05_code/apps/learner/android/app/build.gradle.kts (created)
+2026-09-26T15:34:30.2760833Z   05_code/apps/learner/android/app/src/main/kotlin/com/example/adaptive_learner/MainActivity.kt (created)
+2026-09-26T15:34:30.2776452Z   05_code/apps/learner/android/build.gradle.kts (created)
+2026-09-26T15:34:30.2783799Z   05_code/apps/learner/README.md (created)
+2026-09-26T15:34:30.2801719Z   05_code/apps/learner/.idea/modules.xml (created)
+2026-09-26T15:34:30.2813372Z   05_code/apps/learner/.idea/libraries/KotlinJavaRuntime.xml (created)
+2026-09-26T15:34:30.2821271Z   05_code/apps/learner/.idea/libraries/Dart_SDK.xml (created)
+2026-09-26T15:34:30.2832234Z   05_code/apps/learner/.idea/runConfigurations/main_dart.xml (created)
+2026-09-26T15:34:30.2846544Z   05_code/apps/learner/.idea/workspace.xml (created)
+2026-09-26T15:34:30.2855482Z   05_code/apps/learner/adaptive_learner.iml (created)
+2026-09-26T15:34:30.3110573Z Wrote 37 files.
+2026-09-26T15:34:30.3110835Z 
+2026-09-26T15:34:30.3110967Z All done!
+2026-09-26T15:34:30.3131863Z You can find general documentation for Flutter at: https://docs.flutter.dev/
+2026-09-26T15:34:30.3133030Z Detailed API documentation is available at: https://api.flutter.dev/
+2026-09-26T15:34:30.3134575Z If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+2026-09-26T15:34:30.3135453Z 
+2026-09-26T15:34:30.3135906Z In order to run your application, type:
+2026-09-26T15:34:30.3136478Z 
+2026-09-26T15:34:30.3136718Z   $ cd 05_code/apps/learner
+2026-09-26T15:34:30.3137167Z   $ flutter run
+2026-09-26T15:34:30.3137380Z 
+2026-09-26T15:34:30.3137701Z Your application code is in 05_code/apps/learner/lib/main.dart.
+2026-09-26T15:34:30.3138197Z 
+2026-09-26T15:34:30.6812408Z Recreating project 05_code/apps/staff...
+2026-09-26T15:34:30.7327954Z   05_code/apps/staff/web/icons/Icon-maskable-192.png (created)
+2026-09-26T15:34:30.7349518Z   05_code/apps/staff/web/icons/Icon-192.png (created)
+2026-09-26T15:34:30.7356252Z   05_code/apps/staff/web/icons/Icon-maskable-512.png (created)
+2026-09-26T15:34:30.7361977Z   05_code/apps/staff/web/icons/Icon-512.png (created)
+2026-09-26T15:34:30.7368238Z   05_code/apps/staff/web/manifest.json (created)
+2026-09-26T15:34:30.7473131Z   05_code/apps/staff/web/favicon.png (created)
+2026-09-26T15:34:30.7477442Z   05_code/apps/staff/web/index.html (created)
+2026-09-26T15:34:30.7487882Z   05_code/apps/staff/README.md (created)
+2026-09-26T15:34:30.7502059Z   05_code/apps/staff/.idea/modules.xml (created)
+2026-09-26T15:34:30.7509532Z   05_code/apps/staff/.idea/libraries/KotlinJavaRuntime.xml (created)
+2026-09-26T15:34:30.7519672Z   05_code/apps/staff/.idea/libraries/Dart_SDK.xml (created)
+2026-09-26T15:34:30.7529297Z   05_code/apps/staff/.idea/runConfigurations/main_dart.xml (created)
+2026-09-26T15:34:30.7535519Z   05_code/apps/staff/.idea/workspace.xml (created)
+2026-09-26T15:34:30.7543688Z   05_code/apps/staff/adaptive_staff.iml (created)
+2026-09-26T15:34:30.7615299Z Wrote 14 files.
+2026-09-26T15:34:30.7615669Z 
+2026-09-26T15:34:30.7615778Z All done!
+2026-09-26T15:34:30.7635531Z You can find general documentation for Flutter at: https://docs.flutter.dev/
+2026-09-26T15:34:30.7636146Z Detailed API documentation is available at: https://api.flutter.dev/
+2026-09-26T15:34:30.7636721Z If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+2026-09-26T15:34:30.7637093Z 
+2026-09-26T15:34:30.7637207Z In order to run your application, type:
+2026-09-26T15:34:30.7637578Z 
+2026-09-26T15:34:30.7637674Z   $ cd 05_code/apps/staff
+2026-09-26T15:34:30.7637904Z   $ flutter run
+2026-09-26T15:34:30.7638026Z 
+2026-09-26T15:34:30.7638196Z Your application code is in 05_code/apps/staff/lib/main.dart.
+2026-09-26T15:34:30.7638471Z 
+2026-09-26T15:34:30.7871698Z ##[group]Run flutter pub get
+2026-09-26T15:34:30.7872017Z [36;1mflutter pub get[0m
+2026-09-26T15:34:30.7872251Z [36;1mflutter analyze[0m
+2026-09-26T15:34:30.7872486Z [36;1mflutter test[0m
+2026-09-26T15:34:30.7872703Z [36;1mflutter build web[0m
+2026-09-26T15:34:30.7935542Z shell: /usr/bin/bash -e {0}
+2026-09-26T15:34:30.7935793Z env:
+2026-09-26T15:34:30.7936092Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.32.8-x64/flutter
+2026-09-26T15:34:30.7936486Z   PUB_CACHE: /home/runner/.pub-cache
+2026-09-26T15:34:30.7936748Z ##[endgroup]
+2026-09-26T15:34:31.1466336Z Resolving dependencies...
+2026-09-26T15:34:31.5946426Z Downloading packages...
+2026-09-26T15:34:32.1917700Z   async 2.13.0 (2.13.1 available)
+2026-09-26T15:34:32.1918226Z   characters 1.4.0 (1.4.1 available)
+2026-09-26T15:34:32.1918659Z   clock 1.1.2 (1.1.3 available)
+2026-09-26T15:34:32.1918951Z   flutter_lints 5.0.0 (6.0.0 available)
+2026-09-26T15:34:32.1919259Z   leak_tracker 10.0.9 (11.0.2 available)
+2026-09-26T15:34:32.1919792Z   leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+2026-09-26T15:34:32.1920169Z   leak_tracker_testing 3.0.1 (3.0.2 available)
+2026-09-26T15:34:32.1920696Z   lints 5.1.1 (6.1.0 available)
+2026-09-26T15:34:32.1920967Z   matcher 0.12.17 (0.12.20 available)
+2026-09-26T15:34:32.1921289Z   material_color_utilities 0.11.1 (0.13.1 available)
+2026-09-26T15:34:32.1921625Z   meta 1.16.0 (1.19.0 available)
+2026-09-26T15:34:32.1921931Z   platform 3.1.6 (3.2.0 available)
+2026-09-26T15:34:32.1922211Z   process 5.0.3 (5.0.6 available)
+2026-09-26T15:34:32.1922487Z   source_span 1.10.1 (1.10.2 available)
+2026-09-26T15:34:32.1922774Z   stack_trace 1.12.1 (1.12.2 available)
+2026-09-26T15:34:32.1923343Z   test_api 0.7.4 (0.7.14 available)
+2026-09-26T15:34:32.1923668Z   vector_math 2.1.4 (2.4.3 available)
+2026-09-26T15:34:32.1923960Z   vm_service 15.0.0 (15.3.0 available)
+2026-09-26T15:34:32.1924261Z   webdriver 3.1.0 (3.2.0 available)
+2026-09-26T15:34:32.1931545Z Got dependencies!
+2026-09-26T15:34:32.1942697Z 19 packages have newer versions incompatible with dependency constraints.
+2026-09-26T15:34:32.1943761Z Try `flutter pub outdated` for more information.
+2026-09-26T15:34:44.7038970Z Analyzing staff...                                              
+2026-09-26T15:34:44.7056378Z No issues found! (ran in 10.0s)
+2026-09-26T15:34:46.4876301Z 
+2026-09-26T15:34:54.7184067Z ✅ shell renders without learning claims or overflow
+2026-09-26T15:34:54.7368832Z 
+2026-09-26T15:34:54.7374832Z 🎉 1 test passed.
+2026-09-26T15:35:15.7142936Z Compiling lib/main.dart for the Web...                          
+2026-09-26T15:35:15.7146065Z Expected to find fonts for (MaterialIcons, packages/cupertino_icons/CupertinoIcons), but found (MaterialIcons). This usually means you are referring to font families in an IconData class but not including them in the assets section of your pubspec.yaml, are missing the package that would include them, or are missing "uses-material-design: true".
+2026-09-26T15:35:15.7235779Z Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 7992 bytes (99.5% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+2026-09-26T15:35:16.1263357Z Compiling lib/main.dart for the Web...                             19.8s
+2026-09-26T15:35:16.1272879Z ✓ Built build/web
+2026-09-26T15:35:16.1653549Z Post job cleanup.
+2026-09-26T15:35:16.1727018Z Post job cleanup.
+2026-09-26T15:35:16.2578632Z [command]/usr/bin/git version
+2026-09-26T15:35:16.2619521Z git version 2.55.0
+2026-09-26T15:35:16.2658817Z Temporarily overriding HOME='/home/runner/work/_temp/6a4e7021-49c9-45a1-995f-e7ac96f9059b' before making global git config changes
+2026-09-26T15:35:16.2660311Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-26T15:35:16.2665612Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/mingo/mingo
+2026-09-26T15:35:16.2705033Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-26T15:35:16.2741057Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-26T15:35:16.2990423Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-26T15:35:16.3062444Z http.https://github.com/.extraheader
+2026-09-26T15:35:16.3082483Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-09-26T15:35:16.3119063Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-26T15:35:16.3372943Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-26T15:35:16.3413512Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-26T15:35:16.3871953Z Cleaning up orphan processes
+2026-09-26T15:35:16.4185044Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

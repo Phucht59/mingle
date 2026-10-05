@@ -1,0 +1,3 @@
+Command: .\.venv\Scripts\python.exe -m ruff check 05_code/backend
+All checks passed!
+Exit code: 0

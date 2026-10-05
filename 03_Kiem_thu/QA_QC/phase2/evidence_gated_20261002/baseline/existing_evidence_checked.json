@@ -1,0 +1,429 @@
+{
+  "evidence_level": "EXISTING EVIDENCE",
+  "note": "Log hashes/counts checked NOW, but these commands were not rerun in this audit. Machine pass is not E0/E1/E2/E3 human or learning evidence.",
+  "commands": [
+    {
+      "check": "Original V3 contracts/SQL",
+      "command": "python 04_Van_hanh/Scripts/check_original_contracts.py",
+      "cwd": "C:/Mingo",
+      "evidence": "v3_2_after.log",
+      "exit_code": 0,
+      "sha256": "0ff66bc95c8d7dfaa3533028842cc295a623464a414aa1bfe0392077614c4590",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Phase1 native foundation",
+      "command": "04_Van_hanh/Scripts/verify_backend.ps1 -Python C:/Mingo/.venv/Scripts/python.exe -RunPostgres",
+      "cwd": "C:/Mingo",
+      "evidence": "phase1_revalidation_pwsh.log",
+      "exit_code": 0,
+      "sha256": "4bd6357f91227aca76e622d1d9c695964b03e516bd167ceb36e7e3ce496f3600",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Original adapter guards",
+      "command": "python -m unittest discover -s 04_Van_hanh/tests -v",
+      "cwd": "C:/Mingo",
+      "evidence": "adapter_final_verified.log",
+      "exit_code": 0,
+      "sha256": "aa37e607957cb8167e5b9fc5576a9a868ddfb49d3cbf32376debbc81e11d0636",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Shared final regression",
+      "command": "flutter test --machine",
+      "cwd": "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui",
+      "evidence": "flutter_sealed_final.jsonl",
+      "exit_code": 0,
+      "sha256": "2ffa99e5a74a82eb9dafe7150afa89f5bcafa9384d83fcb9d0c8e542a3a7e387",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Targeted keyboard modal test",
+      "command": "flutter test --plain-name \"staff license and review\"",
+      "cwd": "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui",
+      "evidence": "keyboard_dialog_widget.log",
+      "exit_code": 0,
+      "sha256": "60a4de392447d42f939f52a46d070871a483f3f008debd3f992b1e4e3a6259b9",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Shared final analysis",
+      "command": "flutter analyze",
+      "cwd": "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui",
+      "evidence": "shared_sealed_analyze.log",
+      "exit_code": 0,
+      "sha256": "3f865ae919ca6d10abb3ab40c181cf1b623999758d9990853df4b6c85091f4fe",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Both apps analyze/test/learnerAPK/staffWeb",
+      "command": "04_Van_hanh/Scripts/verify_flutter.ps1 -Flutter C:/Dev/flutter-3.32.8/bin/flutter.bat",
+      "cwd": "C:/Mingo",
+      "evidence": "flutter_sealed_apps.log",
+      "exit_code": 0,
+      "sha256": "0652ef3eeb5d6eb6a0de12e4e96045ebad76eb928e6f795025429ba9a380159a",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Learner compiled Web",
+      "command": "flutter build web",
+      "cwd": "C:/Mingo/01_San_pham/apps/learner",
+      "evidence": "learner_sealed_web.log",
+      "exit_code": 0,
+      "sha256": "7f1e405b52bc509fb2c4f4d2b66b640b2d716a7ec5b5555e4facd3aa97febbe2",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Android actual emulator",
+      "command": "flutter test integration_test/boot_test.dart -d emulator-5554",
+      "cwd": "C:/Mingo/01_San_pham/apps/learner",
+      "evidence": "android_review_final.log",
+      "exit_code": 0,
+      "sha256": "259235296e5b32df0b3309497840c3e62d7d13d41864f8d7bfacc84ea7a9d464",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Compiled Web runtime",
+      "command": "node 04_Van_hanh/Scripts/verify_phase2_v2_browser.cjs",
+      "cwd": "C:/Mingo",
+      "evidence": "web_runtime_sealed_final/run.json",
+      "exit_code": 0,
+      "sha256": "8a921f76e18182c4e3d4302331c249f6f0cf90a38687508d5508e6309e79ba4d",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Historical organization-only scope",
+      "command": "python 04_Van_hanh/Scripts/verify_restructure.py",
+      "cwd": "C:/Mingo",
+      "evidence": "historical_organization_scope_after_ui.json",
+      "exit_code": 1,
+      "sha256": "6d1ad80692daae9ecd04cbf9ce287caa85cbbdc7b7e1a7e643f9ea6ab1039e2a",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Native Back pre-fix reproduction",
+      "command": "flutter test --plain-name \"practice response survives\"",
+      "cwd": "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui",
+      "evidence": "system_back_reproduction.log",
+      "exit_code": 1,
+      "sha256": "591301f8bc3e5d55eb1f84057bce4eb772a11bcf1e9e40efda69fe483089f828",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Staff drawer pre-fix reproduction",
+      "command": "flutter test --plain-name \"narrow staff menu closes\"",
+      "cwd": "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui",
+      "evidence": "staff_drawer_reproduction.log",
+      "exit_code": 1,
+      "sha256": "c095cbdce0b2e71cd1d0d7879322efa4e87549ccd9f4cd1825c1b4964c414d64",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "check": "Normal Android review APK install/cold launch",
+      "command": "adb -s emulator-5554 install -r app-debug.apk; adb shell am force-stop com.example.adaptive_learner; adb shell am start -W -n com.example.adaptive_learner/.MainActivity",
+      "cwd": "C:/Mingo",
+      "evidence": "android_normal_review.log",
+      "exit_code": 0,
+      "sha256": "5363fc1e8ccb431e6a856edd09ccb39fd60fa7d316d850dc839bb4facc81b403",
+      "evidence_level": "EXISTING EVIDENCE",
+      "present": true,
+      "hash_matches": true
+    }
+  ],
+  "flutter": {
+    "visible_done": 227,
+    "successful": 227,
+    "skipped": 0,
+    "failed": 0,
+    "final_done": [
+      {
+        "success": true,
+        "type": "done",
+        "time": 91037
+      }
+    ],
+    "capture_trace_rows": 195,
+    "capture_trace_missing_pass": [],
+    "capture_files_missing": []
+  },
+  "web_report": {
+    "scope": "Runtime navigation/rendering, not TalkBack/human UAT",
+    "results": [
+      {
+        "name": "learner-360",
+        "url": "http://127.0.0.1:8765/",
+        "viewport": {
+          "width": 360,
+          "height": 915
+        },
+        "status": "PASS",
+        "browser": "154.0.8037.58",
+        "documentWidth": 360,
+        "semantics": [
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingo",
+          "Quay lại",
+          "Bản xem trước · dữ liệu mẫu",
+          "50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "50%",
+          "50%",
+          "Bạn nghe lời nào trong đoạn âm thanh?",
+          "Bạn nghe lời nào trong đoạn âm thanh?",
+          "Nghe mẫu",
+          "Bạn có thể nghe lại khi luyện.",
+          "Âm thanh “Hello” · Dvortygirl · Public domain",
+          "Hello!\nĐang chọn",
+          "Hello!\nĐang chọn",
+          "Good night!",
+          "Good night!",
+          "Thank you!",
+          "Thank you!",
+          "Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.",
+          "Tiếp tục"
+        ]
+      },
+      {
+        "name": "learner-412",
+        "url": "http://127.0.0.1:8765/",
+        "viewport": {
+          "width": 412,
+          "height": 915
+        },
+        "status": "PASS",
+        "browser": "154.0.8037.58",
+        "documentWidth": 412,
+        "semantics": [
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingo",
+          "Quay lại",
+          "Bản xem trước · dữ liệu mẫu",
+          "50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "50%",
+          "50%",
+          "Bạn nghe lời nào trong đoạn âm thanh?",
+          "Bạn nghe lời nào trong đoạn âm thanh?",
+          "Nghe mẫu",
+          "Bạn có thể nghe lại khi luyện.",
+          "Âm thanh “Hello” · Dvortygirl · Public domain",
+          "Hello!\nĐang chọn",
+          "Hello!\nĐang chọn",
+          "Good night!",
+          "Good night!",
+          "Thank you!",
+          "Thank you!",
+          "Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.",
+          "Tiếp tục"
+        ]
+      },
+      {
+        "name": "learner-430",
+        "url": "http://127.0.0.1:8765/",
+        "viewport": {
+          "width": 430,
+          "height": 915
+        },
+        "status": "PASS",
+        "browser": "154.0.8037.58",
+        "documentWidth": 430,
+        "semantics": [
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "Quay lạiMingo",
+          "Quay lại",
+          "Bản xem trước · dữ liệu mẫu",
+          "50%Nhớ lại một chútBạn nghe lời nào trong đoạn âm thanh?Bạn nghe lời nào trong đoạn âm thanh?Nghe mẫuBạn có thể nghe lại khi luyện.Âm thanh “Hello” · Dvortygirl · Public domainHello!\nĐang chọnGood night!Thank you!Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.Tiếp tục",
+          "50%",
+          "50%",
+          "Bạn nghe lời nào trong đoạn âm thanh?",
+          "Bạn nghe lời nào trong đoạn âm thanh?",
+          "Nghe mẫu",
+          "Bạn có thể nghe lại khi luyện.",
+          "Âm thanh “Hello” · Dvortygirl · Public domain",
+          "Hello!\nĐang chọn",
+          "Hello!\nĐang chọn",
+          "Good night!",
+          "Good night!",
+          "Thank you!",
+          "Thank you!",
+          "Phù hợp với câu này!\nĐoạn mẫu nói “Hello”, một lời chào. Yêu cầu phát không chứng minh rằng bạn đã nghe. Câu trả lời đầu tiên được giữ riêng. Đây là phản hồi mẫu.",
+          "Tiếp tục"
+        ]
+      },
+      {
+        "name": "staff-1280",
+        "url": "http://127.0.0.1:8766/",
+        "viewport": {
+          "width": 1280,
+          "height": 1000
+        },
+        "status": "PASS",
+        "browser": "154.0.8037.58",
+        "documentWidth": 1280,
+        "semantics": [
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viên",
+          "Không gian nhân viên",
+          "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+          "MINGO WORKSPACE",
+          "Hôm nay",
+          "Học viên",
+          "Nội dung",
+          "Duyệt bài",
+          "Hỗ trợ",
+          "Phân tích",
+          "Quản trị",
+          "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+          "Bản xem trước · dữ liệu mẫu",
+          "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "Chào hỏi và làm quen",
+          "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+          "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+          "Tạo bản nháp mẫu mới"
+        ]
+      },
+      {
+        "name": "staff-1440",
+        "url": "http://127.0.0.1:8766/",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "status": "PASS",
+        "browser": "154.0.8037.58",
+        "documentWidth": 1440,
+        "semantics": [
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viên",
+          "Không gian nhân viên",
+          "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+          "MINGO WORKSPACE",
+          "Hôm nay",
+          "Học viên",
+          "Nội dung",
+          "Duyệt bài",
+          "Hỗ trợ",
+          "Phân tích",
+          "Quản trị",
+          "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+          "Bản xem trước · dữ liệu mẫu",
+          "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "Chào hỏi và làm quen",
+          "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+          "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+          "Tạo bản nháp mẫu mới"
+        ]
+      },
+      {
+        "name": "staff-1920",
+        "url": "http://127.0.0.1:8766/",
+        "viewport": {
+          "width": 1920,
+          "height": 1000
+        },
+        "status": "PASS",
+        "browser": "154.0.8037.58",
+        "documentWidth": 1920,
+        "semantics": [
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "MingoKhông gian nhân viên",
+          "Không gian nhân viên",
+          "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+          "MINGO WORKSPACE",
+          "Hôm nay",
+          "Học viên",
+          "Nội dung",
+          "Duyệt bài",
+          "Hỗ trợ",
+          "Phân tích",
+          "Quản trị",
+          "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+          "Bản xem trước · dữ liệu mẫu",
+          "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+          "Chào hỏi và làm quen",
+          "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+          "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+          "Tạo bản nháp mẫu mới"
+        ]
+      },
+      {
+        "name": "staff-600",
+        "url": "http://127.0.0.1:8766/",
+        "viewport": {
+          "width": 600,
+          "height": 800
+        },
+        "status": "PASS",
+        "browser": "154.0.8037.58",
+        "documentWidth": 600,
+        "semantics": [
+          "Mở danh mụcMingoKhông gian nhân viênBản xem trước · dữ liệu mẫuNội dung họcChào hỏi và làm quen\nBản nháp mẫu · Chưa xuất bảnMở bản nháp mẫu",
+          "Mở danh mụcMingoKhông gian nhân viênBản xem trước · dữ liệu mẫuNội dung họcChào hỏi và làm quen\nBản nháp mẫu · Chưa xuất bảnMở bản nháp mẫu",
+          "Mở danh mụcMingoKhông gian nhân viênBản xem trước · dữ liệu mẫuNội dung họcChào hỏi và làm quen\nBản nháp mẫu · Chưa xuất bảnMở bản nháp mẫu",
+          "Mở danh mụcMingoKhông gian nhân viênBản xem trước · dữ liệu mẫuNội dung họcChào hỏi và làm quen\nBản nháp mẫu · Chưa xuất bảnMở bản nháp mẫu",
+          "Mở danh mụcMingoKhông gian nhân viên",
+          "Mở danh mục",
+          "Không gian nhân viên",
+          "Bản xem trước · dữ liệu mẫu",
+          "Nội dung họcChào hỏi và làm quen\nBản nháp mẫu · Chưa xuất bảnMở bản nháp mẫu",
+          "",
+          "Chào hỏi và làm quen\nBản nháp mẫu · Chưa xuất bản",
+          "Mở bản nháp mẫu"
+        ]
+      }
+    ]
+  },
+  "human_evidence": "NOT RUN / HUMAN VALIDATION PENDING",
+  "manual_talkback": "NOT RUN",
+  "physical_profile_performance": "NOT RUN",
+  "current_hosted_ci": "NOT RUN",
+  "known_historical_findings": [
+    "QC-002 old authored Flutter hash seal rejects owner-authorized V2 source changes; no assertion weakened",
+    "Organization-only scope verifier FAIL after owner-authorized UI/governance edits",
+    "D021 Linux R1 independent closure pending",
+    "D022 visual/native Excel independent confirmation pending"
+  ]
+}

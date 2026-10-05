@@ -1,0 +1,113 @@
+[
+  {
+    "name": "backend_unit",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "05_code/backend",
+      "-q"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 6.0
+  },
+  {
+    "name": "backend_lint",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "-m",
+      "ruff",
+      "check",
+      "05_code/backend"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.4
+  },
+  {
+    "name": "adapter_guards",
+    "command": [
+      "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "07_operations/tests",
+      "-v"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.6
+  },
+  {
+    "name": "phase2_artifacts",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "07_operations/scripts/verify_phase2_artifacts.py"
+    ],
+    "cwd": "C:\\Mingo\\.local\\restructure-20261001\\pre_validation",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.3
+  },
+  {
+    "name": "phase2_rework",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "07_operations/scripts/verify_phase2_rework.py"
+    ],
+    "cwd": "C:\\Mingo\\.local\\restructure-20261001\\pre_validation",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.3
+  },
+  {
+    "name": "phase2_review",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "07_operations/scripts/verify_phase2_review.py"
+    ],
+    "cwd": "C:\\Mingo\\.local\\restructure-20261001\\pre_validation",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.6
+  },
+  {
+    "name": "historical_release_manifest",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "07_operations/scripts/verify_phase2_package_manifest.py"
+    ],
+    "cwd": "C:\\Mingo\\.local\\restructure-20261001\\pre_validation",
+    "exit_code": 1,
+    "status": "FAIL",
+    "seconds": 0.6
+  },
+  {
+    "name": "prototype_js_syntax",
+    "command": [
+      "node",
+      "--check",
+      "02_product/ux_ui/phase2/prototype/app.js"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.3
+  },
+  {
+    "name": "v3_2_original_suites",
+    "command": [
+      "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe",
+      "07_operations/scripts/check_original_contracts.py"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 18.9
+  }
+]

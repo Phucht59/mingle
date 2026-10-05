@@ -1,0 +1,34 @@
+--- C:\Mingo\02_Tai_lieu_du_an\06_Quyet_dinh_da_chot\DECISION_REGISTER.md
++++ C:\Mingo\03_Kiem_thu\Bao_cao\GD1_Targeted_Closure_20261005\candidate_docs\DECISION_REGISTER.md
+@@ -1,6 +1,6 @@
+ # Decision Register — current authority
+ 
+-Owner instruction 2026-10-02 freezes the following38 product/development principles. V3.2 authority and bytes are unchanged; no contract conflict was found. Historical entries below retain their dates and are superseded where inconsistent (including PROD-005 name status). Current phase status belongs only to [PROJECT_STATE.md](../07_Tien_do_du_an/PROJECT_STATE.md); decisions do not substitute for gate acceptance.
++Owner instruction 2026-10-02 freezes the following38 product/development principles. V3.2 authority and bytes are unchanged; no contract conflict was found. Historical entries below retain their dates and are superseded where inconsistent (including PROD-005 name status). Current phase status belongs only to [PROJECT_STATE.md](C:/Mingo/02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_STATE.md); decisions do not substitute for gate acceptance.
+ 
+ ## GĐ1 product approval — 2026-10-04, recorded 2026-10-05
+ 
+@@ -10,12 +10,12 @@
+ |---|---|
+ | Finite meaningful cycle, no forced timer/infinite core feed; first-response retention; assisted != unaided; skip != completion/mastery; evidence-safe progress | ĐÃ CHỐT |
+ | Short value introduction without bottom navigation before the application shell; optional/editable goal as preference; optional placement, valid skip, provisional result; truthful next-action reason; ML-independent core | ĐÃ CHỐT principles |
+-| Exact duration, Vietnam 18–35/beginner-rebuilder wedge, placement count, goal categories, retry/replay/skip/challenge/focus limits, streak/rewards/pricing and exact Home ranking | GIẢ THUYẾT CẦN KIỂM CHỨNG; approval does not freeze numerical policies |
++| Exact duration, placement count, goal categories, retry/replay/skip/challenge/focus limits and exact streak/reward mechanics; Q1 wedge is APPROVED OPERATING HYPOTHESIS, Q13 pricing remains RESEARCH | GIẢ THUYẾT CẦN KIỂM CHỨNG; approval does not freeze numerical policies |
+ | Final mastery/risk algorithms, production weights, advanced intervention/speaking and child/guardian mode | ĐỂ GIAI ĐOẠN SAU; OULAD/UCI remain RESEARCH ONLY |
+ | Customer discovery and external learning/value evidence | VALIDATION DEBT |
+-| Account lifecycle MVP boundary and specific role-assignment/segregation policies absent from inspected sources | CHƯA QUYẾT ĐỊNH; candidate scope CR, no invented policy |
++| Account Gate/methods/destination and Home order | ĐÃ CHỐT by authoritative PO packet Q3/Q6; detailed lifecycle and role-assignment policies remain explicitly undecided where source absent |
+ 
+-Internal BA gate remains subject to the actual consistency audit and missing-workbook reconciliation. [GĐ1 closure notes](../04_Thiet_ke_san_pham/GD1_INTERNAL_BA_CLOSURE_NOTES_20261005.md) consolidate approved intent without changing V3.2. Historical approval/pending entries retain their original dates.
++Internal BA gate remains subject to the actual consistency audit and missing-workbook reconciliation. [GĐ1 closure notes](C:/Mingo/02_Tai_lieu_du_an/04_Thiet_ke_san_pham/GD1_INTERNAL_BA_CLOSURE_NOTES_20261005.md) consolidate approved intent without changing V3.2. Historical approval/pending entries retain their original dates.
+ 
+ | ID | Frozen decision |
+ |---|---|
+@@ -106,3 +106,7 @@
+ P2-V2-001 accepts the five human-friendly repository zones and preserves modular-monolith code/provenance. P2-V2-002 records the owner's Quiet Exploration/Mingo Blue/Inter/capybara directions and progressive onboarding, core learning loop, evidence-based progress, plain offline language, task-based staff and no reference-driven feature expansion. Exact short-session duration remains an empirical/metadata question. These are owner-directed presentation choices; independent design/product acceptance remains unsigned.
+ 
+ P2-V2-003 authorizes current governance reconciliation after actual local verification, retaining old dated snapshots/evidence. Phase2 TECHNICALLY COMPLETE/HUMAN GATE PENDING; product gate NOT PASSED. Phase3 HOLD. No V3.2/business-rule change or foundational CR. See current V2 final gate report and preserved owner execution order.
++
++## PO targeted-closure packet — 2026-10-05 (candidate synchronization)
++
++V3.2 remains highest authority. Q3: guest browse/preview is allowed; authenticate before Start Learning, Attempt, independent Check, durable Progress, offline learning download and learning sync. Email is a required supported method, Google a target supported method, Facebook DEFERRED-FUTURE. Return to intended destination only if technically/semantically valid. Q6 approved Home order: valid unfinished Resume → due Review → next eligible path → goal-matched eligible → deterministic fallback → honest empty. No numeric policy is added. Q12 advanced Speaking AI/chatbot/social/community/leaderboard/advanced gamification/production Risk Prediction/ML ranking/adaptive optimization/advanced Intervention are DEFERRED-FUTURE and OUT OF CURRENT MVP IMPLEMENTATION, not permanently rejected. Q15 discovery remains VALIDATION DEBT. Detailed account policy is not inferred from supported methods. See the targeted audit candidate account matrix and source packet.

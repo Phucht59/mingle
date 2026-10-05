@@ -1,0 +1,63 @@
+{
+  "id": "QA-OFF-005",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-09-29T18:06:57.566Z",
+  "ended": "2026-09-29T18:06:58.264Z",
+  "expected": "Valid alternative/sync action shown; no fabricated Check completion.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Learn",
+    "Click: Begin",
+    "Click: Hello",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Continue",
+    "Click: I’m good, thanks.",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Good morning!",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Start Check",
+    "Click: Simulate offline",
+    "Click: Leave cycle"
+  ],
+  "observed": "Mingo\nOffline\nYou’re offline. Downloaded eligible work can continue. Device-saved actions are not server-confirmed.\nLEARN\nChoose a representative cycle\nDue for review\nVocabulary: Basic greetings\n\nReview → Learn → Retrieve → Transfer → Check\n\nStart\nBuild a foundation\nGrammar: Present simple: be\n\nReview → Learn → Retrieve → Transfer → Check\n\nStart\nNeeds more evidence\nListening: Listening: simple greetings\n\nReview → Learn → Retrieve → Transfer → Check\n\nStart\nDeterministic fallback\n\nIf recommendation/ML is unavailable, Mingo still offers eligible curriculum and due reviews.\n\nHome\nLearn\nCourse\nProfile",
+  "state": {
+    "surface": "learner",
+    "learner": "learn",
+    "staff": "dashboard",
+    "networkOnline": false,
+    "syncState": "local_queued",
+    "queuedCount": 3,
+    "cycleDomain": "listening",
+    "cycleStep": 6,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

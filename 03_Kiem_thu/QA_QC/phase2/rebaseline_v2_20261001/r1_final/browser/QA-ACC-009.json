@@ -1,0 +1,197 @@
+{
+  "id": "QA-ACC-009",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T16:30:42.151Z",
+  "ended": "2026-10-01T16:30:42.729Z",
+  "expected": "No horizontal overflow; primary actions visible.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Learn",
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Profile"
+  ],
+  "observed": "Mingo\nSynced\nPROFILE\nYour learning evidence\nVocabulary · Building\n\nRecent independent recall is available; Mingo still needs repeated evidence.\n\nListening · Needs more evidence\n\nNot enough independent Check evidence yet.\n\nGoal\nNot set\nDaily target\n1 cycle\nEdit goal\nSync status\nHome\nLearn\nCourse\nProfile",
+  "state": {
+    "surface": "learner",
+    "learner": "profile",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [
+    {
+      "viewport": 360,
+      "body": 360,
+      "doc": 360,
+      "buttons": [
+        {
+          "text": "Start cycle",
+          "w": 294,
+          "h": 48,
+          "right": 327
+        },
+        {
+          "text": "Home",
+          "w": 86,
+          "h": 48,
+          "right": 94
+        },
+        {
+          "text": "Learn",
+          "w": 86,
+          "h": 48,
+          "right": 180
+        },
+        {
+          "text": "Course",
+          "w": 86,
+          "h": 48,
+          "right": 266
+        },
+        {
+          "text": "Profile",
+          "w": 86,
+          "h": 48,
+          "right": 352
+        }
+      ]
+    },
+    {
+      "viewport": 360,
+      "body": 360,
+      "doc": 360,
+      "buttons": [
+        {
+          "text": "Start",
+          "w": 294,
+          "h": 48,
+          "right": 327
+        },
+        {
+          "text": "Start",
+          "w": 294,
+          "h": 48,
+          "right": 327
+        },
+        {
+          "text": "Start",
+          "w": 294,
+          "h": 48,
+          "right": 327
+        },
+        {
+          "text": "Home",
+          "w": 86,
+          "h": 48,
+          "right": 94
+        },
+        {
+          "text": "Learn",
+          "w": 86,
+          "h": 48,
+          "right": 180
+        },
+        {
+          "text": "Course",
+          "w": 86,
+          "h": 48,
+          "right": 266
+        },
+        {
+          "text": "Profile",
+          "w": 86,
+          "h": 48,
+          "right": 352
+        }
+      ]
+    },
+    {
+      "viewport": 360,
+      "body": 360,
+      "doc": 360,
+      "buttons": [
+        {
+          "text": "Edit goal",
+          "w": 328,
+          "h": 48,
+          "right": 344
+        },
+        {
+          "text": "Sync status",
+          "w": 328,
+          "h": 48,
+          "right": 344
+        },
+        {
+          "text": "Home",
+          "w": 86,
+          "h": 48,
+          "right": 94
+        },
+        {
+          "text": "Learn",
+          "w": 86,
+          "h": 48,
+          "right": 180
+        },
+        {
+          "text": "Course",
+          "w": 86,
+          "h": 48,
+          "right": 266
+        },
+        {
+          "text": "Profile",
+          "w": 86,
+          "h": 48,
+          "right": 352
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js",
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js",
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js",
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js"
+  ],
+  "failure": null
+}

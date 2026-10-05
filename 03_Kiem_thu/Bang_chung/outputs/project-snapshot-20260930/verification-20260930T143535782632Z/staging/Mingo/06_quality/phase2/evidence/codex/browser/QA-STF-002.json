@@ -1,0 +1,46 @@
+{
+  "id": "QA-STF-002",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-09-27T14:58:41.628Z",
+  "ended": "2026-09-27T14:58:41.800Z",
+  "expected": "List/detail IA works and evidence/activity sections are distinct.",
+  "steps": [
+    "Click: Staff",
+    "Click: Learners"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nDemo learner A\n← Learners\nLearning evidence\n\nVocabulary · Building\n\nNo precise mastery percentage is shown.\n\nEngagement\n\n4-day streak\n\nEngagement is not mastery.\n\nUncertainty\n\nMore listening evidence needed.\n\nSupport views require server-side assigned-learner authorization in Phase 3+. This prototype does not implement permissions.",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "learnerDetail",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

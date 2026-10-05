@@ -1,0 +1,5 @@
+UTC: 2026-09-26T15:15:16.340512+00:00
+Command: C:\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell uiautomator dump /sdcard/mingo-ui.xml
+UI hierchary dumped to: /sdcard/mingo-ui.xml
+
+Exit code: 0

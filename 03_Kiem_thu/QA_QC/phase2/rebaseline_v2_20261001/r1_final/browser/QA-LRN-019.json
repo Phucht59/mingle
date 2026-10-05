@@ -1,0 +1,54 @@
+{
+  "id": "QA-LRN-019",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-10-01T16:29:53.350Z",
+  "ended": "2026-10-01T16:29:53.713Z",
+  "expected": "A usable curriculum/due/manual action remains; no AI error dead end.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: No recommendation",
+    "Click: Browse eligible cycles",
+    "Click: Begin",
+    "Click: Hello",
+    "Click: Submit",
+    "Click: Continue"
+  ],
+  "observed": "Mingo\nSaved on device\nSaved actions are still queued until sync receives server acknowledgement.\nLEARNING CYCLE\nBasic greetings\n\nVocabulary · 3 of 8\n\nLearn\nHow are you?\n\nA common greeting used to ask how someone is doing.\n\nExample: “Hi, Mia. How are you?”\n\nContinue",
+  "state": {
+    "surface": "learner",
+    "learner": "cycle",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "local_queued",
+    "queuedCount": 1,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 2,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js"
+  ],
+  "failure": null
+}

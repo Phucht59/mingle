@@ -1,0 +1,63 @@
+{
+  "feature_schema_version": "features_product_v1",
+  "static": [],
+  "aggregate": [
+    {
+      "name": "completion_fraction",
+      "position": 0,
+      "dtype": "float32",
+      "unit": "ratio",
+      "definition": "Canonical required-activity completion fraction at source capture.",
+      "source": "progress_state",
+      "missingness": "not_missing",
+      "range": {
+        "kind": "bounded",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "time_window": "as_of_source_capture",
+      "preprocessing_ref": "identity_v1"
+    },
+    {
+      "name": "completion_fraction",
+      "position": 0,
+      "dtype": "float32",
+      "unit": "ratio",
+      "definition": "Canonical required-activity completion fraction at source capture.",
+      "source": "progress_state",
+      "missingness": "not_missing",
+      "range": {
+        "kind": "bounded",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "time_window": "as_of_source_capture",
+      "preprocessing_ref": "identity_v1"
+    }
+  ],
+  "temporal": {
+    "time_bin": "P1D",
+    "sequence_order": "ascending_time",
+    "padding": "right_zero",
+    "lengths_required": true,
+    "mask_required": true,
+    "features": [
+      {
+        "name": "answered_count",
+        "position": 0,
+        "dtype": "float32",
+        "unit": "count",
+        "definition": "Count of analytically published answered-question evidence in the day bin.",
+        "source": "evidence_publication",
+        "missingness": "zero_when_no_evidence",
+        "range": {
+          "kind": "bounded",
+          "min": 0.0,
+          "max": 100000.0
+        },
+        "time_window": "daily_bin",
+        "preprocessing_ref": "log1p_v1"
+      }
+    ]
+  }
+}

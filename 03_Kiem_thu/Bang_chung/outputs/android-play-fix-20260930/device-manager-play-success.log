@@ -1,0 +1,11 @@
+2026-09-30 19:04:39,690 [ 412035]   INFO - Emulator: Mingo API 35 - C:\Android\Sdk\emulator\emulator.exe -netdelay none -netspeed full -avd Mingo_API_35 -qt-hide-window -grpc-use-token -idle-grpc-timeout 300
+2026-09-30 19:06:10,732 [ 503077]   INFO - Emulator: Mingo API 35 - Loading snapshot 'default_boot'...
+2026-09-30 19:06:10,732 [ 503077]   WARN - Emulator: Mingo API 35 - Device 'cache' does not have the requested snapshot 'default_boot'
+2026-09-30 19:06:10,732 [ 503077]   WARN - Emulator: Mingo API 35 - Failed to load snapshot 'default_boot'
+2026-09-30 19:06:10,732 [ 503077]   INFO - Emulator: Mingo API 35 - Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+2026-09-30 19:06:10,732 [ 503077]   INFO - Emulator: Mingo API 35 - (Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+2026-09-30 19:06:10,732 [ 503077]   INFO - Emulator: Mingo API 35 - Boot completed in 89547 ms
+2026-09-30 19:07:23,950 [ 576295]   INFO - Emulator: Mingo API 35 - Saving snapshot 'default_boot' using 1317 ms
+2026-09-30 19:08:05,371 [ 617716]   INFO - Emulator: Mingo API 35 - C:\Android\Sdk\emulator\emulator.exe -netdelay none -netspeed full -avd Mingo_API_35 -qt-hide-window -grpc-use-token -idle-grpc-timeout 300
+2026-09-30 19:08:11,496 [ 623841]   INFO - #com.android.tools.idea.streaming.emulator.NotificationReceiver - Received notification: booted { time: 5986 }
+2026-09-30 19:08:12,024 [ 624369]   INFO - #com.android.tools.idea.adb.AdbService - Device [emulator-5554] has come online

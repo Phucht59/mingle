@@ -1,0 +1,8 @@
+00:00 +0: loading C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart
+00:00 +0: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: (setUpAll)
+00:00 +0: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-041 | Eligible | responsive + screenshot
+00:02 +1: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-041 | due | responsive + screenshot
+00:02 +2: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-041 | locked | responsive + screenshot
+00:03 +3: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-041 | insufficient-evidence | responsive + screenshot
+00:04 +4: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: (tearDownAll)
+00:04 +4: All tests passed!

@@ -1,0 +1,136 @@
+{
+  "utc": "2026-10-02T16:12:02.926309+00:00",
+  "evidence_level": "RERUN NOW",
+  "scope": "Root executed technical candidate; challenge audit read actual records. Development-team requirements-derived verification, not independent human acceptance.",
+  "candidate_log": "candidate_tests_final.jsonl",
+  "candidate_log_sha256": "bcf4679296e415556b1abb54507b4ddd54b9ff29e69769161778fd97df19c057",
+  "candidate_visible_tests": 49,
+  "candidate_done_success": true,
+  "independent_challenges": [
+    {
+      "name": "IV-01 PRD-02 Check first response cannot be rewritten by a late answer tap",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "IV-02 PRD-04 skip then Android Back does not manufacture correct feedback",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "IV-03 PRD-14 direct confirmation without review evidence stays blocked",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "IV-04 V3 security missing evidence does not expose fabricated learner answers",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "IV-05 PRD-16 recommendation outage retains a usable curriculum next step",
+      "result": "success",
+      "skipped": false
+    }
+  ],
+  "negative_control": {
+    "path": "iv03_before_fix.log",
+    "sha256": "b701b430978274073ee3a6bebca6a8d3643f006d1e1156fc06e5fe8d582a490f",
+    "result": "FAIL before correction; route-only publication prerequisite bypass reproduced"
+  },
+  "oracle_correction": "IV-02 initial harness incorrectly expected Skip immediately advanced to Transfer. Existing product requires Skip feedback then explicit Continue. Harness now follows those actions and preserves the no-fabricated-response requirement; production practice code did not change.",
+  "stable_behavior_files": {
+    "src/catalog.dart": {
+      "before_sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+      "after_sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+      "unchanged": true
+    },
+    "src/fixtures.dart": {
+      "before_sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+      "after_sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+      "unchanged": true
+    },
+    "src/lesson_content.dart": {
+      "before_sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+      "after_sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+      "unchanged": true
+    },
+    "src/audio.dart": {
+      "before_sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+      "after_sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+      "unchanged": true
+    }
+  },
+  "source_inventory_at_review": [
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/mingo_ui.dart",
+      "before_sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3",
+      "after_sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3",
+      "changed": false
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/audio.dart",
+      "before_sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+      "after_sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+      "changed": false
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/catalog.dart",
+      "before_sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+      "after_sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+      "changed": false
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/design.dart",
+      "before_sha256": "e049f695947c574f7862f7aeb1b9694a44139f7bcecf62c7788abeb7fd16f7bc",
+      "after_sha256": "fe3be4b7dacada4daf59b80865c792505c4df3ec1634afefd1d1c485b0892afa",
+      "changed": true
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/fixtures.dart",
+      "before_sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+      "after_sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+      "changed": false
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/journey.dart",
+      "before_sha256": null,
+      "after_sha256": "161c632559c431b2b5084970437d0f3076126f3c1aebebf3a440cf7f3ca279c2",
+      "changed": true
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/learner.dart",
+      "before_sha256": "6de3626ee24601493fa57baf6766dcc9fe87d54676278ac710642ef5bf73be74",
+      "after_sha256": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90",
+      "changed": true
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson.dart",
+      "before_sha256": "f3d9203f3b26d22d26db910beac1e2d513e07aaa685365c8ea11afce16033355",
+      "after_sha256": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29",
+      "changed": true
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson_content.dart",
+      "before_sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+      "after_sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+      "changed": false
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/staff.dart",
+      "before_sha256": "94feb840e25fbe02b1f5c5eb9b33a87b9dfa717fcfdab12534f9b8ff8222a059",
+      "after_sha256": "4b8fc9a8f186d3862244f97008ca1ebcaf695bee4373bb8f664fd50b86a09bf5",
+      "changed": true
+    }
+  ],
+  "manual_review_findings": [
+    "Staff change removes only the initialScreen S-036 bypass; previewAllowed remains prerequisite. This is sample workflow gating, not authentication or production publication.",
+    "Learner change composes CompanionCard/TopicCard/JourneyMilestone/EvidenceFact and initialDark review preference; go/back history, domain state, search eligibility, practice/Check APIs remain unchanged.",
+    "Lesson change adds CompletionMoment, retains heading/title content, changes selected icon from correctness-like check to radio selection; no answer key/scoring/assistance/skip logic changes.",
+    "New journey.dart contains static presentation widgets and decorative CustomPainter, with semantic exclusion and scaled image decoding; no business engine, ML, auth, remote command or telemetry submission.",
+    "Protected141 hash guard and fresh Phase1/V3 suites independently preserve backend/schema/contracts; this manual source review is not formal proof or human gate."
+  ],
+  "human_independent_acceptance": "PENDING",
+  "phase_3": "HOLD",
+  "status": "PASS"
+}

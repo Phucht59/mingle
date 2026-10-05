@@ -1,0 +1,15 @@
+Processing .\.local\phase1-clean-reproduction\05_code\backend
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: adaptive-learning-foundation
+  Building wheel for adaptive-learning-foundation (pyproject.toml): started
+  Building wheel for adaptive-learning-foundation (pyproject.toml): finished with status 'done'
+  Created wheel for adaptive-learning-foundation: filename=adaptive_learning_foundation-0.1.0-py3-none-any.whl size=9521 sha256=f9e1e3ccfae836f732c7d9a0c85ed50c7e5bf6db27f36fc7084f72e57b3854e0
+  Stored in directory: C:\Users\Ph�c\AppData\Local\Temp\pip-ephem-wheel-cache-113sjb66\wheels\9d\7c\87\9b1cb309528c87def79d31e135de851f05f0938b00b06e0ce0
+Successfully built adaptive-learning-foundation
+Installing collected packages: adaptive-learning-foundation
+Successfully installed adaptive-learning-foundation-0.1.0

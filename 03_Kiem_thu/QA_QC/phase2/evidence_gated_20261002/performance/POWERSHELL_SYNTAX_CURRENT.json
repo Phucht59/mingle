@@ -1,0 +1,16 @@
+[
+  {
+    "path": "C:\\Mingo\\04_Van_hanh\\Scripts\\run_performance_benchmark.ps1",
+    "sha256": "87e6be3e65b3354be0bae6980919d5fed485748c00bc99a9adef2e629b633292",
+    "error_count": 0,
+    "errors": [],
+    "evidence": "RERUN NOW syntax only, not benchmark execution"
+  },
+  {
+    "path": "C:\\Mingo\\.local\\launch_performance_emulator.ps1",
+    "sha256": "053994b06cfd1ffd02e05eaa99f30405f537a6b40d5ca8ec14d0bf2e0a5ab3c5",
+    "error_count": 0,
+    "errors": [],
+    "evidence": "RERUN NOW syntax only, not benchmark execution"
+  }
+]

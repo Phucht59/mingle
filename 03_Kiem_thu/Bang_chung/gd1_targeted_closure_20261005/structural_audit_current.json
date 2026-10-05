@@ -1,0 +1,15 @@
+{
+  "requirements": 16,
+  "mapped_requirements": 16,
+  "screens": 61,
+  "states": 175,
+  "qa_specs": 94,
+  "duplicate_requirements": 0,
+  "duplicate_screens": 0,
+  "duplicate_states": 0,
+  "missing_states": [],
+  "extra_states": [],
+  "dangling_refs": [],
+  "priority_unknown": 16,
+  "boundary": "Current repo structure, not workbook semantics or executed QA case IDs"
+}

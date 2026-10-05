@@ -1,0 +1,1903 @@
+# MINGO — GĐ1 FINAL CONSISTENCY AUDIT & CLOSURE
+
+## 0. VAI TRÒ CỦA BẠN
+
+Bạn đang đóng vai trò **Senior Software Architect + Senior Business Analyst + QA/Consistency Auditor** cho dự án **MINGO — Adaptive Language Learning & Early Intervention Platform**.
+
+Đây **KHÔNG phải** nhiệm vụ thiết kế lại sản phẩm từ đầu.
+
+Đây **KHÔNG phải** một architecture review tổng quát.
+
+Đây **KHÔNG phải** nhiệm vụ thêm feature theo ý bạn.
+
+Nhiệm vụ chính là:
+
+> Kiểm tra tính nhất quán thực tế giữa source-of-truth V3.2, repository, verification/contracts, BA workbook, project snapshot và các quyết định đã được Product Owner phê duyệt; sau đó xác định chính xác những gì cần sửa trước khi đóng GĐ1 — Internal BA Baseline.
+
+Hãy làm việc theo nguyên tắc **evidence-first**.
+
+Không được kết luận PASS chỉ vì tài liệu “có vẻ hợp lý”.
+
+---
+
+# 1. PROJECT CONTEXT
+
+## 1.1 Product
+
+Tên sản phẩm:
+
+**MINGO — Adaptive Language Learning & Early Intervention Platform**
+
+MINGO phát triển từ KLTN của Trần Hoàng Phúc nhưng mục tiêu hiện tại không còn chỉ là một thesis prototype.
+
+Mục tiêu là chuyển hệ thống nghiên cứu thành một sản phẩm học ngôn ngữ thực tế theo quy trình startup công nghệ, bao gồm dần theo roadmap:
+
+- learning;
+- content;
+- assessment;
+- offline mobile;
+- telemetry;
+- analytics;
+- learning intelligence;
+- risk prediction;
+- recommendation/intervention;
+- staff/admin;
+- production deployment;
+- continuous improvement.
+
+Product thesis hiện tại:
+
+> Mingo là một adaptive language learning platform hướng tới việc giúp người học xác định next meaningful action, học qua finite learning cycle, nhận feedback cụ thể, tạo independent learning evidence và quay lại đúng lúc để củng cố.
+
+Core learner promise:
+
+> Mở Mingo → biết mình nên làm gì → học một việc có ý nghĩa → hiểu mình làm đúng/sai vì sao → kết thúc rõ ràng → biết bước tiếp theo.
+
+AI/ML là năng lực phía sau sản phẩm, không phải lời hứa chính của sản phẩm.
+
+---
+
+# 2. SOURCE-OF-TRUTH HIERARCHY
+
+Khi có xung đột, KHÔNG tự hòa giải bằng suy đoán.
+
+Áp dụng thứ tự sau.
+
+## Level 1 — Architecture / Contract Source of Truth
+
+**V3.2**
+
+V3.2 là source of truth hiện tại cho:
+
+- architecture;
+- technical contracts;
+- server/client authority;
+- data/event semantics;
+- revision/versioning;
+- offline synchronization contracts;
+- scoring/progress authority;
+- analytics temporal semantics;
+- prediction/recommendation separation.
+
+V3.2 đã qua:
+
+- 115 contract checks;
+- 22 SQL checks.
+
+Baseline được đánh giá đủ để bắt đầu implementation.
+
+V3.2 là:
+
+**specification + verification-code baseline**
+
+chứ KHÔNG được hiểu là:
+
+**complete production application**.
+
+Không mở lại architecture chỉ vì có cách thiết kế khác.
+
+Chỉ báo architecture defect khi tìm thấy **blocking contradiction cụ thể có bằng chứng**.
+
+---
+
+## Level 2 — Approved Product/BA Decisions
+
+Product Owner đã review và approve toàn bộ conclusion hiện tại.
+
+PO approval theo project record:
+
+**2026-10-04**
+
+Approval có nghĩa:
+
+- các decision được đề xuất freeze có thể chuyển thành approved/frozen nếu không mâu thuẫn V3.2;
+- các mục vốn là HYPOTHESIS vẫn là HYPOTHESIS;
+- các mục DEFERRED vẫn là DEFERRED;
+- FUTURE vẫn là FUTURE;
+- RESEARCH ONLY vẫn là RESEARCH ONLY;
+- approval KHÔNG biến assumption thành customer validation;
+- approval KHÔNG biến research hypothesis thành production truth.
+
+Đặc biệt:
+
+**Customer discovery chưa hoàn thành.**
+
+Phải ghi nhận là:
+
+**VALIDATION DEBT**
+
+Không được viết:
+
+- “validated by users”;
+- “confirmed by customers”;
+- “proven market need”;
+
+nếu không có evidence thực tế.
+
+---
+
+## Level 3 — BA Workbook
+
+Artifact chính:
+
+**Mingo GD1 — Quản lý Phân tích Nghiệp vụ.xlsx**
+
+Workbook chứa các sheet hiện tại:
+
+- 00_Dashboard
+- 01_Huong_dan
+- 02_Roadmap_8_GD
+- 03_Yeu_cau_Nghiep_vu
+- 04_Business_Rules
+- 05_UseCase_Trigger
+- 06_User_Journey
+- 07_RTM
+- 08_Wireframe_Learner
+- 09_Wireframe_Staff
+- 10_WBS
+- 11_RACI
+- 12_RAID
+- 13_Research_Evidence
+- 14_Decision_Log
+- 15_Test_Gate
+
+Không mặc định workbook đúng chỉ vì có dữ liệu.
+
+Audit nó với V3.2 + repository + approved decisions.
+
+---
+
+## Level 4 — Project Progress Snapshot
+
+Artifact:
+
+**MINGO_PROJECT_PROGRESS_SNAPSHOT_2026-10-04.md**
+
+Snapshot dùng để hiểu:
+
+- lịch sử quyết định;
+- trạng thái phase;
+- assumptions;
+- open items;
+- deferred items;
+- implementation context.
+
+Nếu snapshot mâu thuẫn V3.2:
+
+**V3.2 thắng.**
+
+Nếu snapshot cũ hơn PO approval:
+
+hãy đánh dấu là cần update, không coi trạng thái cũ là trạng thái hiện tại.
+
+---
+
+# 3. FROZEN TECHNICAL BASELINE
+
+Không thay đổi các quyết định dưới đây nếu không phát hiện blocking defect cụ thể.
+
+## Client
+
+- Flutter.
+- Android-first learner.
+- Flutter Web cho staff/admin.
+- iOS giữ khả năng hỗ trợ nhưng public release sau.
+
+## Backend
+
+- FastAPI / Python.
+- PostgreSQL.
+- Object Storage.
+- Modular monolith.
+
+## Runtime
+
+- API process.
+- Durable worker process.
+- Cùng codebase.
+
+Không tự thêm:
+
+- Kafka;
+- Kubernetes;
+- microservices;
+- data warehouse;
+- external feature store;
+
+nếu chưa có requirement/load thực tế.
+
+## Authority
+
+Server authoritative cho:
+
+- scoring;
+- progress;
+- permission.
+
+## Offline
+
+Client sử dụng:
+
+- durable command queue;
+- telemetry queue.
+
+Command và telemetry phải tách biệt.
+
+Network restored KHÔNG đồng nghĩa với synced.
+
+Replay phải hỗ trợ idempotency.
+
+## Content
+
+Published content:
+
+- immutable;
+- versioned.
+
+Enrollment/attempt phải pin exact revision theo contract tương ứng.
+
+## Analytics
+
+Analytics phải phân biệt:
+
+- event time;
+- knowledge/availability time;
+- source capture.
+
+Không được làm point-in-time analysis bằng future information.
+
+## Intelligence
+
+Mastery khác Risk.
+
+Risk chỉ là optional input cho recommendation.
+
+OULAD/UCI chỉ là research baseline.
+
+Không mặc định production weights từ research datasets.
+
+Phải giữ separation:
+
+Prediction  
+→ Recommendation Decision  
+→ Exposure  
+→ Execution  
+→ Outcome.
+
+---
+
+# 4. FROZEN LEARNING / PRODUCT PRINCIPLES
+
+Các nguyên tắc sau đã được chấp thuận.
+
+## Learning cycle
+
+Mingo sử dụng finite meaningful learning cycle.
+
+Candidate conceptual loop:
+
+Resume / Recommended Action  
+→ Learn / Review  
+→ Retrieval Practice  
+→ Application / Transfer  
+→ Independent Check  
+→ Evidence + Explanation  
+→ Closure  
+→ Spaced Return
+
+Không xây infinite learning feed làm core loop.
+
+Không forced timer.
+
+**5 phút không phải invariant.**
+
+“Khoảng 5 phút” chỉ là UX/product hypothesis/configurable target.
+
+---
+
+## Evidence semantics
+
+Phải giữ:
+
+- first response;
+- assisted != unaided;
+- skip != completion;
+- skip không tạo mastery evidence;
+- independent Check mạnh hơn assisted practice evidence;
+- retry không được ghi đè first response;
+- replay/hint/assistance context phải được bảo toàn khi cần đánh giá evidence.
+
+---
+
+## Progress
+
+Không hiển thị fake precision như:
+
+> Mastery = 73%
+
+nếu chưa có validated mastery model hỗ trợ con số đó.
+
+Progress nên trả lời:
+
+- người học đã làm gì;
+- bằng chứng nào đã quan sát được;
+- nội dung nào cần củng cố;
+- bước tiếp theo là gì.
+
+---
+
+## Recommendation
+
+Hệ thống phải hoạt động khi ML OFF.
+
+Baseline recommendation có thể deterministic dựa trên:
+
+1. curriculum eligibility;
+2. prerequisite;
+3. due review;
+4. unfinished valid work;
+5. focus/goal preference;
+6. content availability;
+7. deterministic fallback.
+
+ML không phải dependency của learner core.
+
+Recommendation reason phải:
+
+- ngắn;
+- truthful;
+- auditable;
+- không suy diễn tâm lý người dùng.
+
+Không suy ra các label như:
+
+- lazy;
+- bored;
+- visual learner;
+- auditory learner;
+
+từ clickstream.
+
+Không triển khai learning-style personalization.
+
+---
+
+# 5. APPROVED PRODUCT DECISIONS
+
+Các decision sau đã được PO chấp thuận về hướng sản phẩm.
+
+## First-use
+
+Onboarding:
+
+- ngắn;
+- tập trung value;
+- không dùng marketing carousel dài;
+- không hiển thị bottom navigation trước main application shell.
+
+Candidate flow:
+
+First Launch  
+→ Short Value Introduction  
+→ Goal  
+→ Placement Offer  
+→ Placement nếu người dùng chọn  
+→ First Home.
+
+Goal:
+
+- optional;
+- editable;
+- không phải mastery evidence;
+- không override prerequisite/evidence;
+- chỉ là preference/context cho eligible recommendation.
+
+Placement:
+
+- optional;
+- skip là hành vi hợp lệ;
+- không phạt người học vì skip;
+- result chỉ là provisional starting point;
+- không gọi placement result là mastery;
+- không fake certainty.
+
+Số câu placement như “6–9 items”:
+
+**HYPOTHESIS / CONFIGURABLE**
+
+không phải frozen production invariant.
+
+Exact goal categories:
+
+**chưa được coi là customer-validated.**
+
+---
+
+# 6. PRODUCT DECISION CLASSIFICATION
+
+Mọi conclusion phải dùng một trong các trạng thái:
+
+### ĐÃ CHỐT
+
+Approved baseline, đủ cơ sở để implementation dựa vào.
+
+### GIẢ THUYẾT CẦN KIỂM CHỨNG
+
+PO đồng ý giữ làm hypothesis nhưng chưa có customer/product evidence đủ mạnh.
+
+### CHƯA QUYẾT ĐỊNH
+
+Cần decision hoặc evidence thêm.
+
+### ĐỂ GIAI ĐOẠN SAU
+
+Không thuộc implementation scope hiện tại.
+
+### VALIDATION DEBT
+
+Internal baseline có thể tiếp tục nhưng cần external/customer validation sau.
+
+Không dùng trạng thái mơ hồ kiểu “có vẻ OK”.
+
+---
+
+# 7. IMPORTANT HYPOTHESES — DO NOT ACCIDENTALLY FREEZE
+
+Các mục sau KHÔNG được biến thành invariant chỉ vì PO đã approve tài liệu:
+
+- exact 5-minute lesson;
+- Vietnam 18–35 target segment;
+- beginner/rebuilder wedge;
+- placement 6–9 questions;
+- retry count;
+- replay limit;
+- skip threshold;
+- challenge threshold;
+- focus/review insertion limit;
+- streak mechanics;
+- reward mechanics;
+- pricing;
+- exact Home recommendation priority nếu artifact chưa chính thức freeze nó.
+
+Các mục sau vẫn DEFERRED:
+
+- final mastery formula;
+- final risk label;
+- production prediction weights;
+- ML recommendation weights;
+- intervention algorithm;
+- child/guardian product;
+- advanced speaking AI;
+- advanced intervention system.
+
+Không implement hoặc spec chi tiết các mục này trong audit.
+
+---
+
+# 8. KNOWN BA ISSUES FROM PREVIOUS AUDIT
+
+Không mặc định các issue dưới đây vẫn tồn tại.
+
+Hãy **kiểm tra artifact/repository thực tế** rồi xác nhận PASS / FAIL / FIXED / NOT APPLICABLE.
+
+Known candidates:
+
+## RTM
+
+RTM từng chỉ có khoảng 8 needs và chưa trace đầy đủ.
+
+Known dangling reference:
+
+**N-06 → WF-10**
+
+trong khi learner wireframe từng chỉ có:
+
+WF-01 … WF-09.
+
+Kiểm tra hiện trạng thật.
+
+---
+
+## WBS
+
+Item:
+
+**1.11 Traceability**
+
+từng bị đánh dấu DONE quá sớm.
+
+Nếu traceability chưa đầy đủ, trạng thái phải là ACTIVE.
+
+---
+
+## Requirement traceability
+
+Các PRD từng thiếu mapping đầy đủ:
+
+PRD  
+→ BR  
+→ Trigger  
+→ Use Case  
+→ Screen/State  
+→ Acceptance Criteria/Test.
+
+Audit toàn bộ.
+
+Không chỉ kiểm tra rằng ID tồn tại.
+
+Phải kiểm tra **semantic consistency**.
+
+---
+
+## Actor model
+
+Workbook trước đây thiếu canonical Product Actor / Role / Permission model.
+
+RACI của project team KHÔNG thay thế Product Actor model.
+
+Cần phân biệt tối thiểu:
+
+- Learner;
+- Content Author;
+- Reviewer;
+- Publisher/Operator;
+- Staff;
+- Advisor nếu thuộc scope;
+- Admin;
+- Guardian — FUTURE nếu chưa thuộc MVP.
+
+Không tự tạo permission implementation chi tiết vượt GĐ1.
+
+---
+
+## Account lifecycle
+
+BA trước đây thiếu/thiếu sâu:
+
+- sign up;
+- login;
+- logout;
+- recovery;
+- session;
+- device change;
+- account state;
+- profile;
+- preferences;
+- deletion;
+- export.
+
+Kiểm tra xem artifacts hiện tại đã giải quyết đến đâu.
+
+---
+
+## Staff/Admin
+
+Staff wireframe từng quá mỏng.
+
+Content lifecycle tối thiểu cần được business-spec ở mức phù hợp:
+
+Draft  
+→ Review  
+→ Approved  
+→ Published  
+→ Superseded/Deprecated
+
+Tên state có thể khác nếu artifact đã có canonical naming.
+
+Published revision vẫn immutable.
+
+---
+
+## NFR
+
+Kiểm tra canonical NFR coverage:
+
+- reliability;
+- offline behavior;
+- sync correctness;
+- performance;
+- accessibility;
+- security;
+- privacy;
+- auditability;
+- data integrity;
+- observability phù hợp scope;
+- failure recovery.
+
+Không tự đặt arbitrary SLA nếu không có evidence/decision.
+
+---
+
+## Privacy/Data Governance
+
+Kiểm tra ít nhất:
+
+Purpose  
+→ Collection  
+→ Access  
+→ Use  
+→ Retention  
+→ Deletion/Export  
+→ Audit.
+
+Không biến analytics telemetry thành quyền thu thập mọi dữ liệu thiết bị.
+
+Baseline personalization chỉ nên dựa trên observed in-product behavior và explicit user context/preferences trừ khi có CR mới.
+
+---
+
+# 9. CURRENT LEGAL/PRIVACY CONTEXT
+
+Project research hiện tại ghi nhận Vietnam privacy baseline cho thời điểm 2026:
+
+- Law on Personal Data Protection 91/2025/QH15;
+- Decree 356/2025/NĐ-CP;
+- effective baseline từ 2026-01-01 theo project research.
+
+Không mặc định Decree 13/2023 là current primary baseline nếu project evidence đã supersede nó.
+
+Tuy nhiên:
+
+**Bạn không phải legal counsel.**
+
+Audit chỉ cần xác định:
+
+- project artifact có nhất quán với current recorded baseline hay không;
+- có outdated reference hay không;
+- có missing governance requirement hay không.
+
+Không tự phát minh legal requirement.
+
+---
+
+# 10. USER / MARKET STATUS
+
+Candidate MVP wedge:
+
+Vietnamese adult / young-adult English learner, đặc biệt beginner/rebuilder.
+
+Nhưng:
+
+**TARGET CUSTOMER VẪN LÀ HYPOTHESIS.**
+
+Không viết rằng segment này đã được customer validated.
+
+Long-term multi-age platform direction có thể tồn tại, nhưng:
+
+> Một UX duy nhất không được mặc định phù hợp cho toàn bộ 0–35 tuổi.
+
+Child product phải được coi là separate future product mode/domain với privacy/safety/guardian review riêng.
+
+---
+
+# 11. CUSTOMER DISCOVERY STATUS
+
+Customer discovery thực tế chưa hoàn thành đủ để gọi externally validated.
+
+Đây là:
+
+**VALIDATION DEBT**
+
+PO approval chỉ cho phép:
+
+> GĐ1 — Internal BA Baseline Approved
+
+sau khi internal consistency gate đạt.
+
+Không được đổi thành:
+
+> Market Validated
+
+hoặc:
+
+> Customer Validated.
+
+Hãy kiểm tra toàn bộ artifacts để đảm bảo không có câu chữ nào vô tình tuyên bố customer validation đã hoàn thành.
+
+---
+
+# 12. PRODUCT CAPABILITY COVERAGE TO AUDIT
+
+Kiểm tra business coverage của các capability sau.
+
+## Learner
+
+- first launch;
+- onboarding;
+- account/restore;
+- goal;
+- optional placement;
+- recommendation;
+- resume unfinished session;
+- browse learning content;
+- start lesson;
+- answer;
+- hint;
+- replay;
+- skip;
+- explanation;
+- retry;
+- independent Check;
+- result;
+- review;
+- spaced return;
+- return after absence;
+- pause/exit/resume;
+- progress;
+- course/map;
+- offline learning;
+- download;
+- sync state;
+- download management;
+- settings/preferences;
+- accessibility/context;
+- content issue reporting;
+- account deletion/export where required.
+
+Không phải mọi capability đều phải là một screen riêng.
+
+State/flow/API behavior có thể đủ nếu traceability đúng.
+
+---
+
+## Edge cases
+
+Kiểm tra coverage cho:
+
+- interruption;
+- app termination;
+- return after long absence;
+- offline during learning;
+- offline during assessment;
+- network restored but commands still pending;
+- sync retry;
+- duplicate replay;
+- stale/partial/corrupt download;
+- device change;
+- insufficient storage;
+- no eligible content;
+- content revision changed after publish;
+- learner rejects recommendation;
+- goal changes;
+- content issue/disagreement;
+- ML unavailable;
+- recommendation unavailable;
+- account deletion/export;
+- notification fatigue/preferences.
+
+Không ép tất cả vào MVP.
+
+Phải classify:
+
+- IN MVP;
+- OUT;
+- DEFERRED;
+- FUTURE;
+- RESEARCH ONLY.
+
+---
+
+# 13. STAFF / CONTENT OPERATIONS
+
+Audit business flow cho staff/content.
+
+Ít nhất cần xác định coverage của:
+
+Create/Edit Draft  
+→ Preview  
+→ Submit Review  
+→ Review  
+→ Return/Approve  
+→ Publish  
+→ Published Revision  
+→ New Revision.
+
+Kiểm tra:
+
+- role boundaries;
+- permission boundaries;
+- immutable published revision;
+- provenance/license;
+- publish blocking condition;
+- learner issue reporting context;
+- auditability.
+
+Không thiết kế CMS enterprise quá mức cần thiết.
+
+---
+
+# 14. REPOSITORY AUDIT
+
+Repository chính:
+
+**mingle**
+
+GitHub project/repository context:
+
+**Phucht59/mingle**
+
+Hãy inspect repository thực tế.
+
+Không suy luận repo structure từ tài liệu.
+
+Tìm:
+
+- README;
+- architecture docs;
+- ADR;
+- contracts;
+- schemas;
+- migrations;
+- SQL checks;
+- tests;
+- verification scripts;
+- API specifications;
+- event contracts;
+- command contracts;
+- telemetry contracts;
+- offline/sync contracts;
+- content revision contracts;
+- auth/permission artifacts nếu có;
+- CI;
+- implementation skeleton;
+- TODO/FIXME;
+- obsolete files;
+- duplicate specs;
+- contradictory docs.
+
+Nếu có multiple versions của cùng specification:
+
+xác định canonical version bằng evidence.
+
+Không tự chọn file mới nhất chỉ dựa trên timestamp.
+
+---
+
+# 15. VERIFY THE CLAIMED BASELINE
+
+Tìm bằng chứng cho các claim:
+
+- 115 contract checks passed;
+- 22 SQL checks passed;
+- V3.2 baseline exists;
+- baseline is specification/verification rather than completed application.
+
+Nếu test/check executable:
+
+hãy chạy chúng.
+
+Ghi:
+
+- command;
+- environment;
+- result;
+- passed;
+- failed;
+- skipped;
+- blocked;
+- reason.
+
+Nếu không thể chạy:
+
+không ghi PASS.
+
+Ghi:
+
+**NOT EXECUTED / BLOCKED**
+
+và lý do.
+
+---
+
+# 16. TEST ≠ DOCUMENT EXISTENCE
+
+Không được dùng logic:
+
+> “Có file → PASS”.
+
+Mỗi finding phải phân biệt:
+
+### Presence
+
+Artifact có tồn tại không?
+
+### Structural consistency
+
+IDs, references, schema, naming có khớp không?
+
+### Semantic consistency
+
+Business meaning có khớp không?
+
+### Executable verification
+
+Có test/check thực thi được không?
+
+### Runtime evidence
+
+Có evidence runtime thực sự không?
+
+GĐ1 chủ yếu cần specification consistency.
+
+Không giả vờ runtime validated nếu chỉ có schema/contracts.
+
+---
+
+# 17. CONSISTENCY DIMENSIONS
+
+Audit theo ít nhất các dimension sau.
+
+## A. Architecture consistency
+
+BA có yêu cầu điều gì mâu thuẫn V3.2 không?
+
+## B. Terminology consistency
+
+Các thuật ngữ có được dùng cùng nghĩa không?
+
+Đặc biệt:
+
+- lesson;
+- cycle;
+- session;
+- attempt;
+- Check;
+- first response;
+- assisted;
+- unaided;
+- evidence;
+- mastery;
+- risk;
+- recommendation;
+- revision;
+- command;
+- telemetry;
+- sync;
+- progress.
+
+## C. Requirement consistency
+
+Requirement có contradict business rule không?
+
+## D. Flow consistency
+
+Use case / trigger / journey / wireframe có cùng behavior không?
+
+## E. Traceability consistency
+
+Có orphan hoặc dangling reference không?
+
+## F. Scope consistency
+
+Feature có bị wireframe ngầm đưa vào nhưng PRD không có không?
+
+## G. Status consistency
+
+DONE có thực sự đạt Definition of Done không?
+
+## H. Evidence consistency
+
+Hypothesis có bị viết như fact không?
+
+## I. Privacy consistency
+
+Có collection/use nào không có purpose/governance không?
+
+## J. Implementation consistency
+
+Repo implementation/spec có drift khỏi approved baseline không?
+
+---
+
+# 18. DEFINITION OF DONE FOR A GĐ1 PRODUCT CAPABILITY
+
+Một capability chỉ được coi là fully specified khi các thành phần cần thiết đã được trace ở mức phù hợp:
+
+Requirement  
+→ Business Rule  
+→ Trigger  
+→ Use Case/Flow  
+→ Screen hoặc State  
+→ Acceptance Criteria  
+→ Test/Verification reference.
+
+Không bắt buộc mọi node đều có artifact riêng nếu không cần thiết.
+
+Nhưng nếu thiếu, phải giải thích tại sao traceability vẫn đầy đủ.
+
+---
+
+# 19. DO NOT OVER-SPECIFY
+
+Trong audit này KHÔNG thiết kế chi tiết:
+
+- mastery algorithm;
+- final risk model;
+- ML feature engineering;
+- model weights;
+- adaptive ML algorithm;
+- recommendation ML ranking;
+- intervention optimization;
+- warehouse;
+- feature store;
+- Kafka;
+- Kubernetes;
+- microservices;
+- child product;
+- social network;
+- leaderboard;
+- XP economy;
+- AI chatbot;
+- advanced speaking AI.
+
+Nếu thấy artifact nào đã vô tình freeze các nội dung này:
+
+flag là:
+
+**PREMATURE SPECIFICATION**
+
+---
+
+# 20. FIRST-USE CONSISTENCY AUDIT
+
+Audit cụ thể:
+
+Onboarding  
+→ Goal  
+→ Placement  
+→ First Home.
+
+Kiểm tra:
+
+### Onboarding
+
+- có quá dài không;
+- có bottom nav trước app shell không;
+- có CTA rõ không;
+- interrupted onboarding behavior.
+
+### Goal
+
+- optional;
+- editable;
+- không phải mastery evidence;
+- không bypass curriculum/prerequisite.
+
+### Placement
+
+- optional;
+- skip không penalty;
+- result provisional;
+- không fake mastery;
+- exact item count không bị hard-code như invariant.
+
+### First Home
+
+Home nên có một primary action rõ ràng.
+
+Candidate priority hiện tại:
+
+unfinished valid session  
+→ due review  
+→ next eligible path lesson  
+→ goal-matched eligible content  
+→ deterministic fallback  
+→ honest empty state.
+
+Nếu artifact chưa formally freeze priority này, ghi nó là:
+
+**APPROVED DIRECTION / HYPOTHESIS**
+
+không tự biến thành immutable business contract.
+
+---
+
+# 21. OFFLINE CONSISTENCY AUDIT
+
+Đây là khu vực rủi ro cao.
+
+Phân biệt rõ:
+
+- available offline;
+- saved locally;
+- pending;
+- syncing;
+- synced;
+- failed.
+
+Network restored != synced.
+
+Kiểm tra:
+
+- command durability;
+- telemetry durability;
+- idempotency;
+- duplicate replay;
+- ordering assumptions;
+- server acknowledgement;
+- retry;
+- content revision compatibility;
+- partial download;
+- stale download;
+- assessment offline behavior;
+- UI state consistency.
+
+Nếu chỉ có contract mà chưa runtime test:
+
+ghi:
+
+**CONTRACT VERIFIED / RUNTIME NOT YET VERIFIED**
+
+không ghi full PASS.
+
+---
+
+# 22. DATA / ANALYTICS CONSISTENCY
+
+Kiểm tra rằng artifacts không trộn:
+
+- event occurrence time;
+- ingestion/availability time;
+- processing time;
+- prediction time.
+
+Prediction/training feature không được nhìn thấy future information.
+
+Kiểm tra source capture.
+
+Kiểm tra separation:
+
+Command  
+vs Telemetry  
+vs Decision  
+vs Exposure  
+vs Execution  
+vs Outcome.
+
+---
+
+# 23. GĐ1 CLOSURE WORKSTREAMS
+
+GĐ1 chỉ cần closure cho 7 nhóm chính:
+
+## 1. Business Context & Scope
+
+- product thesis;
+- problem;
+- candidate ICP;
+- MVP;
+- OUT;
+- DEFERRED;
+- FUTURE;
+- RESEARCH ONLY.
+
+## 2. Actor & Permission
+
+- canonical actors;
+- role boundaries;
+- permission intent.
+
+## 3. Business Glossary
+
+Canonical definitions.
+
+## 4. NFR + Privacy/Data
+
+- reliability;
+- accessibility;
+- offline;
+- privacy;
+- retention;
+- deletion/export;
+- audit;
+- performance principles.
+
+## 5. Capability Coverage
+
+Learner + Account + Staff/Content.
+
+## 6. Traceability
+
+PRD  
+↔ BR  
+↔ Trigger  
+↔ UC  
+↔ Screen/State  
+↔ Acceptance/Test.
+
+## 7. Governance & Validation
+
+- Decision Log;
+- Change Request register;
+- RAID;
+- customer discovery debt;
+- PO approval;
+- gate.
+
+Không mở một vòng architecture redesign mới.
+
+---
+
+# 24. REQUIRED AUDIT PROCESS
+
+Thực hiện theo thứ tự.
+
+## STEP 1 — INVENTORY
+
+Liệt kê artifact/repo structure thực tế.
+
+Xác định canonical sources.
+
+## STEP 2 — VERIFY V3.2
+
+Tìm V3.2 và verification evidence.
+
+## STEP 3 — RUN EXISTING CHECKS
+
+Nếu executable.
+
+Không sửa test để làm chúng pass trước khi ghi baseline result.
+
+## STEP 4 — AUDIT WORKBOOK/SNAPSHOT AGAINST V3.2
+
+Tìm contradictions.
+
+## STEP 5 — AUDIT CROSS-ARTIFACT TRACEABILITY
+
+Tìm:
+
+- orphan;
+- dangling ID;
+- missing relation;
+- duplicate meaning;
+- inconsistent terminology.
+
+## STEP 6 — AUDIT SCOPE LEAKAGE
+
+Tìm feature xuất hiện ở wireframe/use case nhưng không có requirement hoặc decision.
+
+## STEP 7 — AUDIT STATUS CLAIMS
+
+Tìm item ghi DONE nhưng evidence chưa đủ.
+
+## STEP 8 — AUDIT HYPOTHESIS LEAKAGE
+
+Tìm hypothesis bị viết như frozen truth.
+
+## STEP 9 — AUDIT PRIVACY/NFR
+
+Tìm missing governance.
+
+## STEP 10 — AUDIT IMPLEMENTATION DRIFT
+
+Nếu repo đã có code/skeleton, so với V3.2.
+
+## STEP 11 — PRODUCE FINDINGS
+
+Không sửa ngay trước khi findings được ghi rõ.
+
+## STEP 12 — APPLY SAFE CORRECTIONS
+
+Chỉ sửa các lỗi:
+
+- reference;
+- terminology;
+- status;
+- traceability;
+- documentation inconsistency;
+- approved BA closure items;
+
+nếu không thay đổi foundational business semantics.
+
+Nếu sửa có thể thay business rule:
+
+TẠO CHANGE REQUEST thay vì tự sửa.
+
+---
+
+# 25. SEVERITY MODEL
+
+Mỗi finding phải có severity.
+
+## BLOCKER
+
+Không thể chốt GĐ1 internal baseline.
+
+Ví dụ:
+
+- contradiction với V3.2;
+- missing canonical requirement gây behavior không xác định;
+- traceability hỏng ở P0 core;
+- security/privacy contradiction nghiêm trọng.
+
+## HIGH
+
+Nên sửa trước GĐ1 gate.
+
+## MEDIUM
+
+Không block gate nhưng phải ghi debt.
+
+## LOW
+
+Editorial/cleanup.
+
+## INFO
+
+Observation.
+
+---
+
+# 26. FINDING FORMAT
+
+Mỗi finding dùng format:
+
+**ID:** AUD-xxx  
+**Severity:** BLOCKER/HIGH/MEDIUM/LOW/INFO  
+**Area:** ...  
+**Artifact:** ...  
+**Location:** sheet/file/row/function/test/...  
+**Observed:** ...  
+**Expected:** ...  
+**Evidence:** ...  
+**Source of truth:** ...  
+**Impact:** ...  
+**Recommended action:** ...  
+**Change Request required:** YES/NO  
+**Gate blocking:** YES/NO
+
+Không viết finding chung chung.
+
+---
+
+# 27. CHANGE REQUEST RULE
+
+Không tự sửa foundational behavior nếu phát hiện conflict.
+
+Tạo candidate CR với:
+
+**CR ID**  
+**Problem**  
+**Current baseline**  
+**Requested change**  
+**Reason**  
+**Affected artifacts**  
+**Affected contracts**  
+**Backward compatibility**  
+**Risk**  
+**Decision owner**  
+**Status**
+
+Không được bypass CR chỉ vì sửa “có vẻ hợp lý”.
+
+---
+
+# 28. EXPECTED FINAL STATUS AFTER AUDIT
+
+Nếu không còn BLOCKER/HIGH inconsistency ảnh hưởng gate, có thể đề xuất:
+
+# GĐ1 — INTERNAL BA BASELINE APPROVED
+
+Nhưng phải ghi kèm:
+
+**Customer validation remains VALIDATION DEBT.**
+
+Điều này KHÔNG đồng nghĩa:
+
+- product-market fit;
+- customer validation complete;
+- learning effectiveness proven;
+- ML effectiveness proven;
+- production readiness.
+
+Nó chỉ có nghĩa:
+
+> Internal business/product baseline đủ nhất quán để làm source cho các phase tiếp theo.
+
+---
+
+# 29. REQUIRED DELIVERABLE 1 — EXECUTIVE AUDIT RESULT
+
+Trả lời:
+
+### Overall
+
+PASS / CONDITIONAL PASS / FAIL
+
+### Gate
+
+Có thể đóng:
+
+**GĐ1 — Internal BA Baseline Approved**
+
+hay chưa?
+
+### Evidence
+
+Nêu bằng chứng cụ thể.
+
+### Remaining debt
+
+Phân biệt:
+
+- validation debt;
+- implementation debt;
+- research debt;
+- deferred product scope.
+
+---
+
+# 30. REQUIRED DELIVERABLE 2 — CONSISTENCY MATRIX
+
+Tạo matrix:
+
+| Area | V3.2 | Workbook | Snapshot | Repo | Status | Finding IDs |
+|---|---|---|---|---|---|---|
+
+Ít nhất bao gồm:
+
+- architecture;
+- authority;
+- content versioning;
+- learning evidence;
+- assessment;
+- offline;
+- telemetry;
+- analytics;
+- recommendation;
+- ML optionality;
+- privacy;
+- actor;
+- account;
+- staff/content;
+- NFR;
+- scope;
+- traceability.
+
+---
+
+# 31. REQUIRED DELIVERABLE 3 — TRACEABILITY AUDIT
+
+Xuất bảng:
+
+| Requirement | BR | Trigger | UC | Screen/State | Acceptance/Test | Result | Gap |
+|---|---|---|---|---|---|---|---|
+
+Audit toàn bộ P0 trước.
+
+Sau đó P1.
+
+Không chỉ check ID existence; check semantic relation.
+
+---
+
+# 32. REQUIRED DELIVERABLE 4 — DECISION AUDIT
+
+Tạo:
+
+| Decision | Expected Status | Artifact Status | Consistent? | Action |
+|---|---|---|---|---|
+
+Phân biệt:
+
+- frozen;
+- hypothesis;
+- undecided;
+- deferred;
+- validation debt.
+
+---
+
+# 33. REQUIRED DELIVERABLE 5 — TEST/CHECK RESULT
+
+Nếu có executable verification:
+
+| Check | Command | Expected | Actual | Result |
+|---|---|---|---|---|
+
+Đặc biệt verify claim:
+
+- 115 contract checks;
+- 22 SQL checks.
+
+Nếu con số thực tế khác:
+
+không chỉnh report để ép khớp 115/22.
+
+Ghi số thực tế và investigate drift.
+
+---
+
+# 34. REQUIRED DELIVERABLE 6 — FIX LOG
+
+Nếu thực hiện safe fixes:
+
+| Fix ID | Finding | File/Sheet | Before | After | Why Safe |
+|---|---|---|---|---|---|
+
+Không che giấu sửa đổi.
+
+---
+
+# 35. REQUIRED DELIVERABLE 7 — GATE PACK
+
+Cuối audit tạo GĐ1 Gate Pack:
+
+## Gate identity
+
+**MINGO — GĐ1 Internal BA Baseline**
+
+## Architecture source
+
+V3.2
+
+## PO approval
+
+Approved.
+
+## Customer validation
+
+VALIDATION DEBT.
+
+## Critical findings
+
+...
+
+## Open CR
+
+...
+
+## Deferred
+
+...
+
+## Hypotheses
+
+...
+
+## Test evidence
+
+...
+
+## Gate recommendation
+
+PASS / CONDITIONAL PASS / FAIL.
+
+---
+
+# 36. REQUIRED DELIVERABLE 8 — ARTIFACT UPDATE PLAN
+
+Sau audit, đưa ra chính xác các thay đổi cần áp dụng vào:
+
+### Excel
+
+`Mingo GD1 — Quản lý Phân tích Nghiệp vụ.xlsx`
+
+Sheet-by-sheet.
+
+### Project Snapshot
+
+Tạo snapshot mới thay vì phá lịch sử snapshot cũ.
+
+### Final Word Report
+
+Xác định nội dung đã đủ evidence để đưa vào report.
+
+Không được viết customer validation như đã hoàn thành.
+
+---
+
+# 37. FINAL WORD REPORT REQUIREMENTS
+
+Final GĐ1 report sau audit phải có cấu trúc phù hợp thesis + startup/product handoff.
+
+Expected sections:
+
+1. Executive Summary
+2. Research Method & Limitations
+3. Product / Problem Framing
+4. User Segmentation & JTBD
+5. Behavioral / Usage Context
+6. Learning-Science Synthesis
+7. Competitor / Market Context
+8. Business Capability Model
+9. Detailed Processes / Use Cases / Triggers / State
+10. Staff / Content Operations
+11. Privacy / Accessibility / Trust
+12. Requirements / Gaps / Priorities
+13. UX / Wireframe Implications
+14. Metrics / Evidence Gates
+15. Validation Plan
+16. Decision / Change Register
+17. GĐ1 Gate Conclusion
+18. Appendices / Traceability / Evidence Register
+
+Report formatting target:
+
+- A4;
+- Times New Roman;
+- body 13 pt;
+- H1 15 pt bold uppercase centered;
+- H2 14 pt;
+- H3 13 pt;
+- top/bottom margins 3 cm;
+- left 3.5 cm;
+- right 2 cm;
+- 1.5 line spacing;
+- justified;
+- first-line indent 1 cm;
+- formal tables/captions/TOC/page numbering.
+
+Không tạo report bằng cách copy nguyên workbook.
+
+Report phải là narrative synthesis có evidence.
+
+---
+
+# 38. PROJECT MANAGEMENT HANDOFF
+
+GĐ1 closure cũng phải chuẩn bị handoff cho hệ quản trị GĐ1–GĐ8.
+
+Source-of-truth model:
+
+### Linear
+
+Portfolio / product / project management truth.
+
+### GitHub
+
+Engineering execution truth:
+
+- code;
+- PR;
+- CI;
+- engineering-specific issue.
+
+### Google Sheets
+
+Quantitative KPI / budget / numerical tracking.
+
+### Google Docs
+
+Official reports / customer / investor / thesis-facing documents.
+
+Không duplicate task vô nghĩa giữa Linear và GitHub.
+
+Engineering item trong Linear có thể link GitHub issue/PR.
+
+---
+
+# 39. IMPORTANT LANGUAGE RULE
+
+Business/Product/UX artifacts nên dùng **tiếng Việt rõ ràng, thực dụng**.
+
+Chỉ giữ English khi đó là thuật ngữ kỹ thuật/product có giá trị rõ ràng, ví dụ:
+
+- API;
+- telemetry;
+- offline-first;
+- event time;
+- Check;
+- mastery;
+- risk;
+- recommendation;
+- revision;
+- Change Request.
+
+Tránh viết tài liệu như research paper nếu business stakeholder khó đọc.
+
+---
+
+# 40. WHAT YOU MUST NOT DO
+
+Không:
+
+1. thiết kế lại architecture vì preference cá nhân;
+2. thêm microservices;
+3. thêm Kafka/Kubernetes;
+4. thêm feature store;
+5. thêm warehouse khi chưa cần;
+6. thay V3.2 âm thầm;
+7. hard-code hypothesis thành invariant;
+8. gọi customer discovery là DONE;
+9. gọi target segment là validated;
+10. gọi placement result là mastery;
+11. gọi streak là proficiency;
+12. coi assisted answer bằng unaided answer;
+13. coi skip là completion;
+14. overwrite first response;
+15. coi network restored là synced;
+16. coi schema pass là runtime pass;
+17. coi ML là dependency;
+18. thiết kế production ML weights;
+19. thêm learning-style personalization;
+20. suy luận psychological labels từ clickstream;
+21. sửa test để che lỗi baseline;
+22. thêm feature ngoài scope chỉ để “hoàn thiện sản phẩm”;
+23. thay đổi business rule mà không có CR;
+24. tuyên bố GĐ1 PASS khi còn blocker chưa xử lý.
+
+---
+
+# 41. EXPECTED WORKING STYLE
+
+Làm việc như auditor.
+
+Mỗi conclusion phải dựa trên:
+
+- file;
+- row;
+- sheet;
+- code;
+- test;
+- contract;
+- commit;
+- executable output;
+
+khi evidence đó tồn tại.
+
+Dùng các nhãn:
+
+**PROJECT SOURCE**
+
+**EXECUTABLE EVIDENCE**
+
+**EXTERNAL EVIDENCE**
+
+**INFERENCE**
+
+**HYPOTHESIS**
+
+**VALIDATION DEBT**
+
+để tránh trộn fact với inference.
+
+Nếu không biết:
+
+ghi **UNKNOWN**.
+
+Nếu không tìm thấy:
+
+ghi **NOT FOUND**.
+
+Nếu chưa chạy:
+
+ghi **NOT EXECUTED**.
+
+Không đoán.
+
+---
+
+# 42. FINAL RESPONSE FORMAT
+
+Khi hoàn thành, trả về đúng thứ tự:
+
+## 1. Executive Verdict
+
+PASS / CONDITIONAL PASS / FAIL.
+
+## 2. GĐ1 Gate Recommendation
+
+Có hay không thể chốt:
+
+**GĐ1 — Internal BA Baseline Approved**
+
+## 3. What Was Actually Inspected
+
+Files, sheets, repo directories, checks.
+
+## 4. Executed Verification
+
+Commands + results.
+
+## 5. Critical Findings
+
+BLOCKER/HIGH trước.
+
+## 6. Full Finding Register
+
+AUD-xxx.
+
+## 7. Consistency Matrix
+
+V3.2 ↔ Workbook ↔ Snapshot ↔ Repo.
+
+## 8. Traceability Audit
+
+PRD → BR → Trigger → UC → Screen/State → Test.
+
+## 9. Decision/Hypothesis Audit
+
+Frozen vs hypothesis vs deferred vs debt.
+
+## 10. Safe Fixes Applied
+
+Nếu có.
+
+## 11. Change Requests Required
+
+Nếu có.
+
+## 12. Remaining Validation Debt
+
+Đặc biệt customer discovery.
+
+## 13. Excel Update Instructions
+
+Sheet-by-sheet.
+
+## 14. Final Word Report Readiness
+
+READY / NOT READY + reason.
+
+## 15. New Project Progress Snapshot
+
+Một snapshot ngắn, rõ, có thể dùng để tiếp tục ở chat khác.
+
+---
+
+# 43. STOP CONDITION
+
+Không kết thúc chỉ với:
+
+> “Everything looks good.”
+
+Audit chỉ hoàn tất khi có đủ evidence để trả lời:
+
+1. V3.2 có còn nhất quán với artifacts/repo không?
+2. Workbook có contradict V3.2 không?
+3. Có requirement/business rule nào orphan không?
+4. Có dangling reference không?
+5. Có feature nào xuất hiện trong UI nhưng không có BA basis không?
+6. Có hypothesis nào bị biến thành production truth không?
+7. Có DONE status nào không đủ evidence không?
+8. Có privacy/NFR gap nào block GĐ1 không?
+9. Có foundational change nào cần Change Request không?
+10. Existing verification thực tế pass/fail thế nào?
+11. GĐ1 có đủ điều kiện gọi **Internal BA Baseline Approved** hay chưa?
+12. Excel có thể final update chưa?
+13. Word report có thể bắt đầu viết chính thức chưa?
+
+Chỉ khi trả lời được các câu trên bằng evidence thì audit mới hoàn thành.
+
+---
+
+# 44. START NOW
+
+Bắt đầu bằng việc:
+
+1. inventory repository và available artifacts;
+2. locate V3.2;
+3. locate workbook và snapshot;
+4. locate verification/contracts/tests;
+5. ghi nhận git state hiện tại;
+6. chạy existing verification trước khi sửa bất kỳ thứ gì;
+7. sau đó thực hiện consistency audit đầy đủ.
+
+Không hỏi lại Product Owner những quyết định đã được approve trừ khi phát hiện contradiction thật sự với V3.2 hoặc evidence thực tế.
+
+Nếu một file/artifact được nhắc trong prompt nhưng không tồn tại trong environment:
+
+**không tự tạo bản giả.**
+
+Ghi `NOT FOUND`, tiếp tục audit phần còn lại, và đưa missing artifact vào finding/gate impact.

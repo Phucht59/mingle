@@ -1,0 +1,5 @@
+UTC: 2026-09-26T15:07:44.464467+00:00
+Command: C:\Mingo\.local\clean-reproduction-20260926\.venv\Scripts\python.exe -m all_foundation.cli migrate
+{"applied": []}
+
+Exit code: 0

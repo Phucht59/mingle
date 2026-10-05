@@ -1,0 +1,63 @@
+{
+  "id": "QA-BIZ-005",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-27T14:58:20.347Z",
+  "ended": "2026-09-27T14:58:20.904Z",
+  "expected": "No statement says client replay count proves clean assessment.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Learn",
+    "Click: Begin",
+    "Click: Hello",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Continue",
+    "Click: I’m good, thanks.",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Good morning!",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Start Check",
+    "Click: ▶ Play audio",
+    "Click: ▶ Play audio"
+  ],
+  "observed": "Mingo\nSaved on device\nSaved actions are still queued until sync receives server acknowledgement.\nLEARNING CYCLE\nListening: simple greetings\n\nListening · 7 of 8\n\nCheck\n\nIndependent Check: play the audio and choose the natural reply.\n\n▶ Play audio\nOffered plays: 2 / 2\n\nPlayback request count is client telemetry only; it does not prove physical listening or authorize scoring.\n\nNice to meet you too.\nI am table.\nTomorrow blue.\nSubmit",
+  "state": {
+    "surface": "learner",
+    "learner": "cycle",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "local_queued",
+    "queuedCount": 3,
+    "cycleDomain": "listening",
+    "cycleStep": 6,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

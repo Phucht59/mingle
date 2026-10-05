@@ -1,0 +1,12 @@
+   Woah! You appear to be trying to run flutter as root.
+   We strongly recommend running the flutter tool without superuser privileges.
+  /
+📎
+Downloading Linux x64 Dart SDK from Flutter engine ef0cd000916d64fa0c5d09cc809fa7ad244a5767...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  5  188M    5 9679k    0     0   891k      0  0:03:36  0:00:10  0:03:26 1997k 37  188M   37 69.8M    0     0  6026k      0  0:00:32  0:00:11  0:00:21 14.3M 69  188M   69  130M    0     0  10.1M      0  0:00:18  0:00:12  0:00:06 26.8M 97  188M   97  183M    0     0  13.2M      0  0:00:14  0:00:13  0:00:01 37.8M100  188M  100  188M    0     0  13.4M      0  0:00:14  0:00:14 --:--:-- 47.0M
+Building flutter tool...
+Resolving dependencies...
+Downloading packages...
+Got dependencies.

@@ -1,0 +1,17 @@
+{
+  "name": "adapter_guards",
+  "cwd": "C:\\Mingo",
+  "exact_command": "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe -m unittest discover -s 04_Van_hanh/tests -v",
+  "start_utc": "2026-10-05T03:12:02.464505+00:00",
+  "end_utc": "2026-10-05T03:12:02.855058+00:00",
+  "exit_code": 0,
+  "status": "EXECUTED",
+  "log": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\adapter_guards.log",
+  "generated_artifacts": [],
+  "result": "PASS",
+  "boundary": "Existing checks; no runtime/product/customer gate inferred",
+  "passed": 9,
+  "failed": 0,
+  "skipped": 0,
+  "limitation": "9 negative/positive adapter-integrity/report guards"
+}

@@ -1,0 +1,21 @@
+{
+  "feature_snapshot_id": "10000000-0000-4000-8000-000000000021",
+  "learner_id": "10000000-0000-4000-8000-000000000001",
+  "enrollment_id": "10000000-0000-4000-8000-000000000002",
+  "serving_mode": "serving",
+  "event_cutoff_at": "2026-09-20T10:00:00Z",
+  "knowledge_cutoff_at": "2026-09-20T10:00:00Z",
+  "as_of_at": "2026-09-20T10:00:00Z",
+  "feature_schema_version": "features_product_v1",
+  "feature_schema_sha256": "245647160352ceaef961e7b40dcbf6e2bf8b3cdfa114ad46592aa73564ba9698",
+  "computation_family": "risk_features",
+  "computation_version": "risk_features_v1",
+  "source_revision": 1,
+  "source_capture_id": null,
+  "payload_sha256": "890d2d9fe7f18f184d5041107c3ea9e4ae9348a0aa56455f9ee575d9a664875e",
+  "generated_at": "2026-09-20T10:00:03Z",
+  "replayability_status": "replayable",
+  "source_capture_sha256": "338724f14fbd5282183e04d523169fc86ae0d8b6823c78b34b565eea281b2590",
+  "payload_ref": "artifacts/feature_payload.json",
+  "preprocessing_artifact_sha256": "4ff53661777badc649d5ed3020dc52844c5ea7062eeddc23c389992e35e20378"
+}

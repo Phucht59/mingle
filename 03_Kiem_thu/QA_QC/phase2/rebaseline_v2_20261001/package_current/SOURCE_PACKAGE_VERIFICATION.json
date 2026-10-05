@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files": 472,
+  "mismatches": [],
+  "zip_sha256": "66013ef666aac6ac029c278b6b3e1e8d47164b3cf303200402bb6639ebf6af65",
+  "manifest_sha256": "53b1ec32e586e640951900636a22758b3026cccd9227d98b5f16c2a9238c8c41",
+  "zip_bytes": 23260357,
+  "scope": "Uncommitted working-tree review export; not clean build or human approval"
+}

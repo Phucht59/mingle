@@ -1,0 +1,8 @@
+INFO:     Started server process [13628]
+INFO:     Waiting for application startup.
+{"time": "2026-10-02T16:03:32.925288+00:00", "level": "INFO", "event": "api.started", "component": "api", "request_id": null}
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8018 (Press CTRL+C to quit)
+{"time": "2026-10-02T16:03:33.334014+00:00", "level": "INFO", "event": "request.completed", "component": "api", "request_id": "6b92c841-61b0-4450-8e6c-686fed5fc64f"}
+{"time": "2026-10-02T16:03:33.336538+00:00", "level": "INFO", "event": "request.completed", "component": "api", "request_id": "420582d8-6a72-458c-869a-1ee8994bc5c6"}
+{"time": "2026-10-02T16:03:33.456593+00:00", "level": "INFO", "event": "request.completed", "component": "api", "request_id": "b68ff32f-e0e0-4fdd-ade3-1e8ae33f88a4"}

@@ -1,0 +1,77 @@
+{
+  "catalog_version": "event_catalog_v1",
+  "events": [
+    {
+      "name": "session_started",
+      "version": 1,
+      "payload_schema": "schemas/events/session_started_v1.schema.json",
+      "purpose": [
+        "analytics"
+      ],
+      "required_context": [],
+      "max_payload_bytes": 4096,
+      "allowed_sources": [
+        "flutter_android",
+        "flutter_web"
+      ],
+      "retention_class": "raw_telemetry_180d"
+    },
+    {
+      "name": "audio_replayed",
+      "version": 1,
+      "payload_schema": "schemas/events/audio_replayed_v1.schema.json",
+      "purpose": [
+        "analytics",
+        "ml_candidate"
+      ],
+      "required_context": [
+        "enrollment_id",
+        "activity_revision_id",
+        "media_resource_id"
+      ],
+      "max_payload_bytes": 4096,
+      "allowed_sources": [
+        "flutter_android",
+        "flutter_web"
+      ],
+      "retention_class": "raw_telemetry_180d"
+    },
+    {
+      "name": "hint_opened",
+      "version": 1,
+      "payload_schema": "schemas/events/hint_opened_v1.schema.json",
+      "purpose": [
+        "analytics",
+        "ml_candidate"
+      ],
+      "required_context": [
+        "enrollment_id",
+        "activity_revision_id"
+      ],
+      "max_payload_bytes": 4096,
+      "allowed_sources": [
+        "flutter_android",
+        "flutter_web"
+      ],
+      "retention_class": "raw_telemetry_180d"
+    },
+    {
+      "name": "recommendation_exposed",
+      "version": 1,
+      "payload_schema": "schemas/events/recommendation_exposed_v1.schema.json",
+      "purpose": [
+        "product",
+        "analytics"
+      ],
+      "required_context": [
+        "decision_id"
+      ],
+      "max_payload_bytes": 4096,
+      "allowed_sources": [
+        "flutter_android",
+        "flutter_web"
+      ],
+      "retention_class": "raw_telemetry_180d"
+    }
+  ]
+}

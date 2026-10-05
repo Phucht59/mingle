@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-02T14:51:07.562304+00:00",
+  "evidence_level": "RERUN NOW",
+  "scope": "Read-only before work; human and hosted CI not run",
+  "branch": "main",
+  "commit": "a112f762ab08f6fa688cc4857b21d95d1055ab5c",
+  "v3_2": {
+    "expected_files": 102,
+    "actual_files": 102,
+    "missing": [],
+    "extra": [],
+    "hash_mismatch": [],
+    "manifest_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d"
+  },
+  "protected_files": 141,
+  "protected_mismatch": [],
+  "provenance_files": {
+    "REVISION.txt": "122f857bab9d7e3c94b62185f86bca23c56b305ebca58921bb1c9426ed14b280",
+    "SHA256SUMS.txt": "098f152d2e248ad872c22abd13b7a0cb3c05192de008f320166cd08f2f222a5d",
+    "SOURCE.md": "b54ae0c7d7b3a14ae70847b44754137546ccb4c5c6e6acba8d972c8c09f25d9a"
+  },
+  "export_files": 472,
+  "export_current_mismatch": [],
+  "export_internal_mismatch": [],
+  "export_bad_crc": null,
+  "export_sha256": "66013ef666aac6ac029c278b6b3e1e8d47164b3cf303200402bb6639ebf6af65"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "QA-ACC-002",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T14:51:07.778Z",
+  "ended": "2026-10-01T14:51:08.604Z",
+  "expected": "Focus order follows visual/semantic order.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Start cycle",
+    "Click: Begin",
+    "Click: Hello",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Continue",
+    "Click: Need a hint?"
+  ],
+  "observed": "Mingo\nSaved on device\nSaved actions are still queued until sync receives server acknowledgement.\nLEARNING CYCLE\nBasic greetings\n\nVocabulary · 4 of 8\n\nRetrieve\n\nChoose the best reply: “How are you?”\n\nHint: Think of a short answer about how you feel. Any answer after this hint remains assisted.\nI’m good, thanks.\nGo to school.\nBlue.\nSubmit\nNeed a hint?\nSkip for now\n\nAssisted Hint use stays attached to this response.",
+  "state": {
+    "surface": "learner",
+    "learner": "cycle",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "local_queued",
+    "queuedCount": 1,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 3,
+    "selected": "good",
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": true,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "activity_content_v1.schema.json",
+  "title": "activity_content",
+  "type": "object",
+  "required": [
+    "activity_revision_id",
+    "activity_type",
+    "title",
+    "instructions",
+    "questions",
+    "media_resource_ids"
+  ],
+  "properties": {
+    "activity_revision_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "activity_type": {
+      "enum": [
+        "mcq_single_v1",
+        "listening_mcq_v1"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "instructions": {
+      "type": "string",
+      "minLength": 1
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "title": "question",
+        "type": "object",
+        "required": [
+          "question_revision_id",
+          "prompt",
+          "options"
+        ],
+        "properties": {
+          "question_revision_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "title": "option",
+              "type": "object",
+              "required": [
+                "option_id",
+                "text"
+              ],
+              "properties": {
+                "option_id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 128
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            },
+            "maxItems": 20
+          }
+        },
+        "additionalProperties": false
+      },
+      "maxItems": 100
+    },
+    "media_resource_ids": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      }
+    }
+  },
+  "additionalProperties": false
+}

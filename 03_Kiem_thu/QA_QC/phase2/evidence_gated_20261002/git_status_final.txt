@@ -1,0 +1,930 @@
+ M .gitattributes
+ M .github/workflows/foundation.yaml
+ M .gitignore
+RM 05_code/.env.example -> 01_San_pham/.env.example
+RM 05_code/README.md -> 01_San_pham/README.md
+R  05_code/apps/learner/.gitignore -> 01_San_pham/apps/learner/.gitignore
+R  05_code/apps/learner/analysis_options.yaml -> 01_San_pham/apps/learner/analysis_options.yaml
+RM 05_code/apps/learner/integration_test/boot_test.dart -> 01_San_pham/apps/learner/integration_test/boot_test.dart
+RM 05_code/apps/learner/lib/main.dart -> 01_San_pham/apps/learner/lib/main.dart
+RM 05_code/apps/learner/pubspec.lock -> 01_San_pham/apps/learner/pubspec.lock
+RM 05_code/apps/learner/pubspec.yaml -> 01_San_pham/apps/learner/pubspec.yaml
+RM 05_code/apps/learner/test/widget_test.dart -> 01_San_pham/apps/learner/test/widget_test.dart
+R  05_code/apps/staff/.gitignore -> 01_San_pham/apps/staff/.gitignore
+R  05_code/apps/staff/analysis_options.yaml -> 01_San_pham/apps/staff/analysis_options.yaml
+RM 05_code/apps/staff/integration_test/boot_test.dart -> 01_San_pham/apps/staff/integration_test/boot_test.dart
+RM 05_code/apps/staff/lib/main.dart -> 01_San_pham/apps/staff/lib/main.dart
+RM 05_code/apps/staff/pubspec.lock -> 01_San_pham/apps/staff/pubspec.lock
+RM 05_code/apps/staff/pubspec.yaml -> 01_San_pham/apps/staff/pubspec.yaml
+RM 05_code/apps/staff/test/widget_test.dart -> 01_San_pham/apps/staff/test/widget_test.dart
+R  05_code/backend/Dockerfile -> 01_San_pham/backend/Dockerfile
+R  05_code/backend/pyproject.toml -> 01_San_pham/backend/pyproject.toml
+R  05_code/backend/requirements.lock -> 01_San_pham/backend/requirements.lock
+R  05_code/backend/src/all_foundation/__init__.py -> 01_San_pham/backend/src/all_foundation/__init__.py
+R  05_code/backend/src/all_foundation/api.py -> 01_San_pham/backend/src/all_foundation/api.py
+R  05_code/backend/src/all_foundation/cli.py -> 01_San_pham/backend/src/all_foundation/cli.py
+R  05_code/backend/src/all_foundation/config.py -> 01_San_pham/backend/src/all_foundation/config.py
+R  05_code/backend/src/all_foundation/db.py -> 01_San_pham/backend/src/all_foundation/db.py
+R  05_code/backend/src/all_foundation/logging.py -> 01_San_pham/backend/src/all_foundation/logging.py
+R  05_code/backend/src/all_foundation/migrations/001_runtime_probe.sql -> 01_San_pham/backend/src/all_foundation/migrations/001_runtime_probe.sql
+R  05_code/backend/src/all_foundation/migrations/002_worker_heartbeat.sql -> 01_San_pham/backend/src/all_foundation/migrations/002_worker_heartbeat.sql
+R  05_code/backend/src/all_foundation/ports.py -> 01_San_pham/backend/src/all_foundation/ports.py
+R  05_code/backend/src/all_foundation/storage.py -> 01_San_pham/backend/src/all_foundation/storage.py
+R  05_code/backend/src/all_foundation/worker.py -> 01_San_pham/backend/src/all_foundation/worker.py
+R  05_code/backend/tests/conftest.py -> 01_San_pham/backend/tests/conftest.py
+R  05_code/backend/tests/test_postgres.py -> 01_San_pham/backend/tests/test_postgres.py
+R  05_code/backend/tests/test_unit.py -> 01_San_pham/backend/tests/test_unit.py
+R  05_code/compose.yaml -> 01_San_pham/compose.yaml
+R  05_code/postgres/init/001_create_test_database.sql -> 01_San_pham/postgres/init/001_create_test_database.sql
+RM 01_governance/README.md -> 02_Tai_lieu_du_an/01_Tong_quan_du_an/README.md
+R  01_governance/BACKLOG.md -> 02_Tai_lieu_du_an/02_Ke_hoach_phat_trien/BACKLOG.md
+RM 01_governance/IMPLEMENTATION_ROADMAP.md -> 02_Tai_lieu_du_an/02_Ke_hoach_phat_trien/IMPLEMENTATION_ROADMAP.md
+R  01_governance/ROADMAP_PHASE_0_TO_17.md -> 02_Tai_lieu_du_an/02_Ke_hoach_phat_trien/ROADMAP_PHASE_0_TO_17.md
+RM 03_research/README.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/README.md
+R  03_research/legacy_kltn/LEGACY_RESEARCH_CONTEXT.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/legacy_kltn/LEGACY_RESEARCH_CONTEXT.md
+R  03_research/phase1/00_RESEARCH_HANDOFF_README.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/phase1/00_RESEARCH_HANDOFF_README.md
+R  03_research/phase1/01_MASTER_MEMORY_TRANSFER.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/phase1/01_MASTER_MEMORY_TRANSFER.md
+R  03_research/phase1/02_ADAPTIVE_PROJECT_CONTEXT.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/phase1/02_ADAPTIVE_PROJECT_CONTEXT.md
+R  03_research/phase1/03_RESEARCH_QUESTIONS_18.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/phase1/03_RESEARCH_QUESTIONS_18.md
+R  03_research/phase1/04_RESEARCH_SUPER_PROMPT.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/phase1/04_RESEARCH_SUPER_PROMPT.md
+R  03_research/phase1/05_EXPECTED_OUTPUT_STRUCTURE.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/phase1/05_EXPECTED_OUTPUT_STRUCTURE.md
+R  03_research/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md -> 02_Tai_lieu_du_an/03_Nghien_cuu/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md
+RM 02_product/MVP_PRD.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/MVP_PRD.md
+R  02_product/PRODUCT_CHARTER.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/PRODUCT_CHARTER.md
+RM 02_product/README.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/README.md
+R  02_product/learning_design/ADAPTIVE_FEED_MVP_SPEC.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/ADAPTIVE_FEED_MVP_SPEC.md
+RM 02_product/learning_design/LEARNER_EVIDENCE_MODEL.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/LEARNER_EVIDENCE_MODEL.md
+R  02_product/learning_design/PILOT_AND_CONTENT_CONSTRAINTS.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/PILOT_AND_CONTENT_CONSTRAINTS.md
+R  02_product/learning_design/SHORT_SESSION_LEARNING_DIRECTION.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/SHORT_SESSION_LEARNING_DIRECTION.md
+RM 02_product/ux_ui/phase2/01_PHASE_2_CONTRACT.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/01_PHASE_2_CONTRACT.md
+R  02_product/ux_ui/phase2/02_INFORMATION_ARCHITECTURE.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/02_INFORMATION_ARCHITECTURE.md
+R  02_product/ux_ui/phase2/03_LEARNER_JOURNEYS.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/03_LEARNER_JOURNEYS.md
+R  02_product/ux_ui/phase2/04_STAFF_JOURNEYS.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/04_STAFF_JOURNEYS.md
+R  02_product/ux_ui/phase2/05_NAVIGATION_ROUTING_SPEC.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/05_NAVIGATION_ROUTING_SPEC.md
+R  02_product/ux_ui/phase2/06_SCREEN_SPECIFICATIONS.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/06_SCREEN_SPECIFICATIONS.md
+R  02_product/ux_ui/phase2/07_UI_STATE_CATALOG.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/07_UI_STATE_CATALOG.md
+R  02_product/ux_ui/phase2/08_DESIGN_SYSTEM_SPEC.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/08_DESIGN_SYSTEM_SPEC.md
+R  02_product/ux_ui/phase2/09_ACCESSIBILITY_RESPONSIVE_SPEC.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/09_ACCESSIBILITY_RESPONSIVE_SPEC.md
+R  02_product/ux_ui/phase2/10_CONTENT_MICROCOPY_GUIDE.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/10_CONTENT_MICROCOPY_GUIDE.md
+R  02_product/ux_ui/phase2/11_OFFLINE_SYNC_UX_SPEC.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/11_OFFLINE_SYNC_UX_SPEC.md
+R  02_product/ux_ui/phase2/12_UX_REQUIREMENT_TRACEABILITY.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/12_UX_REQUIREMENT_TRACEABILITY.md
+RM 02_product/ux_ui/phase2/13_DEVELOPER_HANDOFF.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/13_DEVELOPER_HANDOFF.md
+R  02_product/ux_ui/phase2/14_DESIGN_REVIEW_DECISIONS.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/14_DESIGN_REVIEW_DECISIONS.md
+R  02_product/ux_ui/phase2/15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md
+R  02_product/ux_ui/phase2/16_ACCESSIBILITY_FOCUS_LIVE_REGION_SPEC.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/16_ACCESSIBILITY_FOCUS_LIVE_REGION_SPEC.md
+R  02_product/ux_ui/phase2/17_SCREEN_STATE_QA_TRACEABILITY.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/17_SCREEN_STATE_QA_TRACEABILITY.md
+R  02_product/ux_ui/phase2/DESIGN_TOKENS.json -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/DESIGN_TOKENS.json
+R  02_product/ux_ui/phase2/PHASE_2_SPEC.json -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/PHASE_2_SPEC.json
+R  02_product/ux_ui/phase2/PRD_TRACEABILITY.csv -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/PRD_TRACEABILITY.csv
+R  02_product/ux_ui/phase2/PROTOTYPE_README.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/PROTOTYPE_README.md
+RM 02_product/ux_ui/phase2/README.md -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/README.md
+R  02_product/ux_ui/phase2/SCREEN_INVENTORY.csv -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/SCREEN_INVENTORY.csv
+RM 02_product/ux_ui/phase2/SCREEN_STATE_QA_TRACEABILITY.csv -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/SCREEN_STATE_QA_TRACEABILITY.csv
+R  02_product/ux_ui/phase2/prototype/app.js -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/prototype/app.js
+R  02_product/ux_ui/phase2/prototype/index.html -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/prototype/index.html
+RM 02_product/ux_ui/phase2/prototype/styles.css -> 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/prototype/styles.css
+R  04_architecture/DECISION_TEST_VECTORS.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/DECISION_TEST_VECTORS.md
+RM 04_architecture/README.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/README.md
+RM 04_architecture/REPO_STRUCTURE.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/REPO_STRUCTURE.md
+RM 04_architecture/V3_2_COMPATIBILITY_MATRIX.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3_2_COMPATIBILITY_MATRIX.md
+R  04_architecture/baseline/CHANGE_CONTROL.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/CHANGE_CONTROL.md
+R  04_architecture/baseline/FROZEN_TECHNICAL_DECISIONS.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/FROZEN_TECHNICAL_DECISIONS.md
+R  04_architecture/baseline/SYSTEM_BOUNDARIES.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/SYSTEM_BOUNDARIES.md
+RM 04_architecture/baseline/V3_2_BASELINE_SUMMARY.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/V3_2_BASELINE_SUMMARY.md
+RM 04_architecture/contracts/v3_2/README.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/README.md
+RM 04_architecture/contracts/v3_2/original_verification/README.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/original_verification/README.md
+R  04_architecture/contracts/v3_2/source/FINALIZATION_REPORT_VI.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/FINALIZATION_REPORT_VI.md
+R  04_architecture/contracts/v3_2/source/IMPLEMENTATION_HANDOFF_PROMPT.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/IMPLEMENTATION_HANDOFF_PROMPT.md
+R  04_architecture/contracts/v3_2/source/MANIFEST.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/MANIFEST.json
+R  04_architecture/contracts/v3_2/source/README.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/README.md
+R  04_architecture/contracts/v3_2/source/SQL_VALIDATION_REPORT.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/SQL_VALIDATION_REPORT.json
+R  04_architecture/contracts/v3_2/source/VALIDATION_REPORT.txt -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/VALIDATION_REPORT.txt
+R  04_architecture/contracts/v3_2/source/artifacts/activity_content.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/activity_content.json
+R  04_architecture/contracts/v3_2/source/artifacts/evidence_manifest.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/evidence_manifest.json
+R  04_architecture/contracts/v3_2/source/artifacts/feature_payload.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/feature_payload.json
+R  04_architecture/contracts/v3_2/source/artifacts/horizon_fixture.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/horizon_fixture.json
+R  04_architecture/contracts/v3_2/source/artifacts/model_fixture.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/model_fixture.json
+R  04_architecture/contracts/v3_2/source/artifacts/preprocessing_fixture.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/preprocessing_fixture.json
+R  04_architecture/contracts/v3_2/source/artifacts/progress_revision.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/progress_revision.json
+R  04_architecture/contracts/v3_2/source/artifacts/registry.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/registry.json
+R  04_architecture/contracts/v3_2/source/artifacts/resource_map.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/resource_map.json
+R  04_architecture/contracts/v3_2/source/artifacts/scoring_revision.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/scoring_revision.json
+R  04_architecture/contracts/v3_2/source/artifacts/server_only/scoring_key.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/server_only/scoring_key.json
+R  04_architecture/contracts/v3_2/source/artifacts/target_fixture.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/target_fixture.json
+R  04_architecture/contracts/v3_2/source/artifacts/validation_fixture.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/validation_fixture.json
+R  04_architecture/contracts/v3_2/source/contracts/command_digest_policy_v1.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/command_digest_policy_v1.json
+R  04_architecture/contracts/v3_2/source/contracts/core_ddl_postgresql.sql -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/core_ddl_postgresql.sql
+R  04_architecture/contracts/v3_2/source/contracts/event_catalog_v1.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/event_catalog_v1.json
+R  04_architecture/contracts/v3_2/source/contracts/openapi_vertical_slice_v1.yaml -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/openapi_vertical_slice_v1.yaml
+R  04_architecture/contracts/v3_2/source/contracts/reason_code_catalog_v1.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/reason_code_catalog_v1.json
+R  04_architecture/contracts/v3_2/source/contracts/scoring_policy_v1.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/scoring_policy_v1.json
+R  04_architecture/contracts/v3_2/source/docs/00_FIX_MATRIX_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/00_FIX_MATRIX_V3.md
+R  04_architecture/contracts/v3_2/source/docs/01_MASTER_BASELINE_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/01_MASTER_BASELINE_V3.md
+R  04_architecture/contracts/v3_2/source/docs/02_MVP_INVARIANTS.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/02_MVP_INVARIANTS.md
+R  04_architecture/contracts/v3_2/source/docs/03_RECEIPT_SYNC_PROTOCOL.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/03_RECEIPT_SYNC_PROTOCOL.md
+R  04_architecture/contracts/v3_2/source/docs/04_OFFLINE_CONTENT_ACCESS_PROTOCOL.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/04_OFFLINE_CONTENT_ACCESS_PROTOCOL.md
+R  04_architecture/contracts/v3_2/source/docs/05_POINT_IN_TIME_SOURCE_CAPTURE.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/05_POINT_IN_TIME_SOURCE_CAPTURE.md
+R  04_architecture/contracts/v3_2/source/docs/06_ML_CONTRACT_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/06_ML_CONTRACT_V3.md
+R  04_architecture/contracts/v3_2/source/docs/07_SECURITY_PERMISSION_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/07_SECURITY_PERMISSION_V3.md
+R  04_architecture/contracts/v3_2/source/docs/08_WORKER_FENCING_OUTBOX.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/08_WORKER_FENCING_OUTBOX.md
+R  04_architecture/contracts/v3_2/source/docs/09_RECOMMENDATION_AUDIT_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/09_RECOMMENDATION_AUDIT_V3.md
+R  04_architecture/contracts/v3_2/source/docs/10_RETENTION_DELETE_RESTORE_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/10_RETENTION_DELETE_RESTORE_V3.md
+R  04_architecture/contracts/v3_2/source/docs/11_CORE_ERD_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/11_CORE_ERD_V3.md
+R  04_architecture/contracts/v3_2/source/docs/12_ACCEPTANCE_TESTS_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/12_ACCEPTANCE_TESTS_V3.md
+R  04_architecture/contracts/v3_2/source/docs/13_FREEZE_LIST_V3.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/13_FREEZE_LIST_V3.md
+R  04_architecture/contracts/v3_2/source/docs/14_SUBMIT_ALGORITHM.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/14_SUBMIT_ALGORITHM.md
+R  04_architecture/contracts/v3_2/source/docs/15_OPERATIONS_AND_DELIVERY.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/15_OPERATIONS_AND_DELIVERY.md
+R  04_architecture/contracts/v3_2/source/examples/command_receipt.accepted.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_receipt.accepted.example.json
+R  04_architecture/contracts/v3_2/source/examples/command_receipt.rejected.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_receipt.rejected.example.json
+R  04_architecture/contracts/v3_2/source/examples/command_sync_result.duplicate.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.duplicate.example.json
+R  04_architecture/contracts/v3_2/source/examples/command_sync_result.duplicate_rejected.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.duplicate_rejected.example.json
+R  04_architecture/contracts/v3_2/source/examples/command_sync_result.retryable.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.retryable.example.json
+R  04_architecture/contracts/v3_2/source/examples/content_release_manifest.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/content_release_manifest.example.json
+R  04_architecture/contracts/v3_2/source/examples/feature_schema.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/feature_schema.example.json
+R  04_architecture/contracts/v3_2/source/examples/feature_snapshot.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/feature_snapshot.example.json
+R  04_architecture/contracts/v3_2/source/examples/model_bundle.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/model_bundle.example.json
+R  04_architecture/contracts/v3_2/source/examples/offline_download_grant.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/offline_download_grant.example.json
+R  04_architecture/contracts/v3_2/source/examples/offline_package.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/offline_package.example.json
+R  04_architecture/contracts/v3_2/source/examples/prediction.available.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/prediction.available.example.json
+R  04_architecture/contracts/v3_2/source/examples/prediction.model_unavailable.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/prediction.model_unavailable.example.json
+R  04_architecture/contracts/v3_2/source/examples/recommendation_decision.rule.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/recommendation_decision.rule.example.json
+R  04_architecture/contracts/v3_2/source/examples/release_access_status.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/release_access_status.example.json
+R  04_architecture/contracts/v3_2/source/examples/source_capture.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/source_capture.example.json
+R  04_architecture/contracts/v3_2/source/examples/submit_attempt_command.example.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/submit_attempt_command.example.json
+R  04_architecture/contracts/v3_2/source/package-lock.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/package-lock.json
+R  04_architecture/contracts/v3_2/source/package.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/package.json
+R  04_architecture/contracts/v3_2/source/requirements.txt -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/requirements.txt
+R  04_architecture/contracts/v3_2/source/review/SECOND_SUPERVISOR_REVIEW_SOURCE.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/review/SECOND_SUPERVISOR_REVIEW_SOURCE.md
+R  04_architecture/contracts/v3_2/source/schemas/activity_content_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/activity_content_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/api_error_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/api_error_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/canonical_command_result_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/canonical_command_result_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/client_event_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/client_event_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/command_receipt_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_receipt_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/command_sync_batch_response_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_sync_batch_response_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/command_sync_result_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_sync_result_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/content_release_manifest_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/content_release_manifest_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/current_canonical_state_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/current_canonical_state_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/event_batch_response_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/event_batch_response_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/events/audio_replayed_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/audio_replayed_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/events/hint_opened_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/hint_opened_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/events/recommendation_exposed_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/recommendation_exposed_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/events/session_started_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/session_started_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/evidence_publication_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/evidence_publication_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/feature_schema_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/feature_schema_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/feature_snapshot_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/feature_snapshot_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/model_bundle_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/model_bundle_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/offline_download_grant_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/offline_download_grant_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/offline_package_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/offline_package_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/outcome_observation_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/outcome_observation_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/prediction_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/prediction_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/progress_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/progress_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/receipt_lookup_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/receipt_lookup_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/recommendation_decision_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/recommendation_decision_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/recommendation_exposure_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/recommendation_exposure_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/release_access_status_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/release_access_status_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/scoring_key_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/scoring_key_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/source_capture_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/source_capture_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/stored_event_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/stored_event_v1.schema.json
+R  04_architecture/contracts/v3_2/source/schemas/submit_attempt_command_v1.schema.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/submit_attempt_command_v1.schema.json
+R  04_architecture/contracts/v3_2/source/tests/check_sql.mjs -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/check_sql.mjs
+R  04_architecture/contracts/v3_2/source/tests/example_schema_bindings.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/example_schema_bindings.json
+R  04_architecture/contracts/v3_2/source/tests/fixtures/invalid/feature_duplicate_position_name.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/feature_duplicate_position_name.json
+R  04_architecture/contracts/v3_2/source/tests/fixtures/invalid/prediction_available_missing_probability.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/prediction_available_missing_probability.json
+R  04_architecture/contracts/v3_2/source/tests/fixtures/invalid/prediction_unavailable_with_probability.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/prediction_unavailable_with_probability.json
+R  04_architecture/contracts/v3_2/source/tests/fixtures/invalid/replayable_snapshot_without_source_capture.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/replayable_snapshot_without_source_capture.json
+R  04_architecture/contracts/v3_2/source/validation_results.json -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validation_results.json
+R  04_architecture/contracts/v3_2/source/validators/run_checks.py -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validators/run_checks.py
+R  04_architecture/contracts/v3_2/source/validators/validate_contracts.py -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validators/validate_contracts.py
+R  04_architecture/data_ml/ANALYTICS_TIME_MODEL.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/data_ml/ANALYTICS_TIME_MODEL.md
+R  04_architecture/data_ml/DECISION_EVENT_LIFECYCLE.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/data_ml/DECISION_EVENT_LIFECYCLE.md
+R  04_architecture/data_ml/LEARNING_INTELLIGENCE_GUARDRAILS.md -> 02_Tai_lieu_du_an/05_Kien_truc_he_thong/data_ml/LEARNING_INTELLIGENCE_GUARDRAILS.md
+R  01_governance/CHANGE_REQUESTS.md -> 02_Tai_lieu_du_an/06_Quyet_dinh_da_chot/CHANGE_REQUESTS.md
+RM 01_governance/DECISION_REGISTER.md -> 02_Tai_lieu_du_an/06_Quyet_dinh_da_chot/DECISION_REGISTER.md
+R  01_governance/IMPLEMENTATION_ISSUES.md -> 02_Tai_lieu_du_an/06_Quyet_dinh_da_chot/IMPLEMENTATION_ISSUES.md
+RM 01_governance/PHASE_STATUS.yaml -> 02_Tai_lieu_du_an/07_Tien_do_du_an/PHASE_STATUS.yaml
+RM 01_governance/PROJECT_MEMORY.md -> 02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_MEMORY.md
+RM 01_governance/PROJECT_PROGRESS_SNAPSHOT.md -> 02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_PROGRESS_SNAPSHOT.md
+RM 01_governance/PROJECT_STATE.md -> 02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_STATE.md
+RM 08_handoff/PHASE1_CLOSURE_20260926.md -> 02_Tai_lieu_du_an/08_Ban_giao/PHASE1_CLOSURE_20260926.md
+RM 08_handoff/README.md -> 02_Tai_lieu_du_an/08_Ban_giao/README.md
+RM 08_handoff/RELEASE_CHECK.md -> 02_Tai_lieu_du_an/08_Ban_giao/RELEASE_CHECK.md
+RM 08_handoff/RELEASE_CHECK_20260926.md -> 02_Tai_lieu_du_an/08_Ban_giao/RELEASE_CHECK_20260926.md
+RM 08_handoff/phase2/CODEX_EXECUTION_HANDOFF.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_EXECUTION_HANDOFF.md
+RM 08_handoff/phase2/CODEX_START_HERE.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_START_HERE.md
+RM 08_handoff/phase2/CODEX_SUPER_PROMPT.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_SUPER_PROMPT.md
+R  08_handoff/phase2/DEFECT_TRIAGE_WORKFLOW.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/DEFECT_TRIAGE_WORKFLOW.md
+RM 08_handoff/phase2/HANDOFF_INDEX.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/HANDOFF_INDEX.md
+R  08_handoff/phase2/MANIFEST_SHA256.txt -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/MANIFEST_SHA256.txt
+RM 08_handoff/phase2/PHASE2_QA_HANDOFF.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/PHASE2_QA_HANDOFF.md
+R  08_handoff/phase2/PHASE2_RELEASE_NOTES.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/PHASE2_RELEASE_NOTES.md
+R  08_handoff/phase2/PHASE2_REWORK_R1_RELEASE_NOTES.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/PHASE2_REWORK_R1_RELEASE_NOTES.md
+R  08_handoff/phase2/QA_ENTRY_EXIT_CRITERIA.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_ENTRY_EXIT_CRITERIA.md
+RM 08_handoff/phase2/QA_EXECUTION_PLAN.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_EXECUTION_PLAN.md
+RM 08_handoff/phase2/QA_QC_RETEST_PROMPT.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_QC_RETEST_PROMPT.md
+RM 08_handoff/phase2/QA_RETEST_HANDOFF.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_RETEST_HANDOFF.md
+RM 08_handoff/phase2/QA_RETEST_HANDOFF_TEMPLATE.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_RETEST_HANDOFF_TEMPLATE.md
+RM 08_handoff/phase2/REWORK_R1_PACKAGE_README.md -> 02_Tai_lieu_du_an/08_Ban_giao/phase2/REWORK_R1_PACKAGE_README.md
+R  08_handoff/provenance/Adaptive_Learning_Phase1_Source_2026-09-23.bundle -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/Adaptive_Learning_Phase1_Source_2026-09-23.bundle
+R  08_handoff/provenance/CANONICAL_MANIFEST_SHA256.json -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/CANONICAL_MANIFEST_SHA256.json
+R  08_handoff/provenance/CANONICAL_REVISION.txt -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/CANONICAL_REVISION.txt
+R  08_handoff/provenance/Mingo_Canonical_2026-09-24.bundle -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/Mingo_Canonical_2026-09-24.bundle
+R  08_handoff/provenance/ORIGINAL_FULL_PACK_MANIFEST_SHA256.json -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/ORIGINAL_FULL_PACK_MANIFEST_SHA256.json
+R  08_handoff/provenance/ORIGINAL_SOURCE_REVISION.txt -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/ORIGINAL_SOURCE_REVISION.txt
+R  08_handoff/provenance/PARENT_SOURCE_REVISION.txt -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/PARENT_SOURCE_REVISION.txt
+R  08_handoff/provenance/REORGANIZATION_RECORD.md -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/REORGANIZATION_RECORD.md
+R  08_handoff/provenance/v3_2/REVISION.txt -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/REVISION.txt
+R  08_handoff/provenance/v3_2/SHA256SUMS.txt -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/SHA256SUMS.txt
+R  08_handoff/provenance/v3_2/SOURCE.md -> 02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/SOURCE.md
+R  06_quality/evidence/PHASE1_CLOSURE_20260926.json -> 03_Kiem_thu/Bang_chung/PHASE1_CLOSURE_20260926.json
+R  06_quality/evidence/PHASE1_RERUN_20260926.md -> 03_Kiem_thu/Bang_chung/PHASE1_RERUN_20260926.md
+R  06_quality/evidence/RUNTIME_VERIFICATION_20260926.md -> 03_Kiem_thu/Bang_chung/RUNTIME_VERIFICATION_20260926.md
+R  06_quality/evidence/VERIFICATION_REPORT.md -> 03_Kiem_thu/Bang_chung/VERIFICATION_REPORT.md
+R  06_quality/evidence/api-http-smoke-20260926T071148Z.json -> 03_Kiem_thu/Bang_chung/api-http-smoke-20260926T071148Z.json
+R  06_quality/evidence/api-http-smoke-20260926T071508Z.json -> 03_Kiem_thu/Bang_chung/api-http-smoke-20260926T071508Z.json
+R  06_quality/evidence/api-http-smoke.json -> 03_Kiem_thu/Bang_chung/api-http-smoke.json
+R  06_quality/evidence/api-process-20260926T071148Z.log -> 03_Kiem_thu/Bang_chung/api-process-20260926T071148Z.log
+R  06_quality/evidence/api-process-20260926T071508Z.log -> 03_Kiem_thu/Bang_chung/api-process-20260926T071508Z.log
+R  06_quality/evidence/api-process.log -> 03_Kiem_thu/Bang_chung/api-process.log
+R  06_quality/evidence/api-smoke-20260926T071502Z.log -> 03_Kiem_thu/Bang_chung/api-smoke-20260926T071502Z.log
+R  06_quality/evidence/api/api-http-smoke-20260926T100338Z.json -> 03_Kiem_thu/Bang_chung/api/api-http-smoke-20260926T100338Z.json
+R  06_quality/evidence/api/api-process-20260926T100338Z.log -> 03_Kiem_thu/Bang_chung/api/api-process-20260926T100338Z.log
+R  06_quality/evidence/backend-final-verification.log -> 03_Kiem_thu/Bang_chung/backend-final-verification.log
+R  06_quality/evidence/backend-install-20260926.log -> 03_Kiem_thu/Bang_chung/backend-install-20260926.log
+R  06_quality/evidence/backend-lint-20260926.log -> 03_Kiem_thu/Bang_chung/backend-lint-20260926.log
+R  06_quality/evidence/backend-lint-20260926T071502Z.log -> 03_Kiem_thu/Bang_chung/backend-lint-20260926T071502Z.log
+R  06_quality/evidence/backend-unit-20260926.log -> 03_Kiem_thu/Bang_chung/backend-unit-20260926.log
+R  06_quality/evidence/backend-unit-20260926.xml -> 03_Kiem_thu/Bang_chung/backend-unit-20260926.xml
+R  06_quality/evidence/backend-unit-20260926T071502Z.log -> 03_Kiem_thu/Bang_chung/backend-unit-20260926T071502Z.log
+R  06_quality/evidence/backend-unit-20260926T071502Z.xml -> 03_Kiem_thu/Bang_chung/backend-unit-20260926T071502Z.xml
+R  06_quality/evidence/backend-unit.log -> 03_Kiem_thu/Bang_chung/backend-unit.log
+R  06_quality/evidence/backend-unit.xml -> 03_Kiem_thu/Bang_chung/backend-unit.xml
+R  06_quality/evidence/backend/api-ready-smoke-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/backend/api-ready-smoke-20260926T100322Z.log
+R  06_quality/evidence/backend/backend-lint-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/backend/backend-lint-20260926T100322Z.log
+R  06_quality/evidence/backend/backend-unit-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/backend/backend-unit-20260926T100322Z.log
+R  06_quality/evidence/backend/backend-unit-20260926T100322Z.xml -> 03_Kiem_thu/Bang_chung/backend/backend-unit-20260926T100322Z.xml
+R  06_quality/evidence/backend/storage-smoke-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/backend/storage-smoke-20260926T100322Z.log
+R  06_quality/evidence/ci/36250667211/108427966672.log -> 03_Kiem_thu/Bang_chung/ci/36250667211/108427966672.log
+R  06_quality/evidence/ci/36250667211/108427966747.log -> 03_Kiem_thu/Bang_chung/ci/36250667211/108427966747.log
+R  06_quality/evidence/ci/36250667211/108427966750.log -> 03_Kiem_thu/Bang_chung/ci/36250667211/108427966750.log
+R  06_quality/evidence/ci/36250667211/108427966792.log -> 03_Kiem_thu/Bang_chung/ci/36250667211/108427966792.log
+R  06_quality/evidence/ci/36250667211/run.json -> 03_Kiem_thu/Bang_chung/ci/36250667211/run.json
+R  06_quality/evidence/ci/36252349822/108432611678.log -> 03_Kiem_thu/Bang_chung/ci/36252349822/108432611678.log
+R  06_quality/evidence/ci/36252349822/108432611844.log -> 03_Kiem_thu/Bang_chung/ci/36252349822/108432611844.log
+R  06_quality/evidence/ci/36252349822/108432611896.log -> 03_Kiem_thu/Bang_chung/ci/36252349822/108432611896.log
+R  06_quality/evidence/ci/36252349822/108432612475.log -> 03_Kiem_thu/Bang_chung/ci/36252349822/108432612475.log
+R  06_quality/evidence/ci/36252349822/run.json -> 03_Kiem_thu/Bang_chung/ci/36252349822/run.json
+R  06_quality/evidence/ci/PHASE1_PASS_20260926.md -> 03_Kiem_thu/Bang_chung/ci/PHASE1_PASS_20260926.md
+R  06_quality/evidence/ci/README.md -> 03_Kiem_thu/Bang_chung/ci/README.md
+R  06_quality/evidence/ci/diagnostics/backend-container-before-fix.log -> 03_Kiem_thu/Bang_chung/ci/diagnostics/backend-container-before-fix.log
+R  06_quality/evidence/clean-backend-setup.log -> 03_Kiem_thu/Bang_chung/clean-backend-setup.log
+R  06_quality/evidence/clean-repro-api-http-smoke-20260926T071809Z.json -> 03_Kiem_thu/Bang_chung/clean-repro-api-http-smoke-20260926T071809Z.json
+R  06_quality/evidence/clean-repro-api-process-20260926T071809Z.log -> 03_Kiem_thu/Bang_chung/clean-repro-api-process-20260926T071809Z.log
+R  06_quality/evidence/clean-repro-api-smoke-20260926T071803Z.log -> 03_Kiem_thu/Bang_chung/clean-repro-api-smoke-20260926T071803Z.log
+R  06_quality/evidence/clean-repro-backend-lint-20260926T071803Z.log -> 03_Kiem_thu/Bang_chung/clean-repro-backend-lint-20260926T071803Z.log
+R  06_quality/evidence/clean-repro-backend-unit-20260926T071803Z.log -> 03_Kiem_thu/Bang_chung/clean-repro-backend-unit-20260926T071803Z.log
+R  06_quality/evidence/clean-repro-backend-unit-20260926T071803Z.xml -> 03_Kiem_thu/Bang_chung/clean-repro-backend-unit-20260926T071803Z.xml
+R  06_quality/evidence/clean-repro-install-20260926.log -> 03_Kiem_thu/Bang_chung/clean-repro-install-20260926.log
+R  06_quality/evidence/clean-repro-package-20260926.log -> 03_Kiem_thu/Bang_chung/clean-repro-package-20260926.log
+R  06_quality/evidence/clean_reproduction/README.md -> 03_Kiem_thu/Bang_chung/clean_reproduction/README.md
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/api/api-http-smoke-20260926T150711Z.json -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/api/api-http-smoke-20260926T150711Z.json
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/api/api-http-smoke-20260926T150742Z.json -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/api/api-http-smoke-20260926T150742Z.json
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/api/api-process-20260926T150711Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/api/api-process-20260926T150711Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/api/api-process-20260926T150742Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/api/api-process-20260926T150742Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/api-degraded-smoke-20260926T150704Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/api-degraded-smoke-20260926T150704Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/api-ready-smoke-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/api-ready-smoke-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/backend-lint-20260926T150704Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/backend-lint-20260926T150704Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/backend-lint-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/backend-lint-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150704Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150704Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150704Z.xml -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150704Z.xml
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150728Z.xml -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/backend-unit-20260926T150728Z.xml
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/storage-smoke-20260926T150704Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/storage-smoke-20260926T150704Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/backend/storage-smoke-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/backend/storage-smoke-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-app-logcat.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-app-logcat.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-install.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-install.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-runtime.json -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-runtime.json
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-runtime.png -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-runtime.png
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-screenshot.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-screenshot.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-start.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-start.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-ui-dump.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-ui-dump.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-ui-pull.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-ui-pull.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/android-ui.xml -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/android-ui.xml
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/api-live-process.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/api-live-process.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/avd-create.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/avd-create.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/backend-postgres.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/backend-postgres.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/backend-without-env.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/backend-without-env.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/chrome-render.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/chrome-render.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/emulator-boot.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/emulator-boot.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/enqueue-concurrent.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/enqueue-concurrent.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/environment.json -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/environment.json
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/flutter-bootstrap.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/flutter-bootstrap.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/flutter-verify.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/flutter-verify.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/fresh-database.txt -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/fresh-database.txt
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/locked-install.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/locked-install.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/migration-repeat.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/migration-repeat.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/original-v3-2.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/original-v3-2.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/package-install.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/package-install.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/pip-check.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/pip-check.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/postgres-initdb.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/postgres-initdb.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/postgres-start.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/postgres-start.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/postgres-stop.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/postgres-stop.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/python-version.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/python-version.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/simultaneous-runtime.json -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/simultaneous-runtime.json
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/staff-web-runtime.png -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/staff-web-runtime.png
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/venv-create.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/venv-create.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/web-runtime.json -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/web-runtime.json
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/web-server.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/web-server.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/worker-health-live.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/worker-health-live.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/commands/worker-live-process.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/commands/worker-live-process.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/flutter-doctor-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/flutter-doctor-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/flutter-version-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/flutter-version-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/learner/analyze-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/learner/analyze-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/learner/build-apk-debug-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/learner/build-apk-debug-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/learner/pub-get-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/learner/pub-get-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/learner/test-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/learner/test-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/staff/analyze-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/staff/analyze-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/staff/build-web-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/staff/build-web-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/staff/pub-get-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/staff/pub-get-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/flutter/staff/test-20260926T150621Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/flutter/staff/test-20260926T150621Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/harness/client_boot.py -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/harness/client_boot.py
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/harness/reproduce.py -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/harness/reproduce.py
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/postgres/postgres-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/postgres/postgres-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/postgres/postgres-20260926T150728Z.xml -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/postgres/postgres-20260926T150728Z.xml
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/postgres/postgres-migrate-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/postgres/postgres-migrate-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/worker/worker-enqueue-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/worker/worker-enqueue-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/worker/worker-healthcheck-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/worker/worker-healthcheck-20260926T150728Z.log
+R  06_quality/evidence/clean_reproduction/run-4cdecb4/worker/worker-once-20260926T150728Z.log -> 03_Kiem_thu/Bang_chung/clean_reproduction/run-4cdecb4/worker/worker-once-20260926T150728Z.log
+R  06_quality/evidence/flutter-toolchain.log -> 03_Kiem_thu/Bang_chung/flutter-toolchain.log
+R  06_quality/evidence/flutter/diagnostics/README.md -> 03_Kiem_thu/Bang_chung/flutter/diagnostics/README.md
+R  06_quality/evidence/flutter/diagnostics/analyze-20260926T093040Z.log -> 03_Kiem_thu/Bang_chung/flutter/diagnostics/analyze-20260926T093040Z.log
+R  06_quality/evidence/flutter/diagnostics/android-runtime-20260926.redacted.log -> 03_Kiem_thu/Bang_chung/flutter/diagnostics/android-runtime-20260926.redacted.log
+R  06_quality/evidence/flutter/diagnostics/build-apk-debug-20260926T093151Z.log -> 03_Kiem_thu/Bang_chung/flutter/diagnostics/build-apk-debug-20260926T093151Z.log
+R  06_quality/evidence/flutter/flutter-doctor-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20260926T100348Z.log
+R  06_quality/evidence/flutter/flutter-version-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/flutter-version-20260926T100348Z.log
+R  06_quality/evidence/flutter/learner/analyze-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20260926T100348Z.log
+R  06_quality/evidence/flutter/learner/android-adb-runtime-20260926.log -> 03_Kiem_thu/Bang_chung/flutter/learner/android-adb-runtime-20260926.log
+R  06_quality/evidence/flutter/learner/android-logcat-errors-20260926.log -> 03_Kiem_thu/Bang_chung/flutter/learner/android-logcat-errors-20260926.log
+R  06_quality/evidence/flutter/learner/android-runtime-20260926.png -> 03_Kiem_thu/Bang_chung/flutter/learner/android-runtime-20260926.png
+R  06_quality/evidence/flutter/learner/android-ui-20260926.xml -> 03_Kiem_thu/Bang_chung/flutter/learner/android-ui-20260926.xml
+R  06_quality/evidence/flutter/learner/build-apk-debug-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20260926T100348Z.log
+R  06_quality/evidence/flutter/learner/pub-get-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20260926T100348Z.log
+R  06_quality/evidence/flutter/learner/test-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/learner/test-20260926T100348Z.log
+R  06_quality/evidence/flutter/staff/analyze-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20260926T100348Z.log
+R  06_quality/evidence/flutter/staff/build-web-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20260926T100348Z.log
+R  06_quality/evidence/flutter/staff/pub-get-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20260926T100348Z.log
+R  06_quality/evidence/flutter/staff/test-20260926T100348Z.log -> 03_Kiem_thu/Bang_chung/flutter/staff/test-20260926T100348Z.log
+R  06_quality/evidence/flutter/staff/web-runtime-20260926.png -> 03_Kiem_thu/Bang_chung/flutter/staff/web-runtime-20260926.png
+R  06_quality/evidence/flutter/staff/web-runtime-20260926.redacted.log -> 03_Kiem_thu/Bang_chung/flutter/staff/web-runtime-20260926.redacted.log
+R  06_quality/evidence/install-backend.log -> 03_Kiem_thu/Bang_chung/install-backend.log
+R  06_quality/evidence/lint.log -> 03_Kiem_thu/Bang_chung/lint.log
+R  06_quality/evidence/original-contract-gate-20260926.log -> 03_Kiem_thu/Bang_chung/original-contract-gate-20260926.log
+R  06_quality/evidence/original-contract-gate.log -> 03_Kiem_thu/Bang_chung/original-contract-gate.log
+R  06_quality/evidence/postgres/postgres-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/postgres/postgres-20260926T100322Z.log
+R  06_quality/evidence/postgres/postgres-20260926T100322Z.xml -> 03_Kiem_thu/Bang_chung/postgres/postgres-20260926T100322Z.xml
+R  06_quality/evidence/postgres/postgres-migrate-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/postgres/postgres-migrate-20260926T100322Z.log
+R  06_quality/evidence/reinstall-final-source.log -> 03_Kiem_thu/Bang_chung/reinstall-final-source.log
+R  06_quality/evidence/status.json -> 03_Kiem_thu/Bang_chung/status.json
+R  06_quality/evidence/storage-smoke.log -> 03_Kiem_thu/Bang_chung/storage-smoke.log
+R  06_quality/evidence/v3_2/20260926T153133959523Z/SQL_VALIDATION_REPORT.json -> 03_Kiem_thu/Bang_chung/v3_2/20260926T153133959523Z/SQL_VALIDATION_REPORT.json
+R  06_quality/evidence/v3_2/20260926T153133959523Z/VALIDATION_REPORT.txt -> 03_Kiem_thu/Bang_chung/v3_2/20260926T153133959523Z/VALIDATION_REPORT.txt
+R  06_quality/evidence/v3_2/20260926T153133959523Z/contract.log -> 03_Kiem_thu/Bang_chung/v3_2/20260926T153133959523Z/contract.log
+R  06_quality/evidence/v3_2/20260926T153133959523Z/npm-ci.log -> 03_Kiem_thu/Bang_chung/v3_2/20260926T153133959523Z/npm-ci.log
+R  06_quality/evidence/v3_2/20260926T153133959523Z/run.json -> 03_Kiem_thu/Bang_chung/v3_2/20260926T153133959523Z/run.json
+R  06_quality/evidence/v3_2/20260926T153133959523Z/sql.log -> 03_Kiem_thu/Bang_chung/v3_2/20260926T153133959523Z/sql.log
+R  06_quality/evidence/v3_2/20260926T153133959523Z/validation_results.json -> 03_Kiem_thu/Bang_chung/v3_2/20260926T153133959523Z/validation_results.json
+R  06_quality/evidence/v3_2/20260926T154406968964Z/SQL_VALIDATION_REPORT.json -> 03_Kiem_thu/Bang_chung/v3_2/20260926T154406968964Z/SQL_VALIDATION_REPORT.json
+R  06_quality/evidence/v3_2/20260926T154406968964Z/VALIDATION_REPORT.txt -> 03_Kiem_thu/Bang_chung/v3_2/20260926T154406968964Z/VALIDATION_REPORT.txt
+R  06_quality/evidence/v3_2/20260926T154406968964Z/contract.log -> 03_Kiem_thu/Bang_chung/v3_2/20260926T154406968964Z/contract.log
+R  06_quality/evidence/v3_2/20260926T154406968964Z/npm-ci.log -> 03_Kiem_thu/Bang_chung/v3_2/20260926T154406968964Z/npm-ci.log
+R  06_quality/evidence/v3_2/20260926T154406968964Z/run.json -> 03_Kiem_thu/Bang_chung/v3_2/20260926T154406968964Z/run.json
+R  06_quality/evidence/v3_2/20260926T154406968964Z/sql.log -> 03_Kiem_thu/Bang_chung/v3_2/20260926T154406968964Z/sql.log
+R  06_quality/evidence/v3_2/20260926T154406968964Z/validation_results.json -> 03_Kiem_thu/Bang_chung/v3_2/20260926T154406968964Z/validation_results.json
+R  06_quality/evidence/v3_2/20260927T145852058175Z/run.json -> 03_Kiem_thu/Bang_chung/v3_2/20260927T145852058175Z/run.json
+R  06_quality/evidence/v3_2/INTAKE_AND_VERIFICATION_20260926.md -> 03_Kiem_thu/Bang_chung/v3_2/INTAKE_AND_VERIFICATION_20260926.md
+R  06_quality/evidence/v3_2/SEARCH_20260926.md -> 03_Kiem_thu/Bang_chung/v3_2/SEARCH_20260926.md
+R  06_quality/evidence/v3_2/clean-d4165e8/20260926T153556896060Z/SQL_VALIDATION_REPORT.json -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/20260926T153556896060Z/SQL_VALIDATION_REPORT.json
+R  06_quality/evidence/v3_2/clean-d4165e8/20260926T153556896060Z/VALIDATION_REPORT.txt -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/20260926T153556896060Z/VALIDATION_REPORT.txt
+R  06_quality/evidence/v3_2/clean-d4165e8/20260926T153556896060Z/contract.log -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/20260926T153556896060Z/contract.log
+R  06_quality/evidence/v3_2/clean-d4165e8/20260926T153556896060Z/npm-ci.log -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/20260926T153556896060Z/npm-ci.log
+R  06_quality/evidence/v3_2/clean-d4165e8/20260926T153556896060Z/run.json -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/20260926T153556896060Z/run.json
+R  06_quality/evidence/v3_2/clean-d4165e8/20260926T153556896060Z/sql.log -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/20260926T153556896060Z/sql.log
+R  06_quality/evidence/v3_2/clean-d4165e8/20260926T153556896060Z/validation_results.json -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/20260926T153556896060Z/validation_results.json
+R  06_quality/evidence/v3_2/clean-d4165e8/adapter-guards.log -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/adapter-guards.log
+R  06_quality/evidence/v3_2/clean-d4165e8/locked-install.log -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/locked-install.log
+R  06_quality/evidence/v3_2/clean-d4165e8/pip-check.log -> 03_Kiem_thu/Bang_chung/v3_2/clean-d4165e8/pip-check.log
+R  06_quality/evidence/v3_2/original-contract-gate-20260926.log -> 03_Kiem_thu/Bang_chung/v3_2/original-contract-gate-20260926.log
+R  06_quality/evidence/worker-boot-attempt.log -> 03_Kiem_thu/Bang_chung/worker-boot-attempt.log
+R  06_quality/evidence/worker/worker-enqueue-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/worker/worker-enqueue-20260926T100322Z.log
+R  06_quality/evidence/worker/worker-healthcheck-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/worker/worker-healthcheck-20260926T100322Z.log
+R  06_quality/evidence/worker/worker-once-20260926T100322Z.log -> 03_Kiem_thu/Bang_chung/worker/worker-once-20260926T100322Z.log
+RM 06_quality/gates/PHASE_1_GATE.md -> 03_Kiem_thu/Gate/PHASE_1_GATE.md
+R  06_quality/phase2/ACCESSIBILITY_TEST_PLAN.md -> 03_Kiem_thu/QA_QC/phase2/ACCESSIBILITY_TEST_PLAN.md
+RM 06_quality/phase2/CODEX_EXECUTION_DEFECTS.md -> 03_Kiem_thu/QA_QC/phase2/CODEX_EXECUTION_DEFECTS.md
+RM 06_quality/phase2/DEFECT_RETEST_RESULTS.csv -> 03_Kiem_thu/QA_QC/phase2/DEFECT_RETEST_RESULTS.csv
+R  06_quality/phase2/Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx -> 03_Kiem_thu/QA_QC/phase2/Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx
+R  06_quality/phase2/PHASE2_REWORK_R1_FIX_REGISTER.md -> 03_Kiem_thu/QA_QC/phase2/PHASE2_REWORK_R1_FIX_REGISTER.md
+R  06_quality/phase2/PHASE_2_GATE.md -> 03_Kiem_thu/QA_QC/phase2/PHASE_2_GATE.md
+RM 06_quality/phase2/PHASE_2_VERIFICATION_REPORT.md -> 03_Kiem_thu/QA_QC/phase2/PHASE_2_VERIFICATION_REPORT.md
+R  06_quality/phase2/QA_DEFECT_SEVERITY.md -> 03_Kiem_thu/QA_QC/phase2/QA_DEFECT_SEVERITY.md
+RM 06_quality/phase2/QA_TEST_CASES.csv -> 03_Kiem_thu/QA_QC/phase2/QA_TEST_CASES.csv
+R  06_quality/phase2/QA_TEST_PLAN.md -> 03_Kiem_thu/QA_QC/phase2/QA_TEST_PLAN.md
+RM 06_quality/phase2/QC_REVIEW_CHECKLIST.md -> 03_Kiem_thu/QA_QC/phase2/QC_REVIEW_CHECKLIST.md
+R  06_quality/phase2/UAT_SCENARIOS.md -> 03_Kiem_thu/QA_QC/phase2/UAT_SCENARIOS.md
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/Mingo_Phase2_QA_Dashboard_Preview.png -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/Mingo_Phase2_QA_Dashboard_Preview.png
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/Mingo_Phase2_UX_QA_Control_2026-09-27.xlsx -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/Mingo_Phase2_UX_QA_Control_2026-09-27.xlsx
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/README.md -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/README.md
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/README.md -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/README.md
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/learner_home.png -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/learner_home.png
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/learner_offline.png -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/learner_offline.png
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/learner_retrieve.png -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/learner_retrieve.png
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/staff_content_editor.png -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/staff_content_editor.png
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/staff_dashboard.png -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/staff_dashboard.png
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/staff_review_block.png -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_screenshots/staff_review_block.png
+R  06_quality/phase2/audits/2026-09-27_candidate_v1/prototype_smoke.json -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_candidate_v1/prototype_smoke.json
+R  06_quality/phase2/audits/2026-09-27_independent/Mingo_Phase2_Independent_QC_QA_Audit_2026-09-27.md -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_independent/Mingo_Phase2_Independent_QC_QA_Audit_2026-09-27.md
+R  06_quality/phase2/audits/2026-09-27_independent/Mingo_Phase2_UX_QA_Control_Independent_Audit_2026-09-27.xlsx -> 03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_independent/Mingo_Phase2_UX_QA_Control_Independent_Audit_2026-09-27.xlsx
+R  06_quality/phase2/evidence/builder_preflight/README.md -> 03_Kiem_thu/QA_QC/phase2/evidence/builder_preflight/README.md
+R  06_quality/phase2/evidence/builder_preflight/node_syntax.log -> 03_Kiem_thu/QA_QC/phase2/evidence/builder_preflight/node_syntax.log
+R  06_quality/phase2/evidence/builder_preflight/original_artifact_verifier.log -> 03_Kiem_thu/QA_QC/phase2/evidence/builder_preflight/original_artifact_verifier.log
+R  06_quality/phase2/evidence/builder_preflight/package_secret_hygiene.txt -> 03_Kiem_thu/QA_QC/phase2/evidence/builder_preflight/package_secret_hygiene.txt
+R  06_quality/phase2/evidence/builder_preflight/rework_r1_static_verifier.log -> 03_Kiem_thu/QA_QC/phase2/evidence/builder_preflight/rework_r1_static_verifier.log
+R  06_quality/phase2/evidence/codex/README.md -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/README.md
+R  06_quality/phase2/evidence/codex/browser-first-run.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser-first-run.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-001.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-001.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-001.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-002.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-002.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-002.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-003.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-003.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-003.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-005.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-005.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-005.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-006.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-006.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-006.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-007.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-007.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-007.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-007.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-008.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-008.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-008.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-008.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-009.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-009.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-009.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-009.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-010.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-010.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-010.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-010.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-011.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-011.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-011.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-011.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-012.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-012.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-012.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-012.png
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-013.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-013.json
+R  06_quality/phase2/evidence/codex/browser/QA-ACC-013.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-ACC-013.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-001.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-001.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-001.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-002.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-002.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-002.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-003.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-003.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-003.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-004.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-004.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-004.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-005.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-005.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-005.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-007.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-007.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-007.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-007.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-008.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-008.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-008.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-008.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-009.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-009.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-009.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-009.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-010.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-010.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-010.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-010.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-011.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-011.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-011.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-011.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-012.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-012.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-012.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-012.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-013.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-013.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-013.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-013.png
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-014.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-014.json
+R  06_quality/phase2/evidence/codex/browser/QA-BIZ-014.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-BIZ-014.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-001.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-001.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-001.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-002.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-002.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-002.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-003.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-003.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-003.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-004.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-004.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-004.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-005.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-005.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-005.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-006.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-006.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-006.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-007.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-007.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-007.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-007.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-008.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-008.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-008.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-008.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-009.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-009.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-009.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-009.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-010.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-010.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-010.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-010.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-011.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-011.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-011.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-011.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-012.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-012.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-012.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-012.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-013.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-013.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-013.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-013.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-014.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-014.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-014.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-014.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-015.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-015.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-015.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-015.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-016.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-016.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-016.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-016.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-017.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-017.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-017.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-017.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-018.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-018.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-018.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-018.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-019.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-019.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-019.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-019.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-020.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-020.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-020.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-020.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-021.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-021.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-021.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-021.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-022.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-022.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-022.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-022.png
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-023.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-023.json
+R  06_quality/phase2/evidence/codex/browser/QA-LRN-023.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-LRN-023.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-001.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-001.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-001.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-002.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-002.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-002.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-003.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-003.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-003.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-004.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-004.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-004.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-005.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-005.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-005.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-006.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-006.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-006.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-007.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-007.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-007.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-007.png
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-008.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-008.json
+R  06_quality/phase2/evidence/codex/browser/QA-NAV-008.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-NAV-008.png
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-001.json
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-001.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-001.png
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-002.json
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-002.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-002.png
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-003.json
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-003.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-003.png
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-004.json
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-004.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-004.png
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-005.json
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-005.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-005.png
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-006.json
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-006.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-006.png
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-007.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-007.json
+R  06_quality/phase2/evidence/codex/browser/QA-OFF-007.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-OFF-007.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-001.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-001.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-001.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-002.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-002.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-002.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-003.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-003.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-003.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-004.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-004.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-004.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-005.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-005.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-005.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-006.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-006.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-006.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-007.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-007.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-007.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-007.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-008.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-008.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-008.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-008.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-009.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-009.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-009.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-009.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-010.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-010.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-010.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-010.png
+R  06_quality/phase2/evidence/codex/browser/QA-STF-011.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-011.json
+R  06_quality/phase2/evidence/codex/browser/QA-STF-011.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/QA-STF-011.png
+R  06_quality/phase2/evidence/codex/browser/run-P0.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/run-P0.json
+R  06_quality/phase2/evidence/codex/browser/run-P1.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/run-P1.json
+R  06_quality/phase2/evidence/codex/browser/run.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/browser/run.json
+R  06_quality/phase2/evidence/codex/credential_hygiene.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/credential_hygiene.json
+R  06_quality/phase2/evidence/codex/defect_retest_results.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/defect_retest_results.json
+R  06_quality/phase2/evidence/codex/environment.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/environment.json
+R  06_quality/phase2/evidence/codex/execution_summary.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/execution_summary.json
+R  06_quality/phase2/evidence/codex/initial-browser-findings.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/initial-browser-findings.json
+R  06_quality/phase2/evidence/codex/initial-browser-probe.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/initial-browser-probe.json
+R  06_quality/phase2/evidence/codex/initial-sync-after-online-action.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/initial-sync-after-online-action.png
+R  06_quality/phase2/evidence/codex/intake.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/intake.json
+R  06_quality/phase2/evidence/codex/node_syntax_final.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/node_syntax_final.json
+R  06_quality/phase2/evidence/codex/ordered_execution_commands.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/ordered_execution_commands.json
+R  06_quality/phase2/evidence/codex/original_v3_2_integrity.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/original_v3_2_integrity.json
+R  06_quality/phase2/evidence/codex/p0-assisted.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/p0-assisted.png
+R  06_quality/phase2/evidence/codex/p0-retry.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/p0-retry.png
+R  06_quality/phase2/evidence/codex/practice-media-skip-before.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/practice-media-skip-before.png
+R  06_quality/phase2/evidence/codex/review/QA-ACC-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-ACC-004.json
+R  06_quality/phase2/evidence/codex/review/QA-BIZ-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-BIZ-006.json
+R  06_quality/phase2/evidence/codex/review/QA-HO-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-HO-001.json
+R  06_quality/phase2/evidence/codex/review/QA-HO-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-HO-002.json
+R  06_quality/phase2/evidence/codex/review/QA-HO-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-HO-003.json
+R  06_quality/phase2/evidence/codex/review/QA-HO-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-HO-004.json
+R  06_quality/phase2/evidence/codex/review/QA-HO-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-HO-005.json
+R  06_quality/phase2/evidence/codex/review/QA-HO-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-HO-006.json
+R  06_quality/phase2/evidence/codex/review/QA-NAV-009.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-NAV-009.json
+R  06_quality/phase2/evidence/codex/review/QA-NAV-010.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QA-NAV-010.json
+R  06_quality/phase2/evidence/codex/review/QC-001.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-001.json
+R  06_quality/phase2/evidence/codex/review/QC-002.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-002.json
+R  06_quality/phase2/evidence/codex/review/QC-003.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-003.json
+R  06_quality/phase2/evidence/codex/review/QC-004.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-004.json
+R  06_quality/phase2/evidence/codex/review/QC-005.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-005.json
+R  06_quality/phase2/evidence/codex/review/QC-006.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-006.json
+R  06_quality/phase2/evidence/codex/review/QC-007.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-007.json
+R  06_quality/phase2/evidence/codex/review/QC-008.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-008.json
+R  06_quality/phase2/evidence/codex/review/QC-009.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-009.json
+R  06_quality/phase2/evidence/codex/review/QC-010.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/QC-010.json
+R  06_quality/phase2/evidence/codex/review/run-P0.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/run-P0.json
+R  06_quality/phase2/evidence/codex/review/run-P1.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/run-P1.json
+R  06_quality/phase2/evidence/codex/review/run.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/review/run.json
+R  06_quality/phase2/evidence/codex/rework_r1_static_checks.log -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/rework_r1_static_checks.log
+R  06_quality/phase2/evidence/codex/rework_r1_static_checks_final.log -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/rework_r1_static_checks_final.log
+R  06_quality/phase2/evidence/codex/supplemental-first-run.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental-first-run.json
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-grammar-0.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-grammar-0.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-grammar-1.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-grammar-1.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-grammar-2.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-grammar-2.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-listening-0.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-listening-0.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-listening-1.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-listening-1.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-listening-2.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-listening-2.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-vocabulary-0.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-vocabulary-0.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-vocabulary-1.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-vocabulary-1.png
+R  06_quality/phase2/evidence/codex/supplemental/answer-key-vocabulary-2.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/answer-key-vocabulary-2.png
+R  06_quality/phase2/evidence/codex/supplemental/learner-accessibility-tree.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/learner-accessibility-tree.png
+R  06_quality/phase2/evidence/codex/supplemental/placement-media-unavailable.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/placement-media-unavailable.png
+R  06_quality/phase2/evidence/codex/supplemental/practice-media-skip.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/practice-media-skip.png
+R  06_quality/phase2/evidence/codex/supplemental/run.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/run.json
+R  06_quality/phase2/evidence/codex/supplemental/staff-text200-1024.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/staff-text200-1024.png
+R  06_quality/phase2/evidence/codex/supplemental/staff-text200-1440.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/staff-text200-1440.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-320-Course.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-320-Course.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-320-Home.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-320-Home.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-320-Learn.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-320-Learn.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-320-Profile.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-320-Profile.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-360-Course.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-360-Course.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-360-Home.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-360-Home.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-360-Learn.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-360-Learn.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-360-Profile.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-360-Profile.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-412-Course.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-412-Course.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-412-Home.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-412-Home.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-412-Learn.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-412-Learn.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-412-Profile.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-412-Profile.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-480-Course.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-480-Course.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-480-Home.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-480-Home.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-480-Learn.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-480-Learn.png
+R  06_quality/phase2/evidence/codex/supplemental/text200-480-Profile.png -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/supplemental/text200-480-Profile.png
+R  06_quality/phase2/evidence/codex/text200-before-nav-fix.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/text200-before-nav-fix.json
+R  06_quality/phase2/evidence/codex/workbook_preservation.json -> 03_Kiem_thu/QA_QC/phase2/evidence/codex/workbook_preservation.json
+R  06_quality/phase2/evidence/internal_pre_codex/README.md -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_pre_codex/README.md
+R  06_quality/phase2/evidence/internal_pre_codex/browser_regression_pre_codex.json -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_pre_codex/browser_regression_pre_codex.json
+R  06_quality/phase2/evidence/internal_pre_codex/learner_browser_pre_codex.json -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_pre_codex/learner_browser_pre_codex.json
+R  06_quality/phase2/evidence/internal_pre_codex/placement_listening_pre_codex.json -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_pre_codex/placement_listening_pre_codex.json
+R  06_quality/phase2/evidence/internal_pre_codex/staff_browser_pre_codex.json -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_pre_codex/staff_browser_pre_codex.json
+R  06_quality/phase2/evidence/internal_pre_codex/staff_content_lifecycle.png -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_pre_codex/staff_content_lifecycle.png
+R  06_quality/phase2/evidence/internal_pre_codex/vocab_assisted_correct.png -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_pre_codex/vocab_assisted_correct.png
+R  06_quality/phase2/evidence/internal_static_checks.json -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_static_checks.json
+R  06_quality/phase2/evidence/internal_static_checks.log -> 03_Kiem_thu/QA_QC/phase2/evidence/internal_static_checks.log
+R  06_quality/phase2/evidence/rework_r1_static_checks.json -> 03_Kiem_thu/QA_QC/phase2/evidence/rework_r1_static_checks.json
+R  06_quality/phase2/evidence/source_immutability_check.txt -> 03_Kiem_thu/QA_QC/phase2/evidence/source_immutability_check.txt
+RM 06_quality/phase2/qa_cases.json -> 03_Kiem_thu/QA_QC/phase2/qa_cases.json
+R  06_quality/standards/CODING_STANDARDS.md -> 03_Kiem_thu/QA_QC/standards/CODING_STANDARDS.md
+RM 06_quality/standards/DEFINITION_OF_DONE.md -> 03_Kiem_thu/QA_QC/standards/DEFINITION_OF_DONE.md
+RM 06_quality/standards/TEST_STRATEGY.md -> 03_Kiem_thu/QA_QC/standards/TEST_STRATEGY.md
+RM 06_quality/README.md -> 03_Kiem_thu/README.md
+R  07_operations/docs/CONFIG_AND_SECRETS.md -> 04_Van_hanh/Cau_hinh/CONFIG_AND_SECRETS.md
+RM 07_operations/docs/ENVIRONMENTS.md -> 04_Van_hanh/Cau_hinh/ENVIRONMENTS.md
+RM 07_operations/README.md -> 04_Van_hanh/README.md
+RM 07_operations/docs/DATABASE_BOOTSTRAP_AND_MIGRATIONS.md -> 04_Van_hanh/Runbook/DATABASE_BOOTSTRAP_AND_MIGRATIONS.md
+RM 07_operations/docs/LOCAL_RUNTIME.md -> 04_Van_hanh/Runbook/LOCAL_RUNTIME.md
+RM 07_operations/docs/V3_2_VERIFICATION.md -> 04_Van_hanh/Runbook/V3_2_VERIFICATION.md
+R  07_operations/docs/WINDOWS_FLUTTER.md -> 04_Van_hanh/Runbook/WINDOWS_FLUTTER.md
+RM 07_operations/scripts/bootstrap_clients.ps1 -> 04_Van_hanh/Scripts/bootstrap_clients.ps1
+RM 07_operations/scripts/bootstrap_clients.sh -> 04_Van_hanh/Scripts/bootstrap_clients.sh
+RM 07_operations/scripts/check_original_contracts.py -> 04_Van_hanh/Scripts/check_original_contracts.py
+RM 07_operations/scripts/clean_setup.sh -> 04_Van_hanh/Scripts/clean_setup.sh
+RM 07_operations/scripts/run_phase2_qa.py -> 04_Van_hanh/Scripts/run_phase2_qa.py
+RM 07_operations/scripts/smoke_api.py -> 04_Van_hanh/Scripts/smoke_api.py
+RM 07_operations/scripts/verify_backend.ps1 -> 04_Van_hanh/Scripts/verify_backend.ps1
+RM 07_operations/scripts/verify_backend.sh -> 04_Van_hanh/Scripts/verify_backend.sh
+RM 07_operations/scripts/verify_flutter.ps1 -> 04_Van_hanh/Scripts/verify_flutter.ps1
+RM 07_operations/scripts/verify_phase2_artifacts.py -> 04_Van_hanh/Scripts/verify_phase2_artifacts.py
+RM 07_operations/scripts/verify_phase2_browser.cjs -> 04_Van_hanh/Scripts/verify_phase2_browser.cjs
+RM 07_operations/scripts/verify_phase2_package_manifest.py -> 04_Van_hanh/Scripts/verify_phase2_package_manifest.py
+RM 07_operations/scripts/verify_phase2_review.py -> 04_Van_hanh/Scripts/verify_phase2_review.py
+RM 07_operations/scripts/verify_phase2_rework.py -> 04_Van_hanh/Scripts/verify_phase2_rework.py
+RM 07_operations/scripts/verify_phase2_supplemental.cjs -> 04_Van_hanh/Scripts/verify_phase2_supplemental.cjs
+RM 07_operations/docs/CI_CD.md -> 04_Van_hanh/Trien_khai/CI_CD.md
+R  07_operations/requirements-v3_2.lock -> 04_Van_hanh/requirements-v3_2.lock
+RM 07_operations/tests/test_original_contract_adapter.py -> 04_Van_hanh/tests/test_original_contract_adapter.py
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/00_README_FIRST_VI.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/00_README_FIRST_VI.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/01_FILE_INDEX.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/01_FILE_INDEX.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/Adaptive_Learning_Phase1_Source.bundle -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/Adaptive_Learning_Phase1_Source.bundle
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/MANIFEST_SHA256.json -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/MANIFEST_SHA256.json
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/SOURCE_REVISION.txt -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/SOURCE_REVISION.txt
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/00_README_FIRST.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/00_README_FIRST.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/01_MASTER_MEMORY_TRANSFER.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/01_MASTER_MEMORY_TRANSFER.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/02_ADAPTIVE_PROJECT_CONTEXT_PRE_RESEARCH.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/02_ADAPTIVE_PROJECT_CONTEXT_PRE_RESEARCH.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/03_PHASE1_SCIENTIFIC_RESEARCH_RESOLUTION.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/03_PHASE1_SCIENTIFIC_RESEARCH_RESOLUTION.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/04_PROJECT_PROGRESS_SNAPSHOT_2026-09-23.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/04_PROJECT_PROGRESS_SNAPSHOT_2026-09-23.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/05_PHASE1_DECISION_REGISTER.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/05_PHASE1_DECISION_REGISTER.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/06_CURRENT_WORK_QUEUE.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/06_CURRENT_WORK_QUEUE.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/07_MASTER_EXECUTION_PROMPT_CONTINUE_NOW.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/07_MASTER_EXECUTION_PROMPT_CONTINUE_NOW.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/08_NEW_ACCOUNT_BOOTSTRAP_MESSAGE.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/08_NEW_ACCOUNT_BOOTSTRAP_MESSAGE.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/09_EXTERNAL_ARTIFACT_CHECK.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/09_EXTERNAL_ARTIFACT_CHECK.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A1_RESEARCH_QUESTIONS_18.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A1_RESEARCH_QUESTIONS_18.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A2_PHASE1_RESEARCH_SUPER_PROMPT.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A2_PHASE1_RESEARCH_SUPER_PROMPT.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A3_RESEARCH_EXPECTED_OUTPUT.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A3_RESEARCH_EXPECTED_OUTPUT.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/01_Adaptive_Learning_Phase1_Execution_Pack_2026-09-23_reviewed.zip -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/01_Adaptive_Learning_Phase1_Execution_Pack_2026-09-23_reviewed.zip
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/02_Adaptive_Learning_FINAL_Continuous_Handoff_2026-09-23.zip -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/02_Adaptive_Learning_FINAL_Continuous_Handoff_2026-09-23.zip
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/03_01-adaptive_language_learning_project_handoff_2026-09-23.zip -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/03_01-adaptive_language_learning_project_handoff_2026-09-23.zip
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/04_02-Adaptive_Learning_Phase1_Scientific_Research_Handoff_2026-09-23.zip -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/04_02-Adaptive_Learning_Phase1_Scientific_Research_Handoff_2026-09-23.zip
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/DECISION_REGISTER.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/DECISION_REGISTER.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/MASTER_PROJECT_SNAPSHOT.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/MASTER_PROJECT_SNAPSHOT.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/PROJECT_CHRONOLOGY.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/PROJECT_CHRONOLOGY.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/STATUS_MATRIX.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/STATUS_MATRIX.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/01_product/NAME_EXPLORATION_NOTES.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/01_product/NAME_EXPLORATION_NOTES.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/01_product/PRODUCT_VISION_AND_POSITIONING.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/01_product/PRODUCT_VISION_AND_POSITIONING.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/CHANGE_CONTROL.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/CHANGE_CONTROL.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/FROZEN_TECHNICAL_DECISIONS.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/FROZEN_TECHNICAL_DECISIONS.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/SYSTEM_BOUNDARIES.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/SYSTEM_BOUNDARIES.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/V3_2_BASELINE_SUMMARY.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/V3_2_BASELINE_SUMMARY.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/03_roadmap/ROADMAP_PHASE_0_TO_17.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/03_roadmap/ROADMAP_PHASE_0_TO_17.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/03_roadmap/WORKING_RULES.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/03_roadmap/WORKING_RULES.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_ACCEPTANCE_CHECKLIST.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_ACCEPTANCE_CHECKLIST.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_DEFINITION.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_DEFINITION.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_RISKS_AND_OPEN_ITEMS.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_RISKS_AND_OPEN_ITEMS.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/05_learning_design/PILOT_AND_CONTENT_CONSTRAINTS.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/05_learning_design/PILOT_AND_CONTENT_CONSTRAINTS.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/05_learning_design/SHORT_SESSION_LEARNING_DIRECTION.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/05_learning_design/SHORT_SESSION_LEARNING_DIRECTION.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/ANALYTICS_TIME_MODEL.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/ANALYTICS_TIME_MODEL.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/DECISION_EVENT_LIFECYCLE.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/DECISION_EVENT_LIFECYCLE.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/LEARNING_INTELLIGENCE_GUARDRAILS.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/LEARNING_INTELLIGENCE_GUARDRAILS.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/07_quality_ops/QUALITY_SECURITY_RUNTIME_PRINCIPLES.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/07_quality_ops/QUALITY_SECURITY_RUNTIME_PRINCIPLES.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/CONTINUE_PROJECT_SUPER_PROMPT.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/CONTINUE_PROJECT_SUPER_PROMPT.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/CONVERSATION_HISTORY_DIGEST.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/CONVERSATION_HISTORY_DIGEST.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/MISSING_SOURCE_ARTIFACTS.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/MISSING_SOURCE_ARTIFACTS.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/SOURCE_IMPORT_GUIDE.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/SOURCE_IMPORT_GUIDE.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/09_legacy_kltn/LEGACY_RESEARCH_CONTEXT.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/09_legacy_kltn/LEGACY_RESEARCH_CONTEXT.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/README.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/README.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/00_README.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/00_README.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/01_MASTER_MEMORY_TRANSFER.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/01_MASTER_MEMORY_TRANSFER.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/02_ADAPTIVE_PROJECT_CONTEXT.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/02_ADAPTIVE_PROJECT_CONTEXT.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/03_RESEARCH_QUESTIONS_18.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/03_RESEARCH_QUESTIONS_18.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/04_SUPER_PROMPT.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/04_SUPER_PROMPT.md
+R  99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/05_EXPECTED_OUTPUT_STRUCTURE.md -> 99_Luu_tru/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/05_EXPECTED_OUTPUT_STRUCTURE.md
+R  99_archive/OLD_DOCS_README_2026-09-23.md -> 99_Luu_tru/OLD_DOCS_README_2026-09-23.md
+R  99_archive/README.md -> 99_Luu_tru/README.md
+R  01_governance/PROJECT_PROGRESS_SNAPSHOT_PHASE2_CANDIDATE_20260927.md -> 99_Luu_tru/governance/PROJECT_PROGRESS_SNAPSHOT_PHASE2_CANDIDATE_20260927.md
+R  01_governance/WORKING_RULES_ORIGINAL.md -> 99_Luu_tru/governance/WORKING_RULES_ORIGINAL.md
+ M PROJECT_MAP.md
+ M README.md
+ M REPO_RULES.md
+ M START_HERE.md
+?? 01_San_pham/apps/learner/integration_test/performance_test.dart
+?? 01_San_pham/apps/learner/test_driver/
+?? 01_San_pham/cong_cu_phat_trien/
+?? 02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/
+?? 02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3.2/
+?? 02_Tai_lieu_du_an/07_Tien_do_du_an/Quan_ly_du_an_Mingo.xlsx
+?? 02_Tai_lieu_du_an/07_Tien_do_du_an/README.md
+?? 02_Tai_lieu_du_an/07_Tien_do_du_an/Rebaseline_Phase2_V2_20261001/
+?? 02_Tai_lieu_du_an/07_Tien_do_du_an/Tai_cau_truc_20261001/
+?? 02_Tai_lieu_du_an/08_Ban_giao/phase2/EVIDENCE_GATED_HANDOFF_20261003.md
+?? 02_Tai_lieu_du_an/08_Ban_giao/phase2/V2_HANDOFF_20261002.md
+?? 02_Tai_lieu_du_an/README.md
+?? 03_Kiem_thu/Bang_chung/api/api-http-smoke-20261001T144909Z.json
+?? 03_Kiem_thu/Bang_chung/api/api-http-smoke-20261001T155603Z.json
+?? 03_Kiem_thu/Bang_chung/api/api-http-smoke-20261002T160331Z.json
+?? 03_Kiem_thu/Bang_chung/api/api-process-20261001T144909Z.log
+?? 03_Kiem_thu/Bang_chung/api/api-process-20261001T155603Z.log
+?? 03_Kiem_thu/Bang_chung/api/api-process-20261002T160331Z.log
+?? 03_Kiem_thu/Bang_chung/backend/api-ready-smoke-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/backend/api-ready-smoke-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/backend/backend-lint-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/backend/backend-lint-20261001T155335Z.log
+?? 03_Kiem_thu/Bang_chung/backend/backend-lint-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/backend/backend-unit-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/backend/backend-unit-20261001T144847Z.xml
+?? 03_Kiem_thu/Bang_chung/backend/backend-unit-20261001T155335Z.log
+?? 03_Kiem_thu/Bang_chung/backend/backend-unit-20261001T155335Z.xml
+?? 03_Kiem_thu/Bang_chung/backend/backend-unit-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/backend/backend-unit-20261001T155547Z.xml
+?? 03_Kiem_thu/Bang_chung/backend/storage-smoke-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/backend/storage-smoke-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-doctor-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/flutter-version-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/analyze-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/build-apk-debug-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/pub-get-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/learner/test-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/analyze-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/build-web-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/pub-get-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T162531Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T165835Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T170652Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T174516Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T175752Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T183521Z.log
+?? 03_Kiem_thu/Bang_chung/flutter/staff/test-20261001T185540Z.log
+?? 03_Kiem_thu/Bang_chung/outputs/
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-20261001T144847Z.xml
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-20261001T155335Z.log
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-20261001T155335Z.xml
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-20261001T155547Z.xml
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-migrate-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-migrate-20261001T155335Z.log
+?? 03_Kiem_thu/Bang_chung/postgres/postgres-migrate-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/restructure_20261001/
+?? 03_Kiem_thu/Bang_chung/v3_2/20261001T143526946282Z/
+?? 03_Kiem_thu/Bang_chung/v3_2/20261001T144846826259Z/
+?? 03_Kiem_thu/Bang_chung/v3_2/20261001T153026923526Z/
+?? 03_Kiem_thu/Bang_chung/v3_2/20261001T163255595129Z/
+?? 03_Kiem_thu/Bang_chung/worker/worker-enqueue-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/worker/worker-enqueue-20261001T155335Z.log
+?? 03_Kiem_thu/Bang_chung/worker/worker-enqueue-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/worker/worker-healthcheck-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/worker/worker-healthcheck-20261001T155547Z.log
+?? 03_Kiem_thu/Bang_chung/worker/worker-once-20261001T144847Z.log
+?? 03_Kiem_thu/Bang_chung/worker/worker-once-20261001T155335Z.log
+?? 03_Kiem_thu/Bang_chung/worker/worker-once-20261001T155547Z.log
+?? 03_Kiem_thu/Bao_cao/
+?? 03_Kiem_thu/QA_QC/QA_Handoff_Phase1_2_20261002/
+?? 03_Kiem_thu/QA_QC/phase2/README.md
+?? 03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/
+?? 03_Kiem_thu/QA_QC/phase2/final_gate/
+?? 03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/
+?? 03_Kiem_thu/Tu_dong/
+?? 04_Van_hanh/Runbook/PHASE1_FOUNDATION.md
+?? 04_Van_hanh/Scripts/repository_paths.py
+?? 04_Van_hanh/Scripts/run_performance_benchmark.ps1
+?? 04_Van_hanh/Scripts/verify_evidence_gated_phase2.py
+?? 04_Van_hanh/Scripts/verify_phase2_v2.py
+?? 04_Van_hanh/Scripts/verify_phase2_v2_browser.cjs
+?? 04_Van_hanh/Scripts/verify_restructure.py
+?? 99_Luu_tru/Phase2_R1_before_rebaseline_20261001/
+?? 99_Luu_tru/Phase2_V2_before_evidence_gate_20261002/

@@ -1,0 +1,4 @@
+Commit: a112f762ab08f6fa688cc4857b21d95d1055ab5c
+Command: C:\Mingo\.venv\Scripts\python.exe -m all_foundation.cli enqueue-probe --key verify-20261001T155547Z
+{"job_id": "fe6db4e9-67dd-4e21-b826-b6a7f757eb70"}
+Exit code: 0

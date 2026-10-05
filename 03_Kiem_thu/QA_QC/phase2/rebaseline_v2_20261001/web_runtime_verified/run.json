@@ -1,0 +1,209 @@
+{
+  "scope": "Runtime navigation/rendering, not TalkBack/human UAT",
+  "results": [
+    {
+      "name": "learner-360",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 360,
+        "height": 915
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 360,
+      "semantics": [
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingo",
+        "Quay lại",
+        "Bản xem trước · dữ liệu mẫu",
+        "50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "50%",
+        "50%",
+        "Bạn gặp một người bạn vào buổi sáng. Bạn nói gì?",
+        "Hãy thử nhớ lời chào buổi sáng.",
+        "Good morning!\nĐang chọn",
+        "Good morning!\nĐang chọn",
+        "Good night!",
+        "Good night!",
+        "See you later!",
+        "See you later!",
+        "Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.",
+        "Tiếp tục"
+      ]
+    },
+    {
+      "name": "learner-412",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 412,
+      "semantics": [
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingo",
+        "Quay lại",
+        "Bản xem trước · dữ liệu mẫu",
+        "50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "50%",
+        "50%",
+        "Bạn gặp một người bạn vào buổi sáng. Bạn nói gì?",
+        "Hãy thử nhớ lời chào buổi sáng.",
+        "Good morning!\nĐang chọn",
+        "Good morning!\nĐang chọn",
+        "Good night!",
+        "Good night!",
+        "See you later!",
+        "See you later!",
+        "Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.",
+        "Tiếp tục"
+      ]
+    },
+    {
+      "name": "learner-430",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 430,
+        "height": 915
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 430,
+      "semantics": [
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingoBản xem trước · dữ liệu mẫu50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "Quay lạiMingo",
+        "Quay lại",
+        "Bản xem trước · dữ liệu mẫu",
+        "50%Nhớ lại một chútBạn gặp một người bạn vào buổi sáng. Bạn nói gì?Hãy thử nhớ lời chào buổi sáng.Good morning!\nĐang chọnGood night!See you later!Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.Tiếp tục",
+        "50%",
+        "50%",
+        "Bạn gặp một người bạn vào buổi sáng. Bạn nói gì?",
+        "Hãy thử nhớ lời chào buổi sáng.",
+        "Good morning!\nĐang chọn",
+        "Good morning!\nĐang chọn",
+        "Good night!",
+        "Good night!",
+        "See you later!",
+        "See you later!",
+        "Phù hợp với buổi sáng!\n“Good morning” dùng vào buổi sáng. Lần này có hỗ trợ. Đây là phản hồi mẫu.",
+        "Tiếp tục"
+      ]
+    },
+    {
+      "name": "staff-1280",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1280,
+        "height": 1000
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 1280,
+      "semantics": [
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viên",
+        "Không gian nhân viên",
+        "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "MINGO WORKSPACE",
+        "Hôm nay",
+        "Học viên",
+        "Nội dung",
+        "Duyệt bài",
+        "Hỗ trợ",
+        "Phân tích",
+        "Quản trị",
+        "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "Bản xem trước · dữ liệu mẫu",
+        "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "Chào hỏi và làm quen",
+        "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+        "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+        "Tạo bản nháp mẫu mới"
+      ]
+    },
+    {
+      "name": "staff-1440",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 1440,
+      "semantics": [
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viên",
+        "Không gian nhân viên",
+        "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "MINGO WORKSPACE",
+        "Hôm nay",
+        "Học viên",
+        "Nội dung",
+        "Duyệt bài",
+        "Hỗ trợ",
+        "Phân tích",
+        "Quản trị",
+        "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "Bản xem trước · dữ liệu mẫu",
+        "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "Chào hỏi và làm quen",
+        "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+        "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+        "Tạo bản nháp mẫu mới"
+      ]
+    },
+    {
+      "name": "staff-1920",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1920,
+        "height": 1000
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 1920,
+      "semantics": [
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viên",
+        "Không gian nhân viên",
+        "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "MINGO WORKSPACE",
+        "Hôm nay",
+        "Học viên",
+        "Nội dung",
+        "Duyệt bài",
+        "Hỗ trợ",
+        "Phân tích",
+        "Quản trị",
+        "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "Bản xem trước · dữ liệu mẫu",
+        "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "Chào hỏi và làm quen",
+        "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+        "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+        "Tạo bản nháp mẫu mới"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+[
+  {
+    "old": ".gitattributes",
+    "new": ".gitattributes",
+    "before_sha256": "8356bc7f541dba97f22374b66d24f5a1883e5665f01c44e5dba1b67cd1a7d0d7",
+    "after_sha256": "438efdc2e79f646b2a360f21c3f99de17a73efc503ef65ea197d228408e1d82a",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": ".github/workflows/foundation.yaml",
+    "new": ".github/workflows/foundation.yaml",
+    "before_sha256": "1f927fbdf002ed8f77debe976bed644de3e80a8827800bc7521dadb26f2e31d3",
+    "after_sha256": "228a0ea3261c7cfcc821a63b2cf22ac1941b8ad8f95861b26404d896ec1a0c0f",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": ".gitignore",
+    "new": ".gitignore",
+    "before_sha256": "b20d0b5cdc7b39ab96e50ab3884559c9fbcc59f6d1122f5caf998f752e52335d",
+    "after_sha256": "47f367aeaa2b4315474fa0c99bc6596f00bf12dc50790282a6df6b178a1db6f3",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "01_governance/DECISION_REGISTER.md",
+    "new": "02_Tai_lieu_du_an/06_Quyet_dinh_da_chot/DECISION_REGISTER.md",
+    "before_sha256": "63917186f0dd94b3f67b83984961d8621f1e088cb0f460a253ba2713a084dffb",
+    "after_sha256": "1c277c27c4ac1cc74da222d0d22718f4f4d96b4e3f081722aabb2fd944db7262",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "01_governance/IMPLEMENTATION_ROADMAP.md",
+    "new": "02_Tai_lieu_du_an/02_Ke_hoach_phat_trien/IMPLEMENTATION_ROADMAP.md",
+    "before_sha256": "87c20e26505c7b08f4bf37ab01f724d6c3900c467b45f5b6e337b32e8215a54b",
+    "after_sha256": "f8868a1e4ec48c131531f00b4c2a53fd613ee6dc7392b4385e5cfcac6c12b773",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "01_governance/PROJECT_MEMORY.md",
+    "new": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_MEMORY.md",
+    "before_sha256": "a02b415741187282c2a53e64ab7aa1dc8e554f1ca33baab2232fc076513ed2f6",
+    "after_sha256": "d330f7d70c3832e50dfd06368a92d400c7e638122f36973b307e9ef626570caa",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "01_governance/PROJECT_PROGRESS_SNAPSHOT.md",
+    "new": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_PROGRESS_SNAPSHOT.md",
+    "before_sha256": "5f9be2074957403face9f0a9ae684e08c0e3d689e2455a8bfeb2b58be839fc38",
+    "after_sha256": "0628b6f486ac216bbd6864b38156e08f9de27bb269e5eb828be682442b75ed2f",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "01_governance/PROJECT_STATE.md",
+    "new": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_STATE.md",
+    "before_sha256": "83735e996035ef8858f0b0d4ce9fbe857fddf63a3dc77f6b7352ae63aec84781",
+    "after_sha256": "8ce1c264fbecaa8061822115e608aac619b45c2f3fc2950674cca0b43d9fbb39",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "01_governance/README.md",
+    "new": "02_Tai_lieu_du_an/01_Tong_quan_du_an/README.md",
+    "before_sha256": "a908ff8b95fcb31709f80c386f1442db2d7de636fc5ce2f32af24603e711168a",
+    "after_sha256": "67829750cb56599d01326eda2a1ae38e17594b4da1613a0449e9d6de1a0de7a4",
+    "reason": "human navigation / repository organization documentation"
+  },
+  {
+    "old": "02_product/MVP_PRD.md",
+    "new": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/MVP_PRD.md",
+    "before_sha256": "75e26b31cb36115f9772f9ecbc855156e8096bf8f004f275d6f5e22fdf4dd9e0",
+    "after_sha256": "cc394e420b748adcc8709acacc7e9cf4572ff26bbc2fc01ff5e59a09eddaf091",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "02_product/README.md",
+    "new": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/README.md",
+    "before_sha256": "ee6f02f5c05873e20046f80b41bb91a2a9392135ed4ccd026f720c07b0b2df72",
+    "after_sha256": "8d5c1ee6d91a2d39bcd1cdbffbd3e227a076d4c4de4bb32e19ce429e2fa78070",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "02_product/learning_design/LEARNER_EVIDENCE_MODEL.md",
+    "new": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/learning_design/LEARNER_EVIDENCE_MODEL.md",
+    "before_sha256": "eb6187f1439ba779a60e0105917afd8c419898f7218ae7618865b260c739efeb",
+    "after_sha256": "98786acf238da79e6b47760e445f11399bb828059a97b26ff51b1f4d437d3ecb",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "02_product/ux_ui/phase2/01_PHASE_2_CONTRACT.md",
+    "new": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/01_PHASE_2_CONTRACT.md",
+    "before_sha256": "1207aa9025814c37094c8ce322b1e7f22a5664401a7001011c5246a8e1a7fa69",
+    "after_sha256": "b377bfec7804c439128cef43cea7daca147045c4fb0cca41b79c72c294245cbf",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "02_product/ux_ui/phase2/13_DEVELOPER_HANDOFF.md",
+    "new": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/13_DEVELOPER_HANDOFF.md",
+    "before_sha256": "39168a3bfc874c691768cf03bf86ff3bc6d69e3f73bb317062f2fa86e41b313a",
+    "after_sha256": "60c529188935a9e048beace9b294a11affe1ed628838e593ade003ff1c64a7f4",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "02_product/ux_ui/phase2/README.md",
+    "new": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/README.md",
+    "before_sha256": "14a0ce4c60d5e6d2a2b0c1157c9e3b2bac154c7759d2e0dcb021c85809030771",
+    "after_sha256": "921acd981e0db8cd46f8594a784f5524893e0377d5ddf3b87077a200d951545d",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "02_product/ux_ui/phase2/SCREEN_STATE_QA_TRACEABILITY.csv",
+    "new": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/SCREEN_STATE_QA_TRACEABILITY.csv",
+    "before_sha256": "2aed1983e326aacd51c8158563168ddc969ea664642dd8c0023b6cc9cff41b43",
+    "after_sha256": "a5fb1e82d78a2bbce555c5700d80f24479448bef3cffd7dea853bd2867f05da7",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "03_research/README.md",
+    "new": "02_Tai_lieu_du_an/03_Nghien_cuu/README.md",
+    "before_sha256": "5b5abc1fb3f922dd5c48199e13b98574b5da6ae61c67dcd8977799887456ece3",
+    "after_sha256": "a8e88c18d7244e1fb025e6513a83777adefe13b618415594585c77c3315944b2",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "04_architecture/README.md",
+    "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/README.md",
+    "before_sha256": "65bbde2ddf46bd71204874a4d5323c3deb3f4fea978ff28a3d221069a971ae9c",
+    "after_sha256": "5065ae6fc297758f9f1f9d62bcfa63f10cd1777aebde3949096b3aaeb7086176",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "04_architecture/REPO_STRUCTURE.md",
+    "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/REPO_STRUCTURE.md",
+    "before_sha256": "d282b4b1e4c064d8727497919844cff69ec2122211a57d536d677131c5439177",
+    "after_sha256": "2dddb24ecdc10d74217728fd1730481145a445b12a0d1feca0e42294f102f3bf",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "04_architecture/V3_2_COMPATIBILITY_MATRIX.md",
+    "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3_2_COMPATIBILITY_MATRIX.md",
+    "before_sha256": "364e10a2cc94dd38db996658707b7312eb7927d491dca2d6b1a9298c0198140d",
+    "after_sha256": "d991008507f0b14b46710a7e48c8460cb7dba4d5c5b5ba1fba6cddf2cb13d728",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "04_architecture/baseline/V3_2_BASELINE_SUMMARY.md",
+    "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/baseline/V3_2_BASELINE_SUMMARY.md",
+    "before_sha256": "aa9878972b1146899c65f421c2ccb97077b2eebafac6084188e56e044734a4b9",
+    "after_sha256": "bf8206c81ee2cb8b1eec89e9febf2af18f7305b7933c4105fa34093d52cbbbaa",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "04_architecture/contracts/v3_2/README.md",
+    "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/README.md",
+    "before_sha256": "48f63541493bd6764f7ed138da8a5380a39963d98a93d2b4b1a3986b8c9d7ae1",
+    "after_sha256": "99f131b64c3005806cc09bb20ed03511956167bcec4adb3ecb399591c8e43c76",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "04_architecture/contracts/v3_2/original_verification/README.md",
+    "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/original_verification/README.md",
+    "before_sha256": "eeb9785f013bf7b71862c8332309715338f6baf457c7feb27b1438fbf78a41d1",
+    "after_sha256": "da264a280d0a0aed238a45f24c8f03872d9062fc84372a22be7dc93ec007c0d8",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "05_code/.env.example",
+    "new": "01_San_pham/.env.example",
+    "before_sha256": "1a7f094673b227071d8bf72c22a8e26f346fed55dd65bd7abb0dca80d33e823e",
+    "after_sha256": "52f944122c357b80fa35ec9fb2cc8e275e980421fabf08fb0286e4f12869f511",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "05_code/README.md",
+    "new": "01_San_pham/README.md",
+    "before_sha256": "5a139f89e9efaae9f1a9a855543cbf6e021cbc7195763cf32e4f85689540a50d",
+    "after_sha256": "1473db743c66d1277fcce39cdfd819b7b2ceec0ff203cb8a1b4befbddfd71f1c",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/README.md",
+    "new": "03_Kiem_thu/README.md",
+    "before_sha256": "5ae90204ca260a7b26f8cf9c36446227ab58fcbba56ebaf073c7b5340fcf7327",
+    "after_sha256": "356ea081e53ca6015bb0e084a2ccda2eb25e03a3221cd7773f712f697827c068",
+    "reason": "human navigation / repository organization documentation"
+  },
+  {
+    "old": "06_quality/gates/PHASE_1_GATE.md",
+    "new": "03_Kiem_thu/Gate/PHASE_1_GATE.md",
+    "before_sha256": "d664a4de9e59e64a2d761f1fb4b1915b9b6eb823bd21bc40b699256410616fc6",
+    "after_sha256": "9606427c0a032d2746056c257850e4b0baf10aa8be4067b323545087da268758",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/CODEX_EXECUTION_DEFECTS.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/CODEX_EXECUTION_DEFECTS.md",
+    "before_sha256": "ab3a389862b7b199d7370810d9113b473bec6b3b30cf26ff30acf39b58a54a2b",
+    "after_sha256": "34f45a55d58320c66c72a7e3244829a3c8ec8b00b55a637f0f4fe92bedcaec62",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/DEFECT_RETEST_RESULTS.csv",
+    "new": "03_Kiem_thu/QA_QC/phase2/DEFECT_RETEST_RESULTS.csv",
+    "before_sha256": "875aaf883304304e76bf634190dd2499cffe4689c8938372b28b7fd81683a7d7",
+    "after_sha256": "cbb56e78a9ad0f776436fe03237093e48973287bbee342497c68fbac5bb88537",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/PHASE_2_VERIFICATION_REPORT.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/PHASE_2_VERIFICATION_REPORT.md",
+    "before_sha256": "8abb2d02155fba64d4611451518849fb667a08f6bc63a7fc736bdce555bb486b",
+    "after_sha256": "38d42ffee40d1810d063dc6bf803a449e1e3ebac8c725e4020fd4a2b59fa0712",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/QA_TEST_CASES.csv",
+    "new": "03_Kiem_thu/QA_QC/phase2/QA_TEST_CASES.csv",
+    "before_sha256": "eddbfa1a2beda5e3564ca033710890735af4aa6c16bd58539acd93e762ac6e65",
+    "after_sha256": "6420022a1d63a7be32d7aabf9cc5996eeb3a9842b7075c26332b253e45c66c68",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/QC_REVIEW_CHECKLIST.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/QC_REVIEW_CHECKLIST.md",
+    "before_sha256": "216845fe109fedce3f3b6acadeabce70d7f8fa50706199b951750be403b3481a",
+    "after_sha256": "2b28530cce64822ff1cb555b226c1758942ee31141889b9110983c0d7358dab0",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/final_gate/2026-09-30/ANDROID_STUDIO_EMULATOR_REPAIR.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/ANDROID_STUDIO_EMULATOR_REPAIR.md",
+    "before_sha256": "0b16bd56ebdd588ac81f5256f0c937f0799c33ed5dc6d9edfbe4e75f762efc0e",
+    "after_sha256": "7ce095664b4252b8566ee30d269f3602fc301f56638f9e54c019c89078af223d",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/final_gate/2026-09-30/FINAL_GATE_INTAKE.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/FINAL_GATE_INTAKE.md",
+    "before_sha256": "f609dccae82bd6e2d90c8ff058af7d77e66674124bc5a6b10419789f1a19252b",
+    "after_sha256": "9fc749fc01e54879e0e227c7fbde645fcd237167c2f6296eaa1b8a5434e31d18",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/final_gate/2026-09-30/FINAL_GATE_OBJECTIVE_VERIFICATION.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/FINAL_GATE_OBJECTIVE_VERIFICATION.md",
+    "before_sha256": "116699c149d796cb01bbcaf46444d252ffcccc03b9b174b7c5f77524e9125818",
+    "after_sha256": "39f70bbe77a5b9036d938b70ffedfd0a93ec02e9c8ead3d4f4b86af5c3a8af7c",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/final_gate/2026-09-30/P2_D021_DECISION_PACKET.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/P2_D021_DECISION_PACKET.md",
+    "before_sha256": "e5833ff4d7f158ecf9c8689b32e6e524f30a05d2561a942078d95919afcce4bd",
+    "after_sha256": "bfb1eb29732fff62c8d45ecc1d3e388e80505e1eaffbcc813e9c68866375336d",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/final_gate/2026-09-30/P2_D022_WORKBOOK_FINDING.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/P2_D022_WORKBOOK_FINDING.md",
+    "before_sha256": "f224fd75cae33279ed012c43d073a2ecb0b2624d82ef7d1353110394772beefb",
+    "after_sha256": "202066977dff7b48412d822b11a21d504c4d00acd61ca98d728df000c8ec6e55",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/final_gate/2026-09-30/PHASE2_SCOPE_RECONCILIATION.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/PHASE2_SCOPE_RECONCILIATION.md",
+    "before_sha256": "2cfef74a36fc10d9cd29f5a3036e97c658c22eac561c2ec091322af4fffe2381",
+    "after_sha256": "fb7f4399e975a02c9a527583edc123eca9c6414f754c942c95f4038d05e07d48",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/final_gate/2026-09-30/TALKBACK_MANUAL_RUNBOOK.md",
+    "new": "03_Kiem_thu/QA_QC/phase2/final_gate/2026-09-30/TALKBACK_MANUAL_RUNBOOK.md",
+    "before_sha256": "ef6dbc2ee90c404546e8903f455495d91e4e03ede4dbd4947011da0463d012f0",
+    "after_sha256": "f0ab8ac7b41e56457855e9cadcc39c5682a201c9b221552864514c7b676abd2f",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/phase2/qa_cases.json",
+    "new": "03_Kiem_thu/QA_QC/phase2/qa_cases.json",
+    "before_sha256": "79f0d24375e7f9687fe2175a61dd97b7aa662ff2dda846cede6d06ea67c5dee3",
+    "after_sha256": "b65cf5a04ed1fc624ccb0902ef9d53e918686817519d36d4a481e3676481ac32",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/standards/DEFINITION_OF_DONE.md",
+    "new": "03_Kiem_thu/QA_QC/standards/DEFINITION_OF_DONE.md",
+    "before_sha256": "d66ab09097aa791384f5acc6f811f0dd53d1d3d02aa599ffb82b92084d4b258c",
+    "after_sha256": "40a4f20b1af382cd4cc27ed0b8a8b51fc7d5c20d4d54d9588a2b63ad5041092b",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "06_quality/standards/TEST_STRATEGY.md",
+    "new": "03_Kiem_thu/QA_QC/standards/TEST_STRATEGY.md",
+    "before_sha256": "3e5de9551df1c0926aac01300575d008c677d8307afef6c3f47aa59cda7f37e8",
+    "after_sha256": "38afb75f4e6e4a1e20bcdfcb5242a8491f6f43d73012cebb635c7c6617174b8b",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "07_operations/README.md",
+    "new": "04_Van_hanh/README.md",
+    "before_sha256": "e27ef1fced4a6a8312b75c0bd1b15fe73ba48a9da7500c5226e4ee98c3425bf5",
+    "after_sha256": "2eac7e76476df71285f2d3db05aa55324bdd1ea3d160ba62e80530314aef51fe",
+    "reason": "human navigation / repository organization documentation"
+  },
+  {
+    "old": "07_operations/docs/CI_CD.md",
+    "new": "04_Van_hanh/Trien_khai/CI_CD.md",
+    "before_sha256": "d4e2ec0a277cf6d9143db25a6b5340146e282109abcb7b3f822418a246615200",
+    "after_sha256": "b5f29c1085b38c2f49e985a5f1cffa6decc4fc18cc8cfb4b6bfbceaa6a1a78c2",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "07_operations/docs/DATABASE_BOOTSTRAP_AND_MIGRATIONS.md",
+    "new": "04_Van_hanh/Runbook/DATABASE_BOOTSTRAP_AND_MIGRATIONS.md",
+    "before_sha256": "eb0a2d497e7e9469a630e8cc47f1ea576bb1add61fe84346f64316c3d1fe638a",
+    "after_sha256": "6530d041f9a0b094f5f7395973bef098255d84266ef413bebd7b8ecb7a67afbd",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "07_operations/docs/ENVIRONMENTS.md",
+    "new": "04_Van_hanh/Cau_hinh/ENVIRONMENTS.md",
+    "before_sha256": "e27eaa6890cf200a4666934250226638e2bba00c4c661311b6330c50f8171479",
+    "after_sha256": "a20d9fc5191e88925e3d8ebd7b5691a34081fb7a7d25a0a63a3970a8e4d62056",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "07_operations/docs/LOCAL_RUNTIME.md",
+    "new": "04_Van_hanh/Runbook/LOCAL_RUNTIME.md",
+    "before_sha256": "6e9a72cf76718982981467d57750ddd946b250ef34c4d3b1dbecf63c3fb9cc48",
+    "after_sha256": "da0a26cb142d982ee7e67375299b4c4cdb7e8eaa8a41329199f94452b1e88b72",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "07_operations/docs/V3_2_VERIFICATION.md",
+    "new": "04_Van_hanh/Runbook/V3_2_VERIFICATION.md",
+    "before_sha256": "689cdccd36239e1dee808cbea6d3399e6d85acb9f2d3ee587c16fd070174c569",
+    "after_sha256": "d6683c28352a911202539dcbaff29a7b338e10089289562f14b1f084b7c579df",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "07_operations/scripts/bootstrap_clients.ps1",
+    "new": "04_Van_hanh/Scripts/bootstrap_clients.ps1",
+    "before_sha256": "d5c7561430db8d088e2c2287e5872a696567cb3d1eb9c88b011275fd34679b51",
+    "after_sha256": "2a09d66ea392a0ad936bc853145f88143c2fbca6f63e07c157b038eebaeaa31a",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/bootstrap_clients.sh",
+    "new": "04_Van_hanh/Scripts/bootstrap_clients.sh",
+    "before_sha256": "fa85ccf7faea931dfebc7f6914578ee7e8092ab5b9845953b027cd6377d456bc",
+    "after_sha256": "6b36bd3d2845f550fd46c7b5d5764600a79b72f6e452c1a00e8802b3c624c9d6",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/check_original_contracts.py",
+    "new": "04_Van_hanh/Scripts/check_original_contracts.py",
+    "before_sha256": "6e19b556fcad7f7ce15a8cb1629da2790114568581bf40020ccd3d4128c42db6",
+    "after_sha256": "4bf84679e0270f3de85ec88ee759cdb57ee5f6d8c2367c9b630ca461fa9daf73",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/clean_setup.sh",
+    "new": "04_Van_hanh/Scripts/clean_setup.sh",
+    "before_sha256": "b3404dd382947de0880f6bb705641f603c52fbebe042146cd50fa8715bc087ac",
+    "after_sha256": "169594fada6f8749984ae4468ca420f57df3754fc8a822288d5efc248f2834f5",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/run_phase2_qa.py",
+    "new": "04_Van_hanh/Scripts/run_phase2_qa.py",
+    "before_sha256": "7f3ebed60ed2cea45a3aa0a356ec9dc5e05fcc868648aae1af75f78650d3a0aa",
+    "after_sha256": "c97789413e60592131524cbbf09cebe589b4cbb209e25d9b4af193ff424943a8",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/smoke_api.py",
+    "new": "04_Van_hanh/Scripts/smoke_api.py",
+    "before_sha256": "51680c83c4d69b3b619e01f0d48f9d6b0a7ddeaeb22feeeecd0b8fd714d22e88",
+    "after_sha256": "f8684dd5443f0c1faed1fb277b67952b8b4e00b71c6e593de80b0649e8ea44c0",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_backend.ps1",
+    "new": "04_Van_hanh/Scripts/verify_backend.ps1",
+    "before_sha256": "799a4fd404502a934775117592fff7f7e0f7c3f64b825e3bd93fc9f8ea24a275",
+    "after_sha256": "3f8fd97269427b0039120efa1241422745a35fae856c31fab58cb9f0cacc6e7f",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_backend.sh",
+    "new": "04_Van_hanh/Scripts/verify_backend.sh",
+    "before_sha256": "ac61275800786be349900b359dee48d8d912a3945ad3741a564b75c7be1c04eb",
+    "after_sha256": "53831520e9c955b99bed324e8ed7bf54b6e905ba28a205883dfc7e9bbc00527e",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_flutter.ps1",
+    "new": "04_Van_hanh/Scripts/verify_flutter.ps1",
+    "before_sha256": "84e280d06a1aac54c733d9822b48c0754262a406b7aee1a3d6231a8c36a50712",
+    "after_sha256": "2c442edc5ff884e027b4145c991bd158123d89d7c4bc32a089bf4fdd046bf41e",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_phase2_artifacts.py",
+    "new": "04_Van_hanh/Scripts/verify_phase2_artifacts.py",
+    "before_sha256": "f2d5dc04d8e280d9e4a3296deb77183155861f1bf49c9b0a281a49f06e07f041",
+    "after_sha256": "9f268ae165849299d0b36d35316cdeddd7c6520f6d68f1f897658cfcd30bcba4",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_phase2_browser.cjs",
+    "new": "04_Van_hanh/Scripts/verify_phase2_browser.cjs",
+    "before_sha256": "ae08449bcc2e585c3c6953432730557383f29306d8aaf8f5aed721705faea09a",
+    "after_sha256": "dfebbf8541261711ebbda3d5ebd9464749fa649834b0ba12c66de80f1ed1194d",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_phase2_package_manifest.py",
+    "new": "04_Van_hanh/Scripts/verify_phase2_package_manifest.py",
+    "before_sha256": "f856d8d6f578748f3da4b76fa1ec5154654b325fae07f57498a55e7890420ae2",
+    "after_sha256": "6ed168bc85d2357422dacdfb1514f748dad9cf7dea053b7c681f301a794aadcb",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_phase2_review.py",
+    "new": "04_Van_hanh/Scripts/verify_phase2_review.py",
+    "before_sha256": "ca8f109b97dab4072d8e353a915517af45b4d4e8fd0fca03701d3379c21c4c91",
+    "after_sha256": "57a5d9087bec7037c9cf4a251eac237c3d425ac8114f02cc06f367b680a66405",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_phase2_rework.py",
+    "new": "04_Van_hanh/Scripts/verify_phase2_rework.py",
+    "before_sha256": "5abd6a40ee1928f9237de35902812579974e715ce6b8dc1360d85c4cfb4eeeb6",
+    "after_sha256": "cbb92603a35be8a7249f6df038cb0710669ec14ef8dda971b00161746a5bef5b",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/scripts/verify_phase2_supplemental.cjs",
+    "new": "04_Van_hanh/Scripts/verify_phase2_supplemental.cjs",
+    "before_sha256": "e844fc5cfd98750795ce9057fb38273a7ddcf99b4a35ae44fdb05083a7997048",
+    "after_sha256": "8cec26dfb9bcbf5b3152ae44effe1048b25188793f37961d984762074dd351e8",
+    "reason": "required verifier path adaptation / captured-path resolution / fresh evidence output"
+  },
+  {
+    "old": "07_operations/tests/test_original_contract_adapter.py",
+    "new": "04_Van_hanh/tests/test_original_contract_adapter.py",
+    "before_sha256": "7a548a85cf0b91944859ffd3493103128c5f2e1bcd9b8b58d3bd925470c7bca7",
+    "after_sha256": "ddfcb6862447776dab3e33176bd0e3ec8406348dce9f790a2511624c5a8534c7",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/PHASE1_CLOSURE_20260926.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/PHASE1_CLOSURE_20260926.md",
+    "before_sha256": "fb6967ab3a262165a28ff5c7d28d5f67176a488bdc997cc96e728a0c50a125ff",
+    "after_sha256": "19bada962fae28c7008f7e0edba67fb23277cec99bdbdbfb339e6ab1383fc61e",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/README.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/README.md",
+    "before_sha256": "04a7b15a7ba8cc90722859d23a73902a7ad7c9f5d8956f7ef830bab2d138ecc7",
+    "after_sha256": "71a8499eba488d4000f1f9960237e8ed2edbdb2990f158649d3979caa6e5386c",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/RELEASE_CHECK.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/RELEASE_CHECK.md",
+    "before_sha256": "4d0106cd0ce6cb9ea6e6012cf5b2a7c0cf2ac2febd1fbffe4adc7bd5ea6be4e0",
+    "after_sha256": "4b74f8408a03dd1cfd2bf25b2eda0bba0bf7e7c468efdef4f4014fe651932487",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/RELEASE_CHECK_20260926.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/RELEASE_CHECK_20260926.md",
+    "before_sha256": "11efb65090bd0ef9df5b91b1de76052a18ae8006b191cd0d08b8bd18d6831830",
+    "after_sha256": "4e1c0aedc12294aef81267e50addc61a8d26b9b841eee67cf8aa0cb71ce9677c",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/CODEX_EXECUTION_HANDOFF.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_EXECUTION_HANDOFF.md",
+    "before_sha256": "195d604ea63bfd8d28263627e6b538ffbe4968766752eecb9a6105e9eab5b135",
+    "after_sha256": "18493a13e08090bafa1f345622033b7b356efd0345d00c0e233bb7e5d44d76d5",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/CODEX_START_HERE.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_START_HERE.md",
+    "before_sha256": "c5ed6f7136928f55ecdfe8fe1c706f4f8c43a4a2a9b03e885b9b9b6a039beec1",
+    "after_sha256": "130e8dc1cba347a72beba980e1a8bf6c449499822af243204a32a21893fdbf5e",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/CODEX_SUPER_PROMPT.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/CODEX_SUPER_PROMPT.md",
+    "before_sha256": "e0f86cc39e3aa74d7bf83a11d8df3ff93c140903595c56a1646cf0a084c2ba1e",
+    "after_sha256": "497550ba233ad2ae93be3f6f1856c52778cc325124ec960fa465d6d1da32cf67",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/HANDOFF_INDEX.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/HANDOFF_INDEX.md",
+    "before_sha256": "847c703b95996052dbfbd4b0d765b8c3a27b58e8f60459ed18342feac11e32ca",
+    "after_sha256": "535a1919b29792b300a91e21bfd8ebb7dd98f442fd45807142275f56e32401ed",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/PHASE2_QA_HANDOFF.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/PHASE2_QA_HANDOFF.md",
+    "before_sha256": "7af308b7fe1c64b4fedd45fa2e140497843e44cbedff37623e5e325ec14f4b55",
+    "after_sha256": "65dcfea1c92973e59190bb1612dbd5ccd64b89fdf67b490cf7b8a0f8684c790c",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/QA_EXECUTION_PLAN.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_EXECUTION_PLAN.md",
+    "before_sha256": "ae3ee0503cb3b54767e61ac25e3a57e8a8ae41e767973e7750b59e81ee92c437",
+    "after_sha256": "73072b5769054693a5f58f1a027e738be8674c130d16a7138daf1a828c686dff",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/QA_QC_RETEST_PROMPT.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_QC_RETEST_PROMPT.md",
+    "before_sha256": "9a417570a5b6813dbf2528c65be07d225d6d4538dd1d1654fa84ceb9e9ac90e1",
+    "after_sha256": "26d377bac949d9869d9754d31e59a10719abb834eb89a98e47ddb19de3799489",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/QA_RETEST_HANDOFF.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_RETEST_HANDOFF.md",
+    "before_sha256": "378121157583b40be457471ab40c2e4c41f76df30230e2eecd359aa8e76adab8",
+    "after_sha256": "70381218b6a598fd6ab5c0d981824e44c9e56cac66699f9ddef128e75d2e14c6",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/QA_RETEST_HANDOFF_TEMPLATE.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/QA_RETEST_HANDOFF_TEMPLATE.md",
+    "before_sha256": "059b503f8b0aa0a7c99aea5342a4e091dfaf7e9a16ae8664e956640ba350564a",
+    "after_sha256": "edf7083a05940a30a6d3103640d4cdd3ebaad639c016f9e47bde814d5fd178f8",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "08_handoff/phase2/REWORK_R1_PACKAGE_README.md",
+    "new": "02_Tai_lieu_du_an/08_Ban_giao/phase2/REWORK_R1_PACKAGE_README.md",
+    "before_sha256": "34e583f4ebf5f9d75a4c21689a2a10b30ce426728478d970028cafee185f020e",
+    "after_sha256": "3f7157a13c39e4955037d71065bd0afc1c368a3cdb0ecfd9ef4f043e698cdfe5",
+    "reason": "path references / relative navigation only"
+  },
+  {
+    "old": "PROJECT_MAP.md",
+    "new": "PROJECT_MAP.md",
+    "before_sha256": "aa66e26256be807f2235ea15f924ab1c64313ae900bea5364b8709c02baa7952",
+    "after_sha256": "1319ad6509fdace4608237ac79e3931e992fc646e98a38d3ecb6c116c100c2f4",
+    "reason": "human navigation / repository organization documentation"
+  },
+  {
+    "old": "README.md",
+    "new": "README.md",
+    "before_sha256": "44d492409aa30576411dbec951f312c21eab9853f5fc4548f7afe4e3efb2bceb",
+    "after_sha256": "053cedb96c6f91f7800a5014e24a5e4755980c39be2d0beee9284d8e68f81398",
+    "reason": "human navigation / repository organization documentation"
+  },
+  {
+    "old": "REPO_RULES.md",
+    "new": "REPO_RULES.md",
+    "before_sha256": "a4e168d10287abff593f596255cde47e8f8e8597bd18d439ee05adac91dc6f04",
+    "after_sha256": "abd4418e1e4534c32f51e3d1c353f95459b54554b62ce314e1b8f40312650524",
+    "reason": "human navigation / repository organization documentation"
+  },
+  {
+    "old": "START_HERE.md",
+    "new": "START_HERE.md",
+    "before_sha256": "6d1efc01885c89105dfb9c92c4368462e018d8c21fce91e17176cb6a8791dd80",
+    "after_sha256": "2bf7eabb9f7c3bcc899a887597dc6787ebfee8a14f242b4ca22063e08289fe50",
+    "reason": "human navigation / repository organization documentation"
+  }
+]

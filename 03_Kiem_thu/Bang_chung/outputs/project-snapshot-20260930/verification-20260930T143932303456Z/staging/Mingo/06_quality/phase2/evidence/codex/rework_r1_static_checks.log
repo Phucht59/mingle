@@ -1,0 +1,32 @@
+python 07_operations/scripts/verify_phase2_rework.py
+exit=0
+{
+  "status": "PASS",
+  "screens": 57,
+  "components": 18,
+  "qa_cases": 94,
+  "traceability_rows": 166,
+  "rework_static_checks": {
+    "data-driven correct answer": true,
+    "blank submit validation": true,
+    "persistent assisted state": true,
+    "network not sync ack": true,
+    "bounded retry": true,
+    "offline recovery states": true,
+    "onboarding executable": true,
+    "listening executable": true,
+    "staff publication executable": true,
+    "accessible labels": true,
+    "complex interaction contracts": true,
+    "screen state traceability": true,
+    "locked preview handler": true,
+    "targeted live region": true,
+    "focus token consumed": true,
+    "grammar executable": true
+  },
+  "errors": []
+}
+
+node --check 02_product/ux_ui/phase2/prototype/app.js
+exit=0
+

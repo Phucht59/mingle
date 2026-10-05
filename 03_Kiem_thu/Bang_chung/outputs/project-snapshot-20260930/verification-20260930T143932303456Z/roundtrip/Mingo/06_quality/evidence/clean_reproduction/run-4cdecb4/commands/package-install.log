@@ -1,0 +1,22 @@
+UTC: 2026-09-26T15:06:50.720859+00:00
+Command: C:\Mingo\.local\clean-reproduction-20260926\.venv\Scripts\python.exe -m pip install --no-deps ./05_code/backend
+Processing c:\mingo\.local\clean-reproduction-20260926\05_code\backend
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: adaptive-learning-foundation
+  Building wheel for adaptive-learning-foundation (pyproject.toml): started
+  Building wheel for adaptive-learning-foundation (pyproject.toml): finished with status 'done'
+  Created wheel for adaptive-learning-foundation: filename=adaptive_learning_foundation-0.1.0-py3-none-any.whl size=9445 sha256=6f0d8cc12d9fa1e775cd9edf720110b2a11cca942a76413607708200f548685d
+  Stored in directory: C:\Mingo\.local\clean-reproduction-20260926\.local\java-tmp\pip-ephem-wheel-cache-kt8fjy_g\wheels\3f\fe\14\098b2463c6de90038290a71cc681ef80c3f25c608f45983b02
+Successfully built adaptive-learning-foundation
+Installing collected packages: adaptive-learning-foundation
+Successfully installed adaptive-learning-foundation-0.1.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: C:\Mingo\.local\clean-reproduction-20260926\.venv\Scripts\python.exe -m pip install --upgrade pip
+
+Exit code: 0

@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "cwd": "C:\\Mingo",
+  "exact_command": "C:\\Mingo\\.venv\\Scripts\\python.exe -m pytest 01_San_pham/backend/tests -q -p no:cacheprovider --junitxml=C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\backend.xml",
+  "start_utc": "2026-10-05T03:12:02.902296+00:00",
+  "end_utc": "2026-10-05T03:12:08.964698+00:00",
+  "exit_code": 0,
+  "status": "EXECUTED",
+  "log": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\backend.log",
+  "generated_artifacts": [
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\backend.xml",
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\backend_summary.json"
+  ],
+  "result": "PASS",
+  "boundary": "Existing checks; no runtime/product/customer gate inferred",
+  "passed": 9,
+  "failed": 0,
+  "skipped": 7,
+  "limitation": "API/worker foundation; native DB tests skipped when test DSN unavailable"
+}

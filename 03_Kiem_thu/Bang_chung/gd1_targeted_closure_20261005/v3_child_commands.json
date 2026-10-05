@@ -1,0 +1,23 @@
+[
+  {
+    "command": "\"C:\\Program Files\\nodejs\\npm.cmd\" ci --ignore-scripts --no-audit --no-fund",
+    "cwd": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_work\\20261005T031200415707Z",
+    "start_utc": "2026-10-05T03:12:00.815789+00:00",
+    "end_utc": "2026-10-05T03:12:15.168997+00:00",
+    "exit_code": 0
+  },
+  {
+    "command": "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe -X utf8 validators/run_checks.py",
+    "cwd": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_work\\20261005T031200415707Z",
+    "start_utc": "2026-10-05T03:12:15.168997+00:00",
+    "end_utc": "2026-10-05T03:12:17.420905+00:00",
+    "exit_code": 0
+  },
+  {
+    "command": "\"C:\\Program Files\\nodejs\\node.EXE\" tests/check_sql.mjs",
+    "cwd": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_work\\20261005T031200415707Z",
+    "start_utc": "2026-10-05T03:12:17.422350+00:00",
+    "end_utc": "2026-10-05T03:12:20.373316+00:00",
+    "exit_code": 0
+  }
+]

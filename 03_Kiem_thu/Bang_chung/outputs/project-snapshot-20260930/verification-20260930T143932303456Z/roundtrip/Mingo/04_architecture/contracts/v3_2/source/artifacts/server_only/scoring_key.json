@@ -1,0 +1,15 @@
+{
+  "activity_revision_id": "10000000-0000-4000-8000-000000000011",
+  "scoring_version_id": "10000000-0000-4000-8000-000000000014",
+  "policy_version": "completion_policy_v1",
+  "keys": [
+    {
+      "question_revision_id": "10000000-0000-4000-8000-000000000012",
+      "correct_option_id": "B"
+    },
+    {
+      "question_revision_id": "10000000-0000-4000-8000-000000000013",
+      "correct_option_id": "A"
+    }
+  ]
+}

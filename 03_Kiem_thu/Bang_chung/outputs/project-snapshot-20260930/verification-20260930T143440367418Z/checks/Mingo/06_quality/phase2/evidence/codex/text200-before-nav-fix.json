@@ -1,0 +1,370 @@
+{
+  "browser": "153.0.8010.53",
+  "results": [
+    {
+      "name": "text200-320-Home",
+      "status": "FAIL",
+      "error": "Clipped actions [{\"name\":\"Profile\",\"reason\":\"ancestor clipping\"}]"
+    },
+    {
+      "name": "text200-320-Learn",
+      "status": "FAIL",
+      "error": "Clipped actions [{\"name\":\"Profile\",\"reason\":\"ancestor clipping\"}]"
+    },
+    {
+      "name": "text200-320-Course",
+      "status": "FAIL",
+      "error": "Clipped actions [{\"name\":\"Profile\",\"reason\":\"ancestor clipping\"}]"
+    },
+    {
+      "name": "text200-320-Profile",
+      "status": "FAIL",
+      "error": "Clipped actions [{\"name\":\"Profile\",\"reason\":\"ancestor clipping\"}]"
+    },
+    {
+      "name": "text200-360-Home",
+      "status": "PASS",
+      "detail": {
+        "width": 360,
+        "scroll": 360,
+        "phone": 360
+      }
+    },
+    {
+      "name": "text200-360-Learn",
+      "status": "PASS",
+      "detail": {
+        "width": 360,
+        "scroll": 360,
+        "phone": 360
+      }
+    },
+    {
+      "name": "text200-360-Course",
+      "status": "PASS",
+      "detail": {
+        "width": 360,
+        "scroll": 360,
+        "phone": 360
+      }
+    },
+    {
+      "name": "text200-360-Profile",
+      "status": "PASS",
+      "detail": {
+        "width": 360,
+        "scroll": 360,
+        "phone": 360
+      }
+    },
+    {
+      "name": "text200-412-Home",
+      "status": "PASS",
+      "detail": {
+        "width": 412,
+        "scroll": 412,
+        "phone": 412
+      }
+    },
+    {
+      "name": "text200-412-Learn",
+      "status": "PASS",
+      "detail": {
+        "width": 412,
+        "scroll": 412,
+        "phone": 412
+      }
+    },
+    {
+      "name": "text200-412-Course",
+      "status": "PASS",
+      "detail": {
+        "width": 412,
+        "scroll": 412,
+        "phone": 412
+      }
+    },
+    {
+      "name": "text200-412-Profile",
+      "status": "PASS",
+      "detail": {
+        "width": 412,
+        "scroll": 412,
+        "phone": 412
+      }
+    },
+    {
+      "name": "text200-480-Home",
+      "status": "PASS",
+      "detail": {
+        "width": 480,
+        "scroll": 480,
+        "phone": 420
+      }
+    },
+    {
+      "name": "text200-480-Learn",
+      "status": "PASS",
+      "detail": {
+        "width": 480,
+        "scroll": 480,
+        "phone": 420
+      }
+    },
+    {
+      "name": "text200-480-Course",
+      "status": "PASS",
+      "detail": {
+        "width": 480,
+        "scroll": 480,
+        "phone": 420
+      }
+    },
+    {
+      "name": "text200-480-Profile",
+      "status": "PASS",
+      "detail": {
+        "width": 480,
+        "scroll": 480,
+        "phone": 420
+      }
+    },
+    {
+      "name": "staff-text200-1024",
+      "status": "PASS",
+      "detail": {
+        "width": 1024,
+        "scroll": 1024,
+        "fields": [
+          {
+            "w": 716,
+            "right": 994
+          },
+          {
+            "w": 716,
+            "right": 994
+          },
+          {
+            "w": 716,
+            "right": 994
+          },
+          {
+            "w": 716,
+            "right": 994
+          }
+        ]
+      }
+    },
+    {
+      "name": "staff-text200-1440",
+      "status": "PASS",
+      "detail": {
+        "width": 1440,
+        "scroll": 1440,
+        "fields": [
+          {
+            "w": 1132,
+            "right": 1410
+          },
+          {
+            "w": 1132,
+            "right": 1410
+          },
+          {
+            "w": 1132,
+            "right": 1410
+          },
+          {
+            "w": 1132,
+            "right": 1410
+          }
+        ]
+      }
+    },
+    {
+      "name": "placement-media-unavailable",
+      "status": "PASS",
+      "detail": "Explicit Listening skip -> provisional result, no fabricated listening evidence"
+    },
+    {
+      "name": "practice-media-skip",
+      "status": "PASS",
+      "detail": "Missing media practice skip recorded with explicit Continue"
+    },
+    {
+      "name": "learner-accessibility-tree",
+      "status": "PASS",
+      "detail": [
+        {
+          "role": "button",
+          "name": "Learner"
+        },
+        {
+          "role": "button",
+          "name": "Staff"
+        },
+        {
+          "role": "button",
+          "name": "No recommendation"
+        },
+        {
+          "role": "button",
+          "name": "Nothing due"
+        },
+        {
+          "role": "button",
+          "name": "Recommendations available"
+        },
+        {
+          "role": "button",
+          "name": "First-use demo"
+        },
+        {
+          "role": "button",
+          "name": "Simulate offline"
+        },
+        {
+          "role": "button",
+          "name": "Hello"
+        },
+        {
+          "role": "button",
+          "name": "Thanks"
+        },
+        {
+          "role": "button",
+          "name": "Goodbye"
+        },
+        {
+          "role": "button",
+          "name": "Submit"
+        },
+        {
+          "role": "button",
+          "name": "Skip for now"
+        }
+      ]
+    },
+    {
+      "name": "answer-key-vocabulary-0",
+      "status": "PASS",
+      "detail": {
+        "first": "good",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "correct",
+        "final": true
+      }
+    },
+    {
+      "name": "answer-key-vocabulary-1",
+      "status": "PASS",
+      "detail": {
+        "first": "go",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "incorrect",
+        "final": false
+      }
+    },
+    {
+      "name": "answer-key-vocabulary-2",
+      "status": "PASS",
+      "detail": {
+        "first": "blue",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "incorrect",
+        "final": false
+      }
+    },
+    {
+      "name": "answer-key-grammar-0",
+      "status": "PASS",
+      "detail": {
+        "first": "is",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "correct",
+        "final": true
+      }
+    },
+    {
+      "name": "answer-key-grammar-1",
+      "status": "PASS",
+      "detail": {
+        "first": "are",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "incorrect",
+        "final": false
+      }
+    },
+    {
+      "name": "answer-key-grammar-2",
+      "status": "PASS",
+      "detail": {
+        "first": "am",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "incorrect",
+        "final": false
+      }
+    },
+    {
+      "name": "answer-key-listening-0",
+      "status": "PASS",
+      "detail": {
+        "first": "good",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "correct",
+        "final": true
+      }
+    },
+    {
+      "name": "answer-key-listening-1",
+      "status": "PASS",
+      "detail": {
+        "first": "blue",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "incorrect",
+        "final": false
+      }
+    },
+    {
+      "name": "answer-key-listening-2",
+      "status": "PASS",
+      "detail": {
+        "first": "table",
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": "incorrect",
+        "final": false
+      }
+    }
+  ],
+  "assistive_technology": {
+    "status": "BLOCKED",
+    "reason": "This run uses headless Chromium and its native accessibility tree. No interactive screen-reader/TalkBack speech session is available through the enabled browser-only automation surface. AX names/focus checks do not establish speech output."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "QC-008",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "review": "Read learner microcopy, actual browser result/summary/profile evidence and guards. Qualitative sample labels are mock data; no precise mastery/CEFR/diagnostic claims.",
+    "microcopy": "# Content and Microcopy Guide\n\n## Voice\n\nShort, calm, factual and supportive. Avoid patronizing, diagnostic or over-celebratory language.\n\n## Evidence language\n\nPrefer: “You recalled this without a hint”, “More evidence needed”, “Due for review”, “You practiced…”. Avoid: “You have mastered 83%”, “You are bad at listening”, “AI detected you are losing motivation”, unless a later validated product explicitly supports such claim and governance approves the wording.\n\n## Practice vs Check\n\nPractice: “Try it”, “Need a hint?”, “Try once more.”  \nCheck: “Check — see what you remember.” No pre-submit hint.\n\n## Retry\n\nAfter wrong first response: “Not quite. Here’s why… Try once more.” After successful retry: “Nice recovery. We’ll keep reviewing this.” Do not say “Correct on your first try.”\n\n## Skip\n\n“Skip for now” / “We’ll come back to this later.” Never shame; never award completion simply for skipping.\n\n## Recommendation reason examples\n\n- Due for review.\n- Continue your current objective.\n- Review a prerequisite first.\n- Practice a different example after a recent error.\n- Try the same idea in a different format.\n- Optional challenge.\n\n## Offline/sync\n\n- Offline: “You’re offline. Available lessons still work.”\n- Queued: “Saved on this device. Waiting to sync.”\n- Synced: “Synced.”\n- Failure: “We couldn’t sync yet. Your saved work is still on this device.”\n\nNever say “Progress saved to your account” before server acceptance is known.\n\n## Content staff\n\nUse explicit revision language: “Publish new revision”, “Published revisions can’t be edited”, “Create a new draft from this revision.” License blockers must say exactly what is missing.\n"
+  },
+  "sources": [
+    "10_CONTENT_MICROCOPY_GUIDE.md",
+    "prototype/app.js"
+  ],
+  "time": "2026-10-01T16:14:46.440542+00:00"
+}

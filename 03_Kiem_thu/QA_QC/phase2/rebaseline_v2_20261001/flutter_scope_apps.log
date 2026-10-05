@@ -1,0 +1,167 @@
+Flutter 3.32.8 • channel [user-branch] • unknown source
+Framework • revision edada7c56e (1 year, 2 months ago) • 2025-07-25 14:08:03 +0000
+Engine • revision ef0cd00091 (1 year, 2 months ago) • 1970-01-01 07:00:00.000
+Tools • Dart 3.8.1 • DevTools 2.45.1
+[!] Flutter (Channel [user-branch], 3.32.8, on Microsoft Windows [Version 10.0.26200.9550], locale vi-VN) [1.388ms]
+    ! Flutter version 3.32.8 on channel [user-branch] at C:\Dev\flutter-3.32.8
+      Currently on an unknown channel. Run `flutter channel` to switch to an official channel.
+      If that doesn't fix the issue, reinstall Flutter by following instructions at https://flutter.dev/setup.
+    ! Upstream repository unknown source is not a standard remote.
+      Set environment variable "FLUTTER_GIT_URL" to unknown source to dismiss this error.
+    • Framework revision edada7c56e (1 year, 2 months ago), 2025-07-25 14:08:03 +0000
+    • Engine revision ef0cd00091
+    • Dart version 3.8.1
+    • DevTools version 2.45.1
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+
+[√] Windows Version (Windows 11 or higher, 25H2, 2009) [2,5s]
+
+[√] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [5,0s]
+    • Android SDK at C:\Users\Phúc\AppData\Local\Android\Sdk
+    • Platform android-37.0, build-tools 36.0.0
+    • ANDROID_HOME = C:\Android\Sdk
+    • Java binary at: C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot\bin\java
+      This JDK is specified in your Flutter configuration.
+      To change the current JDK, run: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment Microsoft-14940689 (build 17.0.20.1+1-LTS)
+    • All Android licenses accepted.
+
+[√] Chrome - develop for the web [508ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[!] Visual Studio - develop Windows apps (SQL Server Management Studio 22 22.9.2) [506ms]
+    • Visual Studio at C:\Program Files\Microsoft SQL Server Management Studio 22\Release
+    • SQL Server Management Studio 22 version 22.9.12120.119
+    X Visual Studio is missing necessary components. Please re-run the Visual Studio installer for the "Desktop development with C++" workload, and include these components:
+        MSVC v142 - VS 2019 C++ x64/x86 build tools
+         - If there are multiple build tool versions available, install the latest
+        C++ CMake tools for Windows
+        Windows 10 SDK
+
+[√] Android Studio (version 2026.1.4) [26ms]
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+       https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+       https://plugins.jetbrains.com/plugin/6351-dart
+    • android-studio-dir = C:\Program Files\Android\Android Studio
+    • Java version openjdk version "25.0.3" 2026-04-21
+
+[√] VS Code (version unknown) [24ms]
+    • VS Code at C:\Users\Phúc\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension can be installed from:
+       https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+    X Unable to determine VS Code version.
+
+[√] Connected device (4 available) [567ms]
+    • sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 15 (API 35) (emulator)
+    • Windows (desktop)            • windows       • windows-x64    • Microsoft Windows [Version 10.0.26200.9550]
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 154.0.8037.58
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 154.0.4258.37
+
+[√] Network resources [1.367ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.
+Resolving dependencies...
+Downloading packages...
+  async 2.13.0 (2.13.1 available)
+  audioplayers 6.5.1 (6.8.1 available)
+  audioplayers_android 5.2.1 (5.3.0 available)
+  audioplayers_darwin 6.4.0 (6.5.0 available)
+  audioplayers_linux 4.2.1 (4.3.0 available)
+  audioplayers_platform_interface 7.1.1 (7.2.0 available)
+  audioplayers_web 5.2.0 (5.3.0 available)
+  audioplayers_windows 4.3.0 (4.4.1 available)
+  characters 1.4.0 (1.4.1 available)
+  clock 1.1.2 (1.1.3 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  leak_tracker 10.0.9 (11.0.2 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.1 available)
+  meta 1.16.0 (1.19.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_android 2.2.19 (2.3.1 available)
+  path_provider_foundation 2.4.2 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  platform 3.1.6 (3.2.0 available)
+  process 5.0.3 (5.0.6 available)
+  source_span 1.10.1 (1.10.2 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  synchronized 3.4.0 (3.4.2 available)
+  test_api 0.7.4 (0.7.14 available)
+  vector_math 2.1.4 (2.4.3 available)
+  vm_service 15.0.0 (15.3.0 available)
+  webdriver 3.1.0 (3.2.0 available)
+Got dependencies!
+32 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing learner...                                            
+No issues found! (ran in 12.4s)
+00:00 +0: loading C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart
+00:00 +0: V2 entry discloses review fixture and renders without overflow
+00:01 +1: All tests passed!
+Support for Android x86 targets will be removed in the next stable release after 3.27. See https://github.com/flutter/flutter/issues/157543 for details.
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:\Mingo\.local\java-tmp
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version:
+- audioplayers_android requires Android NDK 27.0.12077973
+- path_provider_android requires Android NDK 27.0.12077973
+Fix this issue by using the highest Android NDK version (they are backward compatible).
+Add the following to C:\Mingo\01_San_pham\apps\learner\android\app\build.gradle.kts:
+
+    android {
+        ndkVersion = "27.0.12077973"
+        ...
+    }
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Running Gradle task 'assembleDebug'...                             36,5s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Resolving dependencies...
+Downloading packages...
+  async 2.13.0 (2.13.1 available)
+  audioplayers 6.5.1 (6.8.1 available)
+  audioplayers_android 5.2.1 (5.3.0 available)
+  audioplayers_darwin 6.4.0 (6.5.0 available)
+  audioplayers_linux 4.2.1 (4.3.0 available)
+  audioplayers_platform_interface 7.1.1 (7.2.0 available)
+  audioplayers_web 5.2.0 (5.3.0 available)
+  audioplayers_windows 4.3.0 (4.4.1 available)
+  characters 1.4.0 (1.4.1 available)
+  clock 1.1.2 (1.1.3 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  leak_tracker 10.0.9 (11.0.2 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.1 available)
+  meta 1.16.0 (1.19.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_android 2.2.19 (2.3.1 available)
+  path_provider_foundation 2.4.2 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  platform 3.1.6 (3.2.0 available)
+  process 5.0.3 (5.0.6 available)
+  source_span 1.10.1 (1.10.2 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  synchronized 3.4.0 (3.4.2 available)
+  test_api 0.7.4 (0.7.14 available)
+  vector_math 2.1.4 (2.4.3 available)
+  vm_service 15.0.0 (15.3.0 available)
+  webdriver 3.1.0 (3.2.0 available)
+Got dependencies!
+32 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing staff...                                              
+No issues found! (ran in 10.0s)
+00:00 +0: loading C:/Mingo/01_San_pham/apps/staff/test/widget_test.dart
+00:00 +0: V2 entry discloses review fixture and renders without overflow
+00:01 +1: All tests passed!
+Compiling lib\main.dart for the Web...                             24,1s
+√ Built build\web

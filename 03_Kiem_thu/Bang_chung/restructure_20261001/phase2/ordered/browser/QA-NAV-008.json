@@ -1,0 +1,46 @@
+{
+  "id": "QA-NAV-008",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T14:50:45.730Z",
+  "ended": "2026-10-01T14:50:45.926Z",
+  "expected": "Publishing states are within Content lifecycle, not separate top-level product domain.",
+  "steps": [
+    "Click: Staff",
+    "Click: Content"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nCONTENT\nContent library\nCreate draft\nReview queue\nItem\tStatus\tRevision\t\nBasic greetings\tDraft\tDraft 4\tEdit\nIntroductions\tPublished\tRevision 3\tView",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "content",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

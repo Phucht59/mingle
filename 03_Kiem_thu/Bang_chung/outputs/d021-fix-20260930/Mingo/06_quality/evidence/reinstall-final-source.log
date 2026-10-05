@@ -1,0 +1,19 @@
+Processing ./adaptive-learning/backend
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: adaptive-learning-foundation
+  Building wheel for adaptive-learning-foundation (pyproject.toml): started
+  Building wheel for adaptive-learning-foundation (pyproject.toml): finished with status 'done'
+  Created wheel for adaptive-learning-foundation: filename=adaptive_learning_foundation-0.1.0-py3-none-any.whl size=9213 sha256=b962d8e60e1cd45d4489b909239b0a201e132543a74279e257777fd21bb5a9b8
+  Stored in directory: /tmp/pip-ephem-wheel-cache-3mjacd79/wheels/24/29/94/7397ddabdcbd5a12daff193bd1628c2046d3619774ae438b99
+Successfully built adaptive-learning-foundation
+Installing collected packages: adaptive-learning-foundation
+  Attempting uninstall: adaptive-learning-foundation
+    Found existing installation: adaptive-learning-foundation 0.1.0
+    Uninstalling adaptive-learning-foundation-0.1.0:
+      Successfully uninstalled adaptive-learning-foundation-0.1.0
+Successfully installed adaptive-learning-foundation-0.1.0

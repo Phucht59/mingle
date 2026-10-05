@@ -1,0 +1,726 @@
+[
+  {
+    "id": "L-001",
+    "route": "/launch",
+    "title": "Mở Mingo",
+    "states": [
+      "Loading",
+      "error",
+      "offline bootstrap"
+    ],
+    "source_name": "Launch",
+    "role": "learner"
+  },
+  {
+    "id": "L-002",
+    "route": "/welcome",
+    "title": "Chào bạn",
+    "states": [
+      "Default",
+      "loading"
+    ],
+    "source_name": "Welcome",
+    "role": "learner"
+  },
+  {
+    "id": "L-003",
+    "route": "/onboarding/goal",
+    "title": "Bạn muốn học để làm gì?",
+    "states": [
+      "Default",
+      "selected",
+      "error"
+    ],
+    "source_name": "Goal",
+    "role": "learner"
+  },
+  {
+    "id": "L-004",
+    "route": "/onboarding/placement",
+    "title": "Chọn điểm bắt đầu",
+    "states": [
+      "Default",
+      "unavailable"
+    ],
+    "source_name": "Placement Offer",
+    "role": "learner"
+  },
+  {
+    "id": "L-005",
+    "route": "/placement/:step",
+    "title": "Thử một câu ngắn",
+    "states": [
+      "Ready",
+      "selected",
+      "validation-error",
+      "submitting",
+      "result",
+      "skipped-domain",
+      "audio-unavailable"
+    ],
+    "source_name": "Placement Question",
+    "role": "learner"
+  },
+  {
+    "id": "L-006",
+    "route": "/placement/result",
+    "title": "Điểm bắt đầu của bạn",
+    "states": [
+      "Complete",
+      "insufficient-evidence"
+    ],
+    "source_name": "Placement Result",
+    "role": "learner"
+  },
+  {
+    "id": "L-010",
+    "route": "/home",
+    "title": "Chào bạn!",
+    "states": [
+      "Online",
+      "offline",
+      "syncing",
+      "nothing-due",
+      "recommendation-unavailable"
+    ],
+    "source_name": "Home",
+    "role": "learner"
+  },
+  {
+    "id": "L-011",
+    "route": "/home?offline=1",
+    "title": "Học khi không có mạng",
+    "states": [
+      "Offline",
+      "queued"
+    ],
+    "source_name": "Home Offline",
+    "role": "learner"
+  },
+  {
+    "id": "L-012",
+    "route": "/home?syncing=1",
+    "title": "Đang gửi bài đã lưu",
+    "states": [
+      "Syncing",
+      "partial"
+    ],
+    "source_name": "Home Syncing",
+    "role": "learner"
+  },
+  {
+    "id": "L-020",
+    "route": "/learn",
+    "title": "Khám phá bài học",
+    "states": [
+      "Ready",
+      "resume",
+      "content-gap"
+    ],
+    "source_name": "Learn Hub",
+    "role": "learner"
+  },
+  {
+    "id": "L-021",
+    "route": "/learn/cycle/intro",
+    "title": "Chào hỏi và làm quen",
+    "states": [
+      "Ready",
+      "offline-capable",
+      "content-unavailable"
+    ],
+    "source_name": "Cycle Intro",
+    "role": "learner"
+  },
+  {
+    "id": "L-022",
+    "route": "/learn/cycle/review",
+    "title": "Nhớ lại một chút",
+    "states": [
+      "Ready",
+      "selected",
+      "validation-error",
+      "submitted-result",
+      "skipped"
+    ],
+    "source_name": "Review Item",
+    "role": "learner"
+  },
+  {
+    "id": "L-023",
+    "route": "/learn/cycle/learn",
+    "title": "Một cách chào mới",
+    "states": [
+      "Ready",
+      "audio-loading",
+      "audio-unavailable"
+    ],
+    "source_name": "Learn Content",
+    "role": "learner"
+  },
+  {
+    "id": "L-024",
+    "route": "/learn/cycle/retrieve",
+    "title": "Thử tự nhớ",
+    "states": [
+      "Ready",
+      "selected",
+      "hinted",
+      "submitted-result",
+      "retry-available",
+      "retry-exhausted",
+      "skipped"
+    ],
+    "source_name": "Retrieve Item",
+    "role": "learner"
+  },
+  {
+    "id": "L-025",
+    "route": "/learn/cycle/transfer",
+    "title": "Dùng trong tình huống mới",
+    "states": [
+      "Ready",
+      "selected",
+      "validation-error",
+      "submitted-result",
+      "skipped"
+    ],
+    "source_name": "Transfer Item",
+    "role": "learner"
+  },
+  {
+    "id": "L-026",
+    "route": "/learn/cycle/check-intro",
+    "title": "Thử không cần gợi ý",
+    "states": [
+      "Ready"
+    ],
+    "source_name": "Check Intro",
+    "role": "learner"
+  },
+  {
+    "id": "L-027",
+    "route": "/learn/cycle/check",
+    "title": "Chọn lời chào phù hợp",
+    "states": [
+      "Ready",
+      "selected",
+      "validation-error",
+      "submitting",
+      "result",
+      "audio-ready",
+      "audio-unavailable",
+      "play-limit-reached"
+    ],
+    "source_name": "Check Item",
+    "role": "learner"
+  },
+  {
+    "id": "L-028",
+    "route": "/learn/feedback/correct",
+    "title": "Bạn đã tìm ra rồi",
+    "states": [
+      "Default"
+    ],
+    "source_name": "Correct Feedback",
+    "role": "learner"
+  },
+  {
+    "id": "L-029",
+    "route": "/learn/feedback/retry",
+    "title": "Thử thêm một lần",
+    "states": [
+      "Retry available",
+      "retry used",
+      "retry exhausted"
+    ],
+    "source_name": "Incorrect / Retry Feedback",
+    "role": "learner"
+  },
+  {
+    "id": "L-030",
+    "route": "/learn/hint",
+    "title": "Một gợi ý nhỏ",
+    "states": [
+      "Default",
+      "unavailable"
+    ],
+    "source_name": "Hint Panel",
+    "role": "learner"
+  },
+  {
+    "id": "L-031",
+    "route": "/learn/skip",
+    "title": "Bạn có thể quay lại",
+    "states": [
+      "Default"
+    ],
+    "source_name": "Skip Confirmation",
+    "role": "learner"
+  },
+  {
+    "id": "L-032",
+    "route": "/learn/cycle/summary",
+    "title": "Những gì bạn vừa luyện",
+    "states": [
+      "Complete",
+      "partial",
+      "sync-queued"
+    ],
+    "source_name": "Cycle Summary",
+    "role": "learner"
+  },
+  {
+    "id": "L-033",
+    "route": "/learn/resume",
+    "title": "Tiếp tục từ đây",
+    "states": [
+      "Resume",
+      "stale-content refresh"
+    ],
+    "source_name": "Resume Cycle",
+    "role": "learner"
+  },
+  {
+    "id": "L-040",
+    "route": "/course",
+    "title": "Lộ trình của bạn",
+    "states": [
+      "Open",
+      "due-review",
+      "locked",
+      "empty"
+    ],
+    "source_name": "Course Map",
+    "role": "learner"
+  },
+  {
+    "id": "L-041",
+    "route": "/course/objective/:id",
+    "title": "Chào hỏi cơ bản",
+    "states": [
+      "Eligible",
+      "due",
+      "locked",
+      "insufficient-evidence"
+    ],
+    "source_name": "Objective Detail",
+    "role": "learner"
+  },
+  {
+    "id": "L-042",
+    "route": "/course/objective/:id/preview",
+    "title": "Bài học phía trước",
+    "states": [
+      "Preview-open",
+      "preview-close"
+    ],
+    "source_name": "Locked Preview",
+    "role": "learner"
+  },
+  {
+    "id": "L-050",
+    "route": "/profile",
+    "title": "Góc của bạn",
+    "states": [
+      "Default",
+      "insufficient-evidence"
+    ],
+    "source_name": "Profile",
+    "role": "learner"
+  },
+  {
+    "id": "L-051",
+    "route": "/profile/evidence/:domain",
+    "title": "Điều bạn đã thực hành",
+    "states": [
+      "Building",
+      "more-evidence-needed"
+    ],
+    "source_name": "Evidence Detail",
+    "role": "learner"
+  },
+  {
+    "id": "L-052",
+    "route": "/profile/goal",
+    "title": "Mục tiêu học tập",
+    "states": [
+      "Default",
+      "saved",
+      "error"
+    ],
+    "source_name": "Goal Settings",
+    "role": "learner"
+  },
+  {
+    "id": "L-053",
+    "route": "/profile/preferences",
+    "title": "Cách bạn muốn học",
+    "states": [
+      "Default",
+      "saved"
+    ],
+    "source_name": "Learning Preferences",
+    "role": "learner"
+  },
+  {
+    "id": "L-054",
+    "route": "/profile/offline",
+    "title": "Bài học ngoại tuyến",
+    "states": [
+      "Available",
+      "downloading",
+      "downloaded",
+      "expired",
+      "failed"
+    ],
+    "source_name": "Offline Downloads",
+    "role": "learner"
+  },
+  {
+    "id": "L-060",
+    "route": "/sync",
+    "title": "Bài đã lưu trên máy",
+    "states": [
+      "offline-available",
+      "local-queued",
+      "syncing",
+      "synced",
+      "partial"
+    ],
+    "source_name": "Sync Queue",
+    "role": "learner"
+  },
+  {
+    "id": "L-061",
+    "route": "/sync/error",
+    "title": "Cần bạn kiểm tra",
+    "states": [
+      "failed-retryable",
+      "reauth",
+      "canonical-refresh",
+      "media-unavailable"
+    ],
+    "source_name": "Sync Error",
+    "role": "learner"
+  },
+  {
+    "id": "L-062",
+    "route": "/error",
+    "title": "Mình thử lại nhé",
+    "states": [
+      "Recoverable",
+      "fatal"
+    ],
+    "source_name": "Generic Error",
+    "role": "learner"
+  },
+  {
+    "id": "L-063",
+    "route": "/learn/empty",
+    "title": "Sẵn sàng khi bạn muốn",
+    "states": [
+      "Nothing-due",
+      "no-valid-cycle",
+      "media-unavailable"
+    ],
+    "source_name": "Nothing Due / Content Gap",
+    "role": "learner"
+  },
+  {
+    "id": "L-064",
+    "route": "/reauth",
+    "title": "Cần đăng nhập lại",
+    "states": [
+      "Default"
+    ],
+    "source_name": "Re-auth Required",
+    "role": "learner"
+  },
+  {
+    "id": "S-001",
+    "route": "/staff",
+    "title": "Không gian nhân viên",
+    "states": [
+      "Loading",
+      "access-required"
+    ],
+    "source_name": "Staff Entry",
+    "role": "staff"
+  },
+  {
+    "id": "S-010",
+    "route": "/staff/dashboard",
+    "title": "Công việc hôm nay",
+    "states": [
+      "Default",
+      "empty",
+      "partial"
+    ],
+    "source_name": "Dashboard",
+    "role": "staff"
+  },
+  {
+    "id": "S-020",
+    "route": "/staff/learners",
+    "title": "Học viên",
+    "states": [
+      "Loading",
+      "empty",
+      "filtered",
+      "error"
+    ],
+    "source_name": "Learner List",
+    "role": "staff"
+  },
+  {
+    "id": "S-021",
+    "route": "/staff/learners/:id",
+    "title": "Hồ sơ học viên",
+    "states": [
+      "Default",
+      "insufficient-evidence",
+      "access-denied"
+    ],
+    "source_name": "Learner Overview",
+    "role": "staff"
+  },
+  {
+    "id": "S-022",
+    "route": "/staff/learners/:id/evidence",
+    "title": "Bằng chứng học tập",
+    "states": [
+      "Loading",
+      "no-evidence"
+    ],
+    "source_name": "Learner Evidence",
+    "role": "staff"
+  },
+  {
+    "id": "S-023",
+    "route": "/staff/learners/:id/activity",
+    "title": "Hoạt động gần đây",
+    "states": [
+      "Default",
+      "empty"
+    ],
+    "source_name": "Learner Activity",
+    "role": "staff"
+  },
+  {
+    "id": "S-030",
+    "route": "/staff/content",
+    "title": "Nội dung học",
+    "states": [
+      "Default",
+      "empty",
+      "filtered"
+    ],
+    "source_name": "Content Library",
+    "role": "staff"
+  },
+  {
+    "id": "S-031",
+    "route": "/staff/content/drafts/:id",
+    "title": "Soạn bài học",
+    "states": [
+      "clean",
+      "dirty",
+      "saving",
+      "saved",
+      "validation-error",
+      "reviewer-changes"
+    ],
+    "source_name": "Content Draft Editor",
+    "role": "staff"
+  },
+  {
+    "id": "S-032",
+    "route": "/staff/content/drafts/:id/preview",
+    "title": "Xem trước bài học",
+    "states": [
+      "preview"
+    ],
+    "source_name": "Content Preview",
+    "role": "staff"
+  },
+  {
+    "id": "S-033",
+    "route": "/staff/content/drafts/:id/source",
+    "title": "Nguồn và giấy phép",
+    "states": [
+      "license-pending",
+      "license-verified",
+      "validation-error"
+    ],
+    "source_name": "Source & License",
+    "role": "staff"
+  },
+  {
+    "id": "S-034",
+    "route": "/staff/content/review",
+    "title": "Hàng chờ duyệt",
+    "states": [
+      "Empty",
+      "filtered"
+    ],
+    "source_name": "Review Queue",
+    "role": "staff"
+  },
+  {
+    "id": "S-035",
+    "route": "/staff/content/review/:id",
+    "title": "Kiểm tra bài học",
+    "states": [
+      "license-blocked",
+      "approvable",
+      "changes-requested"
+    ],
+    "source_name": "Review Detail",
+    "role": "staff"
+  },
+  {
+    "id": "S-036",
+    "route": "/staff/content/publish/:id",
+    "title": "Xác nhận xuất bản",
+    "states": [
+      "confirmation-open",
+      "processing",
+      "error"
+    ],
+    "source_name": "Publish Confirmation",
+    "role": "staff"
+  },
+  {
+    "id": "S-037",
+    "route": "/staff/content/published/:id",
+    "title": "Bản đã xuất bản",
+    "states": [
+      "published-immutable",
+      "new-draft-created"
+    ],
+    "source_name": "Published Revision",
+    "role": "staff"
+  },
+  {
+    "id": "S-040",
+    "route": "/staff/interventions",
+    "title": "Hỗ trợ học viên",
+    "states": [
+      "Placeholder",
+      "empty"
+    ],
+    "source_name": "Interventions",
+    "role": "staff"
+  },
+  {
+    "id": "S-041",
+    "route": "/staff/interventions/:id",
+    "title": "Chi tiết hỗ trợ",
+    "states": [
+      "Placeholder",
+      "unavailable"
+    ],
+    "source_name": "Intervention Detail",
+    "role": "staff"
+  },
+  {
+    "id": "S-050",
+    "route": "/staff/analytics",
+    "title": "Phân tích học tập",
+    "states": [
+      "Placeholder",
+      "no-data"
+    ],
+    "source_name": "Analytics Overview",
+    "role": "staff"
+  },
+  {
+    "id": "S-051",
+    "route": "/staff/analytics/:metric",
+    "title": "Chi tiết chỉ số",
+    "states": [
+      "Placeholder",
+      "insufficient-data"
+    ],
+    "source_name": "Metric Detail",
+    "role": "staff"
+  },
+  {
+    "id": "S-060",
+    "route": "/staff/admin",
+    "title": "Quản trị",
+    "states": [
+      "Placeholder",
+      "access-denied"
+    ],
+    "source_name": "Administration",
+    "role": "staff"
+  },
+  {
+    "id": "S-061",
+    "route": "/staff/admin/roles",
+    "title": "Vai trò",
+    "states": [
+      "Placeholder"
+    ],
+    "source_name": "Roles & Permissions",
+    "role": "staff"
+  },
+  {
+    "id": "S-062",
+    "route": "/staff/admin/audit",
+    "title": "Lịch sử thao tác",
+    "states": [
+      "Placeholder",
+      "filtered"
+    ],
+    "source_name": "Audit Log",
+    "role": "staff"
+  },
+  {
+    "id": "L-070",
+    "route": "/progress",
+    "title": "Những bước bạn đã đi",
+    "states": [
+      "observations",
+      "insufficient-evidence"
+    ],
+    "source_name": "Owner-approved V2 presentation",
+    "role": "learner"
+  },
+  {
+    "id": "L-071",
+    "route": "/learn/search",
+    "title": "Tìm bài học",
+    "states": [
+      "ready",
+      "filtered",
+      "empty"
+    ],
+    "source_name": "Owner-approved V2 presentation",
+    "role": "learner"
+  },
+  {
+    "id": "L-072",
+    "route": "/profile/settings",
+    "title": "Cài đặt",
+    "states": [
+      "ready",
+      "saved"
+    ],
+    "source_name": "Owner-approved V2 presentation",
+    "role": "learner"
+  },
+  {
+    "id": "L-073",
+    "route": "/notifications",
+    "title": "Thông báo",
+    "states": [
+      "ready",
+      "empty"
+    ],
+    "source_name": "Owner-approved V2 presentation",
+    "role": "learner"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "QA-LRN-013",
+  "priority": "P0",
+  "status": "FAIL",
+  "started": "2026-10-01T16:15:08.674Z",
+  "ended": "2026-10-01T16:15:08.696Z",
+  "expected": "Hint action is absent and Check context is explicit.",
+  "steps": [],
+  "observed": "",
+  "state": null,
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/"
+  ],
+  "failure": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:8765/\", waiting until \"load\"\u001b[22m\n"
+}

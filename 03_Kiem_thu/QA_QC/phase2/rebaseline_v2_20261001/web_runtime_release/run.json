@@ -1,0 +1,143 @@
+{
+  "scope": "Runtime navigation/rendering, not TalkBack/human UAT",
+  "results": [
+    {
+      "name": "learner-360",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 360,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Quay lại', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "learner-412",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Quay lại', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "learner-430",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 430,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Quay lại', exact: true })\u001b[22m\n"
+    },
+    {
+      "name": "staff-1280",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1280,
+        "height": 1000
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 1280,
+      "semantics": [
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viên",
+        "Không gian nhân viên",
+        "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "MINGO WORKSPACE",
+        "Hôm nay",
+        "Học viên",
+        "Nội dung",
+        "Duyệt bài",
+        "Hỗ trợ",
+        "Phân tích",
+        "Quản trị",
+        "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "Bản xem trước · dữ liệu mẫu",
+        "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "Chào hỏi và làm quen",
+        "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+        "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+        "Tạo bản nháp mẫu mới"
+      ]
+    },
+    {
+      "name": "staff-1440",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 1440,
+      "semantics": [
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viên",
+        "Không gian nhân viên",
+        "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "MINGO WORKSPACE",
+        "Hôm nay",
+        "Học viên",
+        "Nội dung",
+        "Duyệt bài",
+        "Hỗ trợ",
+        "Phân tích",
+        "Quản trị",
+        "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "Bản xem trước · dữ liệu mẫu",
+        "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "Chào hỏi và làm quen",
+        "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+        "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+        "Tạo bản nháp mẫu mới"
+      ]
+    },
+    {
+      "name": "staff-1920",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1920,
+        "height": 1000
+      },
+      "status": "PASS",
+      "browser": "154.0.8037.58",
+      "documentWidth": 1920,
+      "semantics": [
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viênMINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.Bản xem trước · dữ liệu mẫuBản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "MingoKhông gian nhân viên",
+        "Không gian nhân viên",
+        "MINGO WORKSPACEHôm nayHọc viênNội dungDuyệt bàiHỗ trợPhân tíchQuản trịBản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "MINGO WORKSPACE",
+        "Hôm nay",
+        "Học viên",
+        "Nội dung",
+        "Duyệt bài",
+        "Hỗ trợ",
+        "Phân tích",
+        "Quản trị",
+        "Bản xem trước quy trình.\nChưa kết nối dữ liệu thật.",
+        "Bản xem trước · dữ liệu mẫu",
+        "Bản đã xuất bảnChào hỏi và làm quenPhiên bản sample-r1 · Bất biến · Dữ liệu mẫuBản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.Tạo bản nháp mẫu mới",
+        "Chào hỏi và làm quen",
+        "Phiên bản sample-r1 · Bất biến · Dữ liệu mẫu",
+        "Bản đang học giữ nguyên phiên bản. Bản nháp mới không ghi đè bản này.",
+        "Tạo bản nháp mẫu mới"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "results": [
+    {
+      "id": "QC-001",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "references": [
+          "REWORK_R1_PACKAGE_README.md",
+          "CODEX_START_HERE.md",
+          "CODEX_SUPER_PROMPT.md",
+          "CODEX_EXECUTION_HANDOFF.md",
+          "QA_RETEST_HANDOFF_TEMPLATE.md",
+          "QA_RETEST_HANDOFF.md",
+          "QA_QC_RETEST_PROMPT.md",
+          "../../../03_Kiem_thu/QA_QC/phase2/PHASE2_REWORK_R1_FIX_REGISTER.md",
+          "../../../03_Kiem_thu/QA_QC/phase2/Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx",
+          "../../../03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_independent",
+          "../../04_Thiet_ke_san_pham/ux_ui/phase2/SCREEN_STATE_QA_TRACEABILITY.csv",
+          "../../04_Thiet_ke_san_pham/ux_ui/phase2/15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md",
+          "../../04_Thiet_ke_san_pham/ux_ui/phase2/16_ACCESSIBILITY_FOCUS_LIVE_REGION_SPEC.md",
+          "QA_ENTRY_EXIT_CRITERIA.md",
+          "QA_EXECUTION_PLAN.md",
+          "DEFECT_TRIAGE_WORKFLOW.md",
+          "../../../03_Kiem_thu/QA_QC/phase2/PHASE_2_GATE.md",
+          "MANIFEST_SHA256.txt"
+        ],
+        "missing": []
+      },
+      "sources": [
+        "02_Tai_lieu_du_an\\08_Ban_giao\\phase2\\HANDOFF_INDEX.md"
+      ],
+      "time": "2026-10-01T16:12:06.892059+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-001.json"
+    },
+    {
+      "id": "QC-002",
+      "status": "FAIL",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "protected_file_count": 137,
+        "hash_mismatches": [
+          "05_code/apps/learner/pubspec.lock",
+          "05_code/apps/learner/pubspec.yaml",
+          "05_code/apps/staff/pubspec.lock",
+          "05_code/apps/staff/pubspec.yaml",
+          "05_code/apps/learner/integration_test/boot_test.dart",
+          "05_code/apps/learner/lib/main.dart",
+          "05_code/apps/learner/test/widget_test.dart",
+          "05_code/apps/staff/integration_test/boot_test.dart",
+          "05_code/apps/staff/lib/main.dart",
+          "05_code/apps/staff/test/widget_test.dart"
+        ],
+        "git_diff": "",
+        "line_endings": "Accept exact original working-copy bytes or exact original Git blob bytes; original V3.2 has identical hashes in both. Git-less extraction uses cryptographic baseline hashes."
+      },
+      "sources": [
+        "evidence/codex/intake.json"
+      ],
+      "time": "2026-10-01T16:12:07.022145+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-002.json"
+    },
+    {
+      "id": "QC-003",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "## Out of scope\n\n- Production authentication/authorization (Phase 3).\n- Content backend/publishing implementation (Phase 4).\n- Learning/scoring/progress engine implementation (Phase 5).\n- Offline synchronization engine implementation (Phase 6).\n- Worker domain expansion (Phase 7).\n- Production analytics/intelligence/risk/recommendation logic (Phases 8–11).\n- Full staff business application implementation (Phase 12).\n- Production security/performance hardening (Phase 13).\n\nPrototype data is illustrative only and must not be mistaken for production logic or validated learning/risk 03_Kiem_thu/Bang_chung/outputs.\n\n",
+      "sources": [
+        "01_PHASE_2_CONTRACT.md"
+      ],
+      "time": "2026-10-01T16:12:07.025165+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-003.json"
+    },
+    {
+      "id": "QC-004",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "unique_screens": 57,
+        "mapped_screens": 57
+      },
+      "sources": [
+        "PHASE_2_SPEC.json",
+        "SCREEN_STATE_QA_TRACEABILITY.csv"
+      ],
+      "time": "2026-10-01T16:12:07.026162+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-004.json"
+    },
+    {
+      "id": "QC-005",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "L-001": "/launch",
+        "L-002": "/welcome",
+        "L-003": "/onboarding/goal",
+        "L-004": "/onboarding/placement",
+        "L-005": "/placement/:step",
+        "L-006": "/placement/result",
+        "L-010": "/home",
+        "L-011": "/home?offline=1",
+        "L-012": "/home?syncing=1",
+        "L-020": "/learn",
+        "L-021": "/learn/cycle/intro",
+        "L-022": "/learn/cycle/review",
+        "L-023": "/learn/cycle/learn",
+        "L-024": "/learn/cycle/retrieve",
+        "L-025": "/learn/cycle/transfer",
+        "L-026": "/learn/cycle/check-intro",
+        "L-027": "/learn/cycle/check",
+        "L-028": "/learn/feedback/correct",
+        "L-029": "/learn/feedback/retry",
+        "L-030": "/learn/hint",
+        "L-031": "/learn/skip",
+        "L-032": "/learn/cycle/summary",
+        "L-033": "/learn/resume",
+        "L-040": "/course",
+        "L-041": "/course/objective/:id",
+        "L-042": "/course/objective/:id/preview",
+        "L-050": "/profile",
+        "L-051": "/profile/evidence/:domain",
+        "L-052": "/profile/goal",
+        "L-053": "/profile/preferences",
+        "L-054": "/profile/offline",
+        "L-060": "/sync",
+        "L-061": "/sync/error",
+        "L-062": "/error",
+        "L-063": "/learn/empty",
+        "L-064": "/reauth",
+        "S-001": "/staff",
+        "S-010": "/staff/dashboard",
+        "S-020": "/staff/learners",
+        "S-021": "/staff/learners/:id",
+        "S-022": "/staff/learners/:id/evidence",
+        "S-023": "/staff/learners/:id/activity",
+        "S-030": "/staff/content",
+        "S-031": "/staff/content/drafts/:id",
+        "S-032": "/staff/content/drafts/:id/preview",
+        "S-033": "/staff/content/drafts/:id/source",
+        "S-034": "/staff/content/review",
+        "S-035": "/staff/content/review/:id",
+        "S-036": "/staff/content/publish/:id",
+        "S-037": "/staff/content/published/:id",
+        "S-040": "/staff/interventions",
+        "S-041": "/staff/interventions/:id",
+        "S-050": "/staff/analytics",
+        "S-051": "/staff/analytics/:metric",
+        "S-060": "/staff/admin",
+        "S-061": "/staff/admin/roles",
+        "S-062": "/staff/admin/audit"
+      },
+      "sources": [
+        "PHASE_2_SPEC.json",
+        "05_NAVIGATION_ROUTING_SPEC.md"
+      ],
+      "time": "2026-10-01T16:12:07.028165+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-005.json"
+    },
+    {
+      "id": "QC-006",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "# UX Requirement Traceability\n\n| PRD | Requirement | Primary screens | Components | QA cases |\n| --- | --- | --- | --- | --- |\n| PRD-01 | Finite objective-based cycle with clear closure | L-020,L-021,L-022,L-023,L-024,L-025,L-026,L-027,L-032 | C-007 | QA-LRN-001,QA-LRN-002,QA-LRN-012,QA-LRN-021 |\n| PRD-02 | First response preserved; guided retry in practice | L-024,L-029 | C-003,C-005 | QA-LRN-006,QA-LRN-007 |\n| PRD-03 | Typed hints; assisted != unaided; no pre-submit hint in Check | L-024,L-027,L-030 | C-006 | QA-LRN-008,QA-LRN-013 |\n| PRD-04 | Skip logged; not completion/mastery | L-022,L-024,L-031 | C-005 | QA-LRN-009,QA-BIZ-003 |\n| PRD-05 | Listening replay support and assessment context | L-005,L-023,L-027 | C-012 | QA-LRN-014,QA-LRN-023,QA-BIZ-005 |\n| PRD-06 | Vocabulary/grammar learning sequence | L-023,L-024,L-025,L-027 | C-004 | QA-LRN-004,QA-LRN-005,QA-LRN-022 |\n| PRD-07 | Bounded step-up challenge | L-010,L-041 | C-008,C-011 | QA-BIZ-006 |\n| PRD-08 | Learner focus with bounded due/prerequisite insertion | L-010,L-021,L-022,L-041 | C-008 | QA-BIZ-007 |\n| PRD-09 | Optional short placement; provisional result | L-004,L-005,L-006 | C-007 | QA-LRN-015,QA-LRN-016 |\n| PRD-10 | Optional goal; qualitative profile/evidence | L-003,L-050,L-051,L-052 | C-010 | QA-LRN-017,QA-BIZ-008 |\n| PRD-11 | Daily target/streak distinct from mastery | L-010,L-050 | C-010 | QA-BIZ-009 |\n| PRD-12 | Meaningful rewards only | L-032,L-050 | C-010 | QA-BIZ-010 |\n| PRD-13 | Course map, locked preview, evidence-backed reason | L-010,L-040,L-041,L-042 | C-008,C-011 | QA-LRN-018,QA-BIZ-011 |\n| PRD-14 | Licensed immutable content and revision pinning | S-030,S-033,S-035,S-036,S-037,L-041 | C-015,C-016 | QA-STF-006,QA-STF-007,QA-STF-011,QA-BIZ-012 |\n| PRD-15 | Command/telemetry/lifecycle separation; offline idempotent/time semantics | L-011,L-012,L-060,L-061,S-050 | C-009,C-014 | QA-OFF-001,QA-OFF-002,QA-OFF-004,QA-OFF-007,QA-BIZ-013 |\n| PRD-16 | Usable deterministic fallback with ML/recommendation disabled | L-010,L-020,L-063 | C-008,C-013 | QA-LRN-019,QA-BIZ-014 |\n\nAll 16 MVP PRD requirements have an explicit UX surface and QA reference. Exact backend/API field semantics remain contract-driven and are not redefined here.\n\n\n## Rework R1 fine-grained coverage\n\n`SCREEN_STATE_QA_TRACEABILITY.csv` / `17_SCREEN_STATE_QA_TRACEABILITY.md` provide the canonical Screen ID → State → Rule → QA Case chain. This closes the earlier coarse traceability gap; QA evidence is populated only after execution.\n",
+      "sources": [
+        "12_UX_REQUIREMENT_TRACEABILITY.md"
+      ],
+      "time": "2026-10-01T16:12:07.030172+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-006.json"
+    },
+    {
+      "id": "QC-007",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "## Versioned MVP hypotheses, not permanent truth\n\nApproximate 5-minute cycle, one practice retry, up-to-two Check plays, two-evidence challenge predicate, bounded one due/prerequisite insertion, 6–9 item placement and one cycle/day default. UI uses semantic/configurable patterns rather than hard-coding these as permanent brand claims.\n\n",
+      "sources": [
+        "01_PHASE_2_CONTRACT.md"
+      ],
+      "time": "2026-10-01T16:12:07.031171+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-007.json"
+    },
+    {
+      "id": "QC-008",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "review": "Read learner microcopy, actual browser result/summary/profile evidence and guards. Qualitative sample labels are mock data; no precise mastery/CEFR/diagnostic claims.",
+        "microcopy": "# Content and Microcopy Guide\n\n## Voice\n\nShort, calm, factual and supportive. Avoid patronizing, diagnostic or over-celebratory language.\n\n## Evidence language\n\nPrefer: “You recalled this without a hint”, “More evidence needed”, “Due for review”, “You practiced…”. Avoid: “You have mastered 83%”, “You are bad at listening”, “AI detected you are losing motivation”, unless a later validated product explicitly supports such claim and governance approves the wording.\n\n## Practice vs Check\n\nPractice: “Try it”, “Need a hint?”, “Try once more.”  \nCheck: “Check — see what you remember.” No pre-submit hint.\n\n## Retry\n\nAfter wrong first response: “Not quite. Here’s why… Try once more.” After successful retry: “Nice recovery. We’ll keep reviewing this.” Do not say “Correct on your first try.”\n\n## Skip\n\n“Skip for now” / “We’ll come back to this later.” Never shame; never award completion simply for skipping.\n\n## Recommendation reason examples\n\n- Due for review.\n- Continue your current objective.\n- Review a prerequisite first.\n- Practice a different example after a recent error.\n- Try the same idea in a different format.\n- Optional challenge.\n\n## Offline/sync\n\n- Offline: “You’re offline. Available lessons still work.”\n- Queued: “Saved on this device. Waiting to sync.”\n- Synced: “Synced.”\n- Failure: “We couldn’t sync yet. Your saved work is still on this device.”\n\nNever say “Progress saved to your account” before server acceptance is known.\n\n## Content staff\n\nUse explicit revision language: “Publish new revision”, “Published revisions can’t be edited”, “Create a new draft from this revision.” License blockers must say exactly what is missing.\n"
+      },
+      "sources": [
+        "10_CONTENT_MICROCOPY_GUIDE.md",
+        "prototype/app.js"
+      ],
+      "time": "2026-10-01T16:12:07.033353+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-008.json"
+    },
+    {
+      "id": "QC-009",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "files_scanned": 338,
+        "matched_paths": [],
+        "scope": "Phase 2 text; exact ZIP also checked by packaging verifier"
+      },
+      "sources": [
+        "04_Van_hanh/Scripts/verify_phase2_review.py"
+      ],
+      "time": "2026-10-01T16:12:07.399099+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-009.json"
+    },
+    {
+      "id": "QC-010",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "external_references": false,
+        "browser_requests": "See each browser case JSON: loopback files only"
+      },
+      "sources": [
+        "prototype/app.js",
+        "prototype/index.html",
+        "prototype/styles.css"
+      ],
+      "time": "2026-10-01T16:12:07.401098+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QC-010.json"
+    },
+    {
+      "id": "QA-BIZ-006",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "review": "Challenge is a bounded product hypothesis. Course preview keeps prerequisites locked; challenge/preference does not confer skill or override eligibility. This case requests spec review, not a production challenge engine.",
+        "matching_screens": [
+          {
+            "id": "L-022",
+            "name": "Review Item",
+            "route": "/learn/cycle/review",
+            "surface": "Learner",
+            "area": "Learning",
+            "purpose": "Due/prerequisite review within bounded cycle",
+            "entry": "Cycle start",
+            "actions": "Answer / Skip",
+            "states": "Ready, selected, validation-error, submitted-result, skipped",
+            "rules": "Blank submit is impossible; Skip is explicit and creates no completion/mastery."
+          },
+          {
+            "id": "L-041",
+            "name": "Objective Detail",
+            "route": "/course/objective/:id",
+            "surface": "Learner",
+            "area": "Course",
+            "purpose": "Explain objective, evidence and eligibility",
+            "entry": "Course map",
+            "actions": "Start eligible practice / Review",
+            "states": "Eligible, due, locked, insufficient-evidence",
+            "rules": "Prerequisite guardrail remains authoritative"
+          },
+          {
+            "id": "L-042",
+            "name": "Locked Preview",
+            "route": "/course/objective/:id/preview",
+            "surface": "Learner",
+            "area": "Course",
+            "purpose": "Safe preview of locked objective",
+            "entry": "Locked objective",
+            "actions": "Back / Work on prerequisite",
+            "states": "Preview-open, preview-close",
+            "rules": "Preview cannot create evidence, progress, completion, prerequisite bypass or unlock."
+          }
+        ]
+      },
+      "sources": [
+        "01_PHASE_2_CONTRACT.md",
+        "PHASE_2_SPEC.json",
+        "12_UX_REQUIREMENT_TRACEABILITY.md"
+      ],
+      "time": "2026-10-01T16:12:07.402097+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-BIZ-006.json"
+    },
+    {
+      "id": "QA-ACC-004",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "text_contrast_pairs": [
+          {
+            "foreground": "#0F172A",
+            "background": "#FFFFFF",
+            "ratio": 17.853
+          },
+          {
+            "foreground": "#475569",
+            "background": "#FFFFFF",
+            "ratio": 7.578
+          },
+          {
+            "foreground": "#FFFFFF",
+            "background": "#3046C5",
+            "ratio": 7.479
+          },
+          {
+            "foreground": "#FFFFFF",
+            "background": "#2438A8",
+            "ratio": 9.519
+          },
+          {
+            "foreground": "#1E3A8A",
+            "background": "#E8ECFF",
+            "ratio": 8.816
+          },
+          {
+            "foreground": "#14532D",
+            "background": "#DCFCE7",
+            "ratio": 8.296
+          },
+          {
+            "foreground": "#7F1D1D",
+            "background": "#FEE2E2",
+            "ratio": 8.202
+          },
+          {
+            "foreground": "#78350F",
+            "background": "#FEF3C7",
+            "ratio": 8.147
+          },
+          {
+            "foreground": "#475569",
+            "background": "#F8FAFC",
+            "ratio": 7.243
+          },
+          {
+            "foreground": "#CBD5E1",
+            "background": "#111827",
+            "ratio": 11.948
+          },
+          {
+            "foreground": "#E2E8F0",
+            "background": "#1E293B",
+            "ratio": 11.866
+          }
+        ],
+        "focus_on_white": 5.698586217871195,
+        "review": "Error, queued, correct/incorrect, assisted, Draft/Published all have visible words; color is not sole signal. Disabled controls excluded by AA contrast exception. Focus consumes semantic token."
+      },
+      "sources": [
+        "DESIGN_TOKENS.json",
+        "prototype/styles.css",
+        "prototype/app.js"
+      ],
+      "time": "2026-10-01T16:12:07.404098+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-ACC-004.json"
+    },
+    {
+      "id": "QA-HO-001",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "review": "Reviewed assessment selection/submit/result/continue, assisted/retry/skip state, placement, Check restrictions, sync/ack recovery, draft validation/preview/license/review/publication lineage, focus and stable hooks. Screen routes, state catalog and tokens are supplied. Acceptance still requires Tech Lead.",
+        "contract": "# Complex Screen Interaction Contracts — Rework R1\n\nStatus: **canonical Phase 2 interaction detail for complex surfaces**. V3.2 remains authority for backend/domain contracts. These contracts remove UX decisions from Phase 3–5 implementation without inventing backend fields.\n\n## Common response state machine — L-022 / L-024 / L-025 / L-027\n\n`READY → SELECTED → SUBMITTING → RESULT → CONTINUE`\n\nAlternative explicit path where allowed: `READY/SELECTED → SKIP_CONFIRM/RECORDED → CONTINUE`.\n\nRules:\n- Submit is disabled until a selection exists; no blank response can advance.\n- Selection is local UI state and is not submission.\n- `first_response` UX context is never replaced by retry response.\n- `assisted=true` is independent of feedback/correctness and persists through result/summary.\n- Current practice retry hypothesis allows one retry on Retrieve; Check has no pre-submit hint and no practice retry.\n- Skip is explicit, non-shaming and does not create completion/mastery/reward.\n- Every result has an explicit Continue transition; result and continue are not the same click.\n\nRecommended hooks: `screen-L-022`, `screen-L-024`, `screen-L-025`, `screen-L-027`, `action-<screen>-submit`, `action-L-029-retry`, stable option IDs.\n\n## L-005 Placement Question\n\n**Anatomy:** domain label, progress, prompt, optional AudioControl, response options, validation, Submit, domain Skip only where policy allows, recorded-result message, Next.\n\n**Validation:** Submit disabled until response; if a domain is explicitly skippable, Skip is a separate action. No global score or CEFR certification wording.\n\n**State:** READY → SELECTED → RESULT → NEXT. Listening can enter MEDIA_UNAVAILABLE and expose explicit domain skip/return path rather than fabricated completion.\n\n**Dependency boundary:** server scoring/placement policy arrives later. Phase 2 only locks the interaction and uncertainty language.\n\n## L-024 Retrieve Item\n\n**Anatomy:** objective context, prompt/stimulus, AnswerOptions, optional Hint action, explicit Skip, result panel, retry action, Continue.\n\n**State data:** `selected`, `firstResponse`, `retryResponse`, `retryCount`, `assisted`, `skipped`, `result`, `final`.\n\n**Invariant:** using a hint sets `assisted=true`; later correct submit never clears it. Retry count is bounded by versioned policy; first response remains visible in evidence context if surfaced.\n\n## L-027 Independent Check\n\n**Anatomy:** Check label, prompt/stimulus, optional AudioControl, AnswerOptions, disabled-until-selection Submit, final result, Continue.\n\n**Forbidden actions:** Hint before submit; practice retry; blank submit. Listening UI may show offered plays but client playback does not authorize score.\n\n## L-060 / L-061 Sync and Recovery\n\nState transitions:\n\n`OFFLINE_AVAILABLE → LOCAL_QUEUED → (network restored, still LOCAL_QUEUED) → SYNCING → SERVER_ACKNOWLEDGED/SYNCED`\n\nFailure branches from SYNCING: `SYNC_PARTIAL`, `SYNC_FAILED_RETRYABLE`, `SYNC_REAUTH`, `CANONICAL_REFRESH`.\n\nRules:\n- `network_online=true` never directly implies `SYNCED`.\n- Retry reuses the same durable command identity in implementation.\n- Re-auth preserves local queue; it does not grant local authorization.\n- Canonical refresh replaces stale presentation with server-confirmed state, not the reverse.\n- MEDIA_UNAVAILABLE blocks a media-required assessment path; it never fabricates completion.\n\n## S-031 Content Draft Editor\n\n**Required field/anatomy categories:** item type, domain/objective metadata, learner prompt/stimulus, canonical answer/distractors where applicable, feedback, optional hint, media reference where applicable, source/provenance/license, draft/revision status, reviewer note.\n\n**Actions:** Save Draft, Preview, Submit for Review. Each is distinct. Preview has no publish side effect.\n\n**Validation:** visible and programmatically associated labels; required field error appears adjacent and in targeted alert/status region. Source/license completeness is visible before review/publish.\n\n**Permissions:** Phase 2 specifies UI capability only; Phase 3+ server authorization remains authoritative.\n\n## S-032 Preview\n\nRead-only rendering of the current draft. No learner progress, publication or immutable revision is created. Back returns to draft/review context.\n\n## S-033 Source & License\n\nRequired: source reference, reuse/license status, validation/gate reason. Public availability alone is not permission. A verified state enables review approval; failed/unknown state keeps publish blocked.\n\n## S-035 Review Detail\n\nStates: `LICENSE_BLOCKED`, `APPROVABLE`, `CHANGES_REQUESTED`. Approve remains disabled while license/provenance gate fails. Request Changes returns an actionable reviewer note to Draft Editor.\n\n## S-036 Publish Confirmation\n\nModal/sheet with immutable-effect explanation, revision identifier, Cancel and Confirm Publish. Focus is contained while open and restored to Approve when canceled. Confirm creates the transition to S-037.\n\n## S-037 Published Revision\n\nRead-only immutable presentation. No Edit action. `Create new draft from revision` creates a new draft/revision lineage while historical attempts remain pinned to the prior revision.\n\n## Test/evidence requirement\n\nAll gate-critical screen/state combinations are explicitly mapped in `SCREEN_STATE_QA_TRACEABILITY.csv`. Codex execution must preserve the stable screen/action identifiers in the prototype and future Flutter test semantics.\n\n## Execution clarifications — 2026-09-27\n\n- New mock responses are queued even while connected; only an explicit mock receipt/canonical refresh clears the queue. Practice retry feedback names the retry and preserves first-response context.\n- Draft fields persist in the in-memory prototype across Save/Preview/Review. Publishing snapshots values; a new draft copies that snapshot. Empty prompt/answer blocks review. Changing source invalidates verification. Reload persistence is not implemented or claimed.\n- Profile Edit goal returns to Profile after save/clear; it does not change learning evidence.\n- Demo controls expose recommendation unavailable and nothing eligible; they are test scenarios, not production navigation.\n- Missing-media practice Skip records a skip and shows Continue. Missing-media Check offers Leave cycle without a fabricated result.\n- Dialog Tab/Shift+Tab is contained; Escape/Cancel restores its trigger. Selection preserves the selected control's focus. Text at 200% must be checked for ancestor clipping, not only document overflow.\n"
+      },
+      "sources": [
+        "15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md",
+        "13_DEVELOPER_HANDOFF.md",
+        "07_UI_STATE_CATALOG.md",
+        "PHASE_2_SPEC.json"
+      ],
+      "time": "2026-10-01T16:12:07.405100+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-001.json"
+    },
+    {
+      "id": "QA-HO-004",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "labels": [
+          "mock state · non-production · QC/QA rework",
+          "intentionally mock-only and must not be shipped as production logic"
+        ],
+        "runtime_unchanged": true
+      },
+      "sources": [
+        "prototype/index.html",
+        "13_DEVELOPER_HANDOFF.md"
+      ],
+      "time": "2026-10-01T16:12:07.405609+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-004.json"
+    },
+    {
+      "id": "QA-HO-005",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "roles": [
+          "QC Lead",
+          "QA Lead",
+          "Tech Lead",
+          "Product/Owner"
+        ],
+        "signoffs": "PENDING; execution engineer has not signed for another role"
+      },
+      "sources": [
+        "Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx"
+      ],
+      "time": "2026-10-01T16:12:07.469214+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-005.json"
+    },
+    {
+      "id": "QA-NAV-009",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
+      "sources": [
+        "05_NAVIGATION_ROUTING_SPEC.md"
+      ],
+      "time": "2026-10-01T16:12:08.167711+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-NAV-009.json"
+    },
+    {
+      "id": "QA-NAV-010",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "# Navigation and Routing Specification\n\n## Learner\n\nPrimary routes: `/home`, `/learn`, `/course`, `/profile`. Onboarding `/welcome`, `/onboarding/goal`, `/onboarding/placement`, `/placement/*`. Learning child flow `/learn/cycle/*`. System recovery `/sync`, `/sync/error`, `/reauth`.\n\nRules:\n- A selected answer is local UI state until submitted; route changes must not implicitly submit.\n- Exiting a cycle prompts when meaningful local state could be lost; completed canonical responses are not undone.\n- Resume uses saved cycle context and pinned revisions; never resends already terminal commands merely due to navigation.\n- Deep-link into objective/review re-evaluates eligibility. Locked preview remains preview-only.\n- Main navigation may be hidden in focused learning/placement flows, but a safe exit path remains.\n\n## Staff\n\nPrimary routes are `/staff/dashboard`, `/staff/learners`, `/staff/content`, `/staff/interventions`, `/staff/analytics`, `/staff/admin` with child resources documented in the screen inventory.\n\nRules:\n- Unknown/unauthorized routes show access-required/not-found without exposing foreign resource existence.\n- Role-based menu visibility is presentation only; Phase 3 server authorization is authoritative.\n- Unsaved draft navigation prompts before discard.\n- Published revision has no edit-in-place route.\n\n## Back/deep-link behavior\n\nBack returns to the nearest safe context and must never bypass prerequisite, permission, revision or canonical state. A browser refresh/deep link must reconstruct context from route + server state in implementation phases; the Phase 2 prototype uses mock state only.\n",
+      "sources": [
+        "05_NAVIGATION_ROUTING_SPEC.md"
+      ],
+      "time": "2026-10-01T16:12:08.168753+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-NAV-010.json"
+    },
+    {
+      "id": "QA-HO-002",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "semantic_colors": {
+          "canvas": "#F6F8FC",
+          "surface": "#FFFFFF",
+          "surface_subtle": "#EEF2F7",
+          "text": "#0F172A",
+          "text_muted": "#475569",
+          "border": "#CBD5E1",
+          "primary": "#3046C5",
+          "primary_hover": "#2438A8",
+          "primary_soft": "#E8ECFF",
+          "accent": "#0F766E",
+          "accent_soft": "#CCFBF1",
+          "success": "#166534",
+          "success_soft": "#DCFCE7",
+          "warning": "#92400E",
+          "warning_soft": "#FEF3C7",
+          "danger": "#B91C1C",
+          "danger_soft": "#FEE2E2",
+          "info": "#1D4ED8",
+          "info_soft": "#DBEAFE",
+          "focus": "#7C3AED"
+        },
+        "focus_consumed": true,
+        "normalization": "CSS #fff equals token #FFFFFF"
+      },
+      "sources": [
+        "DESIGN_TOKENS.json",
+        "08_DESIGN_SYSTEM_SPEC.md",
+        "prototype/styles.css"
+      ],
+      "time": "2026-10-01T16:12:08.171777+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-002.json"
+    },
+    {
+      "id": "QA-HO-003",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": "## Stable identifiers / test hooks\n\nKeep screen IDs. Recommended keys:\n- `screen-L-024`\n- `action-L-024-submit`\n- `action-L-029-retry`\n- `audio-check`\n- `field-S-031-prompt`\n- `action-S-036-confirm`\n\nVisual restyling must not force automation IDs to change.\n\n",
+      "sources": [
+        "13_DEVELOPER_HANDOFF.md"
+      ],
+      "time": "2026-10-01T16:12:08.173108+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-003.json"
+    },
+    {
+      "id": "QA-HO-006",
+      "status": "PASS",
+      "method": "artifact inspection / reproducible checks; not independent signoff",
+      "observed": {
+        "screens": 57,
+        "rows": 166,
+        "invalid_references": [],
+        "coverage_caution": "Mapping is artifact coverage. It does not prove all 166 state variants were runtime exercised; references to spec-review cases remain artifact review only."
+      },
+      "sources": [
+        "SCREEN_STATE_QA_TRACEABILITY.csv",
+        "PHASE_2_SPEC.json",
+        "QA_TEST_CASES.csv"
+      ],
+      "time": "2026-10-01T16:12:08.214535+00:00",
+      "evidence": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/r1_regression/review/QA-HO-006.json"
+    }
+  ],
+  "execution_order": "P0 artifact + P0 browser; P1 artifact + P1 browser"
+}

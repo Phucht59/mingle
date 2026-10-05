@@ -1,0 +1,358 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feature_schema_v1.schema.json",
+  "title": "FeatureSchemaV1",
+  "type": "object",
+  "required": [
+    "feature_schema_version",
+    "static",
+    "aggregate",
+    "temporal"
+  ],
+  "properties": {
+    "feature_schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "static": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "position",
+          "dtype",
+          "unit",
+          "definition",
+          "source",
+          "missingness",
+          "range",
+          "time_window",
+          "preprocessing_ref"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]{1,63}$"
+          },
+          "position": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "dtype": {
+            "enum": [
+              "float32",
+              "float64",
+              "int32",
+              "int64",
+              "bool",
+              "category"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "missingness": {
+            "type": "string",
+            "minLength": 1
+          },
+          "range": {
+            "type": "object",
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "bounded",
+                  "unbounded",
+                  "categorical"
+                ]
+              },
+              "min": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "max": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "vocabulary_ref": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "time_window": {
+            "type": "string",
+            "minLength": 1
+          },
+          "preprocessing_ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "aggregate": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "position",
+          "dtype",
+          "unit",
+          "definition",
+          "source",
+          "missingness",
+          "range",
+          "time_window",
+          "preprocessing_ref"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]{1,63}$"
+          },
+          "position": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "dtype": {
+            "enum": [
+              "float32",
+              "float64",
+              "int32",
+              "int64",
+              "bool",
+              "category"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "missingness": {
+            "type": "string",
+            "minLength": 1
+          },
+          "range": {
+            "type": "object",
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "bounded",
+                  "unbounded",
+                  "categorical"
+                ]
+              },
+              "min": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "max": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "vocabulary_ref": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "time_window": {
+            "type": "string",
+            "minLength": 1
+          },
+          "preprocessing_ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "temporal": {
+      "type": "object",
+      "required": [
+        "time_bin",
+        "sequence_order",
+        "padding",
+        "lengths_required",
+        "mask_required",
+        "features"
+      ],
+      "properties": {
+        "time_bin": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sequence_order": {
+          "enum": [
+            "ascending_time"
+          ]
+        },
+        "padding": {
+          "enum": [
+            "right_zero",
+            "left_zero",
+            "none"
+          ]
+        },
+        "lengths_required": {
+          "type": "boolean"
+        },
+        "mask_required": {
+          "type": "boolean"
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "position",
+              "dtype",
+              "unit",
+              "definition",
+              "source",
+              "missingness",
+              "range",
+              "time_window",
+              "preprocessing_ref"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]{1,63}$"
+              },
+              "position": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "dtype": {
+                "enum": [
+                  "float32",
+                  "float64",
+                  "int32",
+                  "int64",
+                  "bool",
+                  "category"
+                ]
+              },
+              "unit": {
+                "type": "string"
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "missingness": {
+                "type": "string",
+                "minLength": 1
+              },
+              "range": {
+                "type": "object",
+                "required": [
+                  "kind"
+                ],
+                "properties": {
+                  "kind": {
+                    "enum": [
+                      "bounded",
+                      "unbounded",
+                      "categorical"
+                    ]
+                  },
+                  "min": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "max": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "vocabulary_ref": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "time_window": {
+                "type": "string",
+                "minLength": 1
+              },
+              "preprocessing_ref": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

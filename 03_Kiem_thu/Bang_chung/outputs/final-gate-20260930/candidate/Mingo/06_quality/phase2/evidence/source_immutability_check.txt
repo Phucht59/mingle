@@ -1,0 +1,8 @@
+Phase 2 Rework R1 source immutability check — 2026-09-27
+
+Compared against Mingo_Phase1_DONE_20260926_070ff51.zip.
+
+05_code: local=35 baseline=35 added=0 missing=0 changed=0
+04_architecture/contracts/v3_2/source: local=102 baseline=102 added=0 missing=0 changed=0
+
+Result: PASS — Phase 2 Rework R1 did not modify Phase 1 runtime source or original V3.2 package.

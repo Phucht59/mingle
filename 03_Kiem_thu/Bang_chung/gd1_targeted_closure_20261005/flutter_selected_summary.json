@@ -1,0 +1,1643 @@
+{
+  "passed": 232,
+  "failed": 0,
+  "skipped": 0,
+  "terminal_done": [
+    {
+      "success": true,
+      "type": "done",
+      "time": 105287
+    }
+  ],
+  "test_files": [
+    "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+    "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/independent_test.dart",
+    "C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart"
+  ],
+  "named_results": [
+    {
+      "name": "sample audio request budget is bounded and does not imply listening",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 6
+    },
+    {
+      "name": "failed sample audio remains an error, never a successful assessment",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 25
+    },
+    {
+      "name": "grammar and listening sample answer keys match task-specific explanation",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 39
+    },
+    {
+      "name": "all catalogue routes resolve, including exact query and dynamic fixtures",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 57
+    },
+    {
+      "name": "first wrong answer survives a correct bounded practice retry",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 68
+    },
+    {
+      "name": "hint marks practice as assisted",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 81
+    },
+    {
+      "name": "Check has neither hints nor retries nor skip",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 88
+    },
+    {
+      "name": "missing selection and duplicate submission add no response",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 97
+    },
+    {
+      "name": "skip is not a response or completion",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 105
+    },
+    {
+      "name": "published fixture cannot be changed through editable draft",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 112
+    },
+    {
+      "name": "fallback remains explainable when recommendation is disabled",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 124
+    },
+    {
+      "name": "token foregrounds meet normal text contrast",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart",
+      "line": 134
+    },
+    {
+      "name": "IV-01 PRD-02 Check first response cannot be rewritten by a late answer tap",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "IV-02 PRD-04 skip then Android Back does not manufacture correct feedback",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "IV-03 PRD-14 direct confirmation without review evidence stays blocked",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "IV-04 V3 security missing evidence does not expose fabricated learner answers",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "IV-05 PRD-16 recommendation outage retains a usable curriculum next step",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "changing lesson family resets to the selected vocabulary task; search finds grammar",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-002 essential semantics labels targets and contrast",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 essential semantics labels targets and contrast",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-072 essential semantics labels targets and contrast",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-010 essential semantics labels targets and contrast",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-035 essential semantics labels targets and contrast",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar full cycle uses distinct Retrieve Transfer and Check tasks",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-021 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-022 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-023 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-024 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-025 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-026 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-027 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "grammar / L-032 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-021 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-022 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-023 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-024 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-025 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-026 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-027 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "listening / L-032 / responsive and capture",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "D021 V2 L-010 at320px200percent",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "D021 V2 L-020 at320px200percent",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "D021 V2 L-040 at320px200percent",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "D021 V2 L-050 at320px200percent",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "learner optional onboarding reaches one next action",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "missing lesson content and submitting state cannot advance or answer again",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "locked objective permits preview and recovery but cannot start practice",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "eligible sample objective offers a single unaided challenge without opening the next objective",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "practice validates and allows one retry without Check hint",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "search gives a useful empty state and recovers",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "practice response survives forward then back navigation",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "denied staff state hides learner evidence; processing cannot republish",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "narrow staff menu closes after selecting content",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "staff license and review precede confirmation; draft is separate",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "essential actions have labels and Android 48dp targets",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "reduced motion follows preference and system text scale is preserved",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-001 | Loading | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-001 | error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-001 | offline bootstrap | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-002 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-002 | loading | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-003 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-003 | selected | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-003 | error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-004 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-004 | unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-005 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-005 | selected | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-005 | validation-error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-005 | submitting | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-005 | result | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-005 | skipped-domain | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-005 | audio-unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-006 | Complete | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-006 | insufficient-evidence | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-010 | Online | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-010 | offline | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-010 | syncing | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-010 | nothing-due | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-010 | recommendation-unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-011 | Offline | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-011 | queued | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-012 | Syncing | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-012 | partial | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-020 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-020 | resume | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-020 | content-gap | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-021 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-021 | offline-capable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-021 | content-unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-022 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-022 | selected | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-022 | validation-error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-022 | submitted-result | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-022 | skipped | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-023 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-023 | audio-loading | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-023 | audio-unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 | selected | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 | hinted | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 | submitted-result | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 | retry-available | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 | retry-exhausted | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-024 | skipped | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-025 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-025 | selected | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-025 | validation-error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-025 | submitted-result | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-025 | skipped | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-026 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | Ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | selected | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | validation-error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | submitting | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | result | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | audio-ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | audio-unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-027 | play-limit-reached | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-028 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-029 | Retry available | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-029 | retry used | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-029 | retry exhausted | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-030 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-030 | unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-031 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-032 | Complete | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-032 | partial | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-032 | sync-queued | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-033 | Resume | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-033 | stale-content refresh | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-040 | Open | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-040 | due-review | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-040 | locked | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-040 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-041 | Eligible | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-041 | due | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-041 | locked | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-041 | insufficient-evidence | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-042 | Preview-open | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-042 | preview-close | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-050 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-050 | insufficient-evidence | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-051 | Building | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-051 | more-evidence-needed | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-052 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-052 | saved | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-052 | error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-053 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-053 | saved | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-054 | Available | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-054 | downloading | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-054 | downloaded | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-054 | expired | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-054 | failed | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-060 | offline-available | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-060 | local-queued | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-060 | syncing | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-060 | synced | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-060 | partial | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-061 | failed-retryable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-061 | reauth | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-061 | canonical-refresh | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-061 | media-unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-062 | Recoverable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-062 | fatal | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-063 | Nothing-due | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-063 | no-valid-cycle | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-063 | media-unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-064 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-001 | Loading | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-001 | access-required | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-010 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-010 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-010 | partial | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-020 | Loading | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-020 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-020 | filtered | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-020 | error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-021 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-021 | insufficient-evidence | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-021 | access-denied | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-022 | Loading | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-022 | no-evidence | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-023 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-023 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-030 | Default | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-030 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-030 | filtered | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-031 | clean | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-031 | dirty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-031 | saving | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-031 | saved | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-031 | validation-error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-031 | reviewer-changes | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-032 | preview | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-033 | license-pending | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-033 | license-verified | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-033 | validation-error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-034 | Empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-034 | filtered | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-035 | license-blocked | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-035 | approvable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-035 | changes-requested | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-036 | confirmation-open | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-036 | processing | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-036 | error | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-037 | published-immutable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-037 | new-draft-created | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-040 | Placeholder | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-040 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-041 | Placeholder | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-041 | unavailable | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-050 | Placeholder | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-050 | no-data | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-051 | Placeholder | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-051 | insufficient-data | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-060 | Placeholder | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-060 | access-denied | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-061 | Placeholder | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-062 | Placeholder | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "S-062 | filtered | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-070 | observations | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-070 | insufficient-evidence | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-071 | ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-071 | filtered | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-071 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-072 | ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-072 | saved | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-073 | ready | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "L-073 | empty | responsive + screenshot",
+      "result": "success",
+      "skipped": false,
+      "location": "package:flutter_test/src/widget_tester.dart",
+      "line": 175
+    },
+    {
+      "name": "inventory uniqueness and machine evidence scope",
+      "result": "success",
+      "skipped": false,
+      "location": "file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart",
+      "line": 464
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-05T03:12:00.416755+00:00",
+  "commit": "a112f762ab08f6fa688cc4857b21d95d1055ab5c",
+  "working_tree_dirty": true,
+  "adapter_sha256": "4bf84679e0270f3de85ec88ee759cdb57ee5f6d8c2367c9b630ca461fa9daf73",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "npm-ci",
+      "exit_code": 0
+    },
+    {
+      "name": "contract",
+      "exit_code": 0
+    },
+    {
+      "name": "sql",
+      "exit_code": 0
+    }
+  ],
+  "original_files_verified": 102,
+  "package_version": "3.2.0",
+  "manifest_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d",
+  "node": "v24.19.0",
+  "contract": {
+    "passed": 115,
+    "failed": 0,
+    "total": 115
+  },
+  "sql": {
+    "passed": 22,
+    "failed": 0,
+    "total": 22
+  },
+  "sql_engine": "Original PGlite PostgreSQL WASM suite; not native concurrency"
+}

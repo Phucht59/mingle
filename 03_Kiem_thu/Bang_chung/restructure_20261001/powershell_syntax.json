@@ -1,0 +1,14 @@
+[
+  {
+    "File": "bootstrap_clients.ps1",
+    "Errors": 0
+  },
+  {
+    "File": "verify_backend.ps1",
+    "Errors": 0
+  },
+  {
+    "File": "verify_flutter.ps1",
+    "Errors": 0
+  }
+]

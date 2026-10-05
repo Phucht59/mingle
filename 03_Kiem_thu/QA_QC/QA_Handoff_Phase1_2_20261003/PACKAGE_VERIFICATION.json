@@ -1,0 +1,16 @@
+{
+  "provenance": "RERUN NOW",
+  "path": "03_Kiem_thu/QA_QC/QA_Handoff_Phase1_2_20261003/Mingo_QA_Phase1_Phase2_EvidenceGate_2026-10-03.zip",
+  "bytes": 134800628,
+  "sha256": "1cc67605da05d231b51e48c38cca664c952daf0e581bda44e87f0c6b9c624b99",
+  "payload_files": 1029,
+  "archive_entries": 1030,
+  "crc": "PASS",
+  "payload_sha256_mismatch": 0,
+  "navigation_links": "PASS",
+  "excluded_local_metadata": true,
+  "shared_tests": 275,
+  "captures": 205,
+  "human_gate": "PENDING",
+  "phase3": "HOLD"
+}

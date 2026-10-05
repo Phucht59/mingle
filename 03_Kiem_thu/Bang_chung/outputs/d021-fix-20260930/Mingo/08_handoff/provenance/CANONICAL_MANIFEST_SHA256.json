@@ -1,0 +1,857 @@
+{
+  "generated": "2026-09-24",
+  "root": "Mingo",
+  "canonical_revision": "fc6e40e93f547bc0cc34a9b2c10c33432209eb95",
+  "files": [
+    {
+      "path": ".github/workflows/foundation.yaml",
+      "sha256": "4e12b2b75da494e4f0d30a9ba26ea43a59aaf70af0f56c7dc3ecc621bb6789d4",
+      "bytes": 2259
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c9125816da375ab72dbbb0b77f5f07ad985f24ef506203331051737188d1ed61",
+      "bytes": 128
+    },
+    {
+      "path": "01_governance/BACKLOG.md",
+      "sha256": "71c7d50d6990832bf134a6757f5ca72d03ac131ab98754db44ef0bb7f7539841",
+      "bytes": 2465
+    },
+    {
+      "path": "01_governance/CHANGE_REQUESTS.md",
+      "sha256": "8e0fcc3b8b063582502ade95f1f478e89a1b831f298aaabcb0c46b82137caf45",
+      "bytes": 1053
+    },
+    {
+      "path": "01_governance/DECISION_REGISTER.md",
+      "sha256": "078e6beb70ee6e32c39b8849eb4a7d2a954cfc7a11091a9c54489ef909989b67",
+      "bytes": 2765
+    },
+    {
+      "path": "01_governance/IMPLEMENTATION_ISSUES.md",
+      "sha256": "834a88e948af2e75066c02f0c7f5a1069765aba8e911cc8940a91281a0a141d9",
+      "bytes": 1588
+    },
+    {
+      "path": "01_governance/IMPLEMENTATION_ROADMAP.md",
+      "sha256": "0da160e1cf875752d368404252f796f27e4815b7f304ff05eb7e55e49d4a9753",
+      "bytes": 1658
+    },
+    {
+      "path": "01_governance/PHASE_STATUS.yaml",
+      "sha256": "e8adb17ce977d82b4b54831b5a0ab468301b999428611742b936ac73d4ac48d2",
+      "bytes": 687
+    },
+    {
+      "path": "01_governance/PROJECT_MEMORY.md",
+      "sha256": "0a1d41e3b5754a0a65263ab612238bf6822ad40d9009192be59af7e33aff01a8",
+      "bytes": 3643
+    },
+    {
+      "path": "01_governance/PROJECT_PROGRESS_SNAPSHOT.md",
+      "sha256": "6542cdd26991ddf7519399863d7d84b7d97280a0a6ab5c0a7024fe33e24bdf07",
+      "bytes": 2562
+    },
+    {
+      "path": "01_governance/PROJECT_STATE.md",
+      "sha256": "4089891d8d6d5bd74fb30c4f02d0e9a8f578fa38c10756fe5017e2bc3a0aa166",
+      "bytes": 2588
+    },
+    {
+      "path": "01_governance/README.md",
+      "sha256": "a908ff8b95fcb31709f80c386f1442db2d7de636fc5ce2f32af24603e711168a",
+      "bytes": 412
+    },
+    {
+      "path": "01_governance/ROADMAP_PHASE_0_TO_17.md",
+      "sha256": "b84bafffc3f599d0c95117e7a3888653603c4d21eb5136652fe030ac17d21af5",
+      "bytes": 1048
+    },
+    {
+      "path": "01_governance/WORKING_RULES_ORIGINAL.md",
+      "sha256": "c17b928f9c8c66ff3eaa7b9b7272871d81fdd3d17ff140359cd591ee91b9da7e",
+      "bytes": 898
+    },
+    {
+      "path": "02_product/MVP_PRD.md",
+      "sha256": "d5442f5d1749b54bb922c0e7f665cc4cc173789e3e993b3891fd311001c6740e",
+      "bytes": 8278
+    },
+    {
+      "path": "02_product/PRODUCT_CHARTER.md",
+      "sha256": "6aaae7d1b7ecbca97a532c907e23d29ddf6034781c002147fb08fe869e8d5b83",
+      "bytes": 4923
+    },
+    {
+      "path": "02_product/README.md",
+      "sha256": "ee6f02f5c05873e20046f80b41bb91a2a9392135ed4ccd026f720c07b0b2df72",
+      "bytes": 314
+    },
+    {
+      "path": "02_product/learning_design/ADAPTIVE_FEED_MVP_SPEC.md",
+      "sha256": "347fce82e58f511eabae48104d440ce3beaf50de014b1c47a9a26b845ca33ac3",
+      "bytes": 7197
+    },
+    {
+      "path": "02_product/learning_design/LEARNER_EVIDENCE_MODEL.md",
+      "sha256": "a930a6a107a928495b05bce48c735ce254a5a66d5a727877331aa6816b828ace",
+      "bytes": 7749
+    },
+    {
+      "path": "02_product/learning_design/PILOT_AND_CONTENT_CONSTRAINTS.md",
+      "sha256": "1b22be0747430db59da8bd0761ed7ba9b29b18fdee17209e50426f9052d2d6bd",
+      "bytes": 898
+    },
+    {
+      "path": "02_product/learning_design/SHORT_SESSION_LEARNING_DIRECTION.md",
+      "sha256": "3c92084cb13130a283d934ad130953c413e6b1d34cf6e1ac72509ab6f393522d",
+      "bytes": 1619
+    },
+    {
+      "path": "03_research/README.md",
+      "sha256": "5b5abc1fb3f922dd5c48199e13b98574b5da6ae61c67dcd8977799887456ece3",
+      "bytes": 333
+    },
+    {
+      "path": "03_research/legacy_kltn/LEGACY_RESEARCH_CONTEXT.md",
+      "sha256": "53128217d8dbbcbe674b042fe0622fdea745113ee06b9b5e6d7640cda752f623",
+      "bytes": 967
+    },
+    {
+      "path": "03_research/phase1/00_RESEARCH_HANDOFF_README.md",
+      "sha256": "3ce94d4a5a4e58a82b62b0b4262f6fe680b378abd8f5cb4db6d09bf87d187ac7",
+      "bytes": 1187
+    },
+    {
+      "path": "03_research/phase1/01_MASTER_MEMORY_TRANSFER.md",
+      "sha256": "cd9726e9226b43086ca1c27db889425758b84c15eea5dd7405d496c4c468dd84",
+      "bytes": 55325
+    },
+    {
+      "path": "03_research/phase1/02_ADAPTIVE_PROJECT_CONTEXT.md",
+      "sha256": "e88121f05f9505b804cadb0a067e86eec9f7a1d5c7a9b0cfa7df1c95152f1684",
+      "bytes": 4791
+    },
+    {
+      "path": "03_research/phase1/03_RESEARCH_QUESTIONS_18.md",
+      "sha256": "2e19e518f400c1d09524dfa14f6bd0f5ff1e9465a1a2eef5ef6b1e2b67bd1bc5",
+      "bytes": 4084
+    },
+    {
+      "path": "03_research/phase1/04_RESEARCH_SUPER_PROMPT.md",
+      "sha256": "dbae39888f29bfc2b4664a889d0fd49eeb45af7f22416106a19e7080626cdf66",
+      "bytes": 15082
+    },
+    {
+      "path": "03_research/phase1/05_EXPECTED_OUTPUT_STRUCTURE.md",
+      "sha256": "70bf7ad6ecef4178c2c8869c87187dccc02538a39ee95fa20533c26557b10603",
+      "bytes": 2682
+    },
+    {
+      "path": "03_research/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md",
+      "sha256": "3303fc63ad897c15ecf23f8f7824d39234c13bf2b54d99188d8eaf35e59e6f28",
+      "bytes": 60093
+    },
+    {
+      "path": "04_architecture/DECISION_TEST_VECTORS.md",
+      "sha256": "c26a9c861e97dc661846dfe63952454bb3846b602b7c438896417223c82976bd",
+      "bytes": 2086
+    },
+    {
+      "path": "04_architecture/README.md",
+      "sha256": "76a70616069cb4a13ddfccd3044b72690c56f07031272fbf9e988afb06c8241d",
+      "bytes": 451
+    },
+    {
+      "path": "04_architecture/REPO_STRUCTURE.md",
+      "sha256": "360b8c1affc0ab2f49372adcf21a65df0103ecae6c778ac375007d97bd4458c6",
+      "bytes": 1460
+    },
+    {
+      "path": "04_architecture/V3_2_COMPATIBILITY_MATRIX.md",
+      "sha256": "857a85425760955739e4b25bde475ebee9d8da56e291c9f5eb5e9ff7c94dea43",
+      "bytes": 2317
+    },
+    {
+      "path": "04_architecture/baseline/CHANGE_CONTROL.md",
+      "sha256": "4d41d724803024f857f66270699302a0de45654649cf9224d6ed3452e38ab43f",
+      "bytes": 893
+    },
+    {
+      "path": "04_architecture/baseline/FROZEN_TECHNICAL_DECISIONS.md",
+      "sha256": "073a919c5d8570ed747e3bc555549ec709df88ef95ac994b80e26192e39c58d3",
+      "bytes": 1332
+    },
+    {
+      "path": "04_architecture/baseline/SYSTEM_BOUNDARIES.md",
+      "sha256": "698636562d5a16bbf7ad5281839498a212ec57da60292946ea6c0567e3a983f9",
+      "bytes": 812
+    },
+    {
+      "path": "04_architecture/baseline/V3_2_BASELINE_SUMMARY.md",
+      "sha256": "41def20fd8bdc1824f00179c4d92f5a1731fb034f4aae06006574c70963e671d",
+      "bytes": 1282
+    },
+    {
+      "path": "04_architecture/contracts/v3_2/README.md",
+      "sha256": "a9e7147592d6b8b6672466cfe6657e9e9e791e957398b9117d3fbbe56b46e507",
+      "bytes": 532
+    },
+    {
+      "path": "04_architecture/data_ml/ANALYTICS_TIME_MODEL.md",
+      "sha256": "1e5f35ffec66d6f23b79630f67250685af0d3c4334b5ca7290914e2f423bfe2d",
+      "bytes": 437
+    },
+    {
+      "path": "04_architecture/data_ml/DECISION_EVENT_LIFECYCLE.md",
+      "sha256": "f8782e5fde19afdd8087fe123fd2bd2a43b9b58f6763bba81b6e11f3e8fd7879",
+      "bytes": 692
+    },
+    {
+      "path": "04_architecture/data_ml/LEARNING_INTELLIGENCE_GUARDRAILS.md",
+      "sha256": "6782759fa63f2854a50cac09469c44fe69564af264ad17558c4ca2888007cb4a",
+      "bytes": 847
+    },
+    {
+      "path": "05_code/.env.example",
+      "sha256": "78953c3c1b2da4961604b2c71db5d16540d76f0bda82b1d495bcacddbe6c5053",
+      "bytes": 134
+    },
+    {
+      "path": "05_code/README.md",
+      "sha256": "2407e20b112cc322e540563aef4d6f0ac809bea76597a12b2b0cbb6324e8c33c",
+      "bytes": 479
+    },
+    {
+      "path": "05_code/apps/learner/integration_test/boot_test.dart",
+      "sha256": "bceb3f33716c0adf4f8fb8d8ecd68dfbe33766001c3aade4727b92c305c55d7c",
+      "bytes": 422
+    },
+    {
+      "path": "05_code/apps/learner/lib/main.dart",
+      "sha256": "75ec2330c0535867606f0e4bfe8300cb90ee9f9ba0984e387076b81a67f0c93a",
+      "bytes": 1023
+    },
+    {
+      "path": "05_code/apps/learner/pubspec.yaml",
+      "sha256": "1e9863b2554fd032dc766784a0e1ef24288839fa2ceb9e6937147953b36778bb",
+      "bytes": 328
+    },
+    {
+      "path": "05_code/apps/learner/test/widget_test.dart",
+      "sha256": "c3f4f673ae53dfa212d0253f0236c68c67956e2ed8af9b0037b63e11dc9bc537",
+      "bytes": 417
+    },
+    {
+      "path": "05_code/apps/staff/integration_test/boot_test.dart",
+      "sha256": "3bf135c94d81acf23a9287d87bb9ddd0850f2f0b8144759cab36ad5bfca5bf4a",
+      "bytes": 419
+    },
+    {
+      "path": "05_code/apps/staff/lib/main.dart",
+      "sha256": "aaf2bf7dfe92f75ff9578a83b660c9b74e3bbf00e7de4a8350ad6f73e6c8be09",
+      "bytes": 1021
+    },
+    {
+      "path": "05_code/apps/staff/pubspec.yaml",
+      "sha256": "25fd52a87fe507bca117d9491220805a0c67a65ab68b6b38e54edc94660fe3ed",
+      "bytes": 324
+    },
+    {
+      "path": "05_code/apps/staff/test/widget_test.dart",
+      "sha256": "96e77d10a3db2d893c79debec8e9aca0b48d44c6c738e1da0f16acae5d040809",
+      "bytes": 414
+    },
+    {
+      "path": "05_code/backend/Dockerfile",
+      "sha256": "9eb8bfd4d83e2e8521557c4162db001bda14461238454618eaaea165888abdc5",
+      "bytes": 459
+    },
+    {
+      "path": "05_code/backend/pyproject.toml",
+      "sha256": "c913f72a5977fd477ebd88cba440e05056c683c9ddc58b2d6f3778ff4031a3ca",
+      "bytes": 621
+    },
+    {
+      "path": "05_code/backend/requirements.lock",
+      "sha256": "1318d832e8cbd10df9f329ee886b3311096dcafea1b99d0b699503a834e4193e",
+      "bytes": 411
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/__init__.py",
+      "sha256": "f8f96e3f44b19994edb28999f7a6646215c764a41ba2410b9096251eca64cc61",
+      "bytes": 74
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/api.py",
+      "sha256": "c6c61ead5b48767c5c53336582a9d37bee3602625b22a19d72fa282613918511",
+      "bytes": 1759
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/cli.py",
+      "sha256": "3fe8d2e904c9cd7a1051976ed16f585a101f28a70ab819c3626091116492b477",
+      "bytes": 1091
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/config.py",
+      "sha256": "3c082c0262692731844cf97f8f1d5e24eab002cf98a0c9a7cc8e4dc14a4a2b70",
+      "bytes": 839
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/db.py",
+      "sha256": "6aca74432dbf27e40aacc50001d112cf566482eb2ded3acf52107665b3060542",
+      "bytes": 2041
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/logging.py",
+      "sha256": "be3f7a2ad7782140f861a5342bd6c2d3f114514b984952269998b74cc9d4b139",
+      "bytes": 740
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/migrations/001_runtime_probe.sql",
+      "sha256": "3478aa99152f90dacb3d1345b9c6bbe318c25293dbe22ac4022c17672e7f3129",
+      "bytes": 826
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/migrations/002_worker_heartbeat.sql",
+      "sha256": "080420bc964cabb802277feab22fc42db5f14c994a78fdc57796d2aa6466514a",
+      "bytes": 143
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/ports.py",
+      "sha256": "50761e17b2693eae8250b7aea027c1fc4aa5aa3eb9f6c8c4ac69ecef6cdb13e9",
+      "bytes": 366
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/storage.py",
+      "sha256": "b1d238ef94efa0c9de2965184251d613bcec22974edb499e99d38eddc19b3687",
+      "bytes": 1991
+    },
+    {
+      "path": "05_code/backend/src/all_foundation/worker.py",
+      "sha256": "6fb0bbfd3131bc206c12be57d91aa842b6019b2c49d772290d77131c95d1096e",
+      "bytes": 5994
+    },
+    {
+      "path": "05_code/backend/tests/conftest.py",
+      "sha256": "3989b433a088f85a70ee2279e7121c34b0569e254040a633f56e058040cb997c",
+      "bytes": 675
+    },
+    {
+      "path": "05_code/backend/tests/test_postgres.py",
+      "sha256": "b7d586d14dcad252c04df7beb159601caf9dc48f1be4ebe7346db70f5cacb977",
+      "bytes": 4130
+    },
+    {
+      "path": "05_code/backend/tests/test_unit.py",
+      "sha256": "ef7a6f0f035fc660a895c38515de97e380fcaa99156758185481726df3be56d2",
+      "bytes": 2098
+    },
+    {
+      "path": "05_code/compose.yaml",
+      "sha256": "c96b74f1d74bbcf3826d265b05db2edc13d2d0bcc1f8e71e56567d333b4a0259",
+      "bytes": 1486
+    },
+    {
+      "path": "06_quality/README.md",
+      "sha256": "5ae90204ca260a7b26f8cf9c36446227ab58fcbba56ebaf073c7b5340fcf7327",
+      "bytes": 346
+    },
+    {
+      "path": "06_quality/evidence/VERIFICATION_REPORT.md",
+      "sha256": "4ccedc53b3436bd6cef8b661a9f3419017758352977cb0ee61bd82a1b9c90aa1",
+      "bytes": 2237
+    },
+    {
+      "path": "06_quality/evidence/api-http-smoke.json",
+      "sha256": "5d29516b12357addfe03ae3cdee6f559c825973386d5f5cc4111c5443e94b773",
+      "bytes": 283
+    },
+    {
+      "path": "06_quality/evidence/api-process.log",
+      "sha256": "58b52dc5ccbecd362b6bce8497d494743cd0262f7a2df6c5bb35c208e2419a13",
+      "bytes": 1093
+    },
+    {
+      "path": "06_quality/evidence/backend-final-verification.log",
+      "sha256": "e77ba2ecc799661ab0b376ec138490be354c77d9ffb98a8abea826eeb4876726",
+      "bytes": 1368
+    },
+    {
+      "path": "06_quality/evidence/backend-unit.log",
+      "sha256": "56f5bfa96d25d5381f7693f2eea538d79408cebbd1f94ca08a9e0f3eb8a60a6b",
+      "bytes": 624
+    },
+    {
+      "path": "06_quality/evidence/backend-unit.xml",
+      "sha256": "b507ac7e444ddd34b9dd5ee5d6f158cc0de8255e14bf5fc5a47dbaa3d5dc9716",
+      "bytes": 3419
+    },
+    {
+      "path": "06_quality/evidence/clean-backend-setup.log",
+      "sha256": "7a626d468fabc8c17d298d0bdb86d1e4479bb61fcf5edeb6b7fb1b3800d89340",
+      "bytes": 8052
+    },
+    {
+      "path": "06_quality/evidence/flutter-toolchain.log",
+      "sha256": "229db0286e8be30d16caafe3affc0fb8b09ebe1f9f5f191664a4466a83b5e4ea",
+      "bytes": 1757
+    },
+    {
+      "path": "06_quality/evidence/install-backend.log",
+      "sha256": "c9bade161ff0cf3b63bc1a058c67be227085046c0337dd52f4965b3c620135a5",
+      "bytes": 5194
+    },
+    {
+      "path": "06_quality/evidence/lint.log",
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "bytes": 19
+    },
+    {
+      "path": "06_quality/evidence/original-contract-gate.log",
+      "sha256": "f20cbc8b04b4a84612bcf47d0f0d36727882e56660c1da809262f06d991f4bdf",
+      "bytes": 136
+    },
+    {
+      "path": "06_quality/evidence/reinstall-final-source.log",
+      "sha256": "95bd8d76cf2c0fd19d808815342d83a2a11a9de34a409f52e938b73f02f58086",
+      "bytes": 1335
+    },
+    {
+      "path": "06_quality/evidence/status.json",
+      "sha256": "6193c8adce78995d388550f4489534fa0c5ae8e5021b0a73fb9c982f3dfe4bcc",
+      "bytes": 427
+    },
+    {
+      "path": "06_quality/evidence/storage-smoke.log",
+      "sha256": "01a37e1be78b2176db96de5588fd091f3944f756e75cdf4cebe0ad24f2142b1a",
+      "bytes": 53
+    },
+    {
+      "path": "06_quality/evidence/worker-boot-attempt.log",
+      "sha256": "a708c0845ca2ebbcefac5c7185889ec96819d242766acc4b0e0fb4ffc4f014a2",
+      "bytes": 146
+    },
+    {
+      "path": "06_quality/gates/PHASE_1_GATE.md",
+      "sha256": "eebc04fab1a8cb18f7be430b24d936840406f37b2f7727d031ca2c4cd79359c2",
+      "bytes": 3704
+    },
+    {
+      "path": "06_quality/standards/CODING_STANDARDS.md",
+      "sha256": "feaba9e6337fe404252eb81169b941abc76ed0901b1cc15a1efe6193fe7814fb",
+      "bytes": 1554
+    },
+    {
+      "path": "06_quality/standards/DEFINITION_OF_DONE.md",
+      "sha256": "d66ab09097aa791384f5acc6f811f0dd53d1d3d02aa599ffb82b92084d4b258c",
+      "bytes": 1359
+    },
+    {
+      "path": "06_quality/standards/TEST_STRATEGY.md",
+      "sha256": "3e5de9551df1c0926aac01300575d008c677d8307afef6c3f47aa59cda7f37e8",
+      "bytes": 3066
+    },
+    {
+      "path": "07_operations/README.md",
+      "sha256": "5b7083a55e0cae9d8b67227d1660f015b4c10ad0485f45e7c2565f1cfe200e59",
+      "bytes": 219
+    },
+    {
+      "path": "07_operations/docs/CI_CD.md",
+      "sha256": "c8aac3baf5235dbdc46be4f611647f201d95772e1944c69e3e568307f313e6fb",
+      "bytes": 1863
+    },
+    {
+      "path": "07_operations/docs/CONFIG_AND_SECRETS.md",
+      "sha256": "de9a8aac8ba6100042e4aab94ed50728d1b04ccbe73b9dd2200e65770201a1a7",
+      "bytes": 1418
+    },
+    {
+      "path": "07_operations/docs/DATABASE_BOOTSTRAP_AND_MIGRATIONS.md",
+      "sha256": "bf85dc14077831c10d38538de88686098fe3bb704b8b8e086fb887180ef25139",
+      "bytes": 1919
+    },
+    {
+      "path": "07_operations/docs/ENVIRONMENTS.md",
+      "sha256": "99e38fe76ff50b13babb7409268c2fea16fe72c00094443f6a69aba002375df8",
+      "bytes": 1777
+    },
+    {
+      "path": "07_operations/scripts/bootstrap_clients.sh",
+      "sha256": "fa85ccf7faea931dfebc7f6914578ee7e8092ab5b9845953b027cd6377d456bc",
+      "bytes": 444
+    },
+    {
+      "path": "07_operations/scripts/check_original_contracts.py",
+      "sha256": "c20bb3d92d2a1a2a6277c8352886bcfae6bd80917d35e5add8cc5ced7d6990b7",
+      "bytes": 263
+    },
+    {
+      "path": "07_operations/scripts/clean_setup.sh",
+      "sha256": "de901cd73f98809716bf83b8db78408b124c87970ef5deb3b02c10d36cc3ad84",
+      "bytes": 446
+    },
+    {
+      "path": "07_operations/scripts/smoke_api.py",
+      "sha256": "f1365f062a8425b6046d7515e209d6d3b78b337da0ca86ec989090ea741b37d6",
+      "bytes": 2060
+    },
+    {
+      "path": "07_operations/scripts/verify_backend.sh",
+      "sha256": "b8d161d94ee74879fc76af1119b22e831dbcb5bfaeb684024495ad5a2a88f732",
+      "bytes": 524
+    },
+    {
+      "path": "08_handoff/README.md",
+      "sha256": "48c9184adf617c8842cbf416d668b5ae7b6bb1798baa04f56c5b52e5491d1e4d",
+      "bytes": 255
+    },
+    {
+      "path": "08_handoff/RELEASE_CHECK.md",
+      "sha256": "4d0106cd0ce6cb9ea6e6012cf5b2a7c0cf2ac2febd1fbffe4adc7bd5ea6be4e0",
+      "bytes": 1068
+    },
+    {
+      "path": "08_handoff/provenance/Adaptive_Learning_Phase1_Source_2026-09-23.bundle",
+      "sha256": "8728d6657e87181130950b0570b76bdaa95b3d2d66557d3ce77dae12358430cb",
+      "bytes": 64315
+    },
+    {
+      "path": "08_handoff/provenance/CANONICAL_REVISION.txt",
+      "sha256": "a1928d4ab0a0e65370d90ea06f02180d8ae96c9bd145c10a4eeef083eeb5e8a3",
+      "bytes": 41
+    },
+    {
+      "path": "08_handoff/provenance/Mingo_Canonical_2026-09-24.bundle",
+      "sha256": "fb872fc5cccd9f10782518e3a70c80fdeed5568e189a2383cae1780036ec4559",
+      "bytes": 427959
+    },
+    {
+      "path": "08_handoff/provenance/ORIGINAL_FULL_PACK_MANIFEST_SHA256.json",
+      "sha256": "43f3e6aaa1cbfebd601479660a117d991fec960d4db4ed28a4e21727702bcf0b",
+      "bytes": 16604
+    },
+    {
+      "path": "08_handoff/provenance/ORIGINAL_SOURCE_REVISION.txt",
+      "sha256": "071fbbbddef603206c081dd952a25495114050abf09d9458350c7ffb25bf82a6",
+      "bytes": 41
+    },
+    {
+      "path": "08_handoff/provenance/PARENT_SOURCE_REVISION.txt",
+      "sha256": "071fbbbddef603206c081dd952a25495114050abf09d9458350c7ffb25bf82a6",
+      "bytes": 41
+    },
+    {
+      "path": "08_handoff/provenance/REORGANIZATION_RECORD.md",
+      "sha256": "7927b5af51d8151d0b1ab19050f97d599deff04058c41ab717bd97949aca8c9b",
+      "bytes": 1429
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/00_README_FIRST_VI.md",
+      "sha256": "98ce26ce4355451a813cda98bf5b775b21d762c6797a88696e7686dc5fe72225",
+      "bytes": 2446
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/01_FILE_INDEX.md",
+      "sha256": "b85c665833252edd79bd98e38d7373390b7f1166fa1a26df0b3a08a6f94352bb",
+      "bytes": 7699
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/Adaptive_Learning_Phase1_Source.bundle",
+      "sha256": "8728d6657e87181130950b0570b76bdaa95b3d2d66557d3ce77dae12358430cb",
+      "bytes": 64315
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/MANIFEST_SHA256.json",
+      "sha256": "43f3e6aaa1cbfebd601479660a117d991fec960d4db4ed28a4e21727702bcf0b",
+      "bytes": 16604
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/SOURCE_REVISION.txt",
+      "sha256": "071fbbbddef603206c081dd952a25495114050abf09d9458350c7ffb25bf82a6",
+      "bytes": 41
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/00_README_FIRST.md",
+      "sha256": "e7ca847f50469b482c7b6c89187d5d7e77a0611579876dabe4f9a9f2dc15733f",
+      "bytes": 2237
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/01_MASTER_MEMORY_TRANSFER.md",
+      "sha256": "cd9726e9226b43086ca1c27db889425758b84c15eea5dd7405d496c4c468dd84",
+      "bytes": 55325
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/02_ADAPTIVE_PROJECT_CONTEXT_PRE_RESEARCH.md",
+      "sha256": "e88121f05f9505b804cadb0a067e86eec9f7a1d5c7a9b0cfa7df1c95152f1684",
+      "bytes": 4791
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/03_PHASE1_SCIENTIFIC_RESEARCH_RESOLUTION.md",
+      "sha256": "3303fc63ad897c15ecf23f8f7824d39234c13bf2b54d99188d8eaf35e59e6f28",
+      "bytes": 60093
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/04_PROJECT_PROGRESS_SNAPSHOT_2026-09-23.md",
+      "sha256": "5e9fdf995e360a7ba37c64de2de81d79ed6b1ecc5c1b7d947d65e0511cd6c991",
+      "bytes": 10392
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/05_PHASE1_DECISION_REGISTER.md",
+      "sha256": "6892685ac330eb55f21670511cafb1b3a617ee23465c35bb49a8fb0c71456d9a",
+      "bytes": 5382
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/06_CURRENT_WORK_QUEUE.md",
+      "sha256": "1ba053191a8bdf78926c0aa69f5c8207e1d4605ea9ab3a72fae431c21c82164d",
+      "bytes": 3204
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/07_MASTER_EXECUTION_PROMPT_CONTINUE_NOW.md",
+      "sha256": "62a7aa4cd1b8f6c3dc7a2af4b322618cafe0d105953a36daccf6a627fc1ae694",
+      "bytes": 11494
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/08_NEW_ACCOUNT_BOOTSTRAP_MESSAGE.md",
+      "sha256": "77ea758358482e0af27d911be112936620832aac5a4309a27dddbdd32e9c71d5",
+      "bytes": 1756
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/09_EXTERNAL_ARTIFACT_CHECK.md",
+      "sha256": "43c9a7476a8ed0565359a87f27a9e2eb32040ca03cbbe72f223a4197c18314b3",
+      "bytes": 965
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A1_RESEARCH_QUESTIONS_18.md",
+      "sha256": "2e19e518f400c1d09524dfa14f6bd0f5ff1e9465a1a2eef5ef6b1e2b67bd1bc5",
+      "bytes": 4084
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A2_PHASE1_RESEARCH_SUPER_PROMPT.md",
+      "sha256": "dbae39888f29bfc2b4664a889d0fd49eeb45af7f22416106a19e7080626cdf66",
+      "bytes": 15082
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/continuous_handoff/archive/A3_RESEARCH_EXPECTED_OUTPUT.md",
+      "sha256": "70bf7ad6ecef4178c2c8869c87187dccc02538a39ee95fa20533c26557b10603",
+      "bytes": 2682
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/01_Adaptive_Learning_Phase1_Execution_Pack_2026-09-23_reviewed.zip",
+      "sha256": "7797c6b47b4d309fef5b21caa6185362c44af8392eec2f28a4580ca0ff9fad19",
+      "bytes": 71395
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/02_Adaptive_Learning_FINAL_Continuous_Handoff_2026-09-23.zip",
+      "sha256": "6424d1b43d7378a1a163b0b1a072b38551e99a90277ab0c66fa3ce70fa083bc2",
+      "bytes": 74366
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/03_01-adaptive_language_learning_project_handoff_2026-09-23.zip",
+      "sha256": "c1f0cd58de42208b88301f9edb11e3792395bff498d9dd5f6bcd16fa89081500",
+      "bytes": 32236
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/original_packages/04_02-Adaptive_Learning_Phase1_Scientific_Research_Handoff_2026-09-23.zip",
+      "sha256": "69d8a7992045301dc9fba7cd38dc8a20776452845738cd1bc9e7f2278ec7ad34",
+      "bytes": 35577
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/DECISION_REGISTER.md",
+      "sha256": "d4288922178cfea658da2ea53778d8f02008dc863d5f3c14bf7b43579b05e3cb",
+      "bytes": 2330
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/MASTER_PROJECT_SNAPSHOT.md",
+      "sha256": "4527fd9cfcfc99bc17705dcf57ccd0c8a2248328403396c0ae9536b6b585e293",
+      "bytes": 2947
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/PROJECT_CHRONOLOGY.md",
+      "sha256": "28645c8e34da248995f0629e07ecff3fed65da04df4fd8083b3d9b831bd283a8",
+      "bytes": 1752
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/00_overview/STATUS_MATRIX.md",
+      "sha256": "3c631d2643ce6f1ca950db104fc10b94e9ee7f584109081063b66af6475c563e",
+      "bytes": 1335
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/01_product/NAME_EXPLORATION_NOTES.md",
+      "sha256": "4221a80009d26d37f7c88bb7ffe0766cf2844186189e52401571e2f13683362f",
+      "bytes": 423
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/01_product/PRODUCT_VISION_AND_POSITIONING.md",
+      "sha256": "23c313fdadf2dc3e14e81a10cfaea0897a1b1ae841d9d7b740208a1d30c27606",
+      "bytes": 1611
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/CHANGE_CONTROL.md",
+      "sha256": "4d41d724803024f857f66270699302a0de45654649cf9224d6ed3452e38ab43f",
+      "bytes": 893
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/FROZEN_TECHNICAL_DECISIONS.md",
+      "sha256": "073a919c5d8570ed747e3bc555549ec709df88ef95ac994b80e26192e39c58d3",
+      "bytes": 1332
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/SYSTEM_BOUNDARIES.md",
+      "sha256": "698636562d5a16bbf7ad5281839498a212ec57da60292946ea6c0567e3a983f9",
+      "bytes": 812
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/02_architecture/V3_2_BASELINE_SUMMARY.md",
+      "sha256": "41def20fd8bdc1824f00179c4d92f5a1731fb034f4aae06006574c70963e671d",
+      "bytes": 1282
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/03_roadmap/ROADMAP_PHASE_0_TO_17.md",
+      "sha256": "b84bafffc3f599d0c95117e7a3888653603c4d21eb5136652fe030ac17d21af5",
+      "bytes": 1048
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/03_roadmap/WORKING_RULES.md",
+      "sha256": "c17b928f9c8c66ff3eaa7b9b7272871d81fdd3d17ff140359cd591ee91b9da7e",
+      "bytes": 898
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_ACCEPTANCE_CHECKLIST.md",
+      "sha256": "cae18dd5f120944d481ad9f40bade94968d3439dc21aa70472ebd0d8726d577a",
+      "bytes": 1693
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_DEFINITION.md",
+      "sha256": "1d16e2f889bfc90535eaaab3676efabe2fe4449aff6a65f7901ef3dbaac4c8eb",
+      "bytes": 1433
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/04_phase_1_foundation/PHASE_1_RISKS_AND_OPEN_ITEMS.md",
+      "sha256": "b3de2e5a541e2b697e9838534802e8bbe87a69c5e9ce0958a4b55093b2845f30",
+      "bytes": 580
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/05_learning_design/PILOT_AND_CONTENT_CONSTRAINTS.md",
+      "sha256": "1b22be0747430db59da8bd0761ed7ba9b29b18fdee17209e50426f9052d2d6bd",
+      "bytes": 898
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/05_learning_design/SHORT_SESSION_LEARNING_DIRECTION.md",
+      "sha256": "3c92084cb13130a283d934ad130953c413e6b1d34cf6e1ac72509ab6f393522d",
+      "bytes": 1619
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/ANALYTICS_TIME_MODEL.md",
+      "sha256": "1e5f35ffec66d6f23b79630f67250685af0d3c4334b5ca7290914e2f423bfe2d",
+      "bytes": 437
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/DECISION_EVENT_LIFECYCLE.md",
+      "sha256": "f8782e5fde19afdd8087fe123fd2bd2a43b9b58f6763bba81b6e11f3e8fd7879",
+      "bytes": 692
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/06_data_ml/LEARNING_INTELLIGENCE_GUARDRAILS.md",
+      "sha256": "6782759fa63f2854a50cac09469c44fe69564af264ad17558c4ca2888007cb4a",
+      "bytes": 847
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/07_quality_ops/QUALITY_SECURITY_RUNTIME_PRINCIPLES.md",
+      "sha256": "a1b53f8f78f144674eaef77b9a96d679cfa70153182b05916d18721bca5c5ad6",
+      "bytes": 688
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/CONTINUE_PROJECT_SUPER_PROMPT.md",
+      "sha256": "9211b3a123c4ecde8a68430439ea4776d7214f4526cb8279fe267f6c6584c9a8",
+      "bytes": 4326
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/CONVERSATION_HISTORY_DIGEST.md",
+      "sha256": "6f69d9d4634074f0cac4ddfd71559d8114704672bd1c2e829d398e32acb2a1af",
+      "bytes": 1328
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/MISSING_SOURCE_ARTIFACTS.md",
+      "sha256": "4a573d444cecc8ff869c311c958facb668cabbbb19e10cc74a7d6aed7c42ac0b",
+      "bytes": 976
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/08_handoff/SOURCE_IMPORT_GUIDE.md",
+      "sha256": "aed804be0a8ca7c1263cd98a5f8002a1b4cbed76b0e7de6288fab6d99a31c604",
+      "bytes": 736
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/09_legacy_kltn/LEGACY_RESEARCH_CONTEXT.md",
+      "sha256": "53128217d8dbbcbe674b042fe0622fdea745113ee06b9b5e6d7640cda752f623",
+      "bytes": 967
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/project/adaptive_language_learning_project_handoff_2026-09-23/README.md",
+      "sha256": "3ec1e0bfa7c3f7215f17f47e9e1f0f027c5aebf2bf0b928f078333f97244f9cc",
+      "bytes": 2101
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/00_README.md",
+      "sha256": "3ce94d4a5a4e58a82b62b0b4262f6fe680b378abd8f5cb4db6d09bf87d187ac7",
+      "bytes": 1187
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/01_MASTER_MEMORY_TRANSFER.md",
+      "sha256": "cd9726e9226b43086ca1c27db889425758b84c15eea5dd7405d496c4c468dd84",
+      "bytes": 55325
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/02_ADAPTIVE_PROJECT_CONTEXT.md",
+      "sha256": "e88121f05f9505b804cadb0a067e86eec9f7a1d5c7a9b0cfa7df1c95152f1684",
+      "bytes": 4791
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/03_RESEARCH_QUESTIONS_18.md",
+      "sha256": "2e19e518f400c1d09524dfa14f6bd0f5ff1e9465a1a2eef5ef6b1e2b67bd1bc5",
+      "bytes": 4084
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/04_SUPER_PROMPT.md",
+      "sha256": "dbae39888f29bfc2b4664a889d0fd49eeb45af7f22416106a19e7080626cdf66",
+      "bytes": 15082
+    },
+    {
+      "path": "99_archive/Adaptive_Learning_Phase1_Full_Pack_2026-09-23/history/research/05_EXPECTED_OUTPUT_STRUCTURE.md",
+      "sha256": "70bf7ad6ecef4178c2c8869c87187dccc02538a39ee95fa20533c26557b10603",
+      "bytes": 2682
+    },
+    {
+      "path": "99_archive/OLD_DOCS_README_2026-09-23.md",
+      "sha256": "2a84dd3856827e74685acfebf1923814475efb0d20743b4c0b8abb9d3ccef6dc",
+      "bytes": 385
+    },
+    {
+      "path": "99_archive/README.md",
+      "sha256": "9a221617ff453c080ff0c0a2e76c1a6804ca96487e14b17beb5c08721e145fba",
+      "bytes": 338
+    },
+    {
+      "path": "PROJECT_MAP.md",
+      "sha256": "aace26c76132b7c7868a3cac5f9e4b03839092b548e0b3cb9ad88030c6ee641f",
+      "bytes": 1859
+    },
+    {
+      "path": "README.md",
+      "sha256": "6c8a13fd2b9ce127d5487a33a24c6faf8d157c7c0c37b34748c5798cc4f0622a",
+      "bytes": 3013
+    },
+    {
+      "path": "REPO_RULES.md",
+      "sha256": "becc6ccb081ec222477826e2f7b1106e3f28d03614bc8691255b9f54d6c4f9e7",
+      "bytes": 1106
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "1a68f4faf6fb1bfe52978e2bb2242cb57230e73b89b318cdd4e272176cca4e7f",
+      "bytes": 3112
+    }
+  ]
+}

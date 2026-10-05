@@ -1,0 +1,24 @@
+{
+  "provenance": "RERUN NOW",
+  "utc": "2026-10-03T04:13:07.016037+00:00",
+  "apk": {
+    "repo_path": "01_San_pham/apps/learner/build/app/outputs/flutter-apk/app-release.apk",
+    "mode": "release",
+    "bytes": 26034345,
+    "release_signing": "Generated local debug signing; not production release",
+    "entrypoint": "lib/main.dart",
+    "sha256": "ddaa2b02bf112082bc474fbfb37da05b3e5445cd616e66a9817588a9fdf65130"
+  },
+  "aab": {
+    "repo_path": "01_San_pham/apps/learner/build/app/outputs/bundle/release/app-release.aab",
+    "bytes": 44977818,
+    "note": "Bundle size is not Play delivery size; local generated signing only",
+    "sha256": "e8a2a759bf153d6c58979de819a323fe0e6ba604ccc302b81e2a5c6d668eecf3"
+  },
+  "web": [
+    "01_San_pham/apps/learner/build/web",
+    "01_San_pham/apps/staff/build/web"
+  ],
+  "production_deployment": false,
+  "human_approval": "PENDING"
+}

@@ -1,0 +1,10 @@
+00:00 +0: loading C:/Mingo/01_San_pham/apps/learner/integration_test/boot_test.dart
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:/Mingo/.local/java-tmp
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Running Gradle task 'assembleDebug'...                             42,3s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        1.391ms
+00:00 +0: V2 boots with an honest review boundary
+00:02 +1: (tearDownAll)
+00:02 +1: All tests passed!

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "receipt_lookup_v1.schema.json",
+  "title": "receipt_lookup",
+  "type": "object",
+  "required": [
+    "receipt",
+    "current_canonical_state"
+  ],
+  "properties": {
+    "receipt": {
+      "$ref": "command_receipt_v1.schema.json"
+    },
+    "current_canonical_state": {
+      "anyOf": [
+        {
+          "$ref": "current_canonical_state_v1.schema.json"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}

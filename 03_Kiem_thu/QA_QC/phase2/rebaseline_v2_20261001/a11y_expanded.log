@@ -1,0 +1,45 @@
+00:00 +0: loading C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/fixture_test.dart
+00:00 +0: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: (setUpAll)
+00:00 +0: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-002 essential semantics labels targets and contrast
+00:01 +1: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-024 essential semantics labels targets and contrast
+00:01 +2: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-072 essential semantics labels targets and contrast
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: Text contrast should follow WCAG guidelines
+  Actual: <Instance of 'WidgetTester'>
+   Which: SemanticsNode#14(Rect.fromLTRB(24.0, 400.0, 388.0, 442.0), label: "Cỡ chữ theo cài đặt của
+thiết bị. Lựa chọn ở đây chỉ tồn tại trong bản xem trước.", textDirection: ltr):
+          Expected contrast ratio of at least 4.5 but found 4.01 for a font size of 14.0.
+          The computed colors was:
+          light - Color(alpha: 1.0000, red: 0.9804, green: 0.9765, blue: 0.9647, colorSpace:
+ColorSpace.sRGB), dark - Color(alpha: 1.0000, red: 0.4824, green: 0.4824, blue: 0.4902, colorSpace:
+ColorSpace.sRGB)
+          See also: https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html
+
+When the exception was thrown, this was the stack:
+#0      fail (package:matcher/src/expect/expect.dart:149:31)
+#1      _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:125:9)
+<asynchronous suspension>
+<asynchronous suspension>
+#8      expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:509:19)
+<asynchronous suspension>
+#9      main.<anonymous closure> (file:///C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart:96:7)
+<asynchronous suspension>
+#10     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:193:15)
+<asynchronous suspension>
+#11     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1064:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+The test description was:
+  L-072 essential semantics labels targets and contrast
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +2 -1: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: L-072 essential semantics labels targets and contrast [E]
+  Test failed. See exception logs above.
+  The test description was: L-072 essential semantics labels targets and contrast
+  
+00:01 +2 -1: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: S-010 essential semantics labels targets and contrast
+00:01 +3 -1: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: S-035 essential semantics labels targets and contrast
+00:02 +4 -1: C:/Mingo/01_San_pham/cong_cu_phat_trien/mingo_ui/test/presentation_test.dart: (tearDownAll)
+00:02 +4 -1: Some tests failed.

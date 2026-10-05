@@ -1,0 +1,49 @@
+{
+  "id": "QA-BIZ-011",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-27T14:58:23.257Z",
+  "ended": "2026-09-27T14:58:23.454Z",
+  "expected": "Displayed reason matches defined reason category; no invented psychological cause.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Start cycle"
+  ],
+  "observed": "Mingo\nSynced\nLEARNING CYCLE\nBasic greetings\n\nVocabulary · 1 of 8\n\nBasic greetings\n\nReview what’s due, learn one small idea, retrieve it, use it differently, then do an independent Check.\n\nAbout 5 min · Due for review. Duration is a configurable product hypothesis.\n\nBegin",
+  "state": {
+    "surface": "learner",
+    "learner": "cycle",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

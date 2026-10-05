@@ -1,0 +1,423 @@
+{
+  "id": 36252349822,
+  "head_sha": "d4165e8acdffa4e0a747b11ac3e1c3c852674293",
+  "status": "completed",
+  "conclusion": "success",
+  "html_url": "https://github.com/Phucht59/mingo/actions/runs/36252349822",
+  "created_at": "2026-09-26T15:33:25Z",
+  "updated_at": "2026-09-26T15:37:58Z",
+  "jobs": [
+    {
+      "id": 108432611678,
+      "name": "backend",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Phucht59/mingo/actions/runs/36252349822/job/108432611678",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-09-26T15:33:30Z",
+          "completed_at": "2026-09-26T15:33:31Z"
+        },
+        {
+          "name": "Initialize containers",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-09-26T15:33:31Z",
+          "completed_at": "2026-09-26T15:33:44Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-09-26T15:33:44Z",
+          "completed_at": "2026-09-26T15:33:45Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-09-26T15:33:45Z",
+          "completed_at": "2026-09-26T15:33:45Z"
+        },
+        {
+          "name": "Run pip install -r 05_code/backend/requirements.lock && pip install --no-deps ./05_code/backend",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-09-26T15:33:45Z",
+          "completed_at": "2026-09-26T15:33:53Z"
+        },
+        {
+          "name": "Create disposable test database",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-09-26T15:33:53Z",
+          "completed_at": "2026-09-26T15:33:54Z"
+        },
+        {
+          "name": "Run RUN_POSTGRES=1 bash 07_operations/scripts/verify_backend.sh",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-09-26T15:33:54Z",
+          "completed_at": "2026-09-26T15:33:58Z"
+        },
+        {
+          "name": "Run python -m all_foundation.cli migrate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-09-26T15:33:58Z",
+          "completed_at": "2026-09-26T15:33:58Z"
+        },
+        {
+          "name": "Run python -m all_foundation.cli enqueue-probe --key ci-boot",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-09-26T15:33:58Z",
+          "completed_at": "2026-09-26T15:33:58Z"
+        },
+        {
+          "name": "Run python -m all_foundation.worker --once",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-09-26T15:33:58Z",
+          "completed_at": "2026-09-26T15:33:59Z"
+        },
+        {
+          "name": "Run python 07_operations/scripts/smoke_api.py --expect-ready",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-09-26T15:33:59Z",
+          "completed_at": "2026-09-26T15:33:59Z"
+        },
+        {
+          "name": "Run python -m all_foundation.cli storage-smoke",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2026-09-26T15:33:59Z",
+          "completed_at": "2026-09-26T15:34:00Z"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2026-09-26T15:34:00Z",
+          "completed_at": "2026-09-26T15:34:01Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 24,
+          "started_at": "2026-09-26T15:34:01Z",
+          "completed_at": "2026-09-26T15:34:02Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25,
+          "started_at": "2026-09-26T15:34:02Z",
+          "completed_at": "2026-09-26T15:34:02Z"
+        },
+        {
+          "name": "Stop containers",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 26,
+          "started_at": "2026-09-26T15:34:02Z",
+          "completed_at": "2026-09-26T15:34:02Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 27,
+          "started_at": "2026-09-26T15:34:02Z",
+          "completed_at": "2026-09-26T15:34:02Z"
+        }
+      ]
+    },
+    {
+      "id": 108432611844,
+      "name": "original-v3-2",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Phucht59/mingo/actions/runs/36252349822/job/108432611844",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-09-26T15:33:29Z",
+          "completed_at": "2026-09-26T15:33:30Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-09-26T15:33:30Z",
+          "completed_at": "2026-09-26T15:33:31Z"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-09-26T15:33:31Z",
+          "completed_at": "2026-09-26T15:33:32Z"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-09-26T15:33:32Z",
+          "completed_at": "2026-09-26T15:33:37Z"
+        },
+        {
+          "name": "Run pip install -r 07_operations/requirements-v3_2.lock && pip check",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-09-26T15:33:37Z",
+          "completed_at": "2026-09-26T15:33:41Z"
+        },
+        {
+          "name": "Run python -m unittest discover -s 07_operations/tests -v",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-09-26T15:33:41Z",
+          "completed_at": "2026-09-26T15:33:41Z"
+        },
+        {
+          "name": "Run python 07_operations/scripts/check_original_contracts.py",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-09-26T15:33:41Z",
+          "completed_at": "2026-09-26T15:33:44Z"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-09-26T15:33:44Z",
+          "completed_at": "2026-09-26T15:33:45Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14,
+          "started_at": "2026-09-26T15:33:45Z",
+          "completed_at": "2026-09-26T15:33:45Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-09-26T15:33:45Z",
+          "completed_at": "2026-09-26T15:33:45Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-09-26T15:33:45Z",
+          "completed_at": "2026-09-26T15:33:46Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-09-26T15:33:46Z",
+          "completed_at": "2026-09-26T15:33:46Z"
+        }
+      ]
+    },
+    {
+      "id": 108432611896,
+      "name": "flutter (staff)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Phucht59/mingo/actions/runs/36252349822/job/108432611896",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-09-26T15:33:29Z",
+          "completed_at": "2026-09-26T15:33:30Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-09-26T15:33:30Z",
+          "completed_at": "2026-09-26T15:33:30Z"
+        },
+        {
+          "name": "Run subosito/flutter-action@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-09-26T15:33:30Z",
+          "completed_at": "2026-09-26T15:34:25Z"
+        },
+        {
+          "name": "Run bash 07_operations/scripts/bootstrap_clients.sh",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-09-26T15:34:25Z",
+          "completed_at": "2026-09-26T15:34:30Z"
+        },
+        {
+          "name": "Run flutter pub get",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-09-26T15:34:30Z",
+          "completed_at": "2026-09-26T15:35:16Z"
+        },
+        {
+          "name": "Run flutter build apk --debug",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2026-09-26T15:35:16Z",
+          "completed_at": "2026-09-26T15:35:16Z"
+        },
+        {
+          "name": "Post Run subosito/flutter-action@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-09-26T15:35:16Z",
+          "completed_at": "2026-09-26T15:35:16Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2026-09-26T15:35:16Z",
+          "completed_at": "2026-09-26T15:35:16Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2026-09-26T15:35:16Z",
+          "completed_at": "2026-09-26T15:35:16Z"
+        }
+      ]
+    },
+    {
+      "id": 108432612475,
+      "name": "flutter (learner)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/Phucht59/mingo/actions/runs/36252349822/job/108432612475",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-09-26T15:33:29Z",
+          "completed_at": "2026-09-26T15:33:30Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-09-26T15:33:30Z",
+          "completed_at": "2026-09-26T15:33:31Z"
+        },
+        {
+          "name": "Run subosito/flutter-action@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-09-26T15:33:31Z",
+          "completed_at": "2026-09-26T15:34:17Z"
+        },
+        {
+          "name": "Run bash 07_operations/scripts/bootstrap_clients.sh",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-09-26T15:34:17Z",
+          "completed_at": "2026-09-26T15:34:20Z"
+        },
+        {
+          "name": "Run flutter pub get",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-09-26T15:34:20Z",
+          "completed_at": "2026-09-26T15:34:49Z"
+        },
+        {
+          "name": "Run flutter build apk --debug",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-09-26T15:34:49Z",
+          "completed_at": "2026-09-26T15:37:54Z"
+        },
+        {
+          "name": "Post Run subosito/flutter-action@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-09-26T15:37:54Z",
+          "completed_at": "2026-09-26T15:37:54Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2026-09-26T15:37:54Z",
+          "completed_at": "2026-09-26T15:37:54Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2026-09-26T15:37:54Z",
+          "completed_at": "2026-09-26T15:37:54Z"
+        }
+      ]
+    }
+  ]
+}

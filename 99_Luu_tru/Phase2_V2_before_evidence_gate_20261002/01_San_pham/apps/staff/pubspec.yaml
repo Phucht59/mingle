@@ -1,0 +1,19 @@
+name: adaptive_staff
+description: Mingo staff Phase 2 Quiet Exploration presentation.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  mingo_ui:
+    path: ../../cong_cu_phat_trien/mingo_ui
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true

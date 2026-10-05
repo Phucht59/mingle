@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-27T14:58:52.059179+00:00",
+  "commit": "070ff5111476e0ef8e004791ddbc21292f1115b4",
+  "working_tree_dirty": true,
+  "adapter_sha256": "6e19b556fcad7f7ce15a8cb1629da2790114568581bf40020ccd3d4128c42db6",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "status": "INTEGRITY_PASS_SUITES_NOT_RUN",
+  "commands": [],
+  "original_files_verified": 102,
+  "package_version": "3.2.0",
+  "manifest_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d"
+}

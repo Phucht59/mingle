@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 30 Thang Chin 2026 7:00:33 CH
+   Source : C:\Users\Ph£c\AppData\Local\Android\Sdk\
+     Dest : C:\Android\Sdk\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /MT:8 /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :      8208      8208         1         0         0         0
+   Files :     51182     51182         0         0         0         0
+   Bytes :  19.049 g  19.049 g         0         0         0         0
+   Times :   0:11:30   0:01:13                       0:00:00   0:00:10
+
+
+   Speed :           277.554.572 Bytes/sec.
+   Speed :             15881,800 MegaBytes/min.
+   Ended : 30 Thang Chin 2026 7:01:57 CH
+

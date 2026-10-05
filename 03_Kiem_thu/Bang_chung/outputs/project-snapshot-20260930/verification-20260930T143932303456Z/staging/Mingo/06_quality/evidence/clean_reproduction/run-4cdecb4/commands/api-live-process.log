@@ -1,0 +1,9 @@
+INFO:     Started server process [14292]
+INFO:     Waiting for application startup.
+{"time": "2026-09-26T15:07:46.346194+00:00", "level": "INFO", "event": "api.started", "component": "api", "request_id": null}
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8131 (Press CTRL+C to quit)
+{"time": "2026-09-26T15:07:46.854315+00:00", "level": "INFO", "event": "request.completed", "component": "api", "request_id": "ba488983-5dfa-41ad-be2c-f5780b0f3d10"}
+INFO:     127.0.0.1:59621 - "GET /health/ready HTTP/1.1" 200 OK
+{"time": "2026-09-26T15:07:49.609860+00:00", "level": "INFO", "event": "request.completed", "component": "api", "request_id": "5f85894d-2f9c-46a2-b333-95972510cc83"}
+INFO:     127.0.0.1:59643 - "GET /health/live HTTP/1.1" 200 OK

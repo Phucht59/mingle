@@ -1,0 +1,49 @@
+{
+  "id": "QA-ACC-008",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-29T18:06:34.503Z",
+  "ended": "2026-09-29T18:06:34.784Z",
+  "expected": "Error is communicated by text/icon, not red color alone.",
+  "steps": [
+    "Click: Staff",
+    "Click: Content",
+    "Click: Create draft",
+    "Click: Save draft",
+    "Click: Submit for review"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nDRAFT\nBasic greetings · Draft 4\n← Content\nItem type\nMultiple choice\nListening multiple choice\nDomain\nVocabulary\nGrammar\nListening\nPrompt\nRequired. Learner-facing prompt for this draft revision.\nCorrect answer\nFeedback\nSource / license\nPublication is blocked until provenance/license review passes.\nPrompt and correct answer are required.\nPublished revisions can’t be edited. This is a draft.\nSave draft\nPreview\nSubmit for review",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "editor",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

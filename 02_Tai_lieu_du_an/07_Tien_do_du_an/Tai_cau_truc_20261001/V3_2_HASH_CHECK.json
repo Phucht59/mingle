@@ -1,0 +1,743 @@
+{
+  "files": 105,
+  "source_files": 102,
+  "provenance_files": 3,
+  "mismatches": 0,
+  "checks": [
+    {
+      "old": "04_architecture/contracts/v3_2/source/FINALIZATION_REPORT_VI.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/FINALIZATION_REPORT_VI.md",
+      "before_sha256": "dad0e21b9ba7715ad8f42d22c649049a5b188f33bc57b984a81ad5f70df79e46",
+      "after_sha256": "dad0e21b9ba7715ad8f42d22c649049a5b188f33bc57b984a81ad5f70df79e46",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/IMPLEMENTATION_HANDOFF_PROMPT.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/IMPLEMENTATION_HANDOFF_PROMPT.md",
+      "before_sha256": "590df838b166dc5208a0f931159c4a5d6da650f1e8301c736409a6447e116cb9",
+      "after_sha256": "590df838b166dc5208a0f931159c4a5d6da650f1e8301c736409a6447e116cb9",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/MANIFEST.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/MANIFEST.json",
+      "before_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d",
+      "after_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/README.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/README.md",
+      "before_sha256": "af202458d3d693d16913fb6af061bf47824e35e9ca85f356b110714ca57f23ca",
+      "after_sha256": "af202458d3d693d16913fb6af061bf47824e35e9ca85f356b110714ca57f23ca",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/SQL_VALIDATION_REPORT.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/SQL_VALIDATION_REPORT.json",
+      "before_sha256": "db759a01e30fc8b76c44936a30b8ca6538c091eedcd5592a91c2c5edcfea7f01",
+      "after_sha256": "db759a01e30fc8b76c44936a30b8ca6538c091eedcd5592a91c2c5edcfea7f01",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/VALIDATION_REPORT.txt",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/VALIDATION_REPORT.txt",
+      "before_sha256": "754137383ec56f63180a05559fdac426f97ebf3ef4a9275fe098c0e794d861f1",
+      "after_sha256": "754137383ec56f63180a05559fdac426f97ebf3ef4a9275fe098c0e794d861f1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/activity_content.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/activity_content.json",
+      "before_sha256": "fc84f5a2654c31f145dc0be780b606c06d805b65b740571a5f661487af9b8f83",
+      "after_sha256": "fc84f5a2654c31f145dc0be780b606c06d805b65b740571a5f661487af9b8f83",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/evidence_manifest.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/evidence_manifest.json",
+      "before_sha256": "23447ece8d9e66a411f5d61944988d6284b0e36f982c509ea348e32e97dcc0cc",
+      "after_sha256": "23447ece8d9e66a411f5d61944988d6284b0e36f982c509ea348e32e97dcc0cc",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/feature_payload.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/feature_payload.json",
+      "before_sha256": "b3d8938e07a23d6a8f93cae5d5f13836281df95eeadd222489c4198f3d9c66a7",
+      "after_sha256": "b3d8938e07a23d6a8f93cae5d5f13836281df95eeadd222489c4198f3d9c66a7",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/horizon_fixture.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/horizon_fixture.json",
+      "before_sha256": "4102dc73a3af9f72610b7eeb6c49cac0ef534ab861ab967e9c55342e16ae1531",
+      "after_sha256": "4102dc73a3af9f72610b7eeb6c49cac0ef534ab861ab967e9c55342e16ae1531",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/model_fixture.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/model_fixture.json",
+      "before_sha256": "9974c055c77c7eacc2d57a69fcdc9aaf9104337f8601dc6f671f583ba1517875",
+      "after_sha256": "9974c055c77c7eacc2d57a69fcdc9aaf9104337f8601dc6f671f583ba1517875",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/preprocessing_fixture.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/preprocessing_fixture.json",
+      "before_sha256": "cde7a2fa6ab41336cae373a31b409a8ee86dd82e96139a18196486390b554e9c",
+      "after_sha256": "cde7a2fa6ab41336cae373a31b409a8ee86dd82e96139a18196486390b554e9c",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/progress_revision.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/progress_revision.json",
+      "before_sha256": "45583c6d2037b3b8c0a0136aee9fc2e43a08256fcb6212d04ef7cc42b6495409",
+      "after_sha256": "45583c6d2037b3b8c0a0136aee9fc2e43a08256fcb6212d04ef7cc42b6495409",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/registry.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/registry.json",
+      "before_sha256": "8db227193db0035faf3f509c0014643a9b5ca20531b2f996ceecce10e3a696c4",
+      "after_sha256": "8db227193db0035faf3f509c0014643a9b5ca20531b2f996ceecce10e3a696c4",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/resource_map.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/resource_map.json",
+      "before_sha256": "f3a66871542d26781d7b1469e29c91501649f8ee164abc2583a31389bd20cd9d",
+      "after_sha256": "f3a66871542d26781d7b1469e29c91501649f8ee164abc2583a31389bd20cd9d",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/scoring_revision.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/scoring_revision.json",
+      "before_sha256": "160f06959ee361b33a5f908e3ab110b585317c0dcdb02fb434a25e8a9e6f026c",
+      "after_sha256": "160f06959ee361b33a5f908e3ab110b585317c0dcdb02fb434a25e8a9e6f026c",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/server_only/scoring_key.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/server_only/scoring_key.json",
+      "before_sha256": "933cd2e36300bad148290a7fe5f89b76496f7895736fb4d3736ae1ff67f1b204",
+      "after_sha256": "933cd2e36300bad148290a7fe5f89b76496f7895736fb4d3736ae1ff67f1b204",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/target_fixture.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/target_fixture.json",
+      "before_sha256": "2c296e198f9bb1ef908d6f39a9562f3bd847e0caf628887afc3eeb22308f0543",
+      "after_sha256": "2c296e198f9bb1ef908d6f39a9562f3bd847e0caf628887afc3eeb22308f0543",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/artifacts/validation_fixture.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/artifacts/validation_fixture.json",
+      "before_sha256": "05799a3e88bd031077a9423a33ab989ef79d479af9ab81f666b0efff20449a80",
+      "after_sha256": "05799a3e88bd031077a9423a33ab989ef79d479af9ab81f666b0efff20449a80",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/contracts/command_digest_policy_v1.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/command_digest_policy_v1.json",
+      "before_sha256": "2cc359201a61b47368e4560c119f190583c9770fec1ec0162f26a4bf82eaae1f",
+      "after_sha256": "2cc359201a61b47368e4560c119f190583c9770fec1ec0162f26a4bf82eaae1f",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/contracts/core_ddl_postgresql.sql",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/core_ddl_postgresql.sql",
+      "before_sha256": "106ae5980783aa69bc242c6d17ee45ec360aa41bc63237f711b4c87a17c7fec7",
+      "after_sha256": "106ae5980783aa69bc242c6d17ee45ec360aa41bc63237f711b4c87a17c7fec7",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/contracts/event_catalog_v1.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/event_catalog_v1.json",
+      "before_sha256": "ad6b3c1cfc9afe683866cb6e0677af138315838357480f3ecb88e7c293a1b5d6",
+      "after_sha256": "ad6b3c1cfc9afe683866cb6e0677af138315838357480f3ecb88e7c293a1b5d6",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/contracts/openapi_vertical_slice_v1.yaml",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/openapi_vertical_slice_v1.yaml",
+      "before_sha256": "c7c03d0492ee8586094ee07ba04a4bb22528d8201648c1192af79b16053335ec",
+      "after_sha256": "c7c03d0492ee8586094ee07ba04a4bb22528d8201648c1192af79b16053335ec",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/contracts/reason_code_catalog_v1.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/reason_code_catalog_v1.json",
+      "before_sha256": "432bdceb4d255d421ff7fc694a5fb8f562691196a8d3894fd1d3ccc095670003",
+      "after_sha256": "432bdceb4d255d421ff7fc694a5fb8f562691196a8d3894fd1d3ccc095670003",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/contracts/scoring_policy_v1.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/contracts/scoring_policy_v1.json",
+      "before_sha256": "3c95c20413cf04e5994f3f35c58a7cf23805be86fa7c67f63d816560b9f7b7cd",
+      "after_sha256": "3c95c20413cf04e5994f3f35c58a7cf23805be86fa7c67f63d816560b9f7b7cd",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/00_FIX_MATRIX_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/00_FIX_MATRIX_V3.md",
+      "before_sha256": "dce21fafa9b903e1a705cb5f30dad86c3af8ad9f294b3c42f019dd641c7990a2",
+      "after_sha256": "dce21fafa9b903e1a705cb5f30dad86c3af8ad9f294b3c42f019dd641c7990a2",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/01_MASTER_BASELINE_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/01_MASTER_BASELINE_V3.md",
+      "before_sha256": "7b4e587a1992fa763e4ea5438c1cdfbb973ba08236a58413249d8e5ad7c85f49",
+      "after_sha256": "7b4e587a1992fa763e4ea5438c1cdfbb973ba08236a58413249d8e5ad7c85f49",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/02_MVP_INVARIANTS.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/02_MVP_INVARIANTS.md",
+      "before_sha256": "540dca0705d55757bc15513c360d7deb42a31880e3408d6c185a4cfdb5b388f1",
+      "after_sha256": "540dca0705d55757bc15513c360d7deb42a31880e3408d6c185a4cfdb5b388f1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/03_RECEIPT_SYNC_PROTOCOL.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/03_RECEIPT_SYNC_PROTOCOL.md",
+      "before_sha256": "aa626f755623f0bcb586b333bb2a03a524d7ee301beab65d58c9c73904df37cf",
+      "after_sha256": "aa626f755623f0bcb586b333bb2a03a524d7ee301beab65d58c9c73904df37cf",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/04_OFFLINE_CONTENT_ACCESS_PROTOCOL.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/04_OFFLINE_CONTENT_ACCESS_PROTOCOL.md",
+      "before_sha256": "b5b0edaac70ce9edb98a302ebaeb01f155437eab4487e9ceefd7da1287a31653",
+      "after_sha256": "b5b0edaac70ce9edb98a302ebaeb01f155437eab4487e9ceefd7da1287a31653",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/05_POINT_IN_TIME_SOURCE_CAPTURE.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/05_POINT_IN_TIME_SOURCE_CAPTURE.md",
+      "before_sha256": "45e21344c07fb8919815bfa3ad4e93ac6e9798665fdb5dc3c10885634bf3c3a0",
+      "after_sha256": "45e21344c07fb8919815bfa3ad4e93ac6e9798665fdb5dc3c10885634bf3c3a0",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/06_ML_CONTRACT_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/06_ML_CONTRACT_V3.md",
+      "before_sha256": "097b48fead180365e8c3f9eec3db034b97c060cdbfeb377cb971c974f1a543d4",
+      "after_sha256": "097b48fead180365e8c3f9eec3db034b97c060cdbfeb377cb971c974f1a543d4",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/07_SECURITY_PERMISSION_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/07_SECURITY_PERMISSION_V3.md",
+      "before_sha256": "3bda6875e328666c14def5c3763b4b37bbcf85873a10b821ca8259bc9fb36e81",
+      "after_sha256": "3bda6875e328666c14def5c3763b4b37bbcf85873a10b821ca8259bc9fb36e81",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/08_WORKER_FENCING_OUTBOX.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/08_WORKER_FENCING_OUTBOX.md",
+      "before_sha256": "84317b63b543dbb984413dd542ae5ea315e5191940fc558f988140bdbf9eb8e6",
+      "after_sha256": "84317b63b543dbb984413dd542ae5ea315e5191940fc558f988140bdbf9eb8e6",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/09_RECOMMENDATION_AUDIT_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/09_RECOMMENDATION_AUDIT_V3.md",
+      "before_sha256": "2e1f19bb2b3613e45bbf8da43c2a8fa388b7fa9a0d9813f57ca6d62ac9596b10",
+      "after_sha256": "2e1f19bb2b3613e45bbf8da43c2a8fa388b7fa9a0d9813f57ca6d62ac9596b10",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/10_RETENTION_DELETE_RESTORE_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/10_RETENTION_DELETE_RESTORE_V3.md",
+      "before_sha256": "e4dd8a120f2b460f8e85061e87da2d840a767dfb205797ae5963afd6018a2da9",
+      "after_sha256": "e4dd8a120f2b460f8e85061e87da2d840a767dfb205797ae5963afd6018a2da9",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/11_CORE_ERD_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/11_CORE_ERD_V3.md",
+      "before_sha256": "afc39b7e19532edce03d15d88ae18920c9278e2d1d4ac358a2ebff50edaae85c",
+      "after_sha256": "afc39b7e19532edce03d15d88ae18920c9278e2d1d4ac358a2ebff50edaae85c",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/12_ACCEPTANCE_TESTS_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/12_ACCEPTANCE_TESTS_V3.md",
+      "before_sha256": "c31e75a5f5c087a956ba7333049c262acd4de351ff596e703e848a37559aaf5a",
+      "after_sha256": "c31e75a5f5c087a956ba7333049c262acd4de351ff596e703e848a37559aaf5a",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/13_FREEZE_LIST_V3.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/13_FREEZE_LIST_V3.md",
+      "before_sha256": "d7f30efb5487b5f60e03396fa6fec5a7909e8347c564b5454d2150cf97df61ff",
+      "after_sha256": "d7f30efb5487b5f60e03396fa6fec5a7909e8347c564b5454d2150cf97df61ff",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/14_SUBMIT_ALGORITHM.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/14_SUBMIT_ALGORITHM.md",
+      "before_sha256": "d5c71b33c9f15c9af90c59483e73a5b6a27672b7b3c31005b6db3ab693e857bc",
+      "after_sha256": "d5c71b33c9f15c9af90c59483e73a5b6a27672b7b3c31005b6db3ab693e857bc",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/docs/15_OPERATIONS_AND_DELIVERY.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/15_OPERATIONS_AND_DELIVERY.md",
+      "before_sha256": "7b69a03a031eae78a4f2c3158805a134b81563a9ee05ff088970b3234555b849",
+      "after_sha256": "7b69a03a031eae78a4f2c3158805a134b81563a9ee05ff088970b3234555b849",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/command_receipt.accepted.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_receipt.accepted.example.json",
+      "before_sha256": "4f86ebb9b95ceec0b4da0dc744195529b3f66d6317b81b27f7338dbb76e6c3e6",
+      "after_sha256": "4f86ebb9b95ceec0b4da0dc744195529b3f66d6317b81b27f7338dbb76e6c3e6",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/command_receipt.rejected.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_receipt.rejected.example.json",
+      "before_sha256": "4fc9524a5b0680860478c3ae887b003a353e2ce9953ee5d7d37a62da2fee9675",
+      "after_sha256": "4fc9524a5b0680860478c3ae887b003a353e2ce9953ee5d7d37a62da2fee9675",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/command_sync_result.duplicate.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.duplicate.example.json",
+      "before_sha256": "2816965586b1282f688d376392e37324e8a28fdd1585e70793301574fb7c74f2",
+      "after_sha256": "2816965586b1282f688d376392e37324e8a28fdd1585e70793301574fb7c74f2",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/command_sync_result.duplicate_rejected.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.duplicate_rejected.example.json",
+      "before_sha256": "3bf24e1498fbe1dcdfcc408a2bc51faffa285e483882f587d810770dcf9fd068",
+      "after_sha256": "3bf24e1498fbe1dcdfcc408a2bc51faffa285e483882f587d810770dcf9fd068",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/command_sync_result.retryable.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/command_sync_result.retryable.example.json",
+      "before_sha256": "6532c7d440b20bee48733a561f0bb8a94f87f061c97dc2b5c1ef81864dd80bf2",
+      "after_sha256": "6532c7d440b20bee48733a561f0bb8a94f87f061c97dc2b5c1ef81864dd80bf2",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/content_release_manifest.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/content_release_manifest.example.json",
+      "before_sha256": "0d0c80262c73d601ac89009add7fa811ce625fef083ee712bcc76a1677b46933",
+      "after_sha256": "0d0c80262c73d601ac89009add7fa811ce625fef083ee712bcc76a1677b46933",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/feature_schema.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/feature_schema.example.json",
+      "before_sha256": "cfeda5925119abaa7440b8846763ef705d13e83fcd5fc9ec05265e8d7a360f18",
+      "after_sha256": "cfeda5925119abaa7440b8846763ef705d13e83fcd5fc9ec05265e8d7a360f18",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/feature_snapshot.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/feature_snapshot.example.json",
+      "before_sha256": "dc8428ec21175188bb5c5c40caeb554e24a8b2c4428301173e24942e2d19baef",
+      "after_sha256": "dc8428ec21175188bb5c5c40caeb554e24a8b2c4428301173e24942e2d19baef",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/model_bundle.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/model_bundle.example.json",
+      "before_sha256": "e0397c18de16978a02cccf0b47160d3a063c09dbbfe383a9e9e4a35b9b8af1ef",
+      "after_sha256": "e0397c18de16978a02cccf0b47160d3a063c09dbbfe383a9e9e4a35b9b8af1ef",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/offline_download_grant.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/offline_download_grant.example.json",
+      "before_sha256": "520f2ba64b13cf3b85287334a2ff35b3d4c915810c9da96a37cdf767f4207b58",
+      "after_sha256": "520f2ba64b13cf3b85287334a2ff35b3d4c915810c9da96a37cdf767f4207b58",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/offline_package.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/offline_package.example.json",
+      "before_sha256": "40dc8dd0e07c22a5611e6edd1b54ad70f2ad3c80c1ac7d5c2aacaaf57c180870",
+      "after_sha256": "40dc8dd0e07c22a5611e6edd1b54ad70f2ad3c80c1ac7d5c2aacaaf57c180870",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/prediction.available.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/prediction.available.example.json",
+      "before_sha256": "706778356324581041c88b1fa3fc3e6b2b5e75dcbba6b8bd522bd9925d9299a1",
+      "after_sha256": "706778356324581041c88b1fa3fc3e6b2b5e75dcbba6b8bd522bd9925d9299a1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/prediction.model_unavailable.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/prediction.model_unavailable.example.json",
+      "before_sha256": "76ae2ea4efa8ecb980aa56df7eefdc5a1d2f001b05fab2d25e8c97a44a11f9b2",
+      "after_sha256": "76ae2ea4efa8ecb980aa56df7eefdc5a1d2f001b05fab2d25e8c97a44a11f9b2",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/recommendation_decision.rule.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/recommendation_decision.rule.example.json",
+      "before_sha256": "4880f4ea4edd08a4d6b5eaf6b1254e641a6bfcf3c2ea0cc1f46f4040df8be3f2",
+      "after_sha256": "4880f4ea4edd08a4d6b5eaf6b1254e641a6bfcf3c2ea0cc1f46f4040df8be3f2",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/release_access_status.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/release_access_status.example.json",
+      "before_sha256": "d8ca583620acf7e13c04922f4e9df4500691c9a42e38b4f1d55af2ebc7e927f1",
+      "after_sha256": "d8ca583620acf7e13c04922f4e9df4500691c9a42e38b4f1d55af2ebc7e927f1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/source_capture.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/source_capture.example.json",
+      "before_sha256": "c9cbfa60e69477bce30b06ac4e13379ce4ff35af2ecc845357da88e6922097f9",
+      "after_sha256": "c9cbfa60e69477bce30b06ac4e13379ce4ff35af2ecc845357da88e6922097f9",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/examples/submit_attempt_command.example.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/examples/submit_attempt_command.example.json",
+      "before_sha256": "2cd0064d757e56f3b2be2b775013ea503c65fac8a0498c2fb1902bc3bfda3b0d",
+      "after_sha256": "2cd0064d757e56f3b2be2b775013ea503c65fac8a0498c2fb1902bc3bfda3b0d",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/package-lock.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/package-lock.json",
+      "before_sha256": "40ed32ca2a4c0052e74ff2f34fe178ef334caecb642583ff91cbdf75676df84a",
+      "after_sha256": "40ed32ca2a4c0052e74ff2f34fe178ef334caecb642583ff91cbdf75676df84a",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/package.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/package.json",
+      "before_sha256": "f7ee71060e2a4709492b4f5ffc086ba93cd6f531fd74f7a556bc1c5444f94291",
+      "after_sha256": "f7ee71060e2a4709492b4f5ffc086ba93cd6f531fd74f7a556bc1c5444f94291",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/requirements.txt",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/requirements.txt",
+      "before_sha256": "a7fb983549f6127b13669586e786c6203a4417c6661c13af21eb87d2a97a4994",
+      "after_sha256": "a7fb983549f6127b13669586e786c6203a4417c6661c13af21eb87d2a97a4994",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/review/SECOND_SUPERVISOR_REVIEW_SOURCE.md",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/review/SECOND_SUPERVISOR_REVIEW_SOURCE.md",
+      "before_sha256": "9be0fec4aef5233b7b206fae401dbf9609dd95b1d056aef3a8d3b72d731ca859",
+      "after_sha256": "9be0fec4aef5233b7b206fae401dbf9609dd95b1d056aef3a8d3b72d731ca859",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/activity_content_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/activity_content_v1.schema.json",
+      "before_sha256": "a148d277bdbd11cf529970138cfcb641b35c1940b221bd56e80b328e4852b37f",
+      "after_sha256": "a148d277bdbd11cf529970138cfcb641b35c1940b221bd56e80b328e4852b37f",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/api_error_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/api_error_v1.schema.json",
+      "before_sha256": "04ad8073bc7634bb1dde5bb5b85831da20826666bff4a7e697cc285f4a315ab9",
+      "after_sha256": "04ad8073bc7634bb1dde5bb5b85831da20826666bff4a7e697cc285f4a315ab9",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/canonical_command_result_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/canonical_command_result_v1.schema.json",
+      "before_sha256": "e995a0628fc63f0701686162721da3963af33b44b226397b3cfbce78a3552bc8",
+      "after_sha256": "e995a0628fc63f0701686162721da3963af33b44b226397b3cfbce78a3552bc8",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/client_event_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/client_event_v1.schema.json",
+      "before_sha256": "d7ee5b69bb896c5cd434535c112e1ac80eb87e331a9d28a10e8e54d946919ff0",
+      "after_sha256": "d7ee5b69bb896c5cd434535c112e1ac80eb87e331a9d28a10e8e54d946919ff0",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/command_receipt_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_receipt_v1.schema.json",
+      "before_sha256": "db568bdb65913badd836d5f8f654881c7a7c9859c8e686728a3cca18e336d665",
+      "after_sha256": "db568bdb65913badd836d5f8f654881c7a7c9859c8e686728a3cca18e336d665",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/command_sync_batch_response_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_sync_batch_response_v1.schema.json",
+      "before_sha256": "44a2324b9cd3a0080e3bb999f6c5e17248840ab8896e5e391440c9c756ddcc69",
+      "after_sha256": "44a2324b9cd3a0080e3bb999f6c5e17248840ab8896e5e391440c9c756ddcc69",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/command_sync_result_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/command_sync_result_v1.schema.json",
+      "before_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+      "after_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/content_release_manifest_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/content_release_manifest_v1.schema.json",
+      "before_sha256": "4eae904777e396d8d47c218372d07005103a30f96981de7899a7a8db8c9966bf",
+      "after_sha256": "4eae904777e396d8d47c218372d07005103a30f96981de7899a7a8db8c9966bf",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/current_canonical_state_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/current_canonical_state_v1.schema.json",
+      "before_sha256": "9f3124f49da3f3b13b35f8e5e1bab2bd31ac49c3583be64e9a550e98c9c6dad7",
+      "after_sha256": "9f3124f49da3f3b13b35f8e5e1bab2bd31ac49c3583be64e9a550e98c9c6dad7",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/event_batch_response_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/event_batch_response_v1.schema.json",
+      "before_sha256": "b5c82568f3c0d4c87a1a10d808136d26844b7f36605863ca023d45a48636b70d",
+      "after_sha256": "b5c82568f3c0d4c87a1a10d808136d26844b7f36605863ca023d45a48636b70d",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/events/audio_replayed_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/audio_replayed_v1.schema.json",
+      "before_sha256": "8366a0d7c8186d746220594b5f2d08e8885063019b6a4b6b6deaa69268029935",
+      "after_sha256": "8366a0d7c8186d746220594b5f2d08e8885063019b6a4b6b6deaa69268029935",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/events/hint_opened_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/hint_opened_v1.schema.json",
+      "before_sha256": "d5a88b3ad5c87ae987f19d95795bf4dd47026e79027ba3f79f1f61cdafd152e1",
+      "after_sha256": "d5a88b3ad5c87ae987f19d95795bf4dd47026e79027ba3f79f1f61cdafd152e1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/events/recommendation_exposed_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/recommendation_exposed_v1.schema.json",
+      "before_sha256": "68aca2ae466b703d8ad6e5d1cce547fe5ef54d5e9a98c781200af27310efcbc1",
+      "after_sha256": "68aca2ae466b703d8ad6e5d1cce547fe5ef54d5e9a98c781200af27310efcbc1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/events/session_started_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/events/session_started_v1.schema.json",
+      "before_sha256": "942ffd522aa2fad6a7ec792cc8a0f33bcfedc770431fccee74013b3112803637",
+      "after_sha256": "942ffd522aa2fad6a7ec792cc8a0f33bcfedc770431fccee74013b3112803637",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/evidence_publication_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/evidence_publication_v1.schema.json",
+      "before_sha256": "19170fca166edf472bd98beab4bd4c6c41c27475823342ddd040c905b4180cb2",
+      "after_sha256": "19170fca166edf472bd98beab4bd4c6c41c27475823342ddd040c905b4180cb2",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/feature_schema_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/feature_schema_v1.schema.json",
+      "before_sha256": "85ec2cf71d36754e2a00b6debbf9408aacfddb39afbc7a7cc8d24ee7da0b598a",
+      "after_sha256": "85ec2cf71d36754e2a00b6debbf9408aacfddb39afbc7a7cc8d24ee7da0b598a",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/feature_snapshot_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/feature_snapshot_v1.schema.json",
+      "before_sha256": "53fd777e1d1bf4be505c8e7d0e33fa4a068a3b24268e79d72aca4ff8a02e9d5a",
+      "after_sha256": "53fd777e1d1bf4be505c8e7d0e33fa4a068a3b24268e79d72aca4ff8a02e9d5a",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/model_bundle_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/model_bundle_v1.schema.json",
+      "before_sha256": "d8a614fc05e7eadad8edcb259f5e716a3e834cb0db3247f008d5d23c638f181d",
+      "after_sha256": "d8a614fc05e7eadad8edcb259f5e716a3e834cb0db3247f008d5d23c638f181d",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/offline_download_grant_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/offline_download_grant_v1.schema.json",
+      "before_sha256": "e1050422ef166645c0b0d341d3d86249b619562955dd82595c79a8c8986c66e8",
+      "after_sha256": "e1050422ef166645c0b0d341d3d86249b619562955dd82595c79a8c8986c66e8",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/offline_package_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/offline_package_v1.schema.json",
+      "before_sha256": "f763b9fc64cc2878dd7a99bb0f289edc8297c120f62186138e955a94ae7d171a",
+      "after_sha256": "f763b9fc64cc2878dd7a99bb0f289edc8297c120f62186138e955a94ae7d171a",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/outcome_observation_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/outcome_observation_v1.schema.json",
+      "before_sha256": "9de9288f87c5c272e30b2046b6b1e71331b473df7b3f78681466c36531d0bd3f",
+      "after_sha256": "9de9288f87c5c272e30b2046b6b1e71331b473df7b3f78681466c36531d0bd3f",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/prediction_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/prediction_v1.schema.json",
+      "before_sha256": "0e30080d646848863b80d5d77e49bbd9f32d2306fd5b49622734f5a8211da5a3",
+      "after_sha256": "0e30080d646848863b80d5d77e49bbd9f32d2306fd5b49622734f5a8211da5a3",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/progress_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/progress_v1.schema.json",
+      "before_sha256": "34ba357881bfe39a75bc7bd13ad9232e3e6314e01834554338dd6b6abbb6a68f",
+      "after_sha256": "34ba357881bfe39a75bc7bd13ad9232e3e6314e01834554338dd6b6abbb6a68f",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/receipt_lookup_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/receipt_lookup_v1.schema.json",
+      "before_sha256": "e232305abb7086852da592972c617d567b36c6baeb1763eb914d073d6933e1d7",
+      "after_sha256": "e232305abb7086852da592972c617d567b36c6baeb1763eb914d073d6933e1d7",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/recommendation_decision_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/recommendation_decision_v1.schema.json",
+      "before_sha256": "ece7e34f8e431fa8b7b19965ca70a9c99467bbe8df5d516e787b90a628cfb336",
+      "after_sha256": "ece7e34f8e431fa8b7b19965ca70a9c99467bbe8df5d516e787b90a628cfb336",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/recommendation_exposure_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/recommendation_exposure_v1.schema.json",
+      "before_sha256": "935d55cf556a9359025671da277cbac935131815ed449534c544f6109d8a091f",
+      "after_sha256": "935d55cf556a9359025671da277cbac935131815ed449534c544f6109d8a091f",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/release_access_status_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/release_access_status_v1.schema.json",
+      "before_sha256": "2f4809833a812854b07afbcc9ddb60522d0b740f24889cda4b60fb6ffac15073",
+      "after_sha256": "2f4809833a812854b07afbcc9ddb60522d0b740f24889cda4b60fb6ffac15073",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/scoring_key_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/scoring_key_v1.schema.json",
+      "before_sha256": "e976008a490be1490bbaaa1d08c76860fd6b564a83b3806df8c3137e0a31c83e",
+      "after_sha256": "e976008a490be1490bbaaa1d08c76860fd6b564a83b3806df8c3137e0a31c83e",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/source_capture_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/source_capture_v1.schema.json",
+      "before_sha256": "e593d06107f10268ab42499149815a6a59f4bb399471de59dd8d7a86079ffa8a",
+      "after_sha256": "e593d06107f10268ab42499149815a6a59f4bb399471de59dd8d7a86079ffa8a",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/stored_event_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/stored_event_v1.schema.json",
+      "before_sha256": "a0430a56346bda583fb48bad384d2d4831d0545c56962ae12126176cd86fbbfc",
+      "after_sha256": "a0430a56346bda583fb48bad384d2d4831d0545c56962ae12126176cd86fbbfc",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/schemas/submit_attempt_command_v1.schema.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/schemas/submit_attempt_command_v1.schema.json",
+      "before_sha256": "0b1b546d7ee542df878b39232e35c9a331eb2f76125f58e184cd50e0dcb30aaa",
+      "after_sha256": "0b1b546d7ee542df878b39232e35c9a331eb2f76125f58e184cd50e0dcb30aaa",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/tests/check_sql.mjs",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/check_sql.mjs",
+      "before_sha256": "013d879edd640123afc85059ac6c47deee1f795a2da262c3ed692475500cbefb",
+      "after_sha256": "013d879edd640123afc85059ac6c47deee1f795a2da262c3ed692475500cbefb",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/tests/example_schema_bindings.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/example_schema_bindings.json",
+      "before_sha256": "b3d8836afec2b915164a0809bee8eb186df99634ea12bfdf38d073a67ee5d522",
+      "after_sha256": "b3d8836afec2b915164a0809bee8eb186df99634ea12bfdf38d073a67ee5d522",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/tests/fixtures/invalid/feature_duplicate_position_name.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/feature_duplicate_position_name.json",
+      "before_sha256": "bb9772d4cd0758e9b0fcc128e322152e7691ec3f9da921c6f2af509fa1c9525e",
+      "after_sha256": "bb9772d4cd0758e9b0fcc128e322152e7691ec3f9da921c6f2af509fa1c9525e",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/tests/fixtures/invalid/prediction_available_missing_probability.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/prediction_available_missing_probability.json",
+      "before_sha256": "858c7f286e7a6332007e0f980ce5b36f6abf3efec38ed1fca965074c7d6c8eb2",
+      "after_sha256": "858c7f286e7a6332007e0f980ce5b36f6abf3efec38ed1fca965074c7d6c8eb2",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/tests/fixtures/invalid/prediction_unavailable_with_probability.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/prediction_unavailable_with_probability.json",
+      "before_sha256": "37a12cac8c19c411fc272433a203f42e8ddfb67ba8eee929aad9d030ee8f3474",
+      "after_sha256": "37a12cac8c19c411fc272433a203f42e8ddfb67ba8eee929aad9d030ee8f3474",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/tests/fixtures/invalid/replayable_snapshot_without_source_capture.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/tests/fixtures/invalid/replayable_snapshot_without_source_capture.json",
+      "before_sha256": "eae1286cd65c9a3b2dcfe82a42313d4dafecf742bf8505122b26c8da376b62cd",
+      "after_sha256": "eae1286cd65c9a3b2dcfe82a42313d4dafecf742bf8505122b26c8da376b62cd",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/validation_results.json",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validation_results.json",
+      "before_sha256": "fa2a9440e14edbea584f4f83d379f211b3709bce5333465c283bc2b633a91575",
+      "after_sha256": "fa2a9440e14edbea584f4f83d379f211b3709bce5333465c283bc2b633a91575",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/validators/run_checks.py",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validators/run_checks.py",
+      "before_sha256": "3cd84ebd98f36d429e440cf65aefd18114ac3382ba00cd15e0a07001262c3ec1",
+      "after_sha256": "3cd84ebd98f36d429e440cf65aefd18114ac3382ba00cd15e0a07001262c3ec1",
+      "match": true
+    },
+    {
+      "old": "04_architecture/contracts/v3_2/source/validators/validate_contracts.py",
+      "new": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/validators/validate_contracts.py",
+      "before_sha256": "2645f0d29219da029b57e9c71e0eda854d93719fb41ad3d09adb64ae245b00a5",
+      "after_sha256": "2645f0d29219da029b57e9c71e0eda854d93719fb41ad3d09adb64ae245b00a5",
+      "match": true
+    },
+    {
+      "old": "08_handoff/provenance/v3_2/REVISION.txt",
+      "new": "02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/REVISION.txt",
+      "before_sha256": "122f857bab9d7e3c94b62185f86bca23c56b305ebca58921bb1c9426ed14b280",
+      "after_sha256": "122f857bab9d7e3c94b62185f86bca23c56b305ebca58921bb1c9426ed14b280",
+      "match": true
+    },
+    {
+      "old": "08_handoff/provenance/v3_2/SHA256SUMS.txt",
+      "new": "02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/SHA256SUMS.txt",
+      "before_sha256": "098f152d2e248ad872c22abd13b7a0cb3c05192de008f320166cd08f2f222a5d",
+      "after_sha256": "098f152d2e248ad872c22abd13b7a0cb3c05192de008f320166cd08f2f222a5d",
+      "match": true
+    },
+    {
+      "old": "08_handoff/provenance/v3_2/SOURCE.md",
+      "new": "02_Tai_lieu_du_an/08_Ban_giao/provenance/v3_2/SOURCE.md",
+      "before_sha256": "b54ae0c7d7b3a14ae70847b44754137546ccb4c5c6e6acba8d972c8c09f25d9a",
+      "after_sha256": "b54ae0c7d7b3a14ae70847b44754137546ccb4c5c6e6acba8d972c8c09f25d9a",
+      "match": true
+    }
+  ]
+}

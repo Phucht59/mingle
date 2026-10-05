@@ -1,0 +1,79 @@
+{
+  "package": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation",
+  "versions": {
+    "pytest": "9.1.1",
+    "fastapi": "0.141.1",
+    "starlette": "1.7.0",
+    "httpx": "0.28.1",
+    "psycopg": "3.3.6"
+  },
+  "files": [
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\api.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\api.py",
+      "source_sha256": "c6c61ead5b48767c5c53336582a9d37bee3602625b22a19d72fa282613918511",
+      "loaded_sha256": "c6c61ead5b48767c5c53336582a9d37bee3602625b22a19d72fa282613918511"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\cli.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\cli.py",
+      "source_sha256": "3fe8d2e904c9cd7a1051976ed16f585a101f28a70ab819c3626091116492b477",
+      "loaded_sha256": "3fe8d2e904c9cd7a1051976ed16f585a101f28a70ab819c3626091116492b477"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\config.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\config.py",
+      "source_sha256": "3c082c0262692731844cf97f8f1d5e24eab002cf98a0c9a7cc8e4dc14a4a2b70",
+      "loaded_sha256": "3c082c0262692731844cf97f8f1d5e24eab002cf98a0c9a7cc8e4dc14a4a2b70"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\db.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\db.py",
+      "source_sha256": "6aca74432dbf27e40aacc50001d112cf566482eb2ded3acf52107665b3060542",
+      "loaded_sha256": "6aca74432dbf27e40aacc50001d112cf566482eb2ded3acf52107665b3060542"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\logging.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\logging.py",
+      "source_sha256": "be3f7a2ad7782140f861a5342bd6c2d3f114514b984952269998b74cc9d4b139",
+      "loaded_sha256": "be3f7a2ad7782140f861a5342bd6c2d3f114514b984952269998b74cc9d4b139"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\ports.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\ports.py",
+      "source_sha256": "50761e17b2693eae8250b7aea027c1fc4aa5aa3eb9f6c8c4ac69ecef6cdb13e9",
+      "loaded_sha256": "50761e17b2693eae8250b7aea027c1fc4aa5aa3eb9f6c8c4ac69ecef6cdb13e9"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\storage.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\storage.py",
+      "source_sha256": "934e862ef2576b12f4107847d242d150e51e1ac0712196f18137e3d5789fe1e4",
+      "loaded_sha256": "934e862ef2576b12f4107847d242d150e51e1ac0712196f18137e3d5789fe1e4"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\worker.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\worker.py",
+      "source_sha256": "6fb0bbfd3131bc206c12be57d91aa842b6019b2c49d772290d77131c95d1096e",
+      "loaded_sha256": "6fb0bbfd3131bc206c12be57d91aa842b6019b2c49d772290d77131c95d1096e"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\__init__.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\__init__.py",
+      "source_sha256": "f8f96e3f44b19994edb28999f7a6646215c764a41ba2410b9096251eca64cc61",
+      "loaded_sha256": "f8f96e3f44b19994edb28999f7a6646215c764a41ba2410b9096251eca64cc61"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\migrations\\001_runtime_probe.sql",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\migrations\\001_runtime_probe.sql",
+      "source_sha256": "3478aa99152f90dacb3d1345b9c6bbe318c25293dbe22ac4022c17672e7f3129",
+      "loaded_sha256": "3478aa99152f90dacb3d1345b9c6bbe318c25293dbe22ac4022c17672e7f3129"
+    },
+    {
+      "source": "C:\\Mingo\\01_San_pham\\backend\\src\\all_foundation\\migrations\\002_worker_heartbeat.sql",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\migrations\\002_worker_heartbeat.sql",
+      "source_sha256": "080420bc964cabb802277feab22fc42db5f14c994a78fdc57796d2aa6466514a",
+      "loaded_sha256": "080420bc964cabb802277feab22fc42db5f14c994a78fdc57796d2aa6466514a"
+    }
+  ],
+  "all_match": true
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "PRD-01",
+    "statement": "Each task states an objective; finite cycle implements Review, Learn, Retrieve, Transfer, Check as functions with explicit endpoint and opt-in continuation.",
+    "acceptance": "Can finish a cycle without endless scrolling; no timer terminates an unfinished answer; no fake cycle if roles lack valid items.",
+    "decision_status": "Baseline; ~5m hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:19"
+  },
+  {
+    "id": "PRD-02",
+    "statement": "Persist first response and authoritative correctness separately from each retry and eventual correctness. Practice permits one feedback-guided retry; Check retains unaided first outcome.",
+    "acceptance": "First wrong → retry correct keeps first wrong; content/feedback revisions remain pinned.",
+    "decision_status": "Freeze principle; retry count hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:20"
+  },
+  {
+    "id": "PRD-03",
+    "statement": "Hints are typed by domain and available in practice; before-submit Check has no hint. Assisted correct is not unaided correct.",
+    "acceptance": "Hint shown then correct retains both facts; never upgrades independent Check.",
+    "decision_status": "FREEZE NOW",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:21"
+  },
+  {
+    "id": "PRD-04",
+    "statement": "Skip is explicit, logged and not completion/mastery. Two skips across distinct exposures of one objective trigger support or alternative, not a forced loop.",
+    "acceptance": "Skip alone leaves Check and mastery unaffected; a skip never earns cycle completion.",
+    "decision_status": "Freeze principle; threshold hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:22"
+  },
+  {
+    "id": "PRD-05",
+    "statement": "Practice listening replay is flexible; Check/placement UI defaults to at most two offered plays, stated before start, with an accessibility mode recorded separately. Playback events from the offline client are client-reported and cannot alone authorize canonical score or certify the true number of listens.",
+    "acceptance": "Answer is server-scored independently; unknown/missing replay context remains unknown, and assessment comparability is qualified. Exact command/telemetry authority is mapped in `02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3_2_COMPATIBILITY_MATRIX.md`; II-03 is resolved. Assessment-condition metadata remains a later versioned implementation task.",
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:23"
+  },
+  {
+    "id": "PRD-06",
+    "statement": "Vocabulary includes meaning/optional L1 gloss, audio, controlled context and recognition/recall/listening/application; grammar uses concise scaffold, practice, transfer and Check.",
+    "acceptance": "One translated card or rule-read does not by itself mark objective mastered.",
+    "decision_status": "Principle freeze; sequence hypothesis",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:24"
+  },
+  {
+    "id": "PRD-07",
+    "statement": "A next-band challenge within the same objective is eligible only after **two unaided correct first responses on distinct item revisions in the same current task band, including one independent Check**. Only one next-band item may be offered; one success may prompt current-band Transfer. For Listening, captured client-reported play context suffices only for this low-stakes provisional challenge.",
+    "acceptance": "A single success, same-item retry, assisted answer or *missing* Check condition cannot trigger step-up. Challenge does not mark mastery, raise level or unlock another objective; band, evidence IDs and policy version are logged.",
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:25"
+  },
+  {
+    "id": "PRD-08",
+    "statement": "Learner-selected focus selects eligible items; a due review or blocking prerequisite may contribute at most one justified item before focus in a default cycle.",
+    "acceptance": "Selection reason visible; no prerequisite bypass or hidden veto.",
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:26"
+  },
+  {
+    "id": "PRD-09",
+    "statement": "Placement optionally tests Vocabulary/Grammar/Listening in 6–9 short rule-branching items with provisional A0–B2 start and missing-domain state. Audio may be skipped; normal study continues calibration.",
+    "acceptance": "No mandatory 30–40 minute gate, no numeric CEFR/TOEIC certification; user can start with insufficient evidence.",
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:27"
+  },
+  {
+    "id": "PRD-10",
+    "statement": "Goal is optional, editable, influences examples within eligible path. Learner profile uses qualitative objective/skill state with evidence and uncertainty.",
+    "acceptance": "Missing evidence shown explicitly; no mastery percentage; goal change never rewrites measured skill or bypasses prerequisites.",
+    "decision_status": "ĐÃ CHỐT: optional/editable preference and evidence-safe profile; exact goal categories GIẢ THUYẾT CẦN KIỂM CHỨNG",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:28"
+  },
+  {
+    "id": "PRD-11",
+    "statement": "Default target one ~5-minute cycle/day, optional multiple cycles; streak uses at least one scored retrieval with feedback per local day (right or wrong), separate from target.",
+    "acceptance": "Open-only, passive play and skip do not count; offline replay/timezone changes cannot double-award.",
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:29"
+  },
+  {
+    "id": "PRD-12",
+    "statement": "Reward only for genuine milestones/progress and server-idempotent activity; no click-farmed XP/leaderboard in MVP.",
+    "acceptance": "Rewards never change mastery, level, prerequisite or Check result.",
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:30"
+  },
+  {
+    "id": "PRD-13",
+    "statement": "Course map supports browse/review of open content and preview-only for locked objectives; recommendation has one short, actual evidence-backed reason with optional details.",
+    "acceptance": "Preview does not grant completion; explanation matches logged reason.",
+    "decision_status": "MVP HYPOTHESIS",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:31"
+  },
+  {
+    "id": "PRD-14",
+    "statement": "Content is licensed/attributed, published immutably and scored against the pinned revision.",
+    "acceptance": "Revised content does not reinterpret old attempts; failed license review blocks publication.",
+    "decision_status": "V3.2 baseline and content rule",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:32"
+  },
+  {
+    "id": "PRD-15",
+    "statement": "Canonical commands, telemetry, decision, exposure, execution and outcome remain distinct; offline queues replay idempotently, with event time and known-at time.",
+    "acceptance": "Late event cannot leak into earlier decision; duplicate sync cannot duplicate progress/streak/reward.",
+    "decision_status": "V3.2 baseline",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:33"
+  },
+  {
+    "id": "PRD-16",
+    "statement": "ML and recommendation can be disabled while curriculum and due-review fallback still work.",
+    "acceptance": "Usable cycle selected without ML; no eligible content produces honest empty state.",
+    "decision_status": "V3.2 baseline",
+    "priority": "UNKNOWN",
+    "priority_source": "Actual BA workbook NOT FOUND; repo PRD has no priority field",
+    "locator": "C:\\Mingo\\02_Tai_lieu_du_an\\04_Thiet_ke_san_pham/MVP_PRD.md:34"
+  }
+]

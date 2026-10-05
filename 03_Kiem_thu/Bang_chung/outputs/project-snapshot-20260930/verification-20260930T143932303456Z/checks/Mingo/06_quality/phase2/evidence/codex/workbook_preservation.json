@@ -1,0 +1,167 @@
+{
+  "sheet_order_preserved": true,
+  "expected_cells_unchanged": true,
+  "historical_audit_sheet_values_unchanged": true,
+  "unexpected_value_formula_changes": [],
+  "features_before": {
+    "00_Dashboard": {
+      "dataValidation": 0,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "01_Screen_Inventory": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "02_State_Catalog": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "03_PRD_Traceability": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "04_QA_Test_Cases": {
+      "dataValidation": 2,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "05_QC_Checklist": {
+      "dataValidation": 1,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "06_Defect_Log": {
+      "dataValidation": 2,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "07_Test_Run": {
+      "dataValidation": 1,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "08_Signoff": {
+      "dataValidation": 2,
+      "conditionalFormatting": 2,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "09_Lists": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "10_Independent_Audit": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 1,
+      "pane": 0
+    },
+    "11_Rework_R1": {
+      "dataValidation": 0,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "12_Codex_Execution": {
+      "dataValidation": 1,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    }
+  },
+  "features_after": {
+    "00_Dashboard": {
+      "dataValidation": 0,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "01_Screen_Inventory": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "02_State_Catalog": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "03_PRD_Traceability": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "04_QA_Test_Cases": {
+      "dataValidation": 2,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "05_QC_Checklist": {
+      "dataValidation": 1,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "06_Defect_Log": {
+      "dataValidation": 2,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "07_Test_Run": {
+      "dataValidation": 1,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "08_Signoff": {
+      "dataValidation": 2,
+      "conditionalFormatting": 2,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "09_Lists": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "10_Independent_Audit": {
+      "dataValidation": 0,
+      "conditionalFormatting": 0,
+      "mergeCell": 1,
+      "pane": 0
+    },
+    "11_Rework_R1": {
+      "dataValidation": 0,
+      "conditionalFormatting": 1,
+      "mergeCell": 2,
+      "pane": 0
+    },
+    "12_Codex_Execution": {
+      "dataValidation": 1,
+      "conditionalFormatting": 0,
+      "mergeCell": 2,
+      "pane": 0
+    }
+  },
+  "renderer_limitation": "Artifact Tool import/inspect/recalculate/export completed. Native rendering did not complete in two bounded attempts. OOXML layout fallback previews inspected; no native Excel interaction claimed."
+}

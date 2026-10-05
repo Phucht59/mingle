@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-09-27T14:48:18.656050+00:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "node": "v24.19.0",
+  "browser": "153.0.8010.53",
+  "server": "python -m http.server 8765 --bind 127.0.0.1 --directory 02_product/ux_ui/phase2/prototype",
+  "browser_mode": "Chromium headless, fresh non-persistent context per case; no inherited cookies/storage",
+  "commands": [
+    "python 07_operations/scripts/verify_phase2_rework.py",
+    "node --check 02_product/ux_ui/phase2/prototype/app.js",
+    "node 07_operations/scripts/verify_phase2_browser.cjs",
+    "node 07_operations/scripts/verify_phase2_supplemental.cjs",
+    "python 07_operations/scripts/verify_phase2_review.py"
+  ],
+  "screen_reader": "BLOCKED: no interactive speech/TalkBack session exercised; AX tree is not speech output verification",
+  "playwright": "1.62.1"
+}

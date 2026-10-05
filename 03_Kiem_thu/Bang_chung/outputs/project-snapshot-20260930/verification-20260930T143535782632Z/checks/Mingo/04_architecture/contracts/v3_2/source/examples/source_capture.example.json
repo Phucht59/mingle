@@ -1,0 +1,27 @@
+{
+  "source_capture_id": "10000000-0000-4000-8000-000000000020",
+  "learner_id": "10000000-0000-4000-8000-000000000001",
+  "enrollment_id": "10000000-0000-4000-8000-000000000002",
+  "serving_mode": "serving",
+  "event_cutoff_at": "2026-09-20T10:00:00Z",
+  "knowledge_cutoff_at": "2026-09-20T10:00:00Z",
+  "evidence_manifest": {
+    "storage_ref": "artifacts/evidence_manifest.json",
+    "sha256": "3c28b975f148f67419bacd6fcfb8dd68952b8acd9bf755b3fbada3d85f5f9201"
+  },
+  "state_revisions": {
+    "progress_revision": 1,
+    "profile_revision": null,
+    "content_release_id": "10000000-0000-4000-8000-000000000004",
+    "scoring_revision_watermark": 1
+  },
+  "manifest_sha256": "338724f14fbd5282183e04d523169fc86ae0d8b6823c78b34b565eea281b2590",
+  "source_count": 2,
+  "generated_at": "2026-09-20T10:00:02Z",
+  "capture_started_at": "2026-09-20T10:00:00Z",
+  "state_evidence_publication_ids": [
+    "10000000-0000-4000-8000-000000000029",
+    "10000000-0000-4000-8000-000000000030"
+  ],
+  "source_revision": 1
+}

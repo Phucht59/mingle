@@ -1,0 +1,91 @@
+{
+  "id": "QA-BIZ-004",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-27T14:58:19.575Z",
+  "ended": "2026-09-27T14:58:20.125Z",
+  "expected": "Assistance remains visible in evidence/feedback semantics.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Start cycle",
+    "Click: Begin",
+    "Click: Hello",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Continue",
+    "Click: Need a hint?",
+    "Click: I’m good, thanks.",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Good morning!",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Start Check",
+    "Click: Nice to meet you too.",
+    "Click: Submit",
+    "Click: Continue"
+  ],
+  "observed": "Mingo\nSaved on device\nSaved actions are still queued until sync receives server acknowledgement.\nLEARNING CYCLE\nBasic greetings\n\nVocabulary · 8 of 8\n\nDone for now\nYou practiced\n\nVocabulary: review, learn, retrieve, transfer and independent Check.\n\nEvidence context\n\n1 response(s) used assistance. Mingo needs repeated evidence before broader claims.\n\nSaved on this device. Waiting for server acknowledgement.\nDone for now\nContinue learning\nSync status",
+  "state": {
+    "surface": "learner",
+    "learner": "cycle",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "local_queued",
+    "queuedCount": 4,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 7,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [
+    {
+      "surface": "learner",
+      "learner": "cycle",
+      "staff": "dashboard",
+      "networkOnline": true,
+      "syncState": "local_queued",
+      "queuedCount": 4,
+      "cycleDomain": "vocabulary",
+      "cycleStep": 7,
+      "selected": null,
+      "response": {
+        "first": null,
+        "retry": null,
+        "retryCount": 0,
+        "assisted": false,
+        "skipped": false,
+        "result": null,
+        "final": false
+      },
+      "goal": "",
+      "placementStep": 3,
+      "licenseVerified": false,
+      "contentDraftRevision": 4,
+      "publishedRevision": 3
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

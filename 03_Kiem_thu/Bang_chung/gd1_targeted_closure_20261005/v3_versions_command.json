@@ -1,0 +1,17 @@
+{
+  "name": "v3_versions",
+  "cwd": "C:\\Mingo",
+  "exact_command": "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe --version",
+  "start_utc": "2026-10-05T03:11:59.815394+00:00",
+  "end_utc": "2026-10-05T03:11:59.880777+00:00",
+  "exit_code": 0,
+  "status": "EXECUTED",
+  "log": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_versions.log",
+  "generated_artifacts": [],
+  "result": "PASS",
+  "boundary": "Existing checks; no runtime/product/customer gate inferred",
+  "passed": "N/A version query",
+  "failed": 0,
+  "skipped": 0,
+  "limitation": "Read-only environment/tool query; no gate result"
+}

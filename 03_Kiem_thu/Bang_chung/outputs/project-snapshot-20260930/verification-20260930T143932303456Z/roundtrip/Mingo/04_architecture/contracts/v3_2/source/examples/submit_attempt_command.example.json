@@ -1,0 +1,23 @@
+{
+  "command_id": "10000000-0000-4000-8000-000000000017",
+  "attempt_id": "10000000-0000-4000-8000-000000000018",
+  "enrollment_id": "10000000-0000-4000-8000-000000000002",
+  "release_activity_id": "10000000-0000-4000-8000-000000000009",
+  "activity_revision_id": "10000000-0000-4000-8000-000000000011",
+  "submission_mode": "offline",
+  "offline_grant_id": "10000000-0000-4000-8000-000000000015",
+  "occurred_at": "2026-09-16T09:00:00Z",
+  "expected_state_version": null,
+  "answers": [
+    {
+      "question_revision_id": "10000000-0000-4000-8000-000000000012",
+      "option_id": "B"
+    },
+    {
+      "question_revision_id": "10000000-0000-4000-8000-000000000013",
+      "option_id": "A"
+    }
+  ],
+  "device_installation_id": "android-install-abc",
+  "package_id": "10000000-0000-4000-8000-000000000016"
+}

@@ -1,0 +1,2308 @@
+# =====================================================================
+# MINGO — SUPER PROMPT
+# EVIDENCE-GATED PRODUCT DEVELOPMENT + PHASE 2 FINALIZATION
+# LEARNING EXPERIENCE OPTIMIZATION + PERFORMANCE ENGINEERING
+# VERSION: FINAL HUMAN RE-BASELINE DIRECTIVE
+# =====================================================================
+
+Bạn đang tiếp quản repository Mingo tại:
+
+C:\Mingo
+
+Đây là một execution task thực tế trên repository hiện tại.
+Không phải task viết kế hoạch chung chung.
+
+Bạn PHẢI:
+- đọc repo;
+- audit trạng thái;
+- phân tích;
+- implement phần có thể implement;
+- tạo tests;
+- tạo evidence;
+- cập nhật governance;
+- báo cáo đúng trạng thái thật.
+
+Không được tự suy diễn context ngoài prompt này và repository.
+
+Nếu có mâu thuẫn:
+1. V3.2 source-of-truth;
+2. approved Change Request;
+3. prompt này;
+4. canonical current project docs;
+5. historical artifacts.
+
+Không được sửa V3.2 âm thầm.
+
+=====================================================================
+0. MỤC TIÊU CUỐI CÙNG
+=====================================================================
+
+Mingo là Adaptive Language Learning & Early Intervention Platform.
+
+Product không được tối ưu chỉ để:
+
+- tăng screen time;
+- tăng số click;
+- tăng streak;
+- tăng session count;
+- tăng engagement bằng mọi giá.
+
+Mingo phải hướng tới:
+
+MAXIMIZE:
+
+- meaningful learning gain;
+- delayed retention;
+- learner comprehension;
+- appropriate challenge;
+- motivation;
+- autonomy;
+- competence;
+- task success;
+- accessibility;
+- trust.
+
+MINIMIZE:
+
+- unnecessary friction;
+- avoidable boredom;
+- frustration;
+- cognitive overload;
+- misleading progress;
+- unnecessary time-in-app;
+- dependency on hints/scaffolds;
+- privacy cost;
+- device performance cost.
+
+Một cách khái niệm:
+
+maximize(
+    delayed_learning_gain
+    + motivation
+    + autonomy
+    + competence
+    + task_success
+    + trust
+)
+while minimizing(
+    avoidable_boredom
+    + frustration
+    + unnecessary_time
+    + cognitive_load
+    + technical_friction
+    + over_scaffolding
+)
+
+subject to:
+
+- privacy;
+- accessibility;
+- curriculum coverage;
+- content correctness;
+- server-authoritative rules;
+- device capability;
+- offline availability.
+
+Đây là PRODUCT PRINCIPLE.
+
+KHÔNG implement công thức ML giả từ biểu thức trên.
+
+=====================================================================
+1. CURRENT PROJECT STATE
+=====================================================================
+
+Architecture baseline:
+
+V3.2
+
+V3.2 vẫn là source of truth.
+
+Known baseline:
+
+- 115/115 contract checks PASS;
+- 22/22 SQL checks PASS;
+- V3.2 integrity previously verified;
+- architecture không được reopen trừ blocking defect cụ thể.
+
+Current repository structure:
+
+C:\Mingo
+├── 01_San_pham
+├── 02_Tai_lieu_du_an
+├── 03_Kiem_thu
+├── 04_Van_hanh
+└── 99_Luu_tru
+
+Current phase status:
+
+Phase 0:
+DONE / PASS
+
+Phase 1:
+DONE / REGRESSION PASS
+
+Phase 2:
+TECHNICALLY ADVANCED
+BUT HUMAN PRODUCT GATE NOT CLOSED
+
+Phase 3:
+HOLD
+NOT STARTED
+
+Known Phase 2 state:
+
+- 61 screens;
+- 175 states;
+- automated Flutter/test evidence exists;
+- repository restructure complete;
+- new Design System V2 exists;
+- capybara is approved mascot direction;
+- Apple discipline × Mingo DNA approved;
+- human review still pending;
+- real TalkBack/device testing pending;
+- D021/D022 reconciliation still relevant;
+- Product Owner acceptance pending.
+
+Known current Phase 2 problem:
+
+P2-V2-UI-001
+Approved Visual DNA Fidelity Gap
+
+Meaning:
+
+Flutter implementation largely preserves routes/states/business semantics,
+but learner presentation does NOT yet fully reach approved product identity.
+
+Do NOT rewrite architecture.
+
+Do NOT throw away state models.
+
+Do NOT rebuild all 61 screens blindly.
+
+Preserve behavior and redesign presentation intelligently.
+
+=====================================================================
+2. FINAL DEVELOPMENT MODEL — FREEZE
+=====================================================================
+
+Mingo now uses:
+
+EVIDENCE-GATED DUAL TRACK DEVELOPMENT
+
+TRACK A:
+ARE WE BUILDING THE RIGHT PRODUCT?
+
+TRACK B:
+ARE WE BUILDING THE PRODUCT RIGHT?
+
+Neither track is allowed to certify the other.
+
+Technical PASS cannot prove product validity.
+
+User liking cannot prove technical correctness.
+
+=====================================================================
+3. EVIDENCE LEVELS
+=====================================================================
+
+Use these evidence levels from now on.
+
+--------------------------------------------------
+E0 — PROBLEM EVIDENCE
+--------------------------------------------------
+
+Question:
+
+Are we solving a real problem for the right initial user?
+
+Evidence:
+
+- user interviews;
+- Jobs-to-Be-Done;
+- existing alternatives;
+- current behavior;
+- observed pain/friction;
+- Working Backwards reasoning.
+
+--------------------------------------------------
+E1 — INTERACTION EVIDENCE
+--------------------------------------------------
+
+Question:
+
+Can a real user understand and use it?
+
+Evidence:
+
+- moderated usability test;
+- think-aloud;
+- task completion;
+- wrong taps;
+- hesitation;
+- terminology misunderstanding;
+- accessibility testing.
+
+--------------------------------------------------
+E2 — LEARNING EVIDENCE
+--------------------------------------------------
+
+Question:
+
+Did meaningful learning occur?
+
+Evidence:
+
+- independent retrieval;
+- delayed retrieval;
+- transfer;
+- reduced assistance;
+- misconception resolution;
+- valid assessment evidence.
+
+--------------------------------------------------
+E3 — PRODUCT EVIDENCE
+--------------------------------------------------
+
+Question:
+
+Does the product create enough value to be repeatedly used?
+
+Evidence:
+
+- longitudinal behavior;
+- diary study;
+- voluntary return;
+- voluntary next session;
+- meaningful retention metrics;
+- perceived usefulness.
+
+--------------------------------------------------
+E4 — SYSTEM EVIDENCE
+--------------------------------------------------
+
+Question:
+
+Can the system run reliably and safely?
+
+Evidence:
+
+- security;
+- performance;
+- offline;
+- fault handling;
+- backup/recovery;
+- monitoring;
+- production readiness.
+
+--------------------------------------------------
+E5 — INTELLIGENCE EVIDENCE
+--------------------------------------------------
+
+Question:
+
+Does ML/recommendation/intervention improve outcomes beyond simple rules?
+
+Evidence:
+
+- rule baseline;
+- point-in-time evaluation;
+- temporal validation;
+- shadow mode;
+- controlled exposure;
+- intervention outcome.
+
+=====================================================================
+4. IMPORTANT RULE ABOUT HUMAN RESEARCH
+=====================================================================
+
+YOU ARE AN AI AGENT.
+
+YOU MAY:
+
+- prepare research protocols;
+- instrument telemetry;
+- create forms;
+- create tasks;
+- analyze provided real data.
+
+YOU MAY NOT:
+
+- fabricate interviews;
+- fabricate usability results;
+- fabricate diary study;
+- fabricate Product Owner approval;
+- fabricate learner feedback;
+- pretend TalkBack was manually tested if it was not;
+- pretend five synthetic users represent humans.
+
+If human data does not exist:
+
+STATUS = HUMAN VALIDATION PENDING.
+
+=====================================================================
+5. WORKSTREAM 0 — PRE-WORK AUDIT
+=====================================================================
+
+Before making substantial changes:
+
+Read at minimum:
+
+- START_HERE.md
+- README.md
+- PROJECT_STATE
+- PROJECT_MEMORY if current
+- PHASE_STATUS
+- roadmap
+- V3.2 baseline
+- Phase 1 gate
+- Phase 2 final/rebaseline reports
+- MINGO_DESIGN_SYSTEM_V2.md
+- mascot style guide
+- motion spec
+- product language glossary
+- screen inventory
+- owner reference images
+- current Flutter screenshots
+- current Flutter learner source
+- current Flutter staff source
+- QA evidence.
+
+Run:
+
+git status
+git log -n relevant
+repository inventory
+
+Create:
+
+MINGO_POST_REBASELINE_AUDIT.md
+
+Must state:
+
+- what is currently true;
+- what is only claimed by old reports;
+- what was independently rerun;
+- what could not be rerun;
+- current blockers;
+- current technical debt;
+- current product evidence gaps.
+
+Do NOT start large refactor before this audit.
+
+=====================================================================
+6. V3.2 PROTECTION
+=====================================================================
+
+Before and after work:
+
+verify sealed baseline.
+
+Required output:
+
+expected files
+actual files
+missing
+extra
+hash mismatch
+
+Target:
+
+missing = 0
+hash mismatch = 0
+
+Run:
+
+115 contract checks
+22 SQL checks
+
+when environment allows.
+
+If dependency missing:
+
+record BLOCKED BY ENVIRONMENT.
+
+Never fake PASS.
+
+=====================================================================
+7. THE 25 PROBLEMS THAT MUST NOW BE MANAGED
+=====================================================================
+
+These problems are formally recognized.
+
+Do not simply write about them.
+
+For each one create:
+
+PROBLEM
+EVIDENCE
+CURRENT STATE
+CHOSEN METHOD
+IMPLEMENTATION
+TEST
+REMAINING HUMAN GATE
+STATUS
+
+--------------------------------------------------
+P01 — CORE LEARNING LOOP NOT HUMAN-VALIDATED
+--------------------------------------------------
+
+Freeze candidate loop:
+
+OPEN
+→ NEXT BEST LEARNING ACTION
+→ ACTIVITY
+→ IMMEDIATE FEEDBACK
+→ SESSION SUMMARY
+→ CLEAR NEXT STEP
+
+Make this the primary learner flow.
+
+Home must not become dashboard overload.
+
+Prepare human usability protocol.
+
+--------------------------------------------------
+P02 — UX SCOPE AHEAD OF VALIDATION
+--------------------------------------------------
+
+Classify 61 screens:
+
+CORE
+SUPPORT
+RECOVERY
+RARE
+FUTURE
+
+No new screen enters implementation without:
+
+USER PROBLEM
+EVIDENCE
+EXPECTED OUTCOME
+MEASUREMENT
+
+Freeze speculative screens.
+
+--------------------------------------------------
+P03 — VISUAL IMPLEMENTATION BELOW APPROVED DNA
+--------------------------------------------------
+
+Fix:
+
+P2-V2-UI-001.
+
+Keep:
+
+routes
+state models
+business semantics
+tests where valid
+
+Rework:
+
+composition
+hierarchy
+typography
+surface
+imagery
+spacing
+mascot placement
+visual journey
+motion
+
+Golden tests must be regenerated only AFTER
+the new visual candidate is approved technically.
+
+Golden PASS does not mean design approval.
+
+--------------------------------------------------
+P04 — APPLE DNA VS ANDROID-FIRST
+--------------------------------------------------
+
+Do NOT copy iOS controls.
+
+Use:
+
+APPLE:
+- restraint;
+- hierarchy;
+- whitespace;
+- typography;
+- motion discipline;
+- composition.
+
+ANDROID:
+- navigation behavior;
+- system back;
+- touch targets;
+- adaptive layout;
+- platform semantics;
+- accessibility conventions.
+
+MINGO:
+- identity;
+- imagery;
+- capybara;
+- language;
+- palette.
+
+No fake:
+
+- Dynamic Island;
+- iOS navigation;
+- iOS gestures;
+- iOS-only control behavior.
+
+--------------------------------------------------
+P05 — VISUAL COMPLEXITY MAY HURT PERFORMANCE
+--------------------------------------------------
+
+Create performance budget.
+
+No effect survives solely because it looks good.
+
+Measure:
+
+- build time;
+- raster time;
+- dropped/janky frames;
+- startup;
+- memory;
+- image decode;
+- asset size;
+- APK/AAB size;
+- energy-sensitive patterns when possible.
+
+--------------------------------------------------
+P06 — CAPYBARA ASSET CONSISTENCY
+--------------------------------------------------
+
+Create canonical mascot asset system.
+
+One Mingo capybara.
+
+Not random new animal per screen.
+
+Canonical states:
+
+neutral
+reading
+listening
+thinking
+hint/support
+encouraging
+completion
+offline
+empty
+error/support
+
+Create:
+
+CAPYBARA_ASSET_MANIFEST.md
+
+Define:
+
+asset id
+pose
+expression
+usage
+resolution
+format
+size
+fallback
+dark/light compatibility
+
+Use optimized pre-rendered/vector assets.
+
+Do NOT add runtime 3D engine.
+
+--------------------------------------------------
+P07 — CONTENT QUALITY IS STILL UNPROVEN
+--------------------------------------------------
+
+Adopt:
+
+EVIDENCE-CENTERED DESIGN FOR LEARNING
+
+Each objective should eventually support:
+
+CLAIM
+→ TASK
+→ EVIDENCE
+→ SUPPORT
+→ RETRIEVAL
+→ TRANSFER
+→ DELAYED CHECK
+
+Existing Phase 2 UI must support these concepts
+without locking final curriculum.
+
+--------------------------------------------------
+P08 — FIVE MINUTES IS A HYPOTHESIS
+--------------------------------------------------
+
+Freeze:
+
+SHORT SESSION = PRODUCT PRINCIPLE
+
+Do NOT freeze:
+
+ALL SESSIONS = EXACTLY FIVE MINUTES
+
+Use:
+
+estimated duration
+
+Prepare telemetry:
+
+estimated_duration
+actual_duration
+completion
+abandon_stage
+resume
+assistance
+voluntary_next_session
+return behavior
+delayed_retrieval
+
+UI should use:
+
+“Khoảng 5 phút”
+
+when appropriate.
+
+--------------------------------------------------
+P09 — PROGRESS MAY IMPLY FAKE MASTERY
+--------------------------------------------------
+
+Separate:
+
+OBSERVED FACT
+DERIVED EVIDENCE
+LATENT MODEL ESTIMATE
+
+Learner UI may show:
+
+sessions completed
+topics practiced
+independent retrieval
+review due
+repeated evidence
+
+Do not display:
+
+82% mastery
+
+unless future scientific/product rule explicitly permits it.
+
+--------------------------------------------------
+P10 — RECOMMENDATION TRUST
+--------------------------------------------------
+
+Recommendation V1 must remain heuristic-capable.
+
+Potential priority:
+
+unfinished session
+> due review
+> next curriculum item
+> goal-compatible item
+> fallback
+
+Human reason codes:
+
+RESUME
+DUE_REVIEW
+NEXT_IN_PATH
+GOAL_MATCH
+FALLBACK
+
+No claim:
+
+“AI understands you.”
+
+--------------------------------------------------
+P11 — OFFLINE UI AHEAD OF OFFLINE RUNTIME
+--------------------------------------------------
+
+Preserve Phase 2 visual states.
+
+Do not fake real sync.
+
+Prepare Phase 6 fault scenarios:
+
+submit
+→ kill app
+→ restart offline
+→ reconnect
+→ duplicate retry
+
+and:
+
+content revision changes during offline attempt
+
+and:
+
+telemetry delivered but command not delivered
+
+and:
+
+network oscillation
+
+and:
+
+server ack delayed.
+
+--------------------------------------------------
+P12 — AUTH/AUTHZ NOT IMPLEMENTED
+--------------------------------------------------
+
+Correct.
+
+Phase 3 remains HOLD.
+
+Do not implement auth in this task.
+
+Prepare only dependencies/issues discovered.
+
+--------------------------------------------------
+P13 — AI SELF-CONFIRMING DEVELOPMENT LOOP
+--------------------------------------------------
+
+Implement IV&V-lite process.
+
+Development tests != independent verification.
+
+Create:
+
+INDEPENDENT_VERIFICATION_PROTOCOL.md
+
+Independent reviewer must:
+
+derive expected behavior from:
+- V3.2;
+- PRD;
+- user goals;
+- contracts;
+
+not implementation internals.
+
+Reviewer should not automatically edit production code.
+
+--------------------------------------------------
+P14 — GOLDEN TESTS ≠ DESIGN QUALITY
+--------------------------------------------------
+
+UI validation layers:
+
+1. behavior
+2. semantics/accessibility
+3. responsiveness
+4. visual regression
+5. human product/art-direction approval
+
+Golden tests are layer 4 only.
+
+--------------------------------------------------
+P15 — ACCESSIBILITY NOT MANUALLY VALIDATED
+--------------------------------------------------
+
+Automated:
+
+semantics
+48dp
+contrast
+200% text
+overflow
+keyboard/web
+reduced motion
+
+Human/device:
+
+real TalkBack
+full core journey
+
+If device test unavailable:
+
+PENDING.
+
+--------------------------------------------------
+P16 — PRODUCT KNOWLEDGE TOO AI-CENTRIC
+--------------------------------------------------
+
+Create:
+
+OWNER_READBACK_CHECKPOINT.md
+
+Product Owner must be able to explain:
+
+- short session vs fixed five minutes;
+- assisted vs unaided;
+- skip vs complete;
+- mastery vs risk;
+- recommendation vs prediction;
+- command vs telemetry;
+- local saved vs server acknowledged;
+- content revision immutability;
+- heuristic-first recommendation;
+- why engagement is not the primary objective.
+
+Do not auto-PASS this file.
+
+--------------------------------------------------
+P17 — DOCUMENTATION OVERHEAD
+--------------------------------------------------
+
+Reduce canonical duplication.
+
+Adopt:
+
+PROJECT_STATE
+= current truth
+
+DECISION_REGISTER
+= frozen decisions + rationale
+
+PHASE_GATE
+= acceptance + evidence
+
+generated QA artifacts
+= evidence
+
+archive
+= history
+
+Do not create redundant Markdown documents without new value.
+
+--------------------------------------------------
+P18 — STAFF PRODUCT MAY BE OVERBUILT
+--------------------------------------------------
+
+Staff implementation must remain task-driven.
+
+Prioritize:
+
+learner lookup
+learner evidence
+content state
+content revision
+publishing status
+pilot operation
+
+Do not expand:
+
+analytics
+intervention
+admin intelligence
+
+without roadmap requirement.
+
+--------------------------------------------------
+P19 — TARGET USER STILL TOO BROAD
+--------------------------------------------------
+
+DO NOT invent final target user from theory.
+
+Inspect current Product Charter and research.
+
+Create:
+
+INITIAL_WEDGE_RESEARCH_PLAN.md
+
+Use:
+
+Jobs-to-Be-Done
+Working Backwards
+current alternatives
+circumstance-based research
+
+Do not freeze target until real evidence exists.
+
+--------------------------------------------------
+P20 — DIFFERENTIATION NOT YET PROVEN
+--------------------------------------------------
+
+Current differentiation hypothesis may include:
+
+short meaningful learning
++
+evidence-based progress
++
+calm motivation
++
+adaptive review
++
+useful intervention
+
+Treat as hypothesis.
+
+Not fact.
+
+Prepare competitor/outcome research matrix.
+
+Do not implement clone features simply because competitors have them.
+
+--------------------------------------------------
+P21 — EARLY INTERVENTION ACTION UNCLEAR
+--------------------------------------------------
+
+Future early intervention must be:
+
+ACTION-FIRST
+
+Before prediction model define:
+
+undesired state
+→ detectable evidence
+→ decision window
+→ actor
+→ possible action
+→ expected outcome
+→ measurement
+
+Prediction without actionable intervention has no product value.
+
+--------------------------------------------------
+P22 — PRODUCTION ML HAS NO PRODUCT DATA
+--------------------------------------------------
+
+Freeze lifecycle:
+
+RULE BASELINE
+→ PRODUCT TELEMETRY
+→ LABEL DEFINITION
+→ POINT-IN-TIME DATASET
+→ TRAIN PAST
+→ TEST FUTURE
+→ CALIBRATION
+→ SUBGROUP ANALYSIS
+→ SHADOW MODE
+→ LIMITED EXPOSURE
+→ INTERVENTION OUTCOME
+→ PRODUCTION
+
+OULAD/UCI:
+
+research baseline only.
+
+--------------------------------------------------
+P23 — SPEECH/AUDIO FUTURE PRIVACY
+--------------------------------------------------
+
+Do not implement speaking feature here.
+
+Create future privacy notes:
+
+prefer on-device processing when reasonable.
+
+If server upload:
+
+explicit action
+purpose
+minimum retention
+deletion
+encryption
+consent/disclosure
+account lifecycle.
+
+--------------------------------------------------
+P24 — PRODUCTION OPERATIONS NOT READY
+--------------------------------------------------
+
+Do not deploy production.
+
+Prepare future Production Readiness template:
+
+SLO
+monitoring
+alerting
+capacity
+backup
+restore
+rollback
+incident response
+dependency inventory
+security
+latency
+availability.
+
+--------------------------------------------------
+P25 — FIVE USER PILOT LIMITATION
+--------------------------------------------------
+
+Five users may support:
+
+qualitative usability
+journey friction
+terminology
+task observation
+exploratory diary study
+bug discovery
+
+Five users may NOT prove:
+
+statistical retention
+learning efficacy
+A/B superiority
+ML validity
+population-level outcome.
+
+Never write otherwise.
+
+=====================================================================
+8. LEARNING EXPERIENCE OPTIMIZATION LAYER
+=====================================================================
+
+Formalize a conceptual learner state with three separate areas.
+
+--------------------------------------------------
+A. KNOWLEDGE STATE
+--------------------------------------------------
+
+Signals may include:
+
+- correctness;
+- unaided success;
+- assisted success;
+- repeated retrieval;
+- delayed retrieval;
+- transfer;
+- misconception;
+- item/context coverage.
+
+--------------------------------------------------
+B. LEARNING EXPERIENCE STATE
+--------------------------------------------------
+
+Signals may include:
+
+- response latency;
+- repeated error;
+- hint;
+- skip;
+- replay;
+- abandonment;
+- retry;
+- resume;
+- voluntary next session;
+- optional self-report.
+
+DO NOT infer:
+
+“bored”
+“lazy”
+“unmotivated”
+“bad learner”
+
+from a single signal.
+
+--------------------------------------------------
+C. CONTEXT STATE
+--------------------------------------------------
+
+Examples:
+
+- session time;
+- connectivity;
+- offline availability;
+- device capability;
+- accessibility settings;
+- content availability;
+- interruption/resume context.
+
+These models are conceptually separate.
+
+Do not create premature production ML.
+
+=====================================================================
+9. ADAPTATION PRINCIPLES
+=====================================================================
+
+Future adaptation can influence:
+
+WHAT NEXT
+DIFFICULTY
+SUPPORT LEVEL
+REVIEW TIMING
+MODALITY
+
+But must not:
+
+optimize easiest completion.
+
+Need balance:
+
+EXPLOITATION
+vs
+EXPLORATION.
+
+Example:
+
+if user performs well only in listening,
+do not feed listening forever.
+
+Curriculum coverage and transfer still matter.
+
+=====================================================================
+10. SCAFFOLDING PRINCIPLE
+=====================================================================
+
+Use:
+
+SCAFFOLD
+→ OBSERVE
+→ FADE
+
+Example behavior conceptually:
+
+incorrect
+→ minimal hint
+
+incorrect again
+→ stronger contextual cue
+
+still incorrect
+→ worked contrast/example
+
+later
+→ retry independently.
+
+Assisted success must stay distinct from unaided success.
+
+Do not immediately reveal answer for every error.
+
+=====================================================================
+11. MOTIVATION PRINCIPLE
+=====================================================================
+
+Prefer:
+
+AUTONOMY
+COMPETENCE
+APPROPRIATE CHALLENGE
+MEANING
+
+over:
+
+XP farming
+streak pressure
+leaderboard pressure
+casino effects.
+
+Streak may remain a habit cue.
+
+Streak != learning progress.
+
+=====================================================================
+12. NO LEARNING-STYLES PERSONALIZATION
+=====================================================================
+
+Do NOT implement learner types like:
+
+visual learner
+auditory learner
+kinesthetic learner
+
+as personalization truth.
+
+Use:
+
+task requirement
+objective
+actual observed evidence
+accessibility needs
+user preference
+
+instead.
+
+=====================================================================
+13. RESEARCH STANDARD
+=====================================================================
+
+Create/update:
+
+MINGO_RESEARCH_EVIDENCE_REGISTER.md
+
+Each claim must contain:
+
+CLAIM
+SOURCE
+PUBLICATION TYPE
+YEAR
+POPULATION
+TASK/DOMAIN
+METHOD
+EFFECT/RESULT
+LIMITATION
+TRANSFERABILITY TO MINGO
+PRODUCT IMPLICATION
+MINGO HYPOTHESIS
+VALIDATION NEEDED
+
+Priority sources:
+
+1. systematic review/meta-analysis;
+2. peer-reviewed RCT/experimental study;
+3. official standards/platform research;
+4. established HCI/learning-science literature;
+5. high-quality industry data;
+6. blogs/opinion only supplementary.
+
+Topics:
+
+- retrieval practice;
+- spaced practice;
+- corrective feedback;
+- scaffolding;
+- transfer;
+- second language acquisition;
+- microlearning;
+- flow/challenge-skill balance;
+- boredom;
+- Self-Determination Theory;
+- autonomy;
+- competence;
+- adaptive learning;
+- learning analytics;
+- early warning/interventions;
+- explainable recommendation;
+- accessibility;
+- offline mobile;
+- Flutter/Android performance;
+- privacy;
+- production ML.
+
+If internet unavailable:
+
+DO NOT invent citations.
+
+Record:
+
+RESEARCH_REFRESH_PENDING.
+
+=====================================================================
+14. UI PRODUCT DNA — REMAINS FROZEN
+=====================================================================
+
+Direction:
+
+MINGO QUIET EXPLORATION
+
+APPLE DESIGN DISCIPLINE
+×
+ANDROID-NATIVE INTERACTION
+×
+MINGO FRIENDLY LEARNING
+×
+CAPYBARA COMPANION
+×
+WORLD EXPLORATION.
+
+Four rules:
+
+--------------------------------------------------
+COMPOSITION
+--------------------------------------------------
+
+ONE SCREEN
+ONE PRIMARY IDEA
+
+--------------------------------------------------
+TYPOGRAPHY
+--------------------------------------------------
+
+ONE BRAND
+ONE TYPE LAW
+
+Inter or validated equivalent.
+
+Support Vietnamese.
+
+--------------------------------------------------
+COLOR
+--------------------------------------------------
+
+ONE VIVID
+EVERYTHING ELSE QUIET
+
+Primary:
+
+Mingo Blue.
+
+Secondary surfaces:
+
+warm/cool whites
+quiet neutrals
+deep navy.
+
+Orange:
+limited warmth/streak.
+
+Green:
+success.
+
+Red:
+error/destructive.
+
+--------------------------------------------------
+MOTION
+--------------------------------------------------
+
+INVISIBLE TRANSITION
+
+Motion exists for:
+
+continuity
+orientation
+feedback
+
+not decoration.
+
+=====================================================================
+15. VISUAL FIDELITY REWORK
+=====================================================================
+
+Prioritize these learner surfaces:
+
+1. Home
+2. Learn
+3. Lesson
+4. Feedback
+5. Result
+6. Course Path
+7. Progress
+8. Profile
+9. Onboarding
+10. Offline/Error/Recovery
+
+Home must feel like:
+
+A calm learning companion,
+not a dashboard.
+
+Course Path must feel like:
+
+a learning journey,
+not a vertical list of generic cards.
+
+Result must feel like:
+
+a meaningful completion moment,
+not a database summary.
+
+Learn must feel:
+
+browsable,
+but Home remains default guidance.
+
+Lesson must remain:
+
+high-focus
+low-distraction.
+
+Do not sacrifice clarity for decoration.
+
+=====================================================================
+16. PERFORMANCE ENGINEERING — REQUIRED
+=====================================================================
+
+Mingo is Android-first.
+
+Performance is now a product requirement.
+
+Create:
+
+MINGO_PERFORMANCE_BUDGET_V1.md
+
+Refresh rate budgets approximately:
+
+60Hz:
+16.67 ms/frame
+
+90Hz:
+11.11 ms/frame
+
+120Hz:
+8.33 ms/frame
+
+Do NOT force 120fps.
+
+Use actual device capability/system refresh.
+
+A stable 60fps experience is better than unstable high refresh.
+
+Critical journey:
+
+Home
+→ Lesson
+→ Answer
+→ Feedback
+→ Result
+
+must be smooth.
+
+--------------------------------------------------
+DEVICE TIERS
+--------------------------------------------------
+
+Define:
+
+LOW
+MID
+HIGH
+
+with representative Android hardware where evidence/environment allows.
+
+Do not define fake hardware benchmarks without device data.
+
+--------------------------------------------------
+MEASURE
+--------------------------------------------------
+
+At minimum:
+
+Flutter UI frame time
+raster frame time
+jank
+startup
+memory
+image decoding
+asset footprint
+app size
+scroll performance
+transition performance
+
+If possible:
+
+battery/thermal observations.
+
+--------------------------------------------------
+UI PERFORMANCE RULES
+--------------------------------------------------
+
+No heavy synchronous work on UI isolate.
+
+No unnecessary:
+
+BackdropFilter
+saveLayer
+large animated opacity hierarchy
+large dynamic shadow
+huge unscaled image
+full-screen real-time blur
+
+unless benchmark proves acceptable.
+
+Prefer:
+
+static composition
+optimized images
+cached assets
+reused renders
+lazy lists
+isolated rebuild
+const widgets
+proper image sizing
+pre-rendered mascot.
+
+--------------------------------------------------
+QUALITY ADAPTATION
+--------------------------------------------------
+
+Presentation may adapt technically to device capability.
+
+HIGH:
+richer optional visual transition.
+
+LOW:
+simpler effect.
+
+But:
+
+learning semantics
+information hierarchy
+accessibility
+layout intent
+
+must remain consistent.
+
+=====================================================================
+17. CAPYBARA PERFORMANCE RULE
+=====================================================================
+
+Capybara should generally be:
+
+pre-rendered optimized asset
+or efficient vector/animation.
+
+Do NOT implement real-time 3D mascot engine.
+
+Asset sizes must be optimized per use.
+
+Large hero asset must not be loaded at unnecessarily high resolution.
+
+Use actual displayed dimensions/device pixel ratio.
+
+=====================================================================
+18. PERFORMANCE TESTING
+=====================================================================
+
+Debug mode performance results are NOT sufficient.
+
+Profile/release mode required.
+
+If physical Android devices available:
+
+benchmark there.
+
+If not:
+
+prepare benchmark scripts
+and mark:
+
+PHYSICAL DEVICE PERFORMANCE PENDING.
+
+Required scenarios:
+
+cold launch
+warm launch
+Home scroll
+Home → Lesson
+answer interaction
+feedback
+Lesson → Result
+Course scrolling
+200% font
+offline screen
+resume from background.
+
+Report actual numbers.
+
+Never fabricate 120Hz PASS on 60Hz emulator.
+
+=====================================================================
+19. UX MEASUREMENT FRAMEWORK
+=====================================================================
+
+Create:
+
+MINGO_PRODUCT_MEASUREMENT_FRAMEWORK.md
+
+Use adapted HEART:
+
+HAPPINESS
+ENGAGEMENT
+ADOPTION
+RETENTION
+TASK SUCCESS
+
+plus:
+
+LEARNING
+SAFETY/TRUST.
+
+Examples:
+
+HAPPINESS:
+perceived helpfulness
+ease
+confidence
+
+ENGAGEMENT:
+meaningful learning sessions
+voluntary review
+
+ADOPTION:
+reached first meaningful activity
+
+RETENTION:
+appropriate return intervals
+
+TASK SUCCESS:
+completed intended task without help
+
+LEARNING:
+delayed independent retrieval
+transfer
+
+SAFETY/TRUST:
+sync/progress errors
+misleading recommendation
+lost data
+wrong status.
+
+Important:
+
+engagement must not be optimized at expense of learning.
+
+=====================================================================
+20. TELEMETRY
+=====================================================================
+
+Telemetry != command.
+
+Potential events:
+
+screen_viewed
+recommendation_viewed
+recommendation_reason_viewed
+lesson_started
+activity_started
+answer_submitted
+hint_requested
+audio_replayed
+activity_skipped
+feedback_viewed
+activity_retried
+session_completed
+session_abandoned
+session_resumed
+voluntary_next_session_started
+offline_entered
+local_save_confirmed
+sync_status_viewed
+
+Do not collect data just because it is possible.
+
+Every event needs:
+
+PURPOSE.
+
+Create:
+
+TELEMETRY_PURPOSE_REGISTER.md
+
+Columns:
+
+event
+product question
+learning question
+privacy level
+retention need
+authoritative?
+optional?
+future removal condition.
+
+=====================================================================
+21. CONTENT QUALITY
+=====================================================================
+
+Update content rubric to include:
+
+objective
+claim
+task
+evidence
+difficulty
+misconception
+feedback
+hint
+assistance level
+retrieval
+transfer
+delayed check
+source/provenance
+estimated time
+accessibility
+offline dependency.
+
+Do NOT build final curriculum in Phase 2.
+
+=====================================================================
+22. TARGET USER DISCOVERY
+=====================================================================
+
+Do not freeze target from assumptions.
+
+Prepare:
+
+INITIAL_WEDGE_DISCOVERY_PACK
+
+including:
+
+- JTBD interview script;
+- recruitment criteria;
+- current-alternative questions;
+- circumstance questions;
+- why-now questions;
+- abandonment questions;
+- willingness-to-switch questions;
+- diary prompts.
+
+If real interview data exists in repo:
+
+analyze it.
+
+If none exists:
+
+mark E0 PENDING.
+
+=====================================================================
+23. FIVE-USER PILOT
+=====================================================================
+
+Prepare a realistic 5-person qualitative pilot.
+
+DAY 0:
+
+- context interview;
+- first-use test;
+- core-loop usability.
+
+DAYS 1–14:
+
+- natural use;
+- telemetry;
+- minimal diary prompts.
+
+MIDPOINT:
+
+- investigate unusual behavior.
+
+FINAL:
+
+- delayed learning checks;
+- interview;
+- perceived value;
+- abandonment reasons;
+- progress interpretation.
+
+Results may be:
+
+qualitative
+descriptive
+
+not:
+
+statistical efficacy.
+
+=====================================================================
+24. ACCESSIBILITY
+=====================================================================
+
+Requirements:
+
+>= 48dp mobile interactive target
+
+contrast:
+normal text >= 4.5:1
+large text >= 3:1
+
+200% text:
+no critical loss
+
+Support:
+
+TalkBack
+logical traversal
+semantic labels
+reduced motion
+non-color state
+error announcements
+offline announcements
+keyboard staff-web
+focus states.
+
+Run all automated checks possible.
+
+Manual device test remains human gate.
+
+=====================================================================
+25. INDEPENDENT QA
+=====================================================================
+
+Create separate independent validation pack.
+
+Independent QA must target:
+
+- product rules;
+- architecture invariants;
+- edge cases;
+- accessibility;
+- offline states;
+- responsive behavior;
+- visual fidelity;
+- performance regression.
+
+Do not simply rerun same unit tests.
+
+Create adversarial cases.
+
+=====================================================================
+26. NO NEW ARCHITECTURE
+=====================================================================
+
+Do not introduce without concrete requirement:
+
+Kafka
+Kubernetes
+microservices
+warehouse
+feature store
+event streaming platform
+separate recommendation service
+separate ML service.
+
+Keep modular monolith.
+
+=====================================================================
+27. PHASE 1 REGRESSION
+=====================================================================
+
+Rerun after all changes:
+
+backend unit tests
+PostgreSQL integration
+migration
+concurrency
+API readiness
+worker
+storage
+Flutter analyze
+Flutter tests
+Flutter builds
+staff web
+CI path validation.
+
+Record actual result.
+
+=====================================================================
+28. PHASE 2 ACCEPTANCE MODEL
+=====================================================================
+
+Phase 2 now has two gates.
+
+--------------------------------------------------
+TECHNICAL PHASE 2 GATE
+--------------------------------------------------
+
+Requires:
+
+screen/state coverage
+behavior
+design system
+visual candidate
+responsive
+accessibility automation
+performance baseline
+QA
+V3.2 integrity
+Phase1 regression
+governance
+traceability.
+
+--------------------------------------------------
+HUMAN PRODUCT GATE
+--------------------------------------------------
+
+Requires:
+
+Product Owner visual review
+Product Owner product review
+real TalkBack/device review
+independent QA
+content review
+critical usability review.
+
+Codex may NOT self-sign human gate.
+
+=====================================================================
+29. CURRENT STOP CONDITION
+=====================================================================
+
+Phase 3 MUST REMAIN HOLD
+unless human gate is explicitly satisfied by real evidence.
+
+This execution should maximize everything that can be completed before that gate.
+
+=====================================================================
+30. REQUIRED DELIVERABLES
+=====================================================================
+
+Update/create only documents that provide actual new value.
+
+At minimum:
+
+1. MINGO_POST_REBASELINE_AUDIT.md
+2. MINGO_EVIDENCE_GATED_DEVELOPMENT_V1.md
+3. MINGO_RESEARCH_EVIDENCE_REGISTER.md
+4. LEARNING_EXPERIENCE_MODEL.md
+5. ADAPTATION_PRINCIPLES.md
+6. CONTENT_QUALITY_RUBRIC_V2.md
+7. MINGO_PRODUCT_MEASUREMENT_FRAMEWORK.md
+8. TELEMETRY_PURPOSE_REGISTER.md
+9. INITIAL_WEDGE_RESEARCH_PLAN.md
+10. FIVE_USER_PILOT_PROTOCOL.md
+11. INDEPENDENT_VERIFICATION_PROTOCOL.md
+12. OWNER_READBACK_CHECKPOINT.md
+13. CAPYBARA_ASSET_MANIFEST.md
+14. MINGO_PERFORMANCE_BUDGET_V1.md
+15. DEVICE_TEST_MATRIX.md
+16. PERFORMANCE_TEST_REPORT.md
+17. ACCESSIBILITY_TEST_REPORT.md
+18. visual fidelity rework
+19. updated screenshots
+20. updated golden baselines after justified rework
+21. Phase1 regression report
+22. V3.2 integrity report
+23. Phase2 gate report
+24. Project state/governance update
+25. final handoff.
+
+Avoid document duplication.
+
+If canonical equivalent exists:
+UPDATE IT
+instead of creating another file.
+
+=====================================================================
+31. REQUIRED IMPLEMENTATION OUTPUT
+=====================================================================
+
+Learner Flutter should leave this task with:
+
+- coherent Mingo visual identity;
+- correct Android behavior;
+- capybara consistency;
+- clean core learning loop;
+- appropriate screen density;
+- improved course journey;
+- improved result experience;
+- improved Learn discovery;
+- evidence-safe progress;
+- accessible states;
+- performance-aware rendering;
+- offline state clarity;
+- reduced unnecessary dashboard clutter.
+
+Staff Web:
+
+preserve current productivity focus.
+
+Do not force learner visual richness into staff screens.
+
+=====================================================================
+32. REQUIRED TEST MATRIX
+=====================================================================
+
+At minimum test:
+
+HOME
+LEARN
+LESSON
+ANSWER
+FEEDBACK
+RESULT
+COURSE
+PROGRESS
+PROFILE
+ONBOARDING
+OFFLINE
+ERROR
+EMPTY
+LOADING
+
+Across:
+
+360 width
+common Android mid-size
+larger Android
+
+text scale:
+
+1.0
+1.3
+1.5
+2.0
+
+where feasible.
+
+Test:
+
+light mode
+supported dark mode if currently in scope
+offline
+slow state
+empty data
+long Vietnamese copy
+long localized copy where practical.
+
+=====================================================================
+33. EVIDENCE HYGIENE
+=====================================================================
+
+Every PASS in final report must state source:
+
+RERUN NOW
+EXISTING EVIDENCE
+HUMAN VERIFIED
+NOT RUN.
+
+Never write:
+
+PASS
+
+when only historical log exists without saying so.
+
+=====================================================================
+34. FINAL REPORT REQUIRED FORMAT
+=====================================================================
+
+Use exactly these sections:
+
+A. EXECUTIVE SUMMARY
+
+B. CURRENT PHASE STATUS
+
+C. WHAT WAS ACTUALLY CHANGED
+
+D. WHAT WAS NOT CHANGED
+
+E. 25-PROBLEM RESOLUTION MATRIX
+
+F. LEARNING EXPERIENCE MODEL STATUS
+
+G. UI/VISUAL FIDELITY STATUS
+
+H. PERFORMANCE STATUS
+
+Include:
+
+60Hz
+90Hz
+120Hz
+
+with:
+measured / unmeasured distinction.
+
+I. ACCESSIBILITY STATUS
+
+J. RESEARCH/EVIDENCE STATUS
+
+K. TEST RESULTS
+
+Actual counts.
+
+L. PHASE 1 REGRESSION
+
+M. V3.2 INTEGRITY
+
+N. HUMAN GATES
+
+O. BLOCKED
+
+P. DEFERRED
+
+Q. CHANGE REQUESTS
+
+R. DECISIONS FROZEN
+
+S. NEXT SAFE ACTION
+
+=====================================================================
+35. FROZEN DECISIONS TO RECORD
+=====================================================================
+
+Record these as frozen unless conflict with V3.2 is discovered:
+
+1. Evidence-Gated Dual Track development.
+2. Technical PASS != Product PASS.
+3. Engagement is not primary optimization objective.
+4. Learning gain + motivation + task success are core goals.
+5. Short session remains principle.
+6. Exact five-minute duration remains hypothesis.
+7. No learning-style personalization.
+8. Separate Knowledge / Experience / Context state.
+9. Behavioral event != psychological truth.
+10. No strong adaptation from one event.
+11. Scaffold → Observe → Fade.
+12. Assisted != unaided.
+13. Skip != completion.
+14. Streak != mastery.
+15. Completion != mastery.
+16. Progress must be evidence-safe.
+17. Rule-based recommendation precedes ML.
+18. Recommendation must remain explainable.
+19. Early intervention is action-first.
+20. Production ML requires product data.
+21. OULAD/UCI are research baselines only.
+22. Apple design discipline, not iOS cloning.
+23. Android-native interaction.
+24. Quiet Exploration visual identity.
+25. Mingo Blue = primary vivid UI accent.
+26. Capybara = canonical mascot.
+27. Pre-rendered mascot preferred over realtime 3D.
+28. Performance is product requirement.
+29. Stable 60fps > unstable 120fps.
+30. Support high-refresh devices when technically justified.
+31. Device-capability-aware visual quality is permitted.
+32. Human design approval cannot be automated.
+33. Golden test does not prove design quality.
+34. IV&V-lite is required for critical work.
+35. 5-user pilot = qualitative evidence only.
+36. Do not grow screen/feature count without user/evidence justification.
+37. Documentation should store decisions/evidence, not duplicate prose.
+38. Phase 3 remains HOLD until Phase 2 human gate.
+
+=====================================================================
+36. FAILURE CONDITIONS
+=====================================================================
+
+The task FAILS if you:
+
+- modify V3.2 silently;
+- fake human review;
+- fake research;
+- fake device benchmark;
+- fake 120Hz support;
+- claim user validation without users;
+- optimize for test count;
+- add speculative features;
+- introduce unnecessary infrastructure;
+- display fake mastery;
+- infer emotions as truth from telemetry;
+- use learning-styles pseudoscience;
+- rebuild all architecture unnecessarily;
+- close Phase 2 only because tests pass;
+- start Phase 3 without explicit gate.
+
+=====================================================================
+37. EXECUTION ORDER
+=====================================================================
+
+Follow this sequence.
+
+STEP 1
+Audit repository.
+
+STEP 2
+Verify V3.2 integrity.
+
+STEP 3
+Reconcile current governance/evidence.
+
+STEP 4
+Create evidence-gated framework.
+
+STEP 5
+Create research evidence register.
+
+STEP 6
+Formalize learning experience model.
+
+STEP 7
+Audit Phase 2 UI against approved DNA.
+
+STEP 8
+Fix P2-V2-UI-001.
+
+STEP 9
+Implement capybara asset discipline.
+
+STEP 10
+Implement responsive/accessibility refinements.
+
+STEP 11
+Implement performance budget and instrumentation.
+
+STEP 12
+Profile actual Flutter UI where environment permits.
+
+STEP 13
+Optimize measured bottlenecks only.
+
+STEP 14
+Update telemetry/measurement specifications.
+
+STEP 15
+Update content-quality framework.
+
+STEP 16
+Prepare real-user discovery/usability/pilot packages.
+
+STEP 17
+Implement IV&V-lite QA.
+
+STEP 18
+Run Phase 1 regression.
+
+STEP 19
+Run V3.2 verification again.
+
+STEP 20
+Update current governance.
+
+STEP 21
+Create final gate package.
+
+STEP 22
+STOP.
+
+DO NOT START PHASE 3.
+
+=====================================================================
+38. MOST IMPORTANT MENTAL MODEL
+=====================================================================
+
+Do not ask:
+
+“How can I make the project look complete?”
+
+Ask:
+
+“What claim are we making,
+what evidence supports that claim,
+and is that evidence actually valid?”
+
+Examples:
+
+“UI renders correctly”
+→ automated test.
+
+“UI is easy to use”
+→ human usability evidence.
+
+“Learner learned”
+→ valid learning evidence.
+
+“Learner retained knowledge”
+→ delayed evidence.
+
+“User wants to return”
+→ longitudinal evidence.
+
+“Recommendation is better”
+→ comparison against baseline.
+
+“Risk prediction is useful”
+→ intervention outcome.
+
+“App is smooth”
+→ real performance measurement.
+
+“App supports 120Hz”
+→ measured high-refresh device evidence.
+
+“Product is ready”
+→ all required gates, including human gates.
+
+=====================================================================
+39. START NOW
+=====================================================================
+
+Begin with:
+
+C:\Mingo\START_HERE.md
+
+Then perform repository audit.
+
+Do not ask me to repeat project context.
+
+Do not skip the audit because old reports say PASS.
+
+Do not rewrite working architecture without evidence.
+
+Do not start Phase 3.
+
+Execute all machine-completable work,
+package the remaining human gates cleanly,
+and report truthfully.

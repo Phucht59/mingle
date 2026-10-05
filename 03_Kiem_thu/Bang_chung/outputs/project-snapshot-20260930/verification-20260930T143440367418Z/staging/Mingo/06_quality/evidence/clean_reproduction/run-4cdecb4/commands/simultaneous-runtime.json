@@ -1,0 +1,9 @@
+{
+  "live": 200,
+  "ready": 200,
+  "api_pid": 9132,
+  "worker_pid": 20816,
+  "both_running": true,
+  "probe_state": "done",
+  "durable_effect_count": 1
+}

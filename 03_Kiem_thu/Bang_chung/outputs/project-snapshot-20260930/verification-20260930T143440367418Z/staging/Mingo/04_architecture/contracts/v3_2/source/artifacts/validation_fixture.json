@@ -1,0 +1,8 @@
+{
+  "validation_id": "validation_fixture_v1",
+  "fixture_only": true,
+  "deployment_eligible": false,
+  "approved_stages": [],
+  "model_artifact_sha256": "cedcb6d4e282be9b1af402b20bea815faa0b5552aa727bc57cc52340362de5be",
+  "feature_schema_sha256": "245647160352ceaef961e7b40dcbf6e2bf8b3cdfa114ad46592aa73564ba9698"
+}

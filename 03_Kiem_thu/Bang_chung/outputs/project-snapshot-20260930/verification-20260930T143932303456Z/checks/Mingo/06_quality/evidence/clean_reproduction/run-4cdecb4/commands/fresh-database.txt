@@ -1,0 +1,1 @@
+Fresh initdb; no foundation schema before migration; mingo_app is not superuser.

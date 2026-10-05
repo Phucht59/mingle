@@ -1,0 +1,16 @@
+{
+  "live": {
+    "status": 200,
+    "body": {
+      "status": "alive"
+    },
+    "request_id": "09c9a5e8-6822-46c8-890b-1bffbd8f2db0"
+  },
+  "ready": {
+    "status": 503,
+    "body": {
+      "status": "not_ready"
+    },
+    "request_id": "d0b22545-73d5-4543-9a0f-25e5f32c8436"
+  }
+}

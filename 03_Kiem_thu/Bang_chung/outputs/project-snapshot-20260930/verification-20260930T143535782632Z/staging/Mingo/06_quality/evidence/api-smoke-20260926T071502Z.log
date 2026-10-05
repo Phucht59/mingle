@@ -1,0 +1,3 @@
+Command: .\.venv\Scripts\python.exe 07_operations/scripts/smoke_api.py
+{"live": {"status": 200, "body": {"status": "alive"}, "request_id": "d0563485-d89e-424b-a9a1-5f103215fab6"}, "ready": {"status": 503, "body": {"status": "not_ready"}, "request_id": "0684d673-be0b-4e81-ab0d-82d7554d93d4"}}
+Exit code: 0

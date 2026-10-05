@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "zip": "03_Kiem_thu/QA_QC/QA_Handoff_Phase1_2_20261002/Mingo_QA_Phase1_Phase2_2026-10-02.zip",
+  "files": 571,
+  "zip_bytes": 145663578,
+  "zip_sha256": "43d3e4910338b593c2c6f3433a318fd2bf2f7e215a8cfc4836355c662d0dd0d9",
+  "source_zip_sha256": "66013ef666aac6ac029c278b6b3e1e8d47164b3cf303200402bb6639ebf6af65",
+  "source_files": 472,
+  "screenshot_gallery_images": 195,
+  "web_builds": [
+    "learner",
+    "staff"
+  ],
+  "android_apk_sha256": "21df81248b70809ca653fdf6920631b95c8fa3b2f0c1bfdc22316acb4104693e",
+  "defects_pending": [
+    "D021 R1 Linux independent disposition",
+    "D022 workbook visual and independent acceptance"
+  ],
+  "phase_2_gate": "NOT_PASSED",
+  "phase_3": "HOLD",
+  "errors": []
+}

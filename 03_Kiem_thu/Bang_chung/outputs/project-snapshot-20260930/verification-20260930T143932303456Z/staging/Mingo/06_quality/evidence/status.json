@@ -1,0 +1,15 @@
+{
+  "phase_1": "ACTIVE",
+  "gate": "NOT_PASSED",
+  "phase_2": "DEFERRED",
+  "backend_tests_passed": 10,
+  "postgres_tests_not_run": 6,
+  "api_live_http": 200,
+  "api_ready_http_without_db": 503,
+  "worker_boot": "BLOCKED",
+  "flutter_boot": "BLOCKED_AUTO_REVIEW",
+  "original_115_contract_checks": "NOT_RUN_SOURCE_ABSENT",
+  "original_22_sql_checks": "NOT_RUN_SOURCE_ABSENT",
+  "hosted_ci": "NOT_RUN",
+  "change_requests": []
+}

@@ -1,0 +1,7 @@
+# V3.2 integrity / current evidence-gated cycle
+
+**RERUN NOW / PASS.** Before and after original suites:102expected/102actual; missing0/extra0/hashmismatch0. Original MANIFEST SHA256: `617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d`. All105 source/provenance bytes are protected within141 frozen architecture/backend/config files; protected mismatch0. Canonical originals are under `02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source` and the human V3.2 index remains navigable. No regeneration/edit to originals.
+
+Fresh115contract and22SQL checks before/after PASS, from isolated copies with pinned existing PGlite0.5.8, no dependency download. Original SQL engine is PostgreSQLWASM; separate Phase1nativePG6 cases validate infrastructure concurrency. Archive96 pre-cycle authored files and both previous sealed ZIPs are unchanged; current captures are separate. Final foundation/provenance detail: [FINAL_FOUNDATION_COUNTS.json](../../../../../03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/baseline/FINAL_FOUNDATION_COUNTS.json), [after_protected_integrity.json](../../../../../03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/baseline/after_protected_integrity.json).
+
+Command≠telemetry, two durable offline queues, immutable/pinned revisions, event/knowledge/source time, Mastery≠Risk, optional risk input, OULAD/UCIresearch-only and operation without ML/recommendation remain unchanged. Prediction/Decision/Exposure/Execution/Outcome stay distinct. Phase3 HOLD.

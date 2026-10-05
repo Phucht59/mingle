@@ -1,0 +1,2163 @@
+{
+  "id": "QA-ACC-007",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-29T18:06:33.935Z",
+  "ended": "2026-09-29T18:06:34.213Z",
+  "expected": "Controls have meaningful labels/aria where needed.",
+  "steps": [
+    "Click: Staff",
+    "Click: Content",
+    "Click: Create draft",
+    "Click: Submit for review",
+    "Click: Open source & license"
+  ],
+  "observed": "Mingo Staff\nDashboard\nLearners\nContent\nInterventions\nAnalytics\nAdministration\nPROVENANCE GATE\nSource & license\n← Review\nSource reference\nReuse permission\nNeeds confirmation\nVerified for prototype\n“Publicly accessible” is not treated as permission to reuse.\nMark verified for prototype",
+  "state": {
+    "surface": "staff",
+    "learner": "welcome",
+    "staff": "sourceLicense",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 0,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [
+    {
+      "screen": "editor",
+      "tree": [
+        {
+          "role": "RootWebArea",
+          "name": "Mingo — Phase 2 UX Prototype R1",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:8765/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": [
+            {
+              "name": "live",
+              "value": {
+                "type": "token",
+                "value": "polite"
+              }
+            },
+            {
+              "name": "atomic",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "relevant",
+              "value": {
+                "type": "tokenList",
+                "value": "additions text"
+              }
+            }
+          ]
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "Prototype controls",
+          "properties": []
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "strong",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "mock state · non-production · QC/QA rework",
+          "properties": []
+        },
+        {
+          "role": "button",
+          "name": "Learner",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Staff",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "No recommendation",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Nothing due",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Recommendations available",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "First-use demo",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Simulate offline",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "pressed",
+              "value": {
+                "type": "tristate",
+                "value": "false"
+              }
+            }
+          ]
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "button",
+          "name": "Dashboard",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Learners",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Content",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Interventions",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Analytics",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Administration",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Basic greetings · Draft 4",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "← Content",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "combobox",
+          "name": "Item type",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "hasPopup",
+              "value": {
+                "type": "token",
+                "value": "menu"
+              }
+            },
+            {
+              "name": "expanded",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": false
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 172,
+                    "text": "Item type"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "combobox",
+          "name": "Domain",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "hasPopup",
+              "value": {
+                "type": "token",
+                "value": "menu"
+              }
+            },
+            {
+              "name": "expanded",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": false
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 187,
+                    "text": "Domain"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "textbox",
+          "name": "Prompt",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "describedby",
+              "value": {
+                "type": "idrefList",
+                "value": "prompt-help",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 209,
+                    "idref": "prompt-help"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 205,
+                    "text": "Prompt"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "textbox",
+          "name": "Correct answer",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 211,
+                    "text": "Correct answer"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "textbox",
+          "name": "Feedback",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 214,
+                    "text": "Feedback"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "textbox",
+          "name": "Source / license",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "describedby",
+              "value": {
+                "type": "idrefList",
+                "value": "source-help",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 221,
+                    "idref": "source-help"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 219,
+                    "text": "Source / license"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "button",
+          "name": "Save draft",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Preview",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Submit for review",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Mingo Phase 2 Prototype R1",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Learner",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Staff",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "No recommendation",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Nothing due",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Recommendations available",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "First-use demo",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Simulate offline",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Mingo Staff",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Dashboard",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Learners",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Content",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Interventions",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Analytics",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Administration",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "DRAFT",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Basic greetings · Draft 4",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "← Content",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Item type",
+          "properties": []
+        },
+        {
+          "role": "MenuListPopup",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Domain",
+          "properties": []
+        },
+        {
+          "role": "MenuListPopup",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Prompt",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Required. Learner-facing prompt for this draft revision.",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Correct answer",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Feedback",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Source / license",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Publication is blocked until provenance/license review passes.",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Published revisions can’t be edited. This is a draft.",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Save draft",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Preview",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Submit for review",
+          "properties": []
+        },
+        {
+          "role": "option",
+          "name": "Multiple choice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "selected",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "option",
+          "name": "Listening multiple choice",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "selected",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": false
+              }
+            }
+          ]
+        },
+        {
+          "role": "option",
+          "name": "Vocabulary",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "selected",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "option",
+          "name": "Grammar",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "selected",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": false
+              }
+            }
+          ]
+        },
+        {
+          "role": "option",
+          "name": "Listening",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "selected",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": false
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Choose the natural greeting.",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Hello",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "“Hello” is a common greeting.",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Internal authoring example",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "screen": "source-license",
+      "tree": [
+        {
+          "role": "RootWebArea",
+          "name": "Mingo — Phase 2 UX Prototype R1",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "url",
+              "value": {
+                "type": "string",
+                "value": "http://127.0.0.1:8765/"
+              }
+            }
+          ]
+        },
+        {
+          "role": "banner",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": [
+            {
+              "name": "live",
+              "value": {
+                "type": "token",
+                "value": "polite"
+              }
+            },
+            {
+              "name": "atomic",
+              "value": {
+                "type": "boolean",
+                "value": true
+              }
+            },
+            {
+              "name": "relevant",
+              "value": {
+                "type": "tokenList",
+                "value": "additions text"
+              }
+            }
+          ]
+        },
+        {
+          "role": "main",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "Prototype controls",
+          "properties": []
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "strong",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "mock state · non-production · QC/QA rework",
+          "properties": []
+        },
+        {
+          "role": "button",
+          "name": "Learner",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Staff",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "No recommendation",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Nothing due",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Recommendations available",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "First-use demo",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Simulate offline",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "pressed",
+              "value": {
+                "type": "tristate",
+                "value": "false"
+              }
+            }
+          ]
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "button",
+          "name": "Dashboard",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Learners",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Content",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Interventions",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Analytics",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Administration",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "heading",
+          "name": "Source & license",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "focused",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "level",
+              "value": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "← Review",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "textbox",
+          "name": "Source reference",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            },
+            {
+              "name": "settable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "multiline",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "readonly",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "required",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 350,
+                    "text": "Source reference"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "LabelText",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "combobox",
+          "name": "Reuse permission",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "hasPopup",
+              "value": {
+                "type": "token",
+                "value": "menu"
+              }
+            },
+            {
+              "name": "expanded",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": false
+              }
+            },
+            {
+              "name": "labelledby",
+              "value": {
+                "type": "nodeList",
+                "relatedNodes": [
+                  {
+                    "backendDOMNodeId": 353,
+                    "text": "Reuse permission"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "button",
+          "name": "Mark verified for prototype",
+          "properties": [
+            {
+              "name": "invalid",
+              "value": {
+                "type": "token",
+                "value": "false"
+              }
+            },
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Mingo Phase 2 Prototype R1",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Learner",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Staff",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "No recommendation",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Nothing due",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Recommendations available",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "First-use demo",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Simulate offline",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Mingo Staff",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Dashboard",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Learners",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Content",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Interventions",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Analytics",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Administration",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "PROVENANCE GATE",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Source & license",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "← Review",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Source reference",
+          "properties": []
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "StaticText",
+          "name": "Reuse permission",
+          "properties": []
+        },
+        {
+          "role": "MenuListPopup",
+          "name": "",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "“Publicly accessible” is not treated as permission to reuse.",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Mark verified for prototype",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Mingo Staff",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Dashboard",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Learners",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Content",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Interventions",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Analytics",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Administration",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "PROVENANCE GATE",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Source & license",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "← Review",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Source reference",
+          "properties": []
+        },
+        {
+          "role": "StaticText",
+          "name": "Internal authoring example",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Reuse permission",
+          "properties": []
+        },
+        {
+          "role": "option",
+          "name": "Needs confirmation",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "selected",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            }
+          ]
+        },
+        {
+          "role": "option",
+          "name": "Verified for prototype",
+          "properties": [
+            {
+              "name": "focusable",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": true
+              }
+            },
+            {
+              "name": "selected",
+              "value": {
+                "type": "booleanOrUndefined",
+                "value": false
+              }
+            }
+          ]
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "“Publicly accessible” is not treated as permission to reuse.",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Mark verified for prototype",
+          "properties": []
+        },
+        {
+          "role": "InlineTextBox",
+          "name": "Internal authoring example",
+          "properties": [
+            {
+              "name": "editable",
+              "value": {
+                "type": "token",
+                "value": "plaintext"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

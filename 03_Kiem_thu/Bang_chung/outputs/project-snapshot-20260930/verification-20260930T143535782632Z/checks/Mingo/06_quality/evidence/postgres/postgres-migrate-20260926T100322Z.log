@@ -1,0 +1,4 @@
+Commit: eb0dcc169c64813fa8d08aa715eb65073b2f33fe
+Command: C:\Mingo\.venv\Scripts\python.exe -m all_foundation.cli migrate
+{"applied": []}
+Exit code: 0

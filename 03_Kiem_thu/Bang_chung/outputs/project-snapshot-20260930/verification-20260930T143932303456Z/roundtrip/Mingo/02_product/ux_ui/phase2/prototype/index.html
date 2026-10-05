@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mingo — Phase 2 UX Prototype R1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="prototype-bar">
+    <div><strong>Mingo Phase 2 Prototype R1</strong><span class="prototype-note">mock state · non-production · QC/QA rework</span></div>
+    <div class="prototype-controls" aria-label="Prototype controls">
+      <button id="surfaceLearner" class="chip active" type="button">Learner</button>
+      <button id="surfaceStaff" class="chip" type="button">Staff</button>
+      <button class="chip" type="button" onclick="setRecommendationMode('fallback')">No recommendation</button>
+      <button class="chip" type="button" onclick="setRecommendationMode('empty')">Nothing due</button>
+      <button class="chip" type="button" onclick="setRecommendationMode('available')">Recommendations available</button>
+      <button id="resetFirstUse" class="chip" type="button">First-use demo</button>
+      <button id="toggleOffline" class="chip" type="button" aria-pressed="false">Simulate offline</button>
+    </div>
+  </header>
+  <div id="liveStatus" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <main id="app"></main>
+  <script src="app.js"></script>
+</body>
+</html>

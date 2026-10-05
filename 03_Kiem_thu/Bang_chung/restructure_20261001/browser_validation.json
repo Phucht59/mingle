@@ -1,0 +1,22 @@
+{
+  "name": "phase2_ordered_browser_and_supplemental",
+  "status": "PASS",
+  "command": [
+    "C:\\Mingo\\.venv\\Scripts\\python.exe",
+    "04_Van_hanh/Scripts/run_phase2_qa.py"
+  ],
+  "exit_code": 0,
+  "seconds": 99.5,
+  "review": {
+    "cases": 20,
+    "failed": []
+  },
+  "browser": {
+    "cases": 74,
+    "failed": []
+  },
+  "supplemental": {
+    "cases": 30,
+    "failed": []
+  }
+}

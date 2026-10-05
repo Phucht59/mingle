@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "recommendation_exposed_v1",
+  "type": "object",
+  "required": [
+    "exposure_id",
+    "decision_id",
+    "surface"
+  ],
+  "properties": {
+    "exposure_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "decision_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "surface": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,35 @@
+as_of: 2026-10-02
+project: Mingo
+architecture_baseline: V3.2
+phase_0:
+  name: Architecture & Contract Baseline
+  status: DONE
+  local_verification: PASS
+phase_1:
+  name: Implementation Foundation
+  status: DONE
+  gate: PASSED
+  local_regression: PASS
+phase_2:
+  name: UX/UI Product System
+  status: TECHNICALLY_COMPLETE
+  cycle: V2_OWNER_REBASELINE
+  human_gate: PENDING
+  gate: NOT_PASSED
+  presentation_screens: 61
+  presentation_states: 175
+  local_flutter_tests_passed: 227
+  compared_captures: 195
+  independent_acceptance: PENDING
+  blockers_to_gate:
+    - PRODUCT_OWNER_TECH_CONTENT_SIGNOFF
+    - INDEPENDENT_QA_ACCEPTANCE
+    - ACTUAL_SCREEN_READER_MANUAL_ACCESSIBILITY
+    - D021_D022_REVIEWER_DISPOSITION
+phase_3:
+  name: Identity/Auth/Authorization
+  status: HOLD
+  eligible: false
+change_request_open: false
+architecture_reopen_required: false
+human_validation_fabricated: false

@@ -1,0 +1,29 @@
+{
+  "status": "FAIL",
+  "protected_files": 141,
+  "protected_mismatches": [],
+  "historical_files": 9607,
+  "historical_mismatches": [],
+  "pre_migration_files": 10096,
+  "missing_pre_migration_files": [],
+  "v3_2_source_files": 102,
+  "screens": 61,
+  "states": 175,
+  "preserved_original_states": 166,
+  "screenshots": 205,
+  "flutter_tests": 227,
+  "compiled_web_cases": 7,
+  "errors": [
+    "capture test did not pass: L-002 dark capture",
+    "capture test did not pass: L-010 dark capture",
+    "capture test did not pass: L-020 dark capture",
+    "capture test did not pass: L-024 dark capture",
+    "capture test did not pass: L-027 dark capture",
+    "capture test did not pass: L-032 dark capture",
+    "capture test did not pass: L-040 dark capture",
+    "capture test did not pass: L-050 dark capture",
+    "capture test did not pass: L-070 dark capture",
+    "capture test did not pass: L-072 dark capture",
+    "current phase/governance evidence mismatch"
+  ]
+}

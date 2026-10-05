@@ -1,0 +1,7 @@
+--------- beginning of main
+10-03 10:38:44.608  2389  2453 I flutter : The Dart VM service is listening on http://127.0.0.1:40281/ZFM47eqy6DE=/
+10-03 10:38:44.662  2389  2389 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(94)] Using the Impeller rendering backend (OpenGLES).
+10-03 10:38:47.731  2389  2446 E flutter : [ERROR:flutter/impeller/renderer/backend/gles/texture_gles.cc(208)] Break on 'ImpellerValidationBreak' to inspect point of failure: Invalid texture descriptor.
+10-03 10:38:47.812  2389  2446 F flutter : [FATAL:flutter/impeller/renderer/backend/gles/blit_pass_gles.cc(88)] Check failed: result. Must be able to encode GL commands without error.
+10-03 10:40:01.177  3775  3806 I flutter : The Dart VM service is listening on http://127.0.0.1:45651/ikg8H39o8Z8=/
+10-03 10:40:03.036  3775  3800 E flutter : [ERROR:flutter/lib/ui/painting/image_decoder_skia.cc(39)] Could not resize to empty dimensions.

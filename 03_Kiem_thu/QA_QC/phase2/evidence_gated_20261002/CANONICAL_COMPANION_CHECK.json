@@ -1,0 +1,27 @@
+{
+  "logical_states": [
+    "neutral",
+    "reading",
+    "listening",
+    "thinking",
+    "support",
+    "encouraging",
+    "completion",
+    "offline",
+    "empty",
+    "errorSupport"
+  ],
+  "distinct_pose_library_status": "PARTIAL; fallback neutral for missing poses; human approval pending",
+  "masters": [
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/mascot.png",
+      "bytes": 2302299,
+      "sha256": "cd6caaa4ce066198e2921f64a040b1a8c486e7f40d41fa1e2bf34e17979df168"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/exploration.png",
+      "bytes": 2269212,
+      "sha256": "6bd66c6d3aced8d284d17d48f6b51165938e278355c6d0af906c5dd9b5ac2983"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "scope": "Runtime navigation/rendering, not TalkBack/human UAT",
+  "results": [
+    {
+      "name": "learner-360",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 360,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('flt-glass-pane') to be visible\u001b[22m\n\u001b[2m    37 × locator resolved to hidden <flt-glass-pane></flt-glass-pane>\u001b[22m\n"
+    },
+    {
+      "name": "learner-412",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('flt-glass-pane') to be visible\u001b[22m\n\u001b[2m    37 × locator resolved to hidden <flt-glass-pane></flt-glass-pane>\u001b[22m\n"
+    },
+    {
+      "name": "learner-430",
+      "url": "http://127.0.0.1:8765/",
+      "viewport": {
+        "width": 430,
+        "height": 915
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('flt-glass-pane') to be visible\u001b[22m\n\u001b[2m    37 × locator resolved to hidden <flt-glass-pane></flt-glass-pane>\u001b[22m\n"
+    },
+    {
+      "name": "staff-1280",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1280,
+        "height": 1000
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('flt-glass-pane') to be visible\u001b[22m\n\u001b[2m    37 × locator resolved to hidden <flt-glass-pane></flt-glass-pane>\u001b[22m\n"
+    },
+    {
+      "name": "staff-1440",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('flt-glass-pane') to be visible\u001b[22m\n\u001b[2m    37 × locator resolved to hidden <flt-glass-pane></flt-glass-pane>\u001b[22m\n"
+    },
+    {
+      "name": "staff-1920",
+      "url": "http://127.0.0.1:8766/",
+      "viewport": {
+        "width": 1920,
+        "height": 1000
+      },
+      "status": "FAIL",
+      "browser": "154.0.8037.58",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('flt-glass-pane') to be visible\u001b[22m\n\u001b[2m    37 × locator resolved to hidden <flt-glass-pane></flt-glass-pane>\u001b[22m\n"
+    }
+  ]
+}

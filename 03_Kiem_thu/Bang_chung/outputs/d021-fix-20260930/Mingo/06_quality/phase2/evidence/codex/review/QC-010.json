@@ -1,0 +1,15 @@
+{
+  "id": "QC-010",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "external_references": false,
+    "browser_requests": "See each browser case JSON: loopback files only"
+  },
+  "sources": [
+    "prototype/app.js",
+    "prototype/index.html",
+    "prototype/styles.css"
+  ],
+  "time": "2026-09-29T18:05:51.618226+00:00"
+}

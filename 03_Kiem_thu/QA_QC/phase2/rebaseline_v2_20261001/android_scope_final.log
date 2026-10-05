@@ -1,0 +1,20 @@
+00:00 +0: loading C:/Mingo/01_San_pham/apps/learner/integration_test/boot_test.dart
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:/Mingo/.local/java-tmp
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version:
+- audioplayers_android requires Android NDK 27.0.12077973
+- path_provider_android requires Android NDK 27.0.12077973
+Fix this issue by using the highest Android NDK version (they are backward compatible).
+Add the following to C:\Mingo\01_San_pham\apps\learner\android\app\build.gradle.kts:
+
+    android {
+        ndkVersion = "27.0.12077973"
+        ...
+    }
+Running Gradle task 'assembleDebug'...                             30,2s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        1.566ms
+00:00 +0: V2 boots with an honest review boundary
+00:02 +1: licensed sample initializes on Android and enforces its request budget
+00:03 +2: (tearDownAll)
+00:04 +2: All tests passed!

@@ -1,0 +1,15 @@
+{
+  "id": "QC-002",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "protected_file_count": 137,
+    "hash_mismatches": [],
+    "git_diff": "",
+    "line_endings": "Accept exact original working-copy bytes or exact original Git blob bytes; original V3.2 has identical hashes in both. Git-less extraction uses cryptographic baseline hashes."
+  },
+  "sources": [
+    "evidence/codex/intake.json"
+  ],
+  "time": "2026-09-29T17:52:26.836746+00:00"
+}

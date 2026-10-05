@@ -1,0 +1,62 @@
+{
+  "installed_package": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation",
+  "verified_files": 11,
+  "all_same": true,
+  "files": [
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\api.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\api.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\cli.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\cli.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\config.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\config.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\db.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\db.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\logging.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\logging.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\ports.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\ports.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\storage.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\storage.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\worker.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\worker.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\__init__.py",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\__init__.py",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\migrations\\001_runtime_probe.sql",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\migrations\\001_runtime_probe.sql",
+      "same": true
+    },
+    {
+      "current": "01_San_pham\\backend\\src\\all_foundation\\migrations\\002_worker_heartbeat.sql",
+      "loaded": "C:\\Mingo\\.venv\\Lib\\site-packages\\all_foundation\\migrations\\002_worker_heartbeat.sql",
+      "same": true
+    }
+  ]
+}

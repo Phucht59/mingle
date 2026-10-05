@@ -1,0 +1,5 @@
+# Current frozen decisions / scope
+
+The38 owner-approved principles live once in [DECISION_REGISTER.md](../../../../06_Quyet_dinh_da_chot/DECISION_REGISTER.md) (EG01–38). Current authority is V3.2; no business contract amendment or architecture reopening. Product evidence and machine proof are separate. Exact duration, wedge, differentiation, policy thresholds and efficacy are hypotheses. Current phase status belongs to PROJECT_STATE; final acceptance belongs to the Phase2 gate/human signatures.
+
+61 inherited routes/175states remain; no new route in this cycle. [SCREEN_SCOPE_REGISTER.csv](SCREEN_SCOPE_REGISTER.csv) classifies every route and freezes seven future staff placeholders. Android-native interactions, Quiet Exploration/Mingo Blue/capybara world, static pre-rendered art and performance-aware decoding apply to the presentation candidate. Unique missing poses remain pending. Auth, canonical learning business logic, durable mobile queues, ML/speech/privacy implementation and production deployment remain future authorized phases; Phase3 HOLD.

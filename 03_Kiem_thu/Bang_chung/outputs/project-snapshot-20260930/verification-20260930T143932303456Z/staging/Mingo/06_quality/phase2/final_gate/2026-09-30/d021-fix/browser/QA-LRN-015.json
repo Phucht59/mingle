@@ -1,0 +1,48 @@
+{
+  "id": "QA-LRN-015",
+  "priority": "P0",
+  "status": "PASS",
+  "started": "2026-09-29T18:06:18.794Z",
+  "ended": "2026-09-29T18:06:19.025Z",
+  "expected": "Learner can continue with provisional/missing evidence state.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home"
+  ],
+  "observed": "Mingo\nSynced\nTODAY\nReady for a short cycle?\n\nOne clear objective. You can stop when the cycle ends.\n\nDue for review\nBasic greetings\n\nReview a few words, use them in context, then do a quick Check.\n\nAbout 5 min\n\nStart cycle\nToday’s target\n0 / 1 cycle\nStreak\n4 days\n\nStreak shows study activity, not skill level.\n\nHome\nLearn\nCourse\nProfile",
+  "state": {
+    "surface": "learner",
+    "learner": "home",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

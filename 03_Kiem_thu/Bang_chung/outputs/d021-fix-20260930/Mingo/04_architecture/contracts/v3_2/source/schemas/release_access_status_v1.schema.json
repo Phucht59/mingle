@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "release_access_status_v1.schema.json",
+  "title": "ReleaseAccessStatusV1",
+  "type": "object",
+  "required": [
+    "course_release_id",
+    "status_version",
+    "status",
+    "effective_at"
+  ],
+  "properties": {
+    "course_release_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "status_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "published",
+        "retired",
+        "soft_revoked",
+        "hard_revoked"
+      ]
+    },
+    "effective_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "reason_code": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

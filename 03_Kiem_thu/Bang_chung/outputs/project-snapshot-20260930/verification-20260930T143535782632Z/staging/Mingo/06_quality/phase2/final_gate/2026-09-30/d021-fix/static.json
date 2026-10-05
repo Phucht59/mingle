@@ -1,0 +1,20 @@
+[
+  {
+    "name": "rework",
+    "code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"screens\": 57,\n  \"components\": 18,\n  \"qa_cases\": 94,\n  \"traceability_rows\": 166,\n  \"rework_static_checks\": {\n    \"data-driven correct answer\": true,\n    \"blank submit validation\": true,\n    \"persistent assisted state\": true,\n    \"network not sync ack\": true,\n    \"bounded retry\": true,\n    \"offline recovery states\": true,\n    \"onboarding executable\": true,\n    \"listening executable\": true,\n    \"staff publication executable\": true,\n    \"accessible labels\": true,\n    \"complex interaction contracts\": true,\n    \"screen state traceability\": true,\n    \"locked preview handler\": true,\n    \"targeted live region\": true,\n    \"focus token consumed\": true,\n    \"grammar executable\": true\n  },\n  \"errors\": []\n}\n",
+    "stderr": ""
+  },
+  {
+    "name": "review",
+    "code": 0,
+    "stdout": "QC-001 PASS\nQC-002 PASS\nQC-003 PASS\nQC-004 PASS\nQC-005 PASS\nQC-006 PASS\nQC-007 PASS\nQC-008 PASS\nQC-009 PASS\nQC-010 PASS\nQA-NAV-009 PASS\nQA-NAV-010 PASS\nQA-BIZ-006 PASS\nQA-ACC-004 PASS\nQA-HO-001 PASS\nQA-HO-002 PASS\nQA-HO-003 PASS\nQA-HO-004 PASS\nQA-HO-005 PASS\nQA-HO-006 PASS\n",
+    "stderr": ""
+  },
+  {
+    "name": "js",
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

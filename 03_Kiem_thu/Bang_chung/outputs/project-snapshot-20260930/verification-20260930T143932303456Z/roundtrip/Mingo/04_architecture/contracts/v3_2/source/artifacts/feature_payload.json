@@ -1,0 +1,17 @@
+{
+  "static": [],
+  "aggregate": [
+    1.0
+  ],
+  "aggregate_available": true,
+  "temporal": [
+    [
+      2.0
+    ]
+  ],
+  "length": 1,
+  "mask": [
+    true
+  ],
+  "fixture_only": true
+}

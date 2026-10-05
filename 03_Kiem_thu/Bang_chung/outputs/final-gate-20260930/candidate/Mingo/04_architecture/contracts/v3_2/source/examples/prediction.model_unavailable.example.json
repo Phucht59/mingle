@@ -1,0 +1,22 @@
+{
+  "prediction_id": "10000000-0000-4000-8000-000000000025",
+  "status": "model_unavailable",
+  "feature_snapshot_id": null,
+  "model_bundle_id": null,
+  "model_bundle_sha256": null,
+  "target_version": null,
+  "horizon_version": null,
+  "probability": null,
+  "threshold_value": null,
+  "threshold_version": null,
+  "label": null,
+  "margin": null,
+  "margin_definition": null,
+  "uncertainty_value": null,
+  "uncertainty_method": null,
+  "uncertainty_version": null,
+  "calibration_version": null,
+  "generated_at": "2026-09-20T10:00:04Z",
+  "as_of_at": "2026-09-20T10:00:00Z",
+  "expires_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "QA-HO-005",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "roles": [
+      "QC Lead",
+      "QA Lead",
+      "Tech Lead",
+      "Product/Owner"
+    ],
+    "signoffs": "PENDING; execution engineer has not signed for another role"
+  },
+  "sources": [
+    "Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx"
+  ],
+  "time": "2026-09-29T18:05:51.674365+00:00"
+}

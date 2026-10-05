@@ -1,0 +1,26 @@
+{
+  "candidate": "Mingo_Phase2_UXUI_QA_Retest_R1_20260927_codex-r1.zip",
+  "sha256": "a1221923834cfeb84fd245e93694df2b78b85daf8f23eb6908b04cabe802be10",
+  "git_commit": "a112f762ab08f6fa688cc4857b21d95d1055ab5c",
+  "audit_date": "2026-09-29",
+  "integrity": "PASS",
+  "static_rework_verifier": "PASS",
+  "artifact_review": {"pass": 20, "fail": 0},
+  "browser_canonical": {"pass": 74, "fail": 0},
+  "canonical_total": {"pass": 94, "fail": 0, "blocked": 0, "not_run": 0},
+  "p0": {"pass": 44, "total": 44},
+  "defects_P2_D001_to_D020": "CLOSED_INDEPENDENT_RETEST_PASS",
+  "new_observation": {
+    "id": "P2-D021",
+    "severity": "P2",
+    "scope": "non-production prototype QA toolbar",
+    "finding": "At 320px viewport with 200% text scaling on Linux Chromium, document scrollWidth is 328px because prototype toolbar chips exceed the viewport. Learner #app remains 320px with zero overflowing descendants.",
+    "recommended_disposition": "ACCEPT_OR_DEFER_NON_PRODUCTION_TOOLING"
+  },
+  "interactive_screen_reader_talkback": "BLOCKED",
+  "tech_lead_signoff": "PENDING",
+  "product_owner_signoff": "PENDING",
+  "phase2_gate": "NOT_PASSED",
+  "phase3": "DEFERRED",
+  "qa_recommendation": "TECHNICAL_RETEST_PASS_GATE_HOLD"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "hint_opened_v1",
+  "type": "object",
+  "required": [
+    "hint_id"
+  ],
+  "properties": {
+    "hint_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

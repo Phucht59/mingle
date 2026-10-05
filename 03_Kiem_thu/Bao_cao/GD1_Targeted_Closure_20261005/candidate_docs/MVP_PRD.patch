@@ -1,0 +1,23 @@
+--- C:\Mingo\02_Tai_lieu_du_an\04_Thiet_ke_san_pham\MVP_PRD.md
++++ C:\Mingo\03_Kiem_thu\Bao_cao\GD1_Targeted_Closure_20261005\candidate_docs\MVP_PRD.md
+@@ -6,7 +6,7 @@
+ 
+ ## Authority and change precedence
+ 
+-Current precedence (owner-approved 2026-10-02): exact V3.2 → approved Change Request → current owner directive → current working documents → historical evidence. Product/development principles do not silently amend a frozen scoring, schema, offline or permission contract; any exact conflict requires an approved Change Request before implementation. V3.2 originals are available and byte-protected. This document's dated operational thresholds remain provisional product hypotheses, not a new production rule or learner efficacy result. Current evidence ladder: [MINGO_EVIDENCE_GATED_DEVELOPMENT_V1.md](ux_ui/phase2/rebaseline_v2/MINGO_EVIDENCE_GATED_DEVELOPMENT_V1.md).
++Current precedence (owner-approved 2026-10-02): exact V3.2 → approved Change Request → current owner directive → current working documents → historical evidence. Product/development principles do not silently amend a frozen scoring, schema, offline or permission contract; any exact conflict requires an approved Change Request before implementation. V3.2 originals are available and byte-protected. This document's dated operational thresholds remain provisional product hypotheses, not a new production rule or learner efficacy result. Current evidence ladder: [MINGO_EVIDENCE_GATED_DEVELOPMENT_V1.md](C:/Mingo/02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/MINGO_EVIDENCE_GATED_DEVELOPMENT_V1.md).
+ 
+ ## Actors and primary journeys
+ 
+@@ -43,4 +43,10 @@
+ 
+ ## Out of scope and release gates
+ 
+-Out of MVP: speaking, unrestricted chat, production ML, final mastery/risk formula, calibrated CEFR cutoffs, large social mechanics, paid gate. Exact V3.2 originals are available and compatibility mapping is completed; their unchanged 115 contract and 22 SQL checks passed again on 2026-10-05. Full domain/auth/offline implementations remain later engineering scope, with Phase3 HOLD under its separate gate. GĐ1 Internal BA Baseline is not yet closed: the actual BA workbook, requirement priorities and account lifecycle scope still require reconciliation. Engineering Phase1 foundation evidence does not certify GĐ1, customer validation or production readiness.
++Out of MVP: speaking, unrestricted chat, production ML, final mastery/risk formula, calibrated CEFR cutoffs, large social mechanics, paid gate. Exact V3.2 originals are available and compatibility mapping is completed; their unchanged 115 contract and 22 SQL checks passed again on 2026-10-05. Full domain/auth/offline implementations remain later engineering scope, with Phase3 HOLD under its separate gate. GĐ1 Internal BA Baseline is not yet closed: the actual BA workbook, requirement priorities and account lifecycle trace still require reconciliation against Q3 (Account Gate already approved). Engineering Phase1 foundation evidence does not certify GĐ1, customer validation or production readiness.
++
++## Approved PO Account Gate and Home order — candidate synchronization 2026-10-05
++
++Guest may browse Welcome/product intro/demo Home/catalog/Course/Lesson preview. Authentication is required before Start Learning, Attempt, independent Check, durable Progress, offline learning download and learning sync. Email is required supported; Google is target supported; Facebook is DEFERRED-FUTURE. After auth, return to the intended context only if technically/semantically valid. This does not decide Email mechanism, session expiry, recovery, provider linking or deletion/export timing.
++
++Home next-action order approved by Q6: valid unfinished Resume; due Review; next eligible path; goal-matched eligible; deterministic fallback; honest empty. Goal does not bypass prerequisites. Item selection/in-cycle insertion thresholds remain separate dated hypotheses. Advanced future capabilities in Q12 are out of current MVP implementation, not permanently rejected. Account/trace completeness remains unverified pending actual BA workbook; auth runtime remains later stage.

@@ -1,0 +1,5 @@
+Command: C:\Mingo\.local\v32-clean-d4165e8\.venv\Scripts\python.exe -X utf8 validators/run_checks.py
+
+Contract checks: 115 passed, 0 failed
+
+Exit code: 0

@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "syntax_checks": [
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/check_original_contracts.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/repository_paths.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/run_phase2_qa.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/smoke_api.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/verify_phase2_artifacts.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/verify_phase2_package_manifest.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/verify_phase2_review.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/verify_phase2_rework.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/verify_phase2_v2.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "Python AST",
+      "path": "04_Van_hanh/Scripts/verify_restructure.py",
+      "status": "PASS"
+    },
+    {
+      "kind": "YAML",
+      "path": ".github/workflows/foundation.yaml",
+      "status": "PASS"
+    },
+    {
+      "kind": "YAML",
+      "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/PHASE_STATUS.yaml",
+      "status": "PASS"
+    },
+    {
+      "kind": "YAML",
+      "path": "01_San_pham/apps/learner/pubspec.yaml",
+      "status": "PASS"
+    },
+    {
+      "kind": "YAML",
+      "path": "01_San_pham/apps/staff/pubspec.yaml",
+      "status": "PASS"
+    },
+    {
+      "kind": "YAML",
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/pubspec.yaml",
+      "status": "PASS"
+    },
+    {
+      "kind": "JSON",
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/ASSET_PROVENANCE.json",
+      "status": "PASS"
+    },
+    {
+      "kind": "JSON",
+      "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/SCREEN_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "kind": "JS syntax",
+      "path": "04_Van_hanh/Scripts/verify_phase2_browser.cjs",
+      "status": "PASS"
+    },
+    {
+      "kind": "JS syntax",
+      "path": "04_Van_hanh/Scripts/verify_phase2_supplemental.cjs",
+      "status": "PASS"
+    },
+    {
+      "kind": "JS syntax",
+      "path": "04_Van_hanh/Scripts/verify_phase2_v2_browser.cjs",
+      "status": "PASS"
+    }
+  ],
+  "markdown_files_scanned": 35,
+  "local_links_checked": 105,
+  "broken_links": [],
+  "critical_old_path_hits": [],
+  "governance": "Phase2 technically complete / human pending; Phase3 HOLD",
+  "errors": [],
+  "scope": "Current entry points, V2 authored source/docs and CI. Historical captured paths/seals and frozen V3 are excluded from rewrite scope."
+}

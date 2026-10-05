@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-02T16:04:06.535407+00:00",
+  "evidence_level": "RERUN NOW",
+  "original_files": 102,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "contract",
+      "command": [
+        "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "validators/run_checks.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "sql",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "tests/check_sql.mjs"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "work_copy": "C:\\Mingo\\.local\\evidence_gated_v3_2_runs\\20261002T160406345471Z",
+  "before": {
+    "expected_files": 102,
+    "actual_files": 102,
+    "missing": [],
+    "extra": [],
+    "hash_mismatch": [],
+    "manifest_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d"
+  },
+  "dependency": "Existing pinned PGlite0.5.8 copied into fresh run; no network install",
+  "contract": {
+    "passed": 115,
+    "failed": 0,
+    "total": 115
+  },
+  "sql": {
+    "passed": 22,
+    "failed": 0,
+    "total": 22
+  },
+  "after": {
+    "expected_files": 102,
+    "actual_files": 102,
+    "missing": [],
+    "extra": [],
+    "hash_mismatch": [],
+    "manifest_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d"
+  },
+  "sql_engine": "Original PGlite PostgreSQL WASM; does not prove native concurrency"
+}

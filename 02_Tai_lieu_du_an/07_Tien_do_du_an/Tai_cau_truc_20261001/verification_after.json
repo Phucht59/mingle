@@ -1,0 +1,125 @@
+[
+  {
+    "name": "adapter_guards",
+    "command": [
+      "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "04_Van_hanh/tests",
+      "-v"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.6,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\adapter_guards.log"
+  },
+  {
+    "name": "phase2_artifacts",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "04_Van_hanh/Scripts/verify_phase2_artifacts.py"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.4,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\phase2_artifacts.log"
+  },
+  {
+    "name": "phase2_rework",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "04_Van_hanh/Scripts/verify_phase2_rework.py"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.3,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\phase2_rework.log"
+  },
+  {
+    "name": "phase2_review",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "04_Van_hanh/Scripts/verify_phase2_review.py"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.8,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\phase2_review.log"
+  },
+  {
+    "name": "javascript_syntax",
+    "command": [
+      "node",
+      "--check",
+      "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/prototype/app.js"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.1,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\javascript_syntax.log"
+  },
+  {
+    "name": "v3_2_original_suites",
+    "command": [
+      "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe",
+      "04_Van_hanh/Scripts/check_original_contracts.py"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 12.3,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\v3_2_original_suites.log"
+  },
+  {
+    "name": "backend_verifier_postgres",
+    "command": [
+      "C:\\Users\\Ph\u00fac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.EXE",
+      "-NoProfile",
+      "-File",
+      "04_Van_hanh/Scripts/verify_backend.ps1",
+      "-Python",
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "-RunPostgres"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 25.5,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\backend_verifier_postgres.log"
+  },
+  {
+    "name": "historical_release_manifest",
+    "command": [
+      "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "04_Van_hanh/Scripts/verify_phase2_package_manifest.py"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 1,
+    "status": "FAIL",
+    "seconds": 63.3,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\historical_release_manifest.log"
+  },
+  {
+    "name": "flutter_verifier",
+    "command": [
+      "C:\\Users\\Ph\u00fac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.EXE",
+      "-NoProfile",
+      "-File",
+      "04_Van_hanh/Scripts/verify_flutter.ps1",
+      "-Flutter",
+      "C:/Dev/flutter-3.32.8/bin/flutter.bat"
+    ],
+    "cwd": "C:\\Mingo",
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 323.3,
+    "log": "03_Kiem_thu\\Bang_chung\\restructure_20261001\\flutter_verifier.log"
+  }
+]

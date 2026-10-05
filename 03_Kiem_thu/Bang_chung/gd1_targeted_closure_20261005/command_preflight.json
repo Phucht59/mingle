@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "path": "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\.venv\\Scripts\\python.exe",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\04_Van_hanh\\Scripts\\check_original_contracts.py",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\04_Van_hanh\\tests",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\01_San_pham\\backend\\tests",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\04_Van_hanh\\Scripts\\verify_phase2_artifacts.py",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\fixture_test.dart",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\independent_test.dart",
+      "exists": true
+    },
+    {
+      "path": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui\\test\\presentation_test.dart",
+      "exists": true
+    }
+  ],
+  "flutter": "C:\\Dev\\flutter-3.32.8\\bin\\flutter.BAT",
+  "node": "C:\\Program Files\\nodejs\\node.EXE",
+  "npm": "C:\\Program Files\\nodejs\\npm.cmd"
+}

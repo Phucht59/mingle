@@ -1,0 +1,7 @@
+# Exploratory telemetry proposal — NO RUNTIME COLLECTION
+
+Purpose: later consented usability/pilot analysis only. Telemetry is observation, never command, score/progress update or permission. Keep durable telemetry queue distinct from command queue in later implementation; UI prototype adds neither. Existing frozen contracts remain authority and must be reviewed before schema implementation.
+
+Proposed observations: screen_viewed; primary_action_observed; hint_viewed; retry_viewed; feedback_opened; summary_opened; offline_status_viewed; recovery_action_observed. This proposal does not add canonical learning events. No raw answers, free text, names, health/risk labels, microphone recordings or credentials. Fields: pseudonymous sessionID, screen/state, source capture, event time, availability/knowledge time, consent version, app/revision reference, experiment allocation only if explicitly authorized later. Idempotency/ordering/replay and deletion consent need implementation review later.
+
+Prediction / recommendation decision / exposure / execution / outcome stay distinct. A click at a recommendation is exposure/action, not successful learning. Analysis must use as-of available information; no future leakage; distinguish missing data from zero. ML-disabled path uses resume/due/path/goal deterministic reason. No metrics emitted by this task. No hidden SDK or analytics network requests.

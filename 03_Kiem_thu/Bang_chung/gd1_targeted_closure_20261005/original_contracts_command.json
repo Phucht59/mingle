@@ -1,0 +1,22 @@
+{
+  "name": "original_contracts",
+  "cwd": "C:\\Mingo",
+  "exact_command": "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe -X utf8 C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\run_v3_redirect.py",
+  "start_utc": "2026-10-05T03:11:59.962348+00:00",
+  "end_utc": "2026-10-05T03:12:20.462751+00:00",
+  "exit_code": 0,
+  "status": "EXECUTED",
+  "log": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\original_contracts.log",
+  "generated_artifacts": [
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_2\\20261005T031200415707Z\\run.json",
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_child_commands.json",
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_output_redirect.json",
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\v3_work"
+  ],
+  "result": "PASS",
+  "boundary": "Existing checks; no runtime/product/customer gate inferred",
+  "passed": 137,
+  "failed": 0,
+  "skipped": 0,
+  "limitation": "115 contract + 22 SQL; 102 original hashes; npm ci exit0"
+}

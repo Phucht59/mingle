@@ -1,0 +1,30 @@
+00:00 +0: loading C:/Mingo/01_San_pham/apps/learner/integration_test/boot_test.dart
+Running Gradle task 'assembleDebug'...                          
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+java.io.IOException: Unable to establish loopback connection
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+Running Gradle task 'assembleDebug'...                              3,2s
+00:00 +0 -1: loading C:/Mingo/01_San_pham/apps/learner/integration_test/boot_test.dart [E]
+  Failed to load "C:/Mingo/01_San_pham/apps/learner/integration_test/boot_test.dart": Gradle task assembleDebug failed with exit code 1
+  package:flutter_tools/src/base/common.dart 34:3                    throwToolExit
+  package:flutter_tools/src/android/gradle.dart 582:7                AndroidGradleBuilder.buildGradleApp
+  ===== asynchronous gap ===========================
+  package:flutter_tools/src/android/gradle.dart 242:5                AndroidGradleBuilder.buildApk
+  ===== asynchronous gap ===========================
+  package:flutter_tools/src/android/android_device.dart 573:7        AndroidDevice.startApp
+  ===== asynchronous gap ===========================
+  package:flutter_tools/src/test/integration_test_device.dart 57:39  IntegrationTestTestDevice.start
+  ===== asynchronous gap ===========================
+  package:flutter_tools/src/test/flutter_platform.dart 686:51        FlutterPlatform._startTest.<fn>
+  ===== asynchronous gap ===========================
+  package:flutter_tools/src/base/async_guard.dart 109:26             asyncGuard.<fn>
+  
+00:00 +0 -1: Some tests failed.

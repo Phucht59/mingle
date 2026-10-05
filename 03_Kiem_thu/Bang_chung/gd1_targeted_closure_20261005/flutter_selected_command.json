@@ -1,0 +1,20 @@
+{
+  "name": "flutter_selected",
+  "cwd": "C:\\Mingo\\01_San_pham\\cong_cu_phat_trien\\mingo_ui",
+  "exact_command": "C:\\Dev\\flutter-3.32.8\\bin\\flutter.BAT test test/fixture_test.dart test/independent_test.dart test/presentation_test.dart --reporter json --no-pub",
+  "start_utc": "2026-10-05T03:12:03.207473+00:00",
+  "end_utc": "2026-10-05T03:13:52.633846+00:00",
+  "exit_code": 0,
+  "status": "EXECUTED",
+  "log": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\flutter_selected.log",
+  "generated_artifacts": [
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\flutter_selected.log",
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\flutter_selected_summary.json"
+  ],
+  "result": "PASS",
+  "boundary": "Existing checks; no runtime/product/customer gate inferred",
+  "passed": 232,
+  "failed": 0,
+  "skipped": 0,
+  "limitation": "Unit/widget/presentation fixtures; three selected files; no auth/durable/native/customer claim"
+}

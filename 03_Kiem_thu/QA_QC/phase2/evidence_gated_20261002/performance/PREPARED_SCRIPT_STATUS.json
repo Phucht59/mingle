@@ -1,0 +1,12 @@
+{
+  "path": "04_Van_hanh/Scripts/run_performance_benchmark.ps1",
+  "errors": [],
+  "error_count": 0,
+  "task_emulator": {
+    "launcher_pid": 13884,
+    "read_only_avd": true,
+    "online": "emulator-5554",
+    "no_audio": true,
+    "performance_measurement": "NOT_RUN"
+  }
+}

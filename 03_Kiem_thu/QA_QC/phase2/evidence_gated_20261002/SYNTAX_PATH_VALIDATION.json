@@ -1,0 +1,38 @@
+{
+  "provenance": "RERUN NOW",
+  "utc": "2026-10-03T04:17:43.653820+00:00",
+  "status": "PASS",
+  "python_ast_files": [
+    "04_Van_hanh/Scripts/check_original_contracts.py",
+    "04_Van_hanh/Scripts/repository_paths.py",
+    "04_Van_hanh/Scripts/run_phase2_qa.py",
+    "04_Van_hanh/Scripts/smoke_api.py",
+    "04_Van_hanh/Scripts/verify_evidence_gated_phase2.py",
+    "04_Van_hanh/Scripts/verify_phase2_artifacts.py",
+    "04_Van_hanh/Scripts/verify_phase2_package_manifest.py",
+    "04_Van_hanh/Scripts/verify_phase2_review.py",
+    "04_Van_hanh/Scripts/verify_phase2_rework.py",
+    "04_Van_hanh/Scripts/verify_phase2_v2.py",
+    "04_Van_hanh/Scripts/verify_restructure.py"
+  ],
+  "javascript_syntax": [
+    {
+      "path": "04_Van_hanh/Scripts/verify_phase2_browser.cjs",
+      "exit": 0
+    },
+    {
+      "path": "04_Van_hanh/Scripts/verify_phase2_supplemental.cjs",
+      "exit": 0
+    },
+    {
+      "path": "04_Van_hanh/Scripts/verify_phase2_v2_browser.cjs",
+      "exit": 0
+    }
+  ],
+  "ci_yaml": [
+    ".github/workflows/foundation.yaml"
+  ],
+  "important_runtime_old_path_hits": [],
+  "historical_reference_note": "Sealed originals, manifests, archived snapshots and old-scope verifier migration keys intentionally retain captured old paths.",
+  "errors": []
+}

@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "required": [
+    "progress_revision",
+    "completed_required_credit_count",
+    "eligible_activity_count",
+    "completion_fraction",
+    "enrollment_id",
+    "course_release_id"
+  ],
+  "properties": {
+    "progress_revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "completed_required_credit_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "eligible_activity_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "completion_fraction": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "enrollment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "course_release_id": {
+      "type": "string",
+      "format": "uuid"
+    }
+  },
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "progress_v1.schema.json"
+}

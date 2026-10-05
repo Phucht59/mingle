@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "protected_files": 141,
+  "protected_mismatches": [],
+  "v3_2_source_files": 102,
+  "screens": 61,
+  "states": 175,
+  "preserved_original_states": 166,
+  "screenshots": 175,
+  "flutter_tests": 193,
+  "errors": []
+}

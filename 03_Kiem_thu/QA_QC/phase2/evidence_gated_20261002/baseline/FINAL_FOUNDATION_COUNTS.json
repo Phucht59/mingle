@@ -1,0 +1,173 @@
+{
+  "evidence_level": "RERUN NOW",
+  "units": {
+    "total": 16,
+    "passed": 9,
+    "skipped": 7,
+    "failed": 0,
+    "skip_reasons": [
+      {
+        "name": "test_migration_idempotent_and_readiness",
+        "reason": "Use --run-postgres with TEST_DATABASE_URL; NOT verified"
+      },
+      {
+        "name": "test_migration_checksum_and_atomic_failure",
+        "reason": "Use --run-postgres with TEST_DATABASE_URL; NOT verified"
+      },
+      {
+        "name": "test_concurrent_idempotent_enqueue_and_claim",
+        "reason": "Use --run-postgres with TEST_DATABASE_URL; NOT verified"
+      },
+      {
+        "name": "test_crash_recovery_and_stale_worker_fencing",
+        "reason": "Use --run-postgres with TEST_DATABASE_URL; NOT verified"
+      },
+      {
+        "name": "test_retry_exhaustion_and_no_partial_effect",
+        "reason": "Use --run-postgres with TEST_DATABASE_URL; NOT verified"
+      },
+      {
+        "name": "test_worker_health_expires",
+        "reason": "Use --run-postgres with TEST_DATABASE_URL; NOT verified"
+      },
+      {
+        "name": "test_storage_rejects_symlink_escape",
+        "reason": "Windows symlink creation requires an unavailable privilege"
+      }
+    ]
+  },
+  "native_postgres": {
+    "total": 6,
+    "passed": 6,
+    "skipped": 0,
+    "failed": 0,
+    "skip_reasons": []
+  },
+  "blocked": [],
+  "limits": [
+    "Current hosted CI NOT RUN",
+    "Windows privileged symlink test skipped; native PostgreSQL six tests ran separately",
+    "Original SQL uses PGlite PostgreSQL WASM; native Phase1 checks cover infrastructure only"
+  ],
+  "phase1_run": {
+    "utc": "2026-10-02T16:03:16.447084+00:00",
+    "evidence_level": "RERUN NOW",
+    "scope": "Backend/foundation only; Flutter and hosted CI are separate evidence",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "status": "PASS",
+    "commands": [
+      {
+        "check": "backend-lint",
+        "exit_code": 0,
+        "log": "backend-lint.log",
+        "sha256": "be3407b648056ee942bf283dfb1e13f9e77711054cb5f7824b1f573a54e782da"
+      },
+      {
+        "check": "backend-unit",
+        "exit_code": 0,
+        "log": "backend-unit.log",
+        "sha256": "9910d6cb73465f050aa6ca186678a54c4b0e9babc8eb779eee9052162dcf10be"
+      },
+      {
+        "check": "postgres",
+        "exit_code": 0,
+        "log": "postgres.log",
+        "sha256": "439d9e7a21ffcaccaed087222f857d856c78f5cb91378dfec1b4eecd83851f88"
+      },
+      {
+        "check": "postgres-migrate",
+        "exit_code": 0,
+        "log": "postgres-migrate.log",
+        "sha256": "f76ffab1f620efc7dac94c79abc8196cd5e51b57e053e6632d3072cf5eb7db4e"
+      },
+      {
+        "check": "worker-enqueue",
+        "exit_code": 0,
+        "log": "worker-enqueue.log",
+        "sha256": "0d81f1775d8c3081e8db7298d2e577daa9e13dbe54b556fd5545bd503aadf7c7"
+      },
+      {
+        "check": "worker-once",
+        "exit_code": 0,
+        "log": "worker-once.log",
+        "sha256": "6e341b9cad84ab25a5d7d21e71758108cd29b7e6767d9d38103966543ebc2714"
+      },
+      {
+        "check": "worker-healthcheck",
+        "exit_code": 0,
+        "log": "worker-healthcheck.log",
+        "sha256": "da7886604482cfd000358a69a22b40fd549a4c3a2e35cd4fbbb07fe225dd5eb5"
+      },
+      {
+        "check": "api-ready-smoke",
+        "exit_code": 0,
+        "log": "api-ready-smoke.log",
+        "sha256": "0b6964ece06a1cf739d204378e6c580194a8e90099c95e5fd61bd6dd599a11c9"
+      },
+      {
+        "check": "storage-smoke",
+        "exit_code": 0,
+        "log": "storage-smoke.log",
+        "sha256": "0dc8faedc4ede3048e6ea20393adbc7ff5b1ae4decd79a6f6b99d3f3ced43046"
+      }
+    ],
+    "native_postgres_test_database_guard": true
+  },
+  "original_v3_final": {
+    "utc": "2026-10-02T16:04:06.535407+00:00",
+    "evidence_level": "RERUN NOW",
+    "original_files": 102,
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "status": "PASS",
+    "commands": [
+      {
+        "name": "contract",
+        "command": [
+          "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe",
+          "-X",
+          "utf8",
+          "validators/run_checks.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "name": "sql",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "tests/check_sql.mjs"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "work_copy": "C:\\Mingo\\.local\\evidence_gated_v3_2_runs\\20261002T160406345471Z",
+    "before": {
+      "expected_files": 102,
+      "actual_files": 102,
+      "missing": [],
+      "extra": [],
+      "hash_mismatch": [],
+      "manifest_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d"
+    },
+    "dependency": "Existing pinned PGlite0.5.8 copied into fresh run; no network install",
+    "contract": {
+      "passed": 115,
+      "failed": 0,
+      "total": 115
+    },
+    "sql": {
+      "passed": 22,
+      "failed": 0,
+      "total": 22
+    },
+    "after": {
+      "expected_files": 102,
+      "actual_files": 102,
+      "missing": [],
+      "extra": [],
+      "hash_mismatch": [],
+      "manifest_sha256": "617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d"
+    },
+    "sql_engine": "Original PGlite PostgreSQL WASM; does not prove native concurrency"
+  },
+  "status": "PASS"
+}

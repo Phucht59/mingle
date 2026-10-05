@@ -1,0 +1,50 @@
+{
+  "id": "QA-LRN-018",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-10-01T16:30:29.764Z",
+  "ended": "2026-10-01T16:30:30.089Z",
+  "expected": "Preview is clearly non-progressing and shows prerequisite reason.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Course",
+    "Click: Preview"
+  ],
+  "observed": "Mingo\nSynced\nCOURSE\nYour path\nCurrent\nBasic greetings\n\nBuilding evidence\n\nPractice\nDue review\nIntroducing yourself\n\nA quick review is due.\n\nLocked · preview available\nAsking simple questions\n\nComplete the prerequisite first. Preview won’t unlock progress.\n\nPreview\nHome\nLearn\nCourse\nProfile",
+  "state": {
+    "surface": "learner",
+    "learner": "course",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "synced",
+    "queuedCount": 0,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 0,
+    "selected": null,
+    "response": {
+      "first": null,
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": null,
+      "final": false
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8767/",
+    "http://127.0.0.1:8767/styles.css",
+    "http://127.0.0.1:8767/app.js"
+  ],
+  "failure": null
+}

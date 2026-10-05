@@ -1,0 +1,56 @@
+{
+  "id": "QA-LRN-010",
+  "priority": "P1",
+  "status": "PASS",
+  "started": "2026-09-27T14:58:36.437Z",
+  "ended": "2026-09-27T14:58:36.789Z",
+  "expected": "Feedback is concise/supportive without mastery overclaim.",
+  "steps": [
+    "Click: Start learning",
+    "Click: Skip for now",
+    "Click: Start without it",
+    "Click: Go to Home",
+    "Click: Start cycle",
+    "Click: Begin",
+    "Click: Hello",
+    "Click: Submit",
+    "Click: Continue",
+    "Click: Continue",
+    "Click: I’m good, thanks.",
+    "Click: Submit"
+  ],
+  "observed": "Mingo\nSaved on device\nSaved actions are still queued until sync receives server acknowledgement.\nLEARNING CYCLE\nBasic greetings\n\nVocabulary · 4 of 8\n\nRetrieve\n\nChoose the best reply: “How are you?”\n\nI’m good, thanks.\nGo to school.\nBlue.\nCorrect.\nPractice response recorded in this prototype.\nContinue",
+  "state": {
+    "surface": "learner",
+    "learner": "cycle",
+    "staff": "dashboard",
+    "networkOnline": true,
+    "syncState": "local_queued",
+    "queuedCount": 2,
+    "cycleDomain": "vocabulary",
+    "cycleStep": 3,
+    "selected": "good",
+    "response": {
+      "first": "good",
+      "retry": null,
+      "retryCount": 0,
+      "assisted": false,
+      "skipped": false,
+      "result": "correct",
+      "final": true
+    },
+    "goal": "",
+    "placementStep": 3,
+    "licenseVerified": false,
+    "contentDraftRevision": 4,
+    "publishedRevision": 3
+  },
+  "extra": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8765/",
+    "http://127.0.0.1:8765/styles.css",
+    "http://127.0.0.1:8765/app.js"
+  ],
+  "failure": null
+}

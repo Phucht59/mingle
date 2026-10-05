@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "canonical_command_result_v1.schema.json",
+  "title": "CanonicalCommandResultV1",
+  "type": "object",
+  "required": [
+    "attempt",
+    "score",
+    "completion_credit_created",
+    "progress_after_command"
+  ],
+  "properties": {
+    "attempt": {
+      "type": "object",
+      "required": [
+        "attempt_id",
+        "state",
+        "attempt_revision"
+      ],
+      "properties": {
+        "attempt_id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "state": {
+          "const": "finalized"
+        },
+        "attempt_revision": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "score": {
+      "type": "object",
+      "required": [
+        "raw_score",
+        "max_score",
+        "score_fraction",
+        "scoring_record_revision",
+        "scoring_record_id",
+        "scoring_version_id"
+      ],
+      "properties": {
+        "raw_score": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_score": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "score_fraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "scoring_record_revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "scoring_record_id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "scoring_version_id": {
+          "type": "string",
+          "format": "uuid"
+        }
+      },
+      "additionalProperties": false
+    },
+    "completion_credit_created": {
+      "type": "boolean"
+    },
+    "progress_after_command": {
+      "$ref": "progress_v1.schema.json"
+    }
+  },
+  "additionalProperties": false
+}

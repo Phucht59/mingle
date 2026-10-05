@@ -1,0 +1,19 @@
+{
+  "name": "phase2_artifacts",
+  "cwd": "C:\\Mingo",
+  "exact_command": "C:\\Mingo\\.local\\v32-venv\\Scripts\\python.exe -X utf8 04_Van_hanh/Scripts/verify_phase2_artifacts.py",
+  "start_utc": "2026-10-05T03:12:08.965698+00:00",
+  "end_utc": "2026-10-05T03:12:09.245017+00:00",
+  "exit_code": 0,
+  "status": "EXECUTED",
+  "log": "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\phase2_artifacts.log",
+  "generated_artifacts": [
+    "C:\\Mingo\\03_Kiem_thu\\Bang_chung\\gd1_targeted_closure_20261005\\phase2_static\\internal_static_checks.json"
+  ],
+  "result": "PASS",
+  "boundary": "Existing checks; no runtime/product/customer gate inferred",
+  "passed": "N/A structural aggregate",
+  "failed": 0,
+  "skipped": 0,
+  "limitation": "57 legacy screens, 18 components, 16 PRDs, 94 QA specs; not 94 executed QA cases"
+}

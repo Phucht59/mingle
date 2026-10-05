@@ -1,0 +1,19 @@
+{
+  "provenance": "RERUN NOW",
+  "utc": "2026-10-03T03:36:32.266952+00:00",
+  "reason": "Legacy verifier writes two JSON outputs to its dated evidence directory; restored sealed bytes from immutable QA ZIP. Future legacy invocation redirects outputs.",
+  "records": [
+    {
+      "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/screenshot_manifest.json",
+      "sealed_sha256": "e0cd0f96134d0073b224572a639314b20fcb7d9625a777fa220cb14ab2dd5c80",
+      "restored_byte_exact": true,
+      "accidental_output_preserved_in_current_scope": true
+    },
+    {
+      "path": "03_Kiem_thu/QA_QC/phase2/rebaseline_v2_20261001/v2_verification.json",
+      "sealed_sha256": "13d7b16ff54e6f91b6884e38e9dfa7eb9783838e0f2a21b645b499853b41881f",
+      "restored_byte_exact": true,
+      "accidental_output_preserved_in_current_scope": true
+    }
+  ]
+}

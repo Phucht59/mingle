@@ -1,0 +1,5 @@
+Package version: 3.2.0
+Package created_at: 2026-09-15T12:54:46.890401+00:00
+User supplied: 2026-09-26
+Archive SHA256: 1b4c9c10afad5245517d2593e5bbd98c7f233fc662c221ee8332cc386c83fe0a
+Original manifest SHA256: 617245605096b3b9cc5f141dda352abc180d97f11738297949c3195711cc0e6d

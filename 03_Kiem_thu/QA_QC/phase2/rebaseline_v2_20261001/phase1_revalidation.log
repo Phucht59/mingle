@@ -1,0 +1,46 @@
+All checks passed!
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Mingo\01_San_pham\backend
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collected 16 items
+
+01_San_pham\backend\tests\test_postgres.py ssssss                        [ 37%]
+01_San_pham\backend\tests\test_unit.py .......s..                        [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Mingo\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: C:\Mingo\03_Kiem_thu\Bang_chung\backend\backend-unit-20261001T155335Z.xml -
+=================== 9 passed, 7 skipped, 1 warning in 4.88s ===================
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Mingo\01_San_pham\backend
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collected 16 items / 10 deselected / 6 selected
+
+01_San_pham\backend\tests\test_postgres.py ......                        [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Mingo\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: C:\Mingo\03_Kiem_thu\Bang_chung\postgres\postgres-20261001T155335Z.xml -
+================= 6 passed, 10 deselected, 1 warning in 9.07s =================
+{"applied": []}
+{"job_id": "2ea30c62-c1cc-4440-a2bb-3cdf55beca9d"}
+python.exe : {"time": "2026-10-01T15:53:56.326468+00:00", "level": "INFO", "event": "worker.started", "component": 
+"worker", "request_id": null}
+At C:\Mingo\04_Van_hanh\Scripts\verify_backend.ps1:42 char:9
++         & $Python @Arguments *>&1 | Tee-Object -FilePath $logPath -Ap ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ({"time": "2026-...uest_id": null}:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

@@ -1,0 +1,78 @@
+{
+  "A2": {
+    "value": "Dashboard correction derivative, 2026-09-30. R1 independent: 94/94 PASS (P0 44/44). Gate HOLD; TalkBack and signoffs pending.",
+    "formula": null
+  },
+  "B4": {
+    "value": "Value",
+    "formula": null
+  },
+  "B5": {
+    "value": "ACTIVE",
+    "formula": null
+  },
+  "B6": {
+    "value": "HOLD / NOT PASSED",
+    "formula": null
+  },
+  "E4": {
+    "value": "Count",
+    "formula": null
+  },
+  "I4": {
+    "value": "Current result",
+    "formula": null
+  },
+  "I5": {
+    "value": "44/44 PASS",
+    "formula": null
+  },
+  "I6": {
+    "value": "0 open P0/P1",
+    "formula": null
+  },
+  "I7": {
+    "value": "100% PASS",
+    "formula": null
+  },
+  "I8": {
+    "value": "16/16 technical PASS",
+    "formula": null
+  },
+  "I9": {
+    "value": "TalkBack BLOCKED",
+    "formula": null
+  },
+  "I10": {
+    "value": "Tech Lead PENDING",
+    "formula": null
+  },
+  "I11": {
+    "value": "Owner PENDING",
+    "formula": null
+  },
+  "B14": {
+    "value": "R1 94/94 PASS; D001-D020 CLOSED. D021 FIX NOW: Windows checks PASS; Linux pending.",
+    "formula": null
+  },
+  "E5": {
+    "value": 94,
+    "formula": "=COUNTA('04_QA_Test_Cases'!A5:A250)"
+  },
+  "E6": {
+    "value": 44,
+    "formula": "=COUNTIF('04_QA_Test_Cases'!D5:D250,\"P0\")"
+  },
+  "E7": {
+    "value": 94,
+    "formula": "=COUNTIF('04_QA_Test_Cases'!K5:K250,\"PASS\")"
+  },
+  "E8": {
+    "value": 0,
+    "formula": "=COUNTIF('04_QA_Test_Cases'!K5:K250,\"FAIL\")"
+  },
+  "B10": {
+    "value": 94,
+    "formula": "=E5"
+  }
+}

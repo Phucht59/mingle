@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-27T14:32:17.001Z",
+  "browser": "153.0.8010.53",
+  "results": [
+    {
+      "name": "D001 correct and distractor; D005 retry",
+      "status": "PASS",
+      "detail": {
+        "first": "go",
+        "retry": "good",
+        "retryCount": 1,
+        "assisted": false,
+        "skipped": false,
+        "result": "correct",
+        "final": true
+      }
+    },
+    {
+      "name": "D002 blank; D003 assisted through summary",
+      "status": "PASS",
+      "detail": "Mingo\nSynced\nLEARNING CYCLE\nBasic greetings\n\nVocabulary · 8 of 8\n\nDone for now\nYou practiced\n\nVocabulary: review, learn, retrieve, transfer and independent Check.\n\nEvidence context\n\n1 response(s) used assistance. Mingo needs repeated evidence before broader claims.\n\nMock server acknowledgement is current.\nDone for now\nContinue learning"
+    },
+    {
+      "name": "D004 queued restore and online action",
+      "status": "FAIL",
+      "error": "online response erased unacknowledged queue: {\"surface\":\"learner\",\"learner\":\"cycle\",\"staff\":\"dashboard\",\"networkOnline\":true,\"syncState\":\"synced\",\"queuedCount\":1,\"cycleDomain\":\"vocabulary\",\"cycleStep\":4,\"selected\":\"morning\",\"response\":{\"first\":\"morning\",\"retry\":null,\"retryCount\":0,\"assisted\":false,\"skipped\":false,\"result\":\"correct\",\"final\":true},\"goal\":\"\",\"placementStep\":3,\"licenseVerified\":false,\"contentDraftRevision\":4,\"publishedRevision\":3}"
+    },
+    {
+      "name": "D013 preview Escape restore",
+      "status": "FAIL",
+      "error": "Escape focus not restored: null"
+    },
+    {
+      "name": "D014 option focus persists",
+      "status": "FAIL",
+      "error": "focus lost after selection: \n  \n    Mingo Phase 2 Prototype R1mock state · non-production · QC/QA rework\n    \n      Learner\n    "
+    },
+    {
+      "name": "D009 draft edits survive save and preview",
+      "status": "FAIL",
+      "error": "Save discarded input"
+    },
+    {
+      "name": "LRN017 goal editing",
+      "status": "FAIL",
+      "error": "No goal editing action"
+    },
+    {
+      "name": "LRN019/020 fallback/empty executable",
+      "status": "FAIL",
+      "error": "No executable recommendation/empty state controls"
+    }
+  ]
+}

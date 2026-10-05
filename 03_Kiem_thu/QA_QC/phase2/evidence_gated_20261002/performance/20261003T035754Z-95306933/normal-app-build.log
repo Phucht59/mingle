@@ -1,0 +1,35 @@
+Running Gradle task 'assembleRelease'...                        
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir=C:/Mingo/.local/java-tmp
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version:
+- audioplayers_android requires Android NDK 27.0.12077973
+- path_provider_android requires Android NDK 27.0.12077973
+Fix this issue by using the highest Android NDK version (they are backward compatible).
+Add the following to C:\Mingo\01_San_pham\apps\learner\android\app\build.gradle.kts:
+
+    android {
+        ndkVersion = "27.0.12077973"
+        ...
+    }
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 5764 bytes (99.6% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+C:\Mingo\01_San_pham\apps\learner\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java:24: error: package dev.flutter.plugins.integration_test does not exist
+      flutterEngine.getPlugins().add(new dev.flutter.plugins.integration_test.IntegrationTestPlugin());
+                                                                             ^
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  C:\Mingo\01_San_pham\apps\learner\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java:24: error: package dev.flutter.plugins.integration_test does not exist
+        flutterEngine.getPlugins().add(new dev.flutter.plugins.integration_test.IntegrationTestPlugin());
+                                                                               ^
+  1 error
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1m 31s
+Running Gradle task 'assembleRelease'...                           91,8s
+Gradle task assembleRelease failed with exit code 1

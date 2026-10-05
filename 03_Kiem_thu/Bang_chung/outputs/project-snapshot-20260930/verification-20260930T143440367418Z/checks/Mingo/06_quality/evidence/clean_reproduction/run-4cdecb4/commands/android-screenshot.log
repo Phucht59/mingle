@@ -1,0 +1,5 @@
+UTC: 2026-09-26T15:15:19.832303+00:00
+Command: C:\Android\Sdk\platform-tools\adb.exe -s emulator-5554 pull /sdcard/mingo-runtime.png C:\Mingo\.local\clean-reproduction-20260926\06_quality\evidence\clean_reproduction\android-runtime.png
+/sdcard/mingo-runtime.png: 1 file pulled, 0 skipped. 9.1 MB/s (49015 bytes in 0.005s)
+
+Exit code: 0

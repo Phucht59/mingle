@@ -1,0 +1,10 @@
+{
+  "id": "QA-HO-003",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": "## Stable identifiers / test hooks\n\nKeep screen IDs. Recommended keys:\n- `screen-L-024`\n- `action-L-024-submit`\n- `action-L-029-retry`\n- `audio-check`\n- `field-S-031-prompt`\n- `action-S-036-confirm`\n\nVisual restyling must not force automation IDs to change.\n\n",
+  "sources": [
+    "13_DEVELOPER_HANDOFF.md"
+  ],
+  "time": "2026-10-01T16:30:14.035698+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "activity_revision_id": "10000000-0000-4000-8000-000000000011",
+  "activity_type": "mcq_single_v1",
+  "title": "Everyday greetings",
+  "instructions": "Choose one option for each question.",
+  "questions": [
+    {
+      "question_revision_id": "10000000-0000-4000-8000-000000000012",
+      "prompt": "Choose a greeting.",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Goodbye"
+        },
+        {
+          "option_id": "B",
+          "text": "Hello"
+        }
+      ]
+    },
+    {
+      "question_revision_id": "10000000-0000-4000-8000-000000000013",
+      "prompt": "Choose a farewell.",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Goodbye"
+        },
+        {
+          "option_id": "B",
+          "text": "Hello"
+        }
+      ]
+    }
+  ],
+  "media_resource_ids": []
+}

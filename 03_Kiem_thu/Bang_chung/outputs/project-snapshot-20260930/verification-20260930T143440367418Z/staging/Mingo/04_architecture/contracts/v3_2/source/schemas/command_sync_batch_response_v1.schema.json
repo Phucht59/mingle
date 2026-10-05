@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "command_sync_batch_response_v1.schema.json",
+  "title": "CommandSyncBatchResponseV1",
+  "type": "object",
+  "required": [
+    "batch_id",
+    "results"
+  ],
+  "properties": {
+    "batch_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "$ref": "command_sync_result_v1.schema.json"
+      },
+      "minItems": 1,
+      "maxItems": 50
+    }
+  },
+  "additionalProperties": false
+}

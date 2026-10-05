@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "content_release_manifest_v1.schema.json",
+  "title": "ContentReleaseManifestV1",
+  "type": "object",
+  "required": [
+    "course_release_id",
+    "manifest_content",
+    "release_manifest_sha256"
+  ],
+  "properties": {
+    "course_release_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "manifest_content": {
+      "type": "object",
+      "required": [
+        "course_id",
+        "release_version",
+        "published_at",
+        "units",
+        "eligible_activity_count",
+        "resources"
+      ],
+      "properties": {
+        "course_id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "release_version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "published_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "eligible_activity_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "units": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "unit_id",
+              "unit_revision_id",
+              "lessons"
+            ],
+            "properties": {
+              "unit_id": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "unit_revision_id": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "lessons": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "lesson_id",
+                    "lesson_revision_id",
+                    "activities"
+                  ],
+                  "properties": {
+                    "lesson_id": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "lesson_revision_id": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "activities": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "release_activity_id",
+                          "activity_id",
+                          "activity_revision_id",
+                          "required_for_completion",
+                          "question_revision_ids",
+                          "scoring_version_id",
+                          "activity_type",
+                          "content_resource_id"
+                        ],
+                        "properties": {
+                          "release_activity_id": {
+                            "type": "string",
+                            "format": "uuid"
+                          },
+                          "activity_id": {
+                            "type": "string",
+                            "format": "uuid"
+                          },
+                          "activity_revision_id": {
+                            "type": "string",
+                            "format": "uuid"
+                          },
+                          "required_for_completion": {
+                            "type": "boolean"
+                          },
+                          "question_revision_ids": {
+                            "type": "array",
+                            "minItems": 1,
+                            "items": {
+                              "type": "string",
+                              "format": "uuid"
+                            },
+                            "maxItems": 100,
+                            "uniqueItems": true
+                          },
+                          "scoring_version_id": {
+                            "type": "string",
+                            "format": "uuid"
+                          },
+                          "media_resource_ids": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "format": "uuid"
+                            }
+                          },
+                          "activity_type": {
+                            "enum": [
+                              "mcq_single_v1",
+                              "listening_mcq_v1"
+                            ]
+                          },
+                          "content_resource_id": {
+                            "type": "string",
+                            "format": "uuid"
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "resources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "resource_id",
+              "resource_revision_id",
+              "sha256",
+              "size_bytes",
+              "kind",
+              "content_type"
+            ],
+            "properties": {
+              "resource_id": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "resource_revision_id": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "size_bytes": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "kind": {
+                "enum": [
+                  "audio",
+                  "image",
+                  "json_content",
+                  "other"
+                ]
+              },
+              "content_type": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "release_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "additionalProperties": false
+}

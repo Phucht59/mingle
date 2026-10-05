@@ -1,0 +1,12 @@
+{
+  "protected_checks": 137,
+  "protected_failures": [],
+  "source_spec_files_checked": 27,
+  "source_spec_changes": [],
+  "secret_scan": {
+    "files_scanned": 190,
+    "matched_paths": [],
+    "scope": "Phase 2 text; exact ZIP also checked by packaging verifier"
+  },
+  "tracked_diff": ""
+}

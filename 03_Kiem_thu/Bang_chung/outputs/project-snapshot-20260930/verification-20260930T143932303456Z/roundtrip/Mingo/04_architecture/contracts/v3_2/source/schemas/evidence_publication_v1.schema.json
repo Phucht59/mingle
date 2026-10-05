@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence_publication_v1.schema.json",
+  "title": "EvidencePublicationV1",
+  "type": "object",
+  "required": [
+    "evidence_publication_id",
+    "learner_id",
+    "source_type",
+    "source_id",
+    "source_revision",
+    "published_available_at",
+    "payload_sha256"
+  ],
+  "properties": {
+    "evidence_publication_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "learner_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "enrollment_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "source_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_occurred_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "published_available_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payload_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "additionalProperties": false
+}

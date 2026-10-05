@@ -1,0 +1,32 @@
+{
+  "id": "QC-001",
+  "status": "PASS",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "references": [
+      "REWORK_R1_PACKAGE_README.md",
+      "CODEX_START_HERE.md",
+      "CODEX_SUPER_PROMPT.md",
+      "CODEX_EXECUTION_HANDOFF.md",
+      "QA_RETEST_HANDOFF_TEMPLATE.md",
+      "QA_RETEST_HANDOFF.md",
+      "QA_QC_RETEST_PROMPT.md",
+      "../../../03_Kiem_thu/QA_QC/phase2/PHASE2_REWORK_R1_FIX_REGISTER.md",
+      "../../../03_Kiem_thu/QA_QC/phase2/Mingo_Phase2_Rework_R1_QA_Control_2026-09-27.xlsx",
+      "../../../03_Kiem_thu/QA_QC/phase2/audits/2026-09-27_independent",
+      "../../04_Thiet_ke_san_pham/ux_ui/phase2/SCREEN_STATE_QA_TRACEABILITY.csv",
+      "../../04_Thiet_ke_san_pham/ux_ui/phase2/15_COMPLEX_SCREEN_INTERACTION_CONTRACTS.md",
+      "../../04_Thiet_ke_san_pham/ux_ui/phase2/16_ACCESSIBILITY_FOCUS_LIVE_REGION_SPEC.md",
+      "QA_ENTRY_EXIT_CRITERIA.md",
+      "QA_EXECUTION_PLAN.md",
+      "DEFECT_TRIAGE_WORKFLOW.md",
+      "../../../03_Kiem_thu/QA_QC/phase2/PHASE_2_GATE.md",
+      "MANIFEST_SHA256.txt"
+    ],
+    "missing": []
+  },
+  "sources": [
+    "02_Tai_lieu_du_an\\08_Ban_giao\\phase2\\HANDOFF_INDEX.md"
+  ],
+  "time": "2026-10-01T16:29:45.208486+00:00"
+}

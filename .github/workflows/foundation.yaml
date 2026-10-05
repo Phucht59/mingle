@@ -25,23 +25,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -r 05_code/backend/requirements.lock && pip install --no-deps ./05_code/backend
+      - run: pip install -r 01_San_pham/backend/requirements.lock && pip install --no-deps ./01_San_pham/backend
       - name: Create disposable test database
         run: >-
           python -c "import psycopg;
           c=psycopg.connect('${{ env.DATABASE_URL }}', autocommit=True);
           c.execute('CREATE DATABASE mingo_test OWNER mingo_app'); c.close()"
-      - run: RUN_POSTGRES=1 bash 07_operations/scripts/verify_backend.sh
+      - run: RUN_POSTGRES=1 bash 04_Van_hanh/Scripts/verify_backend.sh
       - run: python -m all_foundation.cli migrate
       - run: python -m all_foundation.cli enqueue-probe --key ci-boot
       - run: python -m all_foundation.worker --once
-      - run: python 07_operations/scripts/smoke_api.py --expect-ready
+      - run: python 04_Van_hanh/Scripts/smoke_api.py --expect-ready
       - run: python -m all_foundation.cli storage-smoke
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: backend-evidence
-          path: 06_quality/evidence/
+          path: 03_Kiem_thu/Bang_chung/
   flutter:
     runs-on: ubuntu-latest
     strategy:
@@ -52,15 +52,21 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.32.8'
-      - run: bash 07_operations/scripts/bootstrap_clients.sh
-      - working-directory: 05_code/apps/${{ matrix.app }}
+      - run: bash 04_Van_hanh/Scripts/bootstrap_clients.sh
+      - if: matrix.app == 'learner'
+        working-directory: 01_San_pham/cong_cu_phat_trien/mingo_ui
+        run: |
+          flutter pub get
+          flutter analyze
+          flutter test test/fixture_test.dart
+      - working-directory: 01_San_pham/apps/${{ matrix.app }}
         run: |
           flutter pub get
           flutter analyze
           flutter test
           flutter build web
       - if: matrix.app == 'learner'
-        working-directory: 05_code/apps/learner
+        working-directory: 01_San_pham/apps/learner
         run: flutter build apk --debug
   original-v3-2:
     runs-on: ubuntu-latest
@@ -72,11 +78,32 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24.19.0'
-      - run: pip install -r 07_operations/requirements-v3_2.lock && pip check
-      - run: python -m unittest discover -s 07_operations/tests -v
-      - run: python 07_operations/scripts/check_original_contracts.py
+      - run: pip install -r 04_Van_hanh/requirements-v3_2.lock && pip check
+      - run: python -m unittest discover -s 04_Van_hanh/tests -v
+      - run: python 04_Van_hanh/Scripts/check_original_contracts.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: original-v3-2-evidence
-          path: 06_quality/evidence/v3_2/
+          path: 03_Kiem_thu/Bang_chung/v3_2/
+  phase2-v2-windows-presentation:
+    # Captures were generated with Windows Flutter 3.32.8; compare on the same platform.
+    runs-on: windows-latest
+    steps:
+      - run: git config --global core.longpaths true
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.32.8'
+      - working-directory: 01_San_pham/cong_cu_phat_trien/mingo_ui
+        run: |
+          flutter pub get
+          flutter analyze
+          flutter test --reporter json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase2-v2-presentation
+          path: |
+            03_Kiem_thu/QA_QC/phase2/evidence_gated_20261002/screenshots/
+            01_San_pham/cong_cu_phat_trien/mingo_ui/test/failures/

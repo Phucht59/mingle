@@ -1,0 +1,26 @@
+{
+  "id": "QC-002",
+  "status": "FAIL",
+  "method": "artifact inspection / reproducible checks; not independent signoff",
+  "observed": {
+    "protected_file_count": 137,
+    "hash_mismatches": [
+      "05_code/apps/learner/pubspec.lock",
+      "05_code/apps/learner/pubspec.yaml",
+      "05_code/apps/staff/pubspec.lock",
+      "05_code/apps/staff/pubspec.yaml",
+      "05_code/apps/learner/integration_test/boot_test.dart",
+      "05_code/apps/learner/lib/main.dart",
+      "05_code/apps/learner/test/widget_test.dart",
+      "05_code/apps/staff/integration_test/boot_test.dart",
+      "05_code/apps/staff/lib/main.dart",
+      "05_code/apps/staff/test/widget_test.dart"
+    ],
+    "git_diff": "",
+    "line_endings": "Accept exact original working-copy bytes or exact original Git blob bytes; original V3.2 has identical hashes in both. Git-less extraction uses cryptographic baseline hashes."
+  },
+  "sources": [
+    "evidence/codex/intake.json"
+  ],
+  "time": "2026-10-01T16:12:07.022145+00:00"
+}

@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feature_snapshot_v1.schema.json",
+  "title": "FeatureSnapshotV1",
+  "type": "object",
+  "required": [
+    "feature_snapshot_id",
+    "learner_id",
+    "enrollment_id",
+    "serving_mode",
+    "event_cutoff_at",
+    "knowledge_cutoff_at",
+    "as_of_at",
+    "feature_schema_version",
+    "feature_schema_sha256",
+    "computation_family",
+    "computation_version",
+    "source_revision",
+    "source_capture_id",
+    "payload_sha256",
+    "generated_at",
+    "replayability_status",
+    "source_capture_sha256",
+    "payload_ref",
+    "preprocessing_artifact_sha256"
+  ],
+  "properties": {
+    "feature_snapshot_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "learner_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "enrollment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "serving_mode": {
+      "enum": [
+        "serving",
+        "research_restatement"
+      ]
+    },
+    "event_cutoff_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "knowledge_cutoff_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "as_of_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "feature_schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "feature_schema_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "computation_family": {
+      "type": "string",
+      "minLength": 1
+    },
+    "computation_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_capture_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "payload_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "replayability_status": {
+      "enum": [
+        "replayable",
+        "partially_replayable",
+        "not_replayable_due_to_retention_or_deletion"
+      ]
+    },
+    "source_capture_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "payload_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "preprocessing_artifact_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "replayability_status": {
+            "const": "replayable"
+          }
+        },
+        "required": [
+          "replayability_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "source_capture_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "source_capture_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "required": [
+          "source_capture_id",
+          "source_capture_sha256"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+Device: emulator-5554
+APK: learner debug build
+Performing Streamed Install
+Success
+Starting: Intent { cmp=com.example.adaptive_learner/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.example.adaptive_learner/.MainActivity
+TotalTime: 8918
+WaitTime: 8930
+Complete
+App process: 4179
+UI assertions: PASS

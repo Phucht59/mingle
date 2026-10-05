@@ -1,73 +1,22 @@
-# START HERE — developer/agent onboarding
+# Bắt đầu với Mingo
 
-## 1. Current truth
+Mingo là nền tảng học ngôn ngữ thích ứng và hỗ trợ can thiệp sớm, phát triển từ KLTN của Trần Hoàng Phúc.
 
-- Phase 0: **DONE**.
-- Phase 1: **DONE; GATE PASSED**.
-- Phase 2: **ACTIVE — REWORK R1 CODEX EXECUTED / READY FOR INDEPENDENT QA RETEST; GATE NOT PASSED**.
-- Phase 3: **DEFERRED** until Phase 2 signoff.
-- Local Python 3.12 backend, PostgreSQL, API, worker, Flutter Android build/boot, and
-  Flutter Web build/boot have current evidence.
-- Hosted CI, full runtime clean reproduction and exact original 115+22 verification
-  PASS. The original source package and byte-level provenance are now in the repository.
+| Bạn muốn tìm gì? | Mở ở đây |
+|---|---|
+| Source code và ứng dụng | [01_San_pham](01_San_pham/) |
+| App học viên — Flutter Android-first | [apps/learner](01_San_pham/apps/learner/) |
+| Web nhân viên/admin — Flutter Web | [apps/staff](01_San_pham/apps/staff/) |
+| Backend FastAPI, worker và database migrations | [backend](01_San_pham/backend/) |
+| Tài liệu dự án, kế hoạch và nghiên cứu | [02_Tai_lieu_du_an](02_Tai_lieu_du_an/) |
+| Kiến trúc và baseline V3.2 bất biến | [V3.2](02_Tai_lieu_du_an/05_Kien_truc_he_thong/V3.2/) |
+| UX/UI Flutter và thiết kế V2 | [Thiết kế sản phẩm](02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/) |
+| QA, gate và bằng chứng kiểm tra | [03_Kiem_thu](03_Kiem_thu/) |
+| Chạy môi trường, kiểm tra và triển khai | [04_Van_hanh](04_Van_hanh/) |
+| Tài liệu và package lịch sử | [99_Luu_tru](99_Luu_tru/) |
 
-Read `01_governance/PROJECT_STATE.md`, then `08_handoff/phase2/CODEX_START_HERE.md`, `02_product/ux_ui/phase2/README.md`, and `06_quality/phase2/PHASE_2_GATE.md`. The first Phase 2 candidate failed independent QC/QA; do not use old PASS assumptions.
+**Hiện tại:** Phase0 DONE; Phase1 DONE / regression PASS; Phase2 **EVIDENCE-GATED REVIEW / HUMAN GATE PENDING**, gate chưa PASSED; **Phase3 HOLD — chưa được bắt đầu**.
 
-## 2. Authority order
+Product Owner mở [báo cáo và cổng review V2](02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/PHASE2_FINAL_GATE_REPORT.md), [ảnh màn hình](02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/SCREENSHOT_PACK.md) và [yêu cầu review của con người](02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/HUMAN_APPROVAL_REQUIRED.md). Các app hiện là giao diện tương tác với dữ liệu mẫu.
 
-1. Explicit owner instruction.
-2. Exact approved V3.2 baseline/contract in `04_architecture/contracts/v3_2/source/`.
-3. Approved Change Request and latest approved decision.
-4. Approved Phase 1 scientific resolution.
-5. Current project state/snapshot/decision register.
-6. Older handoff/history.
-
-Do not silently change a frozen business rule. Log an Implementation Issue and use a
-Change Request only when a concrete contract conflict requires a semantic change.
-
-## 3. First local run
-
-1. Install/use Python 3.12 and Flutter 3.32.8.
-2. Provision PostgreSQL role `mingo_app`, application DB `mingo`, and disposable test DB
-   `mingo_test`. Never create a database per development phase.
-3. Copy `05_code/.env.example` to ignored `05_code/.env` and replace placeholders.
-4. Follow the backend and Flutter commands in `README.md`.
-   Use `07_operations/docs/V3_2_VERIFICATION.md` for the unchanged original suites.
-5. Read new output in the matching `06_quality/evidence/` subdirectory; do not rewrite
-   old evidence.
-
-## 4. Work map
-
-| Task | Read first | Work mainly in |
-|---|---|---|
-| Product behavior / MVP | `02_product/` | product specs + governance when behavior changes |
-| Phase 2 Rework R1 | `08_handoff/phase2/CODEX_START_HERE.md` | R1 specs/prototype + Codex execution, then independent QA retest in `06_quality/phase2/` |
-| Scientific rationale | `03_research/phase1/06_SCIENTIFIC_RESEARCH_RESOLUTION.md` | research docs |
-| Backend/API/worker | `04_architecture/`, Phase 1 gate | `05_code/backend/` |
-| Learner Android | product specs + boundaries | `05_code/apps/learner/` |
-| Staff Web | product specs + permission boundaries | `05_code/apps/staff/` |
-| Database/migrations | V3.2 material + ops docs | backend migrations / Compose init |
-| Verification | `06_quality/standards/`, gate | tests + matching evidence subfolder |
-| Setup/CI | `07_operations/` | scripts and `.github/workflows/` |
-| Historical audit | `99_archive/` | inspect only; do not implement from it |
-
-## 5. Invariants
-
-- Flutter Android-first learner and Flutter Web staff/admin.
-- FastAPI/Python, PostgreSQL, Object Storage, modular monolith.
-- API and durable worker share one codebase.
-- Server authority for scoring, progress, and permission.
-- Commands and telemetry stay separate; offline queues are durable.
-- Published content is immutable/versioned; attempts pin exact revisions.
-- Event time, knowledge/availability time, and source capture remain distinct.
-- Mastery is distinct from Risk; prediction, decision, exposure, execution, and outcome
-  remain distinct.
-- The product has a deterministic path with intelligence/recommendation disabled.
-- No Kafka, Kubernetes, microservices, warehouse, or external feature store without a
-  demonstrated requirement.
-
-Source existence or a visually complete prototype alone does not close a phase gate. Phase 2 closes only after QC/QA exit criteria and Product/Tech signoff are recorded.
-
-## Codex execution update — 2026-09-27
-
-Phase 2 remains ACTIVE / GATE NOT PASSED. Canonical suite: 94/94 Codex PASS (44/44 P0); 30 supplemental browser checks PASS. Interactive screen-reader/TalkBack review is BLOCKED. All 20 findings await independent closure; Tech Lead and Product/Owner signoffs remain pending. Phase 3 is DEFERRED. See `08_handoff/phase2/QA_RETEST_HANDOFF.md` and `06_quality/phase2/PHASE_2_VERIFICATION_REPORT.md`.
+Developer đọc [bàn giao V2](02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/rebaseline_v2/DEVELOPER_HANDOFF_V2.md) và [chạy nền tảng](04_Van_hanh/Runbook/PHASE1_FOUNDATION.md). [PROJECT_MAP](PROJECT_MAP.md) giải thích thư mục; [trạng thái hiện hành](02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_STATE.md) phân biệt tiến độ kỹ thuật với gate chưa ký.

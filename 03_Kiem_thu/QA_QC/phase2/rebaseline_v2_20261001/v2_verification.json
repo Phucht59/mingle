@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "protected_files": 141,
+  "protected_mismatches": [],
+  "historical_files": 9607,
+  "historical_mismatches": [],
+  "pre_migration_files": 10096,
+  "missing_pre_migration_files": [],
+  "v3_2_source_files": 102,
+  "screens": 61,
+  "states": 175,
+  "preserved_original_states": 166,
+  "screenshots": 195,
+  "flutter_tests": 227,
+  "compiled_web_cases": 7,
+  "errors": []
+}

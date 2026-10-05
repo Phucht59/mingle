@@ -1,0 +1,71 @@
+{
+  "files_scanned": 241,
+  "legacy_current_path_references": [],
+  "broken_markdown_links_after": [],
+  "broken_markdown_links_before": [],
+  "python_syntax_errors": [],
+  "javascript_syntax": [
+    {
+      "file": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/ux_ui/phase2/prototype/app.js",
+      "exit_code": 0,
+      "error": ""
+    },
+    {
+      "file": "04_Van_hanh/Scripts/verify_phase2_browser.cjs",
+      "exit_code": 0,
+      "error": ""
+    },
+    {
+      "file": "04_Van_hanh/Scripts/verify_phase2_supplemental.cjs",
+      "exit_code": 0,
+      "error": ""
+    }
+  ],
+  "shell_syntax": [
+    {
+      "file": "04_Van_hanh/Scripts/bootstrap_clients.sh",
+      "exit_code": 0,
+      "error": ""
+    },
+    {
+      "file": "04_Van_hanh/Scripts/clean_setup.sh",
+      "exit_code": 0,
+      "error": ""
+    },
+    {
+      "file": "04_Van_hanh/Scripts/verify_backend.sh",
+      "exit_code": 0,
+      "error": ""
+    }
+  ],
+  "yaml_parse": [
+    {
+      "file": "01_San_pham/compose.yaml",
+      "status": "PASS"
+    },
+    {
+      "file": "01_San_pham/apps/learner/analysis_options.yaml",
+      "status": "PASS"
+    },
+    {
+      "file": "01_San_pham/apps/learner/pubspec.yaml",
+      "status": "PASS"
+    },
+    {
+      "file": "01_San_pham/apps/staff/analysis_options.yaml",
+      "status": "PASS"
+    },
+    {
+      "file": "01_San_pham/apps/staff/pubspec.yaml",
+      "status": "PASS"
+    },
+    {
+      "file": "02_Tai_lieu_du_an/07_Tien_do_du_an/PHASE_STATUS.yaml",
+      "status": "PASS"
+    },
+    {
+      "file": ".github/workflows/foundation.yaml",
+      "status": "PASS"
+    }
+  ]
+}

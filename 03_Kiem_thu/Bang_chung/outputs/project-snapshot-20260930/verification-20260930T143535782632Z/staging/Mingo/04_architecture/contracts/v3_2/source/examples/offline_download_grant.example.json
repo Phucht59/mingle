@@ -1,0 +1,14 @@
+{
+  "grant_id": "10000000-0000-4000-8000-000000000015",
+  "learner_id": "10000000-0000-4000-8000-000000000001",
+  "enrollment_id": "10000000-0000-4000-8000-000000000002",
+  "device_installation_id": "android-install-abc",
+  "package_id": "10000000-0000-4000-8000-000000000016",
+  "course_release_id": "10000000-0000-4000-8000-000000000004",
+  "release_manifest_sha256": "c5390ef560bfd987313e52ccd80828c196533defcab6ef7339805e5c0aba7916",
+  "issued_at": "2026-09-15T08:30:00Z",
+  "learn_until": "2026-09-22T08:30:00Z",
+  "upload_until": "2026-09-24T08:30:00Z",
+  "policy_version": "offline_policy_v1",
+  "revoked_at": null
+}

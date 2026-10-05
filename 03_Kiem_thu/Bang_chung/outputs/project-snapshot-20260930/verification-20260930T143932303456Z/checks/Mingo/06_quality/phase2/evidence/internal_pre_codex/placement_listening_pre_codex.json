@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "placement_vocab_submit_disabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "placement_listening_audio",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "placement_result_after_take",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "offline_listening_media_block",
+      "status": "PASS",
+      "detail": "Mingo Phase 2 Prototype R1mock state \u00b7 non-production \u00b7 QC/QA rework\nLearner\nStaff\nFirst-use demo\nSimulate offline\nOffline simulation enabled.\nMingo\nOffline\nYou\u2019re offline. Downloaded eligible work can continue. Device-saved actions are not server-confirmed.\nLEARNING CYCLE\nListening: simple greetings\n\nListening \u00b7 2 of 8\n\nReview\n\nPlay the audio, then choose what you heard.\n\nAudio unavailable offlin"
+    },
+    {
+      "check": "check_audio_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "check_audio_disabled_after_two",
+      "status": "PASS",
+      "detail": "Offered plays: 2 / 2"
+    }
+  ]
+}

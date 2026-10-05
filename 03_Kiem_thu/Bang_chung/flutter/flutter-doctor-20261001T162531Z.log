@@ -1,0 +1,64 @@
+Commit: a112f762ab08f6fa688cc4857b21d95d1055ab5c
+Command: flutter doctor -v
+[!] Flutter (Channel [user-branch], 3.32.8, on Microsoft Windows [Version 10.0.26200.9550], locale vi-VN) [1.051ms]
+    ! Flutter version 3.32.8 on channel [user-branch] at C:\Dev\flutter-3.32.8
+      Currently on an unknown channel. Run `flutter channel` to switch to an official channel.
+      If that doesn't fix the issue, reinstall Flutter by following instructions at https://flutter.dev/setup.
+    ! Upstream repository unknown source is not a standard remote.
+      Set environment variable "FLUTTER_GIT_URL" to unknown source to dismiss this error.
+    • Framework revision edada7c56e (1 year, 2 months ago), 2025-07-25 14:08:03 +0000
+    • Engine revision ef0cd00091
+    • Dart version 3.8.1
+    • DevTools version 2.45.1
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+
+[√] Windows Version (Windows 11 or higher, 25H2, 2009) [2,2s]
+
+[√] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [5,2s]
+    • Android SDK at C:\Users\Phúc\AppData\Local\Android\Sdk
+    • Platform android-37.0, build-tools 36.0.0
+    • ANDROID_HOME = C:\Android\Sdk
+    • Java binary at: C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot\bin\java
+      This JDK is specified in your Flutter configuration.
+      To change the current JDK, run: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment Microsoft-14940689 (build 17.0.20.1+1-LTS)
+    • All Android licenses accepted.
+
+[√] Chrome - develop for the web [501ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[!] Visual Studio - develop Windows apps (SQL Server Management Studio 22 22.9.2) [499ms]
+    • Visual Studio at C:\Program Files\Microsoft SQL Server Management Studio 22\Release
+    • SQL Server Management Studio 22 version 22.9.12120.119
+    X Visual Studio is missing necessary components. Please re-run the Visual Studio installer for the "Desktop development with C++" workload, and include these components:
+        MSVC v142 - VS 2019 C++ x64/x86 build tools
+         - If there are multiple build tool versions available, install the latest
+        C++ CMake tools for Windows
+        Windows 10 SDK
+
+[√] Android Studio (version 2026.1.4) [46ms]
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+       https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+       https://plugins.jetbrains.com/plugin/6351-dart
+    • android-studio-dir = C:\Program Files\Android\Android Studio
+    • Java version openjdk version "25.0.3" 2026-04-21
+
+[√] VS Code (version unknown) [41ms]
+    • VS Code at C:\Users\Phúc\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension can be installed from:
+       https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+    X Unable to determine VS Code version.
+
+[√] Connected device (4 available) [733ms]
+    • sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 15 (API 35) (emulator)
+    • Windows (desktop)            • windows       • windows-x64    • Microsoft Windows [Version 10.0.26200.9550]
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 154.0.8037.58
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 154.0.4258.37
+
+[√] Network resources [752ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.
+Exit code: 0

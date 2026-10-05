@@ -1,0 +1,12 @@
+{
+  "evidence_level": "RERUN NOW",
+  "utc": "2026-10-02T16:06:49.477818+00:00",
+  "protected_files": 141,
+  "protected_missing": [],
+  "protected_hash_mismatch": [],
+  "archived_files": 96,
+  "archived_missing": [],
+  "archived_hash_mismatch": [],
+  "sealed_package_mismatch": [],
+  "status": "PASS"
+}

@@ -1,0 +1,441 @@
+P0 QC-001 PASS
+QC-002 FAIL
+QC-003 PASS
+QC-004 PASS
+QC-005 PASS
+QC-006 PASS
+QC-007 PASS
+QC-008 PASS
+QC-009 PASS
+QC-010 PASS
+QA-BIZ-006 PASS
+QA-ACC-004 PASS
+QA-HO-001 PASS
+QA-HO-004 PASS
+QA-HO-005 PASS
+
+P0 QA-LRN-001 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-LRN-006 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-LRN-008 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-LRN-009 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-LRN-013 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-LRN-015 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-LRN-019 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-OFF-002 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-OFF-003 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-OFF-004 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-001 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-002 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-003 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-004 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-005 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-007 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-008 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-009 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-010 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-011 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-012 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-013 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-BIZ-014 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-ACC-001 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-ACC-003 FAIL page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8765/", waiting until "load"[22m
+
+QA-ACC-007 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-ACC-008 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-LRN-021 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-OFF-007 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+
+P1 QA-NAV-009 PASS
+QA-NAV-010 PASS
+QA-HO-002 PASS
+QA-HO-003 PASS
+QA-HO-006 PASS
+
+P1 QA-NAV-001 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-NAV-002 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-NAV-003 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-NAV-004 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-NAV-005 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-NAV-006 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-NAV-007 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-NAV-008 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-LRN-002 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-003 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-004 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-005 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-007 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-010 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-011 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-012 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-014 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-016 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-017 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-018 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-020 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-STF-001 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-002 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-003 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-004 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-005 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-006 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-007 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-008 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-009 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-STF-010 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-OFF-001 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-OFF-005 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-OFF-006 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-ACC-002 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-ACC-005 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-ACC-006 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-ACC-009 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-ACC-010 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-ACC-011 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-ACC-012 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-LRN-022 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-LRN-023 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+QA-STF-011 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+QA-ACC-013 FAIL locator.click: Timeout 4500ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+
+text200-320-Home FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-320-Learn FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-320-Course FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-320-Profile FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-360-Home FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-360-Learn FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-360-Course FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-360-Profile FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-412-Home FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-412-Learn FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-412-Course FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-412-Profile FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-480-Home FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-480-Learn FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-480-Course FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+text200-480-Profile FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+staff-text200-1024 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+staff-text200-1440 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Staff', exact: true })[22m
+
+placement-media-unavailable FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+practice-media-skip FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+learner-accessibility-tree FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-vocabulary-0 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-vocabulary-1 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-vocabulary-2 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-grammar-0 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-grammar-1 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-grammar-2 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-listening-0 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-listening-1 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+answer-key-listening-2 FAIL locator.click: Timeout 4000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Start learning', exact: true })[22m
+
+

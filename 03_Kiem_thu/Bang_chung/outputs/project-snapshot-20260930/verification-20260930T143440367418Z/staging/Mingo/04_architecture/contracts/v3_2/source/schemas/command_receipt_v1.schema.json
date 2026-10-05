@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "command_receipt_v1.schema.json",
+  "title": "CommandReceiptV1",
+  "type": "object",
+  "required": [
+    "receipt_id",
+    "learner_id",
+    "command_id",
+    "command_type",
+    "digest_version",
+    "payload_digest",
+    "terminal_outcome",
+    "recorded_at"
+  ],
+  "properties": {
+    "receipt_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "learner_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "command_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "command_type": {
+      "const": "submit_attempt_v1"
+    },
+    "digest_version": {
+      "const": "command_digest_v1"
+    },
+    "payload_digest": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "terminal_outcome": {
+      "enum": [
+        "accepted",
+        "rejected"
+      ]
+    },
+    "reason_code": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canonical_result": {
+      "anyOf": [
+        {
+          "$ref": "canonical_command_result_v1.schema.json"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "terminal_outcome": {
+            "const": "accepted"
+          }
+        },
+        "required": [
+          "terminal_outcome"
+        ]
+      },
+      "then": {
+        "required": [
+          "canonical_result"
+        ],
+        "properties": {
+          "reason_code": {
+            "type": "null"
+          },
+          "canonical_result": {
+            "$ref": "canonical_command_result_v1.schema.json"
+          }
+        }
+      },
+      "else": {
+        "required": [
+          "reason_code"
+        ],
+        "properties": {
+          "canonical_result": {
+            "type": "null"
+          },
+          "reason_code": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

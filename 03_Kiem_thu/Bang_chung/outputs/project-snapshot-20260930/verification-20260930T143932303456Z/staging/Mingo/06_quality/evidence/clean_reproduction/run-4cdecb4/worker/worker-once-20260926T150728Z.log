@@ -1,0 +1,6 @@
+Commit: 4cdecb426d33b2996f4a3a72cc78da6a276b713f
+Command: C:\Mingo\.local\clean-reproduction-20260926\.venv\Scripts\python.exe -m all_foundation.worker --once
+{"time": "2026-09-26T15:07:41.149860+00:00", "level": "INFO", "event": "worker.started", "component": "worker", "request_id": null}
+{"time": "2026-09-26T15:07:41.316794+00:00", "level": "INFO", "event": "job.completed", "component": "worker", "request_id": null}
+{"time": "2026-09-26T15:07:41.316794+00:00", "level": "INFO", "event": "worker.stopped", "component": "worker", "request_id": null}
+Exit code: 0
