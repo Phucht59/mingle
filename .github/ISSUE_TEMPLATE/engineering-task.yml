@@ -1,0 +1,54 @@
+name: Engineering Task
+description: Engineering execution linked to a Linear outcome/issue
+title: "[ENG] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "GitHub is engineering execution truth. Link the Linear issue/project; do not duplicate product governance here."
+  - type: input
+    id: linear
+    attributes:
+      label: Linear source
+      description: Linear issue/project URL or identifier
+      placeholder: TRA-123 / https://linear.app/...
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: Concrete engineering outcome
+    validations:
+      required: true
+  - type: textarea
+    id: contracts
+    attributes:
+      label: Contracts / source of truth
+      description: V3.2 contract, PRD/BR/UC, API/schema, design reference
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / non-scope
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable/testable conditions
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Required tests / evidence
+      description: Unit, integration, concurrency, security, offline, UI, logs as applicable
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risks / dependencies
