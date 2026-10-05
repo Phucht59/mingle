@@ -1,0 +1,42 @@
+name: Implementation Defect / Change Candidate
+description: Use when implementation exposes a possible blocking baseline defect
+title: "[BASELINE-CANDIDATE] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Do not silently change V3.2 or a frozen business rule. This issue captures evidence before a Change Request decision."
+  - type: input
+    id: linear
+    attributes:
+      label: Linear governance issue
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current baseline / rule
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Blocking evidence
+      description: Reproducible runtime/integration/security/concurrency evidence
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacted contracts / artifacts
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Proposed disposition
+      description: Safe implementation fix vs Change Request candidate
