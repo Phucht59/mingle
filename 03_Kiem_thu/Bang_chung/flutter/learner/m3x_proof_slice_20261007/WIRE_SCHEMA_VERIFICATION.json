@@ -1,0 +1,17 @@
+[
+  {
+    "name": "submit_attempt_command_v1.schema.json",
+    "status": "PASS",
+    "schema_sha256": "0b1b546d7ee542df878b39232e35c9a331eb2f76125f58e184cd50e0dcb30aaa"
+  },
+  {
+    "name": "command_sync_result_v1.schema.json",
+    "status": "PASS",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1"
+  },
+  {
+    "name": "Independent Python command_digest_v1 string-subset calculation",
+    "status": "PASS",
+    "digest": "98f5bab98fae5392ebf3e372f1ccad336d987cc66f32774da7dd1e16f96cdeed"
+  }
+]

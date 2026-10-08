@@ -1,0 +1,248 @@
+[
+  {
+    "path": "00_READ_FIRST/CODEX_SUPER_PROMPT_GPT_6_1_XHIGH.md",
+    "expected": "6534b5c7123d36d7793362a8c80482537193f35b1cdbe48b7a65ed02178b504d",
+    "actual": "6534b5c7123d36d7793362a8c80482537193f35b1cdbe48b7a65ed02178b504d",
+    "passed": true
+  },
+  {
+    "path": "00_READ_FIRST/PACKAGE_FILE_LIST.txt",
+    "expected": "067534fce9672e675b3940f74ac441e68acf4dcb14198b009ceb4550f649300e",
+    "actual": "067534fce9672e675b3940f74ac441e68acf4dcb14198b009ceb4550f649300e",
+    "passed": true
+  },
+  {
+    "path": "00_READ_FIRST/README_START_HERE.md",
+    "expected": "131a6b81de92259a0335b0be9cf7bec4e49c0a86a3d0bfe30d7f4ed00b105dca",
+    "actual": "131a6b81de92259a0335b0be9cf7bec4e49c0a86a3d0bfe30d7f4ed00b105dca",
+    "passed": true
+  },
+  {
+    "path": "00_READ_FIRST/SOURCE_OF_TRUTH_ORDER.md",
+    "expected": "186bb00ce8ed5ee1e18c66153072cf0502d23587da8a429022f71398dcea3896",
+    "actual": "186bb00ce8ed5ee1e18c66153072cf0502d23587da8a429022f71398dcea3896",
+    "passed": true
+  },
+  {
+    "path": "00_READ_FIRST/V3_2_CANONICAL_BASELINE_POINTER.md",
+    "expected": "4a8cbc4d8d19a34676dc872514f4f0d6076846c49806ab8a08051599a0303313",
+    "actual": "4a8cbc4d8d19a34676dc872514f4f0d6076846c49806ab8a08051599a0303313",
+    "passed": true
+  },
+  {
+    "path": "01_GD1_BUSINESS_BASELINE/MINGO_GD1_CLOSURE_HANDOFF_PACKAGE_2026-10-05.zip",
+    "expected": "64ee8f54530df3d964400e6c9b91793cedc5a32c18534f723fdf56c70dd25d83",
+    "actual": "64ee8f54530df3d964400e6c9b91793cedc5a32c18534f723fdf56c70dd25d83",
+    "passed": true
+  },
+  {
+    "path": "01_GD1_BUSINESS_BASELINE/MINGO_GD1_FINAL_LOCK_CODEX_HANDOFF_2026-10-05.md",
+    "expected": "7688efae59a42570fa3980cc2082e5adef9aef442a2a3e94a75b4f11e9015275",
+    "actual": "7688efae59a42570fa3980cc2082e5adef9aef442a2a3e94a75b4f11e9015275",
+    "passed": true
+  },
+  {
+    "path": "01_GD1_BUSINESS_BASELINE/MINGO_PROJECT_CONTEXT_SNAPSHOT_GD1_FINAL_2026-10-05.md",
+    "expected": "4509a867759a968d7530902c498e06bbafe1c5d5b767afe0c3d818e3c567f3df",
+    "actual": "4509a867759a968d7530902c498e06bbafe1c5d5b767afe0c3d818e3c567f3df",
+    "passed": true
+  },
+  {
+    "path": "01_GD1_BUSINESS_BASELINE/Mingo G\u01101 \u2014 Business Analysis Specification \u2014 FINAL LOCKED \u2014 2026-10-05.docx",
+    "expected": "ec966ff146924ff7d9e7e1ba5529f35d4f66b01dc301dc332a46f02388af1a24",
+    "actual": "ec966ff146924ff7d9e7e1ba5529f35d4f66b01dc301dc332a46f02388af1a24",
+    "passed": true
+  },
+  {
+    "path": "01_GD1_BUSINESS_BASELINE/Mingo_GD1_Closure_Package_2026-10-05.xlsx",
+    "expected": "072769823b941a3efbaeb58d793641a8089f0d385bf46e4179ffc18b3ac989fa",
+    "actual": "072769823b941a3efbaeb58d793641a8089f0d385bf46e4179ffc18b3ac989fa",
+    "passed": true
+  },
+  {
+    "path": "02_M1_M2_UX_CONTRACT/M1_M2_CANONICAL_IMPLEMENTATION_CONTEXT.md",
+    "expected": "06b220655cc768505e49d6455385cd667c2a9dcd66cebcb9dd3afe04f6860282",
+    "actual": "06b220655cc768505e49d6455385cd667c2a9dcd66cebcb9dd3afe04f6860282",
+    "passed": true
+  },
+  {
+    "path": "03_M3_DESIGN_CONTEXT/MINGO_R02_Native_Companion(1).html",
+    "expected": "201b2cbff330dde1d7648d9233718e49f2c83d332e3560cc9ff262059bd7a3be",
+    "actual": "201b2cbff330dde1d7648d9233718e49f2c83d332e3560cc9ff262059bd7a3be",
+    "passed": true
+  },
+  {
+    "path": "03_M3_DESIGN_CONTEXT/MINGO_R02_Research_and_Design(1).md",
+    "expected": "fbdd4b7b530f5006ef4a8a581be9bbf27f5b24e4fcfd143be871fd3c50e9ab43",
+    "actual": "fbdd4b7b530f5006ef4a8a581be9bbf27f5b24e4fcfd143be871fd3c50e9ab43",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_01_DESIGN_DNA_RESEARCH.md",
+    "expected": "fec4ab3b7f824e95b50bed0edc1c829c3727eaf28b5d0b4fbdf5bd502baf3ea3",
+    "actual": "fec4ab3b7f824e95b50bed0edc1c829c3727eaf28b5d0b4fbdf5bd502baf3ea3",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_02_DESIGN_DOCTRINE.md",
+    "expected": "16f28a385e33090f48c80a5827f81f554b710cdfa549e17949c0dbba5db5ae5a",
+    "actual": "16f28a385e33090f48c80a5827f81f554b710cdfa549e17949c0dbba5db5ae5a",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_03_SIGNATURE_SYSTEM.md",
+    "expected": "58b55b06bf631ac2b6e23adc3b3d7b316061858ef7b60186520b9036b561b0fb",
+    "actual": "58b55b06bf631ac2b6e23adc3b3d7b316061858ef7b60186520b9036b561b0fb",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_04_VISUAL_FOUNDATION.md",
+    "expected": "37789227b875adb172e00864564c96bf59982e0da214222dd09f51b9207e004a",
+    "actual": "37789227b875adb172e00864564c96bf59982e0da214222dd09f51b9207e004a",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_05_ANCHOR_MASTERS.html",
+    "expected": "94481ef8949d0a895f41fe73a95aefbf1751d99a5cdbad06647b9c4aa6102523",
+    "actual": "94481ef8949d0a895f41fe73a95aefbf1751d99a5cdbad06647b9c4aa6102523",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_06_INTERACTION_STORYBOARD.md",
+    "expected": "f282df46ac9d9d33ab6516b38085034c779a6bc8c80346499e9a35e270419c95",
+    "actual": "f282df46ac9d9d33ab6516b38085034c779a6bc8c80346499e9a35e270419c95",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_06_Interaction_Motion.mp4",
+    "expected": "101318ebd322307f804ecc7b8aa27dab56e9938ab19f1cb10f3c83c6ed16268a",
+    "actual": "101318ebd322307f804ecc7b8aa27dab56e9938ab19f1cb10f3c83c6ed16268a",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_06_Interaction_Motion_ORIGINAL.mp4",
+    "expected": "101318ebd322307f804ecc7b8aa27dab56e9938ab19f1cb10f3c83c6ed16268a",
+    "actual": "101318ebd322307f804ecc7b8aa27dab56e9938ab19f1cb10f3c83c6ed16268a",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_06_Interaction_Storyboard.png",
+    "expected": "1d06dbf0184e0d4c260407b84b2064a7fd1f35ec60554dc20bde059e8bde2c6d",
+    "actual": "1d06dbf0184e0d4c260407b84b2064a7fd1f35ec60554dc20bde059e8bde2c6d",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_07_NATIVE_FLUTTER_MAPPING.md",
+    "expected": "2bb3e73585f6c44a6a7a2d5983eee54b92270f44db6120cc3fe39215ccc46f3c",
+    "actual": "2bb3e73585f6c44a6a7a2d5983eee54b92270f44db6120cc3fe39215ccc46f3c",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_08_ACCESSIBILITY_STRESS_REVIEW.md",
+    "expected": "cfe6cea26128ae9a70da4ee2786a783aa33b631d401ccecc96593e49d0ed68ef",
+    "actual": "cfe6cea26128ae9a70da4ee2786a783aa33b631d401ccecc96593e49d0ed68ef",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_Anchor_Overview.png",
+    "expected": "dcfab69b9447c67da00976409619d04e73da78dfb9b7d5b7dab9344d8e2da379",
+    "actual": "dcfab69b9447c67da00976409619d04e73da78dfb9b7d5b7dab9344d8e2da379",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_Capybara_Poses.png",
+    "expected": "4c7d7bcacd22854c0dd20f0497bb25906255b3c845a00dc14488f0508b4b3b19",
+    "actual": "4c7d7bcacd22854c0dd20f0497bb25906255b3c845a00dc14488f0508b4b3b19",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_Layer_Model.png",
+    "expected": "2a7322036c1d7329e7afb809844bf10af700429593084bfd1c0e5e6da089d161",
+    "actual": "2a7322036c1d7329e7afb809844bf10af700429593084bfd1c0e5e6da089d161",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_PO_REVIEW_PACKAGE_ORIGINAL.zip",
+    "expected": "9b0f3420033a87cd94badf67c7ffcb8c32088473a9a5b44819cc82e2f4f50eaf",
+    "actual": "9b0f3420033a87cd94badf67c7ffcb8c32088473a9a5b44819cc82e2f4f50eaf",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_PO_SUMMARY.md",
+    "expected": "70124ca0510cb737ed97f56599097da558743ac92ac701aca60541f338fa0f1d",
+    "actual": "70124ca0510cb737ed97f56599097da558743ac92ac701aca60541f338fa0f1d",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/MINGO_M3X_Stress_and_Identity.png",
+    "expected": "76b162be7775fc5a3f5c0629d723351589c9075830ea8f2224cd5c215bf532aa",
+    "actual": "76b162be7775fc5a3f5c0629d723351589c9075830ea8f2224cd5c215bf532aa",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/QA_ACCESSIBILITY_TREE.txt",
+    "expected": "f46fc153b261a01da65452cc33875b81e94a7e0eeaa53c6f8ff901a5988a48a6",
+    "actual": "f46fc153b261a01da65452cc33875b81e94a7e0eeaa53c6f8ff901a5988a48a6",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/QA_BROWSER.json",
+    "expected": "b70f0febba09774a71c53a99127bfb31eae6a58f21f21ae9e138aef84c99a8a3",
+    "actual": "b70f0febba09774a71c53a99127bfb31eae6a58f21f21ae9e138aef84c99a8a3",
+    "passed": true
+  },
+  {
+    "path": "04_M3X_CANONICAL_DIRECTION/README_REVIEW_FIRST.md",
+    "expected": "7607cb7a8755186d251fff3b4e5bd755fedbfc601d81f367b872fb268596d3e2",
+    "actual": "7607cb7a8755186d251fff3b4e5bd755fedbfc601d81f367b872fb268596d3e2",
+    "passed": true
+  },
+  {
+    "path": "05_PROOF_SLICE_EXECUTION/LINEAR_EXECUTION_MAP.md",
+    "expected": "b031df15a246d4c3cb98db980f2abd86f5ee2422f6743336cc9b49dcd8d79260",
+    "actual": "b031df15a246d4c3cb98db980f2abd86f5ee2422f6743336cc9b49dcd8d79260",
+    "passed": true
+  },
+  {
+    "path": "05_PROOF_SLICE_EXECUTION/M3X_FLUTTER_IPHONE_PROOF_SLICE_IMPLEMENTATION_CONTRACT_v1.0.md",
+    "expected": "e1c722b1713c238d88715b1ec73d195ad53d65c1e4c51849cfb272b1862b0304",
+    "actual": "e1c722b1713c238d88715b1ec73d195ad53d65c1e4c51849cfb272b1862b0304",
+    "passed": true
+  },
+  {
+    "path": "99_HISTORICAL_REFERENCE/MINGO_M3_Art_Directions(1).png",
+    "expected": "74fa5065c9da3303e983cfd7f5f296eeaa9b48eec34d5afeb9de5fcfa3adc249",
+    "actual": "74fa5065c9da3303e983cfd7f5f296eeaa9b48eec34d5afeb9de5fcfa3adc249",
+    "passed": true
+  },
+  {
+    "path": "99_HISTORICAL_REFERENCE/MINGO_M3_Design_Review(1).md",
+    "expected": "ee3135bc7d2855b203c0b228270b39db60cfe6faa8241106196f60372770e063",
+    "actual": "ee3135bc7d2855b203c0b228270b39db60cfe6faa8241106196f60372770e063",
+    "passed": true
+  },
+  {
+    "path": "99_HISTORICAL_REFERENCE/MINGO_M3_Visual_Direction_Review(1).html",
+    "expected": "f37d4869c8c2755c6a9a2724dec52b4285ebacb6490d9d7aac6f972c3980c2af",
+    "actual": "f37d4869c8c2755c6a9a2724dec52b4285ebacb6490d9d7aac6f972c3980c2af",
+    "passed": true
+  },
+  {
+    "path": "99_HISTORICAL_REFERENCE/README_NOT_SOURCE_OF_TRUTH.md",
+    "expected": "c8fddd8246950f052912df94570c3198c5df230bb7023f6ff801dea8b7f56095",
+    "actual": "c8fddd8246950f052912df94570c3198c5df230bb7023f6ff801dea8b7f56095",
+    "passed": true
+  },
+  {
+    "path": "99_HISTORICAL_REFERENCE/mingo_m3_learner_core_flow_prototype.html",
+    "expected": "09f03816dae81b5e4ae7284e0c25d579556b92d5a979319f149bb398ff2e2743",
+    "actual": "09f03816dae81b5e4ae7284e0c25d579556b92d5a979319f149bb398ff2e2743",
+    "passed": true
+  },
+  {
+    "path": "99_HISTORICAL_REFERENCE/mingo_m3_staff_web_prototype.html",
+    "expected": "87045d356a298eadbe421c9350edf483bfbe4c6fb332222970c9812bb368704d",
+    "actual": "87045d356a298eadbe421c9350edf483bfbe4c6fb332222970c9812bb368704d",
+    "passed": true
+  }
+]

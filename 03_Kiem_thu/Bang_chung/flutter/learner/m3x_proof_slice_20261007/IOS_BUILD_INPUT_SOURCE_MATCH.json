@@ -1,0 +1,190 @@
+{
+  "authored_files": [
+    {
+      "path": "01_San_pham/apps/learner/lib/main.dart",
+      "sha256": "d66baf412f8a8ba6c09dfa3b543f2811e0c7ea4153ae84887530b176b5107d53",
+      "copy_sha256": "d66baf412f8a8ba6c09dfa3b543f2811e0c7ea4153ae84887530b176b5107d53"
+    },
+    {
+      "path": "01_San_pham/apps/learner/lib/m3x/learning_state.dart",
+      "sha256": "8299ec2095ddfa17e2183093bd21a1e3742ebce1e9f8e35a456b7d48f21ccbbc",
+      "copy_sha256": "8299ec2095ddfa17e2183093bd21a1e3742ebce1e9f8e35a456b7d48f21ccbbc"
+    },
+    {
+      "path": "01_San_pham/apps/learner/lib/m3x/learning_store.dart",
+      "sha256": "527d88a9cc5b80cc3ca5ffdc61e71bc0ccc5212d32f8c0d18452dc9e6dff8d0e",
+      "copy_sha256": "527d88a9cc5b80cc3ca5ffdc61e71bc0ccc5212d32f8c0d18452dc9e6dff8d0e"
+    },
+    {
+      "path": "01_San_pham/apps/learner/lib/m3x/open_store_native.dart",
+      "sha256": "66b2dc5a36bd053327387aeb38df6da2d4e5ea52340bfb231d6bd725aae71bd0",
+      "copy_sha256": "66b2dc5a36bd053327387aeb38df6da2d4e5ea52340bfb231d6bd725aae71bd0"
+    },
+    {
+      "path": "01_San_pham/apps/learner/lib/m3x/open_store_unsupported.dart",
+      "sha256": "3e49600106c4fb962fd8330b08016976f1b07136118c63865554892aed6a5f3c",
+      "copy_sha256": "3e49600106c4fb962fd8330b08016976f1b07136118c63865554892aed6a5f3c"
+    },
+    {
+      "path": "01_San_pham/apps/learner/lib/m3x/proof_app.dart",
+      "sha256": "2a31e2503e0b6a8038e12008d36d9214bac37fbe728fe330d205e8ef7a3c2b8a",
+      "copy_sha256": "2a31e2503e0b6a8038e12008d36d9214bac37fbe728fe330d205e8ef7a3c2b8a"
+    },
+    {
+      "path": "01_San_pham/apps/learner/lib/m3x/proof_controller.dart",
+      "sha256": "7ab254c90df3e985d9152bbfc18539dfd5e9364716950e41e709abfdf8b26fe0",
+      "copy_sha256": "7ab254c90df3e985d9152bbfc18539dfd5e9364716950e41e709abfdf8b26fe0"
+    },
+    {
+      "path": "01_San_pham/apps/learner/lib/m3x/proof_server.dart",
+      "sha256": "20f0cc08bfd0a0cbab1e2c7188311c6845f6d35677a4dfac1fb85574b1015f0f",
+      "copy_sha256": "20f0cc08bfd0a0cbab1e2c7188311c6845f6d35677a4dfac1fb85574b1015f0f"
+    },
+    {
+      "path": "01_San_pham/apps/learner/test/m3x_domain_test.dart",
+      "sha256": "c1aec8817b6c9616170b3dc004e4f9380a2364eaf9fe5554595ff0dec2e7eac1",
+      "copy_sha256": "c1aec8817b6c9616170b3dc004e4f9380a2364eaf9fe5554595ff0dec2e7eac1"
+    },
+    {
+      "path": "01_San_pham/apps/learner/test/m3x_widget_test.dart",
+      "sha256": "c58b5ab4c5f46537c6209b8ffee2637ba72f4f2906e59e5d1062984df1ddc7b0",
+      "copy_sha256": "c58b5ab4c5f46537c6209b8ffee2637ba72f4f2906e59e5d1062984df1ddc7b0"
+    },
+    {
+      "path": "01_San_pham/apps/learner/test/widget_test.dart",
+      "sha256": "357f0978f783b1d3befd0cbf091b64ebf336e3dd4e5c0c36f16697b86cee0126",
+      "copy_sha256": "357f0978f783b1d3befd0cbf091b64ebf336e3dd4e5c0c36f16697b86cee0126"
+    },
+    {
+      "path": "01_San_pham/apps/learner/integration_test/boot_test.dart",
+      "sha256": "27216ef92fe04464816f6191184a65a032d47b95df888aa38a16b115fbe11f63",
+      "copy_sha256": "27216ef92fe04464816f6191184a65a032d47b95df888aa38a16b115fbe11f63"
+    },
+    {
+      "path": "01_San_pham/apps/learner/integration_test/m3x_proof_test.dart",
+      "sha256": "ceff2c50429a709a2bdfe708870ad42b8203d4ded2a9b31a0d34c7c03f168ec9",
+      "copy_sha256": "ceff2c50429a709a2bdfe708870ad42b8203d4ded2a9b31a0d34c7c03f168ec9"
+    },
+    {
+      "path": "01_San_pham/apps/learner/integration_test/performance_test.dart",
+      "sha256": "6549b1d095d135d1ecb410d2ef38c3197b86807b8b40e71e1791ed8ab5c55b9a",
+      "copy_sha256": "6549b1d095d135d1ecb410d2ef38c3197b86807b8b40e71e1791ed8ab5c55b9a"
+    },
+    {
+      "path": "01_San_pham/apps/learner/tool/m3x_process_probe.dart",
+      "sha256": "d9bb5d0316bd929436ae9ff9e9860356bc5d34905ac2fbae10cbec5eac0bdd0e",
+      "copy_sha256": "d9bb5d0316bd929436ae9ff9e9860356bc5d34905ac2fbae10cbec5eac0bdd0e"
+    },
+    {
+      "path": "01_San_pham/apps/learner/pubspec.yaml",
+      "sha256": "1611c5b4756a2da9f2d4306c4f967708037b2cfd98d0c08c968b7de32e447bd0",
+      "copy_sha256": "1611c5b4756a2da9f2d4306c4f967708037b2cfd98d0c08c968b7de32e447bd0"
+    },
+    {
+      "path": "01_San_pham/apps/learner/pubspec.lock",
+      "sha256": "dde98ca6c9e2d44671c974d9ff7cabe897f5f0e6df7d6aabbec9814014a8c096",
+      "copy_sha256": "dde98ca6c9e2d44671c974d9ff7cabe897f5f0e6df7d6aabbec9814014a8c096"
+    },
+    {
+      "path": "01_San_pham/apps/learner/analysis_options.yaml",
+      "sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238",
+      "copy_sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/mingo_ui.dart",
+      "sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3",
+      "copy_sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/audio.dart",
+      "sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c",
+      "copy_sha256": "296312bfc7f934feee87e9645e9c0f8266665c334259261162db3f44368b569c"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/catalog.dart",
+      "sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2",
+      "copy_sha256": "dbc638f04effb50e08d7812a220acaf9de9c83b3769fe8dc7209522f433752a2"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/design.dart",
+      "sha256": "e2569f23f04becaf5dab3127796bf4afbb3d62e0591ba8eb8a33b6afc9a8d537",
+      "copy_sha256": "e2569f23f04becaf5dab3127796bf4afbb3d62e0591ba8eb8a33b6afc9a8d537"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/fixtures.dart",
+      "sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f",
+      "copy_sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/journey.dart",
+      "sha256": "dd16f8a7b5cacf55636b74d3a19c7eec35569fe513775853f4aa7df9e33e2a89",
+      "copy_sha256": "dd16f8a7b5cacf55636b74d3a19c7eec35569fe513775853f4aa7df9e33e2a89"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/learner.dart",
+      "sha256": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90",
+      "copy_sha256": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson.dart",
+      "sha256": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29",
+      "copy_sha256": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson_content.dart",
+      "sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780",
+      "copy_sha256": "5e683ad7c7d872787c5173e3a02eff0ec96efb07e27bdf7cb4a0cfb38dafa780"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/staff.dart",
+      "sha256": "4b8fc9a8f186d3862244f97008ca1ebcaf695bee4373bb8f664fd50b86a09bf5",
+      "copy_sha256": "4b8fc9a8f186d3862244f97008ca1ebcaf695bee4373bb8f664fd50b86a09bf5"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/exploration.png",
+      "sha256": "6bd66c6d3aced8d284d17d48f6b51165938e278355c6d0af906c5dd9b5ac2983",
+      "copy_sha256": "6bd66c6d3aced8d284d17d48f6b51165938e278355c6d0af906c5dd9b5ac2983"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/hello.ogg",
+      "sha256": "ade8485f1cfd454e27ec1bb93cc0234d3187b2507230f72e96f46ac686e82972",
+      "copy_sha256": "ade8485f1cfd454e27ec1bb93cc0234d3187b2507230f72e96f46ac686e82972"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/mascot.png",
+      "sha256": "cd6caaa4ce066198e2921f64a040b1a8c486e7f40d41fa1e2bf34e17979df168",
+      "copy_sha256": "cd6caaa4ce066198e2921f64a040b1a8c486e7f40d41fa1e2bf34e17979df168"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/fonts/Inter.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "copy_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/assets/fonts/OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "copy_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/pubspec.yaml",
+      "sha256": "6c62bfe546c707939d2a472dbe052d377778b06440b943a5aab2af5e2f2100e3",
+      "copy_sha256": "6c62bfe546c707939d2a472dbe052d377778b06440b943a5aab2af5e2f2100e3"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/pubspec.lock",
+      "sha256": "f1321335690e2417194445b418c00ab0f900e5a631be26041d44bdcfe7868ad1",
+      "copy_sha256": "f1321335690e2417194445b418c00ab0f900e5a631be26041d44bdcfe7868ad1"
+    },
+    {
+      "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/analysis_options.yaml",
+      "sha256": "c1e9534c05acb3643e72a82ad3d92d56d2ba9b0df2add014c18f7e1d462f24e4",
+      "copy_sha256": "c1e9534c05acb3643e72a82ad3d92d56d2ba9b0df2add014c18f7e1d462f24e4"
+    }
+  ],
+  "all_matched": true,
+  "host_generation": "Flutter 3.32.8 create --no-pub --platforms=ios",
+  "generated_deployment_target": "12.0",
+  "bundle_id": "com.example.adaptiveLearner",
+  "signed_binary": "NOT BUILT",
+  "device_run": "NOT EXECUTED"
+}

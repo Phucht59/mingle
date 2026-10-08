@@ -1,0 +1,108 @@
+{
+  "status": "HOST_PROCESS_PASS",
+  "device_status": "NOT EXECUTED",
+  "host": "Windows x64",
+  "writer_pid": 20756,
+  "termination": "os.kill(pid, SIGTERM) -> Windows TerminateProcess",
+  "writer_exit": 15,
+  "reader_exit": 0,
+  "exact_snapshot_equal": true,
+  "snapshot": {
+    "version": 1,
+    "owner": "10000000-0000-4000-8000-000000000001",
+    "tab": 0,
+    "homeOffset": 137.0,
+    "resumeKey": "practice",
+    "progressRevision": 0,
+    "completionFraction": 0.0,
+    "tasks": {
+      "practice": {
+        "key": "practice",
+        "item": {
+          "key": "practice",
+          "activityRevision": "10000000-0000-4000-8000-00000000000a",
+          "questionRevision": "10000000-0000-4000-8000-00000000000b",
+          "releaseActivity": "10000000-0000-4000-8000-00000000000c",
+          "situation": "Nhận phòng ở khách sạn",
+          "prompt": "Welcome. Do you have a reservation?",
+          "intent": "Bạn muốn nói rằng mình đã đặt phòng.",
+          "options": {
+            "reservation": "Yes, I have a reservation.",
+            "taxi": "No, I need a taxi.",
+            "station": "Where is the station?"
+          },
+          "check": false
+        },
+        "selection": "reservation",
+        "currentCommand": "bf9d15db-82c0-4d25-b519-42f4e39f00f4",
+        "hintSeen": false,
+        "retrying": true,
+        "responses": [
+          {
+            "commandId": "2b629a47-a60d-46f0-92d3-59a45f44ef57",
+            "attemptId": "5097147f-c120-43dd-8692-4a5f5defe2c1",
+            "answer": "taxi",
+            "condition": "practice",
+            "assistance": []
+          },
+          {
+            "commandId": "bf9d15db-82c0-4d25-b519-42f4e39f00f4",
+            "attemptId": "4112555d-dc19-4870-87a4-b41e588fa3cd",
+            "answer": "reservation",
+            "condition": "practice",
+            "assistance": [
+              "explanation"
+            ]
+          }
+        ]
+      },
+      "check": {
+        "key": "check",
+        "item": {
+          "key": "check",
+          "activityRevision": "10000000-0000-4000-8000-000000000014",
+          "questionRevision": "10000000-0000-4000-8000-000000000015",
+          "releaseActivity": "10000000-0000-4000-8000-000000000016",
+          "situation": "Gọi món ở quán ăn",
+          "prompt": "Are you ready to order?",
+          "intent": "Bạn muốn gọi món súp.",
+          "options": {
+            "soup": "Yes, I’d like the soup, please.",
+            "taxi": "No, I need a taxi.",
+            "station": "Where is the station?"
+          },
+          "check": true
+        },
+        "selection": null,
+        "currentCommand": null,
+        "hintSeen": false,
+        "retrying": false,
+        "responses": []
+      }
+    },
+    "commands": {
+      "2b629a47-a60d-46f0-92d3-59a45f44ef57": {
+        "id": "2b629a47-a60d-46f0-92d3-59a45f44ef57",
+        "bytes": "{\"command_id\":\"2b629a47-a60d-46f0-92d3-59a45f44ef57\",\"attempt_id\":\"5097147f-c120-43dd-8692-4a5f5defe2c1\",\"enrollment_id\":\"10000000-0000-4000-8000-000000000002\",\"release_activity_id\":\"10000000-0000-4000-8000-00000000000c\",\"activity_revision_id\":\"10000000-0000-4000-8000-00000000000a\",\"submission_mode\":\"offline\",\"occurred_at\":\"2026-10-07T16:22:35.595221Z\",\"offline_grant_id\":\"10000000-0000-4000-8000-000000000004\",\"package_id\":\"10000000-0000-4000-8000-000000000005\",\"device_installation_id\":\"m3x-authenticated-fixture-installation\",\"answers\":[{\"question_revision_id\":\"10000000-0000-4000-8000-00000000000b\",\"option_id\":\"taxi\"}]}",
+        "phase": "pending",
+        "delivery": null,
+        "feedback": null,
+        "reason": null
+      },
+      "bf9d15db-82c0-4d25-b519-42f4e39f00f4": {
+        "id": "bf9d15db-82c0-4d25-b519-42f4e39f00f4",
+        "bytes": "{\"command_id\":\"bf9d15db-82c0-4d25-b519-42f4e39f00f4\",\"attempt_id\":\"4112555d-dc19-4870-87a4-b41e588fa3cd\",\"enrollment_id\":\"10000000-0000-4000-8000-000000000002\",\"release_activity_id\":\"10000000-0000-4000-8000-00000000000c\",\"activity_revision_id\":\"10000000-0000-4000-8000-00000000000a\",\"submission_mode\":\"offline\",\"occurred_at\":\"2026-10-07T16:22:35.610376Z\",\"offline_grant_id\":\"10000000-0000-4000-8000-000000000004\",\"package_id\":\"10000000-0000-4000-8000-000000000005\",\"device_installation_id\":\"m3x-authenticated-fixture-installation\",\"answers\":[{\"question_revision_id\":\"10000000-0000-4000-8000-00000000000b\",\"option_id\":\"reservation\"}]}",
+        "phase": "pending",
+        "delivery": null,
+        "feedback": null,
+        "reason": null
+      }
+    }
+  },
+  "command": [
+    "C:\\Dev\\flutter-3.32.8\\bin\\cache\\dart-sdk\\bin\\dart.exe",
+    "--packages=.dart_tool/package_config.json",
+    "tool/m3x_process_probe.dart"
+  ],
+  "boundary": "same FileLearningStore, not native Flutter app termination"
+}

@@ -1,0 +1,107 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":22024,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":2,"platform":"vm","path":"C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"suite","time":10}
+{"test":{"id":3,"name":"loading C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":11}
+{"suite":{"id":4,"platform":"vm","path":"C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart"},"type":"suite","time":13}
+{"test":{"id":5,"name":"loading C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":13}
+{"count":3,"time":14,"type":"allSuites"}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4562}
+{"group":{"id":6,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":29,"line":null,"column":null,"url":null},"type":"group","time":4566}
+{"test":{"id":7,"name":"first response immutable; retry appends assisted response and new attempt ID","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":50,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4567}
+{"testID":7,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4742}
+{"test":{"id":8,"name":"hint condition committed before revealing assistance","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":69,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4742}
+{"testID":8,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4761}
+{"test":{"id":9,"name":"correct retry defaults hidden, explicit proof policy may permit it","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":76,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4762}
+{"testID":9,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4787}
+{"test":{"id":10,"name":"Independent Check rejects hint and retains independent condition","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":91,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4788}
+{"testID":10,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4804}
+{"test":{"id":11,"name":"Home deterministic fixture is Resume with truthful reason","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":102,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4805}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4818}
+{"test":{"id":12,"name":"network restoration and withheld ACK remain pending, explicit ACK syncs","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":106,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4819}
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4844}
+{"test":{"id":13,"name":"duplicate replay returns same immutable receipt; one server attempt","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":125,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4845}
+{"testID":13,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4868}
+{"test":{"id":14,"name":"same command ID with changed payload conflicts without overwrite","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":139,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4869}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4890}
+{"test":{"id":15,"name":"new command against finalized attempt is terminal rejected, not synced","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":155,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4890}
+{"testID":15,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4936}
+{"test":{"id":16,"name":"duplicate UI submission creates one durable response","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":166,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":4936}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5003}
+{"test":{"id":17,"name":"failed durable submit preserves selection; does not claim response saved","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":172,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5005}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5026}
+{"test":{"id":18,"name":"failed hint write never exposes hint or contaminates unaided evidence","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":184,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5027}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5038}
+{"test":{"id":19,"name":"stale/conflict retains exact serialized command across reopen/network","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":192,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5039}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5054}
+{"test":{"id":20,"name":"reauth retains own queue; connectivity does not clear auth state","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":210,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5055}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5069}
+{"test":{"id":21,"name":"invalid ACK owner cannot produce synced","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":224,"column":5,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5070}
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5084}
+{"test":{"id":22,"name":"invalid ACK digest cannot produce synced","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":224,"column":5,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5085}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5098}
+{"test":{"id":23,"name":"invalid ACK attempt cannot produce synced","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":224,"column":5,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5099}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5112}
+{"test":{"id":24,"name":"invalid ACK scope cannot produce synced","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":224,"column":5,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5113}
+{"testID":24,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5128}
+{"test":{"id":25,"name":"old duplicate ACK reconciles queue without rolling back newer progress","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":246,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5129}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5144}
+{"test":{"id":26,"name":"equal revision incompatible progress requires refetch","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":261,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5145}
+{"testID":26,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5163}
+{"test":{"id":27,"name":"real file store restores response, origin, revision pins and pending bytes","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":275,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5163}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5403}
+{"test":{"id":28,"name":"corrupt committed snapshot is retained and never silently reset","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":310,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5403}
+{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5427}
+{"test":{"id":29,"name":"account mismatch blocks restore rather than remapping pending data","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":326,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5428}
+{"testID":29,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5438}
+{"test":{"id":30,"name":"late selection during durable submit cannot change submitted answer","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":334,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5439}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5448}
+{"test":{"id":31,"name":"draft restore uses cached pinned content; stale submit is terminal rejection","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":345,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5449}
+{"testID":31,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5463}
+{"test":{"id":32,"name":"ACK reconciliation write failure retries original command/receipt after reopen","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":380,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5464}
+{"testID":32,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5481}
+{"test":{"id":33,"name":"queue and response projections cannot mutate persisted history","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":404,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5482}
+{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5494}
+{"test":{"id":34,"name":"reauth is preserved across relaunch until explicit identity restoration","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":420,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5495}
+{"testID":34,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5511}
+{"test":{"id":35,"name":"string-subset digest ignores JSON order/nulls but retains exact timestamp/revision","suiteID":0,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":438,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_domain_test.dart"},"type":"testStart","time":5512}
+{"testID":35,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5522}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":6097}
+{"group":{"id":36,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":14,"line":null,"column":null,"url":null},"type":"group","time":6097}
+{"test":{"id":37,"name":"(setUpAll)","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":49,"column":3,"url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":6098}
+{"testID":37,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":6236}
+{"test":{"id":38,"name":"Home → Practice → feedback → Close → exact origin and Resume","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":114,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":6237}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":7230}
+{"group":{"id":39,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":7231}
+{"test":{"id":40,"name":"V2 entry discloses review fixture and renders without overflow","suiteID":4,"groupIDs":[39],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":5,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart"},"type":"testStart","time":7231}
+{"testID":38,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8922}
+{"test":{"id":41,"name":"single-choice answer exposes role selected enabled states","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":156,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":8922}
+{"testID":40,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9027}
+{"testID":41,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9162}
+{"test":{"id":42,"name":"correct feedback explains inline, hides policy-disallowed Retry","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":176,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":9162}
+{"testID":42,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9373}
+{"test":{"id":43,"name":"verdict dispatch once, rebuilding does not announce repeatedly","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":189,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":9373}
+{"testID":43,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9603}
+{"test":{"id":44,"name":"Independent Check has no pre-submit Hint","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":219,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":9604}
+{"testID":44,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9821}
+{"test":{"id":45,"name":"Result Pending Done closes; Continue asks a new explicit decision","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":228,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":9821}
+{"testID":45,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":10754}
+{"test":{"id":46,"name":"Sync Recovery keeps pending on connectivity and shows synced only after ACK","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":259,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":10754}
+{"testID":46,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":11005}
+{"test":{"id":47,"name":"failed disk write does not show locally saved feedback","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":287,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":11005}
+{"testID":47,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":11149}
+{"test":{"id":48,"name":"Reduce Motion keeps same answer/explanation with zero duration","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":298,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":11150}
+{"testID":48,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":11308}
+{"test":{"id":49,"name":"large text at 320 width reflows and essential actions remain reachable","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":308,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":11309}
+{"testID":49,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":11900}
+{"test":{"id":50,"name":"dark mode uses opaque surfaces and readable non-color verdict","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":337,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":11901}
+{"testID":50,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12201}
+{"test":{"id":51,"name":"Welcome anchor starts with Bắt đầu and Explore remains secondary","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":348,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":12202}
+{"testID":51,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12502}
+{"test":{"id":52,"name":"long Vietnamese/English content wraps at narrow width with reachable submit","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":370,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":12502}
+{"testID":52,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12689}
+{"test":{"id":53,"name":"essential answer and action controls meet 44 logical point minimum","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":175,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":428,"root_column":3,"root_url":"file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"},"type":"testStart","time":12690}
+{"testID":53,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12760}
+{"test":{"id":54,"name":"(tearDownAll)","suiteID":2,"groupIDs":[36],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":12760}
+{"testID":54,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":12766}
+{"success":true,"type":"done","time":12829}

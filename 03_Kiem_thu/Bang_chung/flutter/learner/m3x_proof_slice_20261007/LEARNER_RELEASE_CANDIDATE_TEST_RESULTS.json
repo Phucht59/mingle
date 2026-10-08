@@ -1,0 +1,229 @@
+{
+  "passed": 44,
+  "failed": 0,
+  "skipped": 0,
+  "success": true,
+  "log_sha256": "3f3b6a7afce4e14023ed2ce50cedefff2fa7b156f388b7ede78010f40409e3d5",
+  "tests": [
+    {
+      "name": "first response immutable; retry appends assisted response and new attempt ID",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "hint condition committed before revealing assistance",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "correct retry defaults hidden, explicit proof policy may permit it",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "Independent Check rejects hint and retains independent condition",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "Home deterministic fixture is Resume with truthful reason",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "network restoration and withheld ACK remain pending, explicit ACK syncs",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "duplicate replay returns same immutable receipt; one server attempt",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "same command ID with changed payload conflicts without overwrite",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "new command against finalized attempt is terminal rejected, not synced",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "duplicate UI submission creates one durable response",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "failed durable submit preserves selection; does not claim response saved",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "failed hint write never exposes hint or contaminates unaided evidence",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "stale/conflict retains exact serialized command across reopen/network",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "reauth retains own queue; connectivity does not clear auth state",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "invalid ACK owner cannot produce synced",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "invalid ACK digest cannot produce synced",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "invalid ACK attempt cannot produce synced",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "invalid ACK scope cannot produce synced",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "old duplicate ACK reconciles queue without rolling back newer progress",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "equal revision incompatible progress requires refetch",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "real file store restores response, origin, revision pins and pending bytes",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "corrupt committed snapshot is retained and never silently reset",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "account mismatch blocks restore rather than remapping pending data",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "late selection during durable submit cannot change submitted answer",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "draft restore uses cached pinned content; stale submit is terminal rejection",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "ACK reconciliation write failure retries original command/receipt after reopen",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "queue and response projections cannot mutate persisted history",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "reauth is preserved across relaunch until explicit identity restoration",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "string-subset digest ignores JSON order/nulls but retains exact timestamp/revision",
+      "result": "success",
+      "root_url": null
+    },
+    {
+      "name": "Home → Practice → feedback → Close → exact origin and Resume",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "V2 entry discloses review fixture and renders without overflow",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/widget_test.dart"
+    },
+    {
+      "name": "single-choice answer exposes role selected enabled states",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "correct feedback explains inline, hides policy-disallowed Retry",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "verdict dispatch once, rebuilding does not announce repeatedly",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "Independent Check has no pre-submit Hint",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "Result Pending Done closes; Continue asks a new explicit decision",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "Sync Recovery keeps pending on connectivity and shows synced only after ACK",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "failed disk write does not show locally saved feedback",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "Reduce Motion keeps same answer/explanation with zero duration",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "large text at 320 width reflows and essential actions remain reachable",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "dark mode uses opaque surfaces and readable non-color verdict",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "Welcome anchor starts with Bắt đầu and Explore remains secondary",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "long Vietnamese/English content wraps at narrow width with reachable submit",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    },
+    {
+      "name": "essential answer and action controls meet 44 logical point minimum",
+      "result": "success",
+      "root_url": "file:///C:/Mingo/01_San_pham/apps/learner/test/m3x_widget_test.dart"
+    }
+  ]
+}

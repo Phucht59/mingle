@@ -1,0 +1,28 @@
+{
+  "required_documents": 8,
+  "final_source_files": 14,
+  "source_hashes": "PASS",
+  "baseline_inputs": 240,
+  "expected_changed_baseline_files": [
+    "01_San_pham/apps/learner/pubspec.lock",
+    "01_San_pham/apps/learner/pubspec.yaml",
+    "01_San_pham/apps/learner/lib/main.dart"
+  ],
+  "unexpected_changes": [],
+  "retained_intake": [
+    {
+      "path": "02_Tai_lieu_du_an/08_Ban_giao/m3x_proof_slice_20261007/MINGO_CODEX_M3X_PROOF_SLICE_CONTEXT_PACK_2026-10-07.zip",
+      "sha256": "2f0cd75154779de0274a32d0f7a4734b4bfee828dfc5732b5b92b0e6c10172e6",
+      "crc": "PASS"
+    },
+    {
+      "path": "02_Tai_lieu_du_an/08_Ban_giao/m3x_proof_slice_20261007/MINGO_M1_M2_CANONICAL_SUPPLEMENT_2026-10-07.zip",
+      "sha256": "4bd912fa6a2fc0ba87d57cbfd392b6f6bf5356e5c7c361a38527de285952b994",
+      "crc": "PASS"
+    }
+  ],
+  "markdown_links": "PASS",
+  "learner_tests": "44 PASS, 0 FAIL, 0 SKIP",
+  "native_device": "NOT EXECUTED",
+  "gate": "HOLD"
+}

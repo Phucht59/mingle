@@ -1,0 +1,58 @@
+[
+  {
+    "path": "01_San_pham/apps/learner/lib/main.dart",
+    "sha256": "d66baf412f8a8ba6c09dfa3b543f2811e0c7ea4153ae84887530b176b5107d53"
+  },
+  {
+    "path": "01_San_pham/apps/learner/pubspec.yaml",
+    "sha256": "1611c5b4756a2da9f2d4306c4f967708037b2cfd98d0c08c968b7de32e447bd0"
+  },
+  {
+    "path": "01_San_pham/apps/learner/pubspec.lock",
+    "sha256": "dde98ca6c9e2d44671c974d9ff7cabe897f5f0e6df7d6aabbec9814014a8c096"
+  },
+  {
+    "path": "01_San_pham/apps/learner/test/m3x_domain_test.dart",
+    "sha256": "c1aec8817b6c9616170b3dc004e4f9380a2364eaf9fe5554595ff0dec2e7eac1"
+  },
+  {
+    "path": "01_San_pham/apps/learner/test/m3x_widget_test.dart",
+    "sha256": "c58b5ab4c5f46537c6209b8ffee2637ba72f4f2906e59e5d1062984df1ddc7b0"
+  },
+  {
+    "path": "01_San_pham/apps/learner/integration_test/m3x_proof_test.dart",
+    "sha256": "ceff2c50429a709a2bdfe708870ad42b8203d4ded2a9b31a0d34c7c03f168ec9"
+  },
+  {
+    "path": "01_San_pham/apps/learner/tool/m3x_process_probe.dart",
+    "sha256": "d9bb5d0316bd929436ae9ff9e9860356bc5d34905ac2fbae10cbec5eac0bdd0e"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/m3x/learning_state.dart",
+    "sha256": "8299ec2095ddfa17e2183093bd21a1e3742ebce1e9f8e35a456b7d48f21ccbbc"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/m3x/learning_store.dart",
+    "sha256": "527d88a9cc5b80cc3ca5ffdc61e71bc0ccc5212d32f8c0d18452dc9e6dff8d0e"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/m3x/open_store_native.dart",
+    "sha256": "66b2dc5a36bd053327387aeb38df6da2d4e5ea52340bfb231d6bd725aae71bd0"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/m3x/open_store_unsupported.dart",
+    "sha256": "3e49600106c4fb962fd8330b08016976f1b07136118c63865554892aed6a5f3c"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/m3x/proof_app.dart",
+    "sha256": "2a31e2503e0b6a8038e12008d36d9214bac37fbe728fe330d205e8ef7a3c2b8a"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/m3x/proof_controller.dart",
+    "sha256": "7ab254c90df3e985d9152bbfc18539dfd5e9364716950e41e709abfdf8b26fe0"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/m3x/proof_server.dart",
+    "sha256": "20f0cc08bfd0a0cbab1e2c7188311c6845f6d35677a4dfac1fb85574b1015f0f"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "command",
+    "schema": "submit_attempt_command_v1.schema.json",
+    "schema_sha256": "0b1b546d7ee542df878b39232e35c9a331eb2f76125f58e184cd50e0dcb30aaa",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "accepted",
+    "schema": "command_sync_result_v1.schema.json",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "duplicateAccepted",
+    "schema": "command_sync_result_v1.schema.json",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "rejected",
+    "schema": "command_sync_result_v1.schema.json",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "duplicateRejected",
+    "schema": "command_sync_result_v1.schema.json",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "conflict",
+    "schema": "command_sync_result_v1.schema.json",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "denied",
+    "schema": "command_sync_result_v1.schema.json",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "retryable",
+    "schema": "command_sync_result_v1.schema.json",
+    "schema_sha256": "786d18b37f861dfb9f69ef9617cd4b9152e9d7678a61d2fdf3976b8f9cfff4e1",
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "name": "Independent Python command_digest_v1 string subset",
+    "status": "PASS",
+    "digest": "c5990ed3fda804a3570e38689ef462a60e6e5ceb2b840a4b45a82badf79f6e2b"
+  }
+]

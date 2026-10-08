@@ -1,0 +1,82 @@
+[
+  {
+    "name": "shared_pub_offline",
+    "command": [
+      "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "pub",
+      "get",
+      "--offline"
+    ],
+    "cwd": "C:\\Mingo\\.local\\m3x-baseline\\01_San_pham\\cong_cu_phat_trien\\mingo_ui",
+    "exit_code": 0,
+    "seconds": 8.31
+  },
+  {
+    "name": "shared_analyze",
+    "command": [
+      "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "analyze",
+      "--no-pub"
+    ],
+    "cwd": "C:\\Mingo\\.local\\m3x-baseline\\01_San_pham\\cong_cu_phat_trien\\mingo_ui",
+    "exit_code": 0,
+    "seconds": 74.69
+  },
+  {
+    "name": "shared_test",
+    "command": [
+      "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "test",
+      "--no-pub",
+      "--reporter",
+      "json"
+    ],
+    "cwd": "C:\\Mingo\\.local\\m3x-baseline\\01_San_pham\\cong_cu_phat_trien\\mingo_ui",
+    "exit_code": 0,
+    "seconds": 159.73,
+    "test_done": 275,
+    "passed": 275,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "name": "learner_pub_offline",
+    "command": [
+      "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "pub",
+      "get",
+      "--offline"
+    ],
+    "cwd": "C:\\Mingo\\.local\\m3x-baseline\\01_San_pham\\apps\\learner",
+    "exit_code": 0,
+    "seconds": 7.61
+  },
+  {
+    "name": "learner_analyze",
+    "command": [
+      "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "analyze",
+      "--no-pub"
+    ],
+    "cwd": "C:\\Mingo\\.local\\m3x-baseline\\01_San_pham\\apps\\learner",
+    "exit_code": 0,
+    "seconds": 13.08
+  },
+  {
+    "name": "learner_test",
+    "command": [
+      "C:\\Dev\\flutter-3.32.8\\bin\\flutter.bat",
+      "test",
+      "--no-pub",
+      "--reporter",
+      "json"
+    ],
+    "cwd": "C:\\Mingo\\.local\\m3x-baseline\\01_San_pham\\apps\\learner",
+    "exit_code": 0,
+    "seconds": 20.86,
+    "test_done": 1,
+    "passed": 1,
+    "skipped": 0,
+    "failed": 0
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "path": "AGENTS.md",
+    "sha256": "89467310e62ccda246701b12a7e76a0f627692468915b965d8d3e828f124bc71"
+  },
+  {
+    "path": "REPO_RULES.md",
+    "sha256": "223647a7c975bda611f42373b367eba260b6b3441b828d2772da7549be013f72"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_STATE.md",
+    "sha256": "6dfe6641d2f6597d41efdfd2ba4af09b64eb1a738b40a8f0e10ba93008629bca"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/PROJECT_MEMORY.md",
+    "sha256": "a5c7f63161f3cbb045907f5436c3b05edd3e14f31cdc9f3ba6dd3245ce78d98e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/07_Tien_do_du_an/GD1_FINAL_LOCK_MEMORY_20261005.md",
+    "sha256": "6a0ef3231039b08cd53ac00d0fdbaf0dcadac63881e969e10bd01c68d670542e"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/GD1_Final_20261005/README.md",
+    "sha256": "0cf5ee02a9355095dbaa78345674304d41a915c90b59bb1b6687c2e8a4f1a03b"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/04_Thiet_ke_san_pham/GD1_Final_20261005/MINGO_GD1_BUSINESS_ANALYSIS_SPECIFICATION_FINAL_2026-10-05.docx",
+    "sha256": "e408853dc506265a21096821e8208afd3ff94cc3efb3eb6e946f1f3309016a7c"
+  },
+  {
+    "path": "01_San_pham/apps/learner/lib/main.dart",
+    "sha256": "da8f4e9039e4b36ee2478b6bdd9b05f0b9f263023ec2a6a5e0280b0f26e4d6d0"
+  },
+  {
+    "path": "01_San_pham/apps/learner/pubspec.yaml",
+    "sha256": "623375657d6d8d7e39da9aa67bc8934be725376828764a2b2833cabf48e42b48"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/pubspec.yaml",
+    "sha256": "6c62bfe546c707939d2a472dbe052d377778b06440b943a5aab2af5e2f2100e3"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/mingo_ui.dart",
+    "sha256": "5ab493dd39d21b7be1a6a2ca0ab40ea7dd0e1d9859a6233b425b7b5e3478c6c3"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/learner.dart",
+    "sha256": "9e69aa51c112cb24c9b3616738114574090355ab08e4b2ca7ea75f309e24cc90"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/lesson.dart",
+    "sha256": "981cf0133113d03c68e685cef6b87a81ada08bb97371a56c1af8fb3687d0ab29"
+  },
+  {
+    "path": "01_San_pham/cong_cu_phat_trien/mingo_ui/lib/src/fixtures.dart",
+    "sha256": "857a2d16c6971e60c80e690113417d0f9a1a9cda5170eaf2a0184c73807ecd0f"
+  },
+  {
+    "path": "01_San_pham/backend/src/all_foundation/api.py",
+    "sha256": "c6c61ead5b48767c5c53336582a9d37bee3602625b22a19d72fa282613918511"
+  },
+  {
+    "path": "04_Van_hanh/Scripts/bootstrap_clients.sh",
+    "sha256": "6b36bd3d2845f550fd46c7b5d5764600a79b72f6e452c1a00e8802b3c624c9d6"
+  },
+  {
+    "path": ".github/workflows/foundation.yaml",
+    "sha256": "6deec3a6b7544a31f044814b93c737eed2c19fd2c2bd4c8ddfe9bcef575cd2ea"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/01_MASTER_BASELINE_V3.md",
+    "sha256": "7b4e587a1992fa763e4ea5438c1cdfbb973ba08236a58413249d8e5ad7c85f49"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/02_MVP_INVARIANTS.md",
+    "sha256": "540dca0705d55757bc15513c360d7deb42a31880e3408d6c185a4cfdb5b388f1"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/03_RECEIPT_SYNC_PROTOCOL.md",
+    "sha256": "aa626f755623f0bcb586b333bb2a03a524d7ee301beab65d58c9c73904df37cf"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/04_OFFLINE_CONTENT_ACCESS_PROTOCOL.md",
+    "sha256": "b5b0edaac70ce9edb98a302ebaeb01f155437eab4487e9ceefd7da1287a31653"
+  },
+  {
+    "path": "02_Tai_lieu_du_an/05_Kien_truc_he_thong/contracts/v3_2/source/docs/14_SUBMIT_ALGORITHM.md",
+    "sha256": "d5c71b33c9f15c9af90c59483e73a5b6a27672b7b3c31005b6db3ab693e857bc"
+  }
+]
