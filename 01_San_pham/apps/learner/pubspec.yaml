@@ -7,6 +7,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  crypto: 3.0.7
+  path_provider: 2.1.5
+  cupertino_icons: 1.0.8
   mingo_ui:
     path: ../../cong_cu_phat_trien/mingo_ui
 dev_dependencies:
